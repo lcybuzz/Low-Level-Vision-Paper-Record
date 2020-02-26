@@ -8,7 +8,7 @@
 	- ★★★ <Br>
 	- ★★ <Br>
 	- ★ <Br>
-	  **[RIDNet]**, **[Unprocessing Images for Learned Raw Denoising]**
+	  [RIDNet], [Unprocessing Images for Learned Raw Denoising]
 - [Useful Resources](#useful-resources)
 	
 	
