@@ -5,10 +5,10 @@
 	- [DL Methods](#dl-methods)
 	- [Traditional Methods](#general-traditional-methods)
 - Rank
-	- ★★★
-	- ★★
-	- ★
-**[RIDNet]**, **[Unprocessing Images for Learned Raw Denoising]**
+	- ★★★ <Br>
+	- ★★ <Br>
+	- ★ <Br>
+	  **[RIDNet]**, **[Unprocessing Images for Learned Raw Denoising]**
 - [Useful Resources](#useful-resources)
 	
 	
