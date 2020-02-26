@@ -7,8 +7,8 @@
  - ★★★ <Br>
  - ★★ <Br>
  - ★ <Br>
+- [Useful Resources](#useful-resources)
 	
-# [Useful Resources](#useful-resources)
 	
 # Denoising
 ## DL Methods
@@ -26,6 +26,6 @@
 	
 ## Traditional Methods
 
-## Useful Resources
+# Useful Resources
 https://paperswithcode.com/task/image-denoising?page=2 
 https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art
