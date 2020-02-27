@@ -7,6 +7,7 @@
 	- Rank
 		- ★★★ <Br>
 		- ★★ <Br>
+		  [Deep Image Prior]
 		- ★ <Br>
 		  [DuRN]
 - [Denoising](#denoising)
@@ -22,6 +23,16 @@
 
 # Restoration
 ## DL Restoration
+
+### Deep Image Prior ★★
+**[Paper]** Deep Image Priorn<Br>
+**[Year]** CVPR 2018 <Br>
+**[Author]** [Dmitry Ulyanov](https://dmitryulyanov.github.io/about), [Andrea Vedald](https://www.robots.ox.ac.uk/~vedaldi/), [Victor Lempitsky](http://sites.skoltech.ru/compvision/members/vilem/)<Br>
+**[Pages]** https://dmitryulyanov.github.io/deep_image_prior <Br>
+**[Description]** <Br>
+1) 一篇有趣的论文, 提出深度卷积网络在图像生成和恢复任务中表现好的原因, 可能并不是因为其从大量图像中学习到了某种先验, 其实随机初始化的网络足以从输入中抓取大量的low-level图像先验信息. 在通过迭代的方式从图像中学习先验的过程中, 那些自然的, 有规律的内容较容易提取,会先被学习出来, 因此就达到了去噪或其它restoration的目的. <Br>
+2) 粗读, 实用性有待验证, 有时间可以好好研究一下. <Br>
+	
 ### DuRN ★☆
 **[Paper]** Dual Residual Networks Leveraging the Potential of Paired Operations for Image Restoration<Br>
 **[Year]** CVPR 2019 <Br>
