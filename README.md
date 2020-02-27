@@ -1,19 +1,41 @@
 # Personal repository under construction.
 
 # Table of Contents
+- [Restoration](#restoration)
+	- [DL Restoration](#dl-restoration)
+	- [Traditional Restoration](#traditional-restoration)
+	- Rank
+		- ★★★ <Br>
+		- ★★ <Br>
+		- ★ <Br>
+		  [DuRN]
 - [Denoising](#denoising)
-	- [DL Methods](#dl-methods)
-	- [Traditional Methods](#general-traditional-methods)
-- Rank
-	- ★★★ <Br>
-	- ★★ <Br>
-	- ★ <Br>
-	  [RIDNet], [Unprocessing Images for Learned Raw Denoising]
+	- [DL Denoising](#dl-denoising)
+	- [Traditional Denoising](#traditional-denoising)
+	- Rank
+		- ★★★ <Br>
+		- ★★ <Br>
+		- ★ <Br>
+		  [RIDNet], [Unprocessing Images for Learned Raw Denoising]
+- [Dataset](#dataset)
 - [Useful Resources](#useful-resources)
+
+# Restoration
+## DL Restoration
+### DuRN ★☆
+**[Paper]** Dual Residual Networks Leveraging the Potential of Paired Operations for Image Restoration<Br>
+**[Year]** CVPR 2019 <Br>
+**[Author]** Xing Liu, Masanori Suganuma, Zhun Sun, Takayuki Okatani<Br>
+**[Pages]** https://github.com/saeed-anwar/RIDNet <Br>
+**[Description]** <Br>
+1) 文章提出, 许多图像复原任务都由一些成对的模块组成, 比如去噪里的大kernel和小kernel, 超分里的下采样和上采样. 本文在residual connection的基础上, 进一步给每个模块内部的操作直接加入residual connection, 增加了组合数. <Br>
+2) 在去噪, 去模糊, 去雾等任务中都取得了不错的效果. <Br>
 	
-	
+## Traditional Restoration
+
+
 # Denoising
-## DL Methods
+## DL Denoising
 
 ### RIDNet ★☆
 **[Paper]** Real image denoising with feature attention<Br>
@@ -36,10 +58,10 @@
 3) 推断时, 要先把sRGB转换为raw image, 再经过网络处理, 最后再进行正向的ISP恢复为sRGB. <Br>
 4) ISP流程的推断对每个品牌型号的相机都有所不同, 模拟其过程感觉还是有难度的. <Br>
 	
-## Traditional Methods
+## Traditional Denoising
 
 # Dataset
-## Real Image
+## Real Image Denoising
 [DnD](https://noise.visinf.tu-darmstadt.de/) <Br>
 [SIDD](https://www.eecs.yorku.ca/~kamel/sidd/) <Br>
 
