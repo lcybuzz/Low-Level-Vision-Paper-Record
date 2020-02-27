@@ -25,7 +25,7 @@
 ### DuRN ★☆
 **[Paper]** Dual Residual Networks Leveraging the Potential of Paired Operations for Image Restoration<Br>
 **[Year]** CVPR 2019 <Br>
-**[Author]** Xing Liu, Masanori Suganuma, Zhun Sun, Takayuki Okatani<Br>
+**[Author]** Xing Liu, [Masanori Suganuma](https://sites.google.com/site/suganumamasanori/eng), Zhun Sun, Takayuki Okatani<Br>
 **[Pages]** https://github.com/saeed-anwar/RIDNet <Br>
 **[Description]** <Br>
 1) 文章提出, 许多图像复原任务都由一些成对的模块组成, 比如去噪里的大kernel和小kernel, 超分里的下采样和上采样. 本文在residual connection的基础上, 进一步给每个模块内部的操作直接加入residual connection, 增加了组合数. <Br>
