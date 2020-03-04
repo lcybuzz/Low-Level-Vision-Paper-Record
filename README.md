@@ -9,7 +9,7 @@
 		- ★★ <Br>
 		  [Deep Image Prior]
 		- ★ <Br>
-		  [DuRN]
+		  [DuRN], [Reproduction Angular Error]
 - [Denoising](#denoising)
 	- [DL Denoising](#dl-denoising)
 	- [Traditional Denoising](#traditional-denoising)
@@ -43,7 +43,14 @@
 2) 在去噪, 去模糊, 去雾等任务中都取得了不错的效果. <Br>
 	
 ## Traditional Restoration
-
+### Reproduction Angular Error ★
+**[Paper]** Reproduction Angular Error: An Improved Performance Metric for Illuminant Estimation <Br>
+**[Year]** BMVC 2014 <Br>
+**[Author]**   Graham Finlayson, Roshanak Zakizadeh  <Br>
+**[Pages]**  <Br>
+**[Description]**  <Br>	
+1) 提出了一个用于评估illuminant estimation性能的准则, 该准则与光源的色温无关. 大致浏览, 一些原理没看懂. <Br>
+2) 后面Google在此基础上做了改进, 作为loss去训练低光照时AWB模型. <Br>
 
 # Denoising
 ## DL Denoising
