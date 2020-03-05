@@ -9,7 +9,7 @@
 		- ★★ <Br>
 		  [Deep Image Prior]
 		- ★ <Br>
-		  [DuRN], [Reproduction Angular Error]
+		  [DuRN], [Reproduction Angular Error], [OperationAttention]
 - [Denoising](#denoising)
 	- [DL Denoising](#dl-denoising)
 	- [Traditional Denoising](#traditional-denoising)
@@ -41,6 +41,15 @@
 **[Description]** <Br>
 1) 文章提出, 许多图像复原任务都由一些成对的模块组成, 比如去噪里的大kernel和小kernel, 超分里的下采样和上采样. 本文在residual connection的基础上, 进一步给每个模块内部的操作直接加入residual connection, 增加了组合数. <Br>
 2) 在去噪, 去模糊, 去雾等任务中都取得了不错的效果. <Br>
+	
+### OperationAttention ★☆
+**[Paper]** Attention-based Adaptive Selection of Operations for Image Restoration in the Presence of Unknown Combined Distortions<Br>
+**[Year]** CVPR 2019 <Br>
+**[Author]** [Masanori Suganuma](https://sites.google.com/site/suganumamasanori/eng), Xing Liu, Takayuki Okatani<Br>
+**[Pages]** https://github.com/sg-nm/Operation-wise-attention-network <Br>
+**[Description]** <Br>
+1) 提出用一个基于attention的操作加权网络, 用来处理不同种类的degradation. <Br>
+2) 性能一般, 不太容易收敛, 思路值得借鉴. <Br>
 	
 ## Traditional Restoration
 ### Reproduction Angular Error ★
