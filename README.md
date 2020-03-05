@@ -17,7 +17,16 @@
 		- ★★★ <Br>
 		- ★★ <Br>
 		- ★ <Br>
-		  [RIDNet], [Unprocessing Images for Learned Raw Denoising]
+		  [RIDNet], [Unprocessing Images for Learned Raw Denoising], [CBDNet]
+- [Debluring](#debluring)
+	- [DL debluring](#dl-debluring)
+	- [Traditional debluring](#traditional-debluring)
+	- Rank
+		- ★★★ <Br>
+		- ★★ <Br>
+		  [DeblurGAN]
+		- ★ <Br>
+		
 - [Dataset](#dataset)
 - [Useful Resources](#useful-resources)
 
@@ -85,7 +94,38 @@
 3) 推断时, 要先把sRGB转换为raw image, 再经过网络处理, 最后再进行正向的ISP恢复为sRGB. <Br>
 4) ISP流程的推断对每个品牌型号的相机都有所不同, 模拟其过程感觉还是有难度的. <Br>
 	
+### CBDNet ★☆
+**[Paper]** Toward Convolutional Blind Denoising of Real Photographs<Br>
+**[Year]** CVPR 2019 <Br>
+**[Author]** Shi Guo, Zifei Yan, Kai Zhang, Wangmeng Zuo, Lei Zhang, [Jonathan T. Barron](https://jonbarron.info/)<Br>
+**[Pages]** https://github.com/GuoShi28/CBDNet <Br>
+**[Description]** <Br>
+1) 大致浏览. 采用一个FCN估计噪声level, 噪声level map与输入concat然后输入一类似U-Net的网络去噪. <Br>
+2) 可以学习其网络和训练细节. <Br>
+	
 ## Traditional Denoising
+
+# Debluring
+## DL Debluring
+
+### DeblurGAN ★★
+**[Paper]** DeblurGAN: Blind Motion Deblurring Using Conditional Adversarial Networks <Br>
+**[Year]** CVPR 2018 <Br>
+**[Author]** Orest Kupyn, Volodymyr Budzan, Mykola Mykhailych, Dmytro Mishkin, Jiří Matas<Br>
+**[Pages]** https://github.com/KupynOrest/DeblurGAN <Br>
+**[Description]** <Br>
+1) 用GAN做deblur的一篇典型文章, 效果不错.<Br>
+2) 生成网络结构简单, 采用残差形式. <Br>
+3) 提出了生成blur数据的方法, 可以参考一下. <Br>
+	
+### DeblurGAN-v2 ★☆
+**[Paper]** DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better <Br>
+**[Year]** ICCV 2019 <Br>
+**[Author]** Orest Kupyn, Tetiana Martyniuk, Junru Wu, Zhangyang Wang<Br>
+**[Pages]** https://github.com/TAMU-VITA/DeblurGANv2 <Br>
+**[Description]** <Br>
+	
+## Traditional Debluring
 
 # Dataset
 ## Real Image Denoising
