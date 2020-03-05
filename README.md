@@ -25,7 +25,7 @@
 ## DL Restoration
 
 ### Deep Image Prior ★★
-**[Paper]** Deep Image Priorn<Br>
+**[Paper]** Deep Image Prior <Br>
 **[Year]** CVPR 2018 <Br>
 **[Author]** [Dmitry Ulyanov](https://dmitryulyanov.github.io/about), [Andrea Vedald](https://www.robots.ox.ac.uk/~vedaldi/), [Victor Lempitsky](http://sites.skoltech.ru/compvision/members/vilem/)<Br>
 **[Pages]** https://dmitryulyanov.github.io/deep_image_prior <Br>
