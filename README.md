@@ -20,7 +20,7 @@
 # Restoration
 ## DL Restoration
 
-### DualCNN ☆
+### Discriminative Prior ☆
 **[Paper]**  (CVPR 2018) Learnign a Discriminative Prior for Blind Image Deblurring  <Br>
 **[Author]** [Lerenhan Li](https://sites.google.com/view/lerenhanli/homepage), [Jinshan Pan](https://sites.google.com/site/jspanhomepage/), [Wei-Sheng Lai](http://graduatestudents.ucmerced.edu/wlai24/), [Changxin Gao](https://sites.google.com/site/changxingao/home), Nong Sang     [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/) <Br>
 **[Pages]** [Project](https://sites.google.com/view/lerenhanli/homepage/learn_prior_deblur) <Br>
