@@ -26,6 +26,7 @@
 		- ★★ <Br>
 		  [DeblurGAN]
 		- ★ <Br>
+	 	  [DFN]
 		
 - [Dataset](#dataset)
 - [Useful Resources](#useful-resources)
@@ -108,6 +109,15 @@
 # Debluring
 ## DL Debluring
 
+### GFN ★☆
+**[Paper]** Gated Fusion Network for Joint Image Deblurring and Super-Resolution <Br>
+**[Year]** BMVC 2018 <Br>
+**[Author]** Xinyi Zhang, Hang Dong, [Zhe Hu](https://zjuela.github.io/), [Wei-Sheng Lai](http://graduatestudents.ucmerced.edu/wlai24/), Fei Wang, [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/_<Br>
+**[Pages]** http://xinyizhang.tech/bmvc2018/ <Br>
+**[Description]** <Br>
+1) 提出了一个同时做deblur和超分的网络. 网络有两个分支, 一个encoder-decoder结构做deblur, 一个不降分辨率做SR, 用一个几层卷积组成的gate模块选择特征. <Br>
+2) 思路简单, 可以尝试.<Br>
+	
 ### DeblurGAN ★★
 **[Paper]** DeblurGAN: Blind Motion Deblurring Using Conditional Adversarial Networks <Br>
 **[Year]** CVPR 2018 <Br>
