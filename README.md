@@ -13,7 +13,8 @@
 	- [Traditional debluring](#traditional-debluring)
 - [General](#general)
 	- [General DL Methods](#general-dl-methods)
-	- [General Traditional Methods](#general-traditional-methods)		
+	- [General Traditional Methods](#general-traditional-methods)	
+- [Using Raw](#using-raw)
 - [Dataset](#dataset)
 - [Useful Resources](#useful-resources)
 
@@ -291,6 +292,12 @@ https://github.com/roimehrez/contextualLoss  <Br>
 3) 从paper中看, 该方法对非对齐的多模数据滤波效果不错, 可以在设计DL方案时作为参考. <Br>
 4) 算法的局限: 1.weight volume优化的步骤过于耗时; 2. cost volume的准确性仍依赖于距离的计算准则, 现有的例如NCC等策略也不能完美解决多模数据的相似性度量问题.<Br>
 
+# Using Raw
+###  *Super-Resolution with Raw Images*
+**[Paper]**  (CVPR 2019) Towards Real Scene Super-Resolution with Raw Images  <Br>
+**[Author]** [Xiangyu Xu](https://sites.google.com/view/xiangyuxu/%E9%A6%96%E9%A1%B5), Yongrui Ma, [Wenxiu Sun](http://wenxiusun.com/) <Br>
+**[[Project](https://sites.google.com/view/xiangyuxu/rawsr_cvpr19)]** <Br>
+**[Description]**  大致浏览, 利用Raw做细节恢复, 用RGB做Color校正.<Br> 
 
 # Dataset
 ## Real Image Denoising
