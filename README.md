@@ -129,7 +129,7 @@
 	
 ## Traditional Denoising
 
-# Debluring
+# Debluring 
 ## DL Debluring
 ### ED-DSRN ☆
 **[Paper]** (ICASSP 2018) A Deep Encoder-Decoder Network For Joint Deblurring and Super-Resolution <Br>
@@ -157,6 +157,7 @@
 **[Paper]** (ICCV 2019) DeblurGAN-v2: Deblurring (Orders-of-Magnitude) Faster and Better <Br>
 **[Author]** Orest Kupyn, Tetiana Martyniuk, Junru Wu, Zhangyang Wang<Br>
 **[[Pytorch-Code](https://github.com/TAMU-VITA/DeblurGANv2)]**  <Br>
+DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, 效果更快更好了
 	
 ## Traditional Debluring
 
