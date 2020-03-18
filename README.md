@@ -158,6 +158,12 @@
 **[Author]** Orest Kupyn, Tetiana Martyniuk, Junru Wu, Zhangyang Wang<Br>
 **[[Pytorch-Code](https://github.com/TAMU-VITA/DeblurGANv2)]**  <Br>
 DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, 效果更快更好了
+
+### Dr-Net ★☆
+**[Paper]** (CVPR 2019) Douglas-Rachford Networks: Learning Both the Image Prior and Data Fidelity Terms for Blind Image Deconvolution <Br>
+**[Author]** Raied Aljadaany, [Dipan K. Pal](https://dkpal.github.io/), [Marios Savvides](https://www.cmu-biometrics.org/)<Br>
+1) 基于Douglas-Rachford迭代优化求解blind deconvolution的思路(不懂), 提出了一个由简单conv和连接操作组成的Dr Block, 将其嵌入普通卷积网络中, 用L2和GAN loss训练, 取得了不错的效果. <Br>
+2) 网络细节没看, 可以借鉴其模块设计
 	
 ## Traditional Debluring
 
