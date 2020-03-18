@@ -164,6 +164,13 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 **[Author]** Raied Aljadaany, [Dipan K. Pal](https://dkpal.github.io/), [Marios Savvides](https://www.cmu-biometrics.org/)<Br>
 1) 基于Douglas-Rachford迭代优化求解blind deconvolution的思路(不懂), 提出了一个由简单conv和连接操作组成的Dr Block, 将其嵌入普通卷积网络中, 用L2和GAN loss训练, 取得了不错的效果. <Br>
 2) 网络细节没看, 可以借鉴其模块设计
+
+### HA-Deblur ★☆
+**[Paper]** (ICCV 2019) Human-Aware Motion Deblurring <Br>
+**[Author]** [Ziyi Shen](https://sites.google.com/site/ziyishenmi/), [Wenguan Wang](https://sites.google.com/view/wenguanwang/), [Xiankai Lu](https://sites.google.com/site/xiankailu111/), Jianbin Shen, [Haibin Ling](https://www3.cs.stonybrook.edu/~hling/), Tingfa Xu, [Ling Shao](http://www.inceptioniai.org/)<Br>
+**[[Project](https://sites.google.com/site/ziyishenmi/ha_deblur)]**  **[[HIDE Dataset](https://github.com/joanshen0508/HA_deblur)]** <Br>
+1. 提出了HIDE数据集, 主要关注对人体的deblur <Br>
+2. 提出了一个多分支deblur网络, 根据human-aware子网络预测前背景生成weight map, 将多分枝信息融合处理后输出 <Br>
 	
 ## Traditional Debluring
 
@@ -263,6 +270,10 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 [SID](http://cchen156.web.engr.illinois.edu/SID.html) <Br>
 [kodak_color](http://r0k.us/graphics/kodak/) <Br>
 [NoiseClinicImages](http://demo.ipol.im/demo/125/input_select?044_solvay_1927.x=63&044_solvay_1927.y=68) <Br>
+	
+## Signle Image Deblurring
+[HIDE](https://github.com/joanshen0508/HA_deblur) motion deblur <Br>
+[GOPRO](https://github.com/SeungjunNah/DeepDeblur_release) motion deblur <Br>
 
 # Useful Resources
 https://paperswithcode.com/task/image-denoising?page=2 
