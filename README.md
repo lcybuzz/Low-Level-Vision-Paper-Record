@@ -103,10 +103,16 @@
 # Denoising
 ## DL Denoising
 
+### IRCNN ★
+**[Paper]** (CVPR 2017) Learning Deep CNN Denoiser Prior for Image Restoration<Br>
+**[Author]** [Kai Zhang](https://github.com/cszn), [Wangmeng Zuo](https://github.com/cszn), [Shuhang Gu](https://sites.google.com/site/shuhanggu/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
+**[[Matlab-Code](https://github.com/cszn/IRCNN)]**  <Br>
+大致浏览, 提出了一个结构简单的CNN去噪器, 可以为基于模型的优化方法提供有效的prior, 还可以用于求解其它图像恢复的逆问题
+	
 ### RIDNet ★☆
 **[Paper]** (ICCV 2019 Oral) Real image denoising with feature attention<Br>
 **[Author]** [Saeed Anwar](https://saeed-anwar.github.io/), Nick Barnes<Br>
-**[[Code](https://github.com/saeed-anwar/RIDNet)]**  <Br>
+**[[Code](https://github.com/cszn/IRCNN)]**  <Br>
 1) 提出了一个端到端的去噪网络, 基于channel attention和skip connection. 在真是图像上测试效果不错, 速度一般. <Br>
 2) 作为一篇Oral来说感觉创新点和理论论述都一般, 也没有解释为什么提出的网络对真是图像去噪效果好. <Br>
 3) 如果需要, 参考网络流程图和代码即可. <Br>
