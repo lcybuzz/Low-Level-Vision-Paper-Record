@@ -11,6 +11,8 @@
 - [Debluring](#debluring)
 	- [DL debluring](#dl-debluring)
 	- [Traditional debluring](#traditional-debluring)
+- [Dehazing](#dehazing)
+- [Super Resolution](#super-resolution)
 - [General](#general)
 	- [General DL Methods](#general-dl-methods)
 	- [General Traditional Methods](#general-traditional-methods)	
@@ -21,12 +23,6 @@
 
 # Restoration
 ## DL Restoration
-
-### Multi-scale-CNN-Dehazing ☆
-**[Paper]**  (CVPR 2018) Single Image Dehazing via Multi-Scale Convolutional Neural Networks <Br>
-**[Author]** [Wenqi Ren](https://sites.google.com/site/renwenqi888/), [Si Liu](http://www.colalab.org/people), Hua Zhang, [Jinshan Pan](https://sites.google.com/site/jspanhomepage/), [Xiaochun Cao](http://people.ucas.ac.cn/~0022382?language=en), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/) <Br>
-**[[Project](https://sites.google.com/site/renwenqi888/research/dehazing/mscnndehazing)]** **[[Matlab-Code](https://github.com/rwenqi/Multi-scale-CNN-Dehazing)]**  **[[Unofficial-TF-Code](https://github.com/dishank-b/MSCNN-Dehazing-Tensorflow)]**<Br>
-大致浏览, 一个多尺度去雾网络, coarse尺度预测transmission map, fine尺度预测去雾图像, 用深度图生成transmmision map训练 <Br>
 	
 ### DualCNN ★
 **[Paper]**  (CVPR 2018) Learning Dual Convolutional Neural Networks for Low-Level Vision  <Br>
@@ -54,7 +50,6 @@
 **[[Code](https://github.com/sg-nm/Operation-wise-attention-network)]** <Br>
 1) 提出用一个基于attention的操作加权网络, 用来处理不同种类的degradation. <Br>
 2) 性能一般, 不太容易收敛, 思路值得借鉴. <Br>
-
 
 	
 ### GCANet
@@ -188,6 +183,20 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 2. 提出了一个多分支deblur网络, 根据human-aware子网络预测前背景生成weight map, 将多分枝信息融合处理后输出 <Br>
 	
 ## Traditional Debluring
+#  Dehazing
+### Multi-scale-CNN-Dehazing ☆
+**[Paper]**  (CVPR 2018) Single Image Dehazing via Multi-Scale Convolutional Neural Networks <Br>
+**[Author]** [Wenqi Ren](https://sites.google.com/site/renwenqi888/), [Si Liu](http://www.colalab.org/people), Hua Zhang, [Jinshan Pan](https://sites.google.com/site/jspanhomepage/), [Xiaochun Cao](http://people.ucas.ac.cn/~0022382?language=en), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/) <Br>
+**[[Project](https://sites.google.com/site/renwenqi888/research/dehazing/mscnndehazing)]** **[[Matlab-Code](https://github.com/rwenqi/Multi-scale-CNN-Dehazing)]**  **[[Unofficial-TF-Code](https://github.com/dishank-b/MSCNN-Dehazing-Tensorflow)]**<Br>
+大致浏览, 一个多尺度去雾网络, coarse尺度预测transmission map, fine尺度预测去雾图像, 用深度图生成transmmision map训练 <Br>
+
+#  Super Resolution
+### SFTMD ★
+**[Paper]**  (CVPR 2019) Blind Super-Resolution with Iterative Kernel Correction <Br>
+**[Author]** [Jinjin Gu](http://www.jasongt.com/), Hannan Lu, [Wangmeng Zuo](http://www.jasongt.com/projectpages/IKC.html), Chao Dong<Br>
+**[[Project](http://www.jasongt.com/projectpages/IKC.html)]** <Br>
+1) 粗读, 提出一个基于深度学习的交替预测blur kernel和预测超分结果的模型, 对给定的blur有很好的效果 <Br>
+2) 文中提出的预测blur kernel并用其辅助超分的思路很有意思, 但对真实图像而言无法获得真实的blur kernel用于训练, 另外论文似乎假设一张图像只有一种blur kernel, 感觉不太合理  <Br>
 
 # General
 ## General DL Methods
