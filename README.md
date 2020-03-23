@@ -271,7 +271,16 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 **[[Project](https://sites.google.com/site/jspanhomepage/)]** <Br>
 大致浏览, 用CNN预测guided filter中的系数A和b. <Br>
 
+### SGN 
+**[Paper]** (ICCV 2019) Self-Guided Network for Fast Image Denoising <Br>
+**[Author]** [Shuhang Gu](https://sites.google.com/site/shuhanggu/), Yawei Li, Luc Van Gool, [Radu Timofte](http://people.ee.ethz.ch/~timofter/)  <Br>
+**[[Pytorch-Code](https://github.com/ShuhangGu/SGN_ICCV2019)]** <Br>
 
+### MTLU ★
+**[Paper]** (ICCV 2019) Fast Image Restoration with Multi-bin Trainable Linear Units <Br>
+**[Author]** [Shuhang Gu](https://sites.google.com/site/shuhanggu/), Wen Li, Luc Van Gool, [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
+**[[Pytorch-Code](https://github.com/ShuhangGu/MTLU_ICCV2019)]** <Br>
+	
 	
 ## General Traditional Methods
 
