@@ -97,11 +97,30 @@
 
 # Low Light
 
+### SICE 
+**[Paper]** (TIP 2018) Learning a Deep Single Image Contrast Enhancer from Multi-Exposure Images <Br>
+**[Author]** [Jianrui Cai](https://csjcai.github.io/), [Shuhang Gu](https://sites.google.com/site/shuhanggu/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+**[[Caffe-Code](https://github.com/csjcai/SICE)]** <Br>
+	
 ### RetinexNet 
 **[Paper]** (BMVC 2018 Oral) Deep Retinex Decomposition for Low-Light Enhancement <Br>
 **[Author]** [Chen Wei](https://weichen582.github.io/), [Wenjing Wang](https://daooshee.github.io/website/), [Wenhan Yang](https://flyywh.github.io/index.html), [Jiaying Liu](http://39.96.165.147/people/liujiaying.html)  <Br>
 **[[Page](https://daooshee.github.io/BMVC2018website/)]**   **[[TF-Code](https://github.com/weichen582/RetinexNet)]** <Br>
+	
+### MBLLEN 
+**[Paper]** (BMVC 2018) MBLLEN: Low-light Image/Video Enhancement Using CNNs <Br>
+**[Author]** [Feifan Lv](https://lvfeifan.github.io/), [Feng Lu](http://shi.buaa.edu.cn/lufeng/), Jianhua Wu, Chongsoon Lim <Br>
+**[[Page](http://phi-ai.org/project/AgLLNet/default.htm)]**   **[[TF-Code](https://github.com/weichen582/RetinexNet)]** <Br>
 
+### LIME
+**[Paper]** (MM 2019) Kindling the Darkness: A Practical Low light Image Enhancer<Br>
+**[Author]** Yonghua Zhang, Jiawan Zhang, [Xiaojie Guo](https://sites.google.com/view/xjguo) <Br>
+**[[Page](https://sites.google.com/view/xjguo/lime)]**  **[[TF-Code](https://github.com/Lvfeifan/MBLLEN)]**<Br>
+	
+### Attention-guided Low-light Image Enhancement 
+**[Paper]** (arXiv 1908) Attention-guided Low-light Image Enhancement <Br>
+**[Author]** [Feifan Lv](https://lvfeifan.github.io/), [Yu Li](http://yu-li.github.io/), [Feng Lu](http://shi.buaa.edu.cn/lufeng/)  <Br>
+**[[Page](http://phi-ai.org/project/MBLLEN/default.htm)]**  **[[TF-Code](https://github.com/Lvfeifan/MBLLEN)]**<Br>
 
 # Denoising
 ## DL Denoising
