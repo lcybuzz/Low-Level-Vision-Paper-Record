@@ -121,6 +121,11 @@
 **[Paper]** (MM 2019) Kindling the Darkness: A Practical Low light Image Enhancer<Br>
 **[Author]** Yonghua Zhang, Jiawan Zhang, [Xiaojie Guo](https://sites.google.com/view/xjguo) <Br>
 **[[Page](https://sites.google.com/view/xjguo/lime)]** <Br>
+
+### DeepUPE
+**[Paper]** (CVPR 2019) Underexposed Photo Enhancement Using Deep Illumination Estimation<Br>
+**[Author]** Ruixing Wang, [Qing Zhang](http://zhangqing-home.net/), [Chi-Wing Fu](https://www.cse.cuhk.edu.hk/~cwfu/), [Xiaoyong Shen](http://xiaoyongshen.me/), [Wei-Shi Zheng](https://sites.google.com/site/sunnyweishi/), [Jiaya Jia](http://jiaya.me/) <Br>
+**[[TF-code](https://github.com/wangruixing/DeepUPE)]** <Br>
 	
 ### Attention-guided Low-light Image Enhancement 
 **[Paper]** (arXiv 1908) Attention-guided Low-light Image Enhancement <Br>
