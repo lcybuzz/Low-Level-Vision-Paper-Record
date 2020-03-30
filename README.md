@@ -126,6 +126,11 @@
 **[Paper]** (CVPR 2019) Underexposed Photo Enhancement Using Deep Illumination Estimation<Br>
 **[Author]** Ruixing Wang, [Qing Zhang](http://zhangqing-home.net/), [Chi-Wing Fu](https://www.cse.cuhk.edu.hk/~cwfu/), [Xiaoyong Shen](http://xiaoyongshen.me/), [Wei-Shi Zheng](https://sites.google.com/site/sunnyweishi/), [Jiaya Jia](http://jiaya.me/) <Br>
 **[[TF-code](https://github.com/wangruixing/DeepUPE)]** <Br>
+
+### Retinex-GAN ☆
+**[Paper]** (arXiv 1906) Attention-guided Low-light Image Enhancement <Br>
+**[Author]** Yangming Shi, Xiaopo Wu, Ming Zhu  <Br>
+RetinexNet+GAN
 	
 ### Attention-guided Low-light Image Enhancement 
 **[Paper]** (arXiv 1908) Attention-guided Low-light Image Enhancement <Br>
@@ -366,4 +371,10 @@ https://paperswithcode.com/task/image-denoising?page=2
 
 https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art
 
+https://github.com/subeeshvasu/Awesome-Deblurring
 
+https://github.com/BBuf/Image-processing-algorithm
+
+https://github.com/Ir1d/lowLevelVision/tree/3ff10054beb7b83f74a1ca11d84562e3ea90d273
+
+https://github.com/Elin24/Awesome-Low-Light-Enhancement
