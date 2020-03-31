@@ -82,7 +82,7 @@
 3) 提出了用于图像质量增强的数据集DPED, 包括iPhone, BlackBerry和Sony三种手机与Canon单反相机的图相对.
 
 ### WESPE ★
-**[Paper]** (arXiv 1709) WESPE: Weakly Supervised Photo Enhancer for Digital Cameras <Br>
+**[Paper]** (CVPRW 2018) WESPE: Weakly Supervised Photo Enhancer for Digital Cameras <Br>
 **[Author]** Andrey Ignatov, Nikolay Kobyshev, Radu Timofte , Kenneth Vanhoey, Luc Van Gool  <Br>
 **[[Project](http://people.ee.ethz.ch/~ihnatova/index.html)]**   <Br>
 1) 弱监督, 训练时无需成对的低质量图像和高质量图像. 用两个adversarial losses (color和texture)保证将低质量图像变换到高质量图像所在的域
@@ -121,7 +121,16 @@
 **[Paper]** (CVPR 2018 Spotlight) Deep Photo Enhancer: Unpaired Learning for Image Enhancement from Photographs with GANs <Br>
 **[Author]** [Yu-Sheng Chen](https://www.cmlab.csie.ntu.edu.tw/~nothinglo/), [Yu-Ching Wang](https://www.cmlab.csie.ntu.edu.tw/~urchinwang/), [Man-Hsin Kao](https://www.cmlab.csie.ntu.edu.tw/~cindy0711/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/) <Br>
 **[[TF-Code](https://github.com/nothinglo/Deep-Photo-Enhancer)]** **[[TF-Code2](https://github.com/pnbao/deep-photo-enhance)]**<Br>
-	
+
+### RSGUnet
+**[Paper]** (ECCVW 2018) Range Scaling Global U-Net for Perceptual Image Enhancement on Mobile Devices <Br>
+**[Author]** Jie Huang, Pengfei Zhu, Mingrui Geng, Jiewen Ran, Xingguang Zhou, Chen Xing, Pengfei Wan, Xiangyang Ji <Br>
+**[[TF-Code](https://github.com/MTlab/rsgunet_image_enhance)]** <Br>
+
+### DeepExposure
+**[Paper]** (NIPS 2018) DeepExposure: Learning to Expose Photos with Asynchronously Reinforced Adversarial Learning <Br>
+**[Author]** Runsheng Yu, Wenyu Liu, Yasen Zhang, Zhi Qu, [Deli Zhao](https://sites.google.com/site/zhaodeli/), Bo Zhang <Br>
+
 ### KinD
 **[Paper]** (MM 2019) Kindling the Darkness: A Practical Low light Image Enhancer<Br>
 **[Author]** Yonghua Zhang, Jiawan Zhang, [Xiaojie Guo](https://sites.google.com/view/xjguo) <Br>
@@ -149,11 +158,21 @@ RetinexNet+GAN
 1) 同时做tone mapping和去噪, 分为亮度attention map预测, noise map预测, 多尺度增强模块和refine模块四部分, 网络结构和loss可以参考 <Br>
 2) 提出了一个生成低光照加噪声数据的流程.
 
+### Color-wise Attention Network for Low-light Image Enhancement
+**[Paper]** (arXiv 1911) Color-wise Attention Network for Low-light Image Enhancement <Br>
+**[Author]** [Yousef Atoum](http://faculty.yu.edu.jo/atoumyou/SitePages/Home.aspx), [Mao Ye](https://maoye.wordpress.com/), Liu Ren, [Ying Tai](https://tyshiwo.github.io/), [Xiaoming Liu](http://cvlab.cse.msu.edu/) <Br>
+
 ### Zero-DCE 
 **[Paper]** (CVPR 2020) Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement <Br>
 **[Author]** Chunle Guo, [Chongyi Li](https://li-chongyi.github.io/), Jichang Guo, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/index.html), [Junhui Hou](https://sites.google.com/site/junhuihoushomepage/), [Sam Kwong](https://www.cs.cityu.edu.hk/~cssamk/research_group/index.html), [Runmin Cong](https://rmcong.github.io/)   <Br>
 **[[Page](https://li-chongyi.github.io/Proj_Zero-DCE.html)]** **[[Code](https://github.com/Li-Chongyi/Zero-DCE)]** <Br>
-	
+
+### Learning to Correct Overexposed and Underexposed Photos
+**[Paper]** (arXiv 2003) Learning to Correct Overexposed and Underexposed Photos <Br>
+**[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi), [Konstantinos G. Derpanis](https://www.cs.ryerson.ca/kosta/), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer),  [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)   <Br>
+**[[Page](https://li-chongyi.github.io/Proj_Zero-DCE.html)]** **[[Code](https://github.com/Li-Chongyi/Zero-DCE)]** <Br>
+
+
 # Denoising
 ## DL Denoising
 
