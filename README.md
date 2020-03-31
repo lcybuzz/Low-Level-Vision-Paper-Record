@@ -132,10 +132,12 @@
 **[Author]** Yangming Shi, Xiaopo Wu, Ming Zhu  <Br>
 RetinexNet+GAN
 	
-### Attention-guided Low-light Image Enhancement 
-**[Paper]** (arXiv 1908) Attention-guided Low-light Image Enhancement <Br>
+### Attention-guided Low-light Image Enhancement ★☆
+**[Paper]** (arXiv 1908)Attention Guided Low-light Image Enhancement with a Large Scale Low-light Simulation Dataset <Br>
 **[Author]** [Feifan Lv](https://lvfeifan.github.io/), [Yu Li](http://yu-li.github.io/), [Feng Lu](http://shi.buaa.edu.cn/lufeng/)  <Br>
 **[[Page](http://phi-ai.org/project/AgLLNet/default.htm)]**<Br>
+1) 同时做tone mapping和去噪, 分为亮度attention map预测, noise map预测, 多尺度增强模块和refine模块四部分, 网络结构和loss可以参考 <Br>
+2) 提出了一个生成低光照加噪声数据的流程.
 
 # Denoising
 ## DL Denoising
