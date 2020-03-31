@@ -170,7 +170,6 @@ RetinexNet+GAN
 ### Learning to Correct Overexposed and Underexposed Photos
 **[Paper]** (arXiv 2003) Learning to Correct Overexposed and Underexposed Photos <Br>
 **[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi), [Konstantinos G. Derpanis](https://www.cs.ryerson.ca/kosta/), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer),  [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)   <Br>
-**[[Page](https://li-chongyi.github.io/Proj_Zero-DCE.html)]** **[[Code](https://github.com/Li-Chongyi/Zero-DCE)]** <Br>
 
 
 # Denoising
