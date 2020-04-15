@@ -142,10 +142,11 @@
 **[Author]** Ruixing Wang, [Qing Zhang](http://zhangqing-home.net/), [Chi-Wing Fu](https://www.cse.cuhk.edu.hk/~cwfu/), [Xiaoyong Shen](http://xiaoyongshen.me/), [Wei-Shi Zheng](https://sites.google.com/site/sunnyweishi/), [Jiaya Jia](http://jiaya.me/) <Br>
 **[[TF-code](https://github.com/wangruixing/DeepUPE)]** <Br>
 
-### EnlightenGAN 
+### EnlightenGAN ★★
 **[Paper]** (arXiv 1906) EnlightenGAN: Deep Light Enhancement without Paired Supervision <Br>
 **[Author]** [Yifan Jiang](http://yifanjiang.net/), [Xinyu Gong](https://gongxinyuu.github.io/), Ding Liu, [Yu Cheng](https://sites.google.com/site/chengyu05), [Chen Fang](http://fangchen.org/), [Xiaohui Shen](https://xiaohuishen.github.io/), [Jianchao Yang](http://www.ifp.illinois.edu/~jyang29/), Pan Zhou, Zhangyang Wang  <Br>
 **[[Pytorch-code](https://github.com/TAMU-VITA/EnlightenGAN)]** <Br>
+基于GAN的非监督亮度增强方法, 效果不错 <Br>
 	
 ### Retinex-GAN ☆
 **[Paper]** (arXiv 1906) Low-light Image Enhancement Algorithm Based on Retinex and Generative Adversarial Network <Br>
@@ -159,9 +160,10 @@ RetinexNet+GAN
 1) 同时做tone mapping和去噪, 分为亮度attention map预测, noise map预测, 多尺度增强模块和refine模块四部分, 网络结构和loss可以参考 <Br>
 2) 提出了一个生成低光照加噪声数据的流程.
 
-### Color-wise Attention Network for Low-light Image Enhancement
+### Color-wise Attention Network for Low-light Image Enhancement ★
 **[Paper]** (arXiv 1911) Color-wise Attention Network for Low-light Image Enhancement <Br>
 **[Author]** [Yousef Atoum](http://faculty.yu.edu.jo/atoumyou/SitePages/Home.aspx), [Mao Ye](https://maoye.wordpress.com/), Liu Ren, [Ying Tai](https://tyshiwo.github.io/), [Xiaoming Liu](http://cvlab.cse.msu.edu/) <Br>
+亮度和颜色通道分两只分别增强的方案, 其中color和point的attention部分没看懂
 
 ### Zero-DCE ★★
 **[Paper]** (CVPR 2020) Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement <Br>
