@@ -252,6 +252,11 @@ RetinexNet+GAN
 **[[Pytorch-Code](https://github.com/TAMU-VITA/DeblurGANv2)]**  <Br>
 DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, 效果更快更好了
 
+### DeepGyro ★
+**[Paper]** (WACV 2019) Gyroscope-Aided Motion Deblurring with Deep Network <Br>
+**[Author]** Janne Mustaniemi, Juho Kannala, Simo Särkkä, Jiri Matas, Janne Heikkilä<Br>
+结合陀螺仪作为先验deblur. 从陀螺仪和图像拍摄信息生成训练集的方法可以参考. <Br>
+	
 ### Dr-Net ★☆
 **[Paper]** (CVPR 2019) Douglas-Rachford Networks: Learning Both the Image Prior and Data Fidelity Terms for Blind Image Deconvolution <Br>
 **[Author]** Raied Aljadaany, [Dipan K. Pal](https://dkpal.github.io/), [Marios Savvides](https://www.cmu-biometrics.org/)<Br>
