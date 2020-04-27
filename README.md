@@ -174,9 +174,11 @@ RetinexNet+GAN
 1) 一篇挺有趣的论文, 把tone mapping看成pixel-wise的曲线预测问题, 设计了一个小型曲线估计网络, 并提出了几个无监督loss, 得到了不错的结果 <Br>
 2) 一些局限性: 提出的一系列约束loss对于增强部分区域可能不太适用, 比如对夜景图片增强前景的同时保持夜空是暗的
 	
-### Learning to Correct Overexposed and Underexposed Photos
+### Learning to Correct Overexposed and Underexposed Photos ★☆
 **[Paper]** (arXiv 2003) Learning to Correct Overexposed and Underexposed Photos <Br>
 **[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi), [Konstantinos G. Derpanis](https://www.cs.ryerson.ca/kosta/), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer),  [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)   <Br>
+**[[Code](https://github.com/mahmoudnafifi/Exposure_Correction)]** <Br>
+粗读, coarse-to-fine增强的策略, 并在每个level加入相应的拉普拉斯金字塔层作为细节信息. 使用L1和GAN loss. 效果不错. <Br>
 
 
 # Denoising
