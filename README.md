@@ -102,15 +102,17 @@
 **[Author]** [Jianrui Cai](https://csjcai.github.io/), [Shuhang Gu](https://sites.google.com/site/shuhanggu/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 **[[Caffe-Code](https://github.com/csjcai/SICE)]** <Br>
 	
-### GLADNet 
+### GLADNet ☆
 **[Paper]** (FG 2018) GLADNet: Low-Light Enhancement Network with Global Awareness <Br>
 **[Author]** [Wenjing Wang](https://daooshee.github.io/website/),[Chen Wei](https://weichen582.github.io/), [Wenhan Yang](https://flyywh.github.io/index.html), [Jiaying Liu](http://39.96.165.147/people/liujiaying.html) <Br>
 **[[Page](https://daooshee.github.io/fgworkshop18Gladnet/)]**   **[[TF-Code](https://github.com/weichen582/GLADNet)]** <Br>
-	
-### RetinexNet 
+encoder-decoder + refine结构的网络
+
+### RetinexNet ★
 **[Paper]** (BMVC 2018 Oral) Deep Retinex Decomposition for Low-Light Enhancement <Br>
 **[Author]** [Chen Wei](https://weichen582.github.io/), [Wenjing Wang](https://daooshee.github.io/website/), [Wenhan Yang](https://flyywh.github.io/index.html), [Jiaying Liu](http://39.96.165.147/people/liujiaying.html)  <Br>
 **[[Page](https://daooshee.github.io/BMVC2018website/)]**   **[[TF-Code](https://github.com/weichen582/RetinexNet)]** <Br>
+基于retinex理论设计的网络, 后续一些工作基于这个思路展开, 但本文的效果一般
 	
 ### MBLLEN 
 **[Paper]** (BMVC 2018) MBLLEN: Low-light Image/Video Enhancement Using CNNs <Br>
