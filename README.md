@@ -277,6 +277,13 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 **[Author]** Raied Aljadaany, [Dipan K. Pal](https://dkpal.github.io/), [Marios Savvides](https://www.cmu-biometrics.org/)<Br>
 1) 基于Douglas-Rachford迭代优化求解blind deconvolution的思路(不懂), 提出了一个由简单conv和连接操作组成的Dr Block, 将其嵌入普通卷积网络中, 用L2和GAN loss训练, 取得了不错的效果. <Br>
 2) 网络细节没看, 可以借鉴其模块设计
+	
+### DMPHN ☆
+**[Paper]** (CVPR 2019) Deep Stacked Multi-patch Hierarchical Network for Image Deblurring <Br>
+**[Author]** [Hongguang Zhang](https://hongguangzhang.github.io/), [Yuchao Dai](http://users.cecs.anu.edu.au/~yuchao/), [Hongdong Li](http://users.cecs.anu.edu.au/~hongdong/), [Piotr Koniusz](http://users.cecs.anu.edu.au/~koniusz/)<Br>
+**[[Pytorch-Code](https://github.com/HongguangZhang/DMPHN-cvpr19-master)]**
+从spatial pyramid matching的角度出发, 提出了一个分patch的逐层融合处理的网络, 参数少速度快. 但个人仍不理解这种分patch的做法对CNN来说到底有什么意义. 
+
 
 ### HA-Deblur ★☆
 **[Paper]** (ICCV 2019) Human-Aware Motion Deblurring <Br>
