@@ -281,7 +281,7 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 ### DMPHN ☆
 **[Paper]** (CVPR 2019) Deep Stacked Multi-patch Hierarchical Network for Image Deblurring <Br>
 **[Author]** [Hongguang Zhang](https://hongguangzhang.github.io/), [Yuchao Dai](http://users.cecs.anu.edu.au/~yuchao/), [Hongdong Li](http://users.cecs.anu.edu.au/~hongdong/), [Piotr Koniusz](http://users.cecs.anu.edu.au/~koniusz/)<Br>
-**[[Pytorch-Code](https://github.com/HongguangZhang/DMPHN-cvpr19-master)]**
+**[[Pytorch-Code](https://github.com/HongguangZhang/DMPHN-cvpr19-master)]** <Br>
 从spatial pyramid matching的角度出发, 提出了一个分patch的逐层融合处理的网络, 参数少速度快. 但个人仍不理解这种分patch的做法对CNN来说到底有什么意义. 
 
 
