@@ -54,7 +54,7 @@
 
 ### CFSNet ★
 **[Paper]** (ICCV 2019) CFSNet: Toward a Controllable Feature Space for Image Restoration<Br>
-**[Author]** Wei Wang, Ruiming Guo, Yapeng Tian, Wenming Yang<Br>
+**[Author]** Wei Wang, Ruiming Guo, [Yapeng Tian](http://yapengtian.org/), Wenming Yang<Br>
 **[[Pytorch-Code](https://github.com/qibao77/CFSNet)]** <Br>
 粗读, 用一个手动输入的参数控制两个分支的权重, 一个分支负责low distortion修复, 另一个分支负责high visual quality. 两个分支通过使用不同loss (L1, L2 v.s. vgg, GAN loss) 训练来得到. 文章的效果和实用性有待检验, 思路可借鉴. <Br>
 	
