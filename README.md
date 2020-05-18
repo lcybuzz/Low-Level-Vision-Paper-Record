@@ -412,6 +412,11 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 2. 提出了一端到端的demosaic, 去噪和超分的网络, 采用residual + dense block的形式, 没什么特别的
 
 # ISP
+### DeepISP ☆
+**[Paper]** (TIP 2018) DeepISP: Learning End-to-End Image Processing Pipeline <Br>
+**[Author]** [Eli Schwartz](https://elischwartz.github.io/publications/), [Raja Giryes](http://web.eng.tau.ac.il/~raja/),  [Alex M. Bronstein](https://bron.cs.technion.ac.il/) <Br>
+大致浏览, 一个end-to-end的网络, 分为保持分辨率的low level部分和逐层下采样的high level部分. 使用了conv+relu, conv+tanh, 直连三个分支并行的设计, 比较少见
+
 ### Learning to See in the Dark ★★
 **[Paper]** (CVPR 2018) Learning to See in the Dark <Br>
 **[Author]** [Chen Chen](http://cchen156.web.engr.illinois.edu/), [Qifeng Chen](https://cqf.io/), [Jia Xu](http://pages.cs.wisc.edu/~jiaxu/), [Vladlen Koltun](http://vladlen.info/)  <Br>
