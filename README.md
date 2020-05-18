@@ -143,11 +143,6 @@ encoder-decoder + refine结构的网络
 **[[TF-Code](https://github.com/nothinglo/Deep-Photo-Enhancer)]** **[[TF-Code2](https://github.com/pnbao/deep-photo-enhance)]**<Br>
 UNet + cycGAN, 无需paired样本的图像增强方法, 可以参考, 只是代码有一点点乱
 
-### RSGUnet
-**[Paper]** (ECCVW 2018) Range Scaling Global U-Net for Perceptual Image Enhancement on Mobile Devices <Br>
-**[Author]** Jie Huang, Pengfei Zhu, Mingrui Geng, Jiewen Ran, Xingguang Zhou, Chen Xing, Pengfei Wan, Xiangyang Ji <Br>
-**[[TF-Code](https://github.com/MTlab/rsgunet_image_enhance)]** <Br>
-
 ### DeepExposure
 **[Paper]** (NIPS 2018) DeepExposure: Learning to Expose Photos with Asynchronously Reinforced Adversarial Learning <Br>
 **[Author]** Runsheng Yu, Wenyu Liu, Yasen Zhang, Zhi Qu, [Deli Zhao](https://sites.google.com/site/zhaodeli/), Bo Zhang <Br>
