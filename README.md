@@ -24,12 +24,6 @@
 
 # Restoration
 ## DL Restoration
-
-### DecoupleLearning ★
-**[Paper]**  (ECCV 2018) Decouple Learning for Parameterized Image Operators <Br>
-**[Author]** [Qingnan Fan](https://fqnchina.github.io/), [Dongdong Chen](http://www.dongdongchen.bid/), [Lu Yuan](https://www.microsoft.com/en-us/research/people/luyuan/), [Gang Hua](http://www.ganghua.org/), [Nenghai Yu](http://staff.ustc.edu.cn/~ynh/), Baoquan Chen  <Br>
-**[[PyTorch-Code](https://github.com/fqnchina/DecoupleLearning)]**  <Br>
-粗读, 貌似是给不同任务设定一个parameter, 用网络以parameter为输入预测每层的weight, 这个weight作为instance norm的weight对每层做归一化.
 	
 ### DualCNN ★
 **[Paper]**  (CVPR 2018) Learning Dual Convolutional Neural Networks for Low-Level Vision  <Br>
@@ -347,10 +341,11 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 1) 大致浏览, 提出在image restoration中, perception和distortion存在tradeoff. 对不同的loss这种tradedoff的严重程度不同, 如perceptual loss与MSE loss相比能在perception和distortion直接取得更好的平衡. <Br>
 2) 很多理论都还没看, 日后如果研究这一方向, 可以仔细读一下. <Br>
 	
-### **Decouple Learning**
-**[Paper]** (ECCV 2018) Decouple Learning for Parameterized Image Operators <Br>
-**[Authors]** Qingnan Fan, Dongdong Chen, Lu Yuan, Gang Hua, Nenghai Yu, Baoquan Chen <Br>
-**[[Code](https://github.com/fqnchina/DecoupleLearning)]** <Br>
+### DecoupleLearning ★
+**[Paper]**  (ECCV 2018) Decouple Learning for Parameterized Image Operators <Br>
+**[Author]** [Qingnan Fan](https://fqnchina.github.io/), [Dongdong Chen](http://www.dongdongchen.bid/), [Lu Yuan](https://www.microsoft.com/en-us/research/people/luyuan/), [Gang Hua](http://www.ganghua.org/), [Nenghai Yu](http://staff.ustc.edu.cn/~ynh/), Baoquan Chen  <Br>
+**[[PyTorch-Code](https://github.com/fqnchina/DecoupleLearning)]**  <Br>
+粗读, 貌似是给不同任务设定一个parameter, 用网络以parameter为输入预测每层的weight, 这个weight作为instance norm的weight对每层做归一化.
 
 ### **Contextual Loss ★★**
 **[Paper]** (ECCV 2018 Oral) The Contextual Loss for Image Transformation with Non-Aligned Data <Br>
