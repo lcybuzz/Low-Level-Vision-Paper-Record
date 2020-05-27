@@ -481,3 +481,5 @@ https://github.com/BBuf/Image-processing-algorithm
 https://github.com/Ir1d/lowLevelVision/tree/3ff10054beb7b83f74a1ca11d84562e3ea90d273
 
 https://github.com/Elin24/Awesome-Low-Light-Enhancement
+
+[ISP介绍blog] https://blog.csdn.net/qq_42261630/article/details/102918149
