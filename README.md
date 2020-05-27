@@ -305,6 +305,12 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 **[[Project](http://www.jasongt.com/projectpages/IKC.html)]** <Br>
 1) 粗读, 提出一个基于深度学习的交替预测blur kernel和预测超分结果的模型, 对给定的blur有很好的效果 <Br>
 2) 文中提出的预测blur kernel并用其辅助超分的思路很有意思, 但对真实图像而言无法获得真实的blur kernel用于训练, 另外论文似乎假设一张图像只有一种blur kernel, 感觉不太合理  <Br>
+	
+### CameraSR ★
+**[Paper]**  (CVPR 2019) Camera Lens Super-Resolution <Br>
+**[Author]** Chang Chen, Zhiwei Xiong, Xinmei Tian, Zheng-Jun Zha, Feng Wu<Br>
+**[[Code & Data](https://github.com/ngchc/CameraSR)]** <Br>
+文章认为普通的插值退化不能模拟由于焦距-FOV变化带来的退化 (其实这是一个无论从分析上还是工程中都很明显的事实...). 最重要的贡献是提出了一个真实DSLR和手机的数据集, 但是在生成单反数据集时, 貌似没有考虑焦距变化带来的景深变化.
 
 # General
 ## General DL Methods
