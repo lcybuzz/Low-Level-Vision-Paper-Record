@@ -7,13 +7,10 @@
 - [Image Enhancement](#image-enhancement)
 - [Low Light](#low-light)
 - [Denoising](#denoising)
-	- [DL Denoising](#dl-denoising)
-	- [Traditional Denoising](#traditional-denoising)
 - [Debluring](#debluring)
-	- [DL debluring](#dl-debluring)
-	- [Traditional debluring](#traditional-debluring)
 - [Dehazing](#dehazing)
 - [Super Resolution](#super-resolution)
+- [Image Synthesis](#image-synthesis)
 - [General](#general)
 	- [General DL Methods](#general-dl-methods)
 	- [General Traditional Methods](#general-traditional-methods)	
@@ -224,8 +221,6 @@ RetinexNet+GAN
 **[[Code](https://github.com/GuoShi28/CBDNet)]**  <Br>
 1) 大致浏览. 采用一个FCN估计噪声level, 噪声level map与输入concat然后输入一类似U-Net的网络去噪. <Br>
 2) 可以学习其网络和训练细节. <Br>
-	
-## Traditional Denoising
 
 # Debluring 
 ## DL Debluring
@@ -290,7 +285,7 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 1. 提出了HIDE数据集, 主要关注对人体的deblur <Br>
 2. 提出了一个多分支deblur网络, 根据human-aware子网络预测前背景生成weight map, 将多分枝信息融合处理后输出 <Br>
 	
-## Traditional Debluring
+	
 #  Dehazing
 ### Multi-scale-CNN-Dehazing ☆
 **[Paper]**  (CVPR 2018) Single Image Dehazing via Multi-Scale Convolutional Neural Networks <Br>
@@ -312,10 +307,17 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 **[[Code & Data](https://github.com/ngchc/CameraSR)]** <Br>
 文章认为普通的插值退化不能模拟由于焦距-FOV变化带来的退化 (其实这是一个无论从分析上还是工程中都很明显的事实...). 最重要的贡献是提出了一个真实DSLR和手机的数据集, 但是在生成单反数据集时, 貌似没有考虑焦距变化带来的景深变化.
 
+# Image Synthesis
+### Fast Image Processing ★☆
+**[Paper]** (ICCV 2017) Dynamic-Net: Tuning the Objective Without Re-training for Synthesis Tasks <Br>
+**[Author]** [Qifeng Chen](https://cqf.io/),	Jia Xu,	[Vladlen Koltun](http://vladlen.info/)  <Br>
+**[[Project](https://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/DynamicNet/)]** **[[PyTorch-Code](https://github.com/AlonShoshan10/dynamic_net)]**<Br>
+先以Objective 0训练主干网络, 之后固定主干网络以Objective 1训练tuning block. 测试时手动指定插值系数, 达到在O0和O1之间的输出效果. 论文思路和实现都很简单, 分析论述方式值得学习
+	
 # General
 ## General DL Methods
  
-### Fast Image Processing ★★
+### Dynamic-Net ★★
 **[Paper]** (ICCV 2017) Fast Image Processing with Fully-Convolutional Networks <Br>
 **[Author]** [Qifeng Chen](https://cqf.io/),	Jia Xu,	[Vladlen Koltun](http://vladlen.info/)  <Br>
 **[[Project](https://cqf.io/ImageProcessing/)]** <Br>
