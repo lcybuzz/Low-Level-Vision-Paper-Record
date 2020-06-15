@@ -222,6 +222,12 @@ RetinexNet+GAN
 1) 大致浏览. 采用一个FCN估计噪声level, 噪声level map与输入concat然后输入一类似U-Net的网络去噪. <Br>
 2) 可以学习其网络和训练细节. <Br>
 
+### SGN ★
+**[Paper]** (ICCV 2019) Self-Guided Network for Fast Image Denoising<Br>
+**[Author]** Shuhang Gu, Yawei Li, [Luc Van Gool](https://ee.ethz.ch/the-department/people-a-z/person-detail.html?persid=90233), [Radu Timofte](https://people.ee.ethz.ch/~timofter/)<Br>
+**[[Pytorch-Code](https://github.com/zhaoyuzhi/Self-Guided-Network-for-Fast-Image-Denoising)]**  <Br>
+pixel shuffle + 多尺度聚合的轻量级网络, 只在高斯噪声上实验了一下
+	
 # Debluring 
 ## DL Debluring
 
