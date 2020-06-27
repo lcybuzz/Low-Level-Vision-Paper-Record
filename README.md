@@ -323,6 +323,12 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 **[Author]** [Wenqi Ren](https://sites.google.com/site/renwenqi888/), [Lin Ma](http://forestlinma.com/), [Jiawei Zhang](https://sites.google.com/site/zhjw1988), [Jinshan Pan](https://sites.google.com/site/jspanhomepage/), [Xiaochun Cao](http://people.ucas.ac.cn/~0022382?language=en),  Wei Liu, [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/) <Br>
 **[[Project](https://sites.google.com/site/renwenqi888/research/dehazing/gfn)]** **[[MatCaffe-Code](https://github.com/rwenqi/GFN-dehazing)]**  <Br>
 
+### MSBDN-DFF ★☆
+**[Paper]**  (CVPR 2020) Multi-Scale Boosted Dehazing Network with Dense Feature Fusion <Br>
+**[Author]**  [Hang Dong](https://sites.google.com/view/hdong/%E9%A6%96%E9%A1%B5), [Jinshan Pan](https://jspan.github.io/), [Zhe Hu](https://zjuela.github.io/), Xiang Lei, [Xinyi Zhang](http://xinyizhang.tech/), Fei Wang, [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/) <Br>
+**[[Project](https://sites.google.com/site/renwenqi888/research/dehazing/gfn)]** **[[MatCaffe-Code](https://github.com/rwenqi/GFN-dehazing)]**  <Br>
+粗读, Unet结合超分中的Deep Back-Projection, 有时间可以研究一下反投影的原理和代码
+
 # De-raining
 ### DID-MDN ★☆
 **[Paper]**  (CVPR 2018) Density-aware Single Image De-raining using a Multi-stream Dense Network<Br>
