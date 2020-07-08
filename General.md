@@ -1,6 +1,6 @@
 # General
   - [General DL Methods](#general-dl-methods)
-	- [General Traditional Methods](#general-traditional-methods)	
+  - [General Traditional Methods](#general-traditional-methods)	
     
     
 # General
