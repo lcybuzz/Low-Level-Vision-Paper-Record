@@ -1,8 +1,7 @@
 # Personal repository under construction.
 
 # Table of Contents
-- <a href='g3doc/installation.md'> Restoration
-
+- <a href='Restoration.md'> Restoration </a>
 - [Image Enhancement](#image-enhancement)
 - [Low Light](#low-light)
 - [Denoising](#denoising)
