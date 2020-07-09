@@ -14,8 +14,8 @@ Google Camera APP中使用的HDR技术(多帧), 用于Nexus 5, Nexus 6及Pixel 2
  Google的快速超分技术. <Br>
 
 
-### (SIGGRAPH 2018) Portrait mode on the Pixel 2 and Pixel 2 XL smartphones ★
-**[Paper]** Synthetic Depth-of-Field with a Single-Camera Mobile Phone<Br>
+### Portrait mode on the Pixel 2 and Pixel 2 XL smartphones ★
+**[Paper]** (SIGGRAPH 2018) Synthetic Depth-of-Field with a Single-Camera Mobile Phone<Br>
 **[Authors]** [Neal Wadhwa](https://nealwadhwa.com/), [Rahul Garg](http://rahuldotgarg.appspot.com/), [David E. Jacobs](http://graphics.stanford.edu/~dejacobs/), Bryan E. Feldman, Nori Kanazawa, Robert Carroll, [Yair Movshovitz-Attias](http://www.cs.cmu.edu/~ymovshov/), [Jonathan T. Barron](https://jonbarron.info/), Yael Pritch, [Marc Levoy](http://graphics.stanford.edu/~levoy/)<Br>
 **[[blog](https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html)]** <Br>
 Google提出的人像模式方法 <Br>
