@@ -1,5 +1,14 @@
 # ISP
 
+### *Reconfiguring the Imaging Pipeline* ★★ 
+**[Paper]** (ICCV 2017) Reconfiguring the Imaging Pipeline for Computer Vision <Br>
+**[Author]**   [Mark Buckler](http://www.markbuckler.com/), [Suren Jayasuriya](http://www.andrew.cmu.edu/user/sjayasur/website.html), [Adrian Sampson](http://www.cs.cornell.edu/~asampson/)  <Br>
+**[[Project](https://capra.cs.cornell.edu/research/visionmode/)]** **[[Code1](https://github.com/cucapra/approx-vision)]** **[[Code2](https://github.com/mbuckler/ReversiblePipeline)]** <Br>
+1) 针对计算机视觉任务(而不是photography)简化ISP流程. 提出只有demosaicing和gamma校正是CV任务中必需的, 并据此设计了系统.
+2) 系统包括3个步骤: reduced resolution readout, subsampling to produce RGB images, lower-precision logarithmic ADC configuration. 能将总体能耗降低约75%
+3) 公布了一套用于模拟imaging pipeline及其逆过程的工具CRIP
+  
+
 ### DeepISP ☆
 **[Paper]** (TIP 2018) DeepISP: Learning End-to-End Image Processing Pipeline <Br>
 **[Author]** [Eli Schwartz](https://elischwartz.github.io/publications/), [Raja Giryes](http://web.eng.tau.ac.il/~raja/),  [Alex M. Bronstein](https://bron.cs.technion.ac.il/) <Br>
