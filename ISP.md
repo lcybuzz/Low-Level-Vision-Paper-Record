@@ -45,3 +45,8 @@ Paper about ISP and corresponding modules
 **[Author]** [Daniel Hernandez-Juarez](https://danihernandez.eu/), [Sarah Parisot](https://parisots.github.io/), [Benjamin Busam](http://campar.in.tum.de/Main/BenjaminBusam), Ales Leonardis, [Gregory Slabaugh](http://www.gregslabaugh.net/), Steven McDonagh <Br>
 **[[Project](http://cvil.eecs.yorku.ca/projects/public_html/sRGB_WB_correction/index.html)]**<Br>
   粗读, 用贝叶斯思想处理AWB问题. 首先用K-Means选取n个candidates, 再用一个小型CNN预测似然概率(即当前图像是来自于该光照的可能性), 最后的预测光照结果为n个似然概率取softmax后的加权求和.
+  
+### Deep White-Balance Editing
+**[Paper]** (CVPR 2020 Oral) Deep White-Balance Editing <Br>
+**[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi/home), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)<Br>
+**[[PYtorch & Matlab-Code](https://github.com/mahmoudnafifi/Deep_White_Balance)]**<Br>
