@@ -32,9 +32,16 @@ Paper about ISP and corresponding modules
 3) 提出的算法与自带的ISP流程相比, 色彩上有一定提升, 但没有明显优势, 且存在晕影. 另外速度也是个问题. 因此对于用一个DL模型代替ISP流程的方案可行性还是有待确认. <Br>
 
 
+
 ## AWB
+
+### WB_sRGB
+**[Paper]** (CVPR 2020) When Color Constancy Goes Wrong: Correcting Improperly White-Balanced Images <Br>
+**[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi/home), [Brian Price](https://www.brianpricephd.com/), [Scott Cohen](https://research.adobe.com/person/scott-cohen/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
+**[[Pytorch-Code](https://github.com/huawei-noah/multi_hyp_cc)]** **[[Blog](http://www.noahlab.com.hk/#/news/5ee70c18a0c07a1a3855452d)]**<Br>
+  
 ### *Multi-Hypothesis CC* ★☆
 **[Paper]** (CVPR 2020) A Multi-Hypothesis Approach to Color Constancy for improved Automatic White Balance <Br>
 **[Author]** [Daniel Hernandez-Juarez](https://danihernandez.eu/), [Sarah Parisot](https://parisots.github.io/), [Benjamin Busam](http://campar.in.tum.de/Main/BenjaminBusam), Ales Leonardis, [Gregory Slabaugh](http://www.gregslabaugh.net/), Steven McDonagh <Br>
-**[[Pytorch-Code](https://github.com/huawei-noah/multi_hyp_cc)]** **[[Blog](http://www.noahlab.com.hk/#/news/5ee70c18a0c07a1a3855452d)]**<Br>
+**[[Project](http://cvil.eecs.yorku.ca/projects/public_html/sRGB_WB_correction/index.html)]**<Br>
   粗读, 用贝叶斯思想处理AWB问题. 首先用K-Means选取n个candidates, 再用一个小型CNN预测似然概率(即当前图像是来自于该光照的可能性), 最后的预测光照结果为n个似然概率取softmax后的加权求和.
