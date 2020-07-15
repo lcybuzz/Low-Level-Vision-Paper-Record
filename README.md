@@ -15,6 +15,7 @@
 - <a href='HDR.md'> HDR </a>
 - <a href='UsingRaw.md'> Using Raw </a>
 - <a href='ISP.md'> ISP </a>
+- <a href='VideoEnhancement.md'> Video Enhancement </a>
 - <a href='Fusion.md'> Fusion (Archived) </a>
 - <a href='ImageSynthesis.md'> Image Synthesis (Archived) </a>
 - [Dataset](#dataset)
