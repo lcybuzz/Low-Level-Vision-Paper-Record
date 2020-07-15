@@ -1,6 +1,7 @@
 # Table of Contents
 - [DL Restoration](#dl-restoration)
 - [Traditional Restoration](#traditional-restoration)
+- [Image Demoireing](#image-demoireing)
 
 
 # DL Restoration
@@ -56,3 +57,10 @@
 **[[Project](https://sites.google.com/view/lerenhanli/homepage/learn_prior_deblur)]** <Br>
 用CNN学习一个deblur用的prior, 用来提供输入图像是否模糊的先验知识, 把该prior加入目标函数, 之后用迭代的方法求解优化函数 <Br>
 	
+
+# Image Demoireing
+### Learnbale_Bandpass_Filter ★
+**[Paper]**  (CVPR 2020) Image Demoireing with Learnable Bandpass Filters  <Br>
+**[Author]** Bolun Zheng, [Shanxin Yuan](https://sites.google.com/site/shanxinyuan/), [Gregory Slabaugh](http://www.gregslabaugh.net/), [Ales Leonardis](https://www.cs.bham.ac.uk/~leonarda/) <Br>
+**[[TF-Code](https://github.com/zhenngbolun/Learnbale_Bandpass_Filter)]** <Br>
+在DCT变换后的频谱域做摩尔纹提取, 分为3个scale提取不同尺度的摩尔纹. 对带通去取摩尔纹的推导部分没看懂. <Br>
