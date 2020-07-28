@@ -87,3 +87,9 @@ RetinexNet+GAN
 **[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi), [Konstantinos G. Derpanis](https://www.cs.ryerson.ca/kosta/), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer),  [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)   <Br>
 **[[Code](https://github.com/mahmoudnafifi/Exposure_Correction)]** <Br>
 粗读, coarse-to-fine增强的策略, 并在每个level加入相应的拉普拉斯金字塔层作为细节信息. 使用L1和GAN loss. 效果不错. <Br>
+	
+	
+### DRBN ☆
+**[Paper]** (CVPR 2020) From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement <Br>
+**[Author]** [Wenhan Yang](https://flyywh.github.io/), Shiqi Wang, [Yuming Fang](https://sites.google.com/site/leofangyuming/), Yue Wang, Jiaying Liu   <Br>
+分为有监督部分和无监督(GAN)两部分. 结构比较繁琐. 
