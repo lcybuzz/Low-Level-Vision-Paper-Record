@@ -31,9 +31,12 @@
 **[[Code](https://github.com/GuoShi28/CBDNet)]**  <Br>
 1) 大致浏览. 采用一个FCN估计噪声level, 噪声level map与输入concat然后输入一类似U-Net的网络去噪. <Br>
 2) 可以学习其网络和训练细节. <Br>
-
-### SGN ★
-**[Paper]** (ICCV 2019) Self-Guided Network for Fast Image Denoising<Br>
-**[Author]** Shuhang Gu, Yawei Li, [Luc Van Gool](https://ee.ethz.ch/the-department/people-a-z/person-detail.html?persid=90233), [Radu Timofte](https://people.ee.ethz.ch/~timofter/)<Br>
-**[[Pytorch-Code](https://github.com/zhaoyuzhi/Self-Guided-Network-for-Fast-Image-Denoising)]**  <Br>
-pixel shuffle + 多尺度聚合的轻量级网络, 只在高斯噪声上实验了一下
+	
+	
+	
+## Raw Denoising
+### ELD ★★
+**[Paper]** (CVPR 2020 Oral) A Physics-based Noise Formation Model for Extreme Low-light Raw Denoising<Br>
+**[Author]** [Kaixuan Wei](https://kxwei.net/), [Ying Fu](https://ying-fu.github.io/), [Jiaolong Yang](http://jlyang.org/), Hua Huang<Br>
+**[[Pytorch-Code & Dataset](https://github.com/Vandermode/ELD)]**  <Br>
+较为全面的分析了相机噪声来源, 并据此提出了一个高度模拟真实的噪声生成模型. 有趣的论文, 目前没有做基于Raw的处理, 故没有深入研究.
