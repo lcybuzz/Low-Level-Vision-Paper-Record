@@ -1,7 +1,7 @@
 # Table of Contents
 - [DL Restoration](#dl-restoration)
 - [Traditional Restoration](#traditional-restoration)
-- [Image Demoireing](#image-demoireing)
+- [Unsupervised Restoration](#unsupervised-restoration)
 
 
 # DL Restoration
@@ -44,6 +44,16 @@
 **[Author]** [Dongdong Chen](http://www.dongdongchen.bid/), Mingming He, [Qingnan Fan](https://fqnchina.github.io/)  <Br>
 **[[Code](https://github.com/cddlyf/GCANet)]**  <Br>
 	
+
+
+# Unsupervised Restoration
+### LIR-for-Unsupervised-IR ★☆
+**[Paper]** (CVPR 2020) Learning Invariant Representation for Unsupervised Image Restoration <Br>
+**[Author]** Wenchao Du, Hu Chen, Hongyu Yang  <Br>
+**[[Pytorch-Code](https://github.com/Wenchao-Du/LIR-for-Unsupervised-IR)]** <Br>
+无监督图像恢复, 使用了GAN, 设计了各种loss
+	
+	
 # Traditional Restoration
 ### Reproduction Angular Error ★
 **[Paper]** (BMVC 2014)  Reproduction Angular Error: An Improved Performance Metric for Illuminant Estimation <Br>
@@ -58,9 +68,3 @@
 用CNN学习一个deblur用的prior, 用来提供输入图像是否模糊的先验知识, 把该prior加入目标函数, 之后用迭代的方法求解优化函数 <Br>
 	
 
-# Image Demoireing
-### Learnbale_Bandpass_Filter ★
-**[Paper]**  (CVPR 2020) Image Demoireing with Learnable Bandpass Filters  <Br>
-**[Author]** Bolun Zheng, [Shanxin Yuan](https://sites.google.com/site/shanxinyuan/), [Gregory Slabaugh](http://www.gregslabaugh.net/), [Ales Leonardis](https://www.cs.bham.ac.uk/~leonarda/) <Br>
-**[[TF-Code](https://github.com/zhenngbolun/Learnbale_Bandpass_Filter)]** <Br>
-在DCT变换后的频谱域做摩尔纹提取, 分为3个scale提取不同尺度的摩尔纹. 对带通去取摩尔纹的推导部分没看懂. <Br>
