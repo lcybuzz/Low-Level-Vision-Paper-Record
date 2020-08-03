@@ -6,7 +6,6 @@
 - <a href='LowLight.md'> Low Light </a>
 - <a href='Denoising.md'> Denoising </a>
 - <a href='Debluring.md'> Debluring </a>
-- <a href='Dehazing.md'> Dehazing </a>
 - <a href='DeRaining.md'> De-raining </a>
 - <a href='ReflectionRemoval.md'> Reflection Removal </a>
 - <a href='SuperResolution.md'> Super Resolution </a>
@@ -15,7 +14,8 @@
 - <a href='HDR.md'> HDR </a>
 - <a href='UsingRaw.md'> Using Raw </a>
 - <a href='ISP.md'> ISP </a>
-- <a href='VideoEnhancement.md'> Video Enhancement </a>
+- <a href='Misc.md'> Misc </a>
+- <a href='VideoEnhancement.md'> Video Enhancement (Archived) </a>
 - <a href='Fusion.md'> Fusion (Archived) </a>
 - <a href='ImageSynthesis.md'> Image Synthesis (Archived) </a>
 - [Dataset](#dataset)
