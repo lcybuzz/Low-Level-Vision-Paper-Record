@@ -1,3 +1,8 @@
+# Table of Contents
+- [De-raining](#de-raining)
+- [Image Demoireing](#image-demoireing)
+
+
 # De-raining
 
 ### DID-MDN ★☆
@@ -13,3 +18,10 @@
 使用高斯过程计算无标签真实数据的unsupervised loss. 从paper的实验效果来看有不错的效果, 值得一试
   
   
+
+# Image Demoireing
+### Learnbale_Bandpass_Filter ★
+**[Paper]**  (CVPR 2020) Image Demoireing with Learnable Bandpass Filters  <Br>
+**[Author]** Bolun Zheng, [Shanxin Yuan](https://sites.google.com/site/shanxinyuan/), [Gregory Slabaugh](http://www.gregslabaugh.net/), [Ales Leonardis](https://www.cs.bham.ac.uk/~leonarda/) <Br>
+**[[TF-Code](https://github.com/zhenngbolun/Learnbale_Bandpass_Filter)]** <Br>
+在DCT变换后的频谱域做摩尔纹提取, 分为3个scale提取不同尺度的摩尔纹. 对带通去取摩尔纹的推导部分没看懂. <Br>
