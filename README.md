@@ -15,9 +15,7 @@
 - <a href='UsingRaw.md'> Using Raw </a>
 - <a href='ISP.md'> ISP </a>
 - <a href='Misc.md'> Misc </a>
-- <a href='VideoEnhancement.md'> Video Enhancement (Archived) </a>
 - <a href='Fusion.md'> Fusion (Archived) </a>
-- <a href='ImageSynthesis.md'> Image Synthesis (Archived) </a>
 - [Dataset](#dataset)
 - [Useful Resources](#useful-resources)
 
