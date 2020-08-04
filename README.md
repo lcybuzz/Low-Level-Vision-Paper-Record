@@ -8,6 +8,7 @@
 - <a href='Debluring.md'> Debluring </a>
 - <a href='ReflectionRemoval.md'> Reflection Removal </a>
 - <a href='SuperResolution.md'> Super Resolution </a>
+- <a href='Few-Shot.md'> Few-Shot</a>
 - <a href='Industry.md'> Industry</a>
 - <a href='General.md'> General </a>
 - <a href='HDR.md'> HDR </a>
