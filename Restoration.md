@@ -1,7 +1,7 @@
 # Table of Contents
 - [DL Restoration](#dl-restoration)
 - [Traditional Restoration](#traditional-restoration)
-- [Unsupervised Restoration](#unsupervised-restoration)
+
 
 
 # DL Restoration
@@ -45,13 +45,6 @@
 **[[Code](https://github.com/cddlyf/GCANet)]**  <Br>
 	
 
-
-# Unsupervised Restoration
-### LIR-for-Unsupervised-IR ★☆
-**[Paper]** (CVPR 2020) Learning Invariant Representation for Unsupervised Image Restoration <Br>
-**[Author]** Wenchao Du, Hu Chen, Hongyu Yang  <Br>
-**[[Pytorch-Code](https://github.com/Wenchao-Du/LIR-for-Unsupervised-IR)]** <Br>
-无监督图像恢复, 使用了GAN, 设计了各种loss
 	
 	
 # Traditional Restoration
