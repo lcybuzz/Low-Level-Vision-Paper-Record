@@ -6,7 +6,6 @@
 - <a href='LowLight.md'> Low Light </a>
 - <a href='Denoising.md'> Denoising </a>
 - <a href='Debluring.md'> Debluring </a>
-- <a href='DeRaining.md'> De-raining </a>
 - <a href='ReflectionRemoval.md'> Reflection Removal </a>
 - <a href='SuperResolution.md'> Super Resolution </a>
 - <a href='Industry.md'> Industry</a>
