@@ -1,6 +1,8 @@
 # Table of Contents
 - [De-raining](#de-raining)
-- [Image Demoireing](#image-demoireing)
+- [Image Demoireing ](#image-demoireing)
+- [Video Enhancement (Archived)](#video-enhancement)
+- [Image Synthesis (Archived)](#image-synthesis)
 
 
 # De-raining
@@ -25,3 +27,21 @@
 **[Author]** Bolun Zheng, [Shanxin Yuan](https://sites.google.com/site/shanxinyuan/), [Gregory Slabaugh](http://www.gregslabaugh.net/), [Ales Leonardis](https://www.cs.bham.ac.uk/~leonarda/) <Br>
 **[[TF-Code](https://github.com/zhenngbolun/Learnbale_Bandpass_Filter)]** <Br>
 在DCT变换后的频谱域做摩尔纹提取, 分为3个scale提取不同尺度的摩尔纹. 对带通去取摩尔纹的推导部分没看懂. <Br>
+
+
+
+# Video Enhancement
+### ST-SR
+**[Paper]**  (CVPR 2020) Space-Time-Aware Multi-Resolution Video Enhancement<Br>
+**[Author]** [Muhammad Haris](https://alterzero.github.io/), [Greg Shakhnarovich](https://ttic.uchicago.edu/~gregory/), [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/) <Br>
+**[[Project](https://alterzero.github.io/projects/STAR.html)]** **[[Pytorch-Code](https://github.com/alterzero/STARnet)]**<Br>
+  
+  
+  
+# Image Synthesis
+### Dynamic-Net ★☆
+**[Paper]** (ICCV 2017) Dynamic-Net: Tuning the Objective Without Re-training for Synthesis Tasks <Br>
+**[Author]** [Qifeng Chen](https://cqf.io/),	Jia Xu,	[Vladlen Koltun](http://vladlen.info/)  <Br>
+**[[Project](https://cgm.technion.ac.il/Computer-Graphics-Multimedia/Software/DynamicNet/)]** **[[PyTorch-Code](https://github.com/AlonShoshan10/dynamic_net)]**<Br>
+先以Objective 0训练主干网络, 之后固定主干网络以Objective 1训练tuning block. 测试时手动指定插值系数, 达到在O0和O1之间的输出效果. 论文思路和实现都很简单, 分析论述方式值得学习
+	
