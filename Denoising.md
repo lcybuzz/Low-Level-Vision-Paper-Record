@@ -31,7 +31,12 @@
 **[[Code](https://github.com/GuoShi28/CBDNet)]**  <Br>
 1) 大致浏览. 采用一个FCN估计噪声level, 噪声level map与输入concat然后输入一类似U-Net的网络去噪. <Br>
 2) 可以学习其网络和训练细节. <Br>
-	
+
+### CycleISP ★
+**[Paper]** (CVPR 2020 Oral) CycleISP: Real Image Restoration via Improved Data Synthesis <Br>
+**[Author]** [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en)<Br>
+**[[Pytorch-Code](https://github.com/swz30/CycleISP)]**  <Br>
+提出了一个从sRGB到RAW相互转换的网络, 在Raw图像上注入高斯噪声用于生成RGB噪声样本.
 	
 	
 ## Raw Denoising
