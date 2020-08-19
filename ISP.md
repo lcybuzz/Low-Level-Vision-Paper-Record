@@ -36,9 +36,9 @@ Paper about ISP and corresponding modules
 ## AWB
 
 ### WB_sRGB
-**[Paper]** (CVPR 2020) When Color Constancy Goes Wrong: Correcting Improperly White-Balanced Images <Br>
+**[Paper]** (CVPR 2019) When Color Constancy Goes Wrong: Correcting Improperly White-Balanced Images <Br>
 **[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi/home), [Brian Price](https://www.brianpricephd.com/), [Scott Cohen](https://research.adobe.com/person/scott-cohen/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
-**[[Pytorch-Code](https://github.com/huawei-noah/multi_hyp_cc)]** **[[Blog](http://www.noahlab.com.hk/#/news/5ee70c18a0c07a1a3855452d)]**<Br>
+**[[Project](http://cvil.eecs.yorku.ca/projects/public_html/sRGB_WB_correction/index.html)]** **[[Code](https://github.com/mahmoudnafifi/WB_sRGB)]** **[[Blog](http://www.noahlab.com.hk/#/news/5ee70c18a0c07a1a3855452d)]**<Br>
   
 ### *Multi-Hypothesis CC* ★☆
 **[Paper]** (CVPR 2020) A Multi-Hypothesis Approach to Color Constancy for improved Automatic White Balance <Br>
