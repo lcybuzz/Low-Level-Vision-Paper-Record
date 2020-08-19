@@ -46,7 +46,9 @@ Paper about ISP and corresponding modules
 **[[Project](http://cvil.eecs.yorku.ca/projects/public_html/sRGB_WB_correction/index.html)]**<Br>
   粗读, 用贝叶斯思想处理AWB问题. 首先用K-Means选取n个candidates, 再用一个小型CNN预测似然概率(即当前图像是来自于该光照的可能性), 最后的预测光照结果为n个似然概率取softmax后的加权求和.
   
-### Deep White-Balance Editing
+### Deep White-Balance Editing ★☆
 **[Paper]** (CVPR 2020 Oral) Deep White-Balance Editing <Br>
 **[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi/home), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)<Br>
 **[[PYtorch & Matlab-Code](https://github.com/mahmoudnafifi/Deep_White_Balance)]**<Br>
+1) 1个encoder, 3个decoder, 分别预测正确, 白炽灯, 室外场景的白平衡结果. 最后可根据三个结果插值出用户需要的色温
+2) 为在device上进行快速推理, 在小图上预测, 然后在小图上通过优化的方法闭式求解输入输出的全局色彩映射函数, 再将该函数用到全图上
