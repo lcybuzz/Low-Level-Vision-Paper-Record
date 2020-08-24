@@ -2,7 +2,7 @@
 
 # Table of Contents
   - [DL Methods](#dl-methods)
-  - [Traditional Methods](#general-traditional-methods)	
+  - [Traditional Methods](#traditional-methods)	
   - [Dataset](#dataset)
   - [Useful Resources](#useful-resources)
     
