@@ -58,8 +58,6 @@
 
 [去雾] https://github.com/cxtalk/DehazeZoo
 
-[low level近期论文总结] https://github.com/Ir1d/lowLevelVision/tree/3ff10054beb7b83f74a1ca11d84562e3ea90d273
-
 [传统图像处理算法实现] https://github.com/BBuf/Image-processing-algorithm
 
 [传统图像质量增强的系列blog] https://www.cnblogs.com/Imageshop/category/535367.html
@@ -70,3 +68,10 @@
 
 
 # To See
+[low level近期论文总结] https://github.com/Ir1d/lowLevelVision/tree/3ff10054beb7b83f74a1ca11d84562e3ea90d273
+
+[ECCV 2020图像重建方向] https://zhuanlan.zhihu.com/p/180551773
+
+[CVPR 2020论文集合] https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation
+
+[CVPR 2020 GAN in 图像恢复论文盘点] https://blog.csdn.net/lgzlgz3102/article/details/106799006/
