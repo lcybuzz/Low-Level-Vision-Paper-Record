@@ -66,6 +66,8 @@
 
 [数据集] https://github.com/daooshee/Image-Processing-Datasets
 
+[移动端AI benchmark] http://ai-benchmark.com/index.html#title
+
 
 # To See
 [low level近期论文总结] https://github.com/Ir1d/lowLevelVision/tree/3ff10054beb7b83f74a1ca11d84562e3ea90d273
