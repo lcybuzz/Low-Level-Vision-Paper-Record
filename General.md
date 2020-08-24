@@ -1,9 +1,11 @@
 # General
+
+# Table of Contents
   - [General DL Methods](#general-dl-methods)
   - [General Traditional Methods](#general-traditional-methods)	
     
     
-# General
+
 ## General DL Methods
  
 ### Fast Image Processing ★★
