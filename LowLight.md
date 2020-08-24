@@ -105,7 +105,10 @@ RetinexNet+GAN
 分为有监督部分和无监督(GAN)两部分. 结构比较繁琐. 
 
 
-
+### EEMEFN★
+**[Paper]** (AAAI 2020) EEMEFN: Low-Light Image Enhancement via Edge-Enhanced Multi-Exposure Fusion Network <Br>
+**[Author]** Minfeng Zhu, Pingbo Pan, [Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/), Yi Yang   <Br>
+大致浏览. 输入为raw, 设计了一个多分支网络, 分别处理不同曝光值得输入并将结果融合, 里面的参考曝光值不知道是怎么得到的. 另外还加入一个边缘增强网络, 方法是现成的. 
 
 
 
