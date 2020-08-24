@@ -1,5 +1,15 @@
 # Low Light
-	
+
+# Table of Contents
+  - [DL Methods](#dl-methods)
+  - [Traditional Methods](#general-traditional-methods)	
+  - [Dataset](#dataset)
+  - [Useful Resources](#useful-resources)
+    
+
+## DL Methods
+
+## Deep Learning
 ### SICE 
 **[Paper]** (TIP 2018) Learning a Deep Single Image Contrast Enhancer from Multi-Exposure Images <Br>
 **[Author]** [Jianrui Cai](https://csjcai.github.io/), [Shuhang Gu](https://sites.google.com/site/shuhanggu/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
@@ -8,13 +18,13 @@
 ### GLADNet ☆
 **[Paper]** (FG 2018) GLADNet: Low-Light Enhancement Network with Global Awareness <Br>
 **[Author]** [Wenjing Wang](https://daooshee.github.io/website/),[Chen Wei](https://weichen582.github.io/), [Wenhan Yang](https://flyywh.github.io/index.html), [Jiaying Liu](http://39.96.165.147/people/liujiaying.html) <Br>
-**[[Page](https://daooshee.github.io/fgworkshop18Gladnet/)]**   **[[TF-Code](https://github.com/weichen582/GLADNet)]** <Br>
+**[[Project](https://daooshee.github.io/fgworkshop18Gladnet/)]**   **[[TF-Code](https://github.com/weichen582/GLADNet)]** <Br>
 encoder-decoder + refine结构的网络
 
 ### RetinexNet ★
 **[Paper]** (BMVC 2018 Oral) Deep Retinex Decomposition for Low-Light Enhancement <Br>
 **[Author]** [Chen Wei](https://weichen582.github.io/), [Wenjing Wang](https://daooshee.github.io/website/), [Wenhan Yang](https://flyywh.github.io/index.html), [Jiaying Liu](http://39.96.165.147/people/liujiaying.html)  <Br>
-**[[Page](https://daooshee.github.io/BMVC2018website/)]**   **[[TF-Code](https://github.com/weichen582/RetinexNet)]** <Br>
+**[[Project](https://daooshee.github.io/BMVC2018website/)]**   **[[TF-Code](https://github.com/weichen582/RetinexNet)]** <Br>
 基于retinex理论设计的网络, 后续一些工作基于这个思路展开, 但本文的效果一般
 	
 ### MBLLEN ★
@@ -60,7 +70,7 @@ RetinexNet+GAN
 ### Attention-guided Low-light Image Enhancement ★☆
 **[Paper]** (arXiv 1908) Attention Guided Low-light Image Enhancement with a Large Scale Low-light Simulation Dataset <Br>
 **[Author]** [Feifan Lv](https://lvfeifan.github.io/), [Yu Li](http://yu-li.github.io/), [Feng Lu](http://shi.buaa.edu.cn/lufeng/)  <Br>
-**[[Page](http://phi-ai.org/project/AgLLNet/default.htm)]**<Br>
+**[[Project](http://phi-ai.org/project/AgLLNet/default.htm)]**<Br>
 1) 同时做tone mapping和去噪, 分为亮度attention map预测, noise map预测, 多尺度增强模块和refine模块四部分, 网络结构和loss可以参考 <Br>
 2) 提出了一个生成低光照加噪声数据的流程.
 
@@ -72,7 +82,7 @@ RetinexNet+GAN
 ### Zero-DCE ★★
 **[Paper]** (CVPR 2020) Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement <Br>
 **[Author]** Chunle Guo, [Chongyi Li](https://li-chongyi.github.io/), Jichang Guo, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/index.html), [Junhui Hou](https://sites.google.com/site/junhuihoushomepage/), [Sam Kwong](https://www.cs.cityu.edu.hk/~cssamk/research_group/index.html), [Runmin Cong](https://rmcong.github.io/)   <Br>
-**[[Page](https://li-chongyi.github.io/Proj_Zero-DCE.html)]** **[[Code](https://github.com/Li-Chongyi/Zero-DCE)]** <Br>
+**[[Project](https://li-chongyi.github.io/Proj_Zero-DCE.html)]** **[[Code](https://github.com/Li-Chongyi/Zero-DCE)]** <Br>
 1) 一篇挺有趣的论文, 把tone mapping看成pixel-wise的曲线预测问题, 设计了一个小型曲线估计网络, 并提出了几个无监督loss, 得到了不错的结果 <Br>
 2) 一些局限性: 提出的一系列约束loss对于增强部分区域可能不太适用, 比如对夜景图片增强前景的同时保持夜空是暗的
 
@@ -93,3 +103,23 @@ RetinexNet+GAN
 **[Paper]** (CVPR 2020) From Fidelity to Perceptual Quality: A Semi-Supervised Approach for Low-Light Image Enhancement <Br>
 **[Author]** [Wenhan Yang](https://flyywh.github.io/), Shiqi Wang, [Yuming Fang](https://sites.google.com/site/leofangyuming/), Yue Wang, Jiaying Liu   <Br>
 分为有监督部分和无监督(GAN)两部分. 结构比较繁琐. 
+
+
+
+
+
+
+## Traditional Methods
+
+### *Image-Contrast-Enhancement* ★★
+**[Paper]** (CAIP2017) A New Image Contrast Enhancement Algorithm Using Exposure Fusion Framework <Br>
+**[Author]** [Zhenqiang Ying](https://baidut.github.io/about/), Ge Li, Yurui Ren, Ronggang Wang, Wenmin Wang   <Br>
+**[[Project](https://baidut.github.io/OpenCE/caip2017.html)]** **[[Matlab-Code](https://github.com/AndyHuang1995/Image-Contrast-Enhancement)]** **[[Python-Code](https://github.com/AndyHuang1995/Image-Contrast-Enhancement)]** <Br>
+大致浏览, 利用原图和曝光增强后的图像融合, 提升亮度和对比度. 融合权值通过求解光照强度得到, 曝光增强图通过作者之前提出的相机响应校正模型得到.
+	
+	
+
+# Dataset
+
+# Useful Resources
+[各种对比度增强算法代码 Matlab] https://github.com/baidut/OpenCE
