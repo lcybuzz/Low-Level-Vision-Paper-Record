@@ -62,6 +62,11 @@
 **[[Matlab & Pytorch-Code](https://github.com/mahmoudnafifi/CIE_XYZ_NET)]** <Br>	
 使用CNN, 把sRGB变换到设备无关的CIE XYZ空间, 在此scene-referred空间中进行去噪增强等处理, 再用一CNN变换回sRGB空间
 	
+### Invertible Image Rescaling ★★
+**[Paper]** (ECCV 2020) Invertible Image Rescaling <Br>
+**[Author]** Mingqing Xiao, Shuxin Zheng, [Chang Liu](https://changliu00.github.io/), Yaolong Wang, Di He, Guolin Ke, Jiang Bian, [Zhouchen Lin](https://zhouchenlin.github.io/), [Tie-Yan Liu](https://www.microsoft.com/en-us/research/people/tyliu/?from=http%3A%2F%2Fresearch.microsoft.com%2Fusers%2Ftyliu)<Br>
+**[[Pytorch-Code](https://github.com/pkuxmq/Invertible-Image-Rescaling)]** <Br>	
+提出一个基于小波和可逆神经网络(INN)的图像降采样恢复方法. 
 
 
 ## General Traditional Methods
