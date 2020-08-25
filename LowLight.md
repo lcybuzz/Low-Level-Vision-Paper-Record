@@ -3,7 +3,6 @@
 # Table of Contents
   - [DL Methods](#dl-methods)
   - [Traditional Methods](#traditional-methods)	
-  - [Dataset](#dataset)
   - [Useful Resources](#useful-resources)
     
 
@@ -120,9 +119,7 @@ RetinexNet+GAN
 **[[Project](https://baidut.github.io/OpenCE/caip2017.html)]** **[[Matlab-Code](https://github.com/AndyHuang1995/Image-Contrast-Enhancement)]** **[[Python-Code](https://github.com/AndyHuang1995/Image-Contrast-Enhancement)]** <Br>
 大致浏览, 利用原图和曝光增强后的图像融合, 提升亮度和对比度. 融合权值通过求解光照强度得到, 曝光增强图通过作者之前提出的相机响应校正模型得到.
 	
-	
 
-# Dataset
 
 # Useful Resources
 [各种对比度增强算法代码 Matlab] https://github.com/baidut/OpenCE
