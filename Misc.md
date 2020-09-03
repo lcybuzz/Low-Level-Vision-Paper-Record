@@ -1,6 +1,7 @@
 # Table of Contents
 - [De-raining](#de-raining)
 - [Image Demoireing ](#image-demoireing)
+- [Style-Transfer](#style-transfer)
 - [Video Enhancement (Archived)](#video-enhancement)
 - [Image Synthesis (Archived)](#image-synthesis)
 
@@ -27,6 +28,14 @@
 **[Author]** Bolun Zheng, [Shanxin Yuan](https://sites.google.com/site/shanxinyuan/), [Gregory Slabaugh](http://www.gregslabaugh.net/), [Ales Leonardis](https://www.cs.bham.ac.uk/~leonarda/) <Br>
 **[[TF-Code](https://github.com/zhenngbolun/Learnbale_Bandpass_Filter)]** <Br>
 在DCT变换后的频谱域做摩尔纹提取, 分为3个scale提取不同尺度的摩尔纹. 对带通去取摩尔纹的推导部分没看懂. <Br>
+
+
+
+# Style-Transfer
+### *Bilateral Style Transfer* ★★
+**[Paper]**  (ECCV 2020) Joint Bilateral Learning for Real-time Universal Photorealistic Style Transfer  <Br>
+**[Author]** [Xide Xia](https://xidexia.github.io/), Meng Zhang, [Tianfan Xue](http://people.csail.mit.edu/tfxue/), Zheng Sun, Hui Fang, [Brian Kulis](http://people.bu.edu/bkulis/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/) <Br>
+基于HDRNet的实时风格迁移, 创新点尽管不是很多, 但是工作很有价值
 
 
 
