@@ -91,7 +91,23 @@
 3) 从paper中看, 该方法对非对齐的多模数据滤波效果不错, 可以在设计DL方案时作为参考. <Br>
 4) 算法的局限: 1.weight volume优化的步骤过于耗时; 2. cost volume的准确性仍依赖于距离的计算准则, 现有的例如NCC等策略也不能完美解决多模数据的相似性度量问题.<Br>
 
+### Fast bilateral filtering for the display of high-dynamic-range images
+**[Paper]** (SIGGRAPH 2002) Fast bilateral filtering for the display of high-dynamic-range images <Br>
+**[Author]** [Frédo Durand](http://people.csail.mit.edu/fredo/), Julie Dorsey  <Br>
+	
+### Bilateral Grid
+**[Paper]** (SIGGRAPH 2007) Real-time edge-aware image processing with the bilateral grid <Br>
+**[Author]** [Jiawen Chen](https://people.csail.mit.edu/jiawen/), [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Frédo Durand](http://people.csail.mit.edu/fredo/)  <Br>
+	
 ### JBU
-**[Paper]** (TOG 2007) Joint Bilateral Upsampling <Br>
-**[Author]**  [Johannes Kopf](http://johanneskopf.de/), Michael F. Cohen, [Dani Lischinski](https://www.cs.huji.ac.il/~danix/), Matt Uyttendaele, <Br>
+**[Paper]** (SIGGRAPH 2007) Joint Bilateral Upsampling <Br>
+**[Author]**  [Johannes Kopf](http://johanneskopf.de/), Michael F. Cohen, [Dani Lischinski](https://www.cs.huji.ac.il/~danix/), Matt Uyttendaele <Br>
+**[[Project](http://people.csail.mit.edu/fredo/PUBLI/Siggraph2002/)]**, **[[Code](http://people.csail.mit.edu/sparis/bf/#code)]**
+	
+### BGU
+**[Paper]** (SIGGRAPH 2016 Asia) Bilateral Guided Upsampling <Br>
+**[Author]** [Jiawen Chen](https://people.csail.mit.edu/jiawen/), Andrew Adams, [Neal Wadhwa](https://nealwadhwa.com/), [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/) <Br>
+**[[Matlab-Code](https://github.com/google/bgu)]** <Br>
+
+	
 
