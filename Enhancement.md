@@ -20,12 +20,21 @@
 3) 学习映射参数部分, 采用bilateral grid的思路. 第三个维度被解释成8*12的网格, 意思是对8个灰度level做不同的色彩映射. 处理时选择哪个level的参数, 由high res分支生成的引导图决定. <Br> 
  
 ### EnhanceGAN ★ 
-**[Paper]** (arXiv 1707) Aesthetic-Driven Image Enhancement by Adversarial Learning <Br>
+**[Paper]** (MM 2018) Aesthetic-Driven Image Enhancement by Adversarial Learning <Br>
 **[Author]** 	Yubin Deng, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/index.html),	[Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml)  <Br>
+**[[Project](http://personal.ie.cuhk.edu.hk/~dy015/ImageAesthetics/EnhanceGAN.html)]** **[[Torch-Code](https://github.com/dannysdeng/EnhanceGAN)]**<Br>
 1) weakly supervised方法, 学习crop和色彩变换参数, 增强aesthetic quality
 
+
+### PPCN ☆
+**[Paper]** (ECCVW 2018) Perception-Preserving Convolutional Networks for Image Enhancement on Smartphones <Br>
+**[Author]**Zheng Hui, Xiumei Wang, Lirui Deng, [Xinbo Gao](http://see.xidian.edu.cn/faculty/xbgao/) <Br>
+**[[TF-Code](https://github.com/Zheng222/PPCN)]**   <Br>
+ECCV PIRM(Perceptual Image Restoration and Manipulation ) 2018竞赛, 一个快速图像增强方案
+
+
 ### FEQE ☆
-**[Paper]** (ECCVW 2018)  Fast and Efficient Image Quality Enhancement via Desubpixel Convolutional Neural Networks, <Br>
+**[Paper]** (ECCVW 2018)  Fast and Efficient Image Quality Enhancement via Desubpixel Convolutional Neural Networks <Br>
 **[Author]** [Thang Vu](https://thangvubk.github.io/), Cao V. Nguyen, Trung X. Pham, Tung M. Luu, and Chang D. Yoo  <Br>
 **[[TF-Code](https://github.com/thangvubk/FEQE)]**   <Br>
 使用pixel shuffle的实时图像增强网络
