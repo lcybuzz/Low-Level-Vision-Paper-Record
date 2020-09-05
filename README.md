@@ -90,7 +90,7 @@
 # Competition
 [CVPR NTIRE] New Trends in Image Restoration and Enhancement Challenges, 图像超分辨率、图像去噪、去模糊、去摩尔纹、重建、去雾 <Br>
 [CVPR LPCVC] Low Power Computer Vision Challenge, 低功耗计算机视觉、目标检测、图像分类 <Br>
-[ECCV AIM] Advances in Image Manipulation workshop and challenges
+[ECCV AIM] Advances in Image Manipulation workshop and challenges <Br>
 [ECCV PIRM] Perceptual Image Restoration and Manipulation, 貌似只有18, 19两届 <Br>
 
 # To See
