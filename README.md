@@ -79,6 +79,8 @@
 
 [传统图像处理算法实现] https://github.com/BBuf/Image-processing-algorithm
 
+[一些基于C++的对比度增强算法实现] https://github.com/dengyueyun666/Image-Contrast-Enhancement
+
 [传统图像质量增强的系列blog] https://www.cnblogs.com/Imageshop/category/535367.html
 
 [ISP介绍blog] https://blog.csdn.net/qq_42261630/article/details/102918149
