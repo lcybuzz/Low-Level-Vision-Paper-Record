@@ -41,4 +41,9 @@
 **[Author]**  Yuanjie Shao, [Lerenhan Li](https://sites.google.com/view/lerenhanli/homepage), [Wenqi Ren](https://sites.google.com/site/renwenqi888/), [Changxin Gao](https://sites.google.com/site/changxingao), Nong Sang<Br>
 **[[Pytorch-Code](https://github.com/HUSTSYJ/DA_dahazing)]**  <Br>
 粗读, 提出了一个生成数据集训练的网络迁移到真实图像去雾中的框架, 使用两个变换网络和GAN完成Syn和Real数据间的相互迁移.
+	
+### FFA=Net
+**[Paper]**  (AAAI 2020) FFA-Net: Feature Fusion Attention Network for Single Image Dehazing <Br>
+**[Author]**  Xu Qin, Zhilin Wang, Yuanchao Bai, Xiaodong Xie, Huizhu Jia <Br>
+**[[Pytorch-Code](https://github.com/zhilin007/FFA-Net)]**  <Br>
 								     
