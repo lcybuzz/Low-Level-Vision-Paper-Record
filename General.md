@@ -45,6 +45,12 @@
 **[[Project](https://sites.google.com/site/jspanhomepage/)]** <Br>
 大致浏览, 用CNN预测guided filter中的系数A和b. <Br>
 
+
+### DNI
+**[Paper]** (CVPR 2019) Deep Network Interpolation <Br>
+**[Author]** [Xintao Wang](https://xinntao.github.io/), [Ke Yu](https://yuke93.github.io/), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html), [Xiaoou Tang](), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
+**[[Project](https://xinntao.github.io/projects/DNI)]** <Br>
+
 ### SGN 
 **[Paper]** (ICCV 2019) Self-Guided Network for Fast Image Denoising <Br>
 **[Author]** [Shuhang Gu](https://sites.google.com/site/shuhanggu/), Yawei Li, Luc Van Gool, [Radu Timofte](http://people.ee.ethz.ch/~timofter/)  <Br>
