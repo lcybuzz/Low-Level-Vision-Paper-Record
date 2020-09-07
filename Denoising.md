@@ -32,6 +32,16 @@
 1) 大致浏览. 采用一个FCN估计噪声level, 噪声level map与输入concat然后输入一类似U-Net的网络去噪. <Br>
 2) 可以学习其网络和训练细节. <Br>
 
+### FC-AIDE
+**[Paper]** (CVPR 2019) FC-AIDE: Fully Convolutional Adaptive Image Denoiser<Br>
+**[Author]** [Sungmin cha](https://sites.google.com/view/sungmin-cha/), [Taesup Moon](https://mindlab-skku.github.io/)<Br>
+**[[TF-Code](https://github.com/csm9493/FC-AIDE-Keras)]**  <Br>
+
+### FOCNet
+**[Paper]** (CVPR 2019) FOCNet: A Fractional Optimal Control Network for Image Denoising.<Br>
+**[Author]** Xixi Jia, Sanyang Liu, Xiangchu Feng, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
+**[[Matlab-Code](https://github.com/hsijiaxidian/FOCNet)]**  <Br>
+
 ### CycleISP ★
 **[Paper]** (CVPR 2020 Oral) CycleISP: Real Image Restoration via Improved Data Synthesis <Br>
 **[Author]** [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en)<Br>
