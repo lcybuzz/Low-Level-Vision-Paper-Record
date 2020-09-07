@@ -44,8 +44,14 @@
 
 ### VDNet
 **[Paper]** (NeurIPS 2019) Variational Denoising Network: Toward Blind Noise Modeling and Removal<Br>
-**[Author]**Zongsheng Yue, [Hongwei Yong](https://sites.google.com/view/yonghongwei-homepage/%E9%A6%96%E9%A1%B5), Qian Zhao, [Deyu Meng](http://gr.xjtu.edu.cn/web/dymeng), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
+**[Author]** Zongsheng Yue, [Hongwei Yong](https://sites.google.com/view/yonghongwei-homepage/%E9%A6%96%E9%A1%B5), Qian Zhao, [Deyu Meng](http://gr.xjtu.edu.cn/web/dymeng), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
 **[[Pytorch-Code](https://github.com/zsyOAOA/VDNet)]**  <Br>
+	
+	
+### *selfsupervised-denoising*
+**[Paper]** (NeurIPS 2019) High-Quality Self-Supervised Deep Image Denoising <Br>
+**[Author]** [Samuli Laine](https://users.aalto.fi/~laines9/), [Tero Karras](https://research.nvidia.com/person/tero-karras), [Jaakko Lehtinen](https://users.aalto.fi/~lehtinj7/), [Timo Aila](https://users.aalto.fi/~ailat1/)<Br>
+**[[TF-Code](https://github.com/NVlabs/selfsupervised-denoising)]**  <Br>
 	
 
 ### CycleISP ★
