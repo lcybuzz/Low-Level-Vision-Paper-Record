@@ -46,10 +46,11 @@
 大致浏览, 用CNN预测guided filter中的系数A和b. <Br>
 
 
-### DNI
+### DNI ★☆
 **[Paper]** (CVPR 2019) Deep Network Interpolation <Br>
 **[Author]** [Xintao Wang](https://xinntao.github.io/), [Ke Yu](https://yuke93.github.io/), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html), [Xiaoou Tang](), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
 **[[Project](https://xinntao.github.io/projects/DNI)]** <Br>
+大致浏览, 通过对filter插值取得两个或多个任务间过渡的效果. 为保证两个filter直接有强相关性，用一个模型作为另一个模型的pretrain model.
 
 ### SGN 
 **[Paper]** (ICCV 2019) Self-Guided Network for Fast Image Denoising <Br>
