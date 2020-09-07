@@ -38,9 +38,15 @@
 **[[TF-Code](https://github.com/csm9493/FC-AIDE-Keras)]**  <Br>
 
 ### FOCNet
-**[Paper]** (CVPR 2019) FOCNet: A Fractional Optimal Control Network for Image Denoising.<Br>
+**[Paper]** (CVPR 2019) FOCNet: A Fractional Optimal Control Network for Image Denoising<Br>
 **[Author]** Xixi Jia, Sanyang Liu, Xiangchu Feng, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
 **[[Matlab-Code](https://github.com/hsijiaxidian/FOCNet)]**  <Br>
+
+### VDNet
+**[Paper]** (NeurIPS 2019) Variational Denoising Network: Toward Blind Noise Modeling and Removal<Br>
+**[Author]**Zongsheng Yue, [Hongwei Yong](https://sites.google.com/view/yonghongwei-homepage/%E9%A6%96%E9%A1%B5), Qian Zhao, [Deyu Meng](http://gr.xjtu.edu.cn/web/dymeng), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
+**[[Pytorch-Code](https://github.com/zsyOAOA/VDNet)]**  <Br>
+	
 
 ### CycleISP ★
 **[Paper]** (CVPR 2020 Oral) CycleISP: Real Image Restoration via Improved Data Synthesis <Br>
