@@ -67,3 +67,9 @@
 **[Author]** [Kaixuan Wei](https://kxwei.net/), [Ying Fu](https://ying-fu.github.io/), [Jiaolong Yang](http://jlyang.org/), Hua Huang<Br>
 **[[Pytorch-Code & Dataset](https://github.com/Vandermode/ELD)]**  <Br>
 较为全面的分析了相机噪声来源, 并据此提出了一个高度模拟真实的噪声生成模型. 有趣的论文, 目前没有做基于Raw的处理, 故没有深入研究.
+
+
+### *Practical Deep Raw Image Denoising on Mobile Devices*
+**[Paper]** (ECCV 2020 Spotlight) Practical Deep Raw Image Denoising on Mobile Devices <Br>
+**[Author]** Yuzhi Wang, [Haibin Huang](https://brotherhuang.github.io/), Qin Xu, Jiaming Liu, Yiqun Liu, [Jue Wang](https://www.juew.org/)<Br>
+
