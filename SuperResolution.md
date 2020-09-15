@@ -25,3 +25,9 @@
 **[Author]** Yuanbo Zhou, Wei Deng, Tong Tong, Qinquan Gao<Br>
 **[[Pytorch-Code](https://github.com/fzuzyb/2020NTIRE-Guided-Frequency-Separation-Network-for-RWSR)]** <Br>
 使用一套基于GAN的无监督方案生成真实LR图像对, 在该方案中提出了所谓颜色引导生成器网络, 用于产生AdaIn中的参数. 
+
+### MAFFSRN ★☆
+**[Paper]**  (arXiv 2008) Ultra Lightweight Image Super-Resolution with Multi-Attention Layers <Br>
+**[Author]** Abdul Muqeet, Jiwon Hwang, Subin Yang, Jung Heum Kang, Yongwoo Kim, Sung-Ho Bae<Br>
+**[[Code](https://github.com/AbdulMoqeet/MAFFSRN)]** <Br>
+轻量级超分网络, 在AIM 2020上取得了不错的成绩, 结构可学习
