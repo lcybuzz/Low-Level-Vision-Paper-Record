@@ -7,6 +7,24 @@
     
 
 ## General DL Methods
+
+### *Deep Joint Image Filtering*
+**[Paper]** Deep Joint Image Filtering <Br>
+**[Year]** ECCV 2016 <Br>
+**[Author]** [Yijun Li](https://yijunmaverick.github.io/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/), [Narendra Ahuja](http://vision.ai.illinois.edu/ahuja.html), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
+**[Pages]** <Br>
+http://vllab1.ucmerced.edu/~yli62/DJF_residual/ <Br>
+https://github.com/Yijunmaverick/DeepJointFilter <Br>
+**[Description]** <Br>
+	
+### *Learning Recursive Filters for Low-Level Vision via a Hybrid Neural Network*
+**[Paper]** Learning Recursive Filters for Low-Level Vision via a Hybrid Neural Network <Br>
+**[Year]** ECCV 2016 Oral<Br>
+**[Author]**   		[Sifei Liu](https://www.sifeiliu.net/), [Jinshan Pan](http://vllab1.ucmerced.edu/~jinshan/), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
+**[Pages]** <Br>
+https://www.sifeiliu.net/linear-rnn <Br>
+https://github.com/Liusifei/caffe-lowlevel <Br>
+**[Description]** <Br>
  
 ### Fast Image Processing ★★
 **[Paper]** (ICCV 2017) Fast Image Processing with Fully-Convolutional Networks <Br>
