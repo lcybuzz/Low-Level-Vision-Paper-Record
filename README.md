@@ -2,7 +2,7 @@
 
 # Table of Contents
 - <a href='Restoration.md'> Restoration </a>
-- <a href='Enhancement.md'> Image Enhancement </a>
+- <a href='Enhancement & Restoration.md'> Enhancement & Restoration </a>
 - <a href='LowLight.md'> Low Light </a>
 - <a href='Denoising.md'> Denoising </a>
 - <a href='Debluring.md'> Debluring </a>
