@@ -14,7 +14,16 @@
 **[Paper]** (arXiv 1711) MSR-net:Low-light Image Enhancement Using Deep Convolutional Network <Br>
 **[Author]** Liang Shen, Zihan Yue, Fan Feng, Quan Chen, Shihao Liu, Jie Ma <Br>
 用CNN做亮度增强较早的一篇, 个人觉得该网络结构可能未必效果很好, 但思路值得学习. 本文认为传统的MSR(multi scale Retinex)在实际应用中可以DoG的形式近似, 不同核的高斯函数可用若干个卷积stack代替. 提出的网络首先将低光照输入做不同程度的亮度调整并变换到log域, 之后再仿照MSR的形式用CNN对输入进行亮度增强, 最后是一个1x1的颜色恢复模块. 
+
+
+### Exposure ★
+**[Paper]** (SIGGRAPH 2018) Exposure: A White-Box Photo Post-Processing Framework <Br>
+**[Author]** [Yuanming Hu](http://taichi.graphics/me/), [Hao He](http://people.csail.mit.edu/hehaodele/), Chenxi Xu, [Baoyuan Wang](https://sites.google.com/site/zjuwby/), Stephen Lin <Br>
+**[[TF-Code](https://github.com/yuanming-hu/exposure)]** <Br> 
+胡渊明大神在图像质量增强领域的一篇论文, 用增强学习对图像进行对比度, 曝光度, gamma等方面的校正. 由于实际部署的限制, 目前未对增强学习有所了解.
 	
+	
+
 ### SICE 
 **[Paper]** (TIP 2018) Learning a Deep Single Image Contrast Enhancer from Multi-Exposure Images <Br>
 **[Author]** [Jianrui Cai](https://csjcai.github.io/), [Shuhang Gu](https://sites.google.com/site/shuhanggu/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
