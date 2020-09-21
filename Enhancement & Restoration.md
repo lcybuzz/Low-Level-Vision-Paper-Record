@@ -57,6 +57,11 @@ UNet + Global Pooling feature + 输入输出feature间的elementwise scaling
 **[Paper]** (TIP 2019) Low-Light Image Enhancement via a Deep Hybrid Network <Br>
 **[Author]** [Wenqi Ren](https://sites.google.com/site/renwenqi888/home), [Sifei Liu](https://www.sifeiliu.net/), [Lin Ma](http://forestlinma.com/), [Qianqian Xu](https://qianqianxu010.github.io/), [Xiangyu Xu](https://sites.google.com/view/xiangyuxu), [Xiaochun Cao](http://people.ucas.ac.cn/~0022382?language=en), Junping Du, [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)  <Br>
 **[[Code](https://sites.google.com/site/renwenqi888/home)]**   <Br>	
+	
+### *CURL: Neural Curve Layers for Global Image Enhancement*
+**[Paper]** (arXiv 1911) CURL: Neural Curve Layers for Global Image Enhancement <Br>
+**[Author]** [Sean Moran](http://www.seanjmoran.com/), [Steven McDonagh](https://biomedia.doc.ic.ac.uk/person/steven-mcdonagh/), [Gregory Slabaugh](http://www.gregslabaugh.net/)  <Br>
+**[[Pytorch-Code](https://github.com/sjmoran/neural_curve_layers)]** 
 
 ### FUnIE-GAN ★
 **[Paper]** (RAL 2020) Fast Underwater Image Enhancement for Improved Visual Perception <Br>
