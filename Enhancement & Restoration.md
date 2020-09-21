@@ -1,7 +1,7 @@
 # Table of Contents
-- [Image Enhancementn](#image-enhancement)
-- [DL Restoration](#dl-restoration)
-- [Restoration & Enhancementn](#restoration-&-enhancement)
+- [Image Enhancement](#image-enhancement)
+- [Image Restoration](#image-restoration)
+- [Restoration&Enhancementn](#restoration-&-enhancement)
 - [Traditional Restoration](#traditional-restoration)
 
 
@@ -82,7 +82,7 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 
 	
 	
-# DL Restoration
+# Image Restoration
 	
 ### DualCNN ★
 **[Paper]**  (CVPR 2018) Learning Dual Convolutional Neural Networks for Low-Level Vision  <Br>
@@ -125,7 +125,7 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 
 
 
-# Restoration & Enhancementn
+# Restoration & Enhancement
 ### MIRNet
 **[Paper]** (ECCV 2030)  Learning Enriched Features for Real Image Restoration and Enhancement<Br>
 **[Author]**  [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en)  <Br>
