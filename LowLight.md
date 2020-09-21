@@ -80,6 +80,12 @@ UNet + cycGAN, 无需paired样本的图像增强方法, 可以参考, 只是代�
 **[[TF-code](https://github.com/wangruixing/DeepUPE)]** <Br>
 同样基于Retinex理论, 但网络只预测illumination map, 使用了reconstruction, color和smooth loss. 整个工程都建立在HDRNet的基础上. 用联合上采样的思路做tone mapping的思路感觉可以挖掘一下.
 
+
+### *Learning digital camera pipeline for extreme low-light imaging*
+**[Paper]** (arXiv 1904) Learning digital camera pipeline for extreme low-light imaging <Br>
+**[Author]**  Syed Waqas Zamir, [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Fahad Shahbaz Khan](https://sites.google.com/view/fahadkhans/home), Ling Shao <Br>
+
+
 ### EnlightenGAN ★★
 **[Paper]** (arXiv 1906) EnlightenGAN: Deep Light Enhancement without Paired Supervision <Br>
 **[Author]** [Yifan Jiang](http://yifanjiang.net/), [Xinyu Gong](https://gongxinyuu.github.io/), Ding Liu, [Yu Cheng](https://sites.google.com/site/chengyu05), [Chen Fang](http://fangchen.org/), [Xiaohui Shen](https://xiaohuishen.github.io/), [Jianchao Yang](http://www.ifp.illinois.edu/~jyang29/), Pan Zhou, Zhangyang Wang  <Br>
