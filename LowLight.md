@@ -34,6 +34,11 @@
 **[Author]** [Wenjing Wang](https://daooshee.github.io/website/),[Chen Wei](https://weichen582.github.io/), [Wenhan Yang](https://flyywh.github.io/index.html), [Jiaying Liu](http://39.96.165.147/people/liujiaying.html) <Br>
 **[[Project](https://daooshee.github.io/fgworkshop18Gladnet/)]**   **[[TF-Code](https://github.com/weichen582/GLADNet)]** <Br>
 encoder-decoder + refine结构的网络
+	
+### LightenNet
+**[Paper]** (PRL 2018) LightenNet: A Convolutional Neural Network For Weakly Illuminated Image Enhancement <Br>
+**[Author]** [Chongyi Li](https://li-chongyi.github.io/sub_publication.html), Jichang Guo, [Fatih Porikli](http://www.porikli.com/), Yanwei Pang <Br>
+**[[Project](https://li-chongyi.github.io/proj_lowlight.html)]**  	
 
 ### RetinexNet ★
 **[Paper]** (BMVC 2018 Oral) Deep Retinex Decomposition for Low-Light Enhancement <Br>
@@ -53,6 +58,11 @@ encoder-decoder + refine结构的网络
 **[[TF-Code](https://github.com/nothinglo/Deep-Photo-Enhancer)]** **[[TF-Code2](https://github.com/pnbao/deep-photo-enhance)]**<Br>
 UNet + cycGAN, 无需paired样本的图像增强方法, 可以参考, 只是代码有一点点乱
 
+### Distort-and-Recover
+**[Paper]** (CVPR 2018) Distort-and-recover: Color Enhancement Using Deep Reinforcement Learning <Br>
+**[Author]** Jongchan Park, [Joon-Young Lee](https://joonyoung-cv.github.io/), [Donggeun Yoo](https://dgyoo.github.io/), In So Kweon <Br>
+**[[TF-Code](https://github.com/Jongchan/DISTORT-AND-RECOVER-CVPR18)]**<Br>
+	
 ### DeepExposure
 **[Paper]** (NIPS 2018) DeepExposure: Learning to Expose Photos with Asynchronously Reinforced Adversarial Learning <Br>
 **[Author]** Runsheng Yu, Wenyu Liu, Yasen Zhang, Zhi Qu, [Deli Zhao](https://sites.google.com/site/zhaodeli/), Bo Zhang <Br>
