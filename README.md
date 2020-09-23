@@ -5,7 +5,6 @@
 - <a href='Enhancement & Restoration.md'> Enhancement & Restoration </a>
 - <a href='LowLight.md'> Low Light </a>
 - <a href='Denoising.md'> Denoising </a>
-- <a href='Debluring.md'> Debluring </a>
 - <a href='ReflectionRemoval.md'> Reflection Removal </a>
 - <a href='SuperResolution.md'> Super Resolution </a>
 - <a href='Few-Shot.md'> Few-Shot</a>
@@ -15,6 +14,7 @@
 - <a href='UsingRaw.md'> Using Raw </a>
 - <a href='ISP.md'> ISP </a>
 - <a href='Misc.md'> Misc </a>
+- <a href='Debluring.md'> Debluring (Archived) </a>
 - <a href='Fusion.md'> Fusion (Archived) </a>
 - [Dataset](#dataset)
 - [Useful Resources](#useful-resources)
