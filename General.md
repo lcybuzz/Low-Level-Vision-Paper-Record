@@ -119,6 +119,7 @@ https://github.com/Liusifei/caffe-lowlevel <Br>
 ### Fast bilateral filtering for the display of high-dynamic-range images
 **[Paper]** (SIGGRAPH 2002) Fast bilateral filtering for the display of high-dynamic-range images <Br>
 **[Author]** [Frédo Durand](http://people.csail.mit.edu/fredo/), Julie Dorsey  <Br>
+**[[Project](http://people.csail.mit.edu/fredo/PUBLI/Siggraph2002/)]** **[[Code](http://people.csail.mit.edu/sparis/bf/#code)]**
 	
 ### Bilateral Grid
 **[Paper]** (SIGGRAPH 2007) Real-time edge-aware image processing with the bilateral grid <Br>
@@ -127,7 +128,7 @@ https://github.com/Liusifei/caffe-lowlevel <Br>
 ### JBU
 **[Paper]** (SIGGRAPH 2007) Joint Bilateral Upsampling <Br>
 **[Author]**  [Johannes Kopf](http://johanneskopf.de/), Michael F. Cohen, [Dani Lischinski](https://www.cs.huji.ac.il/~danix/), Matt Uyttendaele <Br>
-**[[Project](http://people.csail.mit.edu/fredo/PUBLI/Siggraph2002/)]**, **[[Code](http://people.csail.mit.edu/sparis/bf/#code)]**
+**[[Project](http://johanneskopf.de/publications/jbu/)]**
 	
 ### BGU
 **[Paper]** (SIGGRAPH 2016 Asia) Bilateral Guided Upsampling <Br>
