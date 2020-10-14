@@ -153,6 +153,9 @@ RetinexNet+GAN
 **[Paper]** (arXiv 2005) Unsupervised Real-world Low-light Image Enhancement with Decoupled Networks <Br>
 **[Author]** [Wei Xiong](https://wxiong.me/publications/), Ding Liu, Xiaohui Shen, [Chen Fang](http://fangchen.org/), [Jiebo Luo](https://www.cs.rochester.edu/u/jluo/)  <Br>
 	
+### Deep Bilateral Retinex for Low-Light Image Enhancement
+**[Paper]** (arXiv 2007) Deep Bilateral Retinex for Low-Light Image Enhancement <Br>
+**[Author]** Jinxiu Liang, Yong Xu, [Yuhui Quan](https://csyhquan.github.io/), Jingwen Wang, [Haibin Ling](https://www3.cs.stonybrook.edu/~hling/), [Hui Ji](https://blog.nus.edu.sg/matjh/)  <Br>
 	
 	
 	
