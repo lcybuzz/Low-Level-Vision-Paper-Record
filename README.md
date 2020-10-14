@@ -81,7 +81,8 @@
 
 [一些基于C++的对比度增强算法实现] https://github.com/dengyueyun666/Image-Contrast-Enhancement
 
-[传统图像质量增强的系列blog] https://www.cnblogs.com/Imageshop/category/535367.html
+[传统图像质量增强的系列blog-1] https://www.cnblogs.com/Imageshop/category/535367.html
+[传统图像质量增强的系列blog-2] https://blog.csdn.net/maozefa/article/list/1
 
 [ISP介绍blog] https://blog.csdn.net/qq_42261630/article/details/102918149
 
