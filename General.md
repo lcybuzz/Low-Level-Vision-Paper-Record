@@ -116,11 +116,17 @@ https://github.com/Liusifei/caffe-lowlevel <Br>
 3) 从paper中看, 该方法对非对齐的多模数据滤波效果不错, 可以在设计DL方案时作为参考. <Br>
 4) 算法的局限: 1.weight volume优化的步骤过于耗时; 2. cost volume的准确性仍依赖于距离的计算准则, 现有的例如NCC等策略也不能完美解决多模数据的相似性度量问题.<Br>
 
+
 ### Fast bilateral filtering for the display of high-dynamic-range images
 **[Paper]** (SIGGRAPH 2002) Fast bilateral filtering for the display of high-dynamic-range images <Br>
 **[Author]** [Frédo Durand](http://people.csail.mit.edu/fredo/), Julie Dorsey  <Br>
 **[[Project](http://people.csail.mit.edu/fredo/PUBLI/Siggraph2002/)]** **[[Code](http://people.csail.mit.edu/sparis/bf/#code)]**
-	
+
+### A Fast Approximation of the Bilateral Filter using a Signal Processing Approach
+**[Paper]** (ECCV 2006) A Fast Approximation of the Bilateral Filter using a Signal Processing Approach <Br>
+**[Author]** [Frédo Durand](http://people.csail.mit.edu/fredo/)  <Br>
+
+
 ### Bilateral Grid
 **[Paper]** (SIGGRAPH 2007) Real-time edge-aware image processing with the bilateral grid <Br>
 **[Author]** [Jiawen Chen](https://people.csail.mit.edu/jiawen/), [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Frédo Durand](http://people.csail.mit.edu/fredo/)  <Br>
