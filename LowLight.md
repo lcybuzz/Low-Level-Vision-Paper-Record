@@ -162,8 +162,12 @@ RetinexNet+GAN
 **[Author]** [Feifan Lv](https://lvfeifan.github.io/), Bo Liu, [Feng Lu](http://shi.buaa.edu.cn/lufeng/)  <Br>
 1) 超轻量级网络(~5k参数), 同时成立过曝光和欠曝光问题, 效果不错
 2) 用一个illumination net预测原图和1-原图的illumination, 用来解决retinex理论不能处理过曝的局限. 然后把欠曝光修复结果, 过曝修复结果和原图送到fusion net中预测三个分量的权重, 进行加权融合. 最后用一个restoration net去除噪声和artifacts
-	
-	
+
+### *Integrating Semantic Segmentation and Retinex Model* ★
+**[Paper]** (MM 2020) Integrating Semantic Segmentation and Retinex Model for Low Light Image Enhancement <Br>
+**[Author]** [Minhao Fan](https://xfw-go.github.io/), [Wenjing Wang](https://daooshee.github.io/website/), [Wenhan Yang](https://flyywh.github.io/), [Jiaying Liu](http://39.96.165.147/people/liujiaying.html)  <Br>
+**[[Project](https://mm20-semanticreti.github.io/)]** <Br>
+将分割特征与Retinex网络结合做亮度增强
 
 ## Traditional Methods
 
