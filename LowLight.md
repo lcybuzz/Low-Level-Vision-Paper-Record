@@ -156,7 +156,12 @@ RetinexNet+GAN
 ### Deep Bilateral Retinex for Low-Light Image Enhancement
 **[Paper]** (arXiv 2007) Deep Bilateral Retinex for Low-Light Image Enhancement <Br>
 **[Author]** Jinxiu Liang, Yong Xu, [Yuhui Quan](https://csyhquan.github.io/), Jingwen Wang, [Haibin Ling](https://www3.cs.stonybrook.edu/~hling/), [Hui Ji](https://blog.nus.edu.sg/matjh/)  <Br>
-	
+
+### *Fast Enhancement for Non-Uniform Illumination* ★★
+**[Paper]** (MM 2020) Fast Enhancement for Non-Uniform Illumination Images using Light-weight CNNs <Br>
+**[Author]** [Feifan Lv](https://lvfeifan.github.io/), Bo Liu, [Feng Lu](http://shi.buaa.edu.cn/lufeng/)  <Br>
+1) 超轻量级网络(~5k参数), 同时成立过曝光和欠曝光问题, 效果不错
+2) 用一个illumination net预测原图和1-原图的illumination, 用来解决retinex理论不能处理过曝的局限. 然后把欠曝光修复结果, 过曝修复结果和原图送到fusion net中预测三个分量的权重, 进行加权融合. 最后用一个restoration net去除噪声和artifacts
 	
 	
 
