@@ -124,7 +124,8 @@ https://github.com/Liusifei/caffe-lowlevel <Br>
 
 ### A Fast Approximation of the Bilateral Filter using a Signal Processing Approach
 **[Paper]** (ECCV 2006) A Fast Approximation of the Bilateral Filter using a Signal Processing Approach <Br>
-**[Author]** [Frédo Durand](http://people.csail.mit.edu/fredo/)  <Br>
+**[Author]** [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Frédo Durand](http://people.csail.mit.edu/fredo/)  <Br>
+**[[Code](http://people.csail.mit.edu/sparis/bf/#code)]**
 
 
 ### Bilateral Grid
