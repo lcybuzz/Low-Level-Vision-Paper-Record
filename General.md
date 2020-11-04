@@ -125,7 +125,7 @@ https://github.com/Liusifei/caffe-lowlevel <Br>
 ### *A Fast Approximation of the Bilateral Filter using a Signal Processing Approach* ★★
 **[Paper]** (ECCV 2006) A Fast Approximation of the Bilateral Filter using a Signal Processing Approach <Br>
 **[Author]** [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Frédo Durand](http://people.csail.mit.edu/fredo/)  <Br>
-**[[Code](http://people.csail.mit.edu/sparis/bf/#code)]** **[[A Good Blog](https://niecongchong.github.io/2019/08/28/%E5%A2%9E%E7%BB%B4%E5%9E%8B%E5%BF%AB%E9%80%9F%E5%8F%8C%E8%BE%B9%E6%BB%A4%E6%B3%A2/)]** 
+**[[Code](http://people.csail.mit.edu/sparis/bf/#code)]** **[[A Good Blog](https://niecongchong.github.io/2019/08/28/%E5%A2%9E%E7%BB%B4%E5%9E%8B%E5%BF%AB%E9%80%9F%E5%8F%8C%E8%BE%B9%E6%BB%A4%E6%B3%A2/)]**    <Br>
 Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的维度, 将原来的非线性滤波操作转化为3D空间中的线性卷积. 并且, 高斯卷积属于低通操作, 因此可以把3D网络做下采样而不损失精度, 在小分辨上进行3D卷积, 速度大大提升.
 
 
