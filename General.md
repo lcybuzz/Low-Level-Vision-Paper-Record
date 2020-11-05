@@ -132,6 +132,7 @@ Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的
 ### Bilateral Grid 
 **[Paper]** (SIGGRAPH 2007) Real-time edge-aware image processing with the bilateral grid <Br>
 **[Author]** [Jiawen Chen](https://people.csail.mit.edu/jiawen/), [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Frédo Durand](http://people.csail.mit.edu/fredo/)  <Br>
+**[[Project](Real-time Edge-Aware Image Processing with the Bilateral Grid)]** <Br>
 	
 ### JBU
 **[Paper]** (SIGGRAPH 2007) Joint Bilateral Upsampling <Br>
