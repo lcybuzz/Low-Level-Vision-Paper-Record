@@ -135,11 +135,11 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 
 
 # Restoration and Enhancement
-### MIRNet
-**[Paper]** (ECCV 2030)  Learning Enriched Features for Real Image Restoration and Enhancement<Br>
+### MIRNet ★
+**[Paper]** (ECCV 2020)  Learning Enriched Features for Real Image Restoration and Enhancement<Br>
 **[Author]**  [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en)  <Br>
 **[[Pytorch-Code](https://github.com/swz30/MIRNet)]**  <Br>
-
+提出了一个就多尺度特征融合的网络用于去噪, 超分, 增强等任务. 使用attention的思想设计了很多模块, 性能不错, 在各种任务上适用性看起来较强
 
 	
 	
