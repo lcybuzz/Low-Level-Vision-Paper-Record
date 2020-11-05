@@ -53,11 +53,6 @@ ECCV PIRM(Perceptual Image Restoration and Manipulation ) 2018竞赛, 一个快�
 **[[TF-Code](https://github.com/MTlab/rsgunet_image_enhance)]**   <Br>
 UNet + Global Pooling feature + 输入输出feature间的elementwise scaling
 	
-### *Low-Light Image Enhancement via a Deep Hybrid Network*
-**[Paper]** (TIP 2019) Low-Light Image Enhancement via a Deep Hybrid Network <Br>
-**[Author]** [Wenqi Ren](https://sites.google.com/site/renwenqi888/home), [Sifei Liu](https://www.sifeiliu.net/), [Lin Ma](http://forestlinma.com/), [Qianqian Xu](https://qianqianxu010.github.io/), [Xiangyu Xu](https://sites.google.com/view/xiangyuxu), [Xiaochun Cao](http://people.ucas.ac.cn/~0022382?language=en), Junping Du, [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)  <Br>
-**[[Code](https://sites.google.com/site/renwenqi888/home)]**   <Br>	
-	
 ### *CURL: Neural Curve Layers for Global Image Enhancement*
 **[Paper]** (arXiv 1911) CURL: Neural Curve Layers for Global Image Enhancement <Br>
 **[Author]** [Sean Moran](http://www.seanjmoran.com/), [Steven McDonagh](https://biomedia.doc.ic.ac.uk/person/steven-mcdonagh/), [Gregory Slabaugh](http://www.gregslabaugh.net/)  <Br>
