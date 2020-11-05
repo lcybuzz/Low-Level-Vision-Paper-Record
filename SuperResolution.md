@@ -37,3 +37,9 @@
 **[Author]** Abdul Muqeet, Jiwon Hwang, Subin Yang, Jung Heum Kang, Yongwoo Kim, Sung-Ho Bae<Br>
 **[[Code](https://github.com/AbdulMoqeet/MAFFSRN)]** <Br>
 轻量级超分网络, 在AIM 2020上取得了不错的成绩, 结构可学习
+	
+### RFDN ★☆
+**[Paper]**  (arXiv 2009) Residual Feature Distillation Network for Lightweight Image Super-Resolution <Br>
+**[Author]** Jie Liu, Jie Tang, Gangshan Wu<Br>
+**[[Pytorch-Code](https://github.com/njulj/RFDN)]** <Br>
+AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
