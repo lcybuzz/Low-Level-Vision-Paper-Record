@@ -67,6 +67,12 @@ UNet + cycGAN, 无需paired样本的图像增强方法, 可以参考, 只是代�
 **[Paper]** (NIPS 2018) DeepExposure: Learning to Expose Photos with Asynchronously Reinforced Adversarial Learning <Br>
 **[Author]** Runsheng Yu, Wenyu Liu, Yasen Zhang, Zhi Qu, [Deli Zhao](https://sites.google.com/site/zhaodeli/), Bo Zhang <Br>
 
+### *Low-Light Image Enhancement via a Deep Hybrid Network* ☆
+**[Paper]** (TIP 2019) Low-Light Image Enhancement via a Deep Hybrid Network <Br>
+**[Author]** [Wenqi Ren](https://sites.google.com/site/renwenqi888/home), [Sifei Liu](https://www.sifeiliu.net/), [Lin Ma](http://forestlinma.com/), [Qianqian Xu](https://qianqianxu010.github.io/), [Xiangyu Xu](https://sites.google.com/view/xiangyuxu), [Xiaochun Cao](http://people.ucas.ac.cn/~0022382?language=en), Junping Du, [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)  <Br>
+**[[Code](https://sites.google.com/site/renwenqi888/home)]**   <Br>
+分为全局对比度增强和细节增强两支, 细节部分使用了RNN
+	
 ### Progressive Retinex
 **[Paper]** (MM 2019) Progressive Retinex: Mutually Reinforced Illumination-Noise Perception Network for Low Light Image Enhancement<Br>
 **[Author]**  Yang Wang, Yang  Cao Zheng-Jun Zha, [Jing Zhang](https://chaimi2013.github.io/), [Zhiwei  Xiong](http://staff.ustc.edu.cn/~zwxiong/), Wei  Zhang, Feng  Wu <Br>
