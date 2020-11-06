@@ -139,6 +139,7 @@ Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的
 **[Paper]** (SIGGRAPH 2007) Joint Bilateral Upsampling <Br>
 **[Author]**  [Johannes Kopf](http://johanneskopf.de/), Michael F. Cohen, [Dani Lischinski](https://www.cs.huji.ac.il/~danix/), Matt Uyttendaele <Br>
 **[[Project](http://johanneskopf.de/publications/jbu/)]**
+利用guided filter和bilateral filter的思想做上采样, 在小分辨率图上得到某种需要的变换(style transfer, colorization等), 恢复大图时在小图上计算spatial系数, 在原分辨率图上计算range系数.
 	
 ### BGU
 **[Paper]** (SIGGRAPH 2016 Asia) Bilateral Guided Upsampling <Br>
