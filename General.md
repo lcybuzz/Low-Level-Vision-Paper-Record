@@ -129,10 +129,11 @@ https://github.com/Liusifei/caffe-lowlevel <Br>
 Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的维度, 将原来的非线性滤波操作转化为3D空间中的线性卷积. 并且, 高斯卷积属于低通操作, 因此可以把3D网络做下采样而不损失精度, 在小分辨上进行3D卷积, 速度大大提升.
 
 
-### Bilateral Grid 
+### Bilateral Grid ★★
 **[Paper]** (SIGGRAPH 2007) Real-time edge-aware image processing with the bilateral grid <Br>
 **[Author]** [Jiawen Chen](https://people.csail.mit.edu/jiawen/), [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Frédo Durand](http://people.csail.mit.edu/fredo/)  <Br>
 **[[Project](http://groups.csail.mit.edu/graphics/bilagrid/)]** <Br>
+将转换到3D空间的思路离散化, 网格化, 提出bilateral grid这种数据结构. 优化了代码, 在GPU上达到实时. 在多种任务上有良好表现.
 	
 ### JBU
 **[Paper]** (SIGGRAPH 2007) Joint Bilateral Upsampling <Br>
