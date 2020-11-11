@@ -135,16 +135,18 @@ Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的
 **[[Project](http://groups.csail.mit.edu/graphics/bilagrid/)]** <Br>
 将转换到3D空间的思路离散化, 网格化, 提出bilateral grid这种数据结构. 优化了代码, 在GPU上达到实时. 在多种任务上有良好表现.
 	
-### JBU
+### JBU ★★
 **[Paper]** (SIGGRAPH 2007) Joint Bilateral Upsampling <Br>
 **[Author]**  [Johannes Kopf](http://johanneskopf.de/), Michael F. Cohen, [Dani Lischinski](https://www.cs.huji.ac.il/~danix/), Matt Uyttendaele <Br>
 **[[Project](http://johanneskopf.de/publications/jbu/)]**
 利用guided filter和bilateral filter的思想做上采样, 在小分辨率图上得到某种需要的变换(style transfer, colorization等), 恢复大图时在小图上计算spatial系数, 在原分辨率图上计算range系数.
 	
-### BGU
+### BGU ★★☆
 **[Paper]** (SIGGRAPH 2016 Asia) Bilateral Guided Upsampling <Br>
 **[Author]** [Jiawen Chen](https://people.csail.mit.edu/jiawen/), Andrew Adams, [Neal Wadhwa](https://nealwadhwa.com/), [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/) <Br>
 **[[Matlab-Code](https://github.com/google/bgu)]** <Br>
+受Guided Filter启发, 假设输入和经过某种处理的输出在一个小的局部区域内可以由一个线性映射近似, 并且在bilateral space中, 相邻cell之间的映射系数应该是平滑的. 据此提出了由数据项和平滑项组成的目标函数, 可以通过最小二乘法求解, 另外还提出了一个快速近似版本. 优化部分没有看懂.
+	
 
 	
 
