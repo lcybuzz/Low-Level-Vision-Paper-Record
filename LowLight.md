@@ -175,6 +175,12 @@ RetinexNet+GAN
 **[Author]** [Minhao Fan](https://xfw-go.github.io/), [Wenjing Wang](https://daooshee.github.io/website/), [Wenhan Yang](https://flyywh.github.io/), [Jiaying Liu](http://39.96.165.147/people/liujiaying.html)  <Br>
 **[[Project](https://mm20-semanticreti.github.io/)]** <Br>
 将分割特征与Retinex网络结合做亮度增强
+	
+### DALE ★
+**[Paper]** (BMVC 2020) DALE : Dark Region-Aware Low-light Image Enhancement  <Br>
+**[Author]** Dokyeong Kwon, Guisik Kim, [Junseok Kwon](http://prof.cau.ac.kr/~jskwon/) <Br>
+**[[Pytorch-Code](https://github.com/dokyeongK/DALE)]** <Br>
+通过改变每个超像素的亮度生成了一个数据集, 用来训练一个attention网络. 感觉一般.
 
 ## Traditional Methods
 
