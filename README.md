@@ -13,6 +13,7 @@
 - <a href='UsingRaw.md'> Using Raw </a>
 - <a href='ISP.md'> ISP </a>
 - <a href='Misc.md'> Misc </a>
+- <a href='FaceRestoration.md'> Face Restoration </a>
 - <a href='Debluring.md'> Debluring (Archived) </a>
 - <a href='Fusion.md'> Fusion (Archived) </a>
 - [Dataset](#dataset)
