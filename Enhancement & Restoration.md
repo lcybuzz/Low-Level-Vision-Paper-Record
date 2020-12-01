@@ -83,7 +83,20 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Author]** Hui Zeng, [Jianrui Cai](https://csjcai.github.io/), Lida Li, Zisheng Cao, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 **[[Code](https://github.com/HuiZeng/Image-Adaptive-3DLUT)]**   <Br>
 
+### GLeNet
+**[Paper]** (ECCV 2020) Global and Local Enhancement Networks for Paired and Unpaired Image Enhancement <Br>
+**[Author]** Han-Ul Kim, Young Jun Koh, Chang-Su Kim <Br>
+**[[Project](http://mcl.korea.ac.kr/research/hukim-eccv2020-glenet/)]**   **[[Pytorch-Code](https://github.com/dongkwonjin/GleNet)]** <Br>
 
+### PieNet
+**[Paper]** (ECCV 2020) PieNet: Personalized Image Enhancement Network <Br>
+**[Author]** Han-Ul Kim, Young Jun Koh, Chang-Su Kim <Br>
+**[[Project](http://mcl.korea.ac.kr/research/hukim-eccv2020-pienet/)]**   **[[TF-Code](https://github.com/hukim1124/PieNet)]** <Br>
+
+### CSRNet
+**[Paper]** (ECCV 2020) Conditional Sequential Modulation for Efficient Global Image Retouching <Br>
+**[Author]** Jingwen He, Yihao Liu, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), Chao Dong <Br>
+**[[Pytorch-Code](https://github.com/hejingwenhejingwen/CSRNet)]**<Br>
 	
 	
 # Image Restoration
