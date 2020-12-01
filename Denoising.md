@@ -59,6 +59,11 @@
 **[Author]** [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en)<Br>
 **[[Pytorch-Code](https://github.com/swz30/CycleISP)]**  <Br>
 提出了一个从sRGB到RAW相互转换的网络, 在Raw图像上注入高斯噪声用于生成RGB噪声样本.
+
+### Self2Self
+**[Paper]** (CVPR 2020) Self2Self With Dropout: Learning Self-Supervised Denoising From Single Image <Br>
+**[Author]** [Yuhui Quan](https://csyhquan.github.io/), Mingqin Chen, Tongyao Pang, Hui Ji<Br>
+**[[TF-Code](https://github.com/scut-mingqinchen/self2self)]**  <Br>
 	
 	
 ## Raw Denoising
