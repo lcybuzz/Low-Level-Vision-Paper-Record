@@ -1,7 +1,7 @@
 # Table of Contents
 - [De-raining](#de-raining)
-- [Image Demoireing ](#image-demoireing)
-- [Style-Transfer](#style-transfer)
+- [Image Demoireing](#image-demoireing)
+- [Style-Transfer (Archived)](#style-transfer)
 - [Video Enhancement (Archived)](#video-enhancement)
 - [Image Synthesis (Archived)](#image-synthesis)
 
@@ -29,6 +29,20 @@
 **[[TF-Code](https://github.com/zhenngbolun/Learnbale_Bandpass_Filter)]** <Br>
 在DCT变换后的频谱域做摩尔纹提取, 分为3个scale提取不同尺度的摩尔纹. 对带通去取摩尔纹的推导部分没看懂. <Br>
 
+### JDD
+**[Paper]**  (CVPR 2020) Joint Demosaicing and Denoising With Self Guidance  <Br>
+**[Author]** [Lin Liu](http://home.ustc.edu.cn/~ll0825/#home), [Xu Jia](https://stephenjia.github.io/), Jianzhuang Liu, Qi Tian <Br>
+
+### *Wavelet-Based Dual-Branch Networkfor Image Demoireing*
+**[Paper]** (ECCV 2020) Wavelet-Based Dual-Branch Networkfor Image Demoireing  <Br>
+**[Author]**[Lin Liu](http://home.ustc.edu.cn/~ll0825/#home), Jianzhuang Liu, [Shanxin Yuan](https://shanxinyuan.github.io/), [Gregory Slabaugh](http://www.gregslabaugh.net/), [Ales Leonardis](https://www.cs.bham.ac.uk/~leonarda/), Wengang Zhou, Qi Tian <Br>
+**[[Project](http://home.ustc.edu.cn/~ll0825/project_FDNet.html)]** <Br>
+	
+### *Self-Adaptively Learning to Demoiré from Focused and Defocused Image Pairs*
+**[Paper]** (NeurIPS 2020) Self-Adaptively Learning to Demoiré from Focused and Defocused Image Pairs  <Br>
+**[Author]** [Lin Liu](http://home.ustc.edu.cn/~ll0825/#home), [Shanxin Yuan](https://shanxinyuan.github.io/), Jianzhuang Liu, Liping Bao, Gregory Slabaugh, Qi Tian <Br>
+**[[Project](http://home.ustc.edu.cn/~ll0825/project_FDNet.html)]** <Br>
+
 
 
 # Style-Transfer
@@ -36,6 +50,7 @@
 **[Paper]**  (ECCV 2020) Joint Bilateral Learning for Real-time Universal Photorealistic Style Transfer  <Br>
 **[Author]** [Xide Xia](https://xidexia.github.io/), Meng Zhang, [Tianfan Xue](http://people.csail.mit.edu/tfxue/), Zheng Sun, Hui Fang, [Brian Kulis](http://people.bu.edu/bkulis/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/) <Br>
 基于HDRNet的实时风格迁移, 创新点尽管不是很多, 但是工作很有价值
+
 
 
 
