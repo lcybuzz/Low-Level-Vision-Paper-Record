@@ -61,3 +61,8 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 1. 提出了HIDE数据集, 主要关注对人体的deblur <Br>
 2. 提出了一个多分支deblur网络, 根据human-aware子网络预测前背景生成weight map, 将多分枝信息融合处理后输出 <Br>
 	
+### *Deblurring by Realistic Blurring*
+**[Paper]** (CVPR 2020) Deblurring by Realistic Blurring <Br>
+**[Author]** [Kaihao Zhang](https://sites.google.com/view/kaihaozhang), [Wenhan Luo](https://sites.google.com/site/whluoimperial/), Yiran Zhong, [Lin Ma](http://forestlinma.com/), Bjorn Stenger, Wei Liu, [Hongdong Li](http://users.cecs.anu.edu.au/~hongdong/)<Br>
+
+	
