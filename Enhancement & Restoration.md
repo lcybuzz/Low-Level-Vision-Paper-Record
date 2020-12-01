@@ -97,6 +97,12 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Paper]** (ECCV 2020) Conditional Sequential Modulation for Efficient Global Image Retouching <Br>
 **[Author]** Jingwen He, Yihao Liu, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), Chao Dong <Br>
 **[[Pytorch-Code](https://github.com/hejingwenhejingwen/CSRNet)]**<Br>
+
+### Early Exit or Not
+**[Paper]** (ECCV 2020) Early Exit or Not: Resource-Efficient Blind Quality Enhancement for Compressed Images <Br>
+**[Author]** [Qunliang Xing](https://ryanxingql.github.io/), Mai Xu, Tianyi Li, Zhenyu Guan <Br>
+**[[Pytorch-Code](https://github.com/RyanXingQL/RBQE)]**<Br>
+	
 	
 	
 # Image Restoration
