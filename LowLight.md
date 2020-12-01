@@ -182,6 +182,13 @@ RetinexNet+GAN
 **[Author]** Dokyeong Kwon, Guisik Kim, [Junseok Kwon](http://prof.cau.ac.kr/~jskwon/) <Br>
 **[[Pytorch-Code](https://github.com/dokyeongK/DALE)]** <Br>
 通过改变每个超像素的亮度生成了一个数据集, 用来训练一个attention网络. 感觉一般.
+	
+### RRDNet
+**[Paper]** (ICME 2020) Zero-Shot Restoration of Underexposed Images via Robust Retinex Decomposition <Br>
+**[Author]** Anqi Zhu, [Lin Zhang](https://sse.tongji.edu.cn/linzhang/), [Ying Shen](https://sse.tongji.edu.cn/yingshen/), Yong Ma, Shengjie Zhao, Yicong Zhou <Br>
+**[[Pytorch-Code](https://github.com/aaaaangel/RRDNet)]** <Br>
+	
+	
 
 ## Traditional Methods
 
