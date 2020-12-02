@@ -2,7 +2,6 @@
 - [De-raining](#de-raining)
 - [Image Demoireing](#image-demoireing)
 - [Style-Transfer (Archived)](#style-transfer)
-- [Video Enhancement (Archived)](#video-enhancement)
 - [Image Synthesis (Archived)](#image-synthesis)
 
 
@@ -61,15 +60,6 @@
 **[Author]** [Xide Xia](https://xidexia.github.io/), Meng Zhang, [Tianfan Xue](http://people.csail.mit.edu/tfxue/), Zheng Sun, Hui Fang, [Brian Kulis](http://people.bu.edu/bkulis/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/) <Br>
 基于HDRNet的实时风格迁移, 创新点尽管不是很多, 但是工作很有价值
 
-
-
-
-# Video Enhancement
-### ST-SR
-**[Paper]**  (CVPR 2020) Space-Time-Aware Multi-Resolution Video Enhancement<Br>
-**[Author]** [Muhammad Haris](https://alterzero.github.io/), [Greg Shakhnarovich](https://ttic.uchicago.edu/~gregory/), [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/) <Br>
-**[[Project](https://alterzero.github.io/projects/STAR.html)]** **[[Pytorch-Code](https://github.com/alterzero/STARnet)]**<Br>
-  
   
   
 # Image Synthesis
