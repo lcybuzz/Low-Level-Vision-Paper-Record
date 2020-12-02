@@ -2,6 +2,9 @@
 - [Image Enhancement](#image-enhancement)
 - [Image Restoration](#image-restoration)
 - [Restoration and Enhancement](#restoration-and-enhancement)
+- [Image Inpainting](#image-inpainting)
+- [Video Restoration and Enhancement)](#video-restoration-and-enhancement)
+- [Video Inpainting](#video-inpainting)
 - [Traditional Restoration](#traditional-restoration)
 
 
@@ -155,6 +158,54 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[[Pytorch-Code](https://github.com/swz30/MIRNet)]**  <Br>
 提出了一个就多尺度特征融合的网络用于去噪, 超分, 增强等任务. 使用attention的思想设计了很多模块, 性能不错, 在各种任务上适用性看起来较强
 
+
+
+# Image Inpainting
+### Rethinking-Inpainting-MEDFE
+**[Paper]** (ECCV 2020 Oral) Rethinking Image Inpainting via a Mutual Encoder-Decoder with Feature Equalizations<Br>
+**[Author]** Hongyu Liu, Bin Jiang, [Yibing Song](https://ybsong00.github.io/), Wei Huang, Chao Yang <Br>
+**[[Pytorch-Code](https://github.com/KumapowerLIU/Rethinking-Inpainting-MEDFE)]**  <Br>
+
+### ProFill
+**[Paper]** (ECCV 2020) High-Resolution Image Inpainting with Iterative Confidence Feedback and Guided Upsampling <Br>
+**[Author]** [Yu Zeng](https://zengxianyu.github.io/), [Zhe Lin](https://sites.google.com/site/zhelin625/), [Jimei Yang](https://eng.ucmerced.edu/people/jyang44), [Jianming Zhang](https://jimmie33.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Huchuan Lu](https://ice.dlut.edu.cn/lu/) <Br>
+**[[Project](https://zengxianyu.github.io/iic/)]** 	
+
+### VCNet
+**[Paper]** (ECCV 2020) VCNet: A Robust Approach to Blind Image Inpainting <Br>
+**[Author]** [Yi Wang](https://shepnerd.github.io/), [Ying-Cong Chen](https://yingcong.github.io/), Xin Tao, [Jiaya Jia](http://jiaya.me/) <Br>
+**[[Code]](https://github.com/shepnerd/blindinpainting_vcnet)]** 
+	
+### *Guidance and Evaluation: Semantic-Aware Image Inpainting for Mixed Scenes*
+**[Paper]** (ECCV 2020) Guidance and Evaluation: Semantic-Aware Image Inpainting for Mixed Scenes <Br>
+**[Author]** Liang Liao, Jing Xiao, [Zheng Wang](https://wangzwhu.github.io/home/), [Chia-Wen Lin](https://www.ee.nthu.edu.tw/cwlin/), [Shin'ichi Satoh](http://research.nii.ac.jp/~satoh/) <Br>
+	
+	
+	
+
+# Video Restoration and Enhancement
+### ST-SR
+**[Paper]**  (CVPR 2020) Space-Time-Aware Multi-Resolution Video Enhancement<Br>
+**[Author]** [Muhammad Haris](https://alterzero.github.io/), [Greg Shakhnarovich](https://ttic.uchicago.edu/~gregory/), [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/) <Br>
+**[[Project](https://alterzero.github.io/projects/STAR.html)]** **[[Pytorch-Code](https://github.com/alterzero/STARnet)]**<Br>
+
+
+# Video Inpainting
+### *Short-Term and Long-Term Context Aggregation Network for Video Inpainting*
+**[Paper]** (ECCV 2020) Short-Term and Long-Term Context Aggregation Network for Video Inpainting <Br>
+**[Author]** [Ang Li](https://angliunimelb.github.io/), [Shanshan Zhao](https://sshan-zhao.github.io/), [Xingjun Ma](http://xingjunma.com/), [Mingming Gong](https://mingming-gong.github.io/), [Jianzhong Qi](https://people.eng.unimelb.edu.au/jianzhongq/), [Rui Zhang](http://www.ruizhang.info/), [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html), [Ramamohanarao Kotagirig](http://www.cloudbus.org/rao/) <Br>
+
+
+### STTN
+**[Paper]** (ECCV 2020) VCNet: A Robust Approach to Blind Image Inpainting <Br>
+**[Author]** [Yanhong Zeng](https://sites.google.com/view/1900zyh), [Jianlong Fu](https://jianlong-fu.github.io/), Hongyang Chao <Br>
+**[[Pytorch-Code]](https://github.com/researchmm/STTN)]** 
+
+### Depth-Guided-Inpainting
+**[Paper]** (ECCV 2020) DVI: Depth Guided Video Inpainting for Autonomous Driving <Br>
+**[Author]** Miao Liao, Feixiang Lu, Dingfu Zhou, [Sibo Zhang](https://sites.google.com/view/sibozhang/home), Wei Li, [Ruigang Yang](http://www.vis.uky.edu/~ryang/) <Br>
+**[[Project]](https://sites.google.com/view/sibozhang/dvi)]** **[[Code]](https://github.com/sibozhang/Depth-Guided-Inpainting)]** 
+	
 	
 	
 # Traditional Restoration
