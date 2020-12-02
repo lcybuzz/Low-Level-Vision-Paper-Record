@@ -10,7 +10,7 @@
 	
 
 # Face SuperResolution
-### Deep-Iterative-Collaboration
+### Deep-Iterative-Collaboration ★
 **[Paper]** (CVPR 2020) Deep Face Super-Resolution with Iterative Collaboration between Attentive Recovery and Landmark Estimation  <Br>
 **[Author]** Cheng Ma, Zhenyu Jiang, [Yongming Rao](https://raoyongming.github.io/), Jiwen Lu, Jie Zhou <Br>
 **[[Pytorch-Code](https://github.com/Maclory/Deep-Iterative-Collaboration)]** <Br>
