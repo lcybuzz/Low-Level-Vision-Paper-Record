@@ -47,6 +47,11 @@
 **[Author]**[Lin Liu](http://home.ustc.edu.cn/~ll0825/#home), Jianzhuang Liu, [Shanxin Yuan](https://shanxinyuan.github.io/), [Gregory Slabaugh](http://www.gregslabaugh.net/), [Ales Leonardis](https://www.cs.bham.ac.uk/~leonarda/), Wengang Zhou, Qi Tian <Br>
 **[[Project](http://home.ustc.edu.cn/~ll0825/project_FDNet.html)]** <Br>
 	
+### FHDe²Net
+**[Paper]** (ECCV 2020) FHDe²Net: Full High Definition Demoireing Network <Br>
+**[Author]** Bin He, Ce Wang, [Boxin Shi](http://ci.idm.pku.edu.cn/), Ling-Yu Duan <Br>
+**[[Project](http://home.ustc.edu.cn/~ll0825/project_FDNet.html)]** <Br>
+	
 ### *Self-Adaptively Learning to Demoiré from Focused and Defocused Image Pairs*
 **[Paper]** (NeurIPS 2020) Self-Adaptively Learning to Demoiré from Focused and Defocused Image Pairs  <Br>
 **[Author]** [Lin Liu](http://home.ustc.edu.cn/~ll0825/#home), [Shanxin Yuan](https://shanxinyuan.github.io/), Jianzhuang Liu, Liping Bao, Gregory Slabaugh, Qi Tian <Br>
