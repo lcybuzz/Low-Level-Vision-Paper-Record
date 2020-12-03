@@ -82,6 +82,52 @@
 **[Paper]** (CVPR 2020) Basis Prediction Networks for Effective Burst Denoising with Large Kernels <Br>
 **[Author]** [Zhihao Xia](https://www.cse.wustl.edu/~zhihao.xia/), [Federico Perazzi](https://fperazzi.github.io/), [Michael Gharbi](https://www.mgharbi.com/), Kalyan Sunkavalli, [Ayan Chakrabarti](https://projects.ayanc.org/) <Br>
 **[[Project](https://www.cse.wustl.edu/~zhihao.xia/bpn/)]**  <Br>	
+
+### DBSN
+**[Paper]** (ECCV 2020) Unpaired Learning of Deep Image Denoising <Br>
+**[Author]** Xiaohe Wu, Ming Liu, Yue Cao, [Dongwei Ren](https://csdwren.github.io/), [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo) <Br>
+**[[Pytorch-Code](https://github.com/XHWXD/DBSN/)]**  <Br>
+	
+### *Reconstructing the Noise Variance Manifold for Image Denoising*
+**[Paper]** (ECCV 2020) Reconstructing the Noise Variance Manifold for Image Denoising <Br>
+**[Author]** Ioannis Marras, Grigorios G. Chrysos, Ioannis Alexiou, [Gregory Slabaugh](http://www.gregslabaugh.net/), [Stefanos Zafeiriou](https://wp.doc.ic.ac.uk/szafeiri/) <Br>
+**[[Pytorch-Code](https://github.com/XHWXD/DBSN/)]**  <Br>
+
+### *Burst Denoising via Temporally Shifted Wavelet Transforms*
+**[Paper]** (ECCV 2020) Burst Denoising via Temporally Shifted Wavelet Transforms <Br>
+**[Author]** Xuejian Rong, Denis Demandolx, Kevin Matzen, Priyam Chatterjee, Yingli Tian<Br>
+**[[Pytorch-Code](https://github.com/XHWXD/DBSN/)]**  <Br>
+	
+### SFM
+**[Paper]** (ECCV 2020) Burst Denoising via Temporally Shifted Wavelet Transforms <Br>
+**[Author]** [Majed El Helou](https://majedelhelou.github.io/), Ruofan Zhou, Sabine Süsstrunk <Br>
+**[[Pytorch-Code](https://github.com/majedelhelou/SFM)]**  <Br>
+
+### GPDNet
+**[Paper]** (ECCV 2020) BLearning Graph-Convolutional Representations for Point Cloud Denoising <Br>
+**[Author]** Francesca Pistilli, Giulia Fracastoro, [Diego Valsesia](https://ipl.polito.it/people/valsesia/, [Enrico Magli](https://ipl.polito.it/people/enrico-magli/) <Br>
+**[[TF-Code](https://github.com/diegovalsesia/GPDNet)]**  <Br>
+
+### *Spatial Hierarchy Aware Residual Pyramid Network for Time-of-Flight Depth Denoising*
+**[Paper]** (ECCV 2020) Spatial Hierarchy Aware Residual Pyramid Network for Time-of-Flight Depth Denoising <Br>
+**[Author]** Guanting Dong, Yueyi Zhang, [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/) <Br>
+**[[TF-Code](https://github.com/ashesknight/tof-mpi-remove)]**  <Br>
+	
+### *A Decoupled Learning Scheme for Real-world Burst Denoising from Raw Images*
+**[Paper]** (ECCV 2020) A Decoupled Learning Scheme for Real-world Burst Denoising from Raw Images <Br>
+**[Author]** Zhetong Liang, Shi Guo, Hong Gu, Huaqi Zhang, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+
+### *Robust and On-the-fly Dataset Denoising for Image Classification*
+**[Paper]** (ECCV 2020) Robust and On-the-fly Dataset Denoising for Image Classification <Br>
+**[Author]** [Jiaming Song](http://tsong.me/), [Lunjia Hu](https://sites.google.com/stanford.edu/lunjia), Michael Auli, [Yann Dauphin](https://www.dauphin.io/), [Tengyu Ma](http://ai.stanford.edu/~tengyuma/) <Br>
+
+### SADNet
+**[Paper]** (ECCV 2020) Spatial-Adaptive Network for Single Image Denoising <Br>
+**[Author]** Meng Chang, Qi Li, Huajun Feng, Zhihai Xu <Br>
+**[[Pytorch-Code](https://github.com/JimmyChame/SADNet)]**  <Br>
+	
+	
+	
 	
 	
 ## Raw Denoising
