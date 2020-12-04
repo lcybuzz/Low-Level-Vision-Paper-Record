@@ -56,10 +56,11 @@ ECCV PIRM(Perceptual Image Restoration and Manipulation ) 2018竞赛, 一个快�
 **[[TF-Code](https://github.com/MTlab/rsgunet_image_enhance)]**   <Br>
 UNet + Global Pooling feature + 输入输出feature间的elementwise scaling
 	
-### *CURL: Neural Curve Layers for Global Image Enhancement*
+### CURL ★
 **[Paper]** (arXiv 1911) CURL: Neural Curve Layers for Global Image Enhancement <Br>
 **[Author]** [Sean Moran](http://www.seanjmoran.com/), [Steven McDonagh](https://biomedia.doc.ic.ac.uk/person/steven-mcdonagh/), [Gregory Slabaugh](http://www.gregslabaugh.net/)  <Br>
 **[[Pytorch-Code](https://github.com/sjmoran/neural_curve_layers)]** 
+在LAB, RGB, HSV三个弓箭预测curve
 
 ### FUnIE-GAN ★
 **[Paper]** (RAL 2020) Fast Underwater Image Enhancement for Improved Visual Perception <Br>
