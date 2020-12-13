@@ -48,9 +48,63 @@
 **[[Pytorch-Code](https://github.com/njulj/RFDN)]** <Br>
 AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 
+### CDC
+**[Paper]**  (ECCV 2020) Component Divide-and-Conquer for Real-World Image Super-Resolution <Br>
+**[Author]** Pengxu Wei, Ziwei Xie, Hannan Lu, Zongyuan Zhan, [Qixiang Ye](http://people.ucas.ac.cn/~qxye?language=en), [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), Liang Lin Lin<Br>
+**[[Pytorch-Code](https://github.com/xiezw5/Component-Divide-and-Conquer-for-Real-World-Image-Super-Resolution)]** <Br>
+	
+### SRFlow
+**[Paper]**  (ECCV 2020) Learning the Super-Resolution Space with Normalizing Flow <Br>
+**[Author]** Andreas Lugmayr, [Martin Danelljan](https://martin-danelljan.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](https://people.ee.ethz.ch/~timofter/) <Br>
+**[[Pytorch-Code](https://github.com/andreas128/SRFlow)]** <Br>	
+
+### HAN
+**[Paper]**  (ECCV 2020) Single Image Super-Resolution via a Holistic Attention Network <Br>
+**[Author]** Ben Niu, Weilei Wen, [Wenqi Ren](https://sites.google.com/site/renwenqi888/home), Xiangde Zhang, Lianping Yang, Shuzhen Wang, Kaihao Zhang, Xiaochun Cao, Haifeng Shen <Br>
+**[[Pytorch-Code](https://github.com/wwlCape/HAN)]** <Br>	
+	
+### SFM
+**[Paper]**  (ECCV 2020) Stochastic Frequency Masking to Improve Super-Resolution and Denoising Networks <Br>
+**[Author]** [Majed El Helou](https://majedelhelou.github.io/), Ruofan Zhou, Sabine Süsstrunk <Br>
+**[[Pytorch-Code](https://github.com/majedelhelou/SFM)]** <Br>	
+	
+### VarSR
+**[Paper]**  (ECCV 2020) VarSR: Variational Super-Resolution Network for Very Low Resolution Images <Br>
+**[Author]** Sangeek Hyun, Jae-Pil Heo <Br>
+
+### PISR
+**[Paper]**  (ECCV 2020) Learning with Privileged Information for Efficient Image Super-Resolution <Br>
+**[Author]** Junghyup Lee, Dohyung Kim, [Wonkyung Lee](https://cv.wonkyunglee.io/), [Bumbsub Ham](https://bsham.github.io/) <Br>
+**[[Project](https://cvlab.yonsei.ac.kr/projects/PISR/)]** <Br> **[[Pytorch-Code](https://github.com/cvlab-yonsei/PISR)]** <Br>	
+
+### *Efficient Super Resolution Using Binarized Neural Network*
+**[Paper]**  (ECCV 2020) Efficient Super Resolution Using Binarized Neural Network <Br>
+**[Author]** Yinglan Ma, Hongyu Xiong, Zhe Hu, Lizhuang Ma <Br>
+	
+### *Towards Content-independent Multi-Reference Super-Resolution: Adaptive Pattern Matching and Feature Aggregation*
+**[Paper]**  (ECCV 2020) Towards Content-independent Multi-Reference Super-Resolution: Adaptive Pattern Matching and Feature Aggregation <Br>
+**[Author]** Xu Yan, Weibing Zhao, Kun Yuan, Ruimao Zhang, [Zhen Li](https://mypage.cuhk.edu.cn/academics/lizhen/), Shuguang Cui <Br>
+	
+	
 
 # Video Super Resolution
 ### STARnet
 **[Paper]**  (CVPR 2020) Space-Time-Aware Multi-Resolution Video Enhancement <Br>
 **[Author]** [Muhammad Haris](https://alterzero.github.io/), [Greg Shakhnarovich](https://ttic.uchicago.edu/~gregory/), [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/)<Br>
 **[[Pytorch-Code](https://github.com/alterzero/STARnet)]** <Br>
+	
+### DeepTemporalSR
+**[Paper]**  (ECCV 2020) Across Scales & Across Dimensions: Temporal Super-Resolution using Deep Internal Learning <Br>
+**[Author]** Liad Pollak Zuckerman, Eyal Naor, George Pisha, [Shai Bagon](https://www.weizmann.ac.il/math/bagon/), Michal Irani <Br>
+**[[Project](http://www.wisdom.weizmann.ac.il/~vision/DeepTemporalSR/)]** <Br> **[[Pytorch-Code](https://github.com/eyalnaor/DeepTemporalSR)]** <Br>	
+
+### MuCAN
+**[Paper]**  (ECCV 2020) MuCAN: Multi-Correspondence Aggregation Network for Video Super-Resolution <Br>
+**[Author]** Wenbo Li, [Xin Tao](http://www.xtao.website/), Taian Guo, [Lu Qi](http://luqi.info/), Jiangbo Lu, [Jiaya Jia](http://jiaya.me/) <Br>
+
+### RSDN
+**[Paper]**  (ECCV 2020) Video Super-Resolution with Recurrent Structure-Detail Network <Br>
+**[Author]** Takashi Isobe, [Xu Jia](https://stephenjia.github.io/), [Shuhang Gu](https://sites.google.com/site/shuhanggu/), Songjiang Li, Shengjin Wang, Qi Tian<Br>
+
+
+
