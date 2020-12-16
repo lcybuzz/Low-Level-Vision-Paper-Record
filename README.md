@@ -44,6 +44,10 @@
 ## Super Resolution
 [DIV2k](https://data.vision.ee.ethz.ch/cvl/DIV2K/)  <Br>
 
+## Face Super Resolution
+[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 人脸属性数据集, 超过200k张图像, 5个关键点, 40个属性 <Br>
+[CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) 3w张人脸解析数据集, 包括19个facial components <Br>
+	
 
 ## Real Image Denoising
 [DnD](https://noise.visinf.tu-darmstadt.de/) <Br>
