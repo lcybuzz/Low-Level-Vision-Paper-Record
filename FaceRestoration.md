@@ -10,6 +10,11 @@
 	
 
 # Face SuperResolution
+### *Face Super-resolution Guided by Facial Component Heatmaps* ★
+**[Paper]** (ECCV 2018) Face Super-resolution Guided by Facial Component Heatmaps <Br>
+**[Author]** [Xin Yu](https://sites.google.com/view/xinyus-homepage/Home), [Basura Fernando](https://basurafernando.github.io/), [Bernard Ghanem](http://www.bernardghanem.com/), [Fatih Porikli](http://www.porikli.com/), [Richard Hartley](http://users.cecs.anu.edu.au/~hartley/) <Br>
+结合人脸关键点的heapmap信息做人脸超分
+	
 ### GWAInet ★
 **[Paper]** (CVPRW 2019) Exemplar Guided Face Image Super-Resolution without Facial Landmarks <Br>
 **[Author]** Berk Dogan, [Shuhang Gu](https://shuhanggu.github.io/), [Radu Timofte](https://people.ee.ethz.ch/~timofter/) <Br>
