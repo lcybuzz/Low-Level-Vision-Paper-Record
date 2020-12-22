@@ -59,7 +59,7 @@ UNet + Global Pooling feature + 输入输出feature间的elementwise scaling
 ### CURL ★
 **[Paper]** (ICLR 2020) CURL: Neural Curve Layers for Global Image Enhancement <Br>
 **[Author]** [Sean Moran](http://www.seanjmoran.com/), [Steven McDonagh](https://biomedia.doc.ic.ac.uk/person/steven-mcdonagh/), [Gregory Slabaugh](http://www.gregslabaugh.net/)  <Br>
-**[[Pytorch-Code](https://github.com/sjmoran/neural_curve_layers)]** 
+**[[Pytorch-Code](https://github.com/sjmoran/neural_curve_layers)]**  <Br>
 在LAB, RGB, HSV三个空间预测curve
 
 ### FUnIE-GAN ★
