@@ -78,11 +78,11 @@
 
 [[CVPR 2020论文集合](https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation)]
 
-[[低光照论文整理1](https://github.com/cxtalk/You-Can-See-Clearly-Now)] [低光照论文整理2](https://github.com/Elin24/Awesome-Low-Light-Enhancement)]
+[[低光照论文整理1](https://github.com/cxtalk/You-Can-See-Clearly-Now)] [[低光照论文整理2](https://github.com/Elin24/Awesome-Low-Light-Enhancement)]
 
 [[超分论文整理](https://github.com/it-hao/Super-Resolution)]
 
-[[去噪论文整理](https://paperswithcode.com/task/image-denoising?page=2)] [去噪论文with codes](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)]
+[[去噪论文整理](https://paperswithcode.com/task/image-denoising?page=2)] [[去噪论文with codes](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)]
 
 [[Deblurring](https://github.com/subeeshvasu/Awesome-Deblurring)]
 
