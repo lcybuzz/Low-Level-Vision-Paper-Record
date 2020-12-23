@@ -90,7 +90,16 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 ### *Towards Content-independent Multi-Reference Super-Resolution: Adaptive Pattern Matching and Feature Aggregation*
 **[Paper]**  (ECCV 2020) Towards Content-independent Multi-Reference Super-Resolution: Adaptive Pattern Matching and Feature Aggregation <Br>
 **[Author]** Xu Yan, Weibing Zhao, Kun Yuan, Ruimao Zhang, [Zhen Li](https://mypage.cuhk.edu.cn/academics/lizhen/), Shuguang Cui <Br>
-	
+
+ ### *Zero-Shot Image Super-Resolution with Depth Guided Internal Degradation Learning*
+**[Paper]** (ECCV 2020) Zero-Shot Image Super-Resolution with Depth Guided Internal Degradation Learning <Br>
+**[Author]** Xi Cheng, Zhenyong Fu, Jian Yang <Br>
+
+### MLSR
+**[Paper]** (ECCV 2020) Fast Adaptation to Super-Resolution Networks via Meta-Learning <Br>
+**[Author]** Xi Cheng, Zhenyong Fu, Jian Yang <Br>
+**[[TF-Code](https://github.com/parkseobin/MLSR)]** <Br>
+  
 	
 
 # Video Super Resolution
