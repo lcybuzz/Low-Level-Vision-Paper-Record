@@ -107,6 +107,11 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Author]** [Qunliang Xing](https://ryanxingql.github.io/), Mai Xu, Tianyi Li, Zhenyu Guan <Br>
 **[[Pytorch-Code](https://github.com/RyanXingQL/RBQE)]**<Br>
 	
+### URIE
+**[Paper]** (ECCV 2020) URIE: Universal Image Enhancement for Visual Recognition in the Wild <Br>
+**[Author]** Taeyoung Son, Juwon Kang, Namyup Kim, [Sunghyun Cho](https://www.scho.pe.kr/), [Suha Kwak](http://cvlab.postech.ac.kr/~suhakwak/) <Br>
+**[[Project](http://cvlab.postech.ac.kr/research/URIE/)]** **[[Pytorch-Code](https://github.com/taeyoungson/urie)]**<Br>
+	
 	
 	
 # Image Restoration
@@ -147,10 +152,42 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 ### GCANet
 **[Paper]** (WACV 2019) Gated Context Aggregation Network for Image Dehazing and Deraining <Br>
 **[Author]** [Dongdong Chen](http://www.dongdongchen.bid/), Mingming He, [Qingnan Fan](https://fqnchina.github.io/)  <Br>
-**[[Code](https://github.com/cddlyf/GCANet)]**  <Br>
+**[[Code](https://github.com/cddlyf/GCANet)]**  <Br>	
+
+### DGP
+**[Paper]** (ECCV 2020 Oral) Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation <Br>
+**[Author]** [Xingang Pan](https://xingangpan.github.io/), [Xiaohang Zhan](https://xiaohangzhan.github.io/), [Bo Dai](http://daibo.info/), [Dahua Lin](http://dahua.site/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Ping Luo](http://luoping.me/) <Br>
+**[[Pytorch-Code](https://github.com/XingangPan/deep-generative-prior)]** <Br>
 	
+### *Stacking Networks Dynamically for Image Restoration Based on the Plug-and-Play Framework*
+**[Paper]** (ECCV 2020) Stacking Networks Dynamically for Image Restoration Based on the Plug-and-Play Framework <Br>
+**[Author]** Haixin Wang, Tianhao Zhang, Muzhi Yu, Jinan Sun, Wei Ye, Chen Wang, Shikun Zhang <Br>	
 
+### LIRA
+**[Paper]** (ECCV 2020) LIRA: Lifelong Image Restoration from Unknown Blended Distortions <Br>
+**[Author]** Jianzhao Liu, [Jianxin Lin](http://home.ustc.edu.cn/~linjx/), Xin Li, Wei Zhou, Sen Liu, [Zhibo Chen](http://staff.ustc.edu.cn/~chenzhibo/) <Br>	
 
+### CResMD
+**[Paper]** (ECCV 2020) Interactive Multi-Dimension Modulation with Dynamic Controllable Residual Learning for Image Restoration <Br>
+**[Author]** Jingwen He, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/) <Br>
+**[[Pytorch-Code](https://github.com/hejingwenhejingwen/CResMD)]** <Br>
+
+### DeepWienerRestoration
+**[Paper]** (ECCV 2020) Microscopy Image Restoration with Deep Wiener-Kolmogorov filters <Br>
+**[Author]** [Valeriya Pronina](https://vpronina.github.io/), [Filippos Kokkinos](https://fkokkinos.github.io/), Dmitry V. Dylov, Stamatios Lefkimmiatis <Br>
+**[[Project]https://vpronina.github.io/resources/project.htm)]** **[[Pytorch-Code](https://github.com/vpronina/DeepWienerRestoration/)]** <Br>
+	
+### GroupSC
+**[Paper]** (ECCV 2020) Fully Trainable and Interpretable Non-Local Sparse Models for Image Restoration <Br>
+**[Author]** Bruno Lecouat, [Jean Ponce](https://www.di.ens.fr/~ponce/), [Julien Mairal](http://thoth.inrialpes.fr/people/mairal/) <Br>
+**[[Pytorch-Code](https://github.com/bruno-31/groupsc)]** <Br>
+	
+### *Learning Disentangled Feature Representation for Hybrid-distorted Image Restoration*
+**[Paper]** (ECCV 2020) Learning Disentangled Feature Representation for Hybrid-distorted Image Restoration <Br>
+**[Author]** Xin Li, Xin Jin, [Jianxin Lin](http://home.ustc.edu.cn/~linjx/), Tao Yu, Sen Liu, Yaojun Wu, Wei Zhou, [Zhibo Chen](http://staff.ustc.edu.cn/~chenzhibo/)  <Br>
+**[[Pytorch-Code](https://github.com/bruno-31/groupsc)]** <Br>
+	
+		
 
 # Restoration and Enhancement
 ### MIRNet ★
