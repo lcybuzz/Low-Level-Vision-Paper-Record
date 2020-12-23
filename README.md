@@ -74,15 +74,17 @@
 
 
 # Useful Resources
-[低光照论文整理] https://github.com/cxtalk/You-Can-See-Clearly-Now
+[ECCV 2020图像重建方向] https://zhuanlan.zhihu.com/p/180551773
 
-[去噪] https://paperswithcode.com/task/image-denoising?page=2 
+[CVPR 2020论文集合] https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation
 
-[去噪] https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art
+[低光照论文整理1](https://github.com/cxtalk/You-Can-See-Clearly-Now)	[低光照论文整理2](https://github.com/Elin24/Awesome-Low-Light-Enhancement)
+
+[超分论文整理] https://github.com/it-hao/Super-Resolution
+
+[去噪1](https://paperswithcode.com/task/image-denoising?page=2)	[去噪2](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)
 
 [Deblurring] https://github.com/subeeshvasu/Awesome-Deblurring
-
-[低光照] https://github.com/Elin24/Awesome-Low-Light-Enhancement
 
 [去雾] https://github.com/cxtalk/DehazeZoo
 
@@ -91,6 +93,7 @@
 [一些基于C++的对比度增强算法实现] https://github.com/dengyueyun666/Image-Contrast-Enhancement
 
 [传统图像质量增强的系列blog-1] https://www.cnblogs.com/Imageshop/category/535367.html
+
 [传统图像质量增强的系列blog-2] https://blog.csdn.net/maozefa/article/list/1
 
 [ISP介绍blog] https://blog.csdn.net/qq_42261630/article/details/102918149
@@ -106,9 +109,4 @@
 **[ECCV PIRM]** Perceptual Image Restoration and Manipulation, 貌似只有18, 19两届 <Br>
 
 # To See
-
-[ECCV 2020图像重建方向] https://zhuanlan.zhihu.com/p/180551773
-
-[CVPR 2020论文集合] https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation
-
 [CVPR 2020 GAN in 图像恢复论文盘点] https://blog.csdn.net/lgzlgz3102/article/details/106799006/
