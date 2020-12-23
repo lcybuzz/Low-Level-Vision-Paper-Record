@@ -233,14 +233,18 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Paper]** (ECCV 2020) Short-Term and Long-Term Context Aggregation Network for Video Inpainting <Br>
 **[Author]** [Ang Li](https://angliunimelb.github.io/), [Shanshan Zhao](https://sshan-zhao.github.io/), [Xingjun Ma](http://xingjunma.com/), [Mingming Gong](https://mingming-gong.github.io/), [Jianzhong Qi](https://people.eng.unimelb.edu.au/jianzhongq/), [Rui Zhang](http://www.ruizhang.info/), [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html), [Ramamohanarao Kotagirig](http://www.cloudbus.org/rao/) <Br>
 
-
 ### STTN
-**[Paper]** (ECCV 2020) VCNet: A Robust Approach to Blind Image Inpainting <Br>
+**[Paper]** (ECCV 2020) Learning Joint Spatial-Temporal Transformations for Video Inpainting  <Br>
 **[Author]** [Yanhong Zeng](https://sites.google.com/view/1900zyh), [Jianlong Fu](https://jianlong-fu.github.io/), Hongyang Chao <Br>
 **[[Pytorch-Code]](https://github.com/researchmm/STTN)]** 
 
-### Depth-Guided-Inpainting
+### DVI
 **[Paper]** (ECCV 2020) DVI: Depth Guided Video Inpainting for Autonomous Driving <Br>
+**[Author]** Miao Liao, Feixiang Lu, Dingfu Zhou, [Sibo Zhang](https://sites.google.com/view/sibozhang/home), Wei Li, [Ruigang Yang](http://www.vis.uky.edu/~ryang/) <Br>
+**[[Project]](https://sites.google.com/view/sibozhang/dvi)]** **[[Code]](https://github.com/sibozhang/Depth-Guided-Inpainting)]** 
+
+### Depth-Guided-Inpainting
+**[Paper]** (ECCV 2020) Learning Joint Spatial-Temporal Transformations for Video Inpainting <Br>
 **[Author]** Miao Liao, Feixiang Lu, Dingfu Zhou, [Sibo Zhang](https://sites.google.com/view/sibozhang/home), Wei Li, [Ruigang Yang](http://www.vis.uky.edu/~ryang/) <Br>
 **[[Project]](https://sites.google.com/view/sibozhang/dvi)]** **[[Code]](https://github.com/sibozhang/Depth-Guided-Inpainting)]** 
 	
