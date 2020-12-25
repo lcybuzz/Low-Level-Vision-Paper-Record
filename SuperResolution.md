@@ -3,7 +3,7 @@
 - [Video Super Resolution](#video-super-restoration)
 
 #  Super Resolution
-###  *Super-Resolution with Raw Images*
+###  *Super-Resolution with Raw Images* ★
 **[Paper]**  (CVPR 2019) Towards Real Scene Super-Resolution with Raw Images  <Br>
 **[Author]** [Xiangyu Xu](https://sites.google.com/view/xiangyuxu/%E9%A6%96%E9%A1%B5), Yongrui Ma, [Wenxiu Sun](http://wenxiusun.com/) <Br>
 **[[Project](https://sites.google.com/view/xiangyuxu/rawsr_cvpr19)]** <Br>
@@ -29,6 +29,12 @@
 1. 把HR到LR的退化解释成bicubic降采样+非盲blur kernel退化+加性高斯白噪声的过程. 
 2. 将求解过程用HQS变量分裂法分解为去模糊和超分+去噪两步, 第一步在频谱域求闭式解, 避免了模糊现象; 第二步可以使用现有的SR方法, 只需额外加入一噪声level. 采用迭代的形式交替求解.
 3. 非盲kernel这个先验其实挺强的, 而且只在生成的数据集上做了实验. 但是实际效果来看, 在真实图像上的效果的确很不错.
+
+### KernelGAN ★★
+**[Paper]**  (NIPS 2019 Oral) Blind Super-Resolution Kernel Estimation using an Internal-GAN <Br>
+**[Author]** Sefi Bell-Kligler, [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
+**[[Project](http://www.wisdom.weizmann.ac.il/~vision/kernelgan/)]** **[[Pytorch-Code](https://github.com/sefibk/KernelGAN)]**  <Br>
+无监督预测降质核并进行超分的方法. 使用若干个现象卷积层的GAN预测降质kernel, 训练的的GAN可以合成一个kernel, 作为该图形的降质核, 网络训练采用LSGAN和若干正则项构成. 
 	
 ### CARB ★☆
 **[Paper]**  (CVPRW 2020) Guided Frequency Separation Network for Real-World Super-Resolution <Br>
