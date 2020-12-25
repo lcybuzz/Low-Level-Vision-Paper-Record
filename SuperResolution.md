@@ -3,6 +3,13 @@
 - [Video Super Resolution](#video-super-restoration)
 
 #  Super Resolution
+### ZSSR ★☆
+**[Paper]**  (CVPR 2018) "Zero Shot" Super-Resolution using Deep Internal Learning <Br>
+**[Author]** [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), [Nadav Cohen](http://www.cohennadav.com/), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
+**[[Project](http://www.wisdom.weizmann.ac.il/~vision/zssr/)]** **[[Pytorch-Code](https://github.com/assafshocher/ZSSR)]**  <Br>
+DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练输入, 对应的LR patch作为输出, 训练网络. 网络收敛后用来预测LR图像的超分结果.
+  
+  
 ###  *Super-Resolution with Raw Images* ★
 **[Paper]**  (CVPR 2019) Towards Real Scene Super-Resolution with Raw Images  <Br>
 **[Author]** [Xiangyu Xu](https://sites.google.com/view/xiangyuxu/%E9%A6%96%E9%A1%B5), Yongrui Ma, [Wenxiu Sun](http://wenxiusun.com/) <Br>
@@ -34,7 +41,8 @@
 **[Paper]**  (NIPS 2019 Oral) Blind Super-Resolution Kernel Estimation using an Internal-GAN <Br>
 **[Author]** Sefi Bell-Kligler, [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
 **[[Project](http://www.wisdom.weizmann.ac.il/~vision/kernelgan/)]** **[[Pytorch-Code](https://github.com/sefibk/KernelGAN)]**  <Br>
-无监督预测降质核并进行超分的方法. 使用若干个现象卷积层的GAN预测降质kernel, 训练的的GAN可以合成一个kernel, 作为该图形的降质核, 网络训练采用LSGAN和若干正则项构成. 
+无监督预测降质核并进行超分的方法. 使用若干个现象卷积层的GAN预测降质kernel, 训练的的GAN可以合成一个kernel, 作为该图形的降质核, 网络训练采用LSGAN和若干正则项构成. 预测的模糊核作为ZSSR的降质核, 再无监督地预测炒粉结果
+. 
 	
 ### CARB ★☆
 **[Paper]**  (CVPRW 2020) Guided Frequency Separation Network for Real-World Super-Resolution <Br>
