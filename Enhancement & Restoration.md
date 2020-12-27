@@ -94,10 +94,11 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[[Project](http://mcl.korea.ac.kr/research/hukim-eccv2020-glenet/)]**   **[[Pytorch-Code](https://github.com/dongkwonjin/GleNet)]** <Br>
 全局预测曲线(3*256) + 局部增强. 无监督训练部分采用类似cycle gan的策略. 更具有实用性的曲线预测策略已经开始获得关注, 相关论文越来越多了.
 
-### PieNet
+### PieNet ★★
 **[Paper]** (ECCV 2020) PieNet: Personalized Image Enhancement Network <Br>
 **[Author]** Han-Ul Kim, Young Jun Koh, Chang-Su Kim <Br>
 **[[Project](http://mcl.korea.ac.kr/research/hukim-eccv2020-pienet/)]**   **[[TF-Code](https://github.com/hukim1124/PieNet)]** <Br>
+使用度量学习的方法, 学习一个网络, 从用户选择的若干图像中提取偏好特征向量, 该特征向量作用在增强网络上, 产生符合用户喜好的增强结果.
 
 ### CSRNet
 **[Paper]** (ECCV 2020) Conditional Sequential Modulation for Efficient Global Image Retouching <Br>
