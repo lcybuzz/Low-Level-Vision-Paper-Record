@@ -88,10 +88,11 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[[Code](https://github.com/HuiZeng/Image-Adaptive-3DLUT)]**   <Br>
 预测若干个3D LUT, 并用一个轻量级CNN预测每个LUT的权重. LUT和CNN同时训练, 采用了平滑和单调两种正则方式消除伪影等问题. 非常适合处理大图, 实际应用价值大, 值得一试.
 
-### GLeNet
+### GLeNet ★★
 **[Paper]** (ECCV 2020) Global and Local Enhancement Networks for Paired and Unpaired Image Enhancement <Br>
 **[Author]** Han-Ul Kim, Young Jun Koh, Chang-Su Kim <Br>
 **[[Project](http://mcl.korea.ac.kr/research/hukim-eccv2020-glenet/)]**   **[[Pytorch-Code](https://github.com/dongkwonjin/GleNet)]** <Br>
+全局预测曲线(3*256) + 局部增强. 无监督训练部分采用类似cycle gan的策略. 更具有实用性的曲线预测策略已经开始获得关注, 相关论文越来越多了.
 
 ### PieNet
 **[Paper]** (ECCV 2020) PieNet: Personalized Image Enhancement Network <Br>
