@@ -56,6 +56,12 @@ ECCV PIRM(Perceptual Image Restoration and Manipulation ) 2018竞赛, 一个快�
 **[[TF-Code](https://github.com/MTlab/rsgunet_image_enhance)]**   <Br>
 UNet + Global Pooling feature + 输入输出feature间的elementwise scaling
 	
+### AdaFM ★☆
+**[Paper]** (CVPR 2019) Modulating Image Restoration with Continual Levels via Adaptive Feature Modification Layers<Br>
+**[Author]** Jingwen He, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/)  <Br>
+**[[Pytorch-Code](https://github.com/hejingwenhejingwen/AdaFM)]**   <Br>
+提出了一个AdaFM模块, 用于控制网络对图像的修复程度. AdaFM模块实际上就是一个dw conv层, 通过手动控制该层的权重, 达到控制修复程度的目的. 论文这么做是基于两个发现: 1) 对于不同restoration level, 网络提取的visual patterns是相似的, 只是weights不同; 2)调整网络内部参数对输出的影响是连续的.
+	
 ### CURL ★
 **[Paper]** (ICLR 2020) CURL: Neural Curve Layers for Global Image Enhancement <Br>
 **[Author]** [Sean Moran](http://www.seanjmoran.com/), [Steven McDonagh](https://biomedia.doc.ic.ac.uk/person/steven-mcdonagh/), [Gregory Slabaugh](http://www.gregslabaugh.net/)  <Br>
@@ -100,10 +106,11 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[[Project](http://mcl.korea.ac.kr/research/hukim-eccv2020-pienet/)]**   **[[TF-Code](https://github.com/hukim1124/PieNet)]** <Br>
 使用度量学习的方法, 学习一个网络, 从用户选择的若干图像中提取偏好特征向量, 该特征向量作用在增强网络上, 产生符合用户喜好的增强结果.
 
-### CSRNet
+### CSRNet ★
 **[Paper]** (ECCV 2020) Conditional Sequential Modulation for Efficient Global Image Retouching <Br>
 **[Author]** Jingwen He, Yihao Liu, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), Chao Dong <Br>
 **[[Pytorch-Code](https://github.com/hejingwenhejingwen/CSRNet)]**<Br>
+本文聚焦于全局retouching, 认为很多操作都可以用MLP模拟, 据此设计了一个由若干1x1卷积组成的base网络, 另外又设计了一个condition网络提取全局信息对base网络各层进行调制.
 
 ### Early Exit or Not
 **[Paper]** (ECCV 2020) Early Exit or Not: Resource-Efficient Blind Quality Enhancement for Compressed Images <Br>
