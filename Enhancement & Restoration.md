@@ -112,15 +112,17 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[[Pytorch-Code](https://github.com/hejingwenhejingwen/CSRNet)]**<Br>
 本文聚焦于全局retouching, 认为很多操作都可以用MLP模拟, 据此设计了一个由若干1x1卷积组成的base网络, 另外又设计了一个condition网络提取全局信息对base网络各层进行调制.
 
-### Early Exit or Not
+### RBQE ☆
 **[Paper]** (ECCV 2020) Early Exit or Not: Resource-Efficient Blind Quality Enhancement for Compressed Images <Br>
 **[Author]** [Qunliang Xing](https://ryanxingql.github.io/), Mai Xu, Tianyi Li, Zhenyu Guan <Br>
 **[[Pytorch-Code](https://github.com/RyanXingQL/RBQE)]**<Br>
+提出一个simple to hard的图像增强算法, 通过一个质量评估模块判断当前增强结果是否符合要求, 若符合要求, 就提前推出. 本文主要关注压缩图像, 不知是否可扩展到超分等任务中
 	
-### URIE
+### URIE ★
 **[Paper]** (ECCV 2020) URIE: Universal Image Enhancement for Visual Recognition in the Wild <Br>
 **[Author]** Taeyoung Son, Juwon Kang, Namyup Kim, [Sunghyun Cho](https://www.scho.pe.kr/), [Suha Kwak](http://cvlab.postech.ac.kr/~suhakwak/) <Br>
 **[[Project](http://cvlab.postech.ac.kr/research/URIE/)]** **[[Pytorch-Code](https://github.com/taeyoungson/urie)]**<Br>
+提出了一个通用的质量增强模块, 可插入到检测分割等识别任务之前, 提升这些任务的性能.
 	
 	
 	
