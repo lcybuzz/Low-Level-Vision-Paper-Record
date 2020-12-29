@@ -1,5 +1,5 @@
 # ISP
-Paper about ISP and corresponding modules
+ISP及其内部模块相关论文
 
 ## ISP
 ### *Reconfiguring the Imaging Pipeline* ★★ 
