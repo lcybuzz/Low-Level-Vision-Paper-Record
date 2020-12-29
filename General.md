@@ -1,4 +1,5 @@
 # General
+一些不针对特定任务的图像相关论文, 如滤波等
 
 # Table of Contents
   - [General DL Methods](#general-dl-methods)
