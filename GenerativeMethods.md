@@ -6,7 +6,7 @@
 
 # Table of Contents
 - [Restoration and Enhancement](#restoration-and-enhancement)
-- [Image Synthesis (Archived)](#image-synthesis)
+- [Image Synthesis](#image-synthesis)
 
 # Restoration and Enhancement
 ### WESPE ★
@@ -63,6 +63,12 @@
 
 
 # Image Synthesis
+### Progressive Growing of GANs ★★☆
+**[Paper]** (ICLR 2018) Progressive Growing of GANs for Improved Quality, Stability, and Variation <Br>
+**[Author]** [Tero Karras](https://research.nvidia.com/person/tero-karras), [Timo Aila](https://research.nvidia.com/person/timo-aila), [Samuli Laine](https://users.aalto.fi/~laines9/), [Jaakko Lehtinen](https://users.aalto.fi/~lehtinj7/)   <Br>
+**[[Pytorch-Code](https://github.com/tkarras/progressive_growing_of_gans)]** <Br>
+提出了一个渐进式训练GAN的方案, 可以实现大分辨率图像的生成(1024x1024人脸), 并提出了一些训练的技巧. 代码Star非常多, 可以学习一下 <Br>
+
 ### Dynamic-Net ★☆
 **[Paper]** (ICCV 2019) Dynamic-Net: Tuning the Objective Without Re-training for Synthesis Tasks <Br>
 **[Author]** Alon Shoshan, [Roey Mechrez](https://roimehrez.github.io/), [Lihi Zelnik-Manor](https://webee.technion.ac.il/~lihi/)  <Br>
