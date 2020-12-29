@@ -10,7 +10,7 @@
 - <a href='ISP.md'> ISP </a>
 - <a href='Industry.md'> Industry</a>
 - <a href='General.md'> General </a>
-- <a href='Few-Shot.md'> Few-Shot</a>
+- <a href='GenerativeMethods.md'> Generative Methods</a>
 - <a href='Misc.md'> Misc </a>
 - <a href='Dehazing.md'> Dehazing (Archived) </a>
 - <a href='Debluring.md'> Debluring (Archived) </a>
