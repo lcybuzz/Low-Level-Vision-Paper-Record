@@ -4,7 +4,6 @@
 - <a href='Enhancement & Restoration.md'> Enhancement & Restoration </a>
 - <a href='LowLight.md'> Low Light </a>
 - <a href='Denoising.md'> Denoising </a>
-- <a href='ReflectionRemoval.md'> Reflection Removal </a>
 - <a href='SuperResolution.md'> Super Resolution </a>
 - <a href='FaceRestoration.md'> Face Restoration </a>
 - <a href='HDR.md'> HDR </a>
