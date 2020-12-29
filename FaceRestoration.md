@@ -46,3 +46,4 @@
 **[Paper]** (ECCV 2020) Blind Face Restoration via Deep Multi-scale Component Dictionaries <Br>
 **[Author]** [Xiaoming Li](https://csxmli2016.github.io/), [Chaofeng Chen](https://chaofengc.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), Xianhui Lin, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 **[[Pytorch-Code](https://github.com/csxmli2016/DFDNet)]** <Br>
+**(构建字典, 匹配最近邻特征)** 对眼睛鼻子嘴建立字典, inference时通过匹配最相似的feature找到相似的高清特征并做替换. 字典通过VGG网络提特征和聚类实现. 实测对五官的增强效果不错, 不过对于头发皮肤等部分效果不明显.
