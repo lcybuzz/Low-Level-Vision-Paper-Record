@@ -166,10 +166,11 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Author]** [Dongdong Chen](http://www.dongdongchen.bid/), Mingming He, [Qingnan Fan](https://fqnchina.github.io/)  <Br>
 **[[Code](https://github.com/cddlyf/GCANet)]**  <Br>	
 
-### DGP
+### DGP ★★
 **[Paper]** (ECCV 2020 Oral) Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation <Br>
 **[Author]** [Xingang Pan](https://xingangpan.github.io/), [Xiaohang Zhan](https://xiaohangzhan.github.io/), [Bo Dai](http://daibo.info/), [Dahua Lin](http://dahua.site/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Ping Luo](http://luoping.me/) <Br>
 **[[Pytorch-Code](https://github.com/XingangPan/deep-generative-prior)]** <Br>
+提出用预训练的GAN作为先验, 无需在特定任务上finetune, 即可实现超分, 上色等图像恢复任务和图像变形，类别转换等图像编辑功能. 论文主要是在一般GAN inversion的基础上, 提出同时优化隐向量z和生成网络参数, 达到了更好更自然的效果.
 	
 ### *Stacking Networks Dynamically for Image Restoration Based on the Plug-and-Play Framework*
 **[Paper]** (ECCV 2020) Stacking Networks Dynamically for Image Restoration Based on the Plug-and-Play Framework <Br>
