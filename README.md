@@ -7,7 +7,6 @@
 - <a href='SuperResolution.md'> Super Resolution </a>
 - <a href='FaceRestoration.md'> Face Restoration </a>
 - <a href='HDR.md'> HDR </a>
-- <a href='UsingRaw.md'> Using Raw </a>
 - <a href='ISP.md'> ISP </a>
 - <a href='Industry.md'> Industry</a>
 - <a href='General.md'> General </a>
