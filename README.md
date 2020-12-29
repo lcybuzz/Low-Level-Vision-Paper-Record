@@ -14,6 +14,7 @@
 - <a href='ISP.md'> ISP </a>
 - <a href='Misc.md'> Misc </a>
 - <a href='FaceRestoration.md'> Face Restoration </a>
+- <a href='Dehazing.md'> Dehazing (Archived) </a>
 - <a href='Debluring.md'> Debluring (Archived) </a>
 - <a href='Fusion.md'> Fusion (Archived) </a>
 - [Dataset](#dataset)
