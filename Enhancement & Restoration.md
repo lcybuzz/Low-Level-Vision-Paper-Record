@@ -161,10 +161,11 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[[Pytorch-Code](https://github.com/qibao77/CFSNet)]** <Br>
 粗读, 用一个手动输入的参数控制两个分支的权重, 一个分支负责low distortion修复, 另一个分支负责high visual quality. 两个分支通过使用不同loss (L1, L2 v.s. vgg, GAN loss) 训练来得到. 文章的效果和实用性有待检验, 思路可借鉴. <Br>
 	
-### GCANet
+### GCANet ★
 **[Paper]** (WACV 2019) Gated Context Aggregation Network for Image Dehazing and Deraining <Br>
 **[Author]** [Dongdong Chen](http://www.dongdongchen.bid/), Mingming He, [Qingnan Fan](https://fqnchina.github.io/)  <Br>
 **[[Code](https://github.com/cddlyf/GCANet)]**  <Br>	
+在dilation卷积前加入可分离卷积, 消除grid effect. 除去雾去雨外应该也适合其它任务.
 
 ### DGP ★★
 **[Paper]** (ECCV 2020 Oral) Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation <Br>
