@@ -19,7 +19,7 @@
 2) 变换部分采用残差快结构的CNN，定义了4个loss (color, texture, content, variance). color loss是图像进行高斯模糊后的均方差, texture loss是adversarial loss, content loss是perceptual loss, variance loss是图像梯度的模.
 3) 提出了用于图像质量增强的数据集DPED, 包括iPhone, BlackBerry和Sony三种手机与Canon单反相机的图相对.
 	
-### HDRNet ★★
+### HDRNet ★★★
 **[Paper]** (Siggraph 2017) Deep Bilateral Learning for Real-Time Image Enhancement <Br>
 **[Author]** 	Michaël Gharbi, [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Jonathan T. Barron](https://jonbarron.info/),  [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Frédo Durand](http://people.csail.mit.edu/fredo/)  <Br>
 **[[Project](https://groups.csail.mit.edu/graphics/hdrnet/)]**<Br>
@@ -55,12 +55,6 @@ ECCV PIRM(Perceptual Image Restoration and Manipulation ) 2018竞赛, 一个快�
 **[Author]** Jie Huang, Pengfei Zhu, Mingrui Geng, Jiewen Ran, Xingguang Zhou, Chen Xing, Pengfei Wan, Xiangyang Ji  <Br>
 **[[TF-Code](https://github.com/MTlab/rsgunet_image_enhance)]**   <Br>
 UNet + Global Pooling feature + 输入输出feature间的elementwise scaling
-	
-### AdaFM ★☆
-**[Paper]** (CVPR 2019) Modulating Image Restoration with Continual Levels via Adaptive Feature Modification Layers<Br>
-**[Author]** Jingwen He, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/)  <Br>
-**[[Pytorch-Code](https://github.com/hejingwenhejingwen/AdaFM)]**   <Br>
-提出了一个AdaFM模块, 用于控制网络对图像的修复程度. AdaFM模块实际上就是一个dw conv层, 通过手动控制该层的权重, 达到控制修复程度的目的. 论文这么做是基于两个发现: 1) 对于不同restoration level, 网络提取的visual patterns是相似的, 只是weights不同; 2)调整网络内部参数对输出的影响是连续的.
 	
 ### CURL ★
 **[Paper]** (ICLR 2020) CURL: Neural Curve Layers for Global Image Enhancement <Br>
@@ -98,19 +92,19 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Paper]** (ECCV 2020) Global and Local Enhancement Networks for Paired and Unpaired Image Enhancement <Br>
 **[Author]** Han-Ul Kim, Young Jun Koh, Chang-Su Kim <Br>
 **[[Project](http://mcl.korea.ac.kr/research/hukim-eccv2020-glenet/)]**   **[[Pytorch-Code](https://github.com/dongkwonjin/GleNet)]** <Br>
-*(曲线预测)*	全局预测曲线(3*256) + 局部增强. 无监督训练部分采用类似cycle gan的策略. 更具有实用性的曲线预测策略已经开始获得关注, 相关论文越来越多了.
+**(曲线预测)**	全局预测曲线(3*256) + 局部增强. 无监督训练部分采用类似cycle gan的策略. 更具有实用性的曲线预测策略已经开始获得关注, 相关论文越来越多了.
 
 ### PieNet ★★
 **[Paper]** (ECCV 2020) PieNet: Personalized Image Enhancement Network <Br>
 **[Author]** Han-Ul Kim, Young Jun Koh, Chang-Su Kim <Br>
 **[[Project](http://mcl.korea.ac.kr/research/hukim-eccv2020-pienet/)]**   **[[TF-Code](https://github.com/hukim1124/PieNet)]** <Br>
-*(个性化增强)*	使用度量学习的方法, 学习一个网络, 从用户选择的若干图像中提取偏好特征向量, 该特征向量作用在增强网络上, 产生符合用户喜好的增强结果.
+**(个性化增强)**	使用度量学习的方法, 学习一个网络, 从用户选择的若干图像中提取偏好特征向量, 该特征向量作用在增强网络上, 产生符合用户喜好的增强结果.
 
 ### CSRNet ★
 **[Paper]** (ECCV 2020) Conditional Sequential Modulation for Efficient Global Image Retouching <Br>
 **[Author]** Jingwen He, Yihao Liu, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), Chao Dong <Br>
 **[[Pytorch-Code](https://github.com/hejingwenhejingwen/CSRNet)]**<Br>
-*(控制restoration level)*	  本文聚焦于全局retouching, 认为很多操作都可以用MLP模拟, 据此设计了一个由若干1x1卷积组成的base网络, 另外又设计了一个condition网络提取全局信息对base网络各层进行调制.
+**(控制restoration level)**	  本文聚焦于全局retouching, 认为很多操作都可以用MLP模拟, 据此设计了一个由若干1x1卷积组成的base网络, 另外又设计了一个condition网络提取全局信息对base网络各层进行调制.
 
 ### RBQE ☆
 **[Paper]** (ECCV 2020) Early Exit or Not: Resource-Efficient Blind Quality Enhancement for Compressed Images <Br>
@@ -138,7 +132,7 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Paper]** (CVPR 2018) Deep Image Prior <Br>
 **[Author]** [Dmitry Ulyanov](https://dmitryulyanov.github.io/about), [Andrea Vedald](https://www.robots.ox.ac.uk/~vedaldi/), [Victor Lempitsky](http://sites.skoltech.ru/compvision/members/vilem/)<Br>
 **[[Project](https://dmitryulyanov.github.io/deep_image_prior)]**  <Br>
-*(zero-shot)*	
+**(zero-shot)**	
 1) 一篇有趣的论文, 提出深度卷积网络在图像生成和恢复任务中表现好的原因, 可能并不是因为其从大量图像中学习到了某种先验, 其实随机初始化的网络足以从输入中抓取大量的low-level图像先验信息. 在通过迭代的方式从图像中学习先验的过程中, 那些自然的, 有规律的内容较容易提取,会先被学习出来, 因此就达到了去噪或其它restoration的目的. <Br>
 2) 粗读, 实用性有待验证, 有时间可以好好研究一下. <Br>
 	
@@ -153,13 +147,19 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Paper]** (CVPR 2019) Attention-based Adaptive Selection of Operations for Image Restoration in the Presence of Unknown Combined Distortions<Br>
 **[Author]** [Masanori Suganuma](https://sites.google.com/site/suganumamasanori/eng), Xing Liu, Takayuki Okatani<Br>
 **[[Code](https://github.com/sg-nm/Operation-wise-attention-network)]** <Br>
-*(处理多种退化)*	 提出用一个基于attention的操作加权网络, 用来处理不同种类的degradation. 性能一般, 不太容易收敛, 思路值得借鉴. <Br>
+**(处理多种退化)**	 提出用一个基于attention的操作加权网络, 用来处理不同种类的degradation. 性能一般, 不太容易收敛, 思路值得借鉴. <Br>
 
+### AdaFM ★☆
+**[Paper]** (CVPR 2019) Modulating Image Restoration with Continual Levels via Adaptive Feature Modification Layers<Br>
+**[Author]** Jingwen He, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/)  <Br>
+**[[Pytorch-Code](https://github.com/hejingwenhejingwen/AdaFM)]**   <Br>
+**(控制restoration level)**	提出了一个AdaFM模块, 用于控制网络对图像的修复程度. AdaFM模块实际上就是一个dw conv层, 通过手动控制该层的权重, 达到控制修复程度的目的. 论文这么做是基于两个发现: 1) 对于不同restoration level, 网络提取的visual patterns是相似的, 只是weights不同; 2)调整网络内部参数对输出的影响是连续的.
+	
 ### CFSNet ★
 **[Paper]** (ICCV 2019) CFSNet: Toward a Controllable Feature Space for Image Restoration<Br>
 **[Author]** Wei Wang, Ruiming Guo, [Yapeng Tian](http://yapengtian.org/), Wenming Yang<Br>
 **[[Pytorch-Code](https://github.com/qibao77/CFSNet)]** <Br>
-*(控制restoration level)*	 粗读, 用一个手动输入的参数控制两个分支的权重, 一个分支负责low distortion修复, 另一个分支负责high visual quality. 两个分支通过使用不同loss (L1, L2 v.s. vgg, GAN loss) 训练来得到. 文章的效果和实用性有待检验, 思路可借鉴. <Br>
+**(控制restoration level)**	 粗读, 用一个手动输入的参数控制两个分支的权重, 一个分支负责low distortion修复, 另一个分支负责high visual quality. 两个分支通过使用不同loss (L1, L2 v.s. vgg, GAN loss) 训练来得到. 文章的效果和实用性有待检验, 思路可借鉴. <Br>
 	
 ### GCANet ★
 **[Paper]** (WACV 2019) Gated Context Aggregation Network for Image Dehazing and Deraining <Br>
@@ -185,7 +185,7 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Paper]** (ECCV 2020) Interactive Multi-Dimension Modulation with Dynamic Controllable Residual Learning for Image Restoration <Br>
 **[Author]** Jingwen He, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/) <Br>
 **[[Pytorch-Code](https://github.com/hejingwenhejingwen/CResMD)]** <Br>
-*(控制restoration level)*	 将控制参数由一个扩展为多个, 处理不同种类不同程度的退化, 输入的参数由若干FC层处理为权值vector, 作为残差块中的卷积分支的scale. 提出了一些trick训练不同退化的数据. 虽然论文表示可以处理多种退化情形, 但是用户收到调节两个甚至更多参数还是挺麻烦的.
+**(控制restoration level)**	 将控制参数由一个扩展为多个, 处理不同种类不同程度的退化, 输入的参数由若干FC层处理为权值vector, 作为残差块中的卷积分支的scale. 提出了一些trick训练不同退化的数据. 虽然论文表示可以处理多种退化情形, 但是用户收到调节两个甚至更多参数还是挺麻烦的.
 
 ### DeepWienerRestoration
 **[Paper]** (ECCV 2020) Microscopy Image Restoration with Deep Wiener-Kolmogorov filters <Br>
