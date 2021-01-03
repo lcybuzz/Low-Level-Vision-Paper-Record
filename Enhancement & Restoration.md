@@ -197,10 +197,10 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Author]** Bruno Lecouat, [Jean Ponce](https://www.di.ens.fr/~ponce/), [Julien Mairal](http://thoth.inrialpes.fr/people/mairal/) <Br>
 **[[Pytorch-Code](https://github.com/bruno-31/groupsc)]** <Br>
 	
-### *Learning Disentangled Feature Representation for Hybrid-distorted Image Restoration*
+### *Learning Disentangled Feature Representation for Hybrid-distorted Image Restoration* ★
 **[Paper]** (ECCV 2020) Learning Disentangled Feature Representation for Hybrid-distorted Image Restoration <Br>
 **[Author]** Xin Li, Xin Jin, [Jianxin Lin](http://home.ustc.edu.cn/~linjx/), Tao Yu, Sen Liu, Yaojun Wu, Wei Zhou, [Zhibo Chen](http://staff.ustc.edu.cn/~chenzhibo/)  <Br>
-
+**(处理多种退化)** 大致浏览, 通过gain-control-based normalization学习解耦特征, 并据此设计了几个模块, 处理多种退化混合问题. 文中使用了spectral value dierence orthogonality regularization作为一个loss, 促使feature map直接学到不相关的信息.
 		
 
 # Restoration and Enhancement
