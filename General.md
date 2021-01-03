@@ -27,6 +27,12 @@ https://www.sifeiliu.net/linear-rnn <Br>
 https://github.com/Liusifei/caffe-lowlevel <Br>
 **[Description]** <Br>
  
+### PL4NN ★★
+**[Paper]** (ICT 2017) Loss Functions for Image Restoration with Neural Networks <Br>
+**[Author]** [Hang Zhao](http://people.csail.mit.edu/hangzhao/), [Orazio Gallo](https://oraziogallo.github.io/), [Iuri Frosio](https://research.nvidia.com/person/iuri-frosio), [Jan Kautz](https://jankautz.com/#home)  <Br>
+**[[Caffe-code](https://github.com/NVlabs/PL4NN)]** <Br>
+分析了L1, L2, SSIM和MS-SSIM几个loss在图像恢复任务中的优劣
+	
 ### Fast Image Processing ★★
 **[Paper]** (ICCV 2017) Fast Image Processing with Fully-Convolutional Networks <Br>
 **[Author]** [Qifeng Chen](https://cqf.io/),	Jia Xu,	[Vladlen Koltun](http://vladlen.info/)  <Br>
