@@ -21,10 +21,11 @@
 **[Author]** [Xin Yu](https://sites.google.com/view/xinyus-homepage/Home), [Basura Fernando](https://basurafernando.github.io/), [Bernard Ghanem](http://www.bernardghanem.com/), [Fatih Porikli](http://www.porikli.com/), [Richard Hartley](http://users.cecs.anu.edu.au/~hartley/) <Br>
 结合人脸关键点的heapmap信息做人脸超分
 
-### Progressive Face Super-Resolution
+### Progressive Face Super-Resolution ★☆
 **[Paper]** (BMVC 2019) Progressive Face Super-Resolution via Attention to Facial Landmark <Br>
 **[Author]** Deokyun Kim, Minseon Kim, Gihyun Kwon, Dae-Shik Kim <Br>
 **[[Pytorch-Code](https://github.com/DeokyunKim/Progressive-Face-Super-Resolution)]** <Br>
+一个结构简洁的渐进式人脸超分网络, 使用了额外的关键点检测网络作为计算loss的attention.
 	
 ### GWAInet ★
 **[Paper]** (CVPRW 2019) Exemplar Guided Face Image Super-Resolution without Facial Landmarks <Br>
