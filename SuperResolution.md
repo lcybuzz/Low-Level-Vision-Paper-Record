@@ -58,6 +58,16 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[Author]** [Yiqun Mei](http://yiqunm2.web.illinois.edu/), [Yuchen Fan](https://ychfan.github.io/), [Yuqian Zhou](https://yzhouas.github.io/), Lichao Huang, [Thomas S. Huang](https://ifp-uiuc.github.io/), [Humphrey Shi](https://www.humphreyshi.com/) <Br>
 **[[Pytorch-Code](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention)]** <Br>
 	
+### MZSR
+**[Paper]** (CVPR 2020) Meta-Transfer Learning for Zero-Shot Super-Resolution <Br>
+**[Author]** Jae Woong Soh, Sunwoo Cho, Nam Ik Cho <Br>
+**[[TF-Code](https://github.com/JWSoh/MZSR)]** <Br>
+	
+### CutBlur
+**[Paper]** (CVPR 2020) Rethinking Data Augmentation for Image Super-resolution: A Comprehensive Analysis and a New Strategy <Br>
+**[Author]* Jaejun Yoo, [Namhyuk Ahn](https://nmhkahn.github.io/), [Kyung-Ah Sohn](https://sites.google.com/site/kasohn/home) <Br>
+**[[Pytorch-Code](https://github.com/clovaai/cutblur)]** <Br>
+	
 ### CARB ★☆
 **[Paper]**  (CVPRW 2020) Guided Frequency Separation Network for Real-World Super-Resolution <Br>
 **[Author]** Yuanbo Zhou, Wei Deng, Tong Tong, Qinquan Gao<Br>
