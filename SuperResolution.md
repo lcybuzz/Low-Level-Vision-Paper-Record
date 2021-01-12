@@ -42,7 +42,21 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[Author]** Sefi Bell-Kligler, [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
 **[[Project](http://www.wisdom.weizmann.ac.il/~vision/kernelgan/)]** **[[Pytorch-Code](https://github.com/sefibk/KernelGAN)]**  <Br>
 无监督预测降质核并进行超分的方法. 使用若干个现象卷积层的GAN预测降质kernel, 训练的的GAN可以合成一个kernel, 作为该图形的降质核, 网络训练采用LSGAN和若干正则项构成. 预测的模糊核作为ZSSR的降质核, 再无监督地预测炒粉结果
-. 
+
+### DRN
+**[Paper]** (CVPR 2020) Closed-loop Matters: Dual Regression Networks for Single Image Super-Resolution <Br>
+**[Author]**  [Yong Guo](http://www.guoyongcs.com/), Jian Chen, [Jingdong Wang](https://jingdongwang2017.github.io/), Qi Chen, [Jiezhang Cao](https://www.jiezhangcao.com/), Zeshuai Deng, [Yanwu Xu](https://xuyanwu.github.io/), [Mingkui Tan](https://tanmingkui.github.io/)<Br>
+**[[Pytorch-Code](https://github.com/guoyongcs/DRN)]** <Br>
+ 
+### USRNet
+**[Paper]** (CVPR 2020) Deep Unfolding Network for Image Super-Resolution <Br>
+**[Author]** [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
+**[[Pytorch-Code](https://github.com/cszn/USRNet)]** <Br>
+
+### Cross Scale Non Local Attention
+**[Paper]** (CVPR 2020) Image Super-Resolution with Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining <Br>
+**[Author]** [Yiqun Mei](http://yiqunm2.web.illinois.edu/), [Yuchen Fan](https://ychfan.github.io/), [Yuqian Zhou](https://yzhouas.github.io/), Lichao Huang, [Thomas S. Huang](https://ifp-uiuc.github.io/), [Humphrey Shi](https://www.humphreyshi.com/) <Br>
+**[[Pytorch-Code](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention)]** <Br>
 	
 ### CARB ★☆
 **[Paper]**  (CVPRW 2020) Guided Frequency Separation Network for Real-World Super-Resolution <Br>
