@@ -39,6 +39,11 @@
 **[[Pytorch-Code](https://github.com/Maclory/Deep-Iterative-Collaboration)]** <Br>
 迭代训练人脸超分和关键点网络, 并利用两个任务的信息, 相互优化
 
+### Ear for Face Super-Resolution
+**[Paper]**  (CVPR 2020) Learning to Have an Ear for Face Super-Resolution <Br>
+**[Author]** [Givi Meishvili](https://gmeishvili.github.io/), [Simon Jenni](https://sjenni.github.io/), [Paolo Favaro](https://www.cvg.unibe.ch/people/favaro)  <Br>
+**[[Project](https://gmeishvili.github.io/ear_for_face_super_resolution/index.html)]**
+
 ### *Face Super-Resolution Guided by 3D Facial Priors*
 **[Paper]**  (ECCV 2020) Face Super-Resolution Guided by 3D Facial Priors <Br>
 **[Author]** Xiaobin Hu, [Wenqi Ren](https://sites.google.com/site/renwenqi888/home), John LaMaster, [Xiaochun Cao](http://people.ucas.ac.cn/~0022382?language=en), [Xiaoming Li](https://csxmli2016.github.io/), Zechao Li, Bjoern Menze, Wei Liu <Br>
