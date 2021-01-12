@@ -48,10 +48,11 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[[Project](http://www.wisdom.weizmann.ac.il/~vision/kernelgan/)]** **[[Pytorch-Code](https://github.com/sefibk/KernelGAN)]**  <Br>
 无监督预测降质核并进行超分的方法. 使用若干个现象卷积层的GAN预测降质kernel, 训练的的GAN可以合成一个kernel, 作为该图形的降质核, 网络训练采用LSGAN和若干正则项构成. 预测的模糊核作为ZSSR的降质核, 再无监督地预测炒粉结果
 
-### DRN
+### DRN ★
 **[Paper]** (CVPR 2020) Closed-loop Matters: Dual Regression Networks for Single Image Super-Resolution <Br>
 **[Author]**  [Yong Guo](http://www.guoyongcs.com/), Jian Chen, [Jingdong Wang](https://jingdongwang2017.github.io/), Qi Chen, [Jiezhang Cao](https://www.jiezhangcao.com/), Zeshuai Deng, [Yanwu Xu](https://xuyanwu.github.io/), [Mingkui Tan](https://tanmingkui.github.io/)<Br>
 **[[Pytorch-Code](https://github.com/guoyongcs/DRN)]** <Br>
+训练时引入HR->LR的映射, 对LR图像进行额外的约束. 大致浏览.
  
 ### USRNet
 **[Paper]** (CVPR 2020) Deep Unfolding Network for Image Super-Resolution <Br>
