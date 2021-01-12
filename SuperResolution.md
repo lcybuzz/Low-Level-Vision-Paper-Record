@@ -13,7 +13,7 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[Paper]**  (CVPR 2018) Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform <Br>
 **[Author]** Xintao Wang, [Ke Yu](https://yuke93.github.io/), Chao Dong, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
 **[[Pytorch-Code](https://github.com/xinntao/SFTGAN)]**  <Br>
-*(结合语义的超分)* 从分割图中提取特征作为超分网络feature的scale和shift
+**(结合语义的超分)** 从分割图中提取特征作为超分网络feature的scale和shift
   
 ###  *Super-Resolution with Raw Images* ★
 **[Paper]**  (CVPR 2019) Towards Real Scene Super-Resolution with Raw Images  <Br>
