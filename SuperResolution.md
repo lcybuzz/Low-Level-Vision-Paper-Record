@@ -9,6 +9,12 @@
 **[[Project](http://www.wisdom.weizmann.ac.il/~vision/zssr/)]** **[[Pytorch-Code](https://github.com/assafshocher/ZSSR)]**  <Br>
 DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练输入, 对应的LR patch作为输出, 训练网络. 网络收敛后用来预测LR图像的超分结果.
  
+### DBPN ★★
+**[Paper]**  (CVPR 2018) Deep Back-Projection Networks For Super-Resolution <Br>
+**[Author]** [Muhammad Haris](https://alterzero.github.io/), [Greg Shakhnarovich](https://ttic.uchicago.edu/~gregory/), [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/) <Br>
+**[[Project](https://alterzero.github.io/projects/DBPN.html)]**  <Br>
+提出在神经网络中引入back-projection思想, 引入HR到LR的反馈信息. 这个思路或许可以用在其他形式的网络中, 替代加或乘的特征融合方式.
+	
 ### SFTGAN ★★
 **[Paper]**  (CVPR 2018) Recovering Realistic Texture in Image Super-resolution by Deep Spatial Feature Transform <Br>
 **[Author]** Xintao Wang, [Ke Yu](https://yuke93.github.io/), Chao Dong, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
