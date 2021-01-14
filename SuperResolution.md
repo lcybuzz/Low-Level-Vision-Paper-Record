@@ -54,10 +54,11 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[[Pytorch-Code](https://github.com/guoyongcs/DRN)]** <Br>
 训练时引入HR->LR的映射, 对LR图像进行额外的约束. 大致浏览.
  
-### USRNet
+### USRNet ★
 **[Paper]** (CVPR 2020) Deep Unfolding Network for Image Super-Resolution <Br>
 **[Author]** [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://vision.ee.ethz.ch/people-details.OTAyMzM=.TGlzdC8zMjQ4LC0xOTcxNDY1MTc4.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
 **[[Pytorch-Code](https://github.com/cszn/USRNet)]** <Br>
+大致浏览, 通过变量分解迭代求解, 一部分用FFT直接求解, 一部分用网络训练.
 
 ### Cross Scale Non Local Attention
 **[Paper]** (CVPR 2020) Image Super-Resolution with Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining <Br>
