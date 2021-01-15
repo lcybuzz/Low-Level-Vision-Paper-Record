@@ -77,6 +77,18 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[Author]** [Yiqun Mei](http://yiqunm2.web.illinois.edu/), [Yuchen Fan](https://ychfan.github.io/), [Yuqian Zhou](https://yzhouas.github.io/), Lichao Huang, [Thomas S. Huang](https://ifp-uiuc.github.io/), [Humphrey Shi](https://www.humphreyshi.com/) <Br>
 **[[Pytorch-Code](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention)]** <Br>
 设计了LR到降采样LR的attention, 挖掘不同尺度下的non-local相似性
+
+### TTSR ★★
+**[Paper]** (CVPR 2020) TTSR: Learning Texture Transformer Network for Image Super-Resolution <Br>
+**[Author]** Fuzhi Yang, Huan Yang, Jianlong Fu, Hongtao Lu, Baining Guo <Br>
+**[[Pytorch-Code](https://github.com/researchmm/TTSR)]** <Br>
+使用transformer从参考图像获取纹理信息
+
+	
+### MZSR
+**[Paper]** (CVPR 2020) Meta-Transfer Learning for Zero-Shot Super-Resolution <Br>
+**[Author]** Jae Woong Soh, Sunwoo Cho, Nam Ik Cho <Br>
+**[[TF-Code](https://github.com/JWSoh/MZSR)]** <Br>
 	
 ### MZSR
 **[Paper]** (CVPR 2020) Meta-Transfer Learning for Zero-Shot Super-Resolution <Br>
