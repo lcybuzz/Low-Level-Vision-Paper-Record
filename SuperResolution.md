@@ -72,10 +72,11 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[[Code](https://github.com/njulj/RFANet)]** <Br>
 设计了一个残差聚合和attention模块
 	
-### Cross Scale Non Local Attention
+### Cross Scale Non Local Attention ★☆
 **[Paper]** (CVPR 2020) Image Super-Resolution with Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining <Br>
 **[Author]** [Yiqun Mei](http://yiqunm2.web.illinois.edu/), [Yuchen Fan](https://ychfan.github.io/), [Yuqian Zhou](https://yzhouas.github.io/), Lichao Huang, [Thomas S. Huang](https://ifp-uiuc.github.io/), [Humphrey Shi](https://www.humphreyshi.com/) <Br>
 **[[Pytorch-Code](https://github.com/SHI-Labs/Cross-Scale-Non-Local-Attention)]** <Br>
+设计了LR到降采样LR的attention, 挖掘不同尺度下的non-local相似性
 	
 ### MZSR
 **[Paper]** (CVPR 2020) Meta-Transfer Learning for Zero-Shot Super-Resolution <Br>
