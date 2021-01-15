@@ -91,7 +91,7 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 
 ### SPSR ★
 **[Paper]** (CVPR 2020) Structure-Preserving Super Resolution with Gradient Guidance  <Br>
-**[Author]** Cheng Ma, [Yongming Rao](https://raoyongming.github.io/), Yean Cheng, Ce Chen, Jiwen Lu, Jie Zhou <Br>
+**[Author]** Cheng Ma, [Yongming Rao](https://raoyongming.github.io/), Yean Cheng, Ce Chen, [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), Jie Zhou <Br>
 **[[Pytorch-Code](https://github.com/Maclory/SPSR)]** <Br>
 在常规超分分支外加入一个gradient分支
 	
