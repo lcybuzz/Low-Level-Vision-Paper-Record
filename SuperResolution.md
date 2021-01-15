@@ -66,6 +66,12 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[[Pytorch-Code](https://github.com/cszn/USRNet)]** <Br>
 大致浏览, 通过变量分解迭代求解, 一部分用FFT直接求解, 一部分用网络训练.
 
+### RFANet ★
+**[Paper]** (CVPR 2020) Residual Feature Aggregation Network for Image Super-resolution <Br>
+**[Author]** Jie Liu, Wenjie Zhang, Yuting Tang, Jie Tang, Gangshan Wu <Br>
+**[[Code](https://github.com/njulj/RFANet)]** <Br>
+设计了一个残差聚合和attention模块
+	
 ### Cross Scale Non Local Attention
 **[Paper]** (CVPR 2020) Image Super-Resolution with Cross-Scale Non-Local Attention and Exhaustive Self-Exemplars Mining <Br>
 **[Author]** [Yiqun Mei](http://yiqunm2.web.illinois.edu/), [Yuchen Fan](https://ychfan.github.io/), [Yuqian Zhou](https://yzhouas.github.io/), Lichao Huang, [Thomas S. Huang](https://ifp-uiuc.github.io/), [Humphrey Shi](https://www.humphreyshi.com/) <Br>
