@@ -83,12 +83,17 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[Author]** Fuzhi Yang, Huan Yang, Jianlong Fu, Hongtao Lu, Baining Guo <Br>
 **[[Pytorch-Code](https://github.com/researchmm/TTSR)]** <Br>
 使用transformer从参考图像获取纹理信息
-
 	
 ### *Unpaired Image Super-Resolution using Pseudo-Supervision* ★
 **[Paper]** (CVPR 2020) Unpaired Image Super-Resolution using Pseudo-Supervision <Br>
 **[Author]** Shunta Maeda <Br>
 大致浏览, 类似CycleGAN的结构
+
+### SPSR ★
+**[Paper]** (CVPR 2020) Structure-Preserving Super Resolution with Gradient Guidance  <Br>
+**[Author]** Cheng Ma, [Yongming Rao](https://raoyongming.github.io/), Yean Cheng, Ce Chen, Jiwen Lu, Jie Zhou <Br>
+**[[Pytorch-Code](https://github.com/Maclory/SPSR)]** <Br>
+在常规超分分支外加入一个gradient分支
 	
 ### MZSR
 **[Paper]** (CVPR 2020) Meta-Transfer Learning for Zero-Shot Super-Resolution <Br>
