@@ -85,10 +85,10 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 使用transformer从参考图像获取纹理信息
 
 	
-### MZSR
-**[Paper]** (CVPR 2020) Meta-Transfer Learning for Zero-Shot Super-Resolution <Br>
-**[Author]** Jae Woong Soh, Sunwoo Cho, Nam Ik Cho <Br>
-**[[TF-Code](https://github.com/JWSoh/MZSR)]** <Br>
+### *Unpaired Image Super-Resolution using Pseudo-Supervision* ★
+**[Paper]** (CVPR 2020) Unpaired Image Super-Resolution using Pseudo-Supervision <Br>
+**[Author]** Shunta Maeda <Br>
+大致浏览, 类似CycleGAN的结构
 	
 ### MZSR
 **[Paper]** (CVPR 2020) Meta-Transfer Learning for Zero-Shot Super-Resolution <Br>
