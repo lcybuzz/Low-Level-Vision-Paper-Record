@@ -94,6 +94,11 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[Author]** Cheng Ma, [Yongming Rao](https://raoyongming.github.io/), Yean Cheng, Ce Chen, [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/), Jie Zhou <Br>
 **[[Pytorch-Code](https://github.com/Maclory/SPSR)]** <Br>
 在常规超分分支外加入一个gradient分支
+
+### Correction Filter
+**[Paper]** (CVPR 2020 Oral) Correction Filter for Single Image Super-Resolution: Robustifying Off-the-Shelf Deep Super-Resolvers  <Br>
+**[Author]** Shady Abu Hussein, [Tom Tirer](https://tirertom.wixsite.com/homepage), [Raja Giryes](http://web.eng.tau.ac.il/~raja/) <Br>
+**[[Pytorch-Code](https://github.com/shadyabh/Correction-Filter)]** <Br>
 	
 ### MZSR
 **[Paper]** (CVPR 2020) Meta-Transfer Learning for Zero-Shot Super-Resolution <Br>
@@ -112,7 +117,7 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 使用一套基于GAN的无监督方案生成真实LR图像对, 在该方案中提出了所谓颜色引导生成器网络, 用于产生AdaIn中的参数. 
 	
 ### REAL-SR ★★
-**[Paper]**  (CVPRW 2020)Real-World Super-Resolution via Kernel Estimation and Noise Injection <Br>
+**[Paper]** (CVPRW 2020) Real-World Super-Resolution via Kernel Estimation and Noise Injection <Br>
 **[Author]** Xiaozhong Ji，Yun Cao， [Ying Tai](https://tyshiwo.github.io/)， Chengjie Wang，Jilin Li，Feiyue Huang<Br>
 **[[Pytorch-Code](https://github.com/Tencent/Real-SR)]** <Br>
 设计了一个退化图像的流程, 通过随机模糊核和注入噪声, 生成接近于真实的样本, 在NTIRE 2020超分竞赛中取得了第一名, 并且在真实数据上表现良好
