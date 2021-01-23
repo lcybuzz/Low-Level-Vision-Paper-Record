@@ -7,7 +7,12 @@
 **[Paper]** (CVPR 2020 Oral) Enhanced Blind Face Restoration With Multi-Exemplar Images and Adaptive Spatial Feature Fusion  <Br>
 **[Author]** [Xiaoming Li](https://csxmli2016.github.io/), Wenyu Li, [Dongwei Ren](https://csdwren.github.io/), Hongzhi Zhang, Meng Wang, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo) <Br>
 **[[Code](https://github.com/csxmli2016/ASFFNet)]** <Br>
-	
+
+### HiFaceGAN ★☆
+**[Paper]** (MM 2020) HiFaceGAN: Face Renovation via Collaborative Suppression and Replenishment <Br>
+**[Author]** [Lingbo Yang](https://lotayou.github.io/), Chang Liu, Pan Wang, Shanshe Wang, Peiran Ren, Siwei Ma, Wen Gao <Br>
+**[[Project](https://lotayou.github.io/projects/face_renov.html)]**, **[[Pytorch-Code](https://github.com/Lotayou/Face-Renovation)]**  <Br>
+通过不同提取不同尺度的语义信息作为指导, 实现人脸修复, 对真实照片效果良好.
 
 # Face SuperResolution
 ### FSRNet ★
