@@ -3,6 +3,11 @@
 - [Face SuperResolution](#face-superresolution)
 
 # Face Restoration
+### *Deep semantic face deblurrin*
+**[Paper]** (CVPR 2018) Deep semantic face deblurring <Br>
+**[Author]** [Ziyi Shen](https://sites.google.com/site/ziyishenmi/), [Wei-Sheng Lai](https://www.wslai.net/) , Tingfa Xu, [Jan Kautz](https://jankautz.com/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)  <Br>
+**[[Project](https://sites.google.com/site/ziyishenmi/cvpr18_face_deblur)]** **[[Matlab-Code](https://github.com/joanshen0508/Deep-Semantic-Face-Deblurring)]** <Br>
+
 ### GFRNet
 **[Paper]** (CVPR 2018) Learning Warped Guidance for Blind Face Restoration <Br>
 **[Author]** [Xiaoming Li](https://csxmli2016.github.io/), Ming Liu, Yuting Ye, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Liang Lin](http://www.linliang.net/), Ruigang Yang <Br>
@@ -20,6 +25,16 @@
 通过不同提取不同尺度的语义信息作为指导, 实现人脸修复, 对真实照片效果良好.
 
 # Face SuperResolution
+### Attention-FH
+**[Paper]** (CVPR 2017) Attention-Aware Face Hallucination via Deep Reinforcement Learning <Br>
+**[Author]** Qingxing Cao, [Liang Lin](http://www.linliang.net/), [Yukai Shi](https://ykshi.github.io/), [Xiaodan Liang](https://lemondan.github.io/), [Guanbin Li](http://guanbinli.com/) <Br>
+**[[Torch-Code](https://github.com/ykshi/facehallucination)]** <Br>
+
+### *Learning to Super-resolve Blurry Face and Text Images*
+**[Paper]** (ICCV 2017) Learning to Super-resolve Blurry Face and Text Images <Br>
+**[Author]** [Xiangyu Xu](https://sites.google.com/view/xiangyuxu), [Deqing Sun](https://deqings.github.io/), [Jinshan Pan](https://jspan.github.io/), Yujin Zhang, [Hanspeter Pfister](https://vcg.seas.harvard.edu/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/) <Br>
+**[[Project](https://sites.google.com/view/xiangyuxu/deblursr_iccv17)]** <Br>
+	
 ### FSRNet ★
 **[Paper]** (CVPR 2018) FSRNet: End-to-End Learning Face Super-Resolution with Facial Priors <Br>
 **[Author]** Yu Chen, [Ying Tai](https://tyshiwo.github.io/), [Xiaoming Liu](http://cvlab.cse.msu.edu/), [Chunhua Shen](https://cshen.github.io/index.html), Jian Yang <Br>
