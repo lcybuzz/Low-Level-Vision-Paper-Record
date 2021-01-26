@@ -41,7 +41,13 @@
 **[Author]** Yu Chen, [Ying Tai](https://tyshiwo.github.io/), [Xiaoming Liu](http://cvlab.cse.msu.edu/), [Chunhua Shen](https://cshen.github.io/index.html), Jian Yang <Br>
 **[[Torch-Code](https://github.com/tyshiwo/FSRNet)]** <Br>
 一个分支预测lanmark和分割结果, 辅助人脸超分
-	
+
+### Super-FAN ★
+**[Paper]** (CVPR 2018) Super-FAN: Integrated facial landmark localization and super-resolution of real-world low resolution faces in arbitrary poses with GANs <Br>
+**[Author]** [Adrian Bulat](https://www.adrianbulat.com/), [Georgios Tzimiropoulos](http://www.cs.nott.ac.uk/~pszyt/) <Br>
+**[[Pytorch-Code](https://github.com/jzijin/Super-FAN)]** <Br>
+同时做SR和关键点检测
+
 ### *Face Super-resolution Guided by Facial Component Heatmaps* ★
 **[Paper]** (ECCV 2018) Face Super-resolution Guided by Facial Component Heatmaps <Br>
 **[Author]** [Xin Yu](https://sites.google.com/view/xinyus-homepage/Home), [Basura Fernando](https://basurafernando.github.io/), [Bernard Ghanem](http://www.bernardghanem.com/), [Fatih Porikli](http://www.porikli.com/), [Richard Hartley](http://users.cecs.anu.edu.au/~hartley/) <Br>
