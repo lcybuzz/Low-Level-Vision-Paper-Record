@@ -3,7 +3,7 @@
 - [Face SuperResolution](#face-superresolution)
 
 # Face Restoration
-### *Deep semantic face deblurrin*
+### *Deep semantic face deblurring*
 **[Paper]** (CVPR 2018) Deep semantic face deblurring <Br>
 **[Author]** [Ziyi Shen](https://sites.google.com/site/ziyishenmi/), [Wei-Sheng Lai](https://www.wslai.net/) , Tingfa Xu, [Jan Kautz](https://jankautz.com/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)  <Br>
 **[[Project](https://sites.google.com/site/ziyishenmi/cvpr18_face_deblur)]** **[[Matlab-Code](https://github.com/joanshen0508/Deep-Semantic-Face-Deblurring)]** <Br>
@@ -13,10 +13,11 @@
 **[Author]** [Xiaoming Li](https://csxmli2016.github.io/), Ming Liu, Yuting Ye, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Liang Lin](http://www.linliang.net/), Ruigang Yang <Br>
 **[[Torch-Code](https://github.com/csxmli2016/GFRNet)]** <Br>
 	
-### ASFFNet
+### ASFFNet ★
 **[Paper]** (CVPR 2020 Oral) Enhanced Blind Face Restoration With Multi-Exemplar Images and Adaptive Spatial Feature Fusion  <Br>
 **[Author]** [Xiaoming Li](https://csxmli2016.github.io/), Wenyu Li, [Dongwei Ren](https://csdwren.github.io/), Hongzhi Zhang, Meng Wang, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo) <Br>
 **[[Code](https://github.com/csxmli2016/ASFFNet)]** <Br>
+[基于同一张脸的exemplar做恢复] 通过关键点从数张同一人的examplar图像中选出最相思的图像, 使用moving least-square和AdaIn进行空间和亮度的对齐, 提出了ASFF模块通过预测attention map将引导图和LR图的特征融合
 
 ### HiFaceGAN ★☆
 **[Paper]** (MM 2020) HiFaceGAN: Face Renovation via Collaborative Suppression and Replenishment <Br>
