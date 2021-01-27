@@ -13,11 +13,12 @@
 **[[Project](https://sites.google.com/site/ziyishenmi/cvpr18_face_deblur)]** **[[Matlab-Code](https://github.com/joanshen0508/Deep-Semantic-Face-Deblurring)]** <Br>
 用一个人脸解析网络得到五官mask, 再把mask与输入结合, 分64和128两个分辨率尺度做deblur
 
-### GFRNet
+### GFRNet ★
 **[Paper]** (CVPR 2018) Learning Warped Guidance for Blind Face Restoration <Br>
 **[Author]** [Xiaoming Li](https://csxmli2016.github.io/), Ming Liu, Yuting Ye, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Liang Lin](http://www.linliang.net/), Ruigang Yang <Br>
 **[[Torch-Code](https://github.com/csxmli2016/GFRNet)]** <Br>
-	
+**(基于同一张脸的exemplar做恢复)** 设计了WrapNet做对齐和RecNet做修复. WrapNet以exemplar和LR做输入, 关键点距离作为loss. RecNet接受LR和对齐后的exemplar, 使用全局和局部的gan loss以及VGG loss
+
 ### ASFFNet ★
 **[Paper]** (CVPR 2020 Oral) Enhanced Blind Face Restoration With Multi-Exemplar Images and Adaptive Spatial Feature Fusion  <Br>
 **[Author]** [Xiaoming Li](https://csxmli2016.github.io/), Wenyu Li, [Dongwei Ren](https://csdwren.github.io/), Hongzhi Zhang, Meng Wang, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo) <Br>
