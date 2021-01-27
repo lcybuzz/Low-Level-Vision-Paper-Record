@@ -3,6 +3,10 @@
 - [Face SuperResolution](#face-superresolution)
 
 # Face Restoration
+### *Deep face deblurring* ☆
+**[Paper]** (CVPRW 2017) Deep face deblurring <Br>
+**[Author]** Grigorios Chrysos, [Stefanos Zafeiriou](https://wp.doc.ic.ac.uk/szafeiri/)  <Br>
+	
 ### *Deep semantic face deblurring*
 **[Paper]** (CVPR 2018) Deep semantic face deblurring <Br>
 **[Author]** [Ziyi Shen](https://sites.google.com/site/ziyishenmi/), [Wei-Sheng Lai](https://www.wslai.net/) , Tingfa Xu, [Jan Kautz](https://jankautz.com/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)  <Br>
