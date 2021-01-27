@@ -7,10 +7,11 @@
 **[Paper]** (CVPRW 2017) Deep face deblurring <Br>
 **[Author]** Grigorios Chrysos, [Stefanos Zafeiriou](https://wp.doc.ic.ac.uk/szafeiri/)  <Br>
 	
-### *Deep semantic face deblurring*
+### *Deep semantic face deblurring* ★
 **[Paper]** (CVPR 2018) Deep semantic face deblurring <Br>
 **[Author]** [Ziyi Shen](https://sites.google.com/site/ziyishenmi/), [Wei-Sheng Lai](https://www.wslai.net/) , Tingfa Xu, [Jan Kautz](https://jankautz.com/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/)  <Br>
 **[[Project](https://sites.google.com/site/ziyishenmi/cvpr18_face_deblur)]** **[[Matlab-Code](https://github.com/joanshen0508/Deep-Semantic-Face-Deblurring)]** <Br>
+用一个人脸解析网络得到五官mask, 再把mask与输入结合, 分64和128两个分辨率尺度做deblur
 
 ### GFRNet
 **[Paper]** (CVPR 2018) Learning Warped Guidance for Blind Face Restoration <Br>
