@@ -5,10 +5,10 @@
 可能与其它方向的论文记录有重叠.
 
 # Table of Contents
-- [Unsupervised & Weakly Supervised](#unsupervised-&-weakly-supervised)
+- [Unsupervised and Weakly Supervised](#unsupervised-and-weakly-supervised)
 - [Image Synthesis](#image-synthesis)
 
-# Unsupervised & Weakly Supervised
+# Unsupervised and Weakly Supervised
 ### WESPE ★
 **[Paper]** (CVPRW 2018) WESPE: Weakly Supervised Photo Enhancer for Digital Cameras <Br>
 **[Author]** Andrey Ignatov, Nikolay Kobyshev, Radu Timofte , Kenneth Vanhoey, Luc Van Gool  <Br>
