@@ -11,7 +11,7 @@
 提出了一个渐进式训练GAN的方案, 可以实现大分辨率图像的生成(1024x1024人脸), 并提出了一些训练的技巧. 代码Star非常多, 可以学习一下 <Br>
 
 ### BigGAN 
-**[Paper]**  (arXiv 1809) Large Scale GAN Training for High Fidelity Natural Image Synthesis <Br>
+**[Paper]**  (ICLR 2019) Large Scale GAN Training for High Fidelity Natural Image Synthesis <Br>
 **[Author]** Andrew Brock, [Jeff Donahue](https://jeffdonahue.com/), Karen Simonyan <Br>
 **[[Pytorch-Code](https://github.com/ajbrock/BigGAN-PyTorch)]**  <Br>
 	
