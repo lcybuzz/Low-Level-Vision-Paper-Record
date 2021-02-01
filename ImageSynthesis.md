@@ -44,14 +44,39 @@
 **[Author]** Rameen Abdal, Yipeng Qin, Peter Wonka <Br>
 **[[TF-Code](https://github.com/NVlabs/stylegan)]**  <Br>
 
+### layout2im
+**[Paper]**  (CVPR 2019 Oral) Image Generation From Layout <Br>
+**[Author]** [Bo Zhao](https://www.zhaobo.me/), [Lili Meng](https://lilimeng1103.wixsite.com/research-site), Weidong Yin, [Leonid Sigal](https://www.cs.ubc.ca/~lsigal/) <Br>
+**[[Pytorch-Code](https://github.com/zhaobozb/layout2im)]**  <Br>
+	
 ### SEAN ★
 **[Paper]** (CVPR 2020 Oral) SEAN: Image Synthesis with Semantic Region-Adaptive Normalization <Br>
 **[Author]** Peihao Zhu, Rameen Abdal, [Yipeng Qin](https://www.cardiff.ac.uk/people/view/1508897-qin-yipeng), [Peter Wonka](http://peterwonka.net/)    <Br>
 **[[Project](https://zpdesu.github.io/SEAN/)]** **[[PyTorch-Code](https://github.com/ZPdesu/SEAN)]**<Br>
 与SPADE类似, 不过提取了每个语义类别的style信息, 并与语义mask一起, 通过AdaIN的形式控制生成器的activation
 
-
+	
 # Image Translation
+### CycleGAN 
+**[Paper]**  (ICCV 2017) Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks<Br>
+**[Author]** [RJun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Taesung Park](https://taesung.me/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/) <Br>
+**[[Project](https://junyanz.github.io/CycleGAN/)]**  <Br>
+
+### BicycleGAN
+**[Paper]**  (NIPS 2017) Toward Multimodal Image-to-Image Translation <Br>
+**[Author]** [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Richard Zhang](http://richzhang.github.io/), [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Oliver Wang](http://www.oliverwang.info/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/) <Br>
+**[[Pytorch-Code](https://github.com/junyanz/BicycleGAN)]**  <Br>
+	
+### UNIT
+**[Paper]**  (NIPS 2017) Unsupervised image-to-image translation networks <Br>
+**[Author]** [Ming-Yu Liu](http://mingyuliu.net/), [Thomas Breuel](http://www.tmbdev.org/), [Jan Kautz](https://jankautz.com/) <Br>
+**[[Pytorch-Code](https://github.com/nvlabs/imaginaire)]**  <Br>
+	
+### MUNIT
+**[Paper]**  (ECCV 2018) Multimodal Unsupervised Image-to-image Translation <Br>
+**[Author]** [Xun Huang](http://www.cs.cornell.edu/~xhuang/), [Ming-Yu Liu](http://mingyuliu.net/), [Serge Belongie](https://vision.cornell.edu/se3/), [Jan Kautz](https://jankautz.com/) <Br>
+**[[Pytorch-Code](https://github.com/NVlabs/MUNIT)]**  <Br>
+	
 ### StarGAN 
 **[Paper]**  (CVPR 2018 Oral) StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation <Br>
 **[Author]** [Yunjey Choi](https://yunjey.github.io/), [Minje Choi](http://www.minjechoi.com/), Munyoung Kim, Jung-Woo Ha, [Sunghun Kim](http://home.cse.ust.hk/~hunkim/), [Jaegul Choo](https://sites.google.com/site/jaegulchoo/) <Br>
@@ -61,3 +86,8 @@
 **[Paper]** (CVPR 2020) StarGAN v2: Diverse Image Synthesis for Multiple Domains <Br>
 **[Author]** [Yunjey Choi](https://yunjey.github.io/), [Youngjung Uh](https://sites.google.com/site/youngjunguh), Jaejun Yoo, Jung-Woo Ha<Br>
 **[[Pytorch-Code](https://github.com/clovaai/stargan-v2)]**<Br>
+	
+### COCO-FUNIT
+**[Paper]**  (ECCV 2020) COCO-FUNIT: Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder <Br>
+**[Author]** [Kuniaki Saito](http://ai.bu.edu/ksaenko.html), [Kate Saenko](http://cs-people.bu.edu/keisaito/), [Ming-Yu Liu](http://mingyuliu.net/) <Br>
+**[[Pytorch-Code](https://github.com/nvlabs/imaginaire)]**  <Br>
