@@ -4,12 +4,16 @@
 
 
 # Image Synthesis
+### PhotographicImageSynthesis
+**[Paper]** (CVPR 2018) Progressive Growing of GANs for Improved Quality, Stability, and Variation <Br>
+**[Author]** [Qifeng Chen](https://cqf.io/), [Vladlen Koltun](http://vladlen.info/)   <Br>
+**[[Project](https://cqf.io/ImageSynthesis/)]**  **[[TF-Code](https://github.com/CQFIO/PhotographicImageSynthesis)]** <Br>
+
 ### Progressive Growing of GANs ★★☆
 **[Paper]** (ICLR 2018) Progressive Growing of GANs for Improved Quality, Stability, and Variation <Br>
 **[Author]** [Tero Karras](https://research.nvidia.com/person/tero-karras), [Timo Aila](https://research.nvidia.com/person/timo-aila), [Samuli Laine](https://users.aalto.fi/~laines9/), [Jaakko Lehtinen](https://users.aalto.fi/~lehtinj7/)   <Br>
 **[[Pytorch-Code](https://github.com/tkarras/progressive_growing_of_gans)]** <Br>
-提出了一个渐进式训练GAN的方案, 可以实现大分辨率图像的生成(1024x1024人脸), 并提出了一些训练的技巧. 代码Star非常多, 可以学习一下 <Br>
-
+	
 ### BigGAN 
 **[Paper]**  (ICLR 2019) Large Scale GAN Training for High Fidelity Natural Image Synthesis <Br>
 **[Author]** Andrew Brock, [Jeff Donahue](https://jeffdonahue.com/), Karen Simonyan <Br>
