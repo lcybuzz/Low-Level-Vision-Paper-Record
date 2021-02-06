@@ -232,7 +232,11 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Paper]** (ECCV 2020) Guidance and Evaluation: Semantic-Aware Image Inpainting for Mixed Scenes <Br>
 **[Author]** Liang Liao, Jing Xiao, [Zheng Wang](https://wangzwhu.github.io/home/), [Chia-Wen Lin](https://www.ee.nthu.edu.tw/cwlin/), [Shin'ichi Satoh](http://research.nii.ac.jp/~satoh/) <Br>
 	
-	
+### *Prior Guided GAN Based Semantic Inpainting*
+**[Paper]** (CVPR 2020) Prior Guided GAN Based Semantic Inpainting <Br>
+**[Author]** Avisek Lahiri, Arnav Kumar Jain, Sanskar Agrawal, Pabitra Mitra, Prabir Kumar Biswas <Br>
+大致浏览. 分为两个阶段, 第一阶段训练从noise prior生成图像的generator, 第二阶段固定generator, 训练从待修复图像生成噪声先验的网络. 使用了人脸关键点作为额外的prior控制生成结果.
+		
 	
 
 # Video Restoration and Enhancement
