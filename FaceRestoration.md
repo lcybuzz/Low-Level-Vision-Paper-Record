@@ -57,6 +57,12 @@
 **[[Pytorch-Code](https://github.com/jzijin/Super-FAN)]** <Br>
 同时做SR和关键点检测
 
+### *Face and Image Super-resolution* ★
+**[Paper]** (ECCV 2018) To learn image super-resolution, use a GAN to learn how to do image degradation first <Br>
+**[Author]** [Adrian Bulat](https://www.adrianbulat.com/), [Jing Yang](https://www.nottingham.ac.uk/pharmacy/people/jing.yang), [Georgios Tzimiropoulos](http://www.cs.nott.ac.uk/~pszyt/) <Br>
+**[[Pytorch-Code](https://github.com/jingyang2017/Face-and-Image-super-resolution)]** <Br>
+先用GAN预测一个降质网络, 估计真实LR数据, 再训练超分模型
+	
 ### *Face Super-resolution Guided by Facial Component Heatmaps* ★
 **[Paper]** (ECCV 2018) Face Super-resolution Guided by Facial Component Heatmaps <Br>
 **[Author]** [Xin Yu](https://sites.google.com/view/xinyus-homepage/Home), [Basura Fernando](https://basurafernando.github.io/), [Bernard Ghanem](http://www.bernardghanem.com/), [Fatih Porikli](http://www.porikli.com/), [Richard Hartley](http://users.cecs.anu.edu.au/~hartley/) <Br>
