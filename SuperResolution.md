@@ -3,6 +3,16 @@
 - [Video Super Resolution](#video-super-restoration)
 
 #  Super Resolution
+### SRGAN
+**[Paper]**  (CVPR 2017) Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network<Br>
+**[Author]** [Christian Ledig](http://www.christianledig.com/), [Lucas Theis](http://theis.io/), [Ferenc Huszar](https://www.inference.vc/about/), Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, [Alykhan Tejani](http://alykhantejani.github.io/), Johannes Totz, Zehan Wang, Wenzhe Shi <Br>
+**[[TF-Code](https://github.com/brade31919/SRGAN-tensorflow)]**  <Br>
+	
+### ESRGAN
+**[Paper]**  (ECCV 2018 workshop) Enhanced Super-Resolution Generative Adversarial Networks <Br>
+**[Author]** Xintao Wang, [Ke Yu](https://yuke93.github.io/), Shixiang Wu, [Jinjin Gu](https://www.jasongt.com/), Yihao Liu, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
+**[[Pytorch-Code](https://github.com/xinntao/ESRGAN)]**  <Br>
+	
 ### ZSSR ★☆
 **[Paper]**  (CVPR 2018) "Zero Shot" Super-Resolution using Deep Internal Learning <Br>
 **[Author]** [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), [Nadav Cohen](http://www.cohennadav.com/), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
