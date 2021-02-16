@@ -61,9 +61,15 @@
 
 	
 # Image Translation
+### pix2pix ★★☆
+**[Paper]**  (CVPR 2017) Image-to-Image Translation with Conditional Adversarial Nets<Br>
+**[Author]**  [Phillip Isola](http://web.mit.edu/phillipi/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Tinghui Zhou](https://people.eecs.berkeley.edu/~tinghuiz/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/) <Br>
+**[[Project](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)]**  <Br>
+使用patchGAN的图像迁移的经典方法
+	
 ### CycleGAN 
 **[Paper]**  (ICCV 2017) Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks<Br>
-**[Author]** [RJun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Taesung Park](https://taesung.me/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/) <Br>
+**[Author]** [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Taesung Park](https://taesung.me/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/) <Br>
 **[[Project](https://junyanz.github.io/CycleGAN/)]**  <Br>
 
 ### BicycleGAN
