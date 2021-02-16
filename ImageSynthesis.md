@@ -101,3 +101,8 @@
 **[Paper]**  (ECCV 2020) COCO-FUNIT: Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder <Br>
 **[Author]** [Kuniaki Saito](http://ai.bu.edu/ksaenko.html), [Kate Saenko](http://cs-people.bu.edu/keisaito/), [Ming-Yu Liu](http://mingyuliu.net/) <Br>
 **[[Pytorch-Code](https://github.com/nvlabs/imaginaire)]**  <Br>
+
+### CUT
+**[Paper]**  (ECCV 2020) Contrastive Learning for Unpaired Image-to-Image Translation <Br>
+**[Author]** [Taesung Park](https://taesung.me/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Richard Zhang](https://richzhang.github.io/),  [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/) <Br>
+**[[Project](http://taesung.me/ContrastiveUnpairedTranslation/)]** **[[Pytorch-Code](https://github.com/taesungp/contrastive-unpaired-translation)]**  <Br>
