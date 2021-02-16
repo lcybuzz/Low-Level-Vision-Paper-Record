@@ -13,6 +13,12 @@
 **[Author]** Xintao Wang, [Ke Yu](https://yuke93.github.io/), Shixiang Wu, [Jinjin Gu](https://www.jasongt.com/), Yihao Liu, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
 **[[Pytorch-Code](https://github.com/xinntao/ESRGAN)]**  <Br>
 	
+### *Super-resolution using a GAN to degradate* ★★
+**[Paper]**  (ECCV 2018) To learn image super-resolution, use a GAN to learn how to do image degradation first <Br>
+**[Author]** [Adrian Bulat](https://www.adrianbulat.com/), [Jing Yang](https://jingyang2017.github.io/), [Georgios Tzimiropoulos](http://www.cs.nott.ac.uk/~pszyt/) <Br>
+**[[Pytorch-Code](https://github.com/jingyang2017/Face-and-Image-super-resolution)]**  <Br>
+(**使用GAN的无监督学习降质**)
+	
 ### ZSSR ★☆
 **[Paper]**  (CVPR 2018) "Zero Shot" Super-Resolution using Deep Internal Learning <Br>
 **[Author]** [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), [Nadav Cohen](http://www.cohennadav.com/), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
