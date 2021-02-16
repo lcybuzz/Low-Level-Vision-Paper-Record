@@ -9,6 +9,11 @@
 **[Author]** [Qifeng Chen](https://cqf.io/), [Vladlen Koltun](http://vladlen.info/)   <Br>
 **[[Project](https://cqf.io/ImageSynthesis/)]**  **[[TF-Code](https://github.com/CQFIO/PhotographicImageSynthesis)]** <Br>
 
+### pix2pixHD
+**[Paper]** (CVPR 2018) High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs <Br>
+**[Author]** [Ting-Chun Wang](https://tcwang0509.github.io/), [Ming-Yu Liu](http://mingyuliu.net/), [Jun-Yan Zhu](http://people.eecs.berkeley.edu/~junyanz/), Andrew Tao, [Jan Kautz](http://jankautz.com/), [Bryan Catanzaro](http://catanzaro.name/) <Br>
+**[[Project](https://tcwang0509.github.io/pix2pixHD/)]**  **[[Pytorch-Code](https://github.com/NVIDIA/pix2pixHD)]** <Br>
+	
 ### Progressive Growing of GANs ★★☆
 **[Paper]** (ICLR 2018) Progressive Growing of GANs for Improved Quality, Stability, and Variation <Br>
 **[Author]** [Tero Karras](https://research.nvidia.com/person/tero-karras), [Timo Aila](https://research.nvidia.com/person/timo-aila), [Samuli Laine](https://users.aalto.fi/~laines9/), [Jaakko Lehtinen](https://users.aalto.fi/~lehtinj7/)   <Br>
