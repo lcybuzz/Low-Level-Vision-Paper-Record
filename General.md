@@ -3,7 +3,8 @@
 
 # Table of Contents
   - [General DL Methods](#general-dl-methods)
-  - [General Traditional Methods](#general-traditional-methods)	
+  - [General Traditional Methods](#general-traditional-methods)
+  - [Image Quality Evaluators](#image-quality-evaluators)
     
     
 
@@ -155,5 +156,7 @@ Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的
 受Guided Filter启发, 假设输入和经过某种处理的输出在一个小的局部区域内可以由一个线性映射近似, 并且在bilateral space中, 相邻cell之间的映射系数应该是平滑的. 据此提出了由数据项和平滑项组成的目标函数, 可以通过最小二乘法求解, 另外还提出了一个快速近似版本. 优化部分没有看懂.
 	
 
-	
+## Image Quality Evaluators
+### NIQE ★★★
+无参考图像质量评价算法, 在超分, 去噪等任务中被广泛采纳
 
