@@ -111,10 +111,11 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[[Pytorch-Code](https://github.com/Maclory/SPSR)]** <Br>
 在常规超分分支外加入一个gradient分支
 
-### PULSE
+### PULSE ★★
 **[Paper]** (CVPR 2020) PULSE: Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models  <Br>
 **[Author]** [Sachit Menon](https://sachit-menon.github.io/), Alexandru Damian, Shijia Hu, Nikhil Ravi, [Cynthia Rudin](https://users.cs.duke.edu/~cynthia/home.html) <Br>
 **[[Pytorch-Code](https://github.com/adamian98/pulse)]** <Br>
+**(无监督SR)** 通过在LR空间优化latent vector使生成的HR图像符合LR图像的内容. 思路很有意思.
 	
 ### Correction Filter
 **[Paper]** (CVPR 2020 Oral) Correction Filter for Single Image Super-Resolution: Robustifying Off-the-Shelf Deep Super-Resolvers  <Br>
