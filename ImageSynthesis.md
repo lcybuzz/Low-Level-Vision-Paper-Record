@@ -65,6 +65,11 @@
 **[[Project](https://zpdesu.github.io/SEAN/)]** **[[PyTorch-Code](https://github.com/ZPdesu/SEAN)]**<Br>
 与SPADE类似, 不过提取了每个语义类别的style信息, 并与语义mask一起, 通过AdaIN的形式控制生成器的activation
 
+### UNet GAN ★
+**[Paper]** (CVPR 2020) A U-Net Based Discriminator for Generative Adversarial Networks <Br>
+**[Author]** Edgar Sch ̈onfeld, [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele) <Br>
+**[[PyTorch-Code](https://github.com/boschresearch/unetgan)]**<Br>
+采用UNet形式的判别器, 可以用CutMix等数据增强策略
 	
 # Image Translation
 ### pix2pix ★★☆
