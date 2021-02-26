@@ -127,10 +127,11 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[Author]** Jae Woong Soh, Sunwoo Cho, Nam Ik Cho <Br>
 **[[TF-Code](https://github.com/JWSoh/MZSR)]** <Br>
 	
-### CutBlur
+### CutBlur ★
 **[Paper]** (CVPR 2020) Rethinking Data Augmentation for Image Super-resolution: A Comprehensive Analysis and a New Strategy <Br>
-**[Author]* Jaejun Yoo, [Namhyuk Ahn](https://nmhkahn.github.io/), [Kyung-Ah Sohn](https://sites.google.com/site/kasohn/home) <Br>
+**[Author]** Jaejun Yoo, [Namhyuk Ahn](https://nmhkahn.github.io/), [Kyung-Ah Sohn](https://sites.google.com/site/kasohn/home) <Br>
 **[[Pytorch-Code](https://github.com/clovaai/cutblur)]** <Br>
+(**数据增强方法**) 提出随机置换HR和LR中某一区域, 使网络能够判断哪些区域需要增强, 对过度锐化方面貌似有所改善
 	
 ### CARB ★☆
 **[Paper]**  (CVPRW 2020) Guided Frequency Separation Network for Real-World Super-Resolution <Br>
