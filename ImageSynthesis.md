@@ -43,10 +43,11 @@
 **[[TF-Code](https://github.com/NVlabs/stylegan)]**  <Br>
  通过若干FC层得到中间向量, 使用AdaIn的形式将中间向量作用在生成器上
 
-### StyleGAN ★★☆
-**[Paper]**  (CVPR 2019) A Style-Based Generator Architecture for Generative Adversarial Networks <Br>
-**[Author]** Tero Karras, [Samuli Laine](https://users.aalto.fi/~laines9/), [Timo Aila](https://users.aalto.fi/~ailat1/) <Br>
-**[[TF-Code](https://github.com/NVlabs/stylegan)]**  <Br>
+### StyleGAN2 ★☆
+**[Paper]**  (CVPR 2020) Analyzing and Improving the Image Quality of StyleGAN <Br>
+**[Author]** Tero Karras, [Samuli Laine](https://users.aalto.fi/~laines9/), Miika Aittala, Janne Hellsten, Jaakko Lehtinen, [Timo Aila](https://users.aalto.fi/~ailat1/) <Br>
+**[[TF-Code](https://github.com/NVlabs/stylegan2)]**  <Br>
+对StyleGAN做了一些改进, 如去掉减均值操作
 	
 ### StyleGAN2-ADA
 **[Paper]**  (arXiv 2006) Training Generative Adversarial Networks with Limited Data <Br>
