@@ -126,7 +126,15 @@
 **[Author]** Meng Chang, Qi Li, Huajun Feng, Zhihai Xu <Br>
 **[[Pytorch-Code](https://github.com/JimmyChame/SADNet)]**  <Br>
 	
-	
+### Noise2Same
+**[Paper]** (NIPS 2020) Noise2Same: Optimizing A Self-Supervised Bound for Image Denoising <Br>
+**[Author]** Yaochen Xie, [Zhengyang Wang](https://zhengyang-wang.github.io/), [Shuiwang Ji](http://people.tamu.edu/~sji/) <Br>
+**[[TF-Code](https://github.com/divelab/Noise2Same)]**  <Br>	
+
+### Patch2Self
+**[Paper]** (NIPS 2020) Patch2Self: Denoising Diffusion MRI with Self-Supervised Learning <Br>
+**[Author]**  Shreyas Fadnavis, Joshua Batson, Eleftherios Garyfallidis  <Br>
+**[[Code](https://github.com/ShreyasFadnavis/patch2self)]**  <Br>
 	
 	
 	
