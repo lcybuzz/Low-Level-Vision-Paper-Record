@@ -203,7 +203,20 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 **[Author]** Xi Cheng, Zhenyong Fu, Jian Yang <Br>
 **[[TF-Code](https://github.com/parkseobin/MLSR)]** <Br>
   
-	
+### LAPAR
+**[Paper]** (NIPS 2020) Linearly-Assembled Pixel-Adaptive Regression Network for Single Image Super-resolution and Beyond <Br>
+**[Author]** Wenbo Li, Kun Zhou, [Lu Qi](http://luqi.info/), Nianjuan Jiang, Jiangbo Lu, [Jiaya Jia](https://jiaya.me/) <Br>
+**[[Pytorch-Code](https://github.com/Jia-Research-Lab/Simple-SR)]** <Br>
+
+### IGNN
+**[Paper]** (NIPS 2020) Cross-Scale Internal Graph Neural Network for Image Super-Resolution <Br>
+**[Author]** [Shangchen Zhou](https://shangchenzhou.com/), [Jiawei Zhang](https://sites.google.com/site/zhjw1988), [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/)<Br>
+**[[Pytorch-Code](https://github.com/sczhou/IGNN)]** <Br>
+
+### DAN
+**[Paper]** (NIPS 2020) Unfolding the Alternating Optimization for Blind Super Resolution <Br>
+**[Author]** Zhengxiong Luo, [Yan Huang](https://yanrockhuang.github.io/), Shang Li, Liang Wang, Tieniu Tan<Br>
+**[[Pytorch-Code](https://github.com/greatlog/DAN)]** <Br>
 
 # Video Super Resolution
 ### STARnet
