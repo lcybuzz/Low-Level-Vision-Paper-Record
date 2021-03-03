@@ -74,6 +74,8 @@
 
 
 # Useful Resources
+[[awesome image-to-image translation papers](https://github.com/weihaox/awesome-image-translation)]
+
 [[ECCV 2020图像重建方向](https://zhuanlan.zhihu.com/p/180551773)]
 
 [[CVPR 2020论文集合](https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation)]
