@@ -1,6 +1,7 @@
 # Table of Contents
 - [Image Synthesis](#image-synthesis)
 - [Image Translation](#image-translation)
+- [Useful Resources]
 
 
 # Image Synthesis
@@ -76,6 +77,17 @@
 **[Author]** Edgar Sch ̈onfeld, [Bernt Schiele](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/people/bernt-schiele) <Br>
 **[[PyTorch-Code](https://github.com/boschresearch/unetgan)]**<Br>
 采用UNet形式的判别器, 可以用CutMix等数据增强策略
+
+### *Few-shot Image Generation with Elastic Weight Consolidation*
+**[Paper]** (NeurIPS 2020)  Few-shot Image Generation with Elastic Weight Consolidation  <Br>
+**[Author]** [Yijun Li](https://yijunmaverick.github.io/), [Richard Zhang](https://richzhang.github.io/), [Jingwan Lu](https://research.adobe.com/person/jingwan-lu/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/) <Br>
+**[[Project](https://yijunmaverick.github.io/publications/ewc/)]**<Br>
+
+### ASAPNet
+**[Paper]** (CVPR 2021)  Spatially-Adaptive Pixelwise Networks for Fast Image Translation  <Br>
+**[Author]** [Tamar Rott Shaham](https://tamarott.github.io/), [Michaël Gharbi](http://www.mgharbi.com/), [Richard Zhang](https://richzhang.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Tomer Michaeli](https://tomer.net.technion.ac.il/) <Br>
+**[[Project](https://tamarott.github.io/ASAPNet_web/)]**<Br>
+	
 	
 # Image Translation
 ### pix2pix ★★☆
@@ -124,3 +136,8 @@
 **[Paper]**  (ECCV 2020) Contrastive Learning for Unpaired Image-to-Image Translation <Br>
 **[Author]** [Taesung Park](https://taesung.me/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Richard Zhang](https://richzhang.github.io/),  [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/) <Br>
 **[[Project](http://taesung.me/ContrastiveUnpairedTranslation/)]** **[[Pytorch-Code](https://github.com/taesungp/contrastive-unpaired-translation)]**  <Br>
+
+### DeepI2I
+**[Paper]**  (NeurIPS 2020) DeepI2I: Enabling Deep Hierarchical Image-to-Image Translation by Transferring from GANs <Br>
+**[Author]** [Yaxing Wang](https://yaxingwang.github.io//), [Lu Yu](https://yulu0724.github.io/), [Joost van de Weijer](http://www.cvc.uab.es/LAMP/joost/) <Br>
+**[[Pytorch-Code](https://github.com/yaxingwang/DeepI2I)]**  <Br>
