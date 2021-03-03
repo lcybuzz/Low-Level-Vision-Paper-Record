@@ -1,7 +1,6 @@
 # Table of Contents
 - [Image Synthesis](#image-synthesis)
 - [Image Translation](#image-translation)
-- [Useful Resources]
 
 
 # Image Synthesis
