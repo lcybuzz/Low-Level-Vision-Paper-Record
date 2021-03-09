@@ -19,13 +19,18 @@
 **[Paper]** (ICLR 2018) Progressive Growing of GANs for Improved Quality, Stability, and Variation <Br>
 **[Author]** [Tero Karras](https://research.nvidia.com/person/tero-karras), [Timo Aila](https://research.nvidia.com/person/timo-aila), [Samuli Laine](https://users.aalto.fi/~laines9/), [Jaakko Lehtinen](https://users.aalto.fi/~lehtinj7/)   <Br>
 **[[Pytorch-Code](https://github.com/tkarras/progressive_growing_of_gans)]** <Br>
-	
+
 ### BigGAN ★☆
 **[Paper]**  (ICLR 2019) Large Scale GAN Training for High Fidelity Natural Image Synthesis <Br>
 **[Author]** Andrew Brock, [Jeff Donahue](https://jeffdonahue.com/), Karen Simonyan <Br>
 **[[Pytorch-Code](https://github.com/ajbrock/BigGAN-PyTorch)]**  <Br>
 加大网络复杂度和训练batch size, 另外使用了截断等一些trick, 大幅提升了生成效果
 	
+### SinGAN
+**[Paper]**  (ICCV 2019 Best Paper Award) SinGAN: Learning a generative model from a single natural image <Br>
+**[Author]** [Tamar Rott Shaham](https://tamarott.github.io/), [Tali Dekel](people.csail.mit.edu/talidekel/), [Tomer Michaeli](https://tomer.net.technion.ac.il/) <Br>
+**[[Project](https://tamarott.github.io/SinGAN.htm)]** **[[Pytorch-Code](https://github.com/tamarott/SinGAN)]**  <Br>
+
 ### Dynamic-Net ★☆
 **[Paper]** (ICCV 2019) Dynamic-Net: Tuning the Objective Without Re-training for Synthesis Tasks <Br>
 **[Author]** Alon Shoshan, [Roey Mechrez](https://roimehrez.github.io/), [Lihi Zelnik-Manor](https://webee.technion.ac.il/~lihi/)  <Br>
