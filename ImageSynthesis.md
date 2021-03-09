@@ -141,3 +141,9 @@
 **[Paper]**  (NeurIPS 2020) DeepI2I: Enabling Deep Hierarchical Image-to-Image Translation by Transferring from GANs <Br>
 **[Author]** [Yaxing Wang](https://yaxingwang.github.io//), [Lu Yu](https://yulu0724.github.io/), [Joost van de Weijer](http://www.cvc.uab.es/LAMP/joost/) <Br>
 **[[Pytorch-Code](https://github.com/yaxingwang/DeepI2I)]**  <Br>
+
+### ASAPNet
+**[Paper]**  (CVPR 2021) Spatially-Adaptive Pixelwise Networks for Fast Image Translation <Br>
+**[Author]** [Tamar Rott Shaham](https://tamarott.github.io/), [Michaël Gharbi](http://www.mgharbi.com/), [Richard Zhang](http://richzhang.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Tomer Michaeli](https://tomer.net.technion.ac.il/)  <Br>
+**[[Project](https://tamarott.github.io/ASAPNet_web/)]**  <Br>
+(**快速图像生成**) 在小分辨率(降32倍)上预测每个pixel的MLP映射系数, 将位置信息编码为不同频率的sin, cosine信息, 提升了生成图像的细节. 论文很有实际意义, 值得学习. 
