@@ -83,16 +83,20 @@
 **[[PyTorch-Code](https://github.com/boschresearch/unetgan)]**<Br>
 采用UNet形式的判别器, 可以用CutMix等数据增强策略
 
+### *Semantic Pyramid for Image Generation*
+**[Paper]** (CVPR 2020 Oral)  Semantic Pyramid for Image Generation  <Br>
+**[Author]** [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), Yossi Gandelsman, Inbar Mosseri, Michal Yarom, [Michal Irani](https://www.weizmann.ac.il/math/irani/), [William T. Freeman](https://billf.mit.edu/), [Tali Dekel](http://people.csail.mit.edu/talidekel/) <Br>
+**[[Project](https://semantic-pyramid.github.io/)]**<Br>
+	
 ### *Few-shot Image Generation with Elastic Weight Consolidation*
 **[Paper]** (NeurIPS 2020)  Few-shot Image Generation with Elastic Weight Consolidation  <Br>
 **[Author]** [Yijun Li](https://yijunmaverick.github.io/), [Richard Zhang](https://richzhang.github.io/), [Jingwan Lu](https://research.adobe.com/person/jingwan-lu/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/) <Br>
 **[[Project](https://yijunmaverick.github.io/publications/ewc/)]**<Br>
-
-### ASAPNet
-**[Paper]** (CVPR 2021)  Spatially-Adaptive Pixelwise Networks for Fast Image Translation  <Br>
-**[Author]** [Tamar Rott Shaham](https://tamarott.github.io/), [Michaël Gharbi](http://www.mgharbi.com/), [Richard Zhang](https://richzhang.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Tomer Michaeli](https://tomer.net.technion.ac.il/) <Br>
-**[[Project](https://tamarott.github.io/ASAPNet_web/)]**<Br>
 	
+### Anycost GAN
+**[Paper]**  (CVPR 2021) Anycost GANs for Interactive Image Synthesis and Editing <Br>
+**[Author]** [Ji Lin](http://linji.me/), [Richard Zhang](https://richzhang.github.io/), Frieder Ganz, [Song Han](https://songhan.mit.edu/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/)  <Br>
+**[[Project](https://hanlab.mit.edu/projects/anycost-gan/)]**  **[[Pytorch-Code](https://github.com/mit-han-lab/anycost-gan)]**  <Br>
 	
 # Image Translation
 ### pix2pix ★★☆
