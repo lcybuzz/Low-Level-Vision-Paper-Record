@@ -142,7 +142,7 @@
 **[Author]** [Yaxing Wang](https://yaxingwang.github.io//), [Lu Yu](https://yulu0724.github.io/), [Joost van de Weijer](http://www.cvc.uab.es/LAMP/joost/) <Br>
 **[[Pytorch-Code](https://github.com/yaxingwang/DeepI2I)]**  <Br>
 
-### ASAPNet
+### ASAPNet ★★
 **[Paper]**  (CVPR 2021) Spatially-Adaptive Pixelwise Networks for Fast Image Translation <Br>
 **[Author]** [Tamar Rott Shaham](https://tamarott.github.io/), [Michaël Gharbi](http://www.mgharbi.com/), [Richard Zhang](http://richzhang.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Tomer Michaeli](https://tomer.net.technion.ac.il/)  <Br>
 **[[Project](https://tamarott.github.io/ASAPNet_web/)]**  <Br>
