@@ -20,10 +20,11 @@
 **[Author]** [Tero Karras](https://research.nvidia.com/person/tero-karras), [Timo Aila](https://research.nvidia.com/person/timo-aila), [Samuli Laine](https://users.aalto.fi/~laines9/), [Jaakko Lehtinen](https://users.aalto.fi/~lehtinj7/)   <Br>
 **[[Pytorch-Code](https://github.com/tkarras/progressive_growing_of_gans)]** <Br>
 
-### CC-FPSE
+### CC-FPSE ★
 **[Paper]**  (NIPS 2019) Learning to Predict Layout-to-image Conditional Convolutions for Semantic Image Synthesis <Br>
 **[Author]** [Xihui Liu](https://xh-liu.github.io), [Guojun Yin](https://gjyin91.github.io/), [Jing Shao](https://amandajshao.github.io/), [Xiaogang Wang](https://www.ee.cuhk.edu.hk/~xgwang/), [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) <Br>
 **[[Pytorch-Code](https://github.com/xh-liu/CC-FPSE)]**  <Br>
+使用分割图通过一个网络预测每个pixel我的卷积参数, 虽然使用的depthwise卷积, 但参数量仍然非常庞大, 所以生成的图像较小.
 	
 ### BigGAN ★☆
 **[Paper]**  (ICLR 2019) Large Scale GAN Training for High Fidelity Natural Image Synthesis <Br>
