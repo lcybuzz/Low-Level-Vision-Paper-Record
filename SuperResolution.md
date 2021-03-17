@@ -64,6 +64,12 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 2. 将求解过程用HQS变量分裂法分解为去模糊和超分+去噪两步, 第一步在频谱域求闭式解, 避免了模糊现象; 第二步可以使用现有的SR方法, 只需额外加入一噪声level. 采用迭代的形式交替求解.
 3. 非盲kernel这个先验其实挺强的, 而且只在生成的数据集上做了实验. 但是实际效果来看, 在真实图像上的效果的确很不错.
 
+### SRNTT ★
+**[Paper]**  (CVPR 2019) Image Super-Resolution by Neural Texture Transfer <Br>
+**[Author]** [Zhifei Zhang](http://web.eecs.utk.edu/~zzhang61/), [Zhaowen Wang](https://research.adobe.com/person/zhaowen-wang/), [Zhe Lin](https://research.adobe.com/person/zhe-lin/), [Hairong Qi](http://web.eecs.utk.edu/~hqi/) <Br>
+**[[Project](https://zzutk.github.io/SRNTT-Project-Page/)]** **[[TF-Code](https://github.com/ZZUTK/SRNTT)]** <Br>
+(**借助参考图的超分**) 选出参考图中与当前patch最相近的patch, 再与LR一起处理
+	
 ### KernelGAN ★★
 **[Paper]**  (NIPS 2019 Oral) Blind Super-Resolution Kernel Estimation using an Internal-GAN <Br>
 **[Author]** Sefi Bell-Kligler, [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
