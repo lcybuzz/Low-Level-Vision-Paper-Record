@@ -206,7 +206,13 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Paper]** (ECCV 2020) Learning Disentangled Feature Representation for Hybrid-distorted Image Restoration <Br>
 **[Author]** Xin Li, Xin Jin, [Jianxin Lin](http://home.ustc.edu.cn/~linjx/), Tao Yu, Sen Liu, Yaojun Wu, Wei Zhou, [Zhibo Chen](http://staff.ustc.edu.cn/~chenzhibo/)  <Br>
 **(处理多种退化)** 大致浏览, 通过gain-control-based normalization学习解耦特征, 并据此设计了几个模块, 处理多种退化混合问题. 文中使用了spectral value dierence orthogonality regularization作为一个loss, 促使feature map直接学到不相关的信息.
-		
+
+### MPRNet ★
+**[Paper]** (CVPR 2021) Multi-Stage Progressive Image Restoration <Br>
+**[Author]** [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en)
+**[[Pytorch-Code](https://github.com/swz30/MPRNet)]** <Br>
+多阶段结构, 用了attention等一些trick
+
 
 # Restoration and Enhancement
 ### MIRNet ★
