@@ -130,13 +130,6 @@ RetinexNet+GAN
 **[Paper]** (CVPR 2020) Learning to Restore Low-Light Images via Decomposition-and-Enhancement <Br>
 **[Author]** Ke Xu, [Xin Yang](http://faculty.dlut.edu.cn/yangxin/zh_CN/index.htm), Baocai Yin, [Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/)   <Br>
 在亮度增强的同时考虑去噪. 认为低频部分受噪声影响小(???)所以容易在低频部分进行增强. 低频部分增强后通过一个网络学习恢复高频部分. 设计了两个模块用于提取低频信息和扩大感受野.
-
-	
-### Learning to Correct Overexposed and Underexposed Photos ★☆
-**[Paper]** (arXiv 2003) Learning to Correct Overexposed and Underexposed Photos <Br>
-**[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi), [Konstantinos G. Derpanis](https://www.cs.ryerson.ca/kosta/), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer),  [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)   <Br>
-**[[Code](https://github.com/mahmoudnafifi/Exposure_Correction)]** <Br>
-粗读, coarse-to-fine增强的策略, 并在每个level加入相应的拉普拉斯金字塔层作为细节信息. 使用L1和GAN loss. 效果不错. <Br>
 	
 	
 ### DRBN ☆
@@ -187,7 +180,12 @@ RetinexNet+GAN
 **[Paper]** (ICME 2020) Zero-Shot Restoration of Underexposed Images via Robust Retinex Decomposition <Br>
 **[Author]** Anqi Zhu, [Lin Zhang](https://sse.tongji.edu.cn/linzhang/), [Ying Shen](https://sse.tongji.edu.cn/yingshen/), Yong Ma, Shengjie Zhao, Yicong Zhou <Br>
 **[[Pytorch-Code](https://github.com/aaaaangel/RRDNet)]** <Br>
-	
+
+### Learning to Correct Overexposed and Underexposed Photos ★☆
+**[Paper]** (CVPR 2021) Learning to Correct Overexposed and Underexposed Photos <Br>
+**[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi), [Konstantinos G. Derpanis](https://www.cs.ryerson.ca/kosta/), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer),  [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)   <Br>
+**[[Code](https://github.com/mahmoudnafifi/Exposure_Correction)]** <Br>
+粗读, coarse-to-fine增强的策略, 并在每个level加入相应的拉普拉斯金字塔层作为细节信息. 使用L1和GAN loss. 效果不错. <Br>
 	
 
 ## Traditional Methods
