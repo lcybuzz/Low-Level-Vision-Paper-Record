@@ -32,7 +32,14 @@
 **[Paper]** (MM 2020) HiFaceGAN: Face Renovation via Collaborative Suppression and Replenishment <Br>
 **[Author]** [Lingbo Yang](https://lotayou.github.io/), Chang Liu, Pan Wang, Shanshe Wang, Peiran Ren, Siwei Ma, Wen Gao <Br>
 **[[Project](https://lotayou.github.io/projects/face_renov.html)]** **[[Pytorch-Code](https://github.com/Lotayou/Face-Renovation)]**  <Br>
-通过不同提取不同尺度的语义信息作为指导, 实现人脸修复, 对真实照片效果良好.
+通过不同提取不同尺度的语义信息作为指导, 实现人脸修复, 对真实照片效果也还可以.
+
+### PSFR-GAN ★
+**[Paper]** (CVPR 2021) Progressive Semantic-Aware Style Transformation for Blind Face Restoration <Br>
+**[Author]** [Chaofeng Chen](https://chaofengc.github.io), [Xiaoming Li](https://csxmli2016.github.io/), [Lingbo Yang](https://lotayou.github.io), [Xianhui Lin](https://dblp.org/pid/147/7708.html), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/), [Kwan-Yee K. Wong](https://i.cs.hku.hk/~kykwong/)
+**[[Pytorch-Code](https://github.com/Lotayou/Face-Renovation)]**  <Br>
+用人脸图像和人脸解析结果预测scale和bias, 整体和SPADE的思路十分相似
+	
 
 # Face SuperResolution
 ### Attention-FH
