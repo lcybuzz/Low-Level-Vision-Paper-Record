@@ -120,3 +120,9 @@
 **[Author]** [Cheng-Han Lee](https://steven413d.github.io/), [Ziwei Liu](https://liuziwei7.github.io/), Lingyun Wu, [Ping Luo](http://luoping.me/) <Br>
 **[[Pytorch-Code & Dataset](https://github.com/switchablenorms/CelebAMask-HQ)]** <Br>
 大致浏览, 基于语义的人脸操作. 提供了CelebAmask-HQ数据集
+
+### MichiGAN ★
+**[Paper]** (SIGGRAPH 2020) MichiGAN: Multi-Input-Conditioned Hair Image Generation for Portrait Editing <Br>
+**[Author]** Zhentao Tan, [Menglei Chai](https://mlchai.com/), [Dongdong Chen](http://www.dongdongchen.bid/), [Jing Liao](https://liaojing.github.io/html/index.html), [Qi Chu](https://scholar.google.com/citations?user=JZjOMdsAAAAJ&hl=en), Lu Yuan, [Sergey Tulyakov](http://www.stulyakov.com/), [Nenghai Yu](https://scholar.google.com/citations?user=7620QAMAAAAJ&hl=zh-CN)  <Br>
+**[[Pytorch-Code](https://github.com/tzt101/MichiGAN)]** <Br>
+(**给定发型和形状等条件生成头发**) 通过分别的condition子网络提取形状外观等信息, 利用SPADE的思路把信息加入到generator中
