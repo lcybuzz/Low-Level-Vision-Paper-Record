@@ -37,8 +37,14 @@
 ### PSFR-GAN ★
 **[Paper]** (CVPR 2021) Progressive Semantic-Aware Style Transformation for Blind Face Restoration <Br>
 **[Author]** [Chaofeng Chen](https://chaofengc.github.io), [Xiaoming Li](https://csxmli2016.github.io/), [Lingbo Yang](https://lotayou.github.io), [Xianhui Lin](https://dblp.org/pid/147/7708.html), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/), [Kwan-Yee K. Wong](https://i.cs.hku.hk/~kykwong/)
-**[[Pytorch-Code](https://github.com/Lotayou/Face-Renovation)]**  <Br>
+**[[Pytorch-Code](https://github.com/chaofengc/PSFRGAN)]**  <Br>
 用人脸图像和人脸解析结果预测scale和bias, 整体和SPADE的思路十分相似
+	
+### GFP-GAN ★
+**[Paper]** (CVPR 2021)  GFP-GAN: Towards Real-World Blind Face Restorationwith Generative Facial Prior  <Br>
+**[Author]**  [Xintao Wang](https://xinntao.github.io/), [Yu Li](https://yu-li.github.io/）, Honglun Zhang, Ying Shan 
+**[[Project](https://xinntao.github.io/projects/gfpgan)]**  <Br>
+用预训练的人脸GAN网络提取的特征作为先验, 一个UNet型网络作为degradation removal模块, 从该模块中提取空间特征, 并用SFT的思想结合到先验特征上. 对五官分别使用了判别器.
 	
 
 # Face SuperResolution
