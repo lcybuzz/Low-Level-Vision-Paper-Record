@@ -89,10 +89,11 @@
 **[[PyTorch-Code](https://github.com/boschresearch/unetgan)]**<Br>
 采用UNet形式的判别器, 可以用CutMix等数据增强策略
 
-### *Semantic Pyramid for Image Generation*
+### *Semantic Pyramid for Image Generation* ★☆
 **[Paper]** (CVPR 2020 Oral)  Semantic Pyramid for Image Generation  <Br>
 **[Author]** [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), Yossi Gandelsman, Inbar Mosseri, Michal Yarom, [Michal Irani](https://www.weizmann.ac.il/math/irani/), [William T. Freeman](https://billf.mit.edu/), [Tali Dekel](http://people.csail.mit.edu/talidekel/) <Br>
 **[[Project](https://semantic-pyramid.github.io/)]**<Br>
+提出一个通用的图像生成框架, 将预训练的多尺度特征融合进生成网络中, 实现对不同语义层次图像内容的生成控制, 融合时使用mask选择特定区域的生成. 论文思路简单清晰, 适用于多种任务
 	
 ### *Few-shot Image Generation with Elastic Weight Consolidation*
 **[Paper]** (NeurIPS 2020)  Few-shot Image Generation with Elastic Weight Consolidation  <Br>
