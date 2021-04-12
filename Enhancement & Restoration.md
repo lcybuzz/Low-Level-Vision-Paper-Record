@@ -190,7 +190,7 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 **[Paper]** (ECCV 2020) Interactive Multi-Dimension Modulation with Dynamic Controllable Residual Learning for Image Restoration <Br>
 **[Author]** Jingwen He, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/) <Br>
 **[[Pytorch-Code](https://github.com/hejingwenhejingwen/CResMD)]** <Br>
-**(控制restoration level)**	 将控制参数由一个扩展为多个, 处理不同种类不同程度的退化, 输入的参数由若干FC层处理为权值vector, 作为残差块中的卷积分支的scale. 提出了一些trick训练不同退化的数据. 虽然论文表示可以处理多种退化情形, 但是用户收到调节两个甚至更多参数还是挺麻烦的.
+**(控制restoration level)**	 将控制参数由一个扩展为多个, 处理不同种类不同程度的退化, 输入的参数由若干FC层处理为权值vector, 作为残差块中的卷积分支的scale. 提出了一些trick训练不同退化的数据. 虽然论文表示可以处理多种退化情形, 但是用户手动调节两个甚至更多参数还是挺麻烦的.
 
 ### DeepWienerRestoration
 **[Paper]** (ECCV 2020) Microscopy Image Restoration with Deep Wiener-Kolmogorov filters <Br>
@@ -209,7 +209,7 @@ encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉
 
 ### MPRNet ★
 **[Paper]** (CVPR 2021) Multi-Stage Progressive Image Restoration <Br>
-**[Author]** [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en)
+**[Author]** [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en) <Br>
 **[[Pytorch-Code](https://github.com/swz30/MPRNet)]** <Br>
 多阶段结构, 用了attention等一些trick
 
