@@ -163,3 +163,9 @@
 **[Author]** [Tamar Rott Shaham](https://tamarott.github.io/), [Michaël Gharbi](http://www.mgharbi.com/), [Richard Zhang](http://richzhang.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Tomer Michaeli](https://tomer.net.technion.ac.il/)  <Br>
 **[[Project](https://tamarott.github.io/ASAPNet_web/)]**  <Br>
 (**快速图像生成**) 在小分辨率(降32倍)上预测每个pixel的MLP映射系数, 将位置信息编码为不同频率的sin, cosine信息, 提升了生成图像的细节. 论文很有实际意义, 值得学习. 
+
+### HiSD ★★
+**[Paper]**  (CVPR 2021 Oral) HiSD: Image-to-image Translation via Hierarchical Style Disentanglement <Br>
+**[Author]** Xinyang Li, Shengchuan Zhang, Jie Hu, Liujuan Cao, [Xiaopeng Hong](https://hongxiaopeng.com/), [Xudong Mao](https://xudongmao.github.io/), Feiyue Huang, Yongjian Wu, [Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/)  <Br>
+**[[Pytorch-Code](https://github.com/imlixinyang/HiSD)]**  <Br>
+大致浏览, 可将人脸各属性解耦, 并实现准确控制. 将CelebA的属性信息进一步划分为相互独立的tags(如刘海, 眼镜)和互斥的attributes(如黑发和棕发),并为每个tag和attribute分别构造模块. 论文整体思路很清晰, 代码也很友好, 可以仔细研究一下.
