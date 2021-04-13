@@ -132,6 +132,15 @@
 **[Paper]**  (ECCV 2018) Multimodal Unsupervised Image-to-image Translation <Br>
 **[Author]** [Xun Huang](http://www.cs.cornell.edu/~xhuang/), [Ming-Yu Liu](http://mingyuliu.net/), [Serge Belongie](https://vision.cornell.edu/se3/), [Jan Kautz](https://jankautz.com/) <Br>
 **[[Pytorch-Code](https://github.com/NVlabs/MUNIT)]**  <Br>
+
+### DRIT
+**[Paper]**  (ECCV 2018 Oral) Diverse Image-to-Image Translation via Disentangled Representations <Br>
+**[Author]** [Hsin-Ying Lee](http://vllab.ucmerced.edu/hylee/), [Hung-Yu Tseng](https://sites.google.com/site/hytseng0509/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/), [Maneesh Kumar Singh](https://scholar.google.com/citations?user=hdQhiFgAAAAJ), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
+
+### DRIT++
+**[Paper]**  (IJCV 2020) DRIT++: Diverse Image-to-Image Translation via Disentangled Representations <Br>
+**[Author]** [Hsin-Ying Lee](http://vllab.ucmerced.edu/hylee/), [Hung-Yu Tseng](https://sites.google.com/site/hytseng0509/), [Qi Mao](https://sites.google.com/view/qi-mao/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/), [Yu-Ding Lu](https://jonlu0602.github.io/), [Maneesh Kumar Singh](https://scholar.google.com/citations?user=hdQhiFgAAAAJ), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)  <Br>
+**[[Pytorch-Code](https://github.com/HsinYingLee/DRIT)]**  <Br>
 	
 ### StarGAN 
 **[Paper]**  (CVPR 2018 Oral) StarGAN: Unified Generative Adversarial Networks for Multi-Domain Image-to-Image Translation <Br>
@@ -142,6 +151,21 @@
 **[Paper]** (CVPR 2020) StarGAN v2: Diverse Image Synthesis for Multiple Domains <Br>
 **[Author]** [Yunjey Choi](https://yunjey.github.io/), [Youngjung Uh](https://sites.google.com/site/youngjunguh), Jaejun Yoo, Jung-Woo Ha<Br>
 **[[Pytorch-Code](https://github.com/clovaai/stargan-v2)]**<Br>
+
+### STGAN 
+**[Paper]**  (CVPR 2019) STGAN: A Unified Selective Transfer Network for Arbitrary Image Attribute Editing  <Br>
+**[Author]** Ming Liu, Yukang Ding, Min Xia, Xiao Liu, Errui Ding, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), Shilei Wen <Br>
+**[[Pytorch-Code](https://github.com/csmliu/STGAN)]**   <Br>
+	
+### RelGAN 
+**[Paper]**  (ICLR 2019) RelGAN: Multi-Domain Image-to-Image Translation via Relative Attributes <Br>
+**[Author]** Po-Wei Wu, Yu-Jing Lin, Che-Han Chang, Edward Y. Chang, Shih-Wei Liao <Br>
+**[[Pytorch-Code](https://github.com/elvisyjlin/RelGAN-PyTorch)]**   <Br>
+	
+### ContentDisentanglement 
+**[Paper]**  (ICLR 2019) Emerging Disentanglement in Auto-Encoder Based Unsupervised Image Content Transfer <Br>
+**[Author]** [Ori Press](https://oripress.com/), [Tomer Galanti](https://www.tau.ac.il/~tomerga2/), [Sagie Benaim](https://sagiebenaim.github.io/), [Lior Wolf](http://www.cs.tau.ac.il/~wolf/) <Br>
+**[[Pytorch-Code](https://github.com/oripress/ContentDisentanglement)]**   <Br>
 	
 ### COCO-FUNIT
 **[Paper]**  (ECCV 2020) COCO-FUNIT: Few-Shot Unsupervised Image Translation with a Content Conditioned Style Encoder <Br>
@@ -157,6 +181,11 @@
 **[Paper]**  (NeurIPS 2020) DeepI2I: Enabling Deep Hierarchical Image-to-Image Translation by Transferring from GANs <Br>
 **[Author]** [Yaxing Wang](https://yaxingwang.github.io//), [Lu Yu](https://yulu0724.github.io/), [Joost van de Weijer](http://www.cvc.uab.es/LAMP/joost/) <Br>
 **[[Pytorch-Code](https://github.com/yaxingwang/DeepI2I)]**  <Br>
+	
+### mbu-content-tansfer
+**[Paper]**  (ICLR 2020) Mask Based Unsupervised Content Transfer <Br>
+**[Author]** Ron Mokady, [Sagie Benaim](https://sagiebenaim.github.io/), [Lior Wolf](http://www.cs.tau.ac.il/~wolf/), [Amit Bermano](https://www.cs.tau.ac.il/~amberman/) <Br>
+**[[Pytorch-Code](https://github.com/rmokady/mbu-content-tansfer)]**  <Br>
 
 ### ASAPNet ★★
 **[Paper]**  (CVPR 2021) Spatially-Adaptive Pixelwise Networks for Fast Image Translation <Br>
