@@ -149,3 +149,8 @@
 **[Author]** [Kyle Olszewski](http://kyleolszewski.com), [Duygu Ceylan](http://www.duygu-ceylan.com), [Jun Xing](https://junxnui.github.io/), [Jose Echevarria](http://www.jiechevarria.com/), [Zhili Chen](http://www.zhilichen.com/), [Weikai Chen](http://chenweikai.github.io/),  [Hao Li](http://hao-li.com)**   <Br>
 **[[Project](https://kyleolsz.github.io/HairGen/) <Br>
 交互式脸部毛发生成, 结构为两个UNet
+	
+### FabSoften ☆
+**[Paper]** (CVPRW 2020) FabSoften: Face Beautification via Dynamic Skin Smoothing, Guided Feathering, and Texture Restoration <Br>
+**[Author]** Sudha Velusamy, Rishubh Parihar, Raviprasad Kini, Aniket Rege   <Br>
+提出了一个人脸美化的流程, 速度应该不会快
