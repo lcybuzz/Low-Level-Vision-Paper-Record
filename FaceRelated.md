@@ -4,6 +4,7 @@
 - [Face Restoration](#face-restoration)
 - [Face SuperResolution](#face-superresolution)
 - [Face Manipulation](#face-manipulation)
+- [Others](#others)
 
 # Face Restoration
 ### *Deep face deblurring* ☆
@@ -139,3 +140,12 @@
 **[Author]** Zhentao Tan, [Menglei Chai](https://mlchai.com/), [Dongdong Chen](http://www.dongdongchen.bid/), [Jing Liao](https://liaojing.github.io/html/index.html), [Qi Chu](https://scholar.google.com/citations?user=JZjOMdsAAAAJ&hl=en), Lu Yuan, [Sergey Tulyakov](http://www.stulyakov.com/), [Nenghai Yu](https://scholar.google.com/citations?user=7620QAMAAAAJ&hl=zh-CN)  <Br>
 **[[Pytorch-Code](https://github.com/tzt101/MichiGAN)]** <Br>
 (**给定发型和形状等条件生成头发**) 通过分别的condition子网络提取形状外观等信息, 利用SPADE的思路把信息加入到generator中
+	
+	
+	
+# Others
+### HairGen ★
+**[Paper]** (CVPR 2020 Oral) Intuitive, Interactive Beard and Hair Synthesis With Generative Models <Br>
+**[Author]** [Kyle Olszewski](http://kyleolszewski.com), [Duygu Ceylan](http://www.duygu-ceylan.com), [Jun Xing](https://junxnui.github.io/), [Jose Echevarria](http://www.jiechevarria.com/), [Zhili Chen](http://www.zhilichen.com/), [Weikai Chen](http://chenweikai.github.io/),  [Hao Li](http://hao-li.com)**   <Br>
+**[[Project](https://kyleolsz.github.io/HairGen/) <Br>
+交互式脸部毛发生成, 结构为两个UNet
