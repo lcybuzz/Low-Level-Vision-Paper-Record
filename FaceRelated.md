@@ -37,7 +37,7 @@
 
 ### PSFR-GAN ★
 **[Paper]** (CVPR 2021) Progressive Semantic-Aware Style Transformation for Blind Face Restoration <Br>
-**[Author]** [Chaofeng Chen](https://chaofengc.github.io), [Xiaoming Li](https://csxmli2016.github.io/), [Lingbo Yang](https://lotayou.github.io), [Xianhui Lin](https://dblp.org/pid/147/7708.html), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/), [Kwan-Yee K. Wong](https://i.cs.hku.hk/~kykwong/)
+**[Author]** [Chaofeng Chen](https://chaofengc.github.io), [Xiaoming Li](https://csxmli2016.github.io/), [Lingbo Yang](https://lotayou.github.io), [Xianhui Lin](https://dblp.org/pid/147/7708.html), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/), [Kwan-Yee K. Wong](https://i.cs.hku.hk/~kykwong/) <Br>
 **[[Pytorch-Code](https://github.com/chaofengc/PSFRGAN)]**  <Br>
 用人脸图像和人脸解析结果预测scale和bias, 整体和SPADE的思路十分相似
 	
