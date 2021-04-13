@@ -5,7 +5,7 @@
 - <a href='LowLight.md'> Low Light </a>
 - <a href='Denoising.md'> Denoising </a>
 - <a href='SuperResolution.md'> Super Resolution </a>
-- <a href='FaceRestoration.md'> Face Restoration </a>
+- <a href='FaceRelated.md'> Face Related</a>
 - <a href='HDR.md'> HDR </a>
 - <a href='ISP.md'> ISP </a>
 - <a href='Industry.md'> Industry</a>
