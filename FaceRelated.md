@@ -3,7 +3,7 @@
 # Table of Contents
 - [Face Restoration](#face-restoration)
 - [Face SuperResolution](#face-superresolution)
-- [Others](#others)
+- [Face Manipulation](#face-manipulation)
 
 # Face Restoration
 ### *Deep face deblurring* ☆
@@ -119,8 +119,15 @@
 **[Author]** [Xiaoming Li](https://csxmli2016.github.io/), [Chaofeng Chen](https://chaofengc.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), Xianhui Lin, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 **[[Pytorch-Code](https://github.com/csxmli2016/DFDNet)]** <Br>
 **(构建字典, 匹配最近邻特征)** 对眼睛鼻子嘴建立字典, inference时通过匹配最相似的feature找到相似的高清特征并做替换. 字典通过VGG网络提特征和聚类实现. 实测对五官的增强效果不错, 不过对于头发皮肤等部分效果不明显.
-	
-# Others
+
+
+
+# Face Manipulation
+### AttGAN 
+**[Paper]** (TIP 2019) AttGAN: Facial Attribute Editing by Only Changing What You Want  <Br>
+**[Author]** Zhenliang He, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen <Br>
+**[[TF-Code](https://github.com/LynnHo/AttGAN-Tensorflow)]** <Br>
+
 ### MaskGAN ★
 **[Paper]** (CVPR 2020) MaskGAN: Towards Diverse and Interactive Facial Image Manipulation<Br>
 **[Author]** [Cheng-Han Lee](https://steven413d.github.io/), [Ziwei Liu](https://liuziwei7.github.io/), Lingyun Wu, [Ping Luo](http://luoping.me/) <Br>
