@@ -24,8 +24,8 @@
 2) 分为rough和fine两部分, 首先将color图像在x方向加权求和作为rough result, 其中权值是使用3D卷积预测的weight volume; 接下来再用rough result和mono图像作为输入进行refine. <Br>
 
 ### Stereoscopic Dark Flash ★
-**[Paper]** (Siggraph 2017) DStereoscopic Dark Flash for Low-light Photography <Br>
-**[Author]** Jian Wang, Tianfan Xue, [Jonathan T. Barron](https://jonbarron.info/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/)<Br>
+**[Paper]** (Siggraph 2017) Stereoscopic Dark Flash for Low-light Photography <Br>
+**[Author]** [Jian Wang](https://jianwang-cmu.github.io/), [Tianfan Xue](http://people.csail.mit.edu/tfxue/), [Jonathan T. Barron](https://jonbarron.info/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/)<Br>
 1) 大致浏览, 提出了一个RGB和NIR-NUV双相机成像方案, 以增强低光照条件下的图像质量. <Br>
 2) 分为registration, 基于scalemap的融合, 基于HDRNet的tone correction三部分. <Br>
 
