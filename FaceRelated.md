@@ -43,7 +43,7 @@
 	
 ### GFP-GAN ★
 **[Paper]** (CVPR 2021)  GFP-GAN: Towards Real-World Blind Face Restorationwith Generative Facial Prior  <Br>
-**[Author]**  [Xintao Wang](https://xinntao.github.io/), [Yu Li](https://yu-li.github.io/）, Honglun Zhang, Ying Shan 
+**[Author]**  [Xintao Wang](https://xinntao.github.io/), [Yu Li](https://yu-li.github.io/), Honglun Zhang, Ying Shan <Br>
 **[[Project](https://xinntao.github.io/projects/gfpgan)]**  <Br>
 用预训练的人脸GAN网络提取的特征作为先验, 一个UNet型网络作为degradation removal模块, 从该模块中提取空间特征, 并用SFT的思想结合到先验特征上. 对五官分别使用了判别器.
 	
