@@ -1,6 +1,7 @@
 # Table of Contents
 - [Image Synthesis](#image-synthesis)
 - [Image Translation](#image-translation)
+- [Image Manipulation](#image-manipulation)
 
 
 # Image Synthesis
@@ -66,11 +67,6 @@
 **[Author]** Tero Karras, Miika Aittala, Janne Hellsten, [Samuli Laine](https://users.aalto.fi/~laines9/), [Jaakko Lehtinen](https://users.aalto.fi/~lehtinj7/), [Timo Aila](https://users.aalto.fi/~ailat1/) <Br>
 **[[TF-Code](https://github.com/NVlabs/stylegan2-ada)]** **[[Pytorch-Code](https://github.com/NVlabs/stylegan2-ada-pytorch)]**  <Br>
 
-  
-### Image2StyleGAN 
-**[Paper]**  (ICCV 2019) Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space? <Br>
-**[Author]** Rameen Abdal, Yipeng Qin, Peter Wonka <Br>
-**[[TF-Code](https://github.com/NVlabs/stylegan)]**  <Br>
 
 ### layout2im
 **[Paper]**  (CVPR 2019 Oral) Image Generation From Layout <Br>
@@ -104,6 +100,12 @@
 **[Paper]**  (CVPR 2021) Anycost GANs for Interactive Image Synthesis and Editing <Br>
 **[Author]** [Ji Lin](http://linji.me/), [Richard Zhang](https://richzhang.github.io/), Frieder Ganz, [Song Han](https://songhan.mit.edu/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/)  <Br>
 **[[Project](https://hanlab.mit.edu/projects/anycost-gan/)]**  **[[Pytorch-Code](https://github.com/mit-han-lab/anycost-gan)]**  <Br>
+	
+### GH-Feat
+**[Paper]**  (CVPR 2021 Oral) Generative Hierarchical Features from Synthesizing Images <Br>
+**[Author]** [Yinghao Xu](https://justimyhxu.github.io/academic.html), [Yujun Shen](http://shenyujun.github.io/), [Jiapeng Zhu](https://zhujiapeng.github.io/), [Ceyuan Yang](http://ceyuan.me/), [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk) <Br>
+**[[Project](https://genforce.github.io/ghfeat/)]** **[[TF-Code](https://github.com/genforce/ghfeat)]**  <Br>
+	
 	
 # Image Translation
 ### pix2pix ★★☆
@@ -193,8 +195,37 @@
 **[[Project](https://tamarott.github.io/ASAPNet_web/)]**  <Br>
 (**快速图像生成**) 在小分辨率(降32倍)上预测每个pixel的MLP映射系数, 将位置信息编码为不同频率的sin, cosine信息, 提升了生成图像的细节. 论文很有实际意义, 值得学习. 
 
+### TrGAN
+**[Paper]**  (arXiv 2103) Unsupervised Image Transformation Learning via Generative Adversarial Networks <Br>
+**[Author]** [Kaiwen Zha](http://kaiwenzha.github.io),  [Yujun Shen](http://shenyujun.github.io),  [Bolei Zhou](  <Br>
+**[[Project](https://genforce.github.io/trgan/)]**  <Br>
+	
+
+
+# Image Manipulation
+### Image2StyleGAN ★☆
+**[Paper]**  (ICCV 2019) Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space? <Br>
+**[Author]** Rameen Abdal, Yipeng Qin, Peter Wonka <Br>
+**[[TF-Code](https://github.com/NVlabs/stylegan)]**  <Br>
+(**latent code embedding**) 
+
+### IDInvert
+**[Paper]**  (ECCV 2020) IDInvert：In-Domain GAN Inversion for Real Image Editing <Br>
+**[Author]** [Jiapeng Zhu](https://zhujiapeng.github.io/), [Yujun Shen](https://shenyujun.github.io/), [Deli Zhao](https://sites.google.com/site/zhaodeli/), [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/) <Br>
+**[[Project](https://genforce.github.io/idinvert/)]** **[[TF-Code](https://github.com/genforce/idinvert)]**  <Br>
+	
+### Faster StyleGAN Embedding ★
+**[Paper]**  (arXiv 2007) Collaborative Learning for Faster StyleGAN Embedding <Br>
+**[Author]** Shanyan Guan, [Ying Tai](https://tyshiwo.github.io/), Bingbing Ni, [Feida Zhu](https://zhufeida.github.io/), Feiyue Huang, Xiaokang Yang<Br>
+(**latent code embedding**) 
+	
 ### HiSD ★★
 **[Paper]**  (CVPR 2021 Oral) HiSD: Image-to-image Translation via Hierarchical Style Disentanglement <Br>
 **[Author]** Xinyang Li, Shengchuan Zhang, Jie Hu, Liujuan Cao, [Xiaopeng Hong](https://hongxiaopeng.com/), [Xudong Mao](https://xudongmao.github.io/), Feiyue Huang, Yongjian Wu, [Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/)  <Br>
 **[[Pytorch-Code](https://github.com/imlixinyang/HiSD)]**  <Br>
 大致浏览, 可将人脸各属性解耦, 并实现准确控制. 将CelebA的属性信息进一步划分为相互独立的tags(如刘海, 眼镜)和互斥的attributes(如黑发和棕发),并为每个tag和attribute分别构造模块. 论文整体思路很清晰, 代码也很友好, 可以仔细研究一下.
+	
+### SeFa
+**[Paper]**  (CVPR 2021 Oral) Closed-Form Factorization of Latent Semantics in GANs <Br>
+**[Author]** [Yujun Shen](https://shenyujun.github.io/), [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/) <Br>
+**[[Project](https://genforce.github.io/sefa/)]** **[[Pytorch-Code](https://github.com/genforce/sefa)]**  <Br>
