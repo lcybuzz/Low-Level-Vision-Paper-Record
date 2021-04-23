@@ -17,6 +17,7 @@
 - <a href='Debluring.md'> Debluring (Archived) </a>
 - <a href='Fusion.md'> Fusion (Archived) </a>
 - [Dataset](#dataset)
+- [Metrics and Losses](#metrics-and-losses)
 - [Useful Resources](#useful-resources)
 
 	
@@ -71,6 +72,11 @@
 ## AWB
 [GehlerShi](https://www2.cs.sfu.ca/~colour/data/shi_gehler/) <Br>
 [CUBE+](https://ipg.fer.hr/ipg/resources/color_constancy) <Br>
+
+
+# Metrics and Losses
+Evaluation metrics: PSNR, SSIM, FID, [LPIPS](https://richzhang.github.io/PerceptualSimilarity/), [NIQE]
+
 
 
 # Useful Resources
