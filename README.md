@@ -119,6 +119,4 @@ FID (Frechet Inception Distance) [[paper]](https://arxiv.org/abs/1606.03498)
 **[ECCV PIRM]** Perceptual Image Restoration and Manipulation, 貌似只有18, 19两届 <Br>
 
 # To See
-[ECCV 2020 Low Level Vision](https://github.com/Kobaayyy/Awesome-ECCV2020-Low-Level-Vision）
 
-[CVPR 2020 Low Level Vision](https://github.com/Kobaayyy/Awesome-CVPR2020-Low-Level-Vision）
