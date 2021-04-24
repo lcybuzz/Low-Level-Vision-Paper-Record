@@ -17,7 +17,7 @@
 - <a href='Debluring.md'> Debluring (Archived) </a>
 - <a href='Fusion.md'> Fusion (Archived) </a>
 - [Dataset](#dataset)
-- [Metrics and Losses](#metrics-and-losses)
+- [Metrics](#metrics)
 - [Useful Resources](#useful-resources)
 
 	
@@ -74,9 +74,8 @@
 [CUBE+](https://ipg.fer.hr/ipg/resources/color_constancy) <Br>
 
 
-# Metrics and Losses
-Evaluation metrics: PSNR, SSIM, FID, [LPIPS](https://richzhang.github.io/PerceptualSimilarity/), [NIQE]
-
+# Metrics
+PSNR, SSIM, LPIPS [Project](https://richzhang.github.io/PerceptualSimilarity/), NIQE(Natural Image Quality Evaluator)[[paper]](https://ieeexplore.ieee.org/abstract/document/6353522), IS(Inception Score)[[paper]](https://arxiv.org/abs/1606.03498), FID(Frechet Inception Distance)[[paper]](https://arxiv.org/abs/1606.03498)
 
 
 # Useful Resources
