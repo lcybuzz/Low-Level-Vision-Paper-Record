@@ -197,7 +197,7 @@
 
 ### TrGAN
 **[Paper]**  (arXiv 2103) Unsupervised Image Transformation Learning via Generative Adversarial Networks <Br>
-**[Author]** [Kaiwen Zha](http://kaiwenzha.github.io),  [Yujun Shen](http://shenyujun.github.io),  [Bolei Zhou](  <Br>
+**[Author]** [Kaiwen Zha](http://kaiwenzha.github.io),  [Yujun Shen](http://shenyujun.github.io),  [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/)  <Br>
 **[[Project](https://genforce.github.io/trgan/)]**  <Br>
 	
 
