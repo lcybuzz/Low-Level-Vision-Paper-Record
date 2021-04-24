@@ -75,7 +75,12 @@
 
 
 # Metrics
-PSNR, SSIM, LPIPS [Project](https://richzhang.github.io/PerceptualSimilarity/), NIQE(Natural Image Quality Evaluator)[[paper]](https://ieeexplore.ieee.org/abstract/document/6353522), IS(Inception Score)[[paper]](https://arxiv.org/abs/1606.03498), FID(Frechet Inception Distance)[[paper]](https://arxiv.org/abs/1606.03498)
+PSNR <Br> 
+SSIM <Br> 
+LPIPS [Project](https://richzhang.github.io/PerceptualSimilarity/) <Br>
+NIQE(Natural Image Quality Evaluator)[[paper]](https://ieeexplore.ieee.org/abstract/document/6353522) <Br>
+IS(Inception Score)[[paper]](https://arxiv.org/abs/1606.03498) <Br>
+FID(Frechet Inception Distance)[[paper]](https://arxiv.org/abs/1606.03498)
 
 
 # Useful Resources
