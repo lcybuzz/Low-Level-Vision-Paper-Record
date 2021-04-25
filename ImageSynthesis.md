@@ -195,6 +195,11 @@
 **[[Project](https://tamarott.github.io/ASAPNet_web/)]**  <Br>
 (**快速图像生成**) 在小分辨率(降32倍)上预测每个pixel的MLP映射系数, 将位置信息编码为不同频率的sin, cosine信息, 提升了生成图像的细节. 论文很有实际意义, 值得学习. 
 
+### *Few-shot Image Generation*
+**[Paper]**  (CVPR 2021) Spatially-Adaptive Pixelwise Networks for Fast Image Translation <Br>
+**[Author]** [Utkarsh Ojha](https://utkarshojha.github.io/) , [Yijun Li](https://yijunmaverick.github.io/), [Jingwan Lu](https://research.adobe.com/person/jingwan-lu/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Yong Jae Lee](https://web.cs.ucdavis.edu/~yjlee/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Richard Zhang](https://richzhang.github.io/)  <Br>
+**[[Project](https://utkarshojha.github.io/few-shot-gan-adaptation/)]**  **[[Pytorch-Code](https://github.com/utkarshojha/few-shot-gan-adaptation)]**  <Br>
+	
 ### TrGAN
 **[Paper]**  (arXiv 2103) Unsupervised Image Transformation Learning via Generative Adversarial Networks <Br>
 **[Author]** [Kaiwen Zha](http://kaiwenzha.github.io),  [Yujun Shen](http://shenyujun.github.io),  [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/)  <Br>
