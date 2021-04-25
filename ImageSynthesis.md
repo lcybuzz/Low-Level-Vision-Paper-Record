@@ -2,6 +2,7 @@
 - [Image Synthesis](#image-synthesis)
 - [Image Translation](#image-translation)
 - [Image Manipulation](#image-manipulation)
+- [Style Transfer](#style-transfer)
 
 
 # Image Synthesis
@@ -234,3 +235,11 @@
 **[Paper]**  (CVPR 2021 Oral) Closed-Form Factorization of Latent Semantics in GANs <Br>
 **[Author]** [Yujun Shen](https://shenyujun.github.io/), [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/) <Br>
 **[[Project](https://genforce.github.io/sefa/)]** **[[Pytorch-Code](https://github.com/genforce/sefa)]**  <Br>
+	
+	
+	
+# Style Transfer
+### SWAG
+**[Paper]**  (CVPR 2021 Oral) Rethinking and Improving the Robustness of Image Style Transfer <Br>
+**[Author]** [Pei Wang](http://www.svcl.ucsd.edu/~peiwang), [Yijun Li](https://yijunmaverick.github.io/), [Nuno Vasconcelos](http://www.svcl.ucsd.edu/~nuno) <Br>
+**[[Pytorch-Code](https://github.com/peiwang062/swag)]**  <Br>
