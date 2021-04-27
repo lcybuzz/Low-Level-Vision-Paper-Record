@@ -179,7 +179,7 @@ Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的
 	
 ### LPIPS 
 **[Paper]** (CVPR 2018) The Unreasonable Effectiveness of Deep Features as a Perceptual Metric <Br>
-**[Project](https://richzhang.github.io/PerceptualSimilarity/)**  <Br>
+**[[Project](https://richzhang.github.io/PerceptualSimilarity/)]**  <Br>
 用网络特征衡量图像相似度, 能更好地反映视觉质量
 
 ### Inception Score 
