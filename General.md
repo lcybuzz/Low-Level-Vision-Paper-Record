@@ -155,8 +155,37 @@ Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的
 **[[Matlab-Code](https://github.com/google/bgu)]** <Br>
 受Guided Filter启发, 假设输入和经过某种处理的输出在一个小的局部区域内可以由一个线性映射近似, 并且在bilateral space中, 相邻cell之间的映射系数应该是平滑的. 据此提出了由数据项和平滑项组成的目标函数, 可以通过最小二乘法求解, 另外还提出了一个快速近似版本. 优化部分没有看懂.
 	
+### MS-PIE ★☆
+**[Paper]** (CVPR 2021) Positional Encoding as Spatial Inductive Bias in GANs <Br>
+**[Author]** [Rui Xu](https://nbei.github.io/), [Xintao Wang](https://xinntao.github.io/), [Kai Chen](http://chenkai.site/),  [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
+**[[Project](Positional Encoding as Spatial Inductive Bias in GANs)]** <Br>
+很有趣的一篇论文, 没有完全理解, 可以看完相关论文后再精读一下. Zero Padding在图像生成中会提供一种隐式的位置编码信息, 但这种信息在图像边缘和中间部分的程度是不一样的, 所以不是最优位置编码方案. 文中提出使用正弦函数的形式作为位置编码, 这样在图像的所有区域, 两个像素间的关系就完全取决于二者的距离, 而且不随图像scale的变化而变化. <Br>
+粗读之后有两个疑问: 1. 卷积操作的计算结果取决于两个像素的相对位置关系, 所以感觉卷积本身已经挖掘了相对位置信息了, 那么本文这种相对位置编码的注入的意义应该怎么理解? 2. 感觉本文提出的方案适用于生成固定大小的目标, 如100x100的热气球, 但如果需求是根据图像大小生成不同大小的目标, 如1024的人脸和2048的人脸, 这种相对位置编码方案的有效性如何呢?
+	
+
 
 ## Image Quality Evaluators
-### NIQE ★★★
-无参考图像质量评价算法, 在超分, 去噪等任务中被广泛采纳
+### PSNR 
+**[[Wiki](https://www.mathworks.com/help/vision/ref/psnr.html)]**  <Br>
+图像质量评价常用指标, 取决于MSE, 对真实视觉效果指向性不太强
 
+### SSIM 
+**[Paper]** (TIP 2004) Image quality assessment: from error visibility to structural similarity <Br>
+ 图像质量评价常用指标, 分为亮度, 对比度, 结构三部分, 对真实视觉效果指向性不太强
+	
+### NIQE
+**[Paper]** (SPL 2012) Making a “Completely Blind” Image Quality Analyzer <Br>
+无参考图像质量评价算法, 在超分, 去噪等任务中被广泛采纳
+	
+### LPIPS 
+**[Paper]** (CVPR 2018) The Unreasonable Effectiveness of Deep Features as a Perceptual Metric <Br>
+**[Project](https://richzhang.github.io/PerceptualSimilarity/)**  <Br>
+用网络特征衡量图像相似度, 能更好地反映视觉质量
+
+### Inception Score 
+**[Paper]** (arXiv 1606) Improved Techniques for Training GANs <Br>
+用于评价生成的图像的清晰度和多样性. 将一批生成图像送入Inception网络中, 计算P(y|x)和P(y)的平均KL散度, 越高说明生产图像的质量越高
+
+### FID (Frechet Inception Distance)
+**[Paper]** (arXiv 1706) GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium  <Br>
+用于评估生成图像和真实图像的差异. 将生成图像和真实图像分别送入Inception V3中, 将激活值看做符合多元高斯分布, 计算其均值,方差,协方差等统计量, 进而计算二者相似度. FID越低说明图像越相似.
