@@ -17,7 +17,6 @@
 - <a href='Debluring.md'> Debluring (Archived) </a>
 - <a href='Fusion.md'> Fusion (Archived) </a>
 - [Dataset](#dataset)
-- [Metrics](#metrics)
 - [Useful Resources](#useful-resources)
 
 	
@@ -73,14 +72,6 @@
 [GehlerShi](https://www2.cs.sfu.ca/~colour/data/shi_gehler/) <Br>
 [CUBE+](https://ipg.fer.hr/ipg/resources/color_constancy) <Br>
 
-
-# Metrics
-PSNR <Br> 
-SSIM <Br> 
-LPIPS [Project](https://richzhang.github.io/PerceptualSimilarity/) <Br>
-NIQE (Natural Image Quality Evaluator) [[paper]](https://ieeexplore.ieee.org/abstract/document/6353522) <Br>
-IS (Inception Score) [[paper]](https://arxiv.org/abs/1606.03498) <Br>
-FID (Frechet Inception Distance) [[paper]](https://arxiv.org/abs/1606.03498)
 
 
 # Useful Resources
