@@ -4,6 +4,7 @@
 # Table of Contents
   - [General DL Methods](#general-dl-methods)
   - [General Traditional Methods](#general-traditional-methods)
+  - [Image Processing on Device](#image-processing-on-device)
   - [Image Quality Evaluators](#image-quality-evaluators)
     
     
@@ -164,6 +165,17 @@ Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的
 **[[Matlab-Code](https://github.com/google/bgu)]** <Br>
 受Guided Filter启发, 假设输入和经过某种处理的输出在一个小的局部区域内可以由一个线性映射近似, 并且在bilateral space中, 相邻cell之间的映射系数应该是平滑的. 据此提出了由数据项和平滑项组成的目标函数, 可以通过最小二乘法求解, 另外还提出了一个快速近似版本. 优化部分没有看懂.
 	
+
+
+
+
+
+## Image Processing on Device
+### SESR ★☆
+**[Paper]** (arXiv 2103) Collapsible Linear Blocks for Super-Efficient Super Resolution <Br>
+**[Author]** Kartikeya Bhardwaj, Milos Milosavljevic, Alex Chalfin, Naveen Suda, Liam O'Neil, Dibakar Gope, Lingchuan Meng, Ramon Matas, Danny Loh <Br>
+(**overparameterization**) 将一个conv分解为一个更宽的3x3 conv, 一个1x1 conv和一个shotcut连接.
+
 
 
 
