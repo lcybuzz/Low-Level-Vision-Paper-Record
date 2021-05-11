@@ -175,6 +175,11 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[[Pytorch-Code](https://github.com/njulj/RFDN)]** <Br>
 AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 
+### TPSR ★
+**[Paper]**  (ECCV 2020) Journey towards tiny perceptual superresolution <Br>
+**[Author]** Royson Lee, Łukasz Dudziak, Mohamed Abdelfattah, Stylianos I. Venieris, Hyeji Kim, Hongkai Wen, Nicholas D. Lane <Br>
+NAS搜索轻量级超分网络
+	
 ### CDC
 **[Paper]**  (ECCV 2020) Component Divide-and-Conquer for Real-World Image Super-Resolution <Br>
 **[Author]** Pengxu Wei, Ziwei Xie, Hannan Lu, Zongyuan Zhan, [Qixiang Ye](http://people.ucas.ac.cn/~qxye?language=en), [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), Liang Lin Lin<Br>
