@@ -258,7 +258,7 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
  
 ### LatticeNet ★
 **[Paper]** (ECCV 2020) LatticeNet: Towards Lightweight Image Super-Resolution with Lattice Block <Br>
-**[Author]** Xiaotong Luo, Yuan Xie, Yulun Zhang, Yanyun Qu, Cuihua Li, Yun Fu  <Br>
+**[Author]** Xiaotong Luo, Yuan Xie, [Yulun Zhang](http://yulunzhang.com/), [Yanyun Qu](http://quyanyun.xmu.edu.cn/), Cuihua Li, Yun Fu  <Br>
 (**轻量级超分**)
 	
 	
