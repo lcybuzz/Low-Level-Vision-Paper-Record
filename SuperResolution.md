@@ -3,6 +3,12 @@
 - [Video Super Resolution](#video-super-restoration)
 
 #  Super Resolution
+### SplitSR
+**[Paper]**  (arXiv 2101) SplitSR: An End-to-End Approach to Super-Resolution on Mobile Devices <Br>
+**[Author]** Xin Liu, Yuang Li, Josh Fromm, Yuntao Wang, Ziheng Jiang, Alex Mariakakis, Shwetak Patel <Br>
+**[[Unofficial-Pytorch-Code](https://github.com/deepconsc/SplitSR)]**  <Br>
+(**轻量级超分**) 提出了一个轻量级residual block结构: SplitSRBlock
+
 ### FSRCNN ★☆
 **[Paper]**  (ECCV 2016) Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network <Br>
 **[Author]** Chao Dong, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml) <Br>
