@@ -3,13 +3,19 @@
 - [Video Super Resolution](#video-super-restoration)
 
 #  Super Resolution
-### SplitSR
+### GhostSR ★☆
+**[Paper]**  (arXiv 2101) GhostSR: Learning Ghost Features for Efficient Image Super-Resolution <Br>
+**[Author]** Ying Nie, Kai Han, Zhenhua Liu, An Xiao, Yiping Deng, Chunjing Xu, Yunhe Wang <Br>
+(**轻量级超分**) 使用pixel shift的思想做超分
+	
+	
+### SplitSR ★☆
 **[Paper]**  (arXiv 2101) SplitSR: An End-to-End Approach to Super-Resolution on Mobile Devices <Br>
 **[Author]** [Xin Liu](https://homes.cs.washington.edu/~xliu0/), Yuang Li, [Josh Fromm](https://jwfromm.com/), [Yuntao Wang](http://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/), [Ziheng Jiang](https://www.ziheng.org/), [Alex Mariakakis](https://mariakakis.github.io/), Shwetak Patel <Br>
 **[[Unofficial-Pytorch-Code](https://github.com/deepconsc/SplitSR)]**  <Br>
 (**轻量级超分**) 提出了一个轻量级residual block结构: SplitSRBlock
 
-### FSRCNN ★☆
+### FSRCNN  ★☆
 **[Paper]**  (ECCV 2016) Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network <Br>
 **[Author]** Chao Dong, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml) <Br>
 **[[Project](http://mmlab.ie.cuhk.edu.hk/projects/FSRCNN.html)]**  <Br>
