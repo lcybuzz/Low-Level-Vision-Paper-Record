@@ -178,7 +178,12 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 ### TPSR ★
 **[Paper]**  (ECCV 2020) Journey towards tiny perceptual superresolution <Br>
 **[Author]** Royson Lee, Łukasz Dudziak, Mohamed Abdelfattah, Stylianos I. Venieris, Hyeji Kim, Hongkai Wen, Nicholas D. Lane <Br>
-NAS搜索轻量级超分网络
+(**NAS, Mobile SR**)
+	
+### MoreMNAS ★
+**[Paper]**  (ECCV 2020) Multi-objective reinforced evolution in mobile neural architecture search <Br>
+**[Author]** Xiangxiang Chu, Bo Zhang, Ruijun Xu, Hailong Ma <Br>
+(**NAS, Mobile SR**)
 	
 ### CDC
 **[Paper]**  (ECCV 2020) Component Divide-and-Conquer for Real-World Image Super-Resolution <Br>
