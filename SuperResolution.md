@@ -255,7 +255,13 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 **[Paper]** (ECCV 2020) Fast Adaptation to Super-Resolution Networks via Meta-Learning <Br>
 **[Author]** Xi Cheng, Zhenyong Fu, Jian Yang <Br>
 **[[TF-Code](https://github.com/parkseobin/MLSR)]** <Br>
-  
+ 
+### LatticeNet ★
+**[Paper]** (ECCV 2020) LatticeNet: Towards Lightweight Image Super-Resolution with Lattice Block <Br>
+**[Author]** Xiaotong Luo, Yuan Xie, Yulun Zhang, Yanyun Qu, Cuihua Li, Yun Fu  <Br>
+(**轻量级超分**)
+	
+	
 ### LAPAR
 **[Paper]** (NIPS 2020) Linearly-Assembled Pixel-Adaptive Regression Network for Single Image Super-resolution and Beyond <Br>
 **[Author]** Wenbo Li, Kun Zhou, [Lu Qi](http://luqi.info/), Nianjuan Jiang, Jiangbo Lu, [Jiaya Jia](https://jiaya.me/) <Br>
