@@ -30,6 +30,12 @@ SRCNN的加速版本, 在小分辨率上处理，用deconv升分辨率.
 **[Author]** [Namhyuk Ahn](https://nmhkahn.github.io/), Byungkon Kang, [Kyung-Ah Sohn](https://sites.google.com/site/kasohn/home) <Br>
 **[[Pytorch-Code](https://github.com/nmhkahn/CARN-pytorch)]**  <Br>
 (**轻量级超分**) 在block内部使用group conv和skip connection, 使用全局和局部的跳连. 在低分辨率上处理, 用PixelShuffle上采样.
+
+### RCAN ★☆
+**[Paper]**  (ECCV 2018) Image Super-Resolution Using Very Deep Residual Channel Attention Networks <Br>
+**[Author]** [Yulun Zhang](http://yulunzhang.com/), [Kunpeng Li](https://kunpengli1994.github.io/), [Kai Li](http://kailigo.github.io/), [Lichen Wang](https://sites.google.com/site/lichenwang123/), [Bineng Zhong](https://scholar.google.de/citations?user=hvRBydsAAAAJ&hl=en), [Yun Fu](http://www1.ece.neu.edu/~yunfu/)  <Br>
+**[[Pytorch-Code](https://github.com/yulunzhang/RCAN)]**  <Br>
+residual + 通道attention
 	
 ### ZSSR ★☆
 **[Paper]**  (CVPR 2018) "Zero Shot" Super-Resolution using Deep Internal Learning <Br>
