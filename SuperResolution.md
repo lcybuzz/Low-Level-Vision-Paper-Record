@@ -48,6 +48,13 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[Author]** Xintao Wang, [Ke Yu](https://yuke93.github.io/), Chao Dong, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
 **[[Pytorch-Code](https://github.com/xinntao/SFTGAN)]**  <Br>
 **(结合语义的超分)** 从分割图中提取特征作为超分网络feature的scale和shift
+	
+### RDN ★☆
+**[Paper]**  (CVPR 2018) Residual Dense Network for Image Super-Resolution <Br>
+**[Author]** [Yulun Zhang](http://yulunzhang.com/), [Yapeng Tian](http://yapengtian.org/), [Yu Kong](http://www1.ece.neu.edu/~yukong/), [Bineng Zhong](https://scholar.google.de/citations?user=hvRBydsAAAAJ&hl=en), [Yun Fu](http://www1.ece.neu.edu/~yunfu/)  <Br>
+**[[Pytorch-Code](https://github.com/lizhengwei1992/ResidualDenseNetwork-Pytorch)]**  <Br>
+提出Residual Dense Block(RDB)
+	
   
 ###  *Super-Resolution with Raw Images* ★
 **[Paper]**  (CVPR 2019) Towards Real Scene Super-Resolution with Raw Images  <Br>
