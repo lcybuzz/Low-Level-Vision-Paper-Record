@@ -15,12 +15,16 @@
 **[[Unofficial-Pytorch-Code](https://github.com/deepconsc/SplitSR)]**  <Br>
 (**轻量级超分**) 提出了一个轻量级residual block结构: SplitSRBlock
 
+### AdderSR ★
+**[Paper]**  (CVPR 2021) AdderSR: Towards Energy Efficient Image Super-Resolution <Br>
+**[Author]** Dehua Song, Yunhe Wang, Hanting Chen, [Chang Xu](http://changxu.xyz/), Chunjing Xu, Dacheng Tao <Br>
+使用加法做SR
 
 ### MAFFSRN ★☆
 **[Paper]**  (arXiv 2008) Ultra Lightweight Image Super-Resolution with Multi-Attention Layers <Br>
 **[Author]** Abdul Muqeet, Jiwon Hwang, Subin Yang, Jung Heum Kang, Yongwoo Kim, Sung-Ho Bae<Br>
 **[[Code](https://github.com/AbdulMoqeet/MAFFSRN)]** <Br>
-轻量级超分网络, 在AIM 2020上取得了不错的成绩, 结构可学习
+轻量级超分网络
 
 
 ### RFDN ★☆
