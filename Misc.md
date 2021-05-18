@@ -19,9 +19,25 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 
 ### ObstructionRemoval ★★
 **[Paper]** (CVPR 2020) Learning to See Through Obstructions  <Br>
-**[Author]** [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Wei-Sheng Lai](https://www.wslai.net/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/), [Jia-Bin Huang]（）https://filebox.ece.vt.edu/~jbhuang/））  <Br>
+**[Author]** [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Wei-Sheng Lai](https://www.wslai.net/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/)  <Br>
 **[[Project](https://alex04072000.github.io/ObstructionRemoval/)]** **[[TF-Code](https://github.com/alex04072000/ObstructionRemoval)]**<Br>
 使用多帧和光流的思想去反射. 用多帧处理去反射问题与单帧相比更可靠一些, 本文的网络设计值得学习.
+
+### IBCLN
+**[Paper]** (CVPR 2020) Single Image Reflection Removal through Cascaded Refinement  <Br>
+**[Author]** Chao Li, Yixiao Yang, Kun He, Stephen Lin, John E. Hopcroft  <Br>
+**[[Pytorch-Code](https://github.com/JHL-HUST/IBCLN)]**<Br>
+
+### * Polarized Reflection Removal*
+**[Paper]** (CVPR 2020) Polarized Reflection Removal with Perfect Alignment in the Wild  <Br>
+**[Author]** [Chenyang Lei](https://chenyanglei.github.io/), Xuhua Huang, Mengdi Zhang, Qiong Yan, Wenxiu Sun, [Qifeng Chen](https://cqf.io/)  <Br>
+**[[Project](https://chenyanglei.github.io/polar_rr/index.html)]**, **[[TF-Code](https://github.com/ChenyangLEI/polarization-reflection-removal)]**<Br>
+
+### *Robust Reflection Removal with Reflection-free Flash-only Cues*
+**[Paper]** (CVPR 2021) Robust Reflection Removal with Reflection-free Flash-only Cues  <Br>
+**[Author]** [Chenyang Lei](https://chenyanglei.github.io/), [Qifeng Chen](https://cqf.io/)  <Br>
+**[[Project](https://chenyanglei.github.io/flashrr_rfc/index.html)]** **[[TF-Code](https://github.com/ChenyangLEI/flash-reflection-removal)]**<Br>
+
 	
 
 # De-raining
