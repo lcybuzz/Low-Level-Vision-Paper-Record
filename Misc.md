@@ -1,7 +1,7 @@
 # Table of Contents
 - [Reflection Removal](#reflection-removal)
-- [De-raining](#de-raining)
-- [Image Demoireing](#image-demoireing)
+- [De-raining (Archived)](#de-raining)
+- [Image Demoireing (Archived)](#image-demoireing)
 - [Style-Transfer (Archived)](#style-transfer)
 
 # Reflection Removal
@@ -32,6 +32,11 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 **[Paper]** (CVPR 2020) Polarized Reflection Removal with Perfect Alignment in the Wild  <Br>
 **[Author]** [Chenyang Lei](https://chenyanglei.github.io/), Xuhua Huang, Mengdi Zhang, Qiong Yan, Wenxiu Sun, [Qifeng Chen](https://cqf.io/)  <Br>
 **[[Project](https://chenyanglei.github.io/polar_rr/index.html)]**, **[[TF-Code](https://github.com/ChenyangLEI/polarization-reflection-removal)]**<Br>
+
+### Reflection removal rendering
+**[Paper]** (CVPR 2020 Oral) Single Image Reflection Removal with Physically-Based Training Images <Br>
+**[Author]** [Soomin Kim](https://sgvr.kaist.ac.kr/~smkim/), [Yuchi Huo](https://sgvr.kaist.ac.kr/~ychuo/), [Sung-Eui Yoon](https://sgvr.kaist.ac.kr/~sungeui/)  <Br>
+**[[Project](https://sgvr.kaist.ac.kr/~smkim/Reflection_removal_rendering/)]**, **[[TF-Code](https://github.com/sookim813/Reflection_removal_rendering)]**<Br>
 
 ### *Robust Reflection Removal with Reflection-free Flash-only Cues*
 **[Paper]** (CVPR 2021) Robust Reflection Removal with Reflection-free Flash-only Cues  <Br>
