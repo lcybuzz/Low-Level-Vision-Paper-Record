@@ -11,11 +11,21 @@
 **[[Project](https://people.eecs.berkeley.edu/~cecilia77/project-pages/reflection.html)]** **[[TF-Code](https://github.com/ceciliavision/perceptual-reflection-removal)]**<Br>
 VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络同时预测transmission和reflection, 使用pixel, VGG和GAN loss, 另外提出了一个gradient exclusion loss. 
 
-### ERRNet ★
-**[Paper]** (CVPR 2019) Single Image Reflection Removal Exploiting Misaligned Training Data and Network Enhancements <Br>
-**[Author]** [Kaixuan Wei](https://kxwei.net/), [Jiaolong Yang](http://jlyang.org/), [Ying Fu](https://ying-fu.github.io/), [David Wipf](http://www.davidwipf.com/), Hua Huang <Br>
-**[[Project](https://github.com/Vandermode/ERRNet)]** **[[Pytorch-Code](https://github.com/Vandermode/ERRNet)]**<Br>
-也用了VGG19的特征串联作为输入, 采用了PSP模块和channel-wise attention模块. 使用pixel loss, VGG loss, GAN loss, 另外提出了一个利用非对齐数据训练的方法, 貌似就是用VGG的高层特征计算距离, 效果上看不如contextual loss.  
+### ReflectNet
+**[Paper]** (ECCV 2018) ReflectNet: Separating Reflection and Transmission Images in the Wild <Br>
+**[Author]** [Patrick Wieschollek](http://patwie.com/), [Orazio Gallo](https://oraziogallo.github.io/), [Jinwei Gu](http://www.gujinwei.org/), [Jan Kautz](https://jankautz.com/)  <Br>
+**[[Project](https://research.nvidia.com/publication/2018-09_Separating-Reflection-and)]** **[[TF-Code](https://github.com/NVlabs/ReflectNet)]**<Br>
+
+### BDN
+**[Paper]** (ECCV 2018) Deep Bidirectional Estimation for Single Image Reflection Removal <Br>
+**[Author]** [Jie Yang](https://github.com/yangj1e), [Dong Gong](https://donggong1.github.io)\, [Lingqiao Liu](https://sites.google.com/site/lingqiaoliu83/), [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/index.html) <Br>
+*[[Pytorch-Code](https://github.com/yangj1e/bdn-refremv)]**<Br>
+
+### *Single Image Reflection Removal Beyond Linearity*
+**[Paper]** (CVPR 2019) Single Image Reflection Removal Beyond Linearity <Br>
+**[Author]** Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He <Br>
+**[[Pytorch-Code](https://github.com/csqiangwen/Single-Image-Reflection-Removal-Beyond-Linearity)]**<Br>
+
 
 ### ObstructionRemoval ★★
 **[Paper]** (CVPR 2020) Learning to See Through Obstructions  <Br>
@@ -28,7 +38,7 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 **[Author]** Chao Li, Yixiao Yang, Kun He, Stephen Lin, John E. Hopcroft  <Br>
 **[[Pytorch-Code](https://github.com/JHL-HUST/IBCLN)]**<Br>
 
-### * Polarized Reflection Removal*
+### *Polarized Reflection Removal*
 **[Paper]** (CVPR 2020) Polarized Reflection Removal with Perfect Alignment in the Wild  <Br>
 **[Author]** [Chenyang Lei](https://chenyanglei.github.io/), Xuhua Huang, Mengdi Zhang, Qiong Yan, Wenxiu Sun, [Qifeng Chen](https://cqf.io/)  <Br>
 **[[Project](https://chenyanglei.github.io/polar_rr/index.html)]**, **[[TF-Code](https://github.com/ChenyangLEI/polarization-reflection-removal)]**<Br>
