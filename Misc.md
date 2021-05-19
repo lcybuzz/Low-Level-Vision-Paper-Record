@@ -67,7 +67,7 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 ### BDN
 **[Paper]** (ECCV 2018) Deep Bidirectional Estimation for Single Image Reflection Removal <Br>
 **[Author]** [Jie Yang](https://github.com/yangj1e), [Dong Gong](https://donggong1.github.io)\, [Lingqiao Liu](https://sites.google.com/site/lingqiaoliu83/), [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/index.html) <Br>
-*[[Pytorch-Code](https://github.com/yangj1e/bdn-refremv)]**<Br>
+**[[Pytorch-Code](https://github.com/yangj1e/bdn-refremv)]** <Br>
 
 
 	
