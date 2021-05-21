@@ -21,7 +21,7 @@
 
 ### *Reflection scene separation from a single image*
 **[Paper]** (CVPR 2020) Reflection scene separation from a single image  <Br>
-**[Author]** [Renjie Wan](https://wanrenjie.github.io/, [Boxin Shi](http://ci.idm.pku.edu.cn/), [Haoliang Li](https://hlli1991.github.io/), Ling-Yu Duan, Alex C. Kot  <Br>
+**[Author]** [Renjie Wan](https://wanrenjie.github.io/), [Boxin Shi](http://ci.idm.pku.edu.cn/), [Haoliang Li](https://hlli1991.github.io/), Ling-Yu Duan, Alex C. Kot  <Br>
 
 ### ObstructionRemoval ★★
 **[Paper]** (CVPR 2020) Learning to See Through Obstructions  <Br>
