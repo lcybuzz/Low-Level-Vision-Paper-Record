@@ -193,7 +193,10 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 **[Author]** Zhengxiong Luo, [Yan Huang](https://yanrockhuang.github.io/), Shang Li, Liang Wang, Tieniu Tan<Br>
 **[[Pytorch-Code](https://github.com/greatlog/DAN)]** <Br>
 
-
+###  *Zoom to Learn, Learn to Zoom*
+**[Paper]**  (CVPR 2019) Zoom to Learn, Learn to Zoom  <Br>
+**[Author]** [Xuaner Zhang](https://ceciliavision.github.io/), [Qifeng Chen](https://cqf.io/), [Ren Ng](https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html), [Vladlen Koltun](http://vladlen.info/) <Br>
+**[[Project](https://ceciliavision.github.io/project-pages/zoom.html)]** **[[TF-Code](https://github.com/ceciliavision/zoom-learn-zoom)]** <Br>
 
 ###  *Super-Resolution with Raw Images* ★
 **[Paper]**  (CVPR 2019) Towards Real Scene Super-Resolution with Raw Images  <Br>
@@ -232,7 +235,7 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 **[Paper]**  (NIPS 2019 Oral) Blind Super-Resolution Kernel Estimation using an Internal-GAN <Br>
 **[Author]** Sefi Bell-Kligler, [Assaf Shocher](http://www.wisdom.weizmann.ac.il/~/assafsho/), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
 **[[Project](http://www.wisdom.weizmann.ac.il/~vision/kernelgan/)]** **[[Pytorch-Code](https://github.com/sefibk/KernelGAN)]**  <Br>
-无监督预测降质核并进行超分的方法. 使用若干个现象卷积层的GAN预测降质kernel, 训练的的GAN可以合成一个kernel, 作为该图形的降质核, 网络训练采用LSGAN和若干正则项构成. 预测的模糊核作为ZSSR的降质核, 再无监督地预测炒粉结果
+无监督预测降质核并进行超分的方法. 使用若干个现象卷积层的GAN预测降质kernel, 训练的的GAN可以合成一个kernel, 作为该图形的降质核, 网络训练采用LSGAN和若干正则项构成. 预测的模糊核作为ZSSR的降质核, 再无监督地预测超分结果
 
 	
 ### ESRGAN
