@@ -2,34 +2,6 @@
 ISP及其内部模块相关论文
 
 ## ISP
-### *Reconfiguring the Imaging Pipeline* ★★ 
-**[Paper]** (ICCV 2017) Reconfiguring the Imaging Pipeline for Computer Vision <Br>
-**[Author]**   [Mark Buckler](http://www.markbuckler.com/), [Suren Jayasuriya](http://www.andrew.cmu.edu/user/sjayasur/website.html), [Adrian Sampson](http://www.cs.cornell.edu/~asampson/)  <Br>
-**[[Project](https://capra.cs.cornell.edu/research/visionmode/)]** **[[Code1](https://github.com/cucapra/approx-vision)]** **[[Code2](https://github.com/mbuckler/ReversiblePipeline)]** <Br>
-1) 针对计算机视觉任务(而不是photography)简化ISP流程. 提出只有demosaicing和gamma校正是CV任务中必需的, 并据此设计了系统.
-2) 系统包括3个步骤: reduced resolution readout, subsampling to produce RGB images, lower-precision logarithmic ADC configuration. 能将总体能耗降低约75%
-3) 公布了一套用于模拟imaging pipeline及其逆过程的工具CRIP
-  
-
-### DeepISP ☆
-**[Paper]** (TIP 2018) DeepISP: Learning End-to-End Image Processing Pipeline <Br>
-**[Author]** [Eli Schwartz](https://elischwartz.github.io/publications/), [Raja Giryes](http://web.eng.tau.ac.il/~raja/),  [Alex M. Bronstein](https://bron.cs.technion.ac.il/) <Br>
-大致浏览, 一个end-to-end的网络, 分为保持分辨率的low level部分和逐层下采样的high level部分. 使用了conv+relu, conv+tanh, 直连三个分支并行的设计, 比较少见
-
-### Learning to See in the Dark ★★
-**[Paper]** (CVPR 2018) Learning to See in the Dark <Br>
-**[Author]** [Chen Chen](http://cchen156.web.engr.illinois.edu/), [Qifeng Chen](https://cqf.io/), [Jia Xu](http://pages.cs.wisc.edu/~jiaxu/), [Vladlen Koltun](http://vladlen.info/)  <Br>
-**[[Project](http://cchen156.web.engr.illinois.edu/SID.html)]** **[[TF-Code](https://github.com/cchen156/Learning-to-See-in-the-Dark)]**<Br>
-1) 提出了SID数据集, 包括RGB和Raw数据 <Br>
-2) 提出了一个end-to-end的isp网络, 以RAW和增益信息为输入, 输入RGB图像, 代替传统ISP流程
-
-###  TENet ★
-**[Paper]**  (arXiv 1905) Trinity of Pixel Enhancement: a Joint Solution for Demosaicking, Denoising and Super-Resolution  <Br>
-**[Author]** [Guocheng Qian](https://www.gcqian.com/), [Jinjin Gu](http://www.jasongt.com/), [Jimmy Ren](http://www.jimmyren.com/), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html), Furong Zhao, Juan Lin <Br>
-**[[Pytorch-Code](https://github.com/guochengqian/TENet)]** <Br>
-1. 使用具有pixel shift技术的相机收集了一可以做demoasic的数据集, 避免了用普通RGB数据做真值时内置demoasic过程带来的误差
-2. 提出了一端到端的demosaic, 去噪和超分的网络, 采用residual + dense block的形式, 没什么特别的
-
 ### PyNet ★
 **[Paper]** (CVPR 2020) Replacing Mobile Camera ISP with a Single Deep Learning Model <Br>
 **[Author]**   Andrey Ignatov, Luc Van Gool, Radu Timofte  <Br>
@@ -42,21 +14,47 @@ ISP及其内部模块相关论文
 **[Paper]**  (CVPR 2021) Neural Camera Simulators <Br>
 **[Author]** Hao Ouyang, Zifan Shi, [Chenyang Lei](https://chenyanglei.github.io/), Ka Lung Law, [Qifeng Chen](https://cqf.io/) <Br>
 
+###  TENet ★
+**[Paper]**  (arXiv 1905) Trinity of Pixel Enhancement: a Joint Solution for Demosaicking, Denoising and Super-Resolution  <Br>
+**[Author]** [Guocheng Qian](https://www.gcqian.com/), [Jinjin Gu](http://www.jasongt.com/), [Jimmy Ren](http://www.jimmyren.com/), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html), Furong Zhao, Juan Lin <Br>
+**[[Pytorch-Code](https://github.com/guochengqian/TENet)]** <Br>
+1. 使用具有pixel shift技术的相机收集了一可以做demoasic的数据集, 避免了用普通RGB数据做真值时内置demoasic过程带来的误差
+2. 提出了一端到端的demosaic, 去噪和超分的网络, 采用residual + dense block的形式, 没什么特别的
+
 ### Invertible ISP
 **[Paper]**  (CVPR 2021) Invertible Image Signal Processing <Br>
 **[Author]** [Yazhou Xing](https://yzxing87.github.io/), Zian Qian, [Qifeng Chen](https://cqf.io/) <Br>
 **[[Project](https://yzxing87.github.io/InvISP/index.html)]**, **[[Pytorch-Code](https://github.com/yzxing87/Invertible-ISP)]** <Br>
   
+### DeepISP ☆
+**[Paper]** (TIP 2018) DeepISP: Learning End-to-End Image Processing Pipeline <Br>
+**[Author]** [Eli Schwartz](https://elischwartz.github.io/publications/), [Raja Giryes](http://web.eng.tau.ac.il/~raja/),  [Alex M. Bronstein](https://bron.cs.technion.ac.il/) <Br>
+大致浏览, 一个end-to-end的网络, 分为保持分辨率的low level部分和逐层下采样的high level部分. 使用了conv+relu, conv+tanh, 直连三个分支并行的设计, 比较少见
+
+### Learning to See in the Dark ★★
+**[Paper]** (CVPR 2018) Learning to See in the Dark <Br>
+**[Author]** [Chen Chen](http://cchen156.web.engr.illinois.edu/), [Qifeng Chen](https://cqf.io/), [Jia Xu](http://pages.cs.wisc.edu/~jiaxu/), [Vladlen Koltun](http://vladlen.info/)  <Br>
+**[[Project](http://cchen156.web.engr.illinois.edu/SID.html)]** **[[TF-Code](https://github.com/cchen156/Learning-to-See-in-the-Dark)]**<Br>
+1) 提出了SID数据集, 包括RGB和Raw数据 <Br>
+2) 提出了一个end-to-end的isp网络, 以RAW和增益信息为输入, 输入RGB图像, 代替传统ISP流程
+
+### *Reconfiguring the Imaging Pipeline* ★★ 
+**[Paper]** (ICCV 2017) Reconfiguring the Imaging Pipeline for Computer Vision <Br>
+**[Author]**   [Mark Buckler](http://www.markbuckler.com/), [Suren Jayasuriya](http://www.andrew.cmu.edu/user/sjayasur/website.html), [Adrian Sampson](http://www.cs.cornell.edu/~asampson/)  <Br>
+**[[Project](https://capra.cs.cornell.edu/research/visionmode/)]** **[[Code1](https://github.com/cucapra/approx-vision)]** **[[Code2](https://github.com/mbuckler/ReversiblePipeline)]** <Br>
+1) 针对计算机视觉任务(而不是photography)简化ISP流程. 提出只有demosaicing和gamma校正是CV任务中必需的, 并据此设计了系统.
+2) 系统包括3个步骤: reduced resolution readout, subsampling to produce RGB images, lower-precision logarithmic ADC configuration. 能将总体能耗降低约75%
+3) 公布了一套用于模拟imaging pipeline及其逆过程的工具CRIP
+
+### *A Software Platform for Manipulating the Camera Imaging Pipeline *
+**[Paper]** (CVPR 2016) A Software Platform for Manipulating the Camera Imaging Pipeline  <Br>
+**[Author]** [Hakki Can Karaimer](https://karaimer.github.io/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
+**[[Project](https://karaimer.github.io/camera-pipeline/)]** <Br> 
   
+ 
   
 
 ## AWB
-
-### WB_sRGB
-**[Paper]** (CVPR 2019) When Color Constancy Goes Wrong: Correcting Improperly White-Balanced Images <Br>
-**[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi/home), [Brian Price](https://www.brianpricephd.com/), [Scott Cohen](https://research.adobe.com/person/scott-cohen/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
-**[[Project](http://cvil.eecs.yorku.ca/projects/public_html/sRGB_WB_correction/index.html)]** **[[Code](https://github.com/mahmoudnafifi/WB_sRGB)]** **[[Blog](http://www.noahlab.com.hk/#/news/5ee70c18a0c07a1a3855452d)]**<Br>
-  
 ### *Multi-Hypothesis CC* ★☆
 **[Paper]** (CVPR 2020) A Multi-Hypothesis Approach to Color Constancy for improved Automatic White Balance <Br>
 **[Author]** [Daniel Hernandez-Juarez](https://danihernandez.eu/), [Sarah Parisot](https://parisots.github.io/), [Benjamin Busam](http://campar.in.tum.de/Main/BenjaminBusam), Ales Leonardis, [Gregory Slabaugh](http://www.gregslabaugh.net/), Steven McDonagh <Br>
@@ -69,3 +67,13 @@ ISP及其内部模块相关论文
 **[[PYtorch & Matlab-Code](https://github.com/mahmoudnafifi/Deep_White_Balance)]**<Br>
 1) 1个encoder, 3个decoder, 分别预测正确, 白炽灯, 室外场景的白平衡结果. 最后可根据三个结果插值出用户需要的色温
 2) 为在device上进行快速推理, 在小图上预测, 然后在小图上通过优化的方法闭式求解输入输出的全局色彩映射函数, 再将该函数用到全图上
+
+### WB_sRGB
+**[Paper]** (CVPR 2019) When Color Constancy Goes Wrong: Correcting Improperly White-Balanced Images <Br>
+**[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi/home), [Brian Price](https://www.brianpricephd.com/), [Scott Cohen](https://research.adobe.com/person/scott-cohen/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
+**[[Project](http://cvil.eecs.yorku.ca/projects/public_html/sRGB_WB_correction/index.html)]** **[[Code](https://github.com/mahmoudnafifi/WB_sRGB)]** **[[Blog](http://www.noahlab.com.hk/#/news/5ee70c18a0c07a1a3855452d)]**<Br>
+  
+### *Improving Color Reproduction Accuracy on Cameras*
+**[Paper]** (CVPR 2018) Improving Color Reproduction Accuracy on Cameras <Br>
+**[Author]** [Hakki Can Karaimer](https://karaimer.github.io/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
+**[[Project](https://karaimer.github.io/camera-color/)]** <Br> 
