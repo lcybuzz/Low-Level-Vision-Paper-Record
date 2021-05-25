@@ -10,13 +10,14 @@
     
 
 ## General DL Methods
-
-### MS-PIE ★☆
-**[Paper]** (CVPR 2021) Positional Encoding as Spatial Inductive Bias in GANs <Br>
+**[MS-PIE]**  Positional Encoding as Spatial Inductive Bias in GANs (CVPR 2021) **[[Project](https://nbei.github.io/gan-pos-encoding.html)]** <Br>
 **[Author]** [Rui Xu](https://nbei.github.io/), [Xintao Wang](https://xinntao.github.io/), [Kai Chen](http://chenkai.site/),  [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
-**[[Project](https://nbei.github.io/gan-pos-encoding.html)]** <Br>
 很有趣的一篇论文, 没有完全理解, 可以看完相关论文后再精读一下. Zero Padding在图像生成中会提供一种隐式的位置编码信息, 但这种信息在图像边缘和中间部分的程度是不一样的, 所以不是最优位置编码方案. 文中提出使用正弦函数的形式作为位置编码, 这样在图像的所有区域, 两个像素间的关系就完全取决于二者的距离, 而且不随图像scale的变化而变化. <Br>
 粗读之后有两个疑问: 1. 卷积操作的计算结果取决于两个像素的相对位置关系, 所以感觉卷积本身已经挖掘了相对位置信息了, 那么本文这种相对位置编码的注入的意义应该怎么理解? 2. 感觉本文提出的方案适用于生成固定大小的目标, 如100x100的热气球, 但如果需求是根据图像大小生成不同大小的目标, 如1024的人脸和2048的人脸, 这种相对位置编码方案的有效性如何呢?
+		
+How much Position Information Do Convolutional Neural Networks Encode? (ICLR 2020) **[[Project](https://nbei.github.io/gan-pos-encoding.html)]** <Br>
+**[Author]** [Rui Xu](https://nbei.github.io/), [Xintao Wang](https://xinntao.github.io/), [Kai Chen](http://chenkai.site/),  [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
+(★☆) 提出CNN能够利用zero pad编码绝对位置信息, 位置信息对于提高分割解析的精度有帮助
 	
 ### Invertible Image Rescaling ★★
 **[Paper]** (ECCV 2020) Invertible Image Rescaling <Br>
