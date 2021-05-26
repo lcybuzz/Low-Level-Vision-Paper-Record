@@ -60,10 +60,9 @@
 **[Paper]** (CVPR 2018) Fast End-to-End Trainable Guided Filter <Br>
 **[Author]**  [Huikai Wu](http://wuhuikai.me/), [Shuai Zheng](https://kylezheng.org/), [Junge Zhang](http://www.escience.cn/people/JungeZHANG/index.html), [Kaiqi Huang](http://www.cbsr.ia.ac.cn/users/kqhuang/) <Br>
 **[[Code](https://github.com/wuhuikai/DeepGuidedFilter)]**<Br>
-1) 可训练的引导滤波, 用于联合上采样. 可用于各种像素级的增强任务中. <Br>
-2) 同时提供了用TensorFlow实现的原始guided filter, 赞！<Br>
+可训练的引导滤波, 用于联合上采样. 可用于各种像素级的增强任务中. 同时提供了用TensorFlow实现的原始guided filter<Br>
 	
-#### ***Perception-Distortion Tradeoff* ★★**
+#### *Perception-Distortion Tradeoff* ★★
 **[Paper]** (CVPR 2018) The Perception-Distortion Tradeoff <Br>
 **[Authors]** [Yochai Blau](https://yochai.webgr.technion.ac.il/), [Tomer Michaeli](https://tomer.net.technion.ac.il/) <Br>
 1) 大致浏览, 提出在image restoration中, perception和distortion存在tradeoff. 对不同的loss这种tradedoff的严重程度不同, 如perceptual loss与MSE loss相比能在perception和distortion直接取得更好的平衡. <Br>
@@ -98,7 +97,7 @@
 **[Author]** [Yijun Li](https://yijunmaverick.github.io/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/), [Narendra Ahuja](http://vision.ai.illinois.edu/ahuja.html), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
 **[[Project](http://vllab1.ucmerced.edu/~yli62/DJF_residual/)]**  **[[Code](https://github.com/Yijunmaverick/DeepJointFilter)]**  <Br>
 	
-#### *Learning Recursive Filters for Low-Level Vision via a Hybrid Neural Network*
+#### *Recursive Filters*
 **[Paper]** (ECCV 2016 Oral) Learning Recursive Filters for Low-Level Vision via a Hybrid Neural Network <Br>
 **[Author]**  [Sifei Liu](https://www.sifeiliu.net/), [Jinshan Pan](http://vllab1.ucmerced.edu/~jinshan/), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
 **[[Project](https://www.sifeiliu.net/linear-rnn)]**  **[[Code](https://github.com/Liusifei/caffe-lowlevel)]**  <Br>
