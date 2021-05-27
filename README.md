@@ -13,8 +13,8 @@
 - <a href='ImageSynthesis.md'> Image Synthesis</a>
 - <a href='FewShot.md'> Few Shot</a>
 - <a href='Misc.md'> Misc </a>
-- <a href='Dehazing.md'> Dehazing (Archived) </a>
-- <a href='Debluring.md'> Debluring (Archived) </a>
+- <a href='Dehazing.md'> Dehazing </a>
+- <a href='Debluring.md'> Debluring </a>
 - <a href='Fusion.md'> Fusion (Archived) </a>
 - [Dataset](#dataset)
 - [Useful Resources](#useful-resources)
@@ -75,11 +75,12 @@
 
 
 # Useful Resources
+[[CVPR2021 Low Level Vision](https://github.com/Kobaayyy/Awesome-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2021.md)]
 [[awesome image-to-image translation papers](https://github.com/weihaox/awesome-image-translation)]
 
-[[ECCV 2020图像重建方向](https://zhuanlan.zhihu.com/p/180551773)]
+[[CVPR 2021论文集合](https://github.com/52CV/CVPR-2021-Papers)]
 
-[[CVPR 2020论文集合](https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation)]
+[[ECCV 2020图像重建方向](https://zhuanlan.zhihu.com/p/180551773)],  [[CVPR 2020论文集合](https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation)]
 
 [[低光照论文整理1](https://github.com/cxtalk/You-Can-See-Clearly-Now)] [[低光照论文整理2](https://github.com/Elin24/Awesome-Low-Light-Enhancement)]
 
