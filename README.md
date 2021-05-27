@@ -75,12 +75,11 @@
 
 
 # Useful Resources
-[[CVPR2021 Low Level Vision](https://github.com/Kobaayyy/Awesome-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2021.md)]
-[[awesome image-to-image translation papers](https://github.com/weihaox/awesome-image-translation)]
+[[CVPR 2021论文集合](https://github.com/52CV/CVPR-2021-Papers)], [[CVPR 2020论文集合](https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation)]
 
-[[CVPR 2021论文集合](https://github.com/52CV/CVPR-2021-Papers)]
+[[CVPR 2021 Low Level Vision](https://github.com/Kobaayyy/Awesome-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2021.md)] [[ECCV 2020 Low Level Vision](https://zhuanlan.zhihu.com/p/180551773)]
 
-[[ECCV 2020图像重建方向](https://zhuanlan.zhihu.com/p/180551773)],  [[CVPR 2020论文集合](https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation)]
+[[image-to-image translation论文整理](https://github.com/weihaox/awesome-image-translation)]
 
 [[低光照论文整理1](https://github.com/cxtalk/You-Can-See-Clearly-Now)] [[低光照论文整理2](https://github.com/Elin24/Awesome-Low-Light-Enhancement)]
 
