@@ -1,6 +1,6 @@
 # Table of Contents
 - [Image Super Resolution](#super-resolution)
-- [Video Super Resolution](#video-super-restoration)
+- [Video Super Resolution](#video-super-resolution)
 
 #  Image Super Resolution
 ### GhostSR ★☆
