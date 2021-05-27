@@ -1,19 +1,73 @@
 # Table of Contents
-- [Super Resolution](#super-resolution)
+- [Image Super Resolution](#super-resolution)
 - [Video Super Resolution](#video-super-restoration)
 
-#  Super Resolution
+#  Image Super Resolution
 ### GhostSR ★☆
 **[Paper]**  (arXiv 2101) GhostSR: Learning Ghost Features for Efficient Image Super-Resolution <Br>
 **[Author]** Ying Nie, Kai Han, Zhenhua Liu, An Xiao, Yiping Deng, Chunjing Xu, Yunhe Wang <Br>
 (**轻量级超分**) 使用pixel shift的思想做超分
-	
 	
 ### SplitSR ★☆
 **[Paper]**  (arXiv 2101) SplitSR: An End-to-End Approach to Super-Resolution on Mobile Devices <Br>
 **[Author]** [Xin Liu](https://homes.cs.washington.edu/~xliu0/), Yuang Li, [Josh Fromm](https://jwfromm.com/), [Yuntao Wang](http://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/), [Ziheng Jiang](https://www.ziheng.org/), [Alex Mariakakis](https://mariakakis.github.io/), Shwetak Patel <Br>
 **[[Unofficial-Pytorch-Code](https://github.com/deepconsc/SplitSR)]**  <Br>
 (**轻量级超分**) 提出了一个轻量级residual block结构: SplitSRBlock
+
+### SRWarp
+**[Paper]** (CVPR 2021) SRWarp: Generalized Image Super-Resolution under Arbitrary Transformation <Br>
+**[Author]** [Sanghyun Son](https://cv.snu.ac.kr/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
+**[[Pytorch-Code](https://github.com/sanghyun-son/srwarp)]**   <Br>
+
+### LAM
+**[Paper]** (CVPR 2021) Interpreting Super-Resolution Networks with Local Attribution Maps <Br>
+**[Author]** [Jinjin Gu](http://www.jasongt.com/), [Chao Dong](https://xpixel.group/index.html)   <Br>
+**[[Project](https://x-lowlevel-vision.github.io/lam.html)]**   <Br>
+
+### FKP
+**[Paper]** (CVPR 2021) Flow-based Kernel Prior with Application to Blind Super-Resolution <Br>
+**[Author]** Jingyun Liang, [Kai Zhang](https://cszn.github.io/), [Shuhang Gu](https://sites.google.com/site/shuhanggu/), [Luc Van Gool](www.vision.ee.ethz.ch/members/get_member.cgi?lang=en&id=1), [Radu Timofte](http://people.ee.ethz.ch/~timofter/)   <Br>
+**[[Pytorch-Code](https://github.com/JingyunLiang/FKP)]**   <Br>
+
+### MASA-SR 
+**[Paper]** (CVPR 2021) MASA-SR: Matching Acceleration and Spatial Adaptation for Reference-Based Image Super-Resolution <Br>
+**[Author]** Liying Lu, Wenbo Li, [Xin Tao](http://www.xtao.website/), Jiangbo Lu, [Jiaya Jia](https://jiaya.me/)   <Br>
+**[[Pytorch-Code](https://github.com/dvlab-research/MASA-SR)]**   <Br>
+
+### GLEAN 
+**[Paper]** (CVPR 2021) GLEAN: Generative Latent Bank for Large-Factor Image Super-Resolution <Br>
+**[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Xiangyu Xu](https://sites.google.com/view/xiangyuxu/), [Jinwei Gu](https://www.gujinwei.org/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/)   <Br>
+**[[Project](https://ckkelvinchan.github.io/projects/GLEAN/)]**   <Br>
+
+### LIIF 
+**[Paper]** (CVPR 2021 Oral) Learning Continuous Image Representation with Local Implicit Image Function <Br>
+**[Author]** [Yinbo Chen](https://yinboc.github.io/), [Sifei Liu](https://www.sifeiliu.net/), [Xiaolong Wang](https://xiaolonw.github.io/)  <Br>
+**[[Project](https://yinboc.github.io/liif/)]** **[[Pytorch-Code](https://github.com/yinboc/liif)]**  <Br>
+
+### LAU-Net 
+**[Paper]** (CVPR 2021) LAU-Net: Latitude Adaptive Upscaling Network for Omnidirectional Image Super-resolution <Br>
+**[Author]** [Yinbo Chen](https://yinboc.github.io/), [Sifei Liu](https://www.sifeiliu.net/), [Xiaolong Wang](https://xiaolonw.github.io/)  <Br>
+**[[Pytorch-Code](https://github.com/wangh-allen/LAU-Net)]**  <Br>
+
+### Cross-MPI
+**[Paper]**  (CVPR 2021) Cross-MPI: Cross-scale Stereo for Image Super-Resolution using Multiplane Images <Br>
+**[Author]**Yuemei Zhou, Gaochang Wu, Ying Fu, Kun Li, [Yebin Liu](http://www.liuyebin.com/) <Br>
+**[[Project](http://www.liuyebin.com/crossMPI/crossMPI.html)]**  <Br>
+
+### ClassSR
+**[Paper]**  (CVPR 2021) ClassSR: A General Framework to Accelerate Super-Resolution Networks by Data Characteristic <Br>
+**[Author]** Xiangtao Kong, [Hengyuan Zhao](https://github.com/zhaohengyuan1), [Yu Qiao](https://scholar.google.com/citations?user=gFtI-8QAAAAJ&hl=zh-CN), Chao Dong <Br>
+**[[Pytorch-Code](https://github.com/Xiangtaokong/ClassSR)]**  <Br>
+
+### SMSR
+**[Paper]**  (CVPR 2021) Exploring Sparsity in Image Super-Resolution for Efficient Inference <Br>
+**[Author]** [Longguang Wang](https://longguangwang.github.io/), Xiaoyu Dong, [Yingqian Wang](https://yingqianwang.github.io/), Xinyi Ying, Zaiping Lin, Wei An, [Yulan Guo](http://yulanguo.me/)  <Br>
+**[[Pytorch-Code](https://github.com/LongguangWang/SMSR)]**  <Br>
+
+### DASR
+**[Paper]**  (CVPR 2021) Unsupervised Degradation Representation Learning for Blind Super-Resolution <Br>
+**[Author]** [Longguang Wang](https://longguangwang.github.io/), [Yingqian Wang](https://yingqianwang.github.io/), Xiaoyu Dong, Qingyu Xu, Jungang Yang, Wei An, [Yulan Guo](http://yulanguo.me/) <Br>
+**[[Pytorch-Code](https://github.com/LongguangWang/DASR)]**  <Br>
 
 ### AdderSR ★
 **[Paper]**  (CVPR 2021) AdderSR: Towards Energy Efficient Image Super-Resolution <Br>
@@ -306,6 +360,21 @@ SRCNN的加速版本, 在小分辨率上处理，用deconv升分辨率.
 
 
 # Video Super Resolution
+### MIMO-VRN
+**[Paper]**  (CVPR 2021) Video Rescaling Networks with Joint Optimization Strategies for Downscaling and Upscaling <Br>
+**[Author]**  [Yan-Cheng Huang](https://www.linkedin.com/in/hyancheng96),  [Yi-Hsin Chen](mailto:yhchen12101@gmail.com),  [Cheng-You Lu](https://johnnylu305.github.io), [Hui-Po Wang](https://a514514772.github.io), [Wen-Hsiao Peng](https://sites.google.com/g2.nctu.edu.tw/wpeng/cv), [Ching-Chun Huang](http://acm.cs.nctu.edu.tw/Home.aspx)   <Br>
+**[[Project](https://ding3820.github.io/MIMO-VRN/)]** **[[Pytorch-Code](https://github.com/ding3820/MIMO-VRN)]** <Br>
+
+### BasicVSR
+**[Paper]**  (CVPR 2021) BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond <Br>
+**[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ke Yu](https://yuke93.github.io/), [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ&hl=zh-CN), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
+**[[Project](https://ckkelvinchan.github.io/projects/BasicVSR/)]** **[[Pytorch-Code](https://github.com/ckkelvinchan/BasicVSR-IconVSR)]** <Br>
+
+### TMNet
+**[Paper]**  (CVPR 2021) Temporal Modulation Network for Controllable Space-Time Video Super-Resolution <Br>
+**[Author]** Gang Xu, [Jun Xu](https://csjunxu.github.io/), Zhen Li, Liang Wang, [Xing Sun](https://www.sunxing.org/), [Mingming Cheng](http://mmcheng.net/cmm/) <Br>
+**[[Pytorch-Code](https://github.com/CS-GangXu/TMNet)]** <Br>
+
 ### STARnet
 **[Paper]**  (CVPR 2020) Space-Time-Aware Multi-Resolution Video Enhancement <Br>
 **[Author]** [Muhammad Haris](https://alterzero.github.io/), [Greg Shakhnarovich](https://ttic.uchicago.edu/~gregory/), [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/)<Br>
@@ -314,7 +383,7 @@ SRCNN的加速版本, 在小分辨率上处理，用deconv升分辨率.
 ### DeepTemporalSR
 **[Paper]**  (ECCV 2020) Across Scales & Across Dimensions: Temporal Super-Resolution using Deep Internal Learning <Br>
 **[Author]** Liad Pollak Zuckerman, Eyal Naor, George Pisha, [Shai Bagon](https://www.weizmann.ac.il/math/bagon/), Michal Irani <Br>
-**[[Project](http://www.wisdom.weizmann.ac.il/~vision/DeepTemporalSR/)]** <Br> **[[Pytorch-Code](https://github.com/eyalnaor/DeepTemporalSR)]** <Br>	
+**[[Project](http://www.wisdom.weizmann.ac.il/~vision/DeepTemporalSR/)]**  **[[Pytorch-Code](https://github.com/eyalnaor/DeepTemporalSR)]** <Br>	
 
 ### MuCAN
 **[Paper]**  (ECCV 2020) MuCAN: Multi-Correspondence Aggregation Network for Video Super-Resolution <Br>
