@@ -9,25 +9,41 @@
     
     
 
-## General DL Methods
+# General DL Methods
 #### MS-PIE ★☆
 **[Paper]** (CVPR 2021) Positional Encoding as Spatial Inductive Bias in GANs <Br>
 **[Author]** [Rui Xu](https://nbei.github.io/), [Xintao Wang](https://xinntao.github.io/), [Kai Chen](http://chenkai.site/),  [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
 **[[Project](https://nbei.github.io/gan-pos-encoding.html)]** <Br>
 很有趣的一篇论文, 没有完全理解, 可以看完相关论文后再精读一下. Zero Padding在图像生成中会提供一种隐式的位置编码信息, 但这种信息在图像边缘和中间部分的程度是不一样的, 所以不是最优位置编码方案. 文中提出使用正弦函数的形式作为位置编码, 这样在图像的所有区域, 两个像素间的关系就完全取决于二者的距离, 而且不随图像scale的变化而变化. <Br>
 粗读之后有两个疑问: 1. 卷积操作的计算结果取决于两个像素的相对位置关系, 所以感觉卷积本身已经挖掘了相对位置信息了, 那么本文这种相对位置编码的注入的意义应该怎么理解? 2. 感觉本文提出的方案适用于生成固定大小的目标, 如100x100的热气球, 但如果需求是根据图像大小生成不同大小的目标, 如1024的人脸和2048的人脸, 这种相对位置编码方案的有效性如何呢?
-	
+
+#### Mind the Pad ★☆
+**[Paper]** (ICLR 2021) Mind the Pad -- CNNs Can Develop Blind Spots <Br>
+**[Author]** Bilal Alsallakh, Narine Kokhlikyan, Vivek Miglani, ​[Jun Yuan](https://junyuanjun.github.io/)​, [Orion Reblitz-Richardson](http://distillerlabs.com/) <Br>
+**[[Project](https://mind-the-pad.github.io/)]** <Br>
+
 #### Position Encode ★☆	
-**[Paper]** (ICLR 2020) How much Position Information Do Convolutional Neural Networks Encode? (ICLR 2020) <Br>
+**[Paper]** (ICLR 2020) How much Position Information Do Convolutional Neural Networks Encode?  <Br>
 **[Author]** [Md Amirul Islam](https://www.cs.ryerson.ca/~amirul/), [Matthew Kowal](https://mkowal2.github.io/), [Konstantinos G. Derpanis](https://www.cs.ryerson.ca/~kosta/), [Neil Bruce](http://socs.uoguelph.ca/~brucen/) <Br>
 提出CNN能够利用zero pad编码绝对位置信息, 位置信息对于提高分割解析的精度有帮助 
+
+#### *Translation Invariance in CNNs* ★	
+**[Paper]** (CVPR 2020) On Translation Invariance in CNNs: Convolutional Layers can Exploit Absolute Spatial Location <Br>
+**[Author]** [Osman Semih Kayhan](https://oskyhn.github.io/), [Jan van Gemert](http://jvgemert.github.io/index.html) <Br>
+**[[Pytorch-Code](https://github.com/oskyhn/CNNs-Without-Borders)]** <Br>
 
 #### Invertible Image Rescaling ★★
 **[Paper]** (ECCV 2020) Invertible Image Rescaling <Br>
 **[Author]** Mingqing Xiao, Shuxin Zheng, [Chang Liu](https://changliu00.github.io/), Yaolong Wang, Di He, Guolin Ke, Jiang Bian, [Zhouchen Lin](https://zhouchenlin.github.io/), [Tie-Yan Liu](https://www.microsoft.com/en-us/research/people/tyliu/?from=http%3A%2F%2Fresearch.microsoft.com%2Fusers%2Ftyliu)<Br>
 **[[Pytorch-Code](https://github.com/pkuxmq/Invertible-Image-Rescaling)]** <Br>	
 提出一个基于小波和可逆神经网络(INN)的图像降采样恢复方法. 
-	
+
+#### xUnit ★
+**[Paper]** (CVPR 2018 Spotlight) xUnit: Learning a Spatial Activation Function for Efficient Image Restoration <Br>
+**[Author]** [Idan Kligvasser](https://scholar.google.co.il/citations?user=a-r4CdYAAAAJ&hl=en), [Tamar Rott Shaham](https://tamarott.github.io/), [Tomer Michaeli](https://tomer.net.technion.ac.il/)  <Br>
+**[[Pytorch-Code](https://github.com/kligvasser/xUnit)]** <Br>	
+**(新模块)** 提出了一个根据图像自适应的激活操作, 有点类似attention
+
 #### CIE XYZ Net ★
 **[Paper]** (arXiv 2006) CIE XYZ Net: Unprocessing Images for Low-Level Computer Vision Tasks <Br>
 **[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi), [Abdelrahman Abdelhamed](https://www.eecs.yorku.ca/~kamel/), [Abdullah Abuolaim](https://sites.google.com/view/abdullah-abuolaim/), [Abhijith Punnappurath](https://abhijithpunnappurath.github.io/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)<Br>
@@ -104,7 +120,7 @@
 
 
 
-## General Traditional Methods
+# General Traditional Methods
 #### Misalignment-Robust Joint Filter ★☆
 **[Paper]** (ICCV 2017) Misalignment-Robust Joint Filter for Cross-Modal Image Pairs <Br>
 **[Author]**  Takashi Shibata, [Masayuki Tanaka](http://www.ok.sc.e.titech.ac.jp/~mtanaka/publication2017.html), [Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html) <Br>
@@ -166,7 +182,7 @@ Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的
 
 
 
-## Image Processing on Device
+# Image Processing on Device
 #### SESR ★☆
 **[Paper]** (arXiv 2103) Collapsible Linear Blocks for Super-Efficient Super Resolution <Br>
 **[Author]** Kartikeya Bhardwaj, Milos Milosavljevic, Alex Chalfin, Naveen Suda, Liam O'Neil, Dibakar Gope, Lingchuan Meng, Ramon Matas, Danny Loh <Br>
@@ -186,7 +202,7 @@ Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的
 
 
 
-## Image Quality Evaluators
+# Image Quality Evaluators
 #### PSNR 
 **[[Wiki](https://www.mathworks.com/help/vision/ref/psnr.html)]**  <Br>
 图像质量评价常用指标, 取决于MSE, 对真实视觉效果指向性不太强
