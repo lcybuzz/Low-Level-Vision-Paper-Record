@@ -15,7 +15,6 @@
 - <a href='Misc.md'> Misc </a>
 - <a href='Dehazing.md'> Dehazing </a>
 - <a href='Debluring.md'> Debluring </a>
-- <a href='Fusion.md'> Fusion (Archived) </a>
 - [Dataset](#dataset)
 - [Useful Resources](#useful-resources)
 
