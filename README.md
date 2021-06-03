@@ -14,7 +14,6 @@
 - <a href='FewShot.md'> Few Shot</a>
 - <a href='Misc.md'> Misc </a>
 - <a href='VideoRelated.md'> Video Related </a>
-
 - [Dataset](#dataset)
 - [Useful Resources](#useful-resources)
 
