@@ -1,7 +1,7 @@
 # Table of Contents
 - [Image Enhancement](#image-enhancement)
 - [Low-light Image Enhancement](#low-light-image-enhancement)
-- [Useful Resources](#useful-resources)
+
 
 
 # Image Enhancement
@@ -309,9 +309,3 @@ UNet + cycGAN, 无需paired样本的图像增强方法, 可以参考, 只是代�
 	
 
 
-
-
-# Useful Resources
-[[各种对比度增强算法代码 Matlab](https://github.com/baidut/OpenCE)]
-
-[[一些基于C++的对比度增强算法实现](https://github.com/dengyueyun666/Image-Contrast-Enhancement)]
