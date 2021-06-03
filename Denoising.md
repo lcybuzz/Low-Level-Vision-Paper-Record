@@ -1,11 +1,11 @@
 
 # Denoising
-- [DL Denoising](#dl-denoising)
+- [Image Denoising](#image-denoising)
 - [Raw Denoising](#raw-denoising)
 - [Burst Denoising](#burst-denoising)
-- [Video Denoising](#video-denoising)
 
-## DL Denoising
+
+## Image Denoising
 ##### Invertible Image Denoising
 **[Paper]** (CVPR 2021) Invertible Denoising Network: A Light Solution for Real Noise Removal <Br>
 **[Author]** Yang Liu, Zhenyue Qin, [Saeed Anwar](https://saeed-anwar.github.io/), [Pan Ji](https://sites.google.com/view/panji530), [Dongwoo Kim](http://dongwookim-ml.github.io/), [Sabrina Caldwell](https://thephotographicalist.wordpress.com/), [Tom Gedeon](http://users.cecs.anu.edu.au/~Tom.Gedeon/) <Br>
@@ -182,13 +182,4 @@
 	
 	
 	
-## Video Denoising
-##### FastDVDnet
-**[Paper]** (CVPR 2020) FastDVDnet: A Very Fast Deep Video Denoising algorithm <Br>
-**[Author]**  Matias Tassano, Julie Delon, Thomas Veit<Br>
-**[[Pytorch-Code](https://delon.wp.imt.fr/)]**  <Br>	
 
-##### RViDeNet
-**[Paper]** (CVPR 2020) Supervised Raw Video Denoising With a Benchmark Dataset on Dynamic Scenes <Br>
-**[Author]**  Huanjing Yue, Cong Cao, Lei Liao, Ronghe Chu, Jingyu Yang<Br>
-**[[Pytorch-Code](https://github.com/cao-cong/RViDeNet)]**  <Br>	
