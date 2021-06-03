@@ -1,6 +1,6 @@
 # Table of Contents
 - [Image Super Resolution](#super-resolution)
-- [Video Super Resolution](#video-super-resolution)
+
 
 #  Image Super Resolution
 ### GhostSR ★☆
@@ -236,7 +236,6 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 **[Author]** Xiaotong Luo, Yuan Xie, [Yulun Zhang](http://yulunzhang.com/), [Yanyun Qu](http://quyanyun.xmu.edu.cn/), Cuihua Li, Yun Fu  <Br>
 (**轻量级超分**)
 	
-	
 ### LAPAR
 **[Paper]** (NIPS 2020) Linearly-Assembled Pixel-Adaptive Regression Network for Single Image Super-resolution and Beyond <Br>
 **[Author]** Wenbo Li, Kun Zhou, [Lu Qi](http://luqi.info/), Nianjuan Jiang, Jiangbo Lu, [Jiaya Jia](https://jiaya.me/) <Br>
@@ -343,14 +342,11 @@ DL Zero shot超分较早的一篇, 使用LR内部patch将采样后作为训练�
 **[Author]** [Yulun Zhang](http://yulunzhang.com/), [Yapeng Tian](http://yapengtian.org/), [Yu Kong](http://www1.ece.neu.edu/~yukong/), [Bineng Zhong](https://scholar.google.de/citations?user=hvRBydsAAAAJ&hl=en), [Yun Fu](http://www1.ece.neu.edu/~yunfu/)  <Br>
 **[[Pytorch-Code](https://github.com/lizhengwei1992/ResidualDenseNetwork-Pytorch)]**  <Br>
 提出Residual Dense Block(RDB)
-	
-    
 
 ### SRGAN
 **[Paper]**  (CVPR 2017) Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network<Br>
 **[Author]** [Christian Ledig](http://www.christianledig.com/), [Lucas Theis](http://theis.io/), [Ferenc Huszar](https://www.inference.vc/about/), Jose Caballero, Andrew Cunningham, Alejandro Acosta, Andrew Aitken, [Alykhan Tejani](http://alykhantejani.github.io/), Johannes Totz, Zehan Wang, Wenzhe Shi <Br>
 **[[TF-Code](https://github.com/brade31919/SRGAN-tensorflow)]**  <Br>
-
 
 ### FSRCNN  ★☆
 **[Paper]**  (ECCV 2016) Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network <Br>
@@ -360,43 +356,5 @@ SRCNN的加速版本, 在小分辨率上处理，用deconv升分辨率.
 	
 
   
-
-
-
-
-# Video Super Resolution
-### MIMO-VRN
-**[Paper]**  (CVPR 2021) Video Rescaling Networks with Joint Optimization Strategies for Downscaling and Upscaling <Br>
-**[Author]**  [Yan-Cheng Huang](https://www.linkedin.com/in/hyancheng96),  [Yi-Hsin Chen](mailto:yhchen12101@gmail.com),  [Cheng-You Lu](https://johnnylu305.github.io), [Hui-Po Wang](https://a514514772.github.io), [Wen-Hsiao Peng](https://sites.google.com/g2.nctu.edu.tw/wpeng/cv), [Ching-Chun Huang](http://acm.cs.nctu.edu.tw/Home.aspx)   <Br>
-**[[Project](https://ding3820.github.io/MIMO-VRN/)]** **[[Pytorch-Code](https://github.com/ding3820/MIMO-VRN)]** <Br>
-
-### BasicVSR
-**[Paper]**  (CVPR 2021) BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond <Br>
-**[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ke Yu](https://yuke93.github.io/), [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ&hl=zh-CN), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
-**[[Project](https://ckkelvinchan.github.io/projects/BasicVSR/)]** **[[Pytorch-Code](https://github.com/ckkelvinchan/BasicVSR-IconVSR)]** <Br>
-
-### TMNet
-**[Paper]**  (CVPR 2021) Temporal Modulation Network for Controllable Space-Time Video Super-Resolution <Br>
-**[Author]** Gang Xu, [Jun Xu](https://csjunxu.github.io/), Zhen Li, Liang Wang, [Xing Sun](https://www.sunxing.org/), [Mingming Cheng](http://mmcheng.net/cmm/) <Br>
-**[[Pytorch-Code](https://github.com/CS-GangXu/TMNet)]** <Br>
-
-### STARnet
-**[Paper]**  (CVPR 2020) Space-Time-Aware Multi-Resolution Video Enhancement <Br>
-**[Author]** [Muhammad Haris](https://alterzero.github.io/), [Greg Shakhnarovich](https://ttic.uchicago.edu/~gregory/), [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/)<Br>
-**[[Pytorch-Code](https://github.com/alterzero/STARnet)]** <Br>
-	
-### DeepTemporalSR
-**[Paper]**  (ECCV 2020) Across Scales & Across Dimensions: Temporal Super-Resolution using Deep Internal Learning <Br>
-**[Author]** Liad Pollak Zuckerman, Eyal Naor, George Pisha, [Shai Bagon](https://www.weizmann.ac.il/math/bagon/), Michal Irani <Br>
-**[[Project](http://www.wisdom.weizmann.ac.il/~vision/DeepTemporalSR/)]**  **[[Pytorch-Code](https://github.com/eyalnaor/DeepTemporalSR)]** <Br>	
-
-### MuCAN
-**[Paper]**  (ECCV 2020) MuCAN: Multi-Correspondence Aggregation Network for Video Super-Resolution <Br>
-**[Author]** Wenbo Li, [Xin Tao](http://www.xtao.website/), Taian Guo, [Lu Qi](http://luqi.info/), Jiangbo Lu, [Jiaya Jia](http://jiaya.me/) <Br>
-
-### RSDN
-**[Paper]**  (ECCV 2020) Video Super-Resolution with Recurrent Structure-Detail Network <Br>
-**[Author]** Takashi Isobe, [Xu Jia](https://stephenjia.github.io/), [Shuhang Gu](https://sites.google.com/site/shuhanggu/), Songjiang Li, Shengjin Wang, Qi Tian<Br>
-
 
 
