@@ -7,9 +7,10 @@ ISP及其内部模块相关论文
 **[Author]** [Yazhou Xing](https://yzxing87.github.io/), Zian Qian, [Qifeng Chen](https://cqf.io/) <Br>
 **[[Project](https://yzxing87.github.io/InvISP/index.html)]**, **[[Pytorch-Code](https://github.com/yzxing87/Invertible-ISP)]** <Br>
   
-### *Neural Camera Simulators*
+### Neural Camera Simulators ★
 **[Paper]**  (CVPR 2021) Neural Camera Simulators <Br>
 **[Author]** Hao Ouyang, Zifan Shi, [Chenyang Lei](https://chenyanglei.github.io/), Ka Lung Law, [Qifeng Chen](https://cqf.io/) <Br>
+提出了一个controllable raw图像生成流程, 通过控制曝光时间, ISO, 噪声level和aperture, 控制生成图像的亮度, blur, 噪声等属性
 
 ### PyNet ★
 **[Paper]** (CVPR 2020) Replacing Mobile Camera ISP with a Single Deep Learning Model <Br>
