@@ -253,3 +253,8 @@
 **[Paper]**  (CVPR 2021 Oral) Rethinking and Improving the Robustness of Image Style Transfer <Br>
 **[Author]** [Pei Wang](http://www.svcl.ucsd.edu/~peiwang), [Yijun Li](https://yijunmaverick.github.io/), [Nuno Vasconcelos](http://www.svcl.ucsd.edu/~nuno) <Br>
 **[[Pytorch-Code](https://github.com/peiwang062/swag)]**  <Br>
+
+#### *Bilateral Style Transfer* ★★
+**[Paper]**  (ECCV 2020) Joint Bilateral Learning for Real-time Universal Photorealistic Style Transfer  <Br>
+**[Author]** [Xide Xia](https://xidexia.github.io/), Meng Zhang, [Tianfan Xue](http://people.csail.mit.edu/tfxue/), Zheng Sun, Hui Fang, [Brian Kulis](http://people.bu.edu/bkulis/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/) <Br>
+基于HDRNet的实时风格迁移, 创新点尽管不是很多, 但是工作很有价值
