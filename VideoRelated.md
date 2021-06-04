@@ -43,7 +43,12 @@
 **[Paper]**  (ECCV 2020) Video Super-Resolution with Recurrent Structure-Detail Network <Br>
 **[Author]** Takashi Isobe, [Xu Jia](https://stephenjia.github.io/), [Shuhang Gu](https://sites.google.com/site/shuhanggu/), Songjiang Li, Shengjin Wang, Qi Tian<Br>
 
-
+### RBPN ★☆
+**[Paper]**  (ECCV 2020) Video Super-Resolution with Recurrent Structure-Detail Network <Br>
+**[Author]** [Muhammad Haris](https://alterzero.github.io/), [Greg Shakhnarovich](https://ttic.uchicago.edu/~gregory/), [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/) <Br>
+**[[Project](https://alterzero.github.io/projects/RBPN.html)]**  **[[Pytorch-Code](https://github.com/alterzero/RBPN-PyTorch)]** <Br>
+视频超分, 使用DBPN中的back-projection结构利用前n帧信息完成对当前帧的空间超分.
+	
 
 
 
