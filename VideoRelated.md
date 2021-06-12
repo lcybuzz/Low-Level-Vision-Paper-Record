@@ -9,6 +9,17 @@
 
 
 # Video Super Resolution
+#### FLAVR
+**[Paper]**  (CVPR 2021) FLAVR: Flow-Agnostic Video Representations for Fast Frame Interpolation <Br>
+**[Author]** [Tarun Kalluri](https://tarun005.github.io/), [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), [Manmohan Chandraker](http://cseweb.ucsd.edu/~mkchandraker/), [Du Tran](https://dutran.github.io/)    <Br>
+**[[Project](https://tarun005.github.io/FLAVR/)]** **[[Pytorch-Code](https://github.com/tarun005/FLAVR)]** <Br>
+
+#### AnimeInterp
+**[Paper]**  (CVPR 2021) Deep Animation Video Interpolation in the Wild <Br>
+**[Author]** Li Siyao, Shiyu Zhao, Weijiang Yu, Wenxiu Sun, [Dimitris N. Metaxas](https://www.cs.rutgers.edu/~dnm/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Ziwei Liu](https://liuziwei7.github.io/)    <Br>
+**[[Pytorch-Code](https://github.com/lisiyao21/AnimeInterp/)]** <Br>
+
+
 #### MIMO-VRN
 **[Paper]**  (CVPR 2021) Video Rescaling Networks with Joint Optimization Strategies for Downscaling and Upscaling <Br>
 **[Author]**  [Yan-Cheng Huang](https://www.linkedin.com/in/hyancheng96),  [Yi-Hsin Chen](mailto:yhchen12101@gmail.com),  [Cheng-You Lu](https://johnnylu305.github.io), [Hui-Po Wang](https://a514514772.github.io), [Wen-Hsiao Peng](https://sites.google.com/g2.nctu.edu.tw/wpeng/cv), [Ching-Chun Huang](http://acm.cs.nctu.edu.tw/Home.aspx)   <Br>
