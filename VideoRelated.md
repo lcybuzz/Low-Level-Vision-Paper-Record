@@ -10,6 +10,11 @@
 
 
 # Video Super Resolution
+#### XVFI
+**[Paper]**  (arXiv 2103) XVFI: eXtreme Video Frame Interpolation <Br>
+**[Author]** Hyeonjun Sim, [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), Munchurl Kim <Br>
+**[[Pytorch-Code](https://github.com/JihyongOh/XVFI)]** <Br>
+
 #### FLAVR
 **[Paper]**  (CVPR 2021) FLAVR: Flow-Agnostic Video Representations for Fast Frame Interpolation <Br>
 **[Author]** [Tarun Kalluri](https://tarun005.github.io/), [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), [Manmohan Chandraker](http://cseweb.ucsd.edu/~mkchandraker/), [Du Tran](https://dutran.github.io/)    <Br>
@@ -36,11 +41,36 @@
 **[Author]** Gang Xu, [Jun Xu](https://csjunxu.github.io/), Zhen Li, Liang Wang, [Xing Sun](https://www.sunxing.org/), [Mingming Cheng](http://mmcheng.net/cmm/) <Br>
 **[[Pytorch-Code](https://github.com/CS-GangXu/TMNet)]** <Br>
 
+#### RIFE
+**[Paper]**  (arXiv 2011) RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation <Br>
+**[Author]** [Zhewei Huang](https://github.com/hzwer), [Tianyuan Zhang](http://tianyuanzhang.com/), Wen Heng, [Boxin Shi](http://ci.idm.pku.edu.cn/), [Shuchang Zhou](https://zsc.github.io/) <Br>
+**[[Pytorch-Code](https://github.com/hzwer/arXiv2020-RIFE)]** **[[Software](https://github.com/YiWeiHuang-stack/Squirrel-RIFE)]** <Br>
+
+#### FISR
+**[Paper]**  (AAAI 2020) FISR: Deep Joint Frame Interpolation and Super-Resolution with A Multi-scale Temporal Loss <Br>
+**[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim),[Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/) <Br>
+**[[TF-Code](https://github.com/JihyongOh/FISR)]** <Br>
+
+#### CAIN
+**[Paper]**  (AAAI 2020) Channel Attention Is All You Need for Video Frame Interpolation <Br>
+**[Author]** [Myungsub Choi](https://myungsub.github.io/), Heewon Kim, [Bohyung Han](https://cv.snu.ac.kr/index.php/~bhhan/), Ning Xu, [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
+**[[Project](https://myungsub.github.io/CAIN/)]** **[[Pytorch-Code](https://github.com/myungsub/CAIN)]** <Br>
+
 #### STARnet ★★
 **[Paper]**  (CVPR 2020) Space-Time-Aware Multi-Resolution Video Enhancement <Br>
 **[Author]** [Muhammad Haris](https://alterzero.github.io/), [Greg Shakhnarovich](https://ttic.uchicago.edu/~gregory/), [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/)<Br>
 **[[Project](https://alterzero.github.io/projects/STAR.html)]** **[[Pytorch-Code](https://github.com/alterzero/STARnet)]** <Br>
 时空联合超分
+
+#### Meta Interpolation
+**[Paper]** (CVPR 2020) Scene-Adaptive Video Frame Interpolation via Meta-Learning <Br>
+**[Author]**  [Myungsub Choi](https://myungsub.github.io/), Janghoon Choi, [Sungyong Baik](https://baiksung.github.io/), [Tae Hyun Kim](https://sites.google.com/site/lliger9/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
+**[[Project](https://myungsub.github.io/meta-interpolation/)]** **[[Pytorch-Code](https://github.com/myungsub/meta-interpolation)]** <Br>
+
+#### Zooming-Slow-Mo
+**[Paper]** (CVPR 2020) Fast and Accurate One-Stage Space-Time Video Super-Resolution <Br>
+**[Author]**  [Xiaoyu Xiang](https://engineering.purdue.edu/people/xiaoyu.xiang.1), [Yapeng Tian](http://yapengtian.org/), [Yulun Zhang](http://yulunzhang.com/), [Yun Fu](http://www1.ece.neu.edu/~yunfu/), [Jan P. Allebach](https://engineering.purdue.edu/~allebach/), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/) <Br>
+**[[Pytorch-Code](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020)]** <Br>
 
 #### BIN
 **[Paper]** (CVPR 2020 Oral) Blurry Video Frame Interpolation <Br>
@@ -65,7 +95,12 @@
 **[Author]** [Muhammad Haris](https://alterzero.github.io/), [Greg Shakhnarovich](https://ttic.uchicago.edu/~gregory/), [Norimichi Ukita](https://www.toyota-ti.ac.jp/Lab/Denshi/iim/ukita/) <Br>
 **[[Project](https://alterzero.github.io/projects/RBPN.html)]**  **[[Pytorch-Code](https://github.com/alterzero/RBPN-PyTorch)]** <Br>
 视频超分, 使用DBPN中的back-projection结构利用前n帧信息完成对当前帧的空间超分.
-	
+
+#### Deep-SloMo
+**[Paper]**  (TPAMI 2020) Deep Slow Motion Video Reconstruction with Hybrid Imaging System <Br>
+**[Author]** [Avinash Paliwal](http://people.tamu.edu/~avinashpaliwal/), [Nima Kalantari](https://people.engr.tamu.edu/nimak/index.html) <Br>
+**[[Project](https://people.engr.tamu.edu/nimak/Papers/ICCP2020_Slomo/index.html)]** **[[Pytorch-Code](https://github.com/avinashpaliwal/Deep-SloMo)]** <Br>
+
 #### DAIN ★★☆
 **[Paper]**  (CVPR 2019) Depth-Aware Video Frame Interpolation <Br>
 **[Author]** [Wenbo Bao](https://sites.google.com/view/wenbobao/home), [Wei-Sheng Lai](http://graduatestudents.ucmerced.edu/wlai24/), [Chao Ma](https://vision.sjtu.edu.cn/), Xiaoyun Zhang, Zhiyong Gao, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)  <Br>
@@ -154,7 +189,7 @@
 
 
 # Video Inpainting
-#### *Short-Term and Long-Term Context Aggregation Network for Video Inpainting*
+#### Short-Term and Long-Term Context Aggregation Network for Video Inpainting
 **[Paper]** (ECCV 2020) Short-Term and Long-Term Context Aggregation Network for Video Inpainting <Br>
 **[Author]** [Ang Li](https://angliunimelb.github.io/), [Shanshan Zhao](https://sshan-zhao.github.io/), [Xingjun Ma](http://xingjunma.com/), [Mingming Gong](https://mingming-gong.github.io/), [Jianzhong Qi](https://people.eng.unimelb.edu.au/jianzhongq/), [Rui Zhang](http://www.ruizhang.info/), [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html), [Ramamohanarao Kotagirig](http://www.cloudbus.org/rao/) <Br>
 
@@ -180,3 +215,8 @@
 
 # Useful Resources
 **[[SimDeblur]](https://github.com/ljzycmd/SimDeblur)]** 多个deep-learning based图像和视频去模糊Pytorch代码实现
+
+**[[VideoSuperResolution]](https://github.com/LoSealL/VideoSuperResolution)]** A collection of state-of-the-art video or single-image super-resolution architectures, reimplemented in TF
+
+**[[Waifu2x-Extension-GUI]](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)]** Image & GIF & Video Super-Resolution and Video Frame Interpolation using DNNs
+
