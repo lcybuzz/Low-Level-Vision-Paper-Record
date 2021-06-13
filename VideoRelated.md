@@ -137,7 +137,7 @@
 
 #### STFAN
 **[Paper]** (ICCV 2019) Spatio-Temporal Filter Adaptive Network for Video Deblurring <Br>
-**[Author]** [Shangchen Zhou](https://shangchenzhou.com/), [Jiawei Zhang](https://sites.google.com/site/zhjw1988), [Jinshan Pan](https://jspan.github.io/), [Haozhe Xie](https://haozhexie.com/about）, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Jimmy Ren](http://www.jimmyren.com/) <Br>
+**[Author]** [Shangchen Zhou](https://shangchenzhou.com/), [Jiawei Zhang](https://sites.google.com/site/zhjw1988), [Jinshan Pan](https://jspan.github.io/), [Haozhe Xie](https://haozhexie.com/about), [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Jimmy Ren](http://www.jimmyren.com/) <Br>
 **[[Project](https://www.shangchenzhou.com/projects/stfan/)]**  **[[Pytorch-Code](https://github.com/sczhou/STFAN)]** <Br>
 
 
