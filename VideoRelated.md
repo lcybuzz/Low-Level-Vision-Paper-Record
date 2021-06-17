@@ -51,10 +51,11 @@
 **[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim),[Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/) <Br>
 **[[TF-Code](https://github.com/JihyongOh/FISR)]** <Br>
 
-#### CAIN
+#### CAIN ★★
 **[Paper]**  (AAAI 2020) Channel Attention Is All You Need for Video Frame Interpolation <Br>
 **[Author]** [Myungsub Choi](https://myungsub.github.io/), Heewon Kim, [Bohyung Han](https://cv.snu.ac.kr/index.php/~bhhan/), Ning Xu, [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
 **[[Project](https://myungsub.github.io/CAIN/)]** **[[Pytorch-Code](https://github.com/myungsub/CAIN)]** <Br>
+(插帧) 设计了一个pixelshuffle + attention residual block的网络, 无需光流估计和warp操作.
 
 #### STARnet ★★
 **[Paper]**  (CVPR 2020) Space-Time-Aware Multi-Resolution Video Enhancement <Br>
