@@ -45,6 +45,7 @@
 **[Paper]**  (arXiv 2011) RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation <Br>
 **[Author]** [Zhewei Huang](https://github.com/hzwer), [Tianyuan Zhang](http://tianyuanzhang.com/), Wen Heng, [Boxin Shi](http://ci.idm.pku.edu.cn/), [Shuchang Zhou](https://zsc.github.io/) <Br>
 **[[Pytorch-Code](https://github.com/hzwer/arXiv2020-RIFE)]** **[[Software](https://github.com/YiWeiHuang-stack/Squirrel-RIFE)]** <Br>
+使用一个coarse-to-fine的网络IFNet预测f1,f2到t时刻的光流, 融合部分使用网络预测fusion map和residual. 为更好训练光流, 使用leakage distillation的方法, 先用一训练好的大网络预测中间光流的值.
 
 #### FISR
 **[Paper]**  (AAAI 2020) FISR: Deep Joint Frame Interpolation and Super-Resolution with A Multi-scale Temporal Loss <Br>
