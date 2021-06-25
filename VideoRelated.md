@@ -41,7 +41,7 @@
 **[Author]** Gang Xu, [Jun Xu](https://csjunxu.github.io/), Zhen Li, Liang Wang, [Xing Sun](https://www.sunxing.org/), [Mingming Cheng](http://mmcheng.net/cmm/) <Br>
 **[[Pytorch-Code](https://github.com/CS-GangXu/TMNet)]** <Br>
 
-#### RIFE
+#### RIFE ★★
 **[Paper]**  (arXiv 2011) RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation <Br>
 **[Author]** [Zhewei Huang](https://github.com/hzwer), [Tianyuan Zhang](http://tianyuanzhang.com/), Wen Heng, [Boxin Shi](http://ci.idm.pku.edu.cn/), [Shuchang Zhou](https://zsc.github.io/) <Br>
 **[[Pytorch-Code](https://github.com/hzwer/arXiv2020-RIFE)]** **[[Software](https://github.com/YiWeiHuang-stack/Squirrel-RIFE)]** <Br>
