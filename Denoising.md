@@ -16,10 +16,11 @@
 **[Author]** [Zhihao Xia](https://www.cse.wustl.edu/~zhihao.xia/), Michaël Gharbi, [Federico Perazzi](https://fperazzi.github.io/), [Kalyan Sunkavalli](https://www.kalyans.org/), [Ayan Chakrabarti](https://projects.ayanc.org/) <Br>
 **[[Pytorch-Code](https://www.cse.wustl.edu/~zhihao.xia/deepfnf/)]**  <Br>
 
-##### NBNet
+##### NBNet ★
 **[Paper]** (CVPR 2021) NBNet: Noise Basis Learning for Image Denoising with Subspace Projection <Br>
 **[Author]** Shen Cheng, [Yuzhi Wang](https://bigeagle.me/about/), [Haibin Huang](https://brotherhuang.github.io/), Donghao Liu, Haoqiang Fan, [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
 **[[Code](https://github.com/megvii-research/NBNet)]**  <Br>
+UNet结构, 利用decoder产生的高层特征预测basis及投影矩阵, 用于将低层特征投影已达到降噪目的.
 
 ##### Neighbor2Neighbor
 **[Paper]** (CVPR 2021) Neighbor2Neighbor: Self-Supervised Denoising from Single Noisy Images <Br>
