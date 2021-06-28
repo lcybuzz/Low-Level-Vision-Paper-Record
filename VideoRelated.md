@@ -109,10 +109,11 @@
 **[[Project](https://sites.google.com/view/wenbobao/dain)]**  **[[Pytorch-Code](https://github.com/baowenbo/DAIN)]** <Br>
 视频插帧, 利用光流和深度信息生成两帧间任意时刻的图像
 
-#### Super SloM
+#### Super SloMo ★☆
 **[Paper]**  (CVPR 2018) Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation <Br>
 **[Author]** [Huaizu Jiang](http://jianghz.me/), [Deqing Sun](https://deqings.github.io/), [Varun Jampani](https://varunjampani.github.io/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Erik Learned-Miller](https://people.cs.umass.edu/~elm/), [Jan Kautz](https://jankautz.com/)  <Br>
 **[[Project](https://github.com/avinashpaliwal/Super-SloMo)]**  **[[Pytorch-Code](http://jianghz.me/projects/superslomo/)]** <Br>
+视频插帧. 首先预测双向光流, 接下来在每个要插值的时刻t, 用一个网络refine光流并预测visibility map, 最后根据光流和visibility map插值生成t时刻图像.
 	
 
 	
