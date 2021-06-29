@@ -10,10 +10,11 @@
 
 
 # Video Super Resolution
-#### XVFI
+#### XVFI ★★
 **[Paper]**  (arXiv 2103) XVFI: eXtreme Video Frame Interpolation <Br>
 **[Author]** Hyeonjun Sim, [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), Munchurl Kim <Br>
 **[[Pytorch-Code](https://github.com/JihyongOh/XVFI)]** <Br>
+1. 提出了一个4K, 1000fps的插帧数据集; 2. 提出一个共享参数的多尺度插帧网络, 通过调整预测的scale级数, 处理不同分辨率和偏移.
 
 #### FLAVR
 **[Paper]**  (CVPR 2021) FLAVR: Flow-Agnostic Video Representations for Fast Frame Interpolation <Br>
