@@ -16,10 +16,11 @@
 **[[Pytorch-Code](https://github.com/JihyongOh/XVFI)]** <Br>
 1. 提出了一个4K, 1000fps的插帧数据集; 2. 提出一个共享参数的多尺度插帧网络, 通过调整预测的scale级数, 处理不同分辨率和偏移.
 
-#### FLAVR
+#### FLAVR ★★
 **[Paper]**  (CVPR 2021) FLAVR: Flow-Agnostic Video Representations for Fast Frame Interpolation <Br>
 **[Author]** [Tarun Kalluri](https://tarun005.github.io/), [Deepak Pathak](https://www.cs.cmu.edu/~dpathak/), [Manmohan Chandraker](http://cseweb.ucsd.edu/~mkchandraker/), [Du Tran](https://dutran.github.io/)    <Br>
 **[[Project](https://tarun005.github.io/FLAVR/)]** **[[Pytorch-Code](https://github.com/tarun005/FLAVR)]** <Br>
+首次提出用3D卷积做视频插帧, 结构为UNet, 输入为前后四帧, 输出为需要插的k-1帧
 
 #### AnimeInterp
 **[Paper]**  (CVPR 2021) Deep Animation Video Interpolation in the Wild <Br>
