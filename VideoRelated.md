@@ -66,6 +66,12 @@
 **[[Project](https://alterzero.github.io/projects/STAR.html)]** **[[Pytorch-Code](https://github.com/alterzero/STARnet)]** <Br>
 时空联合超分
 
+#### SoftSplat ★☆
+**[Paper]** (CVPR 2020) Softmax Splatting for Video Frame Interpolation <Br>
+**[Author]**  [Simon Niklaus](http://sniklaus.com/welcome), [Feng Liu](http://web.cecs.pdx.edu/~fliu/) <Br>
+**[[Pytorch-Code](https://github.com/sniklaus/softmax-splatting)]** <Br>
+使用前向光流warp的插帧, 大致浏览, 效果不错. 主要创新点为使用I0和I1_warp的亮度一致性作为权重Z, 并用一网络refine Z, 最后在融合时使用exp保证了尺度不变性(此处是从深度图作为Z来论述的).
+
 #### Meta Interpolation
 **[Paper]** (CVPR 2020) Scene-Adaptive Video Frame Interpolation via Meta-Learning <Br>
 **[Author]**  [Myungsub Choi](https://myungsub.github.io/), Janghoon Choi, [Sungyong Baik](https://baiksung.github.io/), [Tae Hyun Kim](https://sites.google.com/site/lliger9/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
