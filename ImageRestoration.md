@@ -10,7 +10,7 @@
 
 
 # Image Restoration
-#### *Dual Pixel Exploration*
+#### Dual Pixel Exploration
 **[Paper]** (CVPR 2021 Oral) Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration  <Br>
 **[Author]**  Liyuan Pan, Shah Chowdhury, [Richard Hartley](http://users.cecs.anu.edu.au/~hartley/), [Miaomiao Liu](http://users.cecs.anu.edu.au/~mliu/), [Hongguang Zhang](https://hongguangzhang.github.io/), [Hongdong Li](https://cecs.anu.edu.au/~hongdong) <Br>
 **[[Code](https://github.com/panpanfei/Dual-Pixel-Exploration-Simultaneous-Depth-Estimation-and-Image-Restoration)]** <Br>
@@ -21,7 +21,7 @@
 **[[Project](https://jnjaby.github.io/projects/UDC/)]** **[[Pytorch-Code](https://github.com/jnjaby/DISCNet)]** <Br>
 (**UDC图像修复**) 使用中兴UDC相机, 模拟Point Spread Function(PSF), 并生成数据集. 网络使用动态卷积, 并加入PSF kernel, 为模型提供先验信息. 
 
-#### *Image Restoration for Under-Display Camera*
+#### Image Restoration for UDC
 **[Paper]** (CVPR 2021) Image Restoration for Under-Display Camera   <Br>
 **[Author]** [Yuqian Zhou](https://yzhouas.github.io/), David Ren, [Neil Emerton](https://www.microsoft.com/applied-sciences/people/neil-emerton), [Sehoon Lim](https://www.microsoft.com/applied-sciences/people/sehoon-lim), [Timothy Large](https://www.microsoft.com/applied-sciences/people/tim-large) <Br>
 **[[Project](https://yzhouas.github.io/projects/UDC/udc.html)]** <Br>
@@ -38,7 +38,7 @@
 **[[Pytorch-Code](https://github.com/XingangPan/deep-generative-prior)]** <Br>
 提出用预训练的GAN作为先验, 无需在特定任务上finetune, 即可实现超分, 上色等图像恢复任务和图像变形，类别转换等图像编辑功能. 论文主要是在一般GAN inversion的基础上, 提出同时优化隐向量z和生成网络参数, 达到了更好更自然的效果.
 
-#### *Stacking Networks Dynamically for Image Restoration Based on the Plug-and-Play Framework*
+#### Stacking Networks Dynamically for Image Restoration
 **[Paper]** (ECCV 2020) Stacking Networks Dynamically for Image Restoration Based on the Plug-and-Play Framework <Br>
 **[Author]** Haixin Wang, Tianhao Zhang, Muzhi Yu, Jinan Sun, Wei Ye, Chen Wang, Shikun Zhang <Br>	
 
@@ -67,7 +67,7 @@
 **[Author]** Bruno Lecouat, [Jean Ponce](https://www.di.ens.fr/~ponce/), [Julien Mairal](http://thoth.inrialpes.fr/people/mairal/) <Br>
 **[[Pytorch-Code](https://github.com/bruno-31/groupsc)]** <Br>
 
-#### *Learning Disentangled Feature Representation for Hybrid-distorted Image Restoration* ★
+#### Learning Disentangled Feature Representation ★
 **[Paper]** (ECCV 2020) Learning Disentangled Feature Representation for Hybrid-distorted Image Restoration <Br>
 **[Author]** Xin Li, Xin Jin, [Jianxin Lin](http://home.ustc.edu.cn/~linjx/), Tao Yu, Sen Liu, Yaojun Wu, Wei Zhou, [Zhibo Chen](http://staff.ustc.edu.cn/~chenzhibo/)  <Br>
 **(处理多种退化)** 大致浏览, 通过gain-control-based normalization学习解耦特征, 并据此设计了几个模块, 处理多种退化混合问题. 文中使用了spectral value dierence orthogonality regularization作为一个loss, 促使feature map直接学到不相关的信息.
@@ -130,7 +130,7 @@
 
 
 # Image Dehazing
-#### *Dehazing via Multi-Guided Bilateral Learning*
+#### Dehazing via Multi-Guided Bilateral Learning
 **[Paper]** (CVPR 2021) Ultra-High-Definition Image Dehazing via Multi-Guided Bilateral Learning <Br>
 **[Author]** Zhuoran Zheng, [Wenqi Ren](https://sites.google.com/site/renwenqi888/home), [Xiaochun Cao](http://people.ucas.ac.cn/~0022382?language=en), Xiaobin Hu, Tao Wang, Fenglong Song, Xiuyi Jia <Br>
 
@@ -139,7 +139,7 @@
 **[Author]** Haiyan Wu, [Yanyun Qu](https://quyanyun.xmu.edu.cn/), [Shaohui Lin](https://sites.google.com/site/shaohuilin007/home) <Br>
 **[[Pytorch-Code](https://github.com/GlassyWu/AECR-Net)]**  <Br>
 
-#### *Physics-based Feature Dehazing*
+#### Physics-based Feature Dehazing
 **[Paper]**  (ECCV 2020)  Physics-based Feature Dehazing Networks  <Br>
 **[Author]**  Jiangxin Dong, [Jinshan Pan](https://jspan.github.io/) <Br>
 **[[Project](https://jspan.github.io/)]**  <Br>
@@ -198,7 +198,7 @@
 
 
 # Image Debluring	
-#### *blur-kernel-space-exploring* 
+#### blur-kernel-space-exploring
 **[Paper]** (CVPR 2021) Explore Image Deblurring via Encoded Blur Kernel Space <Br>
 **[Author]** P.Tran, A.Tran, Q.Phung, [M. Hoai](https://www3.cs.stonybrook.edu/~minhhoai/)    <Br>
 **[[Pytorch-Code](https://github.com/VinAIResearch/blur-kernel-space-exploring)]** 
@@ -213,35 +213,35 @@
 **[Author]** [Denys Rozumnyi](http://people.inf.ethz.ch/denysr/), [Martin R. Oswald](http://people.inf.ethz.ch/moswald/), [Vittorio Ferrari](https://sites.google.com/view/vittoferrari), [Jiri Matas](https://cmp.felk.cvut.cz/~matas/), [Marc Pollefeys](https://people.inf.ethz.ch/pomarc/)   <Br>
 **[[Pytorch-Code](https://github.com/rozumden/DeFMO)]** 
 
-#### *Non-blind Deblurring*
+#### Non-blind Deblurring
 **[Paper]** (CVPR 2021) Learning a Non-blind Deblurring Network for Night Blurry Images <Br>
 **[Author]** Liang Chen, [Jiawei Zhang](https://sites.google.com/site/zhjw1988), [Jinshan Pan](https://jspan.github.io/), Songnan Lin, Faming Fang, [Jimmy Ren](http://www.jimmyren.com/)    <Br>
 	
-#### *Deblurring by Realistic Blurring*
+#### Deblurring by Realistic Blurring
 **[Paper]** (CVPR 2020) Deblurring by Realistic Blurring <Br>
 **[Author]** [Kaihao Zhang](https://sites.google.com/view/kaihaozhang), [Wenhan Luo](https://sites.google.com/site/whluoimperial/), Yiran Zhong, [Lin Ma](http://forestlinma.com/), Bjorn Stenger, Wei Liu, [Hongdong Li](http://users.cecs.anu.edu.au/~hongdong/)<Br>
 
-#### *Event-Based Motion Deblurring*
+#### Event-Based Motion Deblurring
 **[Paper]** (CVPR 2020) Learning Event-Based Motion Deblurring <Br>
 **[Author]** Zhe Jiang, [Yu Zhang](https://zhangyulb.github.io/), Dongqing Zou, [Jimmy Ren](http://www.jimmyren.com/), Jiancheng Lv, Yebin Liu<Br>
 
-#### *Deblurring Using Spatially Variant Deconvolution*
+#### Deblurring Using Spatially Variant Deconvolution
 **[Paper]** (CVPR 2020) Efficient Dynamic Scene Deblurring Using Spatially Variant Deconvolution Network With Optical Flow Guided Training <Br>
 **[Author]** Yuan Yuan, Wei Su, Dandan Ma<Br>
 
-#### *Adaptive Motion Deblurring*
+#### Adaptive Motion Deblurring
 **[Paper]** (CVPR 2020) Spatially-Attentive Patch-Hierarchical Network for Adaptive Motion Deblurring <Br>
 **[Author]** Maitreya Suin, Kuldeep Purohit, A. N. Rajagopalan<Br>
 	
-#### *Variational-EM-Based Deblurring*
+#### Variational-EM-Based Deblurring
 **[Paper]** (CVPR 2020) Variational-EM-Based Deep Learning for Noise-Blind Image Deblurring <Br>
 **[Author]** Yuesong Nan, Yuhui Quan, Hui Ji<Br>
 	
-#### *Deblurring Using Analysis-Synthesis Networks Pair*
+#### Deblurring Using Analysis-Synthesis Networks Pair
 **[Paper]** (CVPR 2020) Deblurring Using Analysis-Synthesis Networks Pair<Br>
 **[Author]** Adam Kaufman, Raanan Fattal<Br>
 
-#### *Deep Learning for Handling Kernel/model Uncertainty in Image Deconvolution*
+#### Handling Kernel/model Uncertainty in Image Deconvolution
 **[Paper]** (CVPR 2020) Deep Learning for Handling Kernel/model Uncertainty in Image Deconvolution<Br>
 **[Author]** Yuesong Nan, Hui Ji<Br>
 	
@@ -315,21 +315,21 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 
 
 # Reflection Removal
-#### *Panoramic image reflection removal*
+#### Panoramic image reflection removal
 **[Paper]** (CVPR 2021) Panoramic image reflection removal  <Br>
 **[Author]** [Yuchen Hong](http://vcc.szu.edu.cn/index-2.html), [Qian Zheng](https://q-zh.github.io/), Lingran Zhao, [Xudong Jiang](https://personal.ntu.edu.sg/exdjiang/), Alex C. Kot, [Boxin Shi](http://ci.idm.pku.edu.cn/)  <Br>
 
-#### *Single image reflection removal with absorption effect*
+#### reflection removal with absorption effect
 **[Paper]** (CVPR 2021) Single image reflection removal with absorption effect  <Br>
 **[Author]** [Qian Zheng](https://q-zh.github.io/), [Boxin Shi](http://ci.idm.pku.edu.cn/), Jinnan Chen, [Xudong Jiang](https://personal.ntu.edu.sg/exdjiang/), Ling-Yu Duan, Alex C. Kot  <Br>
 **[[Pytorch-Code](https://github.com/q-zh/absorption)]** <Br>
 
-#### *Robust Reflection Removal with Reflection-free Flash-only Cues*
+#### Reflection Removal with Reflection-free Flash-only Cues
 **[Paper]** (CVPR 2021) Robust Reflection Removal with Reflection-free Flash-only Cues  <Br>
 **[Author]** [Chenyang Lei](https://chenyanglei.github.io/), [Qifeng Chen](https://cqf.io/)  <Br>
 **[[Project](https://chenyanglei.github.io/flashrr_rfc/index.html)]** **[[TF-Code](https://github.com/ChenyangLEI/flash-reflection-removal)]**<Br>
 
-#### *Reflection scene separation from a single image*
+#### Reflection scene separation from a single image
 **[Paper]** (CVPR 2020) Reflection scene separation from a single image  <Br>
 **[Author]** [Renjie Wan](https://wanrenjie.github.io/), [Boxin Shi](http://ci.idm.pku.edu.cn/), [Haoliang Li](https://hlli1991.github.io/), Ling-Yu Duan, Alex C. Kot  <Br>
 
@@ -344,7 +344,7 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 **[Author]** Chao Li, Yixiao Yang, Kun He, Stephen Lin, John E. Hopcroft  <Br>
 **[[Pytorch-Code](https://github.com/JHL-HUST/IBCLN)]** <Br>
 
-#### *Polarized Reflection Removal*
+#### Polarized Reflection Removal
 **[Paper]** (CVPR 2020) Polarized Reflection Removal with Perfect Alignment in the Wild  <Br>
 **[Author]** [Chenyang Lei](https://chenyanglei.github.io/), Xuhua Huang, Mengdi Zhang, Qiong Yan, Wenxiu Sun, [Qifeng Chen](https://cqf.io/)  <Br>
 **[[Project](https://chenyanglei.github.io/polar_rr/index.html)]**, **[[TF-Code](https://github.com/ChenyangLEI/polarization-reflection-removal)]**<Br>
@@ -354,12 +354,12 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 **[Author]** [Soomin Kim](https://sgvr.kaist.ac.kr/~smkim/), [Yuchi Huo](https://sgvr.kaist.ac.kr/~ychuo/), [Sung-Eui Yoon](https://sgvr.kaist.ac.kr/~sungeui/)  <Br>
 **[[Project](https://sgvr.kaist.ac.kr/~smkim/Reflection_removal_rendering/)]**, **[[TF-Code](https://github.com/sookim813/Reflection_removal_rendering)]**<Br>
 
-#### *Single Image Reflection Removal Beyond Linearity*
+#### Single Image Reflection Removal Beyond Linearity
 **[Paper]** (CVPR 2019) Single Image Reflection Removal Beyond Linearity <Br>
 **[Author]** Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He <Br>
 **[[Pytorch-Code](https://github.com/csqiangwen/Single-Image-Reflection-Removal-Beyond-Linearity)]**<Br>
 
-#### *Learning to jointly generate and separate reflections*
+#### Learning to jointly generate and separate reflections
 **[Paper]** (ICCV 2019) Learning to jointly generate and separate reflections  <Br>
 **[Author]** [Daiqian Ma](https://madaiqian.github.io/), [Renjie Wan](https://wanrenjie.github.io/, [Boxin Shi](http://ci.idm.pku.edu.cn/), [Haoliang Li](https://hlli1991.github.io/), Ling-Yu Duan  <Br>
 
@@ -401,11 +401,11 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 **[Author]** [Yi Wang](https://shepnerd.github.io/), [Ying-Cong Chen](https://yingcong.github.io/), Xin Tao, [Jiaya Jia](http://jiaya.me/) <Br>
 **[[Code]](https://github.com/shepnerd/blindinpainting_vcnet)]** 
 	
-#### *Guidance and Evaluation: Semantic-Aware Image Inpainting for Mixed Scenes*
+#### Guidance and Evaluation
 **[Paper]** (ECCV 2020) Guidance and Evaluation: Semantic-Aware Image Inpainting for Mixed Scenes <Br>
 **[Author]** Liang Liao, Jing Xiao, [Zheng Wang](https://wangzwhu.github.io/home/), [Chia-Wen Lin](https://www.ee.nthu.edu.tw/cwlin/), [Shin'ichi Satoh](http://research.nii.ac.jp/~satoh/) <Br>
 
-#### *Prior Guided GAN Based Semantic Inpainting* ★☆
+#### Prior Guided GAN Based Semantic Inpainting ★☆
 **[Paper]** (CVPR 2020) Prior Guided GAN Based Semantic Inpainting <Br>
 **[Author]** Avisek Lahiri, Arnav Kumar Jain, Sanskar Agrawal, Pabitra Mitra, Prabir Kumar Biswas <Br>
 大致浏览. 分为两个阶段, 第一阶段训练从noise prior生成图像的generator, 第二阶段固定generator, 训练从待修复图像生成噪声先验的网络. 使用了人脸关键点作为额外的prior控制生成结果.
@@ -454,7 +454,7 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 **[Paper]**  (CVPR 2020) Joint Demosaicing and Denoising With Self Guidance  <Br>
 **[Author]** [Lin Liu](http://home.ustc.edu.cn/~ll0825/#home), [Xu Jia](https://stephenjia.github.io/), Jianzhuang Liu, Qi Tian <Br>
 
-#### *Wavelet-Based Dual-Branch Networkfor Image Demoireing*
+#### Wavelet-Based Dual-Branch Networkfor Image Demoireing
 **[Paper]** (ECCV 2020) Wavelet-Based Dual-Branch Networkfor Image Demoireing  <Br>
 **[Author]**[Lin Liu](http://home.ustc.edu.cn/~ll0825/#home), Jianzhuang Liu, [Shanxin Yuan](https://shanxinyuan.github.io/), [Gregory Slabaugh](http://www.gregslabaugh.net/), [Ales Leonardis](https://www.cs.bham.ac.uk/~leonarda/), Wengang Zhou, Qi Tian <Br>
 **[[Project](http://home.ustc.edu.cn/~ll0825/project_FDNet.html)]** <Br>
@@ -464,7 +464,7 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 **[Author]** Bin He, Ce Wang, [Boxin Shi](http://ci.idm.pku.edu.cn/), Ling-Yu Duan <Br>
 **[[Project](http://home.ustc.edu.cn/~ll0825/project_FDNet.html)]** <Br>
 	
-#### *Self-Adaptively Learning to Demoiré from Focused and Defocused Image Pairs*
+#### Self-Adaptively Learning to Demoiré from Focused and Defocused Image Pairs
 **[Paper]** (NeurIPS 2020) Self-Adaptively Learning to Demoiré from Focused and Defocused Image Pairs  <Br>
 **[Author]** [Lin Liu](http://home.ustc.edu.cn/~ll0825/#home), [Shanxin Yuan](https://shanxinyuan.github.io/), Jianzhuang Liu, Liping Bao, Gregory Slabaugh, Qi Tian <Br>
 **[[Project](http://home.ustc.edu.cn/~ll0825/project_FDNet.html)]** <Br>
