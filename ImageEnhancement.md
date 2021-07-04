@@ -15,6 +15,12 @@
 **[Author]** Lan Fu, Changqing Zhou, [Qing Guo](https://tsingqguo.github.io/), [Felix Juefei-Xu](http://xujuefei.com/), [Hongkai Yu](http://cis.csuohio.edu/~h.yu/), Wei Feng, [Yang Liu](https://personal.ntu.edu.sg/yangliu/), [Song Wang](https://www.cse.sc.edu/~songwang/) <Br>
 **[[PyTorch-Code](https://github.com/tsingqguo/exposure-fusion-shadow-removal)]**   <Br>
 
+#### Multi-Scale Photo Exposure Correction
+**[Paper]** (CVPR 2021) Learning Multi-Scale Photo Exposure Correction<Br>
+**[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi), [Konstantinos G. Derpanis](https://www.cs.ryerson.ca/kosta/), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/people/bommer), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
+**[[PyTorch-Code](https://github.com/mahmoudnafifi/Exposure_Correction)]**   <Br>
+coarse-to-fine增强的策略, 并在每个level加入相应的拉普拉斯金字塔层作为细节信息. 使用L1和GAN loss. 效果不错. <Br>
+	
 #### DeepLPF ★☆
 **[Paper]** (CVPR 2020) DeepLPF: Deep Local Parametric Filters for Image Enhancement <Br>
 **[Author]** [Sean Moran](http://www.seanjmoran.com/), Pierre Marza, Steven McDonagh, Sarah Parisot, [Gregory Slabaugh](http://gregslabaugh.net/)  <Br>
@@ -130,12 +136,6 @@ UNet + Global Pooling feature + 输入输出feature间的elementwise scaling
 **[Paper]** (CVPR 2021) Restoring Extremely Dark Images in Real Time  <Br>
 **[Author]**  <Br>
 **[[Code](https://github.com/MohitLamba94/Restoring-Extremely-Dark-Images-In-Real-Time)]** <Br>
-
-#### Learning to Correct Overexposed and Underexposed Photos ★☆
-**[Paper]** (CVPR 2021) Learning to Correct Overexposed and Underexposed Photos <Br>
-**[Author]** [Mahmoud Afifi](https://sites.google.com/view/mafifi), [Konstantinos G. Derpanis](https://www.cs.ryerson.ca/kosta/), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer),  [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)   <Br>
-**[[Code](https://github.com/mahmoudnafifi/Exposure_Correction)]** <Br>
-粗读, coarse-to-fine增强的策略, 并在每个level加入相应的拉普拉斯金字塔层作为细节信息. 使用L1和GAN loss. 效果不错. <Br>
 
 #### Zero-DCE ★★
 **[Paper]** (CVPR 2020) Zero-Reference Deep Curve Estimation for Low-Light Image Enhancement <Br>
