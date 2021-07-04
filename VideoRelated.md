@@ -22,6 +22,12 @@
 **[[Project](https://tarun005.github.io/FLAVR/)]** **[[Pytorch-Code](https://github.com/tarun005/FLAVR)]** <Br>
 首次提出用3D卷积做视频插帧, 结构为UNet, 输入为前后四帧, 输出为需要插的k-1帧
 
+#### CDFI ★
+**[Paper]**  (CVPR 2021) CDFI: Compression-Driven Network Design for Frame Interpolation <Br>
+**[Author]** [Tianyu Ding](https://www.tianyuding.com/), Luming Liang, [Zhihui Zhu](http://mysite.du.edu/~zzhu61/index.html), Ilya Zharkov    <Br>
+**[[Pytorch-Code](https://github.com/tding1/CDFI)]** <Br>
+通过加入L1正则引入稀疏性, 然后将模型输入层数逐次减小, 得到压缩后的模型. 论文中表示压缩后的结构更合理, from scratch训练该网络就能得到与大模型相近的性能. 之后在小模型上加入了一些改进模块, 进一步提高了精度
+
 #### AnimeInterp
 **[Paper]**  (CVPR 2021) Deep Animation Video Interpolation in the Wild <Br>
 **[Author]** Li Siyao, Shiyu Zhao, Weijiang Yu, Wenxiu Sun, [Dimitris N. Metaxas](https://www.cs.rutgers.edu/~dnm/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Ziwei Liu](https://liuziwei7.github.io/)    <Br>
