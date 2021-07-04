@@ -160,7 +160,7 @@ UNet + Global Pooling feature + 输入输出feature间的elementwise scaling
 **[Author]** Minfeng Zhu, Pingbo Pan, [Wei Chen](http://www.cad.zju.edu.cn/home/chenwei/), Yi Yang   <Br>
 大致浏览. 输入为raw, 设计了一个多分支网络, 分别处理不同曝光值得输入并将结果融合, 里面的参考曝光值不知道是怎么得到的. 另外还加入一个边缘增强网络, 方法是现成的. 
 
-#### *Self-supervised Image Enhancement Network: Training With Low Light Images Only*
+#### Self-supervised Image Enhancement Network
 **[Paper]** (arXiv 2002) Self-supervised Image Enhancement Network: Training With Low Light Images Only <Br>
 **[Author]** Yu Zhang, Xiaoguang Di, Bin Zhang, Chunhui Wang  <Br>
 **[[TF-Code](https://github.com/hitzhangyu/Self-supervised-Image-Enhancement-Network-Training-With-Low-Light-Images-Only)]** <Br>	
@@ -242,7 +242,7 @@ RetinexNet+GAN
 1) 同时做tone mapping和去噪, 分为亮度attention map预测, noise map预测, 多尺度增强模块和refine模块四部分, 网络结构和loss可以参考 <Br>
 2) 提出了一个生成低光照加噪声数据的流程.
 
-#### Color-wise Attention Network for Low-light Image Enhancement ★
+#### Color-wise Attention Network ★
 **[Paper]** (arXiv 1911) Color-wise Attention Network for Low-light Image Enhancement <Br>
 **[Author]** [Yousef Atoum](http://faculty.yu.edu.jo/atoumyou/SitePages/Home.aspx), [Mao Ye](https://maoye.wordpress.com/), Liu Ren, [Ying Tai](https://tyshiwo.github.io/), [Xiaoming Liu](http://cvlab.cse.msu.edu/) <Br>
 亮度和颜色通道分两只分别增强的方案, 其中color和point的attention部分没看懂
