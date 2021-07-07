@@ -123,6 +123,12 @@
 **[[Project](https://sites.google.com/view/wenbobao/dain)]**  **[[Pytorch-Code](https://github.com/baowenbo/DAIN)]** <Br>
 视频插帧, 利用光流和深度信息生成两帧间任意时刻的图像
 
+#### IM-Net ★
+**[Paper]**  (CVPR 2019) IM-Net for High Resolution Video Frame Interpolationn <Br>
+**[Author]** Tomer Peleg, Pablo Szekely, Doron Sabo, [Omry Sendik](https://omrysendik.github.io/)  <Br>
+**[[Project](https://sites.google.com/view/wenbobao/dain)]**  **[[Pytorch-Code](https://github.com/baowenbo/DAIN)]** <Br>
+预测motion field vector(光流)和occlusion map做插帧
+
 #### Super SloMo ★☆
 **[Paper]**  (CVPR 2018) Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation <Br>
 **[Author]** [Huaizu Jiang](http://jianghz.me/), [Deqing Sun](https://deqings.github.io/), [Varun Jampani](https://varunjampani.github.io/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Erik Learned-Miller](https://people.cs.umass.edu/~elm/), [Jan Kautz](https://jankautz.com/)  <Br>
