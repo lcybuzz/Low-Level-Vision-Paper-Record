@@ -10,6 +10,11 @@
 
 
 # Video Super Resolution
+#### EA-Net ★
+**[Paper]**  (arXiv 2105) EA-Net: Edge-Aware Network for Flow-based Video Frame Interpolation <Br>
+**[Author]** Bin Zhao, Xuelong Li <Br>
+基于光流的插帧, 加入了edge信息
+	
 #### XVFI ★★
 **[Paper]**  (arXiv 2103) XVFI: eXtreme Video Frame Interpolation <Br>
 **[Author]** Hyeonjun Sim, [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), Munchurl Kim <Br>
