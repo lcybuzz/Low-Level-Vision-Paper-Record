@@ -183,6 +183,12 @@
 
 
 # Video Debluring
+#### DeFMO ★
+**[Paper]** (CVPR 2021) DeFMO: Deblurring and Shape Recovery of Fast Moving Objects <Br>
+**[Author]** Denys Rozumnyi, Martin R. Oswald, Vittorio Ferrari, Jiri Matas, Marc Pollefeys<Br>
+**[[Pytorch-Code](https://github.com/rozumden/DeFMO)]** <Br>
+从单张模糊图像和背景图中恢复t张清晰的图像, 网络结构为一个encoder+t个renderers, 采用了几个loss分别用于处理目标外观, sharpness及空间一致性等.
+	
 #### ARVo
 **[Paper]** (CVPR 2021) ARVo: Learning All-Range Volumetric Correspondence for Video Deblurring <Br>
 **[Author]** Dongxu Li, Chenchen Xu, [Kaihao Zhang](https://zhangkaihao.github.io/), [Xin Yu](https://sites.google.com/view/xinyus-homepage/Home), [Yiran Zhong](https://yiranzhong.com/), [Wenqi Ren](https://sites.google.com/site/renwenqi888/home), [Hanna Suominen](https://researchers.anu.edu.au/researchers/suominen-h), Hongdong Li<Br>
