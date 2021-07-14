@@ -44,10 +44,11 @@
 **[[Project](https://alterzero.github.io/projects/STAR.html)]** **[[Pytorch-Code](https://github.com/alterzero/STARnet)]** <Br>
 时空联合超分
 	
-#### Zooming-Slow-Mo
+#### Zooming-Slow-Mo ★☆
 **[Paper]** (CVPR 2020) Fast and Accurate One-Stage Space-Time Video Super-Resolution <Br>
 **[Author]**  [Xiaoyu Xiang](https://engineering.purdue.edu/people/xiaoyu.xiang.1), [Yapeng Tian](http://yapengtian.org/), [Yulun Zhang](http://yulunzhang.com/), [Yun Fu](http://www1.ece.neu.edu/~yunfu/), [Jan P. Allebach](https://engineering.purdue.edu/~allebach/), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/) <Br>
 **[[Pytorch-Code](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020)]** <Br>
+时空联合超分, 基于deformable卷积和ConvLSTM
 
 #### DeepTemporalSR
 **[Paper]** (ECCV 2020) Across Scales & Across Dimensions: Temporal Super-Resolution using Deep Internal Learning <Br>
