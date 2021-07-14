@@ -44,10 +44,11 @@
 **[Author]**  [Yan-Cheng Huang](https://www.linkedin.com/in/hyancheng96),  [Yi-Hsin Chen](mailto:yhchen12101@gmail.com),  [Cheng-You Lu](https://johnnylu305.github.io), [Hui-Po Wang](https://a514514772.github.io), [Wen-Hsiao Peng](https://sites.google.com/g2.nctu.edu.tw/wpeng/cv), [Ching-Chun Huang](http://acm.cs.nctu.edu.tw/Home.aspx)   <Br>
 **[[Project](https://ding3820.github.io/MIMO-VRN/)]** **[[Pytorch-Code](https://github.com/ding3820/MIMO-VRN)]** <Br>
 
-#### BasicVSR
+#### BasicVSR ★
 **[Paper]**  (CVPR 2021) BasicVSR: The Search for Essential Components in Video Super-Resolution and Beyond <Br>
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ke Yu](https://yuke93.github.io/), [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ&hl=zh-CN), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
 **[[Project](https://ckkelvinchan.github.io/projects/BasicVSR/)]** **[[Pytorch-Code](https://github.com/ckkelvinchan/BasicVSR-IconVSR)]** <Br>
+将视频超分分解为propagation, alignment, aggregation和upsampling四部分. 在此基础上设计了BasicVSR网络, 以及加入了两个新设计模块的IconVSR
 
 #### TMNet
 **[Paper]**  (CVPR 2021) Temporal Modulation Network for Controllable Space-Time Video Super-Resolution <Br>
