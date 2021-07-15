@@ -96,10 +96,11 @@
 **[[Pytorch-Code](https://github.com/tding1/CDFI)]** <Br>
 通过加入L1正则引入稀疏性, 然后将模型输入层数逐次减小, 得到压缩后的模型. 论文中表示压缩后的结构更合理, from scratch训练该网络就能得到与大模型相近的性能. 之后在小模型上加入了一些改进模块, 进一步提高了精度
 
-#### AnimeInterp
+#### AnimeInterp ★
 **[Paper]**  (CVPR 2021) Deep Animation Video Interpolation in the Wild <Br>
 **[Author]** Li Siyao, Shiyu Zhao, Weijiang Yu, Wenxiu Sun, [Dimitris N. Metaxas](https://www.cs.rutgers.edu/~dnm/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Ziwei Liu](https://liuziwei7.github.io/)    <Br>
 **[[Pytorch-Code](https://github.com/lisiyao21/AnimeInterp/)]** <Br>
+动画的插帧, 针对动画纹理平滑和位移大的特点, 设计了segment匹配模块和coarse-to-fine的光流匹配模块.
 
 #### RIFE ★★
 **[Paper]**  (arXiv 2011) RIFE: Real-Time Intermediate Flow Estimation for Video Frame Interpolation <Br>
