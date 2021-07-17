@@ -114,6 +114,21 @@
 **[[Project](https://myungsub.github.io/CAIN/)]** **[[Pytorch-Code](https://github.com/myungsub/CAIN)]** <Br>
 (插帧) 设计了一个pixelshuffle + attention residual block的网络, 无需光流估计和warp操作.
 
+#### RRIN
+**[Paper]** (ICASSP  2020) Video Frame Interpolation Via Residue Refinement <Br>
+**[Author]** Haopeng Li, Yuan Yuan, [Qi Wang]( <Br>
+**[[Pytorch-Code](https://github.com/HopLee6/RRIN)]** <Br>
+
+#### BMBC
+**[Paper]** (ECCV 2020) BMBC: Bilateral Motion Estimation with Bilateral Cost Volume for Video Interpolation <Br>
+**[Author]** Junheum Park, Keunsoo Ko, [Chul Lee](http://cilab.dongguk.edu/), [Chang-Su Kim](http://mcl.korea.ac.kr/) <Br>
+**[[Pytorch-Code](https://github.com/JunHeum/BMBC)]** <Br>
+	
+#### UTI-VFI
+**[Paper]** (CVPR 2020) Video Frame Interpolation without Temporal Priors <Br>
+**[Author]**  Youjian Zhang, [Chaoyue Wang](https://wang-chaoyue.github.io/), [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
+**[[Pytorch-Code](https://github.com/yjzhang96/UTI-VFI)]** <Br>
+
 #### SoftSplat ★☆
 **[Paper]** (CVPR 2020) Softmax Splatting for Video Frame Interpolation <Br>
 **[Author]**  [Simon Niklaus](http://sniklaus.com/welcome), [Feng Liu](http://web.cecs.pdx.edu/~fliu/) <Br>
@@ -125,11 +140,26 @@
 **[Author]**  [Myungsub Choi](https://myungsub.github.io/), Janghoon Choi, [Sungyong Baik](https://baiksung.github.io/), [Tae Hyun Kim](https://sites.google.com/site/lliger9/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
 **[[Project](https://myungsub.github.io/meta-interpolation/)]** **[[Pytorch-Code](https://github.com/myungsub/meta-interpolation)]** <Br>
 
+#### FeatureFlow
+**[Paper]** (CVPR 2020) FeatureFlow: Robust Video Interpolation via Structure-to-Texture Generation <Br>
+**[Author]** Shurui Gui, [Chaoyue Wang](https://wang-chaoyue.github.io/), Qihua Chen, [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
+**[[Pytorch-Code](https://github.com/CM-BF/FeatureFlow)]** <Br>
+
 #### BIN
 **[Paper]** (CVPR 2020 Oral) Blurry Video Frame Interpolation <Br>
 **[Author]** [Wang Shen](https://sites.google.com/view/wangshen94), [Wenbo Bao](https://sites.google.com/view/wenbobao/home), [Guangtao Zhai](https://faculty.sjtu.edu.cn/zhaiguangtao/en/index.htm), Li Chen, [Xiongkuo Min](https://sites.google.com/site/minxiongkuo/home), Zhiyong Gao<Br>
 **[[Project](https://alterzero.github.io/projects/STAR.html)]** **[[Pytorch-Code](https://github.com/laomao0/BIN)]** <Br>
 
+#### FeatureFlow
+**[Paper]** (CVPR 2020) FeatureFlow: Robust Video Interpolation via Structure-to-Texture Generation <Br>
+**[Author]** Shurui Gui, [Chaoyue Wang](https://wang-chaoyue.github.io/), Qihua Chen, [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
+**[[Pytorch-Code](https://github.com/CM-BF/FeatureFlow)]** <Br>
+
+#### AdaCoF
+**[Paper]** (CVPR 2020) AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation <Br>
+**[Author]** [Hyeongmin Lee](https://hyeongminlee.github.io/), [Taeoh Kim](https://taeoh-kim.github.io/), Tae-young Chung, Daehyun Pak, Yuseok Ban, Sangyoun Lee <Br>
+**[[Pytorch-Code](https://github.com/HyeongminLEE/AdaCoF-pytorch)]** <Br>
+	
 #### Deep-SloMo
 **[Paper]**  (TPAMI 2020) Deep Slow Motion Video Reconstruction with Hybrid Imaging System <Br>
 **[Author]** [Avinash Paliwal](http://people.tamu.edu/~avinashpaliwal/), [Nima Kalantari](https://people.engr.tamu.edu/nimak/index.html) <Br>
@@ -139,7 +169,11 @@
 **[Paper]**  (CVPR 2019) Depth-Aware Video Frame Interpolation <Br>
 **[Author]** [Wenbo Bao](https://sites.google.com/view/wenbobao/home), [Wei-Sheng Lai](http://graduatestudents.ucmerced.edu/wlai24/), [Chao Ma](https://vision.sjtu.edu.cn/), Xiaoyun Zhang, Zhiyong Gao, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)  <Br>
 **[[Project](https://sites.google.com/view/wenbobao/dain)]**  **[[Pytorch-Code](https://github.com/baowenbo/DAIN)]** <Br>
-视频插帧, 利用光流和深度信息生成两帧间任意时刻的图像
+
+#### Unsupervised Video Interpolatio
+**[Paper]**  (ICCV 2019) Unsupervised Video Interpolation using Cycle Consistency <Br>
+**[Author]** Fitsum A. Reda, Deqing Sun, Aysegul Dundar, Mohammad Shoeybi, [Guilin Liu](https://liuguilin1225.github.io/), Kevin J. Shih, Andrew Tao, [Jan Kautz](http://jankautz.com/), [Bryan Catanzaro](http://catanzaro.name/)  <Br>
+**[[Project](https://nv-adlr.github.io/publication/2019-UnsupervisedVideoInterpolation)]**  **[[Pytorch-Code](https://github.com/NVIDIA/unsupervised-video-interpolation)]** <Br>
 
 #### IM-Net ★
 **[Paper]**  (CVPR 2019) IM-Net for High Resolution Video Frame Interpolationn <Br>
@@ -147,13 +181,34 @@
 **[[Project](https://sites.google.com/view/wenbobao/dain)]**  **[[Pytorch-Code](https://github.com/baowenbo/DAIN)]** <Br>
 预测motion field vector(光流)和occlusion map做插帧
 
+#### CyclicGen
+**[Paper]**  (AAAI 2019) Deep Video Frame Interpolation using Cyclic Frame Generation <Br>
+**[Author]** [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Yi-Tung Liao](http://www.cmlab.csie.ntu.edu.tw/~queenieliaw/), [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/)   <Br>
+**[[Project](https://www.cmlab.csie.ntu.edu.tw/~yulunliu/CyclicGen)]**  **[[TF-Code](https://github.com/alex04072000/CyclicGen)]** <Br>
+
 #### Super SloMo ★☆
 **[Paper]**  (CVPR 2018) Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation <Br>
 **[Author]** [Huaizu Jiang](http://jianghz.me/), [Deqing Sun](https://deqings.github.io/), [Varun Jampani](https://varunjampani.github.io/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Erik Learned-Miller](https://people.cs.umass.edu/~elm/), [Jan Kautz](https://jankautz.com/)  <Br>
 **[[Project](https://github.com/avinashpaliwal/Super-SloMo)]**  **[[Pytorch-Code](http://jianghz.me/projects/superslomo/)]** <Br>
 视频插帧. 首先预测双向光流, 接下来在每个要插值的时刻t, 用一个网络refine光流并预测visibility map, 最后根据光流和visibility map插值生成t时刻图像.
-	
 
+#### Context-aware Video Frame Interpolation
+**[Paper]**  (CVPR 2018) Context-aware Synthesis for Video Frame Interpolation <Br>
+**[Author]** [Simon Niklaus](http://sniklaus.com/welcome), [Feng Liu]http://web.cecs.pdx.edu/~fliu/) <Br>
+**[[Project](http://web.cecs.pdx.edu/~fliu/project/adaconv/)]**  <Br>
+	
+#### sepconv-slomo
+**[Paper]**  (ICCV 2017) Video Frame Interpolation via Adaptive Separable Convolution <Br>
+**[Author]** [Simon Niklaus](http://sniklaus.com/welcome), Long Mai, [Feng Liu]http://web.cecs.pdx.edu/~fliu/) <Br>
+**[[Project](http://web.cecs.pdx.edu/~fliu/project/sepconv/)]**  **[[Pytorch-Code](https://github.com/sniklaus/sepconv-slomo)]** <Br>
+	
+#### adaconv-slomo
+**[Paper]**  (CVPR 2017) Video Frame Interpolation via Adaptive Convolution <Br>
+**[Author]** [Simon Niklaus](http://sniklaus.com/welcome), Long Mai, [Feng Liu]http://web.cecs.pdx.edu/~fliu/) <Br>
+**[[Project](http://web.cecs.pdx.edu/~fliu/project/adaconv/)]**  <Br>
+	
+	
+	
 	
 	
 # Video Enhancement
