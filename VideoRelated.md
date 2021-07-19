@@ -125,7 +125,7 @@
 **[[Pytorch-Code](https://github.com/JunHeum/BMBC)]** <Br>
 	
 #### UTI-VFI
-**[Paper]** (CVPR 2020) Video Frame Interpolation without Temporal Priors <Br>
+**[Paper]** (NIPS 2020) Video Frame Interpolation without Temporal Priors <Br>
 **[Author]**  Youjian Zhang, [Chaoyue Wang](https://wang-chaoyue.github.io/), [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
 **[[Pytorch-Code](https://github.com/yjzhang96/UTI-VFI)]** <Br>
 
