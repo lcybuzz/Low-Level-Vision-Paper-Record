@@ -123,9 +123,14 @@
 **[Paper]** (ECCV 2020) BMBC: Bilateral Motion Estimation with Bilateral Cost Volume for Video Interpolation <Br>
 **[Author]** Junheum Park, Keunsoo Ko, [Chul Lee](http://cilab.dongguk.edu/), [Chang-Su Kim](http://mcl.korea.ac.kr/) <Br>
 **[[Pytorch-Code](https://github.com/JunHeum/BMBC)]** <Br>
-	
+
+#### EQVI
+**[Paper]** (ECCVW 2020) Enhanced Quadratic Video Interpolation <Br>
+**[Author]** Yihao Liu, Liangbin Xie, Li Siyao, Wenxiu Sun, Yu Qiao, Chao Dong <Br>
+**[[Pytorch-Code](https://github.com/lyh-18/EQVI)]** <Br>
+
 #### UTI-VFI
-**[Paper]** (NIPS 2020) Video Frame Interpolation without Temporal Priors <Br>
+**[Paper]** (NeurIPS 2020) Video Frame Interpolation without Temporal Priors <Br>
 **[Author]**  Youjian Zhang, [Chaoyue Wang](https://wang-chaoyue.github.io/), [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
 **[[Pytorch-Code](https://github.com/yjzhang96/UTI-VFI)]** <Br>
 
@@ -149,11 +154,6 @@
 **[Paper]** (CVPR 2020 Oral) Blurry Video Frame Interpolation <Br>
 **[Author]** [Wang Shen](https://sites.google.com/view/wangshen94), [Wenbo Bao](https://sites.google.com/view/wenbobao/home), [Guangtao Zhai](https://faculty.sjtu.edu.cn/zhaiguangtao/en/index.htm), Li Chen, [Xiongkuo Min](https://sites.google.com/site/minxiongkuo/home), Zhiyong Gao<Br>
 **[[Project](https://alterzero.github.io/projects/STAR.html)]** **[[Pytorch-Code](https://github.com/laomao0/BIN)]** <Br>
-
-#### FeatureFlow
-**[Paper]** (CVPR 2020) FeatureFlow: Robust Video Interpolation via Structure-to-Texture Generation <Br>
-**[Author]** Shurui Gui, [Chaoyue Wang](https://wang-chaoyue.github.io/), Qihua Chen, [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
-**[[Pytorch-Code](https://github.com/CM-BF/FeatureFlow)]** <Br>
 
 #### AdaCoF
 **[Paper]** (CVPR 2020) AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation <Br>
@@ -180,6 +180,12 @@
 **[Author]** Tomer Peleg, Pablo Szekely, Doron Sabo, [Omry Sendik](https://omrysendik.github.io/)  <Br>
 **[[Project](https://sites.google.com/view/wenbobao/dain)]**  **[[Pytorch-Code](https://github.com/baowenbo/DAIN)]** <Br>
 预测motion field vector(光流)和occlusion map做插帧
+
+#### QVI ★
+**[Paper]**  (NeurIPS 2019) Quadratic video interpolation <Br>
+**[Author]** [Xiangyu Xu](https://sites.google.com/view/xiangyuxu), Siyao Li, Wenxiu Sun, Qian Yin, [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN&oi=sra)   <Br>
+**[[Project](https://sites.google.com/view/xiangyuxu/qvi_nips19)]**  **[[Pytorch-Code](https://github.com/xuxy09/QVI)]** <Br>
+利用-1,0,1三帧的信息对光流进行二次插值
 
 #### CyclicGen
 **[Paper]**  (AAAI 2019) Deep Video Frame Interpolation using Cyclic Frame Generation <Br>
