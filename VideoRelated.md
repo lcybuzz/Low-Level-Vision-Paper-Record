@@ -153,7 +153,7 @@
 #### BIN
 **[Paper]** (CVPR 2020 Oral) Blurry Video Frame Interpolation <Br>
 **[Author]** [Wang Shen](https://sites.google.com/view/wangshen94), [Wenbo Bao](https://sites.google.com/view/wenbobao/home), [Guangtao Zhai](https://faculty.sjtu.edu.cn/zhaiguangtao/en/index.htm), Li Chen, [Xiongkuo Min](https://sites.google.com/site/minxiongkuo/home), Zhiyong Gao<Br>
-**[[Project](https://alterzero.github.io/projects/STAR.html)]** **[[Pytorch-Code](https://github.com/laomao0/BIN)]** <Br>
+**[[Pytorch-Code](https://github.com/laomao0/BIN)]** <Br>
 
 #### AdaCoF
 **[Paper]** (CVPR 2020) AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation <Br>
