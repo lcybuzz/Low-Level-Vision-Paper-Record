@@ -150,10 +150,11 @@
 **[Author]** Shurui Gui, [Chaoyue Wang](https://wang-chaoyue.github.io/), Qihua Chen, [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
 **[[Pytorch-Code](https://github.com/CM-BF/FeatureFlow)]** <Br>
 
-#### BIN
+#### BIN ★
 **[Paper]** (CVPR 2020 Oral) Blurry Video Frame Interpolation <Br>
 **[Author]** [Wang Shen](https://sites.google.com/view/wangshen94), [Wenbo Bao](https://sites.google.com/view/wenbobao/home), [Guangtao Zhai](https://faculty.sjtu.edu.cn/zhaiguangtao/en/index.htm), Li Chen, [Xiongkuo Min](https://sites.google.com/site/minxiongkuo/home), Zhiyong Gao<Br>
 **[[Pytorch-Code](https://github.com/laomao0/BIN)]** <Br>
+空间采用金字塔型结构, 逐层利用多帧信息, 为保证帧间一致性, 使用了ConvLSTM挖掘temporal关系
 
 #### AdaCoF
 **[Paper]** (CVPR 2020) AdaCoF: Adaptive Collaboration of Flows for Video Frame Interpolation <Br>
