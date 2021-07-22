@@ -50,6 +50,11 @@
 **[[Pytorch-Code](https://github.com/Mukosame/Zooming-Slow-Mo-CVPR-2020)]** <Br>
 时空联合超分, 基于deformable卷积和ConvLSTM
 
+#### STVUN
+**[Paper]** (ECCV 2020) STVUN: Deep Space-Time Video Upsampling Networks <Br>
+**[Author]** Jaeyeon Kang, [Younghyun Jo](https://yhjo09.github.io/), [Seoung Wug Oh](https://sites.google.com/view/seoungwugoh), [Peter Vajda](https://sites.google.com/site/vajdap/), [Seon Joo Kim](https://sites.google.com/site/seonjookim/) <Br>
+**[[Pytorch-Code](https://github.com/JaeYeonKang/STVUN-Pytorch)]** <Br>	
+
 #### DeepTemporalSR
 **[Paper]** (ECCV 2020) Across Scales & Across Dimensions: Temporal Super-Resolution using Deep Internal Learning <Br>
 **[Author]** Liad Pollak Zuckerman, Eyal Naor, George Pisha, [Shai Bagon](https://www.weizmann.ac.il/math/bagon/), Michal Irani <Br>
@@ -74,6 +79,11 @@
 **[Author]** Dario Fuoli, [Shuhang Gu](https://shuhanggu.github.io/), [Radu Timofte](https://people.ee.ethz.ch/~timofter/) <Br>
 **[[Pytorch-Code](https://github.com/dariofuoli/RLSP)]** <Br>
 用RNN做视频超分, 使用残差和pixel shuffle.
+	
+#### DUF
+**[Paper]** (CVPR 2018) Deep Video Super-Resolution Network Using Dynamic Upsampling Filters Without Explicit Motion Compensation <Br>
+**[Author]**  [Younghyun Jo](https://yhjo09.github.io/), [Seoung Wug Oh](https://sites.google.com/view/seoungwugoh), Jaeyeon Kang, [Seon Joo Kim] <Br>
+**[[Pytorch-Code](https://github.com/yhjo09/VSR-DUF0)]** <Br>
 	
 	
 	
