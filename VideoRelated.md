@@ -134,7 +134,7 @@
 
 #### RRIN
 **[Paper]** (ICASSP  2020) Video Frame Interpolation Via Residue Refinement <Br>
-**[Author]** Haopeng Li, Yuan Yuan, [Qi Wang]( <Br>
+**[Author]** Haopeng Li, Yuan Yuan, [Qi Wang](http://crabwq.github.io/#top) <Br>
 **[[Pytorch-Code](https://github.com/HopLee6/RRIN)]** <Br>
 
 #### BMBC
