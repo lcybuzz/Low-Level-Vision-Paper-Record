@@ -189,6 +189,10 @@
 **[Author]** [Avinash Paliwal](http://people.tamu.edu/~avinashpaliwal/), [Nima Kalantari](https://people.engr.tamu.edu/nimak/index.html) <Br>
 **[[Project](https://people.engr.tamu.edu/nimak/Papers/ICCP2020_Slomo/index.html)]** **[[Pytorch-Code](https://github.com/avinashpaliwal/Deep-SloMo)]** <Br>
 
+#### Interpolation with Exceptional Motion Map
+**[Paper]** (TCSVT 2020) Robust Video Frame Interpolation With Exceptional Motion Map <Br>
+**[Author]**  Minho Park, [Hak Gu Kim](https://haku0331.wixsite.com/hakgukim), [Sangmin Lee](https://sites.google.com/view/sangmin-lee), [Yong Man Ro](http://ivylab.kaist.ac.kr/default/) <Br>
+	
 #### ALANET ★
 **[Paper]** (MM 2020) ALANET: Adaptive Latent Attention Network for Joint Video Deblurring and Interpolation <Br>
 **[Author]** [Akash Gupta](https://akashagupta.com/), [Abhishek Aich](https://abhishekaich27.github.io/), [Amit K. Roy-Chowdhury](https://vcg.engr.ucr.edu/amit) <Br>
