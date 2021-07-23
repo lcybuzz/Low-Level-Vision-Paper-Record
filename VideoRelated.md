@@ -142,6 +142,11 @@
 **[Author]** Junheum Park, Keunsoo Ko, [Chul Lee](http://cilab.dongguk.edu/), [Chang-Su Kim](http://mcl.korea.ac.kr/) <Br>
 **[[Pytorch-Code](https://github.com/JunHeum/BMBC)]** <Br>
 
+#### All at Once
+**[Paper]** (ECCV 2020) All at Once: Temporally Adaptive Multi-Frame Interpolation with Advanced Motion Modeling <Br>
+**[Author]** Zhixiang Chi, Rasoul Mohammadi Nasiri, Zheng Liu, [Juwei Lu](https://www.dsp.utoronto.ca/juwei/), Jin Tang, [Konstantinos N Plataniotis](https://www.comm.utoronto.ca/~kostas/) <Br>
+**[[Code](https://github.com/chi-chi-zx/all-at-once)]** <Br>
+
 #### EQVI
 **[Paper]** (ECCVW 2020) Enhanced Quadratic Video Interpolation <Br>
 **[Author]** Yihao Liu, Liangbin Xie, Li Siyao, Wenxiu Sun, Yu Qiao, Chao Dong <Br>
