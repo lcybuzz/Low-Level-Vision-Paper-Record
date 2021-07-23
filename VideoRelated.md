@@ -212,10 +212,11 @@
 **[[Project](https://sites.google.com/view/xiangyuxu/qvi_nips19)]**  **[[Pytorch-Code](https://github.com/xuxy09/QVI)]** <Br>
 利用-1,0,1三帧的信息对光流进行二次插值
 
-#### CyclicGen
+#### CyclicGen ★☆
 **[Paper]**  (AAAI 2019) Deep Video Frame Interpolation using Cyclic Frame Generation <Br>
 **[Author]** [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Yi-Tung Liao](http://www.cmlab.csie.ntu.edu.tw/~queenieliaw/), [Yen-Yu Lin](https://www.citi.sinica.edu.tw/pages/yylin/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/)   <Br>
 **[[Project](https://www.cmlab.csie.ntu.edu.tw/~yulunliu/CyclicGen)]**  **[[TF-Code](https://github.com/alex04072000/CyclicGen)]** <Br>
+用2个预测帧预测输入帧, 作为consistency loss, 提高生成帧的质量. 另外提出了光流线性约束loss和边缘引导loss
 
 #### Super SloMo ★☆
 **[Paper]**  (CVPR 2018) Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation <Br>
