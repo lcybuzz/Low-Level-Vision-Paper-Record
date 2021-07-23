@@ -200,7 +200,7 @@
 **[Author]** [Wenbo Bao](https://sites.google.com/view/wenbobao/home), [Wei-Sheng Lai](http://graduatestudents.ucmerced.edu/wlai24/), [Chao Ma](https://vision.sjtu.edu.cn/), Xiaoyun Zhang, Zhiyong Gao, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)  <Br>
 **[[Project](https://sites.google.com/view/wenbobao/dain)]**  **[[Pytorch-Code](https://github.com/baowenbo/DAIN)]** <Br>
 
-#### Unsupervised Video Interpolatio
+#### Unsupervised Video Interpolation
 **[Paper]**  (ICCV 2019) Unsupervised Video Interpolation using Cycle Consistency <Br>
 **[Author]** Fitsum A. Reda, Deqing Sun, Aysegul Dundar, Mohammad Shoeybi, [Guilin Liu](https://liuguilin1225.github.io/), Kevin J. Shih, Andrew Tao, [Jan Kautz](http://jankautz.com/), [Bryan Catanzaro](http://catanzaro.name/)  <Br>
 **[[Project](https://nv-adlr.github.io/publication/2019-UnsupervisedVideoInterpolation)]**  **[[Pytorch-Code](https://github.com/NVIDIA/unsupervised-video-interpolation)]** <Br>
