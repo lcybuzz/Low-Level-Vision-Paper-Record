@@ -227,6 +227,12 @@
 **[[Project](https://www.cmlab.csie.ntu.edu.tw/~yulunliu/CyclicGen)]**  **[[TF-Code](https://github.com/alex04072000/CyclicGen)]** <Br>
 用2个预测帧预测输入帧, 作为consistency loss, 提高生成帧的质量. 另外提出了光流线性约束loss, 并将边缘信息加入到输入中
 
+#### MEMC-Net ★★
+**[Paper]**  (TPAMI 2019) MEMC-Net: Motion Estimation and Motion Compensation Driven Neural Network for Video Interpolation and Enhancement <Br>
+**[Author]** [Wenbo Bao](https://sites.google.com/view/wenbobao/home), [Wei-Sheng Lai](http://graduatestudents.ucmerced.edu/wlai24/), Xiaoyun Zhang, Zhiyong Gao, [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)    <Br>
+**[[Project](https://sites.google.com/view/wenbobao/memc-net)]**  **[[Pytorch-Code](https://github.com/baowenbo/MEMC-Net)]** <Br>
+提出一个自适应warping layer, 将warping中简单的bilinear操作改为学习的插值kernel与双线性核相结合的操作; 2. 设计了
+
 #### Super SloMo ★☆
 **[Paper]**  (CVPR 2018) Super SloMo: High Quality Estimation of Multiple Intermediate Frames for Video Interpolation <Br>
 **[Author]** [Huaizu Jiang](http://jianghz.me/), [Deqing Sun](https://deqings.github.io/), [Varun Jampani](https://varunjampani.github.io/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Erik Learned-Miller](https://people.cs.umass.edu/~elm/), [Jan Kautz](https://jankautz.com/)  <Br>
