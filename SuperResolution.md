@@ -74,11 +74,14 @@
 **[Author]** Dehua Song, Yunhe Wang, Hanting Chen, [Chang Xu](http://changxu.xyz/), Chunjing Xu, Dacheng Tao <Br>
 使用加法做SR
 	
+#### Data-Free Knowledge Distillation For Image Super-Resolution
+**[Paper]**  (CVPR 2021) Data-Free Knowledge Distillation For Image Super-Resolution <Br>
+**[Author]** Yiman Zhang, Hanting Chen, Xinghao Chen, Yiping Deng, Chunjing Xu, [Yunhe Wang](https://www.wangyunhe.site/) <Br>
+
 #### FCA ★
 **[Paper]**  (AAAI 2021) Frequency Consistent Adaptation for RealWorld Super Resolution <Br>
 **[Author]** Xiaozhong Ji, Guangpin Tao, Yun Cao, [Ying Tai](https://tyshiwo.github.io/), Tong Lu, Chengjie Wang, Jilin Li, Feiyue Huang <Br>
-任务LR和Source直接应该有频率一致性关系, 由此设计了一些频率一致性loss, 和一个wavelet判别器.
-
+	
 #### MAFFSRN ★☆
 **[Paper]**  (arXiv 2008) Ultra Lightweight Image Super-Resolution with Multi-Attention Layers <Br>
 **[Author]** Abdul Muqeet, Jiwon Hwang, Subin Yang, Jung Heum Kang, Yongwoo Kim, Sung-Ho Bae<Br>
