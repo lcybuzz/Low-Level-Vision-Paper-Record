@@ -38,6 +38,10 @@
 **[Author]** Gang Xu, [Jun Xu](https://csjunxu.github.io/), Zhen Li, Liang Wang, [Xing Sun](https://www.sunxing.org/), [Mingming Cheng](http://mmcheng.net/cmm/) <Br>
 **[[Pytorch-Code](https://github.com/CS-GangXu/TMNet)]** <Br>
 
+#### Loss Functions in a Discriminative Space for Video Restoration
+**[Paper]**  (arXiv 2003) Learning the Loss Functions in a Discriminative Space for Video Restoration <Br>
+**[Author]** [Younghyun Jo](https://yhjo09.github.io/), Jaeyeon Kang, Seoung Wug Oh, Seonghyeon Nam, Peter Vajda, [Seon Joo Kim](https://sites.google.com/view/seoungwugoh/) <Br>
+
 #### FISR
 **[Paper]**  (AAAI 2020) FISR: Deep Joint Frame Interpolation and Super-Resolution with A Multi-scale Temporal Loss <Br>
 **[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim),[Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/) <Br>
@@ -88,7 +92,7 @@
 	
 #### DUF
 **[Paper]** (CVPR 2018) Deep Video Super-Resolution Network Using Dynamic Upsampling Filters Without Explicit Motion Compensation <Br>
-**[Author]**  [Younghyun Jo](https://yhjo09.github.io/), [Seoung Wug Oh](https://sites.google.com/view/seoungwugoh), Jaeyeon Kang, [Seon Joo Kim] <Br>
+**[Author]**  [Younghyun Jo](https://yhjo09.github.io/), [Seoung Wug Oh](https://sites.google.com/view/seoungwugoh), Jaeyeon Kang, [Seon Joo Kim](https://sites.google.com/site/seonjookim/) <Br>
 **[[Pytorch-Code](https://github.com/yhjo09/VSR-DUF0)]** <Br>
 	
 	
