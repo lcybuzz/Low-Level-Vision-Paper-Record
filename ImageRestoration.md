@@ -32,6 +32,16 @@
 **[[Pytorch-Code](https://github.com/swz30/MPRNet)]** <Br>
 多阶段结构, 用了attention等一些trick
 
+#### NSR
+**[Paper]** (NeurIPS 2020) Neural Sparse Representation for Image Restoration <Br>
+**[Author]** [Yuchen Fan](https://ychfan.github.io/), [Jiahui Yu](https://jiahuiyu.com/), [Yiqun Mei](https://yiqunmei.net/), [Yulun Zhang](http://yulunzhang.com/), Yun Fu, Ding Liu, [Thomas S. Huang](http://ifp-uiuc.github.io/) <Br>
+**[[Code](https://github.com/ychfan/nsr)]** <Br>
+
+#### SCN
+**[Paper]** (AAAI 2020) Scale-wise Convolution for Image Restoration <Br>
+**[Author]** [Yuchen Fan](https://ychfan.github.io/), [Jiahui Yu](https://jiahuiyu.com/), Ding Liu, [Thomas S. Huang](http://ifp-uiuc.github.io/) <Br>
+**[[Pytorch-Code](https://github.com/ychfan/scn)]** <Br>
+	
 #### DGP ★★
 **[Paper]** (ECCV 2020 Oral) Exploiting Deep Generative Prior for Versatile Image Restoration and Manipulation <Br>
 **[Author]** [Xingang Pan](https://xingangpan.github.io/), [Xiaohang Zhan](https://xiaohangzhan.github.io/), [Bo Dai](http://daibo.info/), [Dahua Lin](http://dahua.site/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Ping Luo](http://luoping.me/) <Br>
