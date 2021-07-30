@@ -269,6 +269,10 @@
 **[Author]** Fan Zhang, [Yu Li](https://yu-li.github.io/), [Shaodi You](https://youshaodi.github.io/), Ying Fu <Br>
 **[[Code](https://github.com/zkawfanx/StableLLVE)]** 	
 
+##### EDVR
+**[Paper]** (CVPRW 2019) EDVR: Video Restoration with Enhanced Deformable Convolutional Networks <Br>
+**[Author]**  [Xintao Wang](https://xinntao.github.io/), [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Ke Yu](https://yuke93.github.io/), Chao Dong, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) <Br>
+**[[Project](https://xinntao.github.io/projects/EDVR)]** **[[Pytorch-Code](https://github.com/xinntao/EDVR)]**  <Br>
 
 
 
