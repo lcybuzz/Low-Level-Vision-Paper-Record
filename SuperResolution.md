@@ -132,6 +132,11 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 **[[Project](https://cv.wangxuehui.site/SR/)]**  <Br>
 (**轻量级超分**) 使用attention和dense connection思想
 
+#### loss functions for extreme super-resolution
+**[Paper]** (CVPRW 2020) Investigating loss functions for extreme super-resolution <Br>
+**[Author]**  [Younghyun Jo](https://yhjo09.github.io/), [Sejong Yang](https://yangspace.co.kr/), [Seon Joo Kim](https://sites.google.com/site/seonjookim/) <Br>
+**[[Pytorch-Code](https://github.com/kingsj0405/ciplab-NTIRE-2020)]** <Br>
+	
 #### DRN ★
 **[Paper]** (CVPR 2020) Closed-loop Matters: Dual Regression Networks for Single Image Super-Resolution <Br>
 **[Author]**  [Yong Guo](http://www.guoyongcs.com/), Jian Chen, [Jingdong Wang](https://jingdongwang2017.github.io/), Qi Chen, [Jiezhang Cao](https://www.jiezhangcao.com/), Zeshuai Deng, [Yanwu Xu](https://xuyanwu.github.io/), [Mingkui Tan](https://tanmingkui.github.io/)<Br>
