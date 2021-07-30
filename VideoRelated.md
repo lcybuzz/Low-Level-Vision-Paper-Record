@@ -16,6 +16,11 @@
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), [Xintao Wang](https://xinntao.github.io/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
 **[[Pytorch-Code](https://github.com/open-mmlab/mmediting)]** <Br>
 在BasicVSR的基础上, 使用反复前向后向传播的结构和flow-guided deformable alignment, 提升了性能
+
+#### DCN
+**[Paper]**  (AAAI 2021) Understanding Deformable Alignment in Video Super-Resolution <Br>
+**[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ke Yu](https://yuke93.github.io/), Chao Dong, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)   <Br>
+**[[Project](https://ckkelvinchan.github.io/projects/DCN/)]** **[[Pytorch-Code](https://github.com/ckkelvinchan/offset-fidelity-loss)]** <Br>
 	
 #### MIMO-VRN
 **[Paper]**  (CVPR 2021) Video Rescaling Networks with Joint Optimization Strategies for Downscaling and Upscaling <Br>
