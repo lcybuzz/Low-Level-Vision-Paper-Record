@@ -35,7 +35,7 @@
 **[[Pytorch-Code](https://github.com/dvlab-research/MASA-SR)]**   <Br>
 
 #### GLEAN 
-**[Paper]** (CVPR 2021) GLEAN: Generative Latent Bank for Large-Factor Image Super-Resolution <Br>
+**[Paper]** (CVPR 2021 Oral) GLEAN: Generative Latent Bank for Large-Factor Image Super-Resolution <Br>
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Xiangyu Xu](https://sites.google.com/view/xiangyuxu/), [Jinwei Gu](https://www.gujinwei.org/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/)   <Br>
 **[[Project](https://ckkelvinchan.github.io/projects/GLEAN/)]**   <Br>
 
@@ -51,7 +51,7 @@
 
 #### Cross-MPI
 **[Paper]**  (CVPR 2021) Cross-MPI: Cross-scale Stereo for Image Super-Resolution using Multiplane Images <Br>
-**[Author]**Yuemei Zhou, Gaochang Wu, Ying Fu, Kun Li, [Yebin Liu](http://www.liuyebin.com/) <Br>
+**[Author]** Yuemei Zhou, Gaochang Wu, Ying Fu, Kun Li, [Yebin Liu](http://www.liuyebin.com/) <Br>
 **[[Project](http://www.liuyebin.com/crossMPI/crossMPI.html)]**  <Br>
 
 #### ClassSR
@@ -68,6 +68,11 @@
 **[Paper]**  (CVPR 2021) Unsupervised Degradation Representation Learning for Blind Super-Resolution <Br>
 **[Author]** [Longguang Wang](https://longguangwang.github.io/), [Yingqian Wang](https://yingqianwang.github.io/), Xiaoyu Dong, Qingyu Xu, Jungang Yang, Wei An, [Yulan Guo](http://yulanguo.me/) <Br>
 **[[Pytorch-Code](https://github.com/LongguangWang/DASR)]**  <Br>
+
+#### C2-Matching
+**[Paper]**  (CVPR 2021) Robust Reference-based Super-Resolution via C²-Matching <Br>
+**[Author]** [Yuming Jiang](https://yumingj.github.io/), [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/), [Ziwei Liu](https://liuziwei7.github.io/) <Br>
+**[[Project](https://yumingj.github.io/projects/C2_matching)]**  **[[Pytorch-Code](https://github.com/yumingj/C2-Matching)]**  <Br>
 
 #### AdderSR ★
 **[Paper]**  (CVPR 2021) AdderSR: Towards Energy Efficient Image Super-Resolution <Br>
