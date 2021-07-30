@@ -32,6 +32,11 @@
 **[[Pytorch-Code](https://github.com/swz30/MPRNet)]** <Br>
 多阶段结构, 用了attention等一些trick
 
+#### PANet 
+**[Paper]** (arXiv 2004) Pyramid Attention Networks for Image Restoration <Br>
+**[Author]** [Yiqun Mei](https://yiqunmei.net/), [Yuchen Fan](https://ychfan.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Jiahui Yu](https://jiahuiyu.com/), [Yuqian Zhou](https://yzhouas.github.io/), Ding Liu, Yun Fu, [Thomas S. Huang](http://ifp-uiuc.github.io/), [Humphrey Shi](https://www.humphreyshi.com/) <Br>
+**[[Pytorch-Code](https://github.com/SHI-Labs/Pyramid-Attention-Networks)]** <Br>
+	
 #### NSR
 **[Paper]** (NeurIPS 2020) Neural Sparse Representation for Image Restoration <Br>
 **[Author]** [Yuchen Fan](https://ychfan.github.io/), [Jiahui Yu](https://jiahuiyu.com/), [Yiqun Mei](https://yiqunmei.net/), [Yulun Zhang](http://yulunzhang.com/), Yun Fu, Ding Liu, [Thomas S. Huang](http://ifp-uiuc.github.io/) <Br>
