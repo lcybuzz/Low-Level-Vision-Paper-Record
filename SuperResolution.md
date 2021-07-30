@@ -24,6 +24,21 @@
 **[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Hyeonjun Sim](https://sites.google.com/view/hjsim), [Munchurl Kim]https://www.viclab.kaist.ac.kr/) <Br>
 **[[Pytorch-Code](https://github.com/hjSim/KOALAnet)]**   <Br>
 	
+#### AdaTarget
+**[Paper]** (CVPR 2021) Tackling the Ill-Posedness of Super-Resolution through Adaptive Target Generation <Br>
+**[Author]** [Younghyun Jo](https://yhjo09.github.io/), [Seoung Wug Oh], [Peter Vajda](https://sites.google.com/site/vajdap/), [Seon Joo Kim](https://sites.google.com/site/seonjookim/) <Br>
+**[[Pytorch-Code](https://github.com/yhjo09/AdaTarget)]**   <Br>
+
+#### SR-LUT
+**[Paper]** (CVPR 2021) Tackling the Ill-Posedness of Super-Resolution through Adaptive Target Generation <Br>
+**[Author]** [Younghyun Jo](https://yhjo09.github.io/), [Seon Joo Kim](https://sites.google.com/site/seonjookim/) <Br>
+**[[Pytorch-Code](https://github.com/yhjo09/SR-LUT)]**   <Br>
+
+#### SRFlow-DA
+**[Paper]** (CVPRW 2021) SRFlow-DA: Super-Resolution Using Normalizing Flow with Deep Convolutional Block <Br>
+**[Author]** [Younghyun Jo](https://yhjo09.github.io/), [Sejong Yang](https://yangspace.co.kr/), [Seon Joo Kim](https://sites.google.com/site/seonjookim/) <Br>
+**[[Pytorch-Code](https://github.com/yhjo09/SRFlow-DA)]**   <Br>
+	
 #### SRWarp
 **[Paper]** (CVPR 2021) SRWarp: Generalized Image Super-Resolution under Arbitrary Transformation <Br>
 **[Author]** [Sanghyun Son](https://cv.snu.ac.kr/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
