@@ -3,6 +3,11 @@
 
 
 #  Image Super Resolution
+#### Real-ESRGAN
+**[Paper]**  (arXiv 2107) Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data <Br>
+**[Author]** [Xintao Wang](https://xinntao.github.io/), Liangbie Xie, Chao Dong, Ying Shan <Br>
+**[[Pytorch-Code](https://github.com/xinntao/Real-ESRGAN)]**   <Br>
+	
 #### GhostSR ★☆
 **[Paper]**  (arXiv 2101) GhostSR: Learning Ghost Features for Efficient Image Super-Resolution <Br>
 **[Author]** Ying Nie, Kai Han, Zhenhua Liu, An Xiao, Yiping Deng, Chunjing Xu, Yunhe Wang <Br>
