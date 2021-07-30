@@ -19,6 +19,11 @@
 **[[Unofficial-Pytorch-Code](https://github.com/deepconsc/SplitSR)]**  <Br>
 (**轻量级超分**) 提出了一个轻量级residual block结构: SplitSRBlock
 
+#### Non-Local-Sparse-Attention
+**[Paper]** (CVPR 2021) Image Super-Resolution With Non-Local Sparse Attention <Br>
+**[Author]** [Yiqun Mei](https://yiqunmei.net/), [Yuchen Fan](https://ychfan.github.io/), [Yuqian Zhou](https://yzhouas.github.io/) <Br>
+**[[Pytorch-Code](https://github.com/HarukiYqM/Non-Local-Sparse-Attention)]**   <Br>
+	
 #### KOALAnet
 **[Paper]** (CVPR 2021) KOALAnet: Blind Super-Resolution using Kernel-Oriented Adaptive Local Adjustment <Br>
 **[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Hyeonjun Sim](https://sites.google.com/view/hjsim), [Munchurl Kim]https://www.viclab.kaist.ac.kr/) <Br>
