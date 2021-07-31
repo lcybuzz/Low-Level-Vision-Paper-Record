@@ -431,6 +431,15 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 
 
 # De-raining
+#### CCN 
+**[Paper]**  (CVPR 2021) Removing Raindrops and Rain Streaks in One Go <Br>
+**[Author]** Ruijie Quan, [Xin Yu](https://sites.google.com/view/xinyus-homepage/Home), Yuanzhi Liang, [Yi Yang](http://reler.net/) <Br>
+
+#### VRGNet
+**[Paper]**  (CVPR 2021) From Rain Generation to Rain Removal <Br>
+**[Author]** [Hong Wang](https://hongwang01.github.io/), [Zongsheng Yue](https://github.com/zsyOAOA), Qi Xie, Qian Zhao, [Yefeng Zheng](https://sites.google.com/site/yefengzheng), [Deyu Meng](http://gr.xjtu.edu.cn/web/dymeng)  <Br>
+**[[Pytorch-Code](https://github.com/hongwang01/VRGNet)]**<Br>
+	
 #### Syn2Real ★★
 **[Paper]**  (CVPR 2020) Syn2Real Transfer Learning for Image Deraining using Gaussian Processes<Br>
 **[Author]** [Rajeev Yasarla](https://sites.google.com/view/rajeevyasarla/home), [Vishwanath A. Sindagi](https://www.vishwanathsindagi.com/), [Vishal M. Patel](https://engineering.jhu.edu/ece/faculty/vishal-m-patel/) <Br>
