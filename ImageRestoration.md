@@ -92,6 +92,11 @@
 **[Author]**  [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en)  <Br>
 **[[Pytorch-Code](https://github.com/swz30/MIRNet)]**  <Br>
 提出了一个就多尺度特征融合的网络用于去噪, 超分, 增强等任务. 使用attention的思想设计了很多模块, 性能不错, 在各种任务上适用性看起来较强
+	
+#### *Bringing Old Photos Back to Life* ★★☆
+**[Paper]** (CVPR 2020 Oral) Bringing Old Photos Back to Life <Br>
+**[Author]** [Ziyu Wan](http://raywzy.com/), [Bo Zhang](https://www.microsoft.com/en-us/research/people/zhanbo/), [Dongdong Chen](http://www.dongdongchen.bid/), [Pan Zhang](https://panzhang0212.github.io/), [Dong Chen](https://www.microsoft.com/en-us/research/people/doch/), [Jing Liao](https://liaojing.github.io/html/), [Fang Wen](https://www.microsoft.com/en-us/research/people/fangwen/)  <Br>
+**[[Project](http://raywzy.com/Old_Photo/)]** <Br>**(无监督, domain transfer)**  无监督老照片恢复, 用生成的老照片训练, 在真实老照片上取得好效果. 使用一个VAE将真实和生成的照片映射到相近的空间, 第二个VAE负责恢复无损照片, 中间还有一些映射等操作. 
 
 #### DualCNN ★
 **[Paper]**  (CVPR 2018) Learning Dual Convolutional Neural Networks for Low-Level Vision  <Br>
