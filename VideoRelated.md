@@ -371,6 +371,11 @@
 
 
 # Video Inpainting
+#### TSAM
+**[Paper]** (CVPR 2021) Progressive Temporal Feature Alignment Network for Video Inpainting <Br>
+**[Author]** Xueyan Zou, [Linjie Yang](https://sites.google.com/site/linjieyang89/), Ding Liu, [Yong Jae Lee](https://web.cs.ucdavis.edu/~yjlee/) <Br>
+**[[Pytorch-Code]](https://github.com/MaureenZOU/TSAM)]** 
+
 #### Short-Term and Long-Term Context Aggregation Network for Video Inpainting
 **[Paper]** (ECCV 2020) Short-Term and Long-Term Context Aggregation Network for Video Inpainting <Br>
 **[Author]** [Ang Li](https://angliunimelb.github.io/), [Shanshan Zhao](https://sshan-zhao.github.io/), [Xingjun Ma](http://xingjunma.com/), [Mingming Gong](https://mingming-gong.github.io/), [Jianzhong Qi](https://people.eng.unimelb.edu.au/jianzhongq/), [Rui Zhang](http://www.ruizhang.info/), [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html), [Ramamohanarao Kotagirig](http://www.cloudbus.org/rao/) <Br>
