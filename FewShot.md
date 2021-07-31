@@ -14,7 +14,7 @@
 **[Author]** Wenchao Du, Hu Chen, Hongyu Yang  <Br>
 **[[Pytorch-Code](https://github.com/Wenchao-Du/LIR-for-Unsupervised-IR)]** <Br>**(无监督, domain transfer)**  无监督图像恢复, 使用了GAN, 设计了各种loss
 
-#### *Bringing Old Photos Back to Life* ★☆
+#### *Bringing Old Photos Back to Life* ★★☆
 **[Paper]** (CVPR 2020 Oral) Bringing Old Photos Back to Life <Br>
 **[Author]** [Ziyu Wan](http://raywzy.com/), [Bo Zhang](https://www.microsoft.com/en-us/research/people/zhanbo/), [Dongdong Chen](http://www.dongdongchen.bid/), [Pan Zhang](https://panzhang0212.github.io/), [Dong Chen](https://www.microsoft.com/en-us/research/people/doch/), [Jing Liao](https://liaojing.github.io/html/), [Fang Wen](https://www.microsoft.com/en-us/research/people/fangwen/)  <Br>
 **[[Project](http://raywzy.com/Old_Photo/)]** <Br>**(无监督, domain transfer)**  无监督老照片恢复, 用生成的老照片训练, 在真实老照片上取得好效果. 使用一个VAE将真实和生成的照片映射到相近的空间, 第二个VAE负责恢复无损照片, 中间还有一些映射等操作. 
