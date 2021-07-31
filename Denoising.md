@@ -6,6 +6,11 @@
 
 
 ## Image Denoising
+##### FBI-Denoiser
+**[Paper]** (CVPR 2021) FBI-Denoiser: Fast Blind Image Denoiser for Poisson-Gaussian Noise <Br>
+**[Author]** Jaeseok Byun, [Sungmin Cha](https://sites.google.com/view/sungmin-cha/), [Taesup Moon](https://mindlab-snu.github.io/) <Br>
+**[[Pytorch-Code](https://github.com/csm9493/FBI-Denoiser)]**  <Br>
+	
 ##### Invertible Image Denoising
 **[Paper]** (CVPR 2021) Invertible Denoising Network: A Light Solution for Real Noise Removal <Br>
 **[Author]** Yang Liu, Zhenyue Qin, [Saeed Anwar](https://saeed-anwar.github.io/), [Pan Ji](https://sites.google.com/view/panji530), [Dongwoo Kim](http://dongwookim-ml.github.io/), [Sabrina Caldwell](https://thephotographicalist.wordpress.com/), [Tom Gedeon](http://users.cecs.anu.edu.au/~Tom.Gedeon/) <Br>
