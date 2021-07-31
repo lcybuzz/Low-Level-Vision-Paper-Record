@@ -21,7 +21,11 @@
 **[Paper]**  (AAAI 2021) Understanding Deformable Alignment in Video Super-Resolution <Br>
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ke Yu](https://yuke93.github.io/), Chao Dong, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)   <Br>
 **[[Project](https://ckkelvinchan.github.io/projects/DCN/)]** **[[Pytorch-Code](https://github.com/ckkelvinchan/offset-fidelity-loss)]** <Br>
-	
+
+#### STD
+**[Paper]**  (CVPR 2021) Space-Time Distillation for Video Super-Resolution <Br>
+**[Author]** Zeyu Xiao, [Xueyang Fu](https://xueyangfu.github.io/), Jie Huang, Zhen Cheng, Zhiwei Xiong <Br>
+
 #### MIMO-VRN
 **[Paper]**  (CVPR 2021) Video Rescaling Networks with Joint Optimization Strategies for Downscaling and Upscaling <Br>
 **[Author]**  [Yan-Cheng Huang](https://www.linkedin.com/in/hyancheng96),  [Yi-Hsin Chen](mailto:yhchen12101@gmail.com),  [Cheng-You Lu](https://johnnylu305.github.io), [Hui-Po Wang](https://a514514772.github.io), [Wen-Hsiao Peng](https://sites.google.com/g2.nctu.edu.tw/wpeng/cv), [Ching-Chun Huang](http://acm.cs.nctu.edu.tw/Home.aspx)   <Br>
