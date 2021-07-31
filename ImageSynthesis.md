@@ -217,8 +217,15 @@
 	
 
 
+	
+	
 
 # Image Manipulation
+#### DeFLOCNet
+**[Paper]**  (CVPR 2021) DeFLOCNet: Deep Image Editing via Flexible Low-level Controls <Br>
+**[Author]** [Hongyu Liu](https://github.com/KumapowerLIU/DeFLOCNet#jump1), [Ziyu Wan](http://raywzy.com/), [Wei Huang](https://github.com/KumapowerLIU/DeFLOCNet#jump1), [Yibing Song](https://ybsong00.github.io/), [Xintong Han](http://users.umiacs.umd.edu/~xintong/) , [Jing Liao](https://liaojing.github.io/html/), [Bin Jiang](https://github.com/KumapowerLIU/DeFLOCNet#jump1), [Wei Liu](https://scholar.google.com/citations?user=AjxoEpIAAAAJ&hl=zh-CN)  <Br>
+**[[Pytorch-Code](https://github.com/KumapowerLIU/DeFLOCNet)]**  <Br>
+	
 #### HiSD ★★
 **[Paper]**  (CVPR 2021 Oral) HiSD: Image-to-image Translation via Hierarchical Style Disentanglement <Br>
 **[Author]** Xinyang Li, Shengchuan Zhang, Jie Hu, Liujuan Cao, [Xiaopeng Hong](https://hongxiaopeng.com/), [Xudong Mao](https://xudongmao.github.io/), Feiyue Huang, Yongjian Wu, [Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/)  <Br>
