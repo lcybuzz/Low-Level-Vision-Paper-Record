@@ -19,6 +19,11 @@
 **[[Unofficial-Pytorch-Code](https://github.com/deepconsc/SplitSR)]**  <Br>
 (**轻量级超分**) 提出了一个轻量级residual block结构: SplitSRBlock
 
+#### sr-uncertainty
+**[Paper]** (CVPR 2021) Fast Bayesian Uncertainty Estimation and reduction of Batch Normalized Single Image Super-Resolution Network <Br>
+**[Author]** [Aupendu Kar](https://aupendu.github.io/), [Prabir Kumar Biswas](http://www.ecdept.iitkgp.ac.in/Eece/facultydetails/ece-pkb) <Br>
+**[[Project](https://aupendu.github.io/sr-uncertainty)]** **[[Pytorch-Code](https://github.com/aupendu/sr-uncertainty)]**    <Br>
+	
 #### BURSTSR
 **[Paper]** (CVPR 2021) Deep Burst Super-Resolution <Br>
 **[Author]** [Goutam Bhat](https://goutamgmb.github.io/), [Martin Danelljan](https://martin-danelljan.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](https://people.ee.ethz.ch/~timofter/) <Br>
