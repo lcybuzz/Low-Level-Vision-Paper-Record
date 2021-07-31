@@ -19,6 +19,11 @@
 **[[Unofficial-Pytorch-Code](https://github.com/deepconsc/SplitSR)]**  <Br>
 (**轻量级超分**) 提出了一个轻量级residual block结构: SplitSRBlock
 
+#### BURSTSR
+**[Paper]** (CVPR 2021) Deep Burst Super-Resolution <Br>
+**[Author]** [Goutam Bhat](https://goutamgmb.github.io/), [Martin Danelljan](https://martin-danelljan.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](https://people.ee.ethz.ch/~timofter/) <Br>
+**[[Pytorch-Code](https://github.com/goutamgmb/NTIRE21_BURSTSR)]**   <Br>
+	
 #### DASR
 **[Paper]** (CVPR 2021) Unsupervised Real-World Image Super Resolution via Domain-Distance Aware Training <Br>
 **[Author]** Yunxuan Wei, [Shuhang Gu](https://shuhanggu.github.io/), [Yawei Li](https://ofsoundof.github.io/), Longcun Jin <Br>
@@ -39,6 +44,10 @@
 **[Author]** [Younghyun Jo](https://yhjo09.github.io/), [Seoung Wug Oh], [Peter Vajda](https://sites.google.com/site/vajdap/), [Seon Joo Kim](https://sites.google.com/site/seonjookim/) <Br>
 **[[Pytorch-Code](https://github.com/yhjo09/AdaTarget)]**   <Br>
 
+#### Single Pair Cross-Modality
+**[Paper]** (CVPR 2021) Single Pair Cross-Modality Super Resolution <Br>
+**[Author]** Guy Shacht, Dov Danon, Sharon Fogel, Daniel Cohen-Or <Br>
+	
 #### SR-LUT
 **[Paper]** (CVPR 2021) Tackling the Ill-Posedness of Super-Resolution through Adaptive Target Generation <Br>
 **[Author]** [Younghyun Jo](https://yhjo09.github.io/), [Seon Joo Kim](https://sites.google.com/site/seonjookim/) <Br>
@@ -117,6 +126,10 @@
 #### Data-Free Knowledge Distillation For Image Super-Resolution
 **[Paper]**  (CVPR 2021) Data-Free Knowledge Distillation For Image Super-Resolution <Br>
 **[Author]** Yiman Zhang, Hanting Chen, Xinghao Chen, Yiping Deng, Chunjing Xu, [Yunhe Wang](https://www.wangyunhe.site/) <Br>
+	
+#### AMNet
+**[Paper]** (CVPR 2021) Learning the Non-Differentiable Optimization for Blind Super-Resolution <Br>
+**[Author]** Zheng Hui, Jie Li, Xiumei Wang, [Xinbo Gao](https://see.xidian.edu.cn/faculty/xbgao/) <Br>
 
 #### FCA ★
 **[Paper]**  (AAAI 2021) Frequency Consistent Adaptation for RealWorld Super Resolution <Br>
