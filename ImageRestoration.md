@@ -411,6 +411,21 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 **[Author]** [Ziyu Wan](http://raywzy.com/), Jingbo Zhang, [Dongdong Chen](http://www.dongdongchen.bid/), [Jing Liao](https://liaojing.github.io/html/index.html) <Br>
 **[[Project](https://zengxianyu.github.io/iic/)]**  **[[Pytorch-Code](https://github.com/raywzy/ICT)]**  <Br>
 	
+#### EII
+**[Paper]** (CVPR 2021) Generating Diverse Structure for Image Inpainting with Hierarchical VQ-VAE <Br>
+**[Author]** Tengfei Wang, Hao Ouyang, [Qifeng Chen](https://cqf.io/) <Br>
+**[[Project](https://tengfei-wang.github.io/EII/index.html/)]** **[[Pytorch-Code](https://github.com/Tengfei-Wang/external-internal-inpainting)]**  <Br>
+
+#### Diverse-Structure-Inpainting
+**[Paper]** (CVPR 2021) Generating Diverse Structure for Image Inpainting with Hierarchical VQ-VAE <Br>
+**[Author]** Jialun Peng, [Dong Liu](http://staff.ustc.edu.cn/~dongeliu/), [Songcen Xu](http://www.xusongcen.com/), [Houqiang Li](http://staff.ustc.edu.cn/~lihq/) <Br>
+**[[Pytorch-Code](https://github.com/USTC-JialunPeng/Diverse-Structure-Inpainting)]**  <Br>
+	
+#### TransFill
+**[Paper]** (CVPR 2021) TransFill: Reference-guided Image Inpainting by Merging Multiple Color and Spatial Transformations <Br>
+**[Author]** [Yuqian Zhou](https://yzhouas.github.io/), [Connelly Barnes](http://www.connellybarnes.com/work/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), Sohrab Amirghodsi <Br>
+**[[Project](https://yzhouas.github.io/projects/TransFill/index.html)]** **[[Pytorch-Code](https://github.com/yzhouas/TransFill-Reference-Inpainting)]**  <Br>
+		
 #### PD-GAN
 **[Paper]** (CVPR 2021) PD-GAN:Probabilistic Diverse GAN for Image Inpainting <Br>
 **[Author]** Hongyu Liu, [Ziyu Wan](http://raywzy.com/), Wei Huang, [Yibing Song](https://ybsong00.github.io/), Xintong Han, [Jing Liao](https://liaojing.github.io/html/index.html) <Br>
