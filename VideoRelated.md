@@ -5,6 +5,7 @@
 - [Video Stabilization](#video-stabilization)
 - [Video Denoising](#video-denoising)
 - [Video Debluring](#video-debluring)
+- [Video Deraining](#video-deraining)
 - [Video Dehazing](#video-dehazing)
 - [Video Inpainting](#video-inpainting)
 - [Useful Resources](#useful-resources)
@@ -353,11 +354,16 @@
 
 
 
-
+# Video Deraining
+#### S2VD
+**[Paper]** (CVPR 2021) Semi-supervised Video Deraining with Dynamical Rain Generator  <Br>
+**[Author]** Zongsheng Yue, [Jianwen Xie](http://www.stat.ucla.edu/~jxie/), Qian Zhao, [Deyu Meng](http://gr.xjtu.edu.cn/web/dymeng/1) <Br>	
+**[[Pytorch-Code](https://github.com/zsyOAOA/S2VD)]** <Br>
+	
 
 # Video Dehazing
 #### Restore Hazy Video
-**[Paper]** (CVPR 2021)Learning to Restore Hazy Video: A New Real-World Dataset and A New Method <Br>
+**[Paper]** (CVPR 2021) Learning to Restore Hazy Video: A New Real-World Dataset and A New Method <Br>
 **[Author]**  [Xinyi Zhang](https://sites.cs.ucsb.edu/~xyzhang/), Hang Dong, [Jinshan Pan](https://jspan.github.io/), Chao Zhu, [Ying Tai](https://tyshiwo.github.io/), Chengjie Wang, Jilin Li, Feiyue Huang, Fei Wang <Br>
 
 
