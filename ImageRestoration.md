@@ -401,6 +401,16 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 
 
 # Image Inpainting
+#### ICT
+**[Paper]** (ICCV 2021) High-Fidelity Pluralistic Image Completion with Transformers <Br>
+**[Author]** [Ziyu Wan](http://raywzy.com/), Jingbo Zhang, [Dongdong Chen](http://www.dongdongchen.bid/), [Jing Liao](https://liaojing.github.io/html/index.html) <Br>
+**[[Project](https://zengxianyu.github.io/iic/)]**  **[[Pytorch-Code](https://github.com/raywzy/ICT)]**  <Br>
+	
+#### PD-GAN
+**[Paper]** (CVPR 2021) PD-GAN:Probabilistic Diverse GAN for Image Inpainting <Br>
+**[Author]** Hongyu Liu, [Ziyu Wan](http://raywzy.com/), Wei Huang, [Yibing Song](https://ybsong00.github.io/), Xintong Han, [Jing Liao](https://liaojing.github.io/html/index.html) <Br>
+**[[Pytorch-Code](https://github.com/KumapowerLIU/PD-GAN)]**  <Br>
+	
 #### Rethinking-Inpainting-MEDFE
 **[Paper]** (ECCV 2020 Oral) Rethinking Image Inpainting via a Mutual Encoder-Decoder with Feature Equalizations<Br>
 **[Author]** Hongyu Liu, Bin Jiang, [Yibing Song](https://ybsong00.github.io/), Wei Huang, Chao Yang <Br>
