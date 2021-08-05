@@ -44,17 +44,18 @@
 **[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Hyeonjun Sim](https://sites.google.com/view/hjsim), [Munchurl Kim]https://www.viclab.kaist.ac.kr/) <Br>
 **[[Pytorch-Code](https://github.com/hjSim/KOALAnet)]**   <Br>
 	
-#### AdaTarget
+#### AdaTarget ★
 **[Paper]** (CVPR 2021) Tackling the Ill-Posedness of Super-Resolution through Adaptive Target Generation <Br>
 **[Author]** [Younghyun Jo](https://yhjo09.github.io/), [Seoung Wug Oh], [Peter Vajda](https://sites.google.com/site/vajdap/), [Seon Joo Kim](https://sites.google.com/site/seonjookim/) <Br>
 **[[Pytorch-Code](https://github.com/yhjo09/AdaTarget)]**   <Br>
+认为在SR任务中, HR和LR位置并不是完全对应的, 因此设计了一个ART模块, 对GT patch进行仿射变换, 使LR和HRpair更加匹配
 
 #### Single Pair Cross-Modality
 **[Paper]** (CVPR 2021) Single Pair Cross-Modality Super Resolution <Br>
 **[Author]** Guy Shacht, Dov Danon, Sharon Fogel, Daniel Cohen-Or <Br>
 	
 #### SR-LUT
-**[Paper]** (CVPR 2021) Tackling the Ill-Posedness of Super-Resolution through Adaptive Target Generation <Br>
+**[Paper]** (CVPR 2021) Practical Single-Image Super-Resolution Using Look-Up Table <Br>
 **[Author]** [Younghyun Jo](https://yhjo09.github.io/), [Seon Joo Kim](https://sites.google.com/site/seonjookim/) <Br>
 **[[Pytorch-Code](https://github.com/yhjo09/SR-LUT)]**   <Br>
 
