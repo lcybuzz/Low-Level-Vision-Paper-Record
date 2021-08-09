@@ -10,6 +10,12 @@
 - [Pruning](#pruning)
   
 # Network
+### RepVGG ★
+**[Paper]**  (CVPR 2021)Repvgg: Making vgg-style convnets great again   <Br>
+**[Author]** Xiaohan Ding, Xiangyu Zhang, [Ningning Ma](https://www.cse.ust.hk/~nmaac/), [Jungong Han](https://sites.google.com/site/jungonghan77/), Guiguang Ding, [Jian Sun](http://www.jiansun.org/) <Br>
+**[[Pytorch-Code](https://github.com/DingXiaoH/RepVGG)]** <Br>
+训练时加入并行1x1 conv和shortcut, 推理时间其合并成一个conv
+
 ### ResNeSt ★★
 **[Paper]**  (arXiv 2004) ResNeSt: Split-Attention Networks   <Br>
 **[Author]** [Hang Zhang](https://hangzhang.org/), Chongruo Wu, [Zhongyue Zhang](http://zhongyuezhang.com/), [Yi Zhu](https://sites.google.com/view/yizhu/home), Zhi Zhang, [Haibin Lin](https://sites.google.com/view/haibinlin/), [Yue Sun](https://aptsunny.github.io/), [Tong He](https://hetong007.github.io/), [Jonas Muller](https://people.csail.mit.edu/jonasmueller/), R. Manmatha, [Mu Li](https://www.cs.cmu.edu/~muli/), [Alex Smola](http://alex.smola.org/) <Br>
