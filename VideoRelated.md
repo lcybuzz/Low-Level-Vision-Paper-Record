@@ -146,10 +146,11 @@
 **[[Project](https://myungsub.github.io/CAIN/)]** **[[Pytorch-Code](https://github.com/myungsub/CAIN)]** <Br>
 (插帧) 设计了一个pixelshuffle + attention residual block的网络, 无需光流估计和warp操作.
 
-#### RRIN
+#### RRIN ★
 **[Paper]** (ICASSP  2020) Video Frame Interpolation Via Residue Refinement <Br>
 **[Author]** Haopeng Li, Yuan Yuan, [Qi Wang](http://crabwq.github.io/#top) <Br>
 **[[Pytorch-Code](https://github.com/HopLee6/RRIN)]** <Br>
+残差和UNet结构预测光流, warp, refine
 
 #### BMBC
 **[Paper]** (ECCV 2020) BMBC: Bilateral Motion Estimation with Bilateral Cost Volume for Video Interpolation <Br>
