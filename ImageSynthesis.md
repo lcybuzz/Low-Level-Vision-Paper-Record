@@ -113,6 +113,11 @@
 	
 	
 # Image Translation
+#### CoCosNet-v2
+**[Paper]**  (CVPR 2021 Oral) CoCosNet v2: Full-Resolution Correspondence Learning for Image Translation <Br>
+**[Author]** [Xingran Zhou](http://xingranzh.github.io/), [Bo Zhang](https://bo-zhang.me/), [Ting Zhang](https://www.microsoft.com/en-us/research/people/tinzhan/), [Pan Zhang](https://panzhang0212.github.io/), [Jianmin Bao](https://jianminbao.github.io/), [Dong Chen](https://www.microsoft.com/en-us/research/people/doch/), [Zhongfei Zhang](https://www.cs.binghamton.edu/~zhongfei/), [Fang Wen](https://www.microsoft.com/en-us/research/people/fangwen/)   <Br>
+**[[Pytorch-Code](https://github.com/microsoft/CoCosNet-v2)]**  <Br>
+
 #### LPTN
 **[Paper]**  (CVPR 2021) High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network <Br>
 **[Author]** [Tamar Rott Shaham](https://tamarott.github.io/), [Michaël Gharbi](http://www.mgharbi.com/), [Richard Zhang](http://richzhang.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Tomer Michaeli](https://tomer.net.technion.ac.il/)  <Br>
@@ -125,7 +130,7 @@
 (**快速图像生成**) 在小分辨率(降32倍)上预测每个pixel的MLP映射系数, 将位置信息编码为不同频率的sin, cosine信息, 提升了生成图像的细节. 论文很有实际意义, 值得学习. 
 
 #### *Few-shot Image Generation*
-**[Paper]**  (CVPR 2021) Spatially-Adaptive Pixelwise Networks for Fast Image Translation <Br>
+**[Paper]**  (CVPR 2021) Few-shot Image Generation via Cross-domain Correspondence <Br>
 **[Author]** [Utkarsh Ojha](https://utkarshojha.github.io/) , [Yijun Li](https://yijunmaverick.github.io/), [Jingwan Lu](https://research.adobe.com/person/jingwan-lu/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/), [Yong Jae Lee](https://web.cs.ucdavis.edu/~yjlee/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Richard Zhang](https://richzhang.github.io/)  <Br>
 **[[Project](https://utkarshojha.github.io/few-shot-gan-adaptation/)]**  **[[Pytorch-Code](https://github.com/utkarshojha/few-shot-gan-adaptation)]**  <Br>
 	
