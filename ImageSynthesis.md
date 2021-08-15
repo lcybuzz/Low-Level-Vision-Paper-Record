@@ -113,6 +113,16 @@
 	
 	
 # Image Translation
+#### F-LSeSim
+**[Paper]**  (CVPR 2021) Unpaired Image-to-Image Translation via Latent Energy Transport <Br>
+**[Author]** [Chuanxia Zheng](https://lyndonzheng.github.io/), [Tat-Jen Cham](https://personal.ntu.edu.sg/astjcham/), [Jianfei Cai](https://jianfei-cai.github.io/)    <Br>
+**[[Project](http://www.chuanxiaz.com/publication/flsesim/)]** **[[Pytorch-Code](https://github.com/lyndonzheng/F-LSeSim)]**  <Br>
+
+####  Latent Energy Transport
+**[Paper]**  (CVPR 2021) Unpaired Image-to-Image Translation via Latent Energy Transport <Br>
+**[Author]** [Yang Zhao](https://sites.google.com/view/zhao-yang/), Jianwen Xie, Ping Li  <Br>
+**[[Pytorch-Code](https://github.com/YangNaruto/latent-energy-transport)]**  <Br>
+
 #### CoCosNet-v2
 **[Paper]**  (CVPR 2021 Oral) CoCosNet v2: Full-Resolution Correspondence Learning for Image Translation <Br>
 **[Author]** [Xingran Zhou](http://xingranzh.github.io/), [Bo Zhang](https://bo-zhang.me/), [Ting Zhang](https://www.microsoft.com/en-us/research/people/tinzhan/), [Pan Zhang](https://panzhang0212.github.io/), [Jianmin Bao](https://jianminbao.github.io/), [Dong Chen](https://www.microsoft.com/en-us/research/people/doch/), [Zhongfei Zhang](https://www.cs.binghamton.edu/~zhongfei/), [Fang Wen](https://www.microsoft.com/en-us/research/people/fangwen/)   <Br>
