@@ -6,6 +6,16 @@
 
 
 # Image Synthesis
+#### Im2Vec
+**[Paper]**  (CVPR 2021 Oral) Im2Vec Synthesizing Vector Graphics without Vector Supervision <Br>
+**[Author]** [Pradyumna Reddy](https://preddy5.github.io/), [Michael Gharbi](http://www.mgharbi.com/), [Michal Lukac](https://research.adobe.com/person/michal-lukac/), [Niloy J. Mitra](http://www0.cs.ucl.ac.uk/staff/n.mitra/)  <Br>
+**[[Project](http://geometry.cs.ucl.ac.uk/projects/2021/im2vec/)]**   **[[Pytorch-Code](https://github.com/preddy5/Im2Vec)]**  <Br>
+	
+#### CIPS
+**[Paper]**  (CVPR 2021 Oral) Image Generators with Conditionally-Independent Pixel Synthesis <Br>
+**[Author]** Ivan Anokhin, Kirill Demochkin, Taras Khakhulin, Gleb Sterkin, [Victor Lempitsky](http://sites.skoltech.ru/compvision/members/vilem/), Denis Korzhenkov  <Br>
+**[[Pytorch-Code](https://github.com/saic-mdal/CIPS)]**  <Br>
+	
 #### Anycost GAN
 **[Paper]**  (CVPR 2021) Anycost GANs for Interactive Image Synthesis and Editing <Br>
 **[Author]** [Ji Lin](http://linji.me/), [Richard Zhang](https://richzhang.github.io/), Frieder Ganz, [Song Han](https://songhan.mit.edu/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/)  <Br>
