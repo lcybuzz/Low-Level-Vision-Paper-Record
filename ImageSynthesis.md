@@ -123,6 +123,11 @@
 	
 	
 # Image Translation
+#### AgileGAN
+**[Paper]**  (SIGGRAPH 2021) AgileGAN: Stylizing Portraits by Inversion-Consistent Transfer Learning <Br>
+**[Author]** [Guoxian Song](https://guoxiansong.github.io/homepage/index.html), [Linjie Luo](http://linjieluo.com/), [Jing Liu](https://www.jingliu.net/), [Wan-Chun Ma](https://en.wikipedia.org/wiki/Alex_Ma), [Chunpong Lai](https://guoxiansong.github.io/homepage/index.html), [Chuanxia Zheng](https://www.chuanxiaz.com/), [Tat-Jen Cham](https://www.ntu.edu.sg/home/astjcham/)   <Br>
+**[[Project](https://guoxiansong.github.io/homepage/agilegan.html)]**  <Br>
+
 #### F-LSeSim
 **[Paper]**  (CVPR 2021) Unpaired Image-to-Image Translation via Latent Energy Transport <Br>
 **[Author]** [Chuanxia Zheng](https://lyndonzheng.github.io/), [Tat-Jen Cham](https://personal.ntu.edu.sg/astjcham/), [Jianfei Cai](https://jianfei-cai.github.io/)    <Br>
