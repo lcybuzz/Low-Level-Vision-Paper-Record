@@ -6,6 +6,11 @@
 
 
 # Image Synthesis
+#### GANSketching
+**[Paper]**  (ICCV 2021) Im2Vec Synthesizing Vector Graphics without Vector Supervision <Br>
+**[Author]** [Sheng-Yu Wang](https://peterwang512.github.io/), [David Bau](https://people.csail.mit.edu/davidbau/home/), [Jun-Yan Zhu](https://cs.cmu.edu/~junyanz)  <Br>
+**[[Project](https://peterwang512.github.io/GANSketching/)]**   **[[Pytorch-Code](https://github.com/PeterWang512/GANSketching)]**  <Br>
+	
 #### Im2Vec
 **[Paper]**  (CVPR 2021 Oral) Im2Vec Synthesizing Vector Graphics without Vector Supervision <Br>
 **[Author]** [Pradyumna Reddy](https://preddy5.github.io/), [Michael Gharbi](http://www.mgharbi.com/), [Michal Lukac](https://research.adobe.com/person/michal-lukac/), [Niloy J. Mitra](http://www0.cs.ucl.ac.uk/staff/n.mitra/)  <Br>
