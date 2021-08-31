@@ -7,6 +7,7 @@
 - [Video Debluring](#video-debluring)
 - [Video Deraining](#video-deraining)
 - [Video Dehazing](#video-dehazing)
+- [Video Matting](#video-matting)
 - [Video Inpainting](#video-inpainting)
 - [Useful Resources](#useful-resources)
 
@@ -397,6 +398,12 @@
 **[[Project]](https://sites.google.com/view/sibozhang/dvi)]** **[[Code]](https://github.com/sibozhang/Depth-Guided-Inpainting)]** 
 
 
+	
+# Video Matting
+#### RVM
+**[Paper]** (arXiv 2108) Robust High-Resolution Video Matting with Temporal Guidance <Br>
+**[Author]** Shanchuan Lin, Linjie Yang, Imran Saleemi, [Soumyadip Sengupta](https://homes.cs.washington.edu/~soumya91/) <Br>
+**[[Project]](https://peterl1n.github.io/RobustVideoMatting/#/)]** **[[Pytorch-Code]](https://github.com/PeterL1n/RobustVideoMatting)]** 
 
 
 
