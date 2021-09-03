@@ -291,10 +291,11 @@
 
 
 # Style Transfer
-#### SWAG
+#### SWAG ★
 **[Paper]**  (CVPR 2021 Oral) Rethinking and Improving the Robustness of Image Style Transfer <Br>
 **[Author]** [Pei Wang](http://www.svcl.ucsd.edu/~peiwang), [Yijun Li](https://yijunmaverick.github.io/), [Nuno Vasconcelos](http://www.svcl.ucsd.edu/~nuno) <Br>
 **[[Pytorch-Code](https://github.com/peiwang062/swag)]**  <Br>
+实验说明resnet等网络使用的shotcut结构会产生大激活值和小的层间entropy, 不利于基于gram矩阵的loss计算. 因此提出了用softmax平滑激活值, 再用来计算loss.
 
 #### *Bilateral Style Transfer* ★★
 **[Paper]**  (ECCV 2020) Joint Bilateral Learning for Real-time Universal Photorealistic Style Transfer  <Br>
