@@ -19,6 +19,12 @@
 **[[Unofficial-Pytorch-Code](https://github.com/deepconsc/SplitSR)]**  <Br>
 (**轻量级超分**) 提出了一个轻量级residual block结构: SplitSRBlock
 
+#### ECBSR ★☆
+**[Paper]**  (MM 2021 Oral) About Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices <Br>
+**[Author]** Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+**[[Pytorch-Code](https://github.com/xindongzhang/ECBSR)]**  <Br>
+重参数化, 并行卷积模块+sobel/laplacian算子
+	
 #### sr-uncertainty
 **[Paper]** (CVPR 2021) Fast Bayesian Uncertainty Estimation and reduction of Batch Normalized Single Image Super-Resolution Network <Br>
 **[Author]** [Aupendu Kar](https://aupendu.github.io/), [Prabir Kumar Biswas](http://www.ecdept.iitkgp.ac.in/Eece/facultydetails/ece-pkb) <Br>
