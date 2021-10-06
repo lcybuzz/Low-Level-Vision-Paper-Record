@@ -373,6 +373,11 @@
 
 
 # Video Inpainting
+#### IIVI
+**[Paper]** (ICCV 2021) Internal Video Inpainting by Implicit Long-range Propagation<Br>
+**[Author]** [Hao Ouyang](https://ken-ouyang.github.io/), [Tengfei Wang](https://tengfei-wang.github.io/), [Qifeng Chen](https://cqf.io/publication.html) <Br>
+**[[Project](https://tengfei-wang.github.io/Implicit-Internal-Video-Inpainting/index.html)]**  **[[Pytorch-Code]](https://github.com/Tengfei-Wang/Implicit-Internal-Video-Inpainting)]** 
+
 #### TSAM
 **[Paper]** (CVPR 2021) Progressive Temporal Feature Alignment Network for Video Inpainting <Br>
 **[Author]** Xueyan Zou, [Linjie Yang](https://sites.google.com/site/linjieyang89/), Ding Liu, [Yong Jae Lee](https://web.cs.ucdavis.edu/~yjlee/) <Br>
