@@ -406,6 +406,11 @@ VGG19的多层特征作为hypercolumn与图像串联作为输入, 一个网络�
 
 
 # Image Inpainting
+#### HFGI
+**[Paper]** (ICCV 2021) HFGI: High-Fidelity GAN Inversion for Image Attribute Editing <Br>
+**[Author]** [Tengfei Wang](https://tengfei-wang.github.io/), [Yong Zhang](https://yzhang2016.github.io/yongnorriszhang.github.io/), [Yanbo Fan](https://sites.google.com/site/yanbofan0124/), [Jue Wang](https://juew.org/), [Qifeng Chen](https://cqf.io/) <Br>
+**[[Project](https://tengfei-wang.github.io/HFGI/)]**  **[[Pytorch-Code](https://github.com/Tengfei-Wang/HFGI)]**  <Br>
+	
 #### ICT
 **[Paper]** (ICCV 2021) High-Fidelity Pluralistic Image Completion with Transformers <Br>
 **[Author]** [Ziyu Wan](http://raywzy.com/), Jingbo Zhang, [Dongdong Chen](http://www.dongdongchen.bid/), [Jing Liao](https://liaojing.github.io/html/index.html) <Br>
