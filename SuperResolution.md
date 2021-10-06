@@ -24,7 +24,17 @@
 **[Author]** Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 **[[Pytorch-Code](https://github.com/xindongzhang/ECBSR)]**  <Br>
 重参数化, 并行卷积模块+sobel/laplacian算子
-	
+
+#### DCSR
+**[Paper]** (ICCV 2021 Oral) Dual-Camera Super-Resolution with Aligned Attention Modules <Br>
+**[Author]** [Tengfei Wang](https://tengfei-wang.github.io/), [Jiaxin Xie](https://jiaxinxie97.github.io/Jiaxin-Xie/), [Wenxiu Sun](http://wenxiusun.com/), [Qiong Yan](http://yan-qiong.com/), Qifeng Chen <Br>
+**[[Project](https://longguangwang.github.io/Project/ArbSR/)]** **[[Pytorch-Code](https://github.com/LongguangWang/ArbSR)]**    <Br>
+
+#### ArbSR
+**[Paper]** (ICCV 2021) Learning A Single Network for Scale-Arbitrary Super-Resolution <Br>
+**[Author]** [Longguang Wang](https://longguangwang.github.io/), [Yingqian Wang](https://yingqianwang.github.io/), Zaiping Lin, Jungang Yang, Wei An, [Yulan Guo](http://yulanguo.me/) <Br>
+**[[Project](https://longguangwang.github.io/Project/ArbSR/)]** **[[Pytorch-Code](https://github.com/LongguangWang/ArbSR)]**    <Br>
+
 #### sr-uncertainty
 **[Paper]** (CVPR 2021) Fast Bayesian Uncertainty Estimation and reduction of Batch Normalized Single Image Super-Resolution Network <Br>
 **[Author]** [Aupendu Kar](https://aupendu.github.io/), [Prabir Kumar Biswas](http://www.ecdept.iitkgp.ac.in/Eece/facultydetails/ece-pkb) <Br>
