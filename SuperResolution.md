@@ -27,7 +27,7 @@
 
 #### DCSR
 **[Paper]** (ICCV 2021 Oral) Dual-Camera Super-Resolution with Aligned Attention Modules <Br>
-**[Author]** [Tengfei Wang](https://tengfei-wang.github.io/), [Jiaxin Xie](https://jiaxinxie97.github.io/Jiaxin-Xie/), [Wenxiu Sun](http://wenxiusun.com/), [Qiong Yan](http://yan-qiong.com/), Qifeng Chen <Br>
+**[Author]** [Tengfei Wang](https://tengfei-wang.github.io/), [Jiaxin Xie](https://jiaxinxie97.github.io/Jiaxin-Xie/), [Wenxiu Sun](http://wenxiusun.com/), [Qiong Yan](http://yan-qiong.com/), [Qifeng Chen](https://cqf.io/) <Br>
 **[[Project](https://longguangwang.github.io/Project/ArbSR/)]** **[[Pytorch-Code](https://github.com/LongguangWang/ArbSR)]**    <Br>
 
 #### ArbSR
