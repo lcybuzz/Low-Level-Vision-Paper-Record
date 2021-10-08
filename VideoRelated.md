@@ -164,10 +164,11 @@
 **[Author]** Junheum Park, Keunsoo Ko, [Chul Lee](http://cilab.dongguk.edu/), [Chang-Su Kim](http://mcl.korea.ac.kr/) <Br>
 **[[Pytorch-Code](https://github.com/JunHeum/BMBC)]** <Br>
 
-#### All at Once
+#### All at Once ★
 **[Paper]** (ECCV 2020) All at Once: Temporally Adaptive Multi-Frame Interpolation with Advanced Motion Modeling <Br>
 **[Author]** Zhixiang Chi, Rasoul Mohammadi Nasiri, Zheng Liu, [Juwei Lu](https://www.dsp.utoronto.ca/juwei/), Jin Tang, [Konstantinos N Plataniotis](https://www.comm.utoronto.ca/~kostas/) <Br>
-**[[Code](https://github.com/chi-chi-zx/all-at-once)]** <Br>
+**[[Project](https://chi-chi-zx.github.io/all-at-once/)]** **[[Code](https://github.com/chi-chi-zx/all-at-once)]** <Br>
+1.使用三次多项式对光流建模; 2.用temporal pyramidal形式, 有易到难逐次估计t1/t7->t2/t6->t3/t5->t4; 3. 估计光流时, 使用relaxed loss, 即允许估计的光流有小范围误差
 
 #### EQVI
 **[Paper]** (ECCVW 2020) Enhanced Quadratic Video Interpolation <Br>
