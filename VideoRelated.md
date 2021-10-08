@@ -110,6 +110,12 @@
 **[Paper]**  (arXiv 2105) EA-Net: Edge-Aware Network for Flow-based Video Frame Interpolation <Br>
 **[Author]** Bin Zhao, Xuelong Li <Br>
 基于光流的插帧, 加入了edge信息
+
+#### SepConv++ ★
+**[Paper]**  (WACV 2021) Revisiting Adaptive Convolutions for Video Frame Interpolation <Br>
+**[Author]** [Simon Niklaus](http://sniklaus.com/welcome), [Long Mai](http://mai-t-long.com/), [Oliver Wang](https://oliverwang.nfshost.com/) <Br>
+**[[Pytorch-Code](https://github.com/sniklaus/revisiting-sepconv)]** <Br>
+使用adaptive conv做插帧, 在sepconv的基础上提出了一些trick. 要点为: 1.预测x和y方向的conv kernel; 2.在预测kernel时不padding; 3.输入两帧一起逐channel归一化到0均值单位方差; 4. 对kernel做norm; 5.使用VGG loss
 	
 #### XVFI ★★
 **[Paper]**  (ICCV 2021 Oral) XVFI: eXtreme Video Frame Interpolation <Br>
@@ -262,12 +268,12 @@
 	
 #### sepconv-slomo
 **[Paper]**  (ICCV 2017) Video Frame Interpolation via Adaptive Separable Convolution <Br>
-**[Author]** [Simon Niklaus](http://sniklaus.com/welcome), Long Mai, [Feng Liu]http://web.cecs.pdx.edu/~fliu/) <Br>
+**[Author]** [Simon Niklaus](http://sniklaus.com/welcome), Long Mai, [Feng Liu](http://web.cecs.pdx.edu/~fliu/) <Br>
 **[[Project](http://web.cecs.pdx.edu/~fliu/project/sepconv/)]**  **[[Pytorch-Code](https://github.com/sniklaus/sepconv-slomo)]** <Br>
 	
 #### adaconv-slomo
 **[Paper]**  (CVPR 2017) Video Frame Interpolation via Adaptive Convolution <Br>
-**[Author]** [Simon Niklaus](http://sniklaus.com/welcome), Long Mai, [Feng Liu]http://web.cecs.pdx.edu/~fliu/) <Br>
+**[Author]** [Simon Niklaus](http://sniklaus.com/welcome), Long Mai, [Feng Liu](http://web.cecs.pdx.edu/~fliu/) <Br>
 **[[Project](http://web.cecs.pdx.edu/~fliu/project/adaconv/)]**  <Br>
 	
 	
