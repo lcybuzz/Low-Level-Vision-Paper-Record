@@ -25,6 +25,21 @@
 **[[Pytorch-Code](https://github.com/xindongzhang/ECBSR)]**  <Br>
 重参数化, 并行卷积模块+sobel/laplacian算子
 
+#### BSRGAN
+**[Paper]** (ICCV 2021) Designing a Practical Degradation Model for Deep Blind Image Super-Resolution <Br>
+**[Author]** [Kai Zhang](https://cszn.github.io/), Jingyun Liang, [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
+**[[Pytorch-Code](https://github.com/cszn/BSRGAN)]**    <Br>
+	
+#### MANet
+**[Paper]** (ICCV 2021) Mutual Affine Network for Spatially Variant Kernel Estimation in Blind Image Super-Resolution <Br>
+**[Author]** Jingyun Liang, Guolei Sun, [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
+**[[Pytorch-Code](https://github.com/JingyunLiang/MANet)]**    <Br>
+	
+#### HCFlow
+**[Paper]** (ICCV 2021) Hierarchical Conditional Flow: A Unified Framework for Image Super-Resolution and Image Rescaling <Br>
+**[Author]** Jingyun Liang, Andreas Lugmayr, [Kai Zhang](https://cszn.github.io/), [Martin Danelljan](https://martin-danelljan.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
+**[[Pytorch-Code](https://github.com/JingyunLiang/HCFlow)]**    <Br>
+
 #### DCSR
 **[Paper]** (ICCV 2021 Oral) Dual-Camera Super-Resolution with Aligned Attention Modules <Br>
 **[Author]** [Tengfei Wang](https://tengfei-wang.github.io/), [Jiaxin Xie](https://jiaxinxie97.github.io/Jiaxin-Xie/), [Wenxiu Sun](http://wenxiusun.com/), [Qiong Yan](http://yan-qiong.com/), [Qifeng Chen](https://cqf.io/) <Br>
