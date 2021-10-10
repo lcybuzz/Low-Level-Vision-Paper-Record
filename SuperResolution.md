@@ -25,6 +25,10 @@
 **[[Pytorch-Code](https://github.com/xindongzhang/ECBSR)]**  <Br>
 重参数化, 并行卷积模块+sobel/laplacian算子
 
+#### Deep Reparametrization
+**[Paper]** (ICCV 2021 Oral) Deep Reparametrization of Multi-Frame Super-Resolution and Denoising<Br>
+**[Author]** [Goutam Bhat](https://goutamgmb.github.io/), [Martin Danelljan](https://martin-danelljan.github.io/), [Fisher Yu](https://www.yf.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
+
 #### BSRGAN
 **[Paper]** (ICCV 2021) Designing a Practical Degradation Model for Deep Blind Image Super-Resolution <Br>
 **[Author]** [Kai Zhang](https://cszn.github.io/), Jingyun Liang, [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
