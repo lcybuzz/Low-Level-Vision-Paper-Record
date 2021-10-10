@@ -10,6 +10,11 @@
 
 
 # Image Restoration
+#### FBCNN
+**[Paper]** (ICCV 2021) Towards Flexible Blind JPEG Artifacts Removal  <Br>
+**[Author]** [Jiaxi Jiang](https://jiaxi-jiang.github.io/), [Kai Zhang](https://cszn.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
+**[[Pytorch-Code](https://github.com/jiaxi-jiang/FBCNN)]** <Br>
+
 #### Dual Pixel Exploration
 **[Paper]** (CVPR 2021 Oral) Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration  <Br>
 **[Author]**  Liyuan Pan, Shah Chowdhury, [Richard Hartley](http://users.cecs.anu.edu.au/~hartley/), [Miaomiao Liu](http://users.cecs.anu.edu.au/~mliu/), [Hongguang Zhang](https://hongguangzhang.github.io/), [Hongdong Li](https://cecs.anu.edu.au/~hongdong) <Br>
