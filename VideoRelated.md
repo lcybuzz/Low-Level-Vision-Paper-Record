@@ -418,10 +418,11 @@
 
 	
 # Video Matting
-#### RVM
+#### RVM ★★
 **[Paper]** (WACV 2022) Robust High-Resolution Video Matting with Temporal Guidance <Br>
 **[Author]** Shanchuan Lin, Linjie Yang, Imran Saleemi, [Soumyadip Sengupta](https://homes.cs.washington.edu/~soumya91/) <Br>
 **[[Project]](https://peterl1n.github.io/RobustVideoMatting/#/)]** **[[Pytorch-Code]](https://github.com/PeterL1n/RobustVideoMatting)]** 
+轻量级视频matting, 效果不错. 用ConvGRU利用时域信息, 用Deep guided filter处理大图
 
 #### DVM
 **[Paper]** (CVPR 2021) Deep Video Matting via Spatio-Temporal Alignment and Aggregation <Br>
