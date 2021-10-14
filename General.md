@@ -15,7 +15,8 @@
 **[Author]** [Mauricio Delbracio](https://mdelbra.github.io/), [Hossein Talebi](http://alumni.soe.ucsc.edu/~htalebi/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
 **[[Project](https://nbei.github.io/gan-pos-encoding.html)]** <Br>
 提出1D-Wasserstein distances loss, 提高视觉效果
-								  
+**[[Unofficial-Pytorch-Code](https://github.com/saurabh-kataria/projected-distribution-loss)]** <Br>
+
 #### MS-PIE ★☆
 **[Paper]** (CVPR 2021) Positional Encoding as Spatial Inductive Bias in GANs <Br>
 **[Author]** [Rui Xu](https://nbei.github.io/), [Xintao Wang](https://xinntao.github.io/), [Kai Chen](http://chenkai.site/),  [Bolei Zhou](http://bzhou.ie.cuhk.edu.hk/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
