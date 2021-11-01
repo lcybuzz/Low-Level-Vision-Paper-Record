@@ -353,10 +353,11 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 **[Author]** Zhengxiong Luo, [Yan Huang](https://yanrockhuang.github.io/), Shang Li, Liang Wang, Tieniu Tan<Br>
 **[[Pytorch-Code](https://github.com/greatlog/DAN)]** <Br>
 
-####  *Zoom to Learn, Learn to Zoom*
+#### Zoom to Learn, Learn to Zoom ★★
 **[Paper]**  (CVPR 2019) Zoom to Learn, Learn to Zoom  <Br>
 **[Author]** [Xuaner Zhang](https://ceciliavision.github.io/), [Qifeng Chen](https://cqf.io/), [Ren Ng](https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html), [Vladlen Koltun](http://vladlen.info/) <Br>
 **[[Project](https://ceciliavision.github.io/project-pages/zoom.html)]** **[[TF-Code](https://github.com/ceciliavision/zoom-learn-zoom)]** <Br>
+提出了考虑空间距离的bilateral contextual loss. 提出了一个由光学zoom图像对组成的raw超分数据集
 
 ####  *Super-Resolution with Raw Images* ★
 **[Paper]**  (CVPR 2019) Towards Real Scene Super-Resolution with Raw Images  <Br>
