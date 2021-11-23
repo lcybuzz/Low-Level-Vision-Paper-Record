@@ -90,6 +90,12 @@
 **[[Project](https://alterzero.github.io/projects/RBPN.html)]**  **[[Pytorch-Code](https://github.com/alterzero/RBPN-PyTorch)]** <Br>
 视频超分, 使用DBPN中的back-projection结构利用前n帧信息完成对当前帧的空间超分.
 
+#### TecoGAN ★★
+**[Paper]**  (SIGGRAPH 2020) Learning Temporal Coherence via Self-Supervision for GAN-based Video Generation <Br>
+**[Author]** [Mengyu Chu](https://people.mpi-inf.mpg.de/~mchu/), You Xie, Laura Leal-Taixe, [Nils Thuerey](https://ge.in.tum.de/) <Br>
+**[[TF-Code](https://github.com/thunil/TecoGAN)]** <Br>
+提出时空一致性的GAN和一个ping-pong loss保持long term时间一致性
+	
 #### RLSP ★
 **[Paper]**  (ICCVW 2019) Efficient Video Super-Resolution through Recurrent Latent Space Propagation <Br>
 **[Author]** Dario Fuoli, [Shuhang Gu](https://shuhanggu.github.io/), [Radu Timofte](https://people.ee.ethz.ch/~timofter/) <Br>
