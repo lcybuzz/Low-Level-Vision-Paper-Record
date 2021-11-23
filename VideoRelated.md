@@ -44,6 +44,12 @@
 **[Author]** Gang Xu, [Jun Xu](https://csjunxu.github.io/), Zhen Li, Liang Wang, [Xing Sun](https://www.sunxing.org/), [Mingming Cheng](http://mmcheng.net/cmm/) <Br>
 **[[Pytorch-Code](https://github.com/CS-GangXu/TMNet)]** <Br>
 
+#### EGVSR ★☆
+**[Paper]**  (arXiv 2107)  Real-Time Super-Resolution System of 4K-Video Based on Deep Learning <Br>
+**[Author]** Yanpeng Cao, Chengcheng Wang, Changjun Song, Yongming Tang, He Li <Br>
+**[[Pytorch-Code](https://github.com/Thmen/EGVSR)]** <Br>
+基于TecoGAN, 设计了一个轻量级视频超分模型
+
 #### Loss Functions in a Discriminative Space for Video Restoration
 **[Paper]**  (arXiv 2003) Learning the Loss Functions in a Discriminative Space for Video Restoration <Br>
 **[Author]** [Younghyun Jo](https://yhjo09.github.io/), Jaeyeon Kang, Seoung Wug Oh, Seonghyeon Nam, Peter Vajda, [Seon Joo Kim](https://sites.google.com/view/seoungwugoh/) <Br>
