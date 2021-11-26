@@ -13,6 +13,12 @@
 
 
 # Video Super Resolution
+#### EGVSR ★☆
+**[Paper]**  (arXiv 2107) Real-Time Super-Resolution System of 4K-Video Based on Deep Learning <Br>
+**[Author]** Yanpeng Cao, Chengcheng Wang, Changjun Song, Yongming Tang, He Li <Br>
+**[[Pytorch-Code](https://github.com/Thmen/EGVSR)]** <Br>
+快速视频超分网络, 模型和loss参考了TecoGAN
+	
 #### BasicVSR++ ★
 **[Paper]**  (arXiv 2104) BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment <Br>
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), [Xintao Wang](https://xinntao.github.io/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
