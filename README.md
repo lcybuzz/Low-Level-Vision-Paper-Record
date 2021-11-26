@@ -93,9 +93,7 @@
 
 [[低光照论文整理1](https://github.com/cxtalk/You-Can-See-Clearly-Now)] [[低光照论文整理2](https://github.com/Elin24/Awesome-Low-Light-Enhancement)]
 
-[[超分论文整理](https://github.com/ChaofWang/Awesome-Super-Resolution)]
-
-[[图像/视频超分方法TF复现](https://github.com/LoSealL/VideoSuperResolution)]
+[[超分论文整理1](https://github.com/ChaofWang/Awesome-Super-Resolution)]  [[图像/视频超分论文整理2](https://github.com/HymEric/latest-development-of-ISR-VSR)] [[图像/视频超分方法TF复现](https://github.com/LoSealL/VideoSuperResolution)]
 	
 [[去噪论文整理](https://paperswithcode.com/task/image-denoising?page=2)] [[去噪论文with codes](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)]
 
