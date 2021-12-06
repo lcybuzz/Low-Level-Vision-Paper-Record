@@ -294,7 +294,7 @@
 
 #### Context-aware Video Frame Interpolation
 **[Paper]**  (CVPR 2018) Context-aware Synthesis for Video Frame Interpolation <Br>
-**[Author]** [Simon Niklaus](http://sniklaus.com/welcome), [Feng Liu]http://web.cecs.pdx.edu/~fliu/) <Br>
+**[Author]** [Simon Niklaus](http://sniklaus.com/welcome), [Feng Liu](http://web.cecs.pdx.edu/~fliu/) <Br>
 **[[Project](http://web.cecs.pdx.edu/~fliu/project/adaconv/)]**  <Br>
 	
 #### sepconv-slomo
