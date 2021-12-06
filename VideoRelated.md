@@ -200,10 +200,11 @@
 **[[Project](https://chi-chi-zx.github.io/all-at-once/)]** **[[Code](https://github.com/chi-chi-zx/all-at-once)]** <Br>
 1.使用三次多项式对光流建模; 2.用temporal pyramidal形式, 有易到难逐次估计t1/t7->t2/t6->t3/t5->t4; 3. 估计光流时, 使用relaxed loss, 即允许估计的光流有小范围误差
 
-#### EQVI
+#### EQVI ★
 **[Paper]** (ECCVW 2020) Enhanced Quadratic Video Interpolation <Br>
 **[Author]** Yihao Liu, Liangbin Xie, Li Siyao, Wenxiu Sun, Yu Qiao, Chao Dong <Br>
 **[[Pytorch-Code](https://github.com/lyh-18/EQVI)]** <Br>
+1.用最小二乘计算quadratic光流; 2.用resnet18提取的contextual特征和原图一起预测残差; 3.对两个尺度的输入用相同网络处理, 并用一个fusion net预测map进行融合
 
 #### UTI-VFI
 **[Paper]** (NeurIPS 2020) Video Frame Interpolation without Temporal Priors <Br>
