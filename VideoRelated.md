@@ -206,10 +206,11 @@
 **[[Pytorch-Code](https://github.com/lyh-18/EQVI)]** <Br>
 1.用最小二乘计算quadratic光流; 2.用resnet18提取的contextual特征和原图一起预测残差; 3.对两个尺度的输入用相同网络处理, 并用一个fusion net预测map进行融合
 
-#### UTI-VFI
+#### UTI-VFI ★
 **[Paper]** (NeurIPS 2020) Video Frame Interpolation without Temporal Priors <Br>
 **[Author]**  Youjian Zhang, [Chaoyue Wang](https://wang-chaoyue.github.io/), [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
 **[[Pytorch-Code](https://github.com/yjzhang96/UTI-VFI)]** <Br>
+用残差网络先从模糊帧中预测清晰的起始和结束关键帧, 再用二次光流refine
 
 #### SoftSplat ★☆
 **[Paper]** (CVPR 2020) Softmax Splatting for Video Frame Interpolation <Br>
