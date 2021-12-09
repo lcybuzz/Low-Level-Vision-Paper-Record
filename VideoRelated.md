@@ -223,10 +223,11 @@
 **[Author]**  [Myungsub Choi](https://myungsub.github.io/), Janghoon Choi, [Sungyong Baik](https://baiksung.github.io/), [Tae Hyun Kim](https://sites.google.com/site/lliger9/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
 **[[Project](https://myungsub.github.io/meta-interpolation/)]** **[[Pytorch-Code](https://github.com/myungsub/meta-interpolation)]** <Br>
 
-#### FeatureFlow
+#### FeatureFlow ★
 **[Paper]** (CVPR 2020) FeatureFlow: Robust Video Interpolation via Structure-to-Texture Generation <Br>
 **[Author]** Shurui Gui, [Chaoyue Wang](https://wang-chaoyue.github.io/), Qihua Chen, [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
 **[[Pytorch-Code](https://github.com/CM-BF/FeatureFlow)]** <Br>
+首先, 根据两帧输入图像和edge, 预测中间帧的structure图; 然后设计了一个texture compensator生成纹理细节. 网络用deformable conv做插帧和纹理补偿.
 
 #### BIN ★
 **[Paper]** (CVPR 2020 Oral) Blurry Video Frame Interpolation <Br>
