@@ -61,6 +61,10 @@ ISP及其内部模块相关论文
   
 
 ## AWB
+### C5
+**[Paper]** (ICCV 2021) Cross-Camera Convolutional Color Constancy <Br>
+**[Author]** [Mahmoud Afifi](https://sites.google.com/corp/view/mafifi), [Jonathan T. Barron](https://jonbarron.info/), [Chloe LeGendre](http://www.chloelegendre.com/), [Yun-Ta Tsai](https://research.google/people/105312/), [Francois Bleibel](https://www.linkedin.com/in/fbleibel/)  <Br>
+
 ### *Multi-Hypothesis CC* ★☆
 **[Paper]** (CVPR 2020) A Multi-Hypothesis Approach to Color Constancy for improved Automatic White Balance <Br>
 **[Author]** [Daniel Hernandez-Juarez](https://danihernandez.eu/), [Sarah Parisot](https://parisots.github.io/), [Benjamin Busam](http://campar.in.tum.de/Main/BenjaminBusam), Ales Leonardis, [Gregory Slabaugh](http://www.gregslabaugh.net/), Steven McDonagh <Br>
