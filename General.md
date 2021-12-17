@@ -10,6 +10,11 @@
     
 
 # General DL Methods
+#### IICNet
+**[Paper]** (ICCV 2021) IICNet - Invertible Image Conversion Net <Br>
+**[Author]** Ka Leong Cheng, Yueqi Xie, [Qifeng Chen](https://cqf.io/)  <Br>
+**[[Pytorch-Code](https://github.com/felixcheng97/IICNet)]** <Br>
+	
 #### Focal Frequency Loss
 **[Paper]** (ICCV 2021) Focal Frequency Loss for Image Reconstruction and Synthesis <Br>
 **[Author]** [Liming Jiang](https://liming-jiang.com/), [Bo Dai](http://daibo.info/), [Wayne Wu](https://wywu.github.io/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/)  <Br>
