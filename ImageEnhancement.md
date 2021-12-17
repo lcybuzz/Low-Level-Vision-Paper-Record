@@ -5,6 +5,11 @@
 
 
 # Image Enhancement
+#### SSH
+**[Paper]** (ICCV 2021) SSH: A Self-Supervised Framework for Image Harmonization <Br>
+**[Author]** [Yifan Jiang](http://yifanjiang.net/), [He Zhang](https://sites.google.com/site/hezhangsprinter), [Jianming Zhang](https://jimmie33.github.io/), [Yilin Wang](http://yilinwang.org/), [Zhe Lin](https://sites.google.com/site/zhelin625/), [Kalyan Sunkavalli](http://www.kalyans.org/), Simon Chen, Sohrab Amirghodsi, Sarah Kong, Zhangyang Wang <Br>
+**[[PyTorch-Code](https://github.com/VITA-Group/SSHarmonization)]**   <Br>
+
 #### G2R-ShadowNet
 **[Paper]** (CVPR 2021) From Shadow Generation to Shadow Removal <Br>
 **[Author]** Zhihao Liu, Hui Yin, Xinyi Wu, [Zhenyao Wu](http://zhenyaowu.com/), Yang Mi, [Song Wang](https://www.cse.sc.edu/~songwang/)<Br>
