@@ -11,6 +11,11 @@
 
 # Image Restoration
 #### FBCNN
+**[Paper]** (ICCV 2021) Learning Dual Priors for JPEG Compression Artifacts Removal  <Br>
+**[Author]** [Xueyang Fu](https://xueyangfu.github.io/), Xi Wang, [Aiping Liu](http://staff.ustc.edu.cn/~aipingl/), Junwei Han, Zheng-Jun Zha <Br>
+**[[TF-Code](https://xueyangfu.github.io/)]** <Br>
+
+#### FBCNN
 **[Paper]** (ICCV 2021) Towards Flexible Blind JPEG Artifacts Removal  <Br>
 **[Author]** [Jiaxi Jiang](https://jiaxi-jiang.github.io/), [Kai Zhang](https://cszn.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
 **[[Pytorch-Code](https://github.com/jiaxi-jiang/FBCNN)]** <Br>
