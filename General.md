@@ -10,12 +10,16 @@
     
 
 # General DL Methods
+#### Focal Frequency Loss
+**[Paper]** (ICCV 2021) Focal Frequency Loss for Image Reconstruction and Synthesis <Br>
+**[Author]** [Liming Jiang](https://liming-jiang.com/), [Bo Dai](http://daibo.info/), [Wayne Wu](https://wywu.github.io/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/)  <Br>
+**[[Project](https://www.mmlab-ntu.com/project/ffl/index.html)]** **[[Pytorch-Code](https://github.com/EndlessSora/focal-frequency-loss)]** <Br>
+	
 #### PDL Loss ★
 **[Paper]** (arXiv 2013) Projected Distribution Loss for Image Enhancement <Br>
 **[Author]** [Mauricio Delbracio](https://mdelbra.github.io/), [Hossein Talebi](http://alumni.soe.ucsc.edu/~htalebi/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
-**[[Project](https://nbei.github.io/gan-pos-encoding.html)]** <Br>
+**[[Project](https://nbei.github.io/gan-pos-encoding.html)]** **[[Unofficial-Pytorch-Code](https://github.com/saurabh-kataria/projected-distribution-loss)]** <Br>
 提出1D-Wasserstein distances loss, 提高视觉效果
-**[[Unofficial-Pytorch-Code](https://github.com/saurabh-kataria/projected-distribution-loss)]** <Br>
 
 #### MS-PIE ★☆
 **[Paper]** (CVPR 2021) Positional Encoding as Spatial Inductive Bias in GANs <Br>
