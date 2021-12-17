@@ -345,6 +345,11 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 
 
 # Reflection Removal
+#### SIRR
+**[Paper]** (ICCV 2021) Location-aware Single Image Reflection Removal  <Br>
+**[Author]** Zheng Dong, [Ke Xu](https://kkbless.github.io/), [Yin Yang](https://yangzzzy.github.io/), Hujun Bao, Weiwei Xu, [Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/)  <Br>
+**[[Pytorch-Code](https://github.com/zdlarr/Location-aware-SIRR)]** <Br>
+	
 #### Panoramic image reflection removal
 **[Paper]** (CVPR 2021) Panoramic image reflection removal  <Br>
 **[Author]** [Yuchen Hong](http://vcc.szu.edu.cn/index-2.html), [Qian Zheng](https://q-zh.github.io/), Lingran Zhao, [Xudong Jiang](https://personal.ntu.edu.sg/exdjiang/), Alex C. Kot, [Boxin Shi](http://ci.idm.pku.edu.cn/)  <Br>
