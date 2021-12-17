@@ -87,7 +87,7 @@
 # Useful Resources
 [[ICCV 2021论文集合](https://github.com/extreme-assistant/ICCV2021-Paper-Code-Interpretation/blob/master/ICCV2021.md)], [[CVPR 2021论文集合](https://github.com/52CV/CVPR-2021-Papers)], [[CVPR 2020论文集合](https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation)]
 
-[[CVPR 2021/2020 Low Level Vision](https://github.com/Kobaayyy/Awesome-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2021.md)] [[ECCV 2020 Low Level Vision](https://zhuanlan.zhihu.com/p/180551773)]
+Low Level论文集合 [[ICCV 2021](https://github.com/Kobaayyy/Awesome-ICCV2021-Low-Level-Vision)] [[CVPR 2021/2020](https://github.com/Kobaayyy/Awesome-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2021.md)] [[ECCV 2020](https://zhuanlan.zhihu.com/p/180551773)]
 
 [[image-to-image translation论文整理](https://github.com/weihaox/awesome-image-translation)]
 
