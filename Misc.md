@@ -1,9 +1,15 @@
 记录一些看到过的其它topic的论文
 
 # Table of Contents
+- [Relighting](#relighting)
 - [Image Fusion (Archived)](#image-fusion)
 
 
+# Relighting
+#### Total Relighting
+**[Paper]** (SIGGRAPH 2021) Total Relighting: Learning to Relight Portraits for Background Replacemen <Br>
+**[Author]** Rohit Pandey, [Sergio Orts-Escolano](https://www.dtic.ua.es/~sorts/), [Chloe LeGendre](http://www.chloelegendre.com/), Christian Haene, [Sofien Bouaziz](http://sofienbouaziz.com/), Christoph Rhemann, [Paul Debevec](http://www.pauldebevec.com/), [Sean Fanello](https://www.seanfanello.it/) <Br>
+**[[Project](https://augmentedperception.github.io/total_relighting/)]**   <Br>
 
 # Image Fusion
 #### Deep Convolutional Network for Colorization in Monochrome-Color Dual-Lens System ★
