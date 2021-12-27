@@ -50,10 +50,11 @@
 **[[Project](https://ckkelvinchan.github.io/projects/BasicVSR/)]** **[[Pytorch-Code](https://github.com/ckkelvinchan/BasicVSR-IconVSR)]** <Br>
 将视频超分分解为propagation, alignment, aggregation和upsampling四部分. 在此基础上设计了BasicVSR网络, 以及加入了两个新设计模块的IconVSR
 
-#### TMNet
+#### TMNet ★
 **[Paper]**  (CVPR 2021) Temporal Modulation Network for Controllable Space-Time Video Super-Resolution <Br>
 **[Author]** Gang Xu, [Jun Xu](https://csjunxu.github.io/), Zhen Li, Liang Wang, [Xing Sun](https://www.sunxing.org/), [Mingming Cheng](http://mmcheng.net/cmm/) <Br>
 **[[Pytorch-Code](https://github.com/CS-GangXu/TMNet)]** <Br>
+使用一个时间调制模块, 根据不同的t, 控制deformable conv的插帧结果. 设计了一个feature fusion模块, refine局部运动, 使用双向可变形卷积BDConvLSTM refine全局运动.
 
 #### EGVSR ★☆
 **[Paper]**  (arXiv 2107)  Real-Time Super-Resolution System of 4K-Video Based on Deep Learning <Br>
