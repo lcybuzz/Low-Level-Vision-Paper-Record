@@ -322,10 +322,11 @@
 **[[Project](https://guanyingc.github.io/DeepHDRVideo/)]** **[[Pytorch-Code](https://github.com/guanyingc/DeepHDRVideo)]** 
 给定5张不同EV值的视频帧, 采用coarse to fine的方式生成hdr图像.
 
-#### Temporal Consistency for Low Light Video Enhancement
+#### Temporal Consistency for Low Light Video Enhancement ★
 **[Paper]** (CVPR 2021) Learning Temporal Consistency for Low Light Video Enhancement from Single Images <Br>
 **[Author]** Fan Zhang, [Yu Li](https://yu-li.github.io/), [Shaodi You](https://youshaodi.github.io/), Ying Fu <Br>
-**[[Code](https://github.com/zkawfanx/StableLLVE)]** 	
+**[[Pytorch-Code](https://github.com/zkawfanx/StableLLVE)]**
+训练时, 对图像做分割并预测前景的随机光流, 计算warp后图像和原图像处理结果的consistency loss, 加强时间一致性, 另外在生成训练样本时, 加入了一些noise.
 
 ##### EDVR
 **[Paper]** (CVPRW 2019) EDVR: Video Restoration with Enhanced Deformable Convolutional Networks <Br>
