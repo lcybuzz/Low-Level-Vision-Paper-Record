@@ -9,6 +9,7 @@
 - [Video Dehazing](#video-dehazing)
 - [Video Matting](#video-matting)
 - [Video Inpainting](#video-inpainting)
+- [General](#general)
 - [Useful Resources](#useful-resources)
 
 
@@ -464,6 +465,15 @@
 **[Paper]** (CVPR 2021) Deep Video Matting via Spatio-Temporal Alignment and Aggregation <Br>
 **[Author]** [Yanan Sun](https://georgegu1997.github.io/), [Guanzhi Wang](https://cs.stanford.edu/~guanzhi/), Qiao Gu, [Chi-Keung Tang](http://www.cse.ust.hk/~cktang/), [Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing) <Br>
 
+	
+	
+# General
+#### Single-frame Regularization ★☆
+**[Paper]** (CVPR 2019) Single-frame Regularization for Temporally Stable CNNs <Br>
+**[Author]** [Gabriel Eilertsen](https://liu.se/en/employee/gabei62), [Rafał K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Jonas Unger](https://weber.itn.liu.se/~jonun/web/Home.php) <Br>
+提出增强视频帧间稳定性的一些正则loss, 包括Stability regularization(加入高斯噪声), Transform invariance regularization(几何变换), Sparse Jacobian regularization(梯度一致loss).
+
+	
 
 
 # Useful Resources
