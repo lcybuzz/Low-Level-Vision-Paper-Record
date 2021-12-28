@@ -334,6 +334,11 @@
 **[Author]**  [Xintao Wang](https://xinntao.github.io/), [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Ke Yu](https://yuke93.github.io/), Chao Dong, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) <Br>
 **[[Project](https://xinntao.github.io/projects/EDVR)]** **[[Pytorch-Code](https://github.com/xinntao/EDVR)]**  <Br>
 
+##### Learning to See Moving Objects in the Dark ★★
+**[Paper]** (ICCV 2019) Learning to See Moving Objects in the Dark <Br>
+**[Author]**  Haiyang Jiang, Yinqiang Zheng <Br>
+**[[TF-Code](https://github.com/MichaelHYJiang/Learning-to-See-Moving-Objects-in-the-Dark)]**  <Br>
+提供了一个暗光视频增强数据集, 通过设计camera system, 获取对齐的亮暗视频对. 设计一个基于3DUnet的网络.
 
 
 
