@@ -354,6 +354,7 @@
 ##### EMVD ★★
 **[Paper]** (CVPR 2021) Efficient Multi-Stage Video Denoising with Recurrent Spatio-Temporal Fusion <Br>
 **[Author]**  Matteo Maggioni, Yibin Huang, Cheng Li, Shuai Xiao, Zhongqian Fu, Fenglong Song <Br>
+**[[Unofficial-Pytorch-Code](https://github.com/Baymax-chen/EMVD)]**  <Br>	
 轻量级视频去噪, 效果与复杂模型效果相当. 首先用线性变换将raw图像在颜色-亮度和频率上分解; 第二步利用前一帧去噪结果与当前帧融合, 初步去噪; 第三步对初步去噪的图像再次进行去噪; 第四步将两次去噪的结果结合进行refine. 融合和refine是通过预测fusion map完成的.
 	
 ##### FastDVDnet
