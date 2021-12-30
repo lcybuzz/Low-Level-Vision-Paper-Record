@@ -10,6 +10,12 @@
     
 
 # General DL Methods
+#### TLSC ★
+**[Paper]** (arXiv 2112) Revisiting Global Statistics Aggregation for Improving Image Restoration <Br>
+**[Author]** Xiaojie Chu, Liangyu Chen, Chengpeng Chen, Xin Lu  <Br>
+**[[Pytorch-Code](https://github.com/megvii-research/tlsc)]** <Br>
+一般来说, 训练时使用patch, 测试时用全图, 对一些全局操作, 如SE, IN等会带来统计不一致. 本文提出用局部aggregation代替全局.
+	
 #### IICNet
 **[Paper]** (ICCV 2021) IICNet - Invertible Image Conversion Net <Br>
 **[Author]** Ka Leong Cheng, Yueqi Xie, [Qifeng Chen](https://cqf.io/)  <Br>
