@@ -151,6 +151,10 @@
 
 
 # General Traditional Methods
+#### BLADE
+**[Paper]** (ICCP 2018) Blade: Filter learning for general purpose computational photography <Br>
+**[Author]** [Pascal Getreuer](https://getreuer.info/), [Ignacio Garcia-Dorado](http://www.ignaciogarciadorado.com/), John Isidoro, Sungjoon Choi, [Frank Ong](https://frankong.com/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
+	
 #### Misalignment-Robust Joint Filter ★☆
 **[Paper]** (ICCV 2017) Misalignment-Robust Joint Filter for Cross-Modal Image Pairs <Br>
 **[Author]**  Takashi Shibata, [Masayuki Tanaka](http://www.ok.sc.e.titech.ac.jp/~mtanaka/publication2017.html), [Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html) <Br>
