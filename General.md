@@ -10,6 +10,14 @@
     
 
 # General DL Methods
+#### PKN ★★
+**[Paper]** (arXiv 2112) Procedural Kernel Networks <Br>
+**[Author]** [Bartlomiej Wronski](https://bartwronski.com/)  <Br>
+1. 提出了一个框架, 用一个轻量级CNN, 在小图上预测局部参数, 将预测的参数作用到一些传统图像处理算子上, 如upscaling, denoising, deblur等. 相对于全局用相同参数处理, 局部参数往往能有更好的效果.
+2. 方法的一大优势是将计算量与图像分辨率解耦, 对移动端处理较友好.
+3. 可以与各种传统算子结合, 整体算法更有可解释性和调节性, 特别适用于一些已经固化到硬件上的算法.
+4. 不足之处是, 上限不会超过oracle optimization的性能, 在很多任务上指标达不到sota, 另外目前只在可微的算子上做了实验.
+	
 #### TLSC ★
 **[Paper]** (arXiv 2112) Revisiting Global Statistics Aggregation for Improving Image Restoration <Br>
 **[Author]** Xiaojie Chu, Liangyu Chen, Chengpeng Chen, Xin Lu  <Br>
