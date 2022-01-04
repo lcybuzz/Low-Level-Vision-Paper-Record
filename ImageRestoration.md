@@ -228,6 +228,11 @@
 
 
 # Image Debluring	
+#### PolyBlur
+**[Paper]** (TCI 2021) Polyblur: Removing mild blur by polynomial reblurring  <Br>
+**[Author]** [Mauricio Delbracio](https://mdelbra.github.io/), [Ignacio Garcia-Dorado](http://www.ignaciogarciadorado.com/), Sungjoon Choi, Damien Kelly, [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
+[Google]
+	
 #### blur-kernel-space-exploring
 **[Paper]** (CVPR 2021) Explore Image Deblurring via Encoded Blur Kernel Space <Br>
 **[Author]** P.Tran, A.Tran, Q.Phung, [M. Hoai](https://www3.cs.stonybrook.edu/~minhhoai/)    <Br>
