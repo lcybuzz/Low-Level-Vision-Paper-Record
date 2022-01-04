@@ -182,7 +182,7 @@ UNet结构, 利用decoder产生的高层特征预测basis及投影矩阵, 用于
 ##### *Burst Denoising with Kernel Prediction Networks*
 **[Paper]** (CVPR 2018 Oral) Burst Denoising with Kernel Prediction Networks <Br>
 **[Author]** [Ben Mildenhall](https://bmild.github.io/), [Jonathan T. Barron](https://jonbarron.info/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/), Dillon Sharlet, [Ren Ng](https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html), Robert Carroll <Br>
-**[[Project](https://bmild.github.io/kpn/index.html)]**  **[[TF-Code](https://github.com/google/burst-denoising)]**  <Br>
+**[[Project](https://bmild.github.io/kpn/index.html)]**  **[[TF-Code](https://github.com/google/burst-denoising)]** **[[Unofficial-Pytorch-Code](https://github.com/z-bingo/kernel-prediction-networks-PyTorch)]** <Br>
 
 
 	
