@@ -151,9 +151,10 @@
 
 
 # General Traditional Methods
-#### BLADE
+#### BLADE ★☆
 **[Paper]** (ICCP 2018) Blade: Filter learning for general purpose computational photography <Br>
 **[Author]** [Pascal Getreuer](https://getreuer.info/), [Ignacio Garcia-Dorado](http://www.ignaciogarciadorado.com/), John Isidoro, Sungjoon Choi, [Frank Ong](https://frankong.com/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
+类似RAISER, 训练多个filter组成哈希表, 测试时对每个pixel, 提取特征并量化, 并以此作为哈希表的key, 查询最优的filter.
 	
 #### Misalignment-Robust Joint Filter ★☆
 **[Paper]** (ICCV 2017) Misalignment-Robust Joint Filter for Cross-Modal Image Pairs <Br>
