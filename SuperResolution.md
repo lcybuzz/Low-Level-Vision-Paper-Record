@@ -338,10 +338,11 @@ AIM2020-ESR冠军方案, 基于IDN提出了几点改善.
 **[Author]** Xiaotong Luo, Yuan Xie, [Yulun Zhang](http://yulunzhang.com/), [Yanyun Qu](http://quyanyun.xmu.edu.cn/), Cuihua Li, Yun Fu  <Br>
 (**轻量级超分**)
 	
-#### LAPAR
+#### LAPAR ★☆
 **[Paper]** (NIPS 2020) Linearly-Assembled Pixel-Adaptive Regression Network for Single Image Super-resolution and Beyond <Br>
 **[Author]** Wenbo Li, Kun Zhou, [Lu Qi](http://luqi.info/), Nianjuan Jiang, Jiangbo Lu, [Jiaya Jia](https://jiaya.me/) <Br>
 **[[Pytorch-Code](https://github.com/Jia-Research-Lab/Simple-SR)]** <Br>
+预先定义L个滤波器, 滤波器是不同方向的高斯核和DoG核, 对LR进行bicubic插值, 用一个网络预测滤波器的系数.
 
 #### IGNN
 **[Paper]** (NIPS 2020) Cross-Scale Internal Graph Neural Network for Image Super-Resolution <Br>
