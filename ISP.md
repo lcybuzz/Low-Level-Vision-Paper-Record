@@ -52,6 +52,11 @@ ISP及其内部模块相关论文
 2) 系统包括3个步骤: reduced resolution readout, subsampling to produce RGB images, lower-precision logarithmic ADC configuration. 能将总体能耗降低约75%
 3) 公布了一套用于模拟imaging pipeline及其逆过程的工具CRIP
 
+### L3
+**[Paper]** (TIP 2017) Learning the image processing pipeline <Br>
+**[Author]** Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien/cgi-bin/farrell/), [Brian Wandell](https://web.stanford.edu/group/vista/cgi-bin/wandell/)  <Br>
+将RAW到sRGB的转换用局部相信滤波器完成, 类似于RAISR.
+  
 ### *A Software Platform for Manipulating the Camera Imaging Pipeline *
 **[Paper]** (CVPR 2016) A Software Platform for Manipulating the Camera Imaging Pipeline  <Br>
 **[Author]** [Hakki Can Karaimer](https://karaimer.github.io/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
