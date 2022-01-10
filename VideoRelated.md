@@ -363,6 +363,11 @@
 
 
 # Video Denoising
+##### PaCNet
+**[Paper]** (ICCV 2021) Patch Craft: Video Denoising by Deep Modeling and Patch Matching <Br>
+**[Author]** Gregory Vaksman, [Michael Elad](https://elad.cs.technion.ac.il/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
+**[[Pytorch-Code](https://github.com/grishavak/PaCNet-denoiser)]**  <Br>	
+	
 ##### EMVD ★★
 **[Paper]** (CVPR 2021) Efficient Multi-Stage Video Denoising with Recurrent Spatio-Temporal Fusion <Br>
 **[Author]**  Matteo Maggioni, Yibin Huang, Cheng Li, Shuai Xiao, Zhongqian Fu, Fenglong Song <Br>
