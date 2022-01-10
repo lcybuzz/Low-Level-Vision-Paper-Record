@@ -350,6 +350,11 @@ DeblurGAN基础上的改进, 把生成网络换成了FPN, 设计了新的loss, �
 
 
 # Reflection Removal
+#### How to Train Neural Networks for Flare Removal
+**[Paper]** (ICCV 2021) How to Train Neural Networks for Flare Removal  <Br>
+**[Author]** [Yicheng Wu](https://yichengwu.github.io/), Qiurui He, [Tianfan Xue](http://people.csail.mit.edu/tfxue/), [Rahul Garg](https://rahuldotgarg.appspot.com//), [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Ashok Veeraraghavan](https://computationalimaging.rice.edu/), [Jonathan T. Barron](https://jonbarron.info/)  <Br>
+**[[Project](https://yichengwu.github.io/flare-removal/)]** **[[TF2-Code](https://github.com/google-research/google-research/tree/master/flare_removal)]** <Br>
+	
 #### SIRR
 **[Paper]** (ICCV 2021) Location-aware Single Image Reflection Removal  <Br>
 **[Author]** Zheng Dong, [Ke Xu](https://kkbless.github.io/), [Yin Yang](https://yangzzzy.github.io/), Hujun Bao, Weiwei Xu, [Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/)  <Br>
