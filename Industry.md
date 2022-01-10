@@ -23,6 +23,7 @@ Google提出的人像模式方法 <Br>
 **[Authors]** [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), Dillon Sharlet, [Ryan Geiss](http://www.geisswerks.com/), [Andrew Adams](http://andrew.adams.pub/), [Jonathan T. Barron](https://jonbarron.info/), Florian Kainz, [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Marc Levoy](http://graphics.stanford.edu/~levoy/)<Br>
 **[[Page](http://www.hdrplusdata.org/)]**  **[[blog](https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html)]** **[[Code](https://www.timothybrooks.com/tech/hdr-plus/)]** <Br>
 **[[Live HDR+ blog](https://ai.googleblog.com/2020/08/live-hdr-and-dual-exposure-controls-on.html)]** 实时, HDRNet, 可控曝光  <Br>
+**[[HDR+ with Bracketing](https://ai.googleblog.com/2021/04/hdr-with-bracketing-on-pixel-phones.html)]** HDR+ + 包围曝光, 提升HDR效果  <Br>
 Google Camera APP中使用的HDR技术(多帧), 用于Nexus 5, Nexus 6及Pixel 2等手机上. <Br>
 
 #### RAISR ★☆
