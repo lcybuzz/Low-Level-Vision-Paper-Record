@@ -36,6 +36,16 @@
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ke Yu](https://yuke93.github.io/), Chao Dong, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)   <Br>
 **[[Project](https://ckkelvinchan.github.io/projects/DCN/)]** **[[Pytorch-Code](https://github.com/ckkelvinchan/offset-fidelity-loss)]** <Br>
 
+#### OVSR
+**[Paper]** (ICCV 2021) Omniscient Video Super-Resolution <Br>
+**[Author]** Peng Yi, Zhongyuan Wang, [Kui Jiang](https://github.com/kuijiang0802/kuijiang0802.github.io/blob/master/home.md), [Junjun Jiang](http://homepage.hit.edu.cn/jiangjunjun), Tao Lu, Xin Tian, [Jiayi Ma](https://sites.google.com/view/jiayima) <Br>
+**[[Pytorch-Code](https://github.com/psychopa4/OVSR)]** <Br>
+
+#### Deep Blind VSR
+**[Paper]** (ICCV 2021) Deep Blind Video Super-resolution <Br>
+**[Author]**  [Jinshan Pan](https://jspan.github.io/), [Haoran Bai](https://csbhr.github.io/), Jiangxin Dong, Jiawei Zhang, Jinhui Tang <Br>
+**[[Pytorch-Code](https://github.com/csbhr/Deep-Blind-VSR)]** <Br>
+	
 #### COMISR
 **[Paper]** (ICCV 2021) COMISR:Compression-Informed Video Super-Resolution <Br>
 **[Author]** Yinxiao Li, [Pengchong Jin](https://research.google/people/PengchongJin/), [Feng Yang](https://sites.google.com/view/feng-yang), [Ce Liu](http://people.csail.mit.edu/celiu/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/)   <Br>
