@@ -36,6 +36,11 @@
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ke Yu](https://yuke93.github.io/), Chao Dong, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)   <Br>
 **[[Project](https://ckkelvinchan.github.io/projects/DCN/)]** **[[Pytorch-Code](https://github.com/ckkelvinchan/offset-fidelity-loss)]** <Br>
 
+#### COMISR
+**[Paper]** (ICCV 2021) COMISR:Compression-Informed Video Super-Resolution <Br>
+**[Author]** Yinxiao Li, [Pengchong Jin](https://research.google/people/PengchongJin/), [Feng Yang](https://sites.google.com/view/feng-yang), [Ce Liu](http://people.csail.mit.edu/celiu/), [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/)   <Br>
+**[[TF2-Code](https://github.com/google-research/google-research/tree/master/comisr)]** <Br>
+
 #### STD
 **[Paper]**  (CVPR 2021) Space-Time Distillation for Video Super-Resolution <Br>
 **[Author]** Zeyu Xiao, [Xueyang Fu](https://xueyangfu.github.io/), Jie Huang, Zhen Cheng, Zhiwei Xiong <Br>
