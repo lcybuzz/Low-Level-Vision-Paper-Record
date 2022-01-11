@@ -16,10 +16,11 @@
 **[Author]** Yang Liu, Zhenyue Qin, [Saeed Anwar](https://saeed-anwar.github.io/), [Pan Ji](https://sites.google.com/view/panji530), [Dongwoo Kim](http://dongwookim-ml.github.io/), [Sabrina Caldwell](https://thephotographicalist.wordpress.com/), [Tom Gedeon](http://users.cecs.anu.edu.au/~Tom.Gedeon/) <Br>
 **[[Pytorch-Code](https://github.com/Yang-Liu1082/InvDN)]**  <Br>
 
-##### deepfnf
+##### deepfnf ★
 **[Paper]** (CVPR 2021) Deep Denoising of Flash and No-Flash Pairs for Photography in Low-Light Environments <Br>
 **[Author]** [Zhihao Xia](https://www.cse.wustl.edu/~zhihao.xia/), Michaël Gharbi, [Federico Perazzi](https://fperazzi.github.io/), [Kalyan Sunkavalli](https://www.kalyans.org/), [Ayan Chakrabarti](https://projects.ayanc.org/) <Br>
-**[[Pytorch-Code](https://www.cse.wustl.edu/~zhihao.xia/deepfnf/)]**  <Br>
+**[[TF-Code](https://www.cse.wustl.edu/~zhihao.xia/deepfnf/)]**  <Br>
+基于"Basis Prediction Networks for Effective Burst Denoising with Large Kernels"设计网络, 另外有一个scale map, 用于从flash image中得到高频细节, 乘到滤波后的non flash图像中.
 
 ##### NBNet ★
 **[Paper]** (CVPR 2021) NBNet: Noise Basis Learning for Image Denoising with Subspace Projection <Br>
