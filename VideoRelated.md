@@ -93,6 +93,12 @@
 **[[Project](https://alterzero.github.io/projects/STAR.html)]** **[[Pytorch-Code](https://github.com/alterzero/STARnet)]** <Br>
 时空联合超分
 	
+#### TDAN ★☆
+**[Paper]**  (CVPR 2020) TDAN: Temporally-Deformable Alignment Network for Video Super-Resolution <Br>
+**[Author]** [Yapeng Tian](https://yapengtian.org/), [Yulun Zhang](http://yulunzhang.com/), [Yun Fu](http://www1.ece.neu.edu/~yunfu/), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/)<Br>
+**[[Pytorch-Code](https://github.com/YapengTian/TDAN-VSR-CVPR-2020)]** <Br>
+用deformable conv做VSR
+	
 #### Zooming-Slow-Mo ★☆
 **[Paper]** (CVPR 2020) Fast and Accurate One-Stage Space-Time Video Super-Resolution <Br>
 **[Author]**  [Xiaoyu Xiang](https://engineering.purdue.edu/people/xiaoyu.xiang.1), [Yapeng Tian](http://yapengtian.org/), [Yulun Zhang](http://yulunzhang.com/), [Yun Fu](http://www1.ece.neu.edu/~yunfu/), [Jan P. Allebach](https://engineering.purdue.edu/~allebach/), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/) <Br>
