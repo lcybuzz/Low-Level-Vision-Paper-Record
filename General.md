@@ -29,10 +29,11 @@
 **[Author]** Ka Leong Cheng, Yueqi Xie, [Qifeng Chen](https://cqf.io/)  <Br>
 **[[Pytorch-Code](https://github.com/felixcheng97/IICNet)]** <Br>
 	
-#### Focal Frequency Loss
+#### Focal Frequency Loss ★
 **[Paper]** (ICCV 2021) Focal Frequency Loss for Image Reconstruction and Synthesis <Br>
 **[Author]** [Liming Jiang](https://liming-jiang.com/), [Bo Dai](http://daibo.info/), [Wayne Wu](https://wywu.github.io/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/)  <Br>
 **[[Project](https://www.mmlab-ntu.com/project/ffl/index.html)]** **[[Pytorch-Code](https://github.com/EndlessSora/focal-frequency-loss)]** <Br>
+提出在频率空间中计算欧式距离做loss, 另外提出了一个weight map, 其实就是距离大weight大, 距离小weight小
 	
 #### PDL Loss ★
 **[Paper]** (arXiv 2013) Projected Distribution Loss for Image Enhancement <Br>
