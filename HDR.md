@@ -1,9 +1,9 @@
 # HDR
-#### HDRUNet 
+#### HDRUNet ★
 **[Paper]** (CVPR2021 Workshop) HDRUNet: Single Image HDR Reconstruction with Denoising and Dequantization <Br>
 **[Author]** Xiangyu Chen, Yihao Liu, Zhengwen Zhang, [Yu Qiao](http://mmlab.siat.ac.cn/), [Chao Dong](http://xpixel.group/) <Br>
 **[[Pytorch-Code](https://github.com/chxy95/HDRUNet)]**<Br>
-
+base网络为UNet, 还有一个weight net和一个由SFT组成的condition net. loss用tanh L1.
 
 #### *Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline* ★
 **[Paper]** (CVPR 2020) Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline <Br>
