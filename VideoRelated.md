@@ -31,10 +31,11 @@
 **[Author]** Suyoung Lee, [Myungsub Choi](https://myungsub.github.io/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/)   <Br>
 **[[Project](https://ckkelvinchan.github.io/projects/DCN/)]** **[[Pytorch-Code](https://github.com/ckkelvinchan/offset-fidelity-loss)]** <Br>
 
-#### DCN
+#### DCN ★
 **[Paper]**  (AAAI 2021) Understanding Deformable Alignment in Video Super-Resolution <Br>
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ke Yu](https://yuke93.github.io/), Chao Dong, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)   <Br>
 **[[Project](https://ckkelvinchan.github.io/projects/DCN/)]** **[[Pytorch-Code](https://github.com/ckkelvinchan/offset-fidelity-loss)]** <Br>
+分析了可变形卷积对齐和flow-based对齐的相似性, 指出deformable alignment中offset的多样性对VSR这样的任务有优势. 另外, 提出了一个offset fidelity loss, 用光流约束offset的学习.
 
 #### OVSR
 **[Paper]** (ICCV 2021) Omniscient Video Super-Resolution <Br>
