@@ -51,8 +51,12 @@ base网络为UNet, 还有一个weight net和一个由SFT组成的condition net. 
 	
 	
 # Traditional Methods
-#### High Dynamic Range Imaging
+#### High Dynamic Range Imaging ★
 **[Paper]** (CIC 2001) High Dynamic Range Imaging <Br>
 **[Author]** Greg Ward  <Br>
 讲了color rendering的pipeline, 包括: 怎么估计真实场景目标的光强, 转换到颜色空间的近似表示, 将信息记录为HDR格式, tone mapping以在设备上显示等
 	
+#### SVE ★
+**[Paper]** (CVPR 2000) High Dynamic Range Imaging: Spatially Varying Pixel Exposures <Br>
+**[Author]** [Shree K. Nayar](http://www.cs.columbia.edu/~nayar/), Tomoo Mitsunaga  <Br>
+提出一个基于硬件的HDR图像生成方法. 在相机传感器前放置一个optical mask, mask上有不同exposure的pattern, 利用邻域不同曝光的像素值, 恢复目标像素值, 动态范围可大致扩展到Emax/Emin倍.
