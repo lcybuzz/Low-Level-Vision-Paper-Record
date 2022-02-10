@@ -1,4 +1,14 @@
 # HDR
+# General
+一些不针对特定任务的图像相关论文, 如滤波, 新的目标函数等
+
+# Table of Contents
+  - [DL Methods](#dl-methods)
+  - [Traditional Methods](#traditional-methods)
+
+    
+
+# DL Methods
 #### HDRUNet ★
 **[Paper]** (CVPR2021 Workshop) HDRUNet: Single Image HDR Reconstruction with Denoising and Dequantization <Br>
 **[Author]** Xiangyu Chen, Yihao Liu, Zhengwen Zhang, [Yu Qiao](http://mmlab.siat.ac.cn/), [Chao Dong](http://xpixel.group/) <Br>
@@ -36,4 +46,13 @@ base网络为UNet, 还有一个weight net和一个由SFT组成的condition net. 
 **[Paper]** (Siggraph Asia 2017) Deep Reverse Tone Mapping <Br>
 **[Author]** [Yuki Endo](http://www.npal.cs.tsukuba.ac.jp/~endo/index_en.html), [Yoshihiro Kanamori](http://kanamori.cs.tsukuba.ac.jp/index.html), [Jun Mitani](http://mitani.cs.tsukuba.ac.jp/en/)  <Br>
 **[[Project](http://www.npal.cs.tsukuba.ac.jp/~endo/projects/DrTMO/)]** **[[Unofficial-Pytorch-Code](https://github.com/shleecs/DrTMO_unofficial_pytorch)]**<Br>
+	
+	
+	
+	
+# Traditional Methods
+#### High Dynamic Range Imaging
+**[Paper]** (CIC 2001) High Dynamic Range Imaging <Br>
+**[Author]** Greg Ward  <Br>
+讲了color rendering的pipeline, 包括: 怎么估计真实场景目标的光强, 转换到颜色空间的近似表示, 将信息记录为HDR格式, tone mapping以在设备上显示等
 	
