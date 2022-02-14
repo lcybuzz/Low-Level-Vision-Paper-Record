@@ -1,14 +1,12 @@
 # HDR
-# General
-一些不针对特定任务的图像相关论文, 如滤波, 新的目标函数等
 
 # Table of Contents
-  - [DL Methods](#dl-methods)
-  - [Traditional Methods](#traditional-methods)
+  - [HDR](#hdr)
+  - [Tone Mapping](#tone-mapping)
 
     
-
-# DL Methods
+# HDR
+## DL Methods
 #### HDRUNet ★
 **[Paper]** (CVPR2021 Workshop) HDRUNet: Single Image HDR Reconstruction with Denoising and Dequantization <Br>
 **[Author]** Xiangyu Chen, Yihao Liu, Zhengwen Zhang, [Yu Qiao](http://mmlab.siat.ac.cn/), [Chao Dong](http://xpixel.group/) <Br>
@@ -49,8 +47,7 @@ base网络为UNet, 还有一个weight net和一个由SFT组成的condition net. 
 	
 	
 	
-	
-# Traditional Methods
+## Traditional Methods
 #### High Dynamic Range Imaging ★
 **[Paper]** (CIC 2001) High Dynamic Range Imaging <Br>
 **[Author]** Greg Ward  <Br>
@@ -60,3 +57,11 @@ base网络为UNet, 还有一个weight net和一个由SFT组成的condition net. 
 **[Paper]** (CVPR 2000) High Dynamic Range Imaging: Spatially Varying Pixel Exposures <Br>
 **[Author]** [Shree K. Nayar](http://www.cs.columbia.edu/~nayar/), Tomoo Mitsunaga  <Br>
 提出一个基于硬件的HDR图像生成方法. 在相机传感器前放置一个optical mask, mask上有不同exposure的pattern, 利用邻域不同曝光的像素值, 恢复目标像素值, 动态范围可大致扩展到Emax/Emin倍.
+	
+	
+# Tone Mapping
+## Traditional Methods
+#### Photographic tone reproduction for digital images ★★
+**[Paper]** (TOG 2002) Photographic tone reproduction for digital images  <Br>
+**[Author]** [Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
+1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
