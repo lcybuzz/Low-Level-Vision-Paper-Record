@@ -153,6 +153,12 @@
 	
 	
 # Frame Interpolation
+#### FILM ★★
+**[Paper]**  (arXiv 2202) FILM: Frame Interpolation for Large Motion <Br>
+**[Author]** Fitsum Reda, Janne Kontkanen, [Eric Tabellion](http://www.tabellion.org/et/), [Deqing Sun]https://deqings.github.io/), Caroline Pantofaru, [Brian Curless](https://homes.cs.washington.edu/~curless/) <Br>
+**[[Project](https://film-net.github.io/)]** **[[TF2-Code](https://github.com/google-research/frame-interpolation)]** <Br>
+end-to-end的插帧网络, 使用类似PWCNet的多尺度flow预测结构, 特征提取部分使用共享权值对图像金字塔提特征, 首次使用gram matrix loss, 使生成帧更清晰. 网络结构很简单明了, 但效果很好, 训练和模型设计的细节应该是功不可没.
+
 #### EA-Net ★
 **[Paper]**  (arXiv 2105) EA-Net: Edge-Aware Network for Flow-based Video Frame Interpolation <Br>
 **[Author]** Bin Zhao, Xuelong Li <Br>
