@@ -1,4 +1,3 @@
-# HDR
 
 # Table of Contents
   - [HDR](#hdr)
