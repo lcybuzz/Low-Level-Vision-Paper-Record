@@ -6,8 +6,13 @@
     
 # HDR
 ## DL Methods
+#### ADNet
+**[Paper]** (CVPR2021) ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging <Br>
+**[Author]** Zhen Liu, Wenjie Lin, Xinpeng Li, Qing Rao, Ting Jiang, Mingyan Han, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
+**[[Pytorch-Code](https://github.com/liuzhen03/ADNet)]**<Br>
+	
 #### HDRUNet ★
-**[Paper]** (CVPR2021 Workshop) HDRUNet: Single Image HDR Reconstruction with Denoising and Dequantization <Br>
+**[Paper]** (CVPRW 2021) HDRUNet: Single Image HDR Reconstruction with Denoising and Dequantization <Br>
 **[Author]** Xiangyu Chen, Yihao Liu, Zhengwen Zhang, [Yu Qiao](http://mmlab.siat.ac.cn/), [Chao Dong](http://xpixel.group/) <Br>
 **[[Pytorch-Code](https://github.com/chxy95/HDRUNet)]**<Br>
 **单帧HDR**.base网络为UNet, 还有一个weight net和一个由SFT组成的condition net. loss用tanh L1.
