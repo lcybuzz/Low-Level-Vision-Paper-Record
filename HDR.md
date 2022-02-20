@@ -67,12 +67,20 @@
 **[Paper]** (CVPR 2010) Noise-Optimal Capture for High Dynamic Range Photography <Br>
 **[Author]** [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Frédo Durand](http://people.csail.mit.edu/fredo/), [William T. Freeman](http://billf.mit.edu/)  <Br>
 **[[Project](http://people.csail.mit.edu/hasinoff/hdrnoise/)]** <Br>
+
+#### Recovering High Dynamic Range Radiance Maps from Photographs
+**[Paper]** (TOG 2008) Recovering High Dynamic Range Radiance Maps from Photographs <Br>
+**[Author]** [Paul Debevec](http://www.pauldebevec.com/), [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/)<Br>
+**[[Project](http://www.pauldebevec.com/Research/HDR/)]** <Br>
+
+#### Exposure Fusion
+**[Paper]** (TOG 2008) Exposure Fusion <Br>
+**[Author]** [Tom Mertens](http://www.mericam.net/), [Jan Kautz](https://jankautz.com/), Frank Van Reeth<Br>
 	
 #### High Dynamic Range Video ★★
 **[Paper]** (TOG 2003) High Dynamic Range Video <Br>
 **[Author]** [Sing Bing Kang](http://www.singbingkang.com/), [Matthew Uyttendaele](https://research.facebook.com/people/uyttendaele-matt/), [Simon Winder](http://simonwinder.com/), [Richard Szeliski](http://szeliski.org/RichardSzeliski.htm)  <Br>
 提出了一个视频HDR pipeline. 1.根据场景亮度, 设置相邻帧的曝光值; 2.将相邻帧处理到相同亮度, 做运动检测和warping. 对于当前帧saturate的部分, 使用前后两帧之间的光流估计到当前帧的光流并做warp, 没有saturate的部分, 利用前后帧到当前帧的光流直接warp, 并用一些策略fuse; 3.将HDR的radiance map通过tone mapping转换为能显示的LDR视频, 使用前后若干帧统计平均log域亮度, 做全局scale, 局部只根据当前帧scale
-	
 	
 #### High Dynamic Range Imaging ★
 **[Paper]** (CIC 2001) High Dynamic Range Imaging <Br>
