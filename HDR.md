@@ -74,7 +74,7 @@
 **[[Project](http://www.pauldebevec.com/Research/HDR/)]** <Br>
 
 #### Exposure Fusion
-**[Paper]** (TOG 2008) Exposure Fusion <Br>
+**[Paper]** (PG 2007) Exposure Fusion <Br>
 **[Author]** [Tom Mertens](http://www.mericam.net/), [Jan Kautz](https://jankautz.com/), Frank Van Reeth<Br>
 	
 #### High Dynamic Range Video ★★
