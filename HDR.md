@@ -2,15 +2,25 @@
 # Table of Contents
   - [HDR](#hdr)
   - [Tone Mapping](#tone-mapping)
+  - [Datasets](#datasets)
 
     
 # HDR
 ## Multi-frame HDR
 ### DL Methods
 #### ADNet
-**[Paper]** (CVPR2021) ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging <Br>
+**[Paper]** (CVPR 2021) ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging <Br>
 **[Author]** Zhen Liu, Wenjie Lin, Xinpeng Li, Qing Rao, Ting Jiang, Mingyan Han, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
 **[[Pytorch-Code](https://github.com/liuzhen03/ADNet)]**<Br>
+
+#### HDR-GAN
+**[Paper]** (TIP 2021) HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions <Br>
+**[Author]** Yuzhen Niu, Jianbin Wu, Wenxi Liu, Wenzhong Guo, Rynson W.H. Lau <Br>
+
+#### NHDRRNet
+**[Paper]** (TIP 2020) Deep HDR Imaging via A Non-Local Network <Br>
+**[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), Lei Zhang, [Yu Liu](https://sites.google.com/site/yuliuunilau/home), Yu Zhu, Jinqiu Sun, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Yanning Zhang <Br>
+**[[Keras-Code](https://github.com/tuvovan/NHDRRNet)]**<Br>
 
 #### AHDRNet ★★
 **[Paper]** (CVPR 2019) Attention-guided Network for Ghost-free High Dynamic Range Imaging <Br>
@@ -18,6 +28,15 @@
 **[[Project](https://qingsenyangit.github.io/project/ahdr/)]** **[[Pytorch-Code](https://github.com/qingsenyangit/AHDRNet)]**<Br>
 **多帧HDR**.基于空间attention的多帧HDR, 网络使用dilated residual dense blocks, 预测残差, loss使用μ-law压缩的L1 loss. 结构简洁, 效果不错.
 
+#### Multi-scale Dense Networks for Deep High Dynamic Range Imaging
+**[Paper]** (WACV 2019) Multi-scale Dense Networks for Deep High Dynamic Range Imaging <Br>
+**[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), [Dong Gong](https://donggong1.github.io/), Pingping Zhang, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Jinqiu Sun, [Ian Reid](https://cs.adelaide.edu.au/~ianr/), Yanning Zhang <Br>
+
+#### DeepHDR
+**[Paper]** (ECCV 2018) Deep High Dynamic Range Imaging with Large Foreground Motions <Br>
+**[Author]** [Shangzhe Wu](https://elliottwu.com/), [Jiarui Xu](https://jerryxu.net/), [Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing), Chi-Keung Tang <Br>
+**[[Project](https://elliottwu.com/projects/hdr/)]** **[[TF-Code](https://github.com/elliottwu/DeepHDR)]**<Br>
+	
 #### Deep High Dynamic Range Imaging of Dynamic Scenes
 **[Paper]** (Siggraph 2017) Deep High Dynamic Range Imaging of Dynamic Scenes <Br>
 **[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu//~ravir/) <Br>
@@ -59,7 +78,11 @@
 **[[Pytorch-Code](https://github.com/chxy95/HDRUNet)]**<Br>
 **单帧HDR**.base网络为UNet, 还有一个weight net和一个由SFT组成的condition net. loss用tanh L1.
 
-#### *Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline* ★
+#### End-to-End Differentiable Learning to HDR Image Synthesis for Multi-exposure Images
+**[Paper]** (AAAI 2021) End-to-End Differentiable Learning to HDR Image Synthesis for Multi-exposure Images <Br>
+**[Author]** Jung Hee Kim, Siyeong Lee, [Suk-Ju Kang](http://vds.sogang.ac.kr/) <Br>
+
+#### Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline ★
 **[Paper]** (CVPR 2020) Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline <Br>
 **[Author]** [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Wei-Sheng Lai](https://www.wslai.net/), [Yu-Sheng Chen](https://www.cmlab.csie.ntu.edu.tw/~nothinglo/), Yi-Lung Kao, [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/) <Br>
 **[[Project](https://www.cmlab.csie.ntu.edu.tw/~yulunliu/SingleHDR)]** **[[TF-Code](https://github.com/alex04072000/SingleHDR)]**<Br>
@@ -70,15 +93,35 @@
 **[Author]**  Chu Zhou, Hang Zhao, Jin Han, [Chang Xu](http://changxu.xyz/), Chao Xu, Tiejun Huang, [Boxin Shi](http://ci.idm.pku.edu.cn/Publication.htm) <Br>
 **[[Project](https://www.cmlab.csie.ntu.edu.tw/~yulunliu/SingleHDR)]** **[[TF-Code](https://github.com/alex04072000/SingleHDR)]**<Br>
 
+#### Deep-HdrReconstruction
+**[Paper]** (SIGGRAPH 2020) Single Image HDR Reconstruction Using a CNN with Masked Features and Perceptual Loss <Br>
+**[Author]** [Marcel Santana Santos](https://marcelsan.github.io/), Tsang Ing Ren, [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html)  <Br>
+**[[Pytorch-Code](https://github.com/marcelsan/Deep-HdrReconstruction)]**<Br>
+
+#### FHDR
+**[Paper]** (Global SIP 2019) FHDR: HDR Image Reconstruction from a SingleLDR Image using Feedback Network <Br>
+**[Author]** Zeeshan Khan, Mukul Khanna, Shanmuganathan Raman  <Br>
+**[[Pytorch-Code](https://github.com/mukulkhanna/fhdr)]**<Br>
+
 #### ExpandNet
 **[Paper]** (EG 2018) ExpandNet: A Deep Convolutional Neural Network for High Dynamic Range Expansion from Low Dynamic Range Content <Br>
 **[Author]** 	Demetris Marnerides, [Thomas Bashford-Rogers](http://thomasbashfordrogers.com/), [Jonathan Hatchett](https://hatchett.co.uk/), [Kurt Debattista](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=518)  <Br>
 **[[Pytorch-Code](https://github.com/dmarnerides/hdr-expandnet)]** **[[Unofficial-TF-Code](https://github.com/echolijinghui/ExpandNet)]**<Br>
 
-#### *Image Correction via Deep Reciprocating HDR Transformation*
+#### Image Correction via Deep Reciprocating HDR Transformation
 **[Paper]** (CVPR 2018) Image Correction via Deep Reciprocating HDR Transformation <Br>
 **[Author]** [Xin Yang](http://faculty.dlut.edu.cn/yangxin/zh_CN/index.htm), Ke Xu, [Yibing Song](https://ybsong00.github.io/), Qiang Zhang, Xiaopeng Wei, [Rynson Lau](https://www.cs.cityu.edu.hk/~rynson/)  <Br>
 **[[Project](https://ybsong00.github.io/cvpr18_imgcorrect/index.html)]** **[[TF-Code](https://github.com/ybsong00/DRHT)]**<Br>
+
+#### Deep recursive hdri
+**[Paper]** (ECCV 2018) Deep recursive hdri: Inverse tone mapping using generative adversarial networks <Br>
+**[Author]** Siyeong Lee, Gwon Hwan An, Suk-Ju Kang  <Br>
+**[[Pytorch-Code](https://github.com/Siyeong-Lee/Deep_Recursive_HDRI)]**<Br>
+
+#### Deep Chain HDRI
+**[Paper]** (Access 2018) Deep Chain HDRI: Reconstructing a High Dynamic Range Image from a Single Low Dynamic Range Image <Br>
+**[Author]** Siyeong Lee, Gwon Hwan An, Suk-ju Kang  <Br>
+**[[Project](https://siyeong-lee.github.io/hdr_vds_dataset/)]** <Br>
 
 #### HDRCNN ★
 **[Paper]** (Siggraph Asia 2017) HDR image reconstruction from a single exposure using deep CNNs <Br>
@@ -86,15 +129,45 @@
 **[[Project](http://hdrv.org/hdrcnn/)]** **[[TF-Code](https://github.com/gabrieleilertsen/hdrcnn)]** <Br>
 **单帧HDR**. 粗读, 较早将CNN用于HDR的一篇paper, 网络结构比较老, 但提出了两个可能有趣的点: 1) 将输入转换到log域训练更符合人眼视觉特性; 2) 高光部分采用输入和输出线性加权的方式, 修复过曝光, 并避免形成带状伪影. <Br>
 
-	
 #### DrTMO
 **[Paper]** (Siggraph Asia 2017) Deep Reverse Tone Mapping <Br>
 **[Author]** [Yuki Endo](http://www.npal.cs.tsukuba.ac.jp/~endo/index_en.html), [Yoshihiro Kanamori](http://kanamori.cs.tsukuba.ac.jp/index.html), [Jun Mitani](http://mitani.cs.tsukuba.ac.jp/en/)  <Br>
 **[[Project](http://www.npal.cs.tsukuba.ac.jp/~endo/projects/DrTMO/)]** **[[Unofficial-Pytorch-Code](https://github.com/shleecs/DrTMO_unofficial_pytorch)]**<Br>
 	
 	
+
 	
 ## Video HDR
+### DL Methods
+#### DeepHDRVideo ★
+**[Paper]** (ICCV 2021) HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset <Br>
+**[Author]** [Guanying Chen](https://guanyingc.github.io/), [Chaofeng Chen](http://chaofengc.github.io/), [Shi Guo](https://scholar.google.com/citations?user=5hsEmuQAAAAJ&hl=en), [Zhetong Liang](https://scholar.google.com/citations?user=fCnuU9YAAAAJ&hl=en), [Kwan-Yee K. Wong](http://i.cs.hku.hk/~kykwong/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)  <Br>
+**[[Project](https://guanyingc.github.io/DeepHDRVideo/)]** **[[Pytorch-Code](https://github.com/guanyingc/DeepHDRVideo)]** 
+给定5张不同EV值的视频帧, 采用coarse to fine的方式生成hdr图像.
+
+#### HDRTVNet
+**[Paper]** (ICCV 2021) A New Journey from SDRTV to HDRTV <Br>
+**[Author]** Xiangyu Chen, Zhengwen Zhang, [Jimmy S. Ren](http://www.jimmyren.com/), Lynhoo Tian, [Yu Qiao](http://mmlab.siat.ac.cn/), [Chao Dong](http://xpixel.group/)  <Br>
+**[[Pytorch-Code](https://github.com/chxy95/HDRTVNet)]**  <Br>
+
+
+#### JSI-GAN
+**[Paper]** (AAAI 2020) JSI-GAN: GAN-Based Joint Super-Resolution and Inverse Tone-Mapping with Pixel-Wise Task-Specific Filters for UHD HDR Video <Br>
+**[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/)  <Br>
+
+#### Deep SR-ITM
+**[Paper]** (ICCV 2019) Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications <Br>
+**[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/)  <Br>
+
+#### Single-frame Regularization for Temporally Stable CNNs
+**[Paper]** (CVPR 2019) Single-frame Regularization for Temporally Stable CNNs <Br>
+**[Author]** [Gabriel Eilertsen](https://liu.se/en/employee/gabei62), [Rafal K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Jonas Unger](https://liu.se/en/employee/jonun48)  <Br>
+
+#### Deep HDR Video from Sequences with Alternating Exposures 
+**[Paper]** (Siggraph Asia 2017) Deep HDR Video from Sequences with Alternating Exposures <Br>
+**[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/)  <Br>
+	
+
 ## Traditional Methods
 #### High Dynamic Range Video ★★
 **[Paper]** (TOG 2003) High Dynamic Range Video <Br>
@@ -109,3 +182,10 @@
 **[Paper]** (TOG 2002) Photographic tone reproduction for digital images  <Br>
 **[Author]** [Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
 1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
+
+
+
+
+
+# Datasets
+[Kalantari Dataset](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)
