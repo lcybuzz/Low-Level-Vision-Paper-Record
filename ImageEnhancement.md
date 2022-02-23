@@ -144,7 +144,7 @@ UNet + Global Pooling feature + 输入输出feature间的elementwise scaling
 
 #### Restoring Extremely Dark Images
 **[Paper]** (CVPR 2021) Restoring Extremely Dark Images in Real Time  <Br>
-**[Author]**  [Mohit Lamba](https://mohitlamba94.github.io/about-me/), Kaushik Mitra<Br>
+**[Author]**  [Mohit Lamba](https://mohitlamba94.github.io/about-me/), [Kaushik Mitra](https://www.ee.iitm.ac.in/kmitra/) <Br>
 **[[Code](https://github.com/MohitLamba94/Restoring-Extremely-Dark-Images-In-Real-Time)]** <Br>
 
 #### Zero-DCE ★★
