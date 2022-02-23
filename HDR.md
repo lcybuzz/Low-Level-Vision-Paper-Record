@@ -17,7 +17,8 @@ spatial attention + deformable conv
 #### HDR-GAN
 **[Paper]** (TIP 2021) HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions <Br>
 **[Author]** Yuzhen Niu, Jianbin Wu, Wenxi Liu, Wenzhong Guo, Rynson W.H. Lau <Br>
-
+**[[TF-Code](https://github.com/nonu116/HDR-GAN)]**<Br>
+	
 #### NHDRRNet
 **[Paper]** (TIP 2020) Deep HDR Imaging via A Non-Local Network <Br>
 **[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), Lei Zhang, [Yu Liu](https://sites.google.com/site/yuliuunilau/home), Yu Zhu, Jinqiu Sun, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Yanning Zhang <Br>
