@@ -35,15 +35,15 @@ spatial attention + deformable conv
 **[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), [Dong Gong](https://donggong1.github.io/), Pingping Zhang, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Jinqiu Sun, [Ian Reid](https://cs.adelaide.edu.au/~ianr/), Yanning Zhang <Br>
 
 #### DeepHDR
-**[Paper]** (ECCV 2018) Deep High Dynamic Range Imaging with Large Foreground Motions <Br>
+**[Paper]** (ECCV 2018) Deep High Dynamic Range Imaging with Laxingrge Foreground Motions <Br>
 **[Author]** [Shangzhe Wu](https://elliottwu.com/), [Jiarui Xu](https://jerryxu.net/), [Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing), Chi-Keung Tang <Br>
 **[[Project](https://elliottwu.com/projects/hdr/)]** **[[TF-Code](https://github.com/elliottwu/DeepHDR)]**<Br>
 	
-#### Deep High Dynamic Range Imaging of Dynamic Scenes
+#### Deep High Dynamic Range Imaging of Dynamic Scenes ★☆
 **[Paper]** (Siggraph 2017) Deep High Dynamic Range Imaging of Dynamic Scenes <Br>
 **[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu//~ravir/) <Br>
 **[[Project](https://cseweb.ucsd.edu//~viscomp/projects/SIG17HDR/)]** <Br>
-	
+较早使用CNN做多帧HDR的一篇论文, 提出了Kalantari数据集
 
 ### Traditional Methods
 ####  Noise-Optimal Capture
