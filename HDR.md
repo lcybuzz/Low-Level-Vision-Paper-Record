@@ -8,10 +8,11 @@
 # HDR
 ## Multi-frame HDR
 ### DL Methods
-#### ADNet
+#### ADNet ★
 **[Paper]** (CVPR 2021) ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging <Br>
 **[Author]** Zhen Liu, Wenjie Lin, Xinpeng Li, Qing Rao, Ting Jiang, Mingyan Han, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
 **[[Pytorch-Code](https://github.com/liuzhen03/ADNet)]**<Br>
+spatial attention + deformable conv
 
 #### HDR-GAN
 **[Paper]** (TIP 2021) HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions <Br>
