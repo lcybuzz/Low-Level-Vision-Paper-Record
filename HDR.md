@@ -14,10 +14,11 @@
 **[[Pytorch-Code](https://github.com/liuzhen03/ADNet)]**<Br>
 spatial attention + deformable conv
 
-#### HDR-GAN
+#### HDR-GAN ★
 **[Paper]** (TIP 2021) HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions <Br>
 **[Author]** Yuzhen Niu, Jianbin Wu, Wenxi Liu, Wenzhong Guo, Rynson W.H. Lau <Br>
 **[[TF-Code](https://github.com/nonu116/HDR-GAN)]**<Br>
+多尺度网络 + GAN
 	
 #### NHDRRNet
 **[Paper]** (TIP 2020) Deep HDR Imaging via A Non-Local Network <Br>
