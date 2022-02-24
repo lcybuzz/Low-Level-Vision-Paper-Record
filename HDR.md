@@ -34,6 +34,10 @@ spatial attention + deformable conv
 **[Paper]** (WACV 2019) Multi-scale Dense Networks for Deep High Dynamic Range Imaging <Br>
 **[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), [Dong Gong](https://donggong1.github.io/), Pingping Zhang, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Jinqiu Sun, [Ian Reid](https://cs.adelaide.edu.au/~ianr/), Yanning Zhang <Br>
 
+#### Deep Multi-Stage Learning for HDR With Large Object Motions ☆
+**[Paper]** (ICCP 2019) Deep Multi-Stage Learning for HDR With Large Object Motions <Br>
+**[Author]** Green Rosh K S, Anmol Biswas Mandakinee, Singh Patel, B H Pawan Prasad<Br>
+
 #### DeepHDR
 **[Paper]** (ECCV 2018) Deep High Dynamic Range Imaging with Laxingrge Foreground Motions <Br>
 **[Author]** [Shangzhe Wu](https://elliottwu.com/), [Jiarui Xu](https://jerryxu.net/), [Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing), Chi-Keung Tang <Br>
@@ -45,6 +49,7 @@ spatial attention + deformable conv
 **[[Project](https://cseweb.ucsd.edu//~viscomp/projects/SIG17HDR/)]** <Br>
 较早使用CNN做多帧HDR的一篇论文, 提出了Kalantari数据集
 
+	
 ### Traditional Methods
 ####  Noise-Optimal Capture
 **[Paper]** (CVPR 2010) Noise-Optimal Capture for High Dynamic Range Photography <Br>
