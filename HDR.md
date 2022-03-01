@@ -45,6 +45,11 @@ spatial attention + deformable conv
 **[Paper]** (ICCP 2019) Deep Multi-Stage Learning for HDR With Large Object Motions <Br>
 **[Author]** Green Rosh K S, Anmol Biswas Mandakinee, Singh Patel, B H Pawan Prasad<Br>
 
+#### Deep HDR Video from Sequences with Alternating Exposures ★
+**[Paper]** (Eurographics 2019) Deep HDR Video from Sequences with Alternating Exposures <Br>
+**[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/)  <Br>
+光流对齐加融合, 提出了一个从HDR视频生成样本的流程可以研究下
+
 #### DeepHDR
 **[Paper]** (ECCV 2018) Deep High Dynamic Range Imaging with Laxingrge Foreground Motions <Br>
 **[Author]** [Shangzhe Wu](https://elliottwu.com/), [Jiarui Xu](https://jerryxu.net/), [Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing), Chi-Keung Tang <Br>
@@ -56,10 +61,7 @@ spatial attention + deformable conv
 **[[Project](https://cseweb.ucsd.edu//~viscomp/projects/SIG17HDR/)]** <Br>
 较早使用CNN做多帧HDR的一篇论文, 提出了Kalantari数据集
 
-#### Deep HDR Video from Sequences with Alternating Exposures 
-**[Paper]** (Siggraph Asia 2017) Deep HDR Video from Sequences with Alternating Exposures <Br>
-**[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/)  <Br>
-	
+
 
 ### Traditional Methods
 ####  Noise-Optimal Capture
