@@ -9,7 +9,7 @@
 - [Video Dehazing](#video-dehazing)
 - [Video Matting](#video-matting)
 - [Video Inpainting](#video-inpainting)
-- [General](#general)
+- [Misc](#misc)
 - [Useful Resources](#useful-resources)
 
 
@@ -506,15 +506,31 @@ end-to-end的插帧网络, 使用类似PWCNet的多尺度flow预测结构, 特�
 
 	
 	
-# General
+# Misc
 #### Single-frame Regularization ★☆
 **[Paper]** (CVPR 2019) Single-frame Regularization for Temporally Stable CNNs <Br>
 **[Author]** [Gabriel Eilertsen](https://liu.se/en/employee/gabei62), [Rafał K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Jonas Unger](https://weber.itn.liu.se/~jonun/web/Home.php) <Br>
 提出增强视频帧间稳定性的一些正则loss, 包括Stability regularization(加入高斯噪声), Transform invariance regularization(几何变换), Sparse Jacobian regularization(梯度一致loss).
 
+#### HDRTVNet
+**[Paper]** (ICCV 2021) A New Journey from SDRTV to HDRTV <Br>
+**[Author]** Xiangyu Chen, Zhengwen Zhang, [Jimmy S. Ren](http://www.jimmyren.com/), Lynhoo Tian, [Yu Qiao](http://mmlab.siat.ac.cn/), [Chao Dong](http://xpixel.group/)  <Br>
+**[[Pytorch-Code](https://github.com/chxy95/HDRTVNet)]**  <Br>
+
+#### JSI-GAN
+**[Paper]** (AAAI 2020) JSI-GAN: GAN-Based Joint Super-Resolution and Inverse Tone-Mapping with Pixel-Wise Task-Specific Filters for UHD HDR Video <Br>
+**[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/)  <Br>
+
+#### Deep SR-ITM
+**[Paper]** (ICCV 2019) Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications <Br>
+**[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/)  <Br>
+
+#### Single-frame Regularization for Temporally Stable CNNs
+**[Paper]** (CVPR 2019) Single-frame Regularization for Temporally Stable CNNs <Br>
+**[Author]** [Gabriel Eilertsen](https://liu.se/en/employee/gabei62), [Rafal K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Jonas Unger](https://liu.se/en/employee/jonun48)  <Br>
+
+
 	
-
-
 # Useful Resources
 **[[SimDeblur]](https://github.com/ljzycmd/SimDeblur)]** 多个deep-learning based图像和视频去模糊Pytorch代码实现
 
