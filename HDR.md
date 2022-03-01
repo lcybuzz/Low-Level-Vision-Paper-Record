@@ -14,6 +14,12 @@
 **[[Pytorch-Code](https://github.com/liuzhen03/ADNet)]**<Br>
 spatial attention + deformable conv
 
+#### DeepHDRVideo ★
+**[Paper]** (ICCV 2021) HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset <Br>
+**[Author]** [Guanying Chen](https://guanyingc.github.io/), [Chaofeng Chen](http://chaofengc.github.io/), [Shi Guo](https://scholar.google.com/citations?user=5hsEmuQAAAAJ&hl=en), [Zhetong Liang](https://scholar.google.com/citations?user=fCnuU9YAAAAJ&hl=en), [Kwan-Yee K. Wong](http://i.cs.hku.hk/~kykwong/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)  <Br>
+**[[Project](https://guanyingc.github.io/DeepHDRVideo/)]** **[[Pytorch-Code](https://github.com/guanyingc/DeepHDRVideo)]** 
+给定5张不同EV值的视频帧, 采用coarse to fine的方式生成hdr图像.
+
 #### HDR-GAN ★
 **[Paper]** (TIP 2021) HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions <Br>
 **[Author]** Yuzhen Niu, Jianbin Wu, Wenxi Liu, Wenzhong Guo, Rynson W.H. Lau <Br>
@@ -50,7 +56,11 @@ spatial attention + deformable conv
 **[[Project](https://cseweb.ucsd.edu//~viscomp/projects/SIG17HDR/)]** <Br>
 较早使用CNN做多帧HDR的一篇论文, 提出了Kalantari数据集
 
+#### Deep HDR Video from Sequences with Alternating Exposures 
+**[Paper]** (Siggraph Asia 2017) Deep HDR Video from Sequences with Alternating Exposures <Br>
+**[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/)  <Br>
 	
+
 ### Traditional Methods
 ####  Noise-Optimal Capture
 **[Paper]** (CVPR 2010) Noise-Optimal Capture for High Dynamic Range Photography <Br>
@@ -66,6 +76,11 @@ spatial attention + deformable conv
 **[Paper]** (PG 2007) Exposure Fusion <Br>
 **[Author]** [Tom Mertens](http://www.mericam.net/), [Jan Kautz](https://jankautz.com/), Frank Van Reeth<Br>
 
+#### High Dynamic Range Video ★★
+**[Paper]** (TOG 2003) High Dynamic Range Video <Br>
+**[Author]** [Sing Bing Kang](http://www.singbingkang.com/), [Matthew Uyttendaele](https://research.facebook.com/people/uyttendaele-matt/), [Simon Winder](http://simonwinder.com/), [Richard Szeliski](http://szeliski.org/RichardSzeliski.htm)  <Br>
+提出了一个视频HDR pipeline. 1.根据场景亮度, 设置相邻帧的曝光值; 2.将相邻帧处理到相同亮度, 做运动检测和warping. 对于当前帧saturate的部分, 使用前后两帧之间的光流估计到当前帧的光流并做warp, 没有saturate的部分, 利用前后帧到当前帧的光流直接warp, 并用一些策略fuse; 3.将HDR的radiance map通过tone mapping转换为能显示的LDR视频, 使用前后若干帧统计平均log域亮度, 做全局scale, 局部只根据当前帧scale
+	
 #### High Dynamic Range Imaging ★
 **[Paper]** (CIC 2001) High Dynamic Range Imaging <Br>
 **[Author]** Greg Ward  <Br>
@@ -142,46 +157,6 @@ spatial attention + deformable conv
 **[Author]** [Yuki Endo](http://www.npal.cs.tsukuba.ac.jp/~endo/index_en.html), [Yoshihiro Kanamori](http://kanamori.cs.tsukuba.ac.jp/index.html), [Jun Mitani](http://mitani.cs.tsukuba.ac.jp/en/)  <Br>
 **[[Project](http://www.npal.cs.tsukuba.ac.jp/~endo/projects/DrTMO/)]** **[[Unofficial-Pytorch-Code](https://github.com/shleecs/DrTMO_unofficial_pytorch)]**<Br>
 	
-	
-
-	
-## Video HDR
-### DL Methods
-#### DeepHDRVideo ★
-**[Paper]** (ICCV 2021) HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset <Br>
-**[Author]** [Guanying Chen](https://guanyingc.github.io/), [Chaofeng Chen](http://chaofengc.github.io/), [Shi Guo](https://scholar.google.com/citations?user=5hsEmuQAAAAJ&hl=en), [Zhetong Liang](https://scholar.google.com/citations?user=fCnuU9YAAAAJ&hl=en), [Kwan-Yee K. Wong](http://i.cs.hku.hk/~kykwong/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)  <Br>
-**[[Project](https://guanyingc.github.io/DeepHDRVideo/)]** **[[Pytorch-Code](https://github.com/guanyingc/DeepHDRVideo)]** 
-给定5张不同EV值的视频帧, 采用coarse to fine的方式生成hdr图像.
-
-#### HDRTVNet
-**[Paper]** (ICCV 2021) A New Journey from SDRTV to HDRTV <Br>
-**[Author]** Xiangyu Chen, Zhengwen Zhang, [Jimmy S. Ren](http://www.jimmyren.com/), Lynhoo Tian, [Yu Qiao](http://mmlab.siat.ac.cn/), [Chao Dong](http://xpixel.group/)  <Br>
-**[[Pytorch-Code](https://github.com/chxy95/HDRTVNet)]**  <Br>
-
-
-#### JSI-GAN
-**[Paper]** (AAAI 2020) JSI-GAN: GAN-Based Joint Super-Resolution and Inverse Tone-Mapping with Pixel-Wise Task-Specific Filters for UHD HDR Video <Br>
-**[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/)  <Br>
-
-#### Deep SR-ITM
-**[Paper]** (ICCV 2019) Deep SR-ITM: Joint Learning of Super-Resolution and Inverse Tone-Mapping for 4K UHD HDR Applications <Br>
-**[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/)  <Br>
-
-#### Single-frame Regularization for Temporally Stable CNNs
-**[Paper]** (CVPR 2019) Single-frame Regularization for Temporally Stable CNNs <Br>
-**[Author]** [Gabriel Eilertsen](https://liu.se/en/employee/gabei62), [Rafal K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Jonas Unger](https://liu.se/en/employee/jonun48)  <Br>
-
-#### Deep HDR Video from Sequences with Alternating Exposures 
-**[Paper]** (Siggraph Asia 2017) Deep HDR Video from Sequences with Alternating Exposures <Br>
-**[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/)  <Br>
-	
-
-## Traditional Methods
-#### High Dynamic Range Video ★★
-**[Paper]** (TOG 2003) High Dynamic Range Video <Br>
-**[Author]** [Sing Bing Kang](http://www.singbingkang.com/), [Matthew Uyttendaele](https://research.facebook.com/people/uyttendaele-matt/), [Simon Winder](http://simonwinder.com/), [Richard Szeliski](http://szeliski.org/RichardSzeliski.htm)  <Br>
-提出了一个视频HDR pipeline. 1.根据场景亮度, 设置相邻帧的曝光值; 2.将相邻帧处理到相同亮度, 做运动检测和warping. 对于当前帧saturate的部分, 使用前后两帧之间的光流估计到当前帧的光流并做warp, 没有saturate的部分, 利用前后帧到当前帧的光流直接warp, 并用一些策略fuse; 3.将HDR的radiance map通过tone mapping转换为能显示的LDR视频, 使用前后若干帧统计平均log域亮度, 做全局scale, 局部只根据当前帧scale
-	
 
 	
 # Tone Mapping
@@ -201,3 +176,4 @@ spatial attention + deformable conv
 [Jan Fröhlich](https://www.hdm-stuttgart.de/vmlab/hdm-hdr-2014/)
 	
 [Sumsung Synthetic](https://github.com/nadir-zeeshan/sensor-realistic-synthetic-data)
+
