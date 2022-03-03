@@ -27,9 +27,10 @@ spatial attention + deformable conv
 多尺度网络 + GAN
 	
 #### NHDRRNet
-**[Paper]** (TIP 2020) Deep HDR Imaging via A Non-Local Network <Br>
+**[Paper]** (TIP 2020) Deep HDR Imaging via A Non-Local Network ★ <Br>
 **[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), Lei Zhang, [Yu Liu](https://sites.google.com/site/yuliuunilau/home), Yu Zhu, Jinqiu Sun, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Yanning Zhang <Br>
 **[[Keras-Code](https://github.com/tuvovan/NHDRRNet)]**<Br>
+UNet + non-local + 并行不同kernel的卷积分支
 
 #### AHDRNet ★★
 **[Paper]** (CVPR 2019) Attention-guided Network for Ghost-free High Dynamic Range Imaging <Br>
