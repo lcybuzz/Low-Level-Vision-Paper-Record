@@ -8,6 +8,11 @@
 # HDR
 ## Multi-frame HDR
 ### DL Methods
+#### FlexHDR ★
+**[Paper]** (CVPR 2021) FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging <Br>
+**[Author]** [Sibi Catley-Chandar](https://sib1.github.io/), [Thomas Tanay](https://thomas-tanay.github.io/about/), Lucas Vandroux, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Gregory Slabaugh](http://eecs.qmul.ac.uk/profiles/slabaughgreg.html), [Eduardo Pérez-Pellitero](https://perezpellitero.github.io/) <Br>
+对输入的每一张LDR, 根据亮度和光流准确度预测map, 并用它们预测spatial attention map. 每张LDR的分支通过feature的max pooling操作交换信息.
+	
 #### ADNet ★
 **[Paper]** (CVPR 2021) ADNet: Attention-guided Deformable Convolutional Network for High Dynamic Range Imaging <Br>
 **[Author]** Zhen Liu, Wenjie Lin, Xinpeng Li, Qing Rao, Ting Jiang, Mingyan Han, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
