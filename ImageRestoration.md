@@ -4,8 +4,8 @@
 - [Image Debluring](#image-debluring)
 - [Reflection Removal](#reflection-removal)
 - [Image Inpainting](#image-inpainting)
-- [De-raining (Archived)](#de-raining)
-- [Image Demoireing (Archived)](#image-demoireing)
+- [De-raining](#de-raining)
+- [Image Demoireing](#image-demoireing)
 
 
 
@@ -154,7 +154,10 @@
 **[[Code](https://github.com/cddlyf/GCANet)]**  <Br>	
 在dilation卷积前加入可分离卷积, 消除grid effect. 除去雾去雨外应该也适合其它任务.
 
-
+#### Image Companding and Inverse Halftoning using Deep Convolutional Neural Networks
+**[Paper]** (arXiv 1707) Image Companding and Inverse Halftoning using Deep Convolutional Neural Networks <Br>
+**[Author]** Xianxu Hou, [Guoping Qiu](http://www.cs.nott.ac.uk/~pszqiu/)  <Br>
+CNN做Image Companding和Inverse Halftoning
 
 
 
