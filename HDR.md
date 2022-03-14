@@ -1,12 +1,15 @@
 
 # Table of Contents
   - [HDR](#hdr)
+    - [Multi-Frame HDR](#multi-frame-hdr)
+    - [Single-Frame HDR](#single-frame-hdr)
+    - [Video HDR](#video-hdr)
   - [Tone Mapping](#tone-mapping)
   - [Datasets](#datasets)
 
     
 # HDR
-## Multi-frame HDR
+## Multi-Frame HDR
 ### DL Methods
 #### FlexHDR ★
 **[Paper]** (arXiv 2201) FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging <Br>
@@ -18,12 +21,6 @@
 **[Author]** Zhen Liu, Wenjie Lin, Xinpeng Li, Qing Rao, Ting Jiang, Mingyan Han, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
 **[[Pytorch-Code](https://github.com/liuzhen03/ADNet)]**<Br>
 spatial attention + deformable conv
-
-#### DeepHDRVideo ★
-**[Paper]** (ICCV 2021) HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset <Br>
-**[Author]** [Guanying Chen](https://guanyingc.github.io/), [Chaofeng Chen](http://chaofengc.github.io/), [Shi Guo](https://scholar.google.com/citations?user=5hsEmuQAAAAJ&hl=en), [Zhetong Liang](https://scholar.google.com/citations?user=fCnuU9YAAAAJ&hl=en), [Kwan-Yee K. Wong](http://i.cs.hku.hk/~kykwong/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)  <Br>
-**[[Project](https://guanyingc.github.io/DeepHDRVideo/)]** **[[Pytorch-Code](https://github.com/guanyingc/DeepHDRVideo)]** 
-给定5张不同EV值的视频帧, 采用coarse to fine的方式生成hdr图像.
 
 #### HDR-GAN ★
 **[Paper]** (TIP 2021) HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions <Br>
@@ -50,11 +47,6 @@ UNet + non-local + 并行不同kernel的卷积分支
 #### Deep Multi-Stage Learning for HDR With Large Object Motions ☆
 **[Paper]** (ICCP 2019) Deep Multi-Stage Learning for HDR With Large Object Motions <Br>
 **[Author]** Green Rosh K S, Anmol Biswas Mandakinee, Singh Patel, B H Pawan Prasad<Br>
-
-#### Deep HDR Video from Sequences with Alternating Exposures ★
-**[Paper]** (Eurographics 2019) Deep HDR Video from Sequences with Alternating Exposures <Br>
-**[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/)  <Br>
-光流对齐加融合, 提出了一个从HDR视频生成样本的流程可以研究下
 
 #### DeepHDR
 **[Paper]** (ECCV 2018) Deep High Dynamic Range Imaging with Laxingrge Foreground Motions <Br>
@@ -101,7 +93,7 @@ UNet + non-local + 并行不同kernel的卷积分支
 
 
 
-## Single-frame HDR
+## Single-Frame HDR
 ### DL Methods
 #### HDRUNet ★
 **[Paper]** (CVPRW 2021) HDRUNet: Single Image HDR Reconstruction with Denoising and Dequantization <Br>
@@ -165,6 +157,19 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[Author]** [Yuki Endo](http://www.npal.cs.tsukuba.ac.jp/~endo/index_en.html), [Yoshihiro Kanamori](http://kanamori.cs.tsukuba.ac.jp/index.html), [Jun Mitani](http://mitani.cs.tsukuba.ac.jp/en/)  <Br>
 **[[Project](http://www.npal.cs.tsukuba.ac.jp/~endo/projects/DrTMO/)]** **[[Unofficial-Pytorch-Code](https://github.com/shleecs/DrTMO_unofficial_pytorch)]**<Br>
 	
+
+## Video HDR
+#### DeepHDRVideo ★
+**[Paper]** (ICCV 2021) HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset <Br>
+**[Author]** [Guanying Chen](https://guanyingc.github.io/), [Chaofeng Chen](http://chaofengc.github.io/), [Shi Guo](https://scholar.google.com/citations?user=5hsEmuQAAAAJ&hl=en), [Zhetong Liang](https://scholar.google.com/citations?user=fCnuU9YAAAAJ&hl=en), [Kwan-Yee K. Wong](http://i.cs.hku.hk/~kykwong/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)  <Br>
+**[[Project](https://guanyingc.github.io/DeepHDRVideo/)]** **[[Pytorch-Code](https://github.com/guanyingc/DeepHDRVideo)]** 
+给定5张不同EV值的视频帧, 采用coarse to fine的方式生成hdr图像.
+
+#### Deep HDR Video from Sequences with Alternating Exposures ★
+**[Paper]** (Eurographics 2019) Deep HDR Video from Sequences with Alternating Exposures <Br>
+**[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/)  <Br>
+光流对齐加融合, 提出了一个从HDR视频生成样本的流程可以研究下
+
 
 	
 # Tone Mapping
