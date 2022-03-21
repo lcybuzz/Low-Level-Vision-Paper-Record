@@ -529,12 +529,17 @@ end-to-end的插帧网络, 使用类似PWCNet的多尺度flow预测结构, 特�
 **[Paper]** (CVPR 2019) Single-frame Regularization for Temporally Stable CNNs <Br>
 **[Author]** [Gabriel Eilertsen](https://liu.se/en/employee/gabei62), [Rafal K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Jonas Unger](https://liu.se/en/employee/jonun48)  <Br>
 
+#### Blind Video Temporal Consistency ★
+**[Paper]** (TOG 2015) Blind Video Temporal Consistency <Br>
+**[Author]** [Nicolas Bonneel](https://perso.liris.cnrs.fr/nicolas.bonneel/), [James Tompkin](https://jamestompkin.com/), [Kalyan Sunkavalli](http://www.kalyans.org/), [Deqing Sun](https://deqings.github.io/), [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/)  <Br>
+**[[Project](https://perso.liris.cnrs.fr/nicolas.bonneel/consistency/)]**  <Br>
+内容和时域一致联合最小化, 适用于各种处理算子
 
 	
 # Useful Resources
-**[[SimDeblur]](https://github.com/ljzycmd/SimDeblur)]** 多个deep-learning based图像和视频去模糊Pytorch代码实现
+**[[SimDeblur](https://github.com/ljzycmd/SimDeblur)]** 多个deep-learning based图像和视频去模糊Pytorch代码实现
 
-**[[VideoSuperResolution]](https://github.com/LoSealL/VideoSuperResolution)]** A collection of state-of-the-art video or single-image super-resolution architectures, reimplemented in TF
+**[[VideoSuperResolution](https://github.com/LoSealL/VideoSuperResolution)]** A collection of state-of-the-art video or single-image super-resolution architectures, reimplemented in TF
 
-**[[Waifu2x-Extension-GUI]](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)]** Image & GIF & Video Super-Resolution and Video Frame Interpolation using DNNs
+**[[Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)]** Image & GIF & Video Super-Resolution and Video Frame Interpolation using DNNs
 
