@@ -122,6 +122,12 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[Author]** [Marcel Santana Santos](https://marcelsan.github.io/), Tsang Ing Ren, [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html)  <Br>
 **[[Pytorch-Code](https://github.com/marcelsan/Deep-HdrReconstruction)]**<Br>
 
+
+#### iTM-Net ☆
+**[Paper]** (Global SIP 2019) iTM-Net: Deep Inverse Tone Mapping Using Novel Loss Function Considering Tone Mapping Operator <Br>
+**[Author]** [Yuma Kinoshita](https://sites.google.com/view/kinoshita-yuma-en/), [Hitoshi Kiya](http://www-isys.sd.tmu.ac.jp/members-2/kiya/)  <Br>
+在非线性空间计算loss
+
 #### FHDR
 **[Paper]** (Global SIP 2019) FHDR: HDR Image Reconstruction from a SingleLDR Image using Feedback Network <Br>
 **[Author]** Zeeshan Khan, Mukul Khanna, Shanmuganathan Raman  <Br>
