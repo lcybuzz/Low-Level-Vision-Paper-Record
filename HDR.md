@@ -162,7 +162,7 @@ UNet + non-local + 并行不同kernel的卷积分支
 #### DeepHDRVideo ★
 **[Paper]** (ICCV 2021) HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset <Br>
 **[Author]** [Guanying Chen](https://guanyingc.github.io/), [Chaofeng Chen](http://chaofengc.github.io/), [Shi Guo](https://scholar.google.com/citations?user=5hsEmuQAAAAJ&hl=en), [Zhetong Liang](https://scholar.google.com/citations?user=fCnuU9YAAAAJ&hl=en), [Kwan-Yee K. Wong](http://i.cs.hku.hk/~kykwong/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)  <Br>
-**[[Project](https://guanyingc.github.io/DeepHDRVideo/)]** **[[Pytorch-Code](https://github.com/guanyingc/DeepHDRVideo)]** 
+**[[Project](https://guanyingc.github.io/DeepHDRVideo/)]** **[[Pytorch-Code](https://github.com/guanyingc/DeepHDRVideo)]**  <Br>
 给定5张不同EV值的视频帧, 采用coarse to fine的方式生成hdr图像.
 
 #### Deep HDR Video from Sequences with Alternating Exposures ★
@@ -173,10 +173,14 @@ UNet + non-local + 并行不同kernel的卷积分支
 
 	
 # Tone Mapping
-## Traditional Methods
-#### Photographic tone reproduction for digital images ★★
-**[Paper]** (TOG 2002) Photographic tone reproduction for digital images  <Br>
-**[Author]** [Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
+
+**[Paper]** (CVPR 2018) A Hybrid ℓ1-ℓ0 Layer Decomposition Model for Tone Mapping  ★<Br>
+**[Author]** Zhetong Liang, [Jun Xu](https://csjunxu.github.io/), [David Zhang](http://www4.comp.polyu.edu.hk/~csdzhang/), Zisheng Cao, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
+ **[[Code](https://github.com/csjunxu/L1-L0-Tone-mapping)]** 	<Br>
+l1约束base layer, l0约束detail layer <Br>
+	
+**[Paper] (TOG 2002) Photographic tone reproduction for digital images ** <Br>
+[Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
 1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
 
 
