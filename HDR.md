@@ -173,13 +173,16 @@ UNet + non-local + 并行不同kernel的卷积分支
 
 	
 # Tone Mapping
-
-- ** A Hybrid ℓ1-ℓ0 Layer Decomposition Model for Tone Mapping** (CVPR 2018) ★  [[Code](https://github.com/csjunxu/L1-L0-Tone-mapping)] <Br>
-Zhetong Liang, [Jun Xu](https://csjunxu.github.io/), [David Zhang](http://www4.comp.polyu.edu.hk/~csdzhang/), Zisheng Cao, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
-l1约束base layer, l0约束detail layer <Br>
+## Traditional Methods
+#### A Hybrid ℓ1-ℓ0 Layer Decomposition Model for Tone Mapping ★
+**[Paper]** (CVPR 2018) A Hybrid ℓ1-ℓ0 Layer Decomposition Model for Tone Mapping  <Br>
+**[Author]** Zhetong Liang, [Jun Xu](https://csjunxu.github.io/), [David Zhang](http://www4.comp.polyu.edu.hk/~csdzhang/), Zisheng Cao, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
+ **[[Code](https://github.com/csjunxu/L1-L0-Tone-mapping)]** 	<Br>
+l1约束base layer, l0约束detail layer
 	
-**[Paper] (TOG 2002) Photographic tone reproduction for digital images ** <Br>
-[Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
+#### Photographic tone reproduction for digital images ★★
+**[Paper]** (TOG 2002) Photographic tone reproduction for digital images  <Br>
+**[Author]** [Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
 1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
 
 
