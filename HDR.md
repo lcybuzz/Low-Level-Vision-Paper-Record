@@ -63,9 +63,10 @@ UNet + non-local + 并行不同kernel的卷积分支
 
 ### Traditional Methods
 ####  Noise-Optimal Capture
-**[Paper]** (CVPR 2010) Noise-Optimal Capture for High Dynamic Range Photography <Br>
+**[Paper]** (CVPR 2010) Noise-Optimal Capture for High Dynamic Range Photography ★☆ <Br>
 **[Author]** [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Frédo Durand](http://people.csail.mit.edu/fredo/), [William T. Freeman](http://billf.mit.edu/)  <Br>
 **[[Project](http://people.csail.mit.edu/hasinoff/hdrnoise/)]** <Br>
+从成像的物理过程出发, 推导出最大化SNR下限和最短拍摄时间的拍摄参数设置. 文中对噪声建模和ISO与SNR关系的论述比较清晰, 值得学习.
 
 #### Recovering High Dynamic Range Radiance Maps from Photographs
 **[Paper]** (TOG 2008) Recovering High Dynamic Range Radiance Maps from Photographs <Br>
@@ -174,7 +175,8 @@ UNet + non-local + 并行不同kernel的卷积分支
 	
 # Tone Mapping
 ## Traditional Methods
-#### A Hybrid ℓ1-ℓ0 Layer Decomposition Model for Tone Mapping ★
+
+#### ℓ1-ℓ0 Layer Decomposition ★
 **[Paper]** (CVPR 2018) A Hybrid ℓ1-ℓ0 Layer Decomposition Model for Tone Mapping  <Br>
 **[Author]** Zhetong Liang, [Jun Xu](https://csjunxu.github.io/), [David Zhang](http://www4.comp.polyu.edu.hk/~csdzhang/), Zisheng Cao, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
  **[[Code](https://github.com/csjunxu/L1-L0-Tone-mapping)]** 	<Br>
