@@ -106,7 +106,7 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[Paper]** (AAAI 2021) End-to-End Differentiable Learning to HDR Image Synthesis for Multi-exposure Images <Br>
 **[Author]** Jung Hee Kim, Siyeong Lee, [Suk-Ju Kang](http://vds.sogang.ac.kr/) <Br>
 
-#### Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline ★
+#### HDR by Learning to Reverse the Camera Pipeline ★★
 **[Paper]** (CVPR 2020) Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline <Br>
 **[Author]** [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Wei-Sheng Lai](https://www.wslai.net/), [Yu-Sheng Chen](https://www.cmlab.csie.ntu.edu.tw/~nothinglo/), Yi-Lung Kao, [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/) <Br>
 **[[Project](https://www.cmlab.csie.ntu.edu.tw/~yulunliu/SingleHDR)]** **[[TF-Code](https://github.com/alex04072000/SingleHDR)]**<Br>
