@@ -2,6 +2,12 @@
 ISP及其内部模块相关论文
 
 ## ISP
+### Model ISP ★★
+**[Paper]**  (AAAI 2022 Oral) Model-Based Image Signal Processors via Learnable Dictionaries <Br>
+**[Author]** [Marcos V. Conde](https://mv-lab.github.io/), [Steven McDonagh](https://smcdonagh.github.io/), Matteo Maggioni, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Eduardo Pérez-Pellitero](http://perezpellitero.github.io/) <Br>
+**[[Project](https://mv-lab.github.io/model-isp22/)]** <Br>
+ 对ISP过程做了较详细的拆分, 每一步尽量做到可逆, end-to-end训练和推理
+  
 ### Mobile Computational Photography: A Tour ★★★
 **[Paper]**  (arXiv 2102) Mobile Computational Photography: A Tour <Br>
 **[Author]** [Mauricio Delbracio](https://mdelbra.github.io/), Damien Kelly, [Michael S. Brown](https://mdelbra.github.io/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
@@ -16,7 +22,13 @@ ISP及其内部模块相关论文
 **[Paper]**  (CVPR 2021) Neural Camera Simulators <Br>
 **[Author]** Hao Ouyang, Zifan Shi, [Chenyang Lei](https://chenyanglei.github.io/), Ka Lung Law, [Qifeng Chen](https://cqf.io/) <Br>
 提出了一个controllable raw图像生成流程, 通过控制曝光时间, ISO, 噪声level和aperture, 控制生成图像的亮度, blur, 噪声等属性
-
+  
+##### CycleISP ★
+**[Paper]** (CVPR 2020 Oral) CycleISP: Real Image Restoration via Improved Data Synthesis <Br>
+**[Author]** [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en)<Br>
+**[[Pytorch-Code](https://github.com/swz30/CycleISP)]**  <Br>
+提出了一个从sRGB到RAW相互转换的网络, 在Raw图像上注入高斯噪声用于生成RGB噪声样本.
+  
 ### PyNet ★
 **[Paper]** (CVPR 2020) Replacing Mobile Camera ISP with a Single Deep Learning Model <Br>
 **[Author]**   Andrey Ignatov, Luc Van Gool, Radu Timofte  <Br>
