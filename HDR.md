@@ -5,6 +5,7 @@
     - [Single-Frame HDR](#single-frame-hdr)
     - [Video HDR](#video-hdr)
   - [Tone Mapping](#tone-mapping)
+  - [CRF](#crf)
   - [Datasets](#datasets)
 
     
@@ -193,7 +194,15 @@ l1约束base layer, l0约束detail layer
 **[Author]** [Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
 1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
 
-
+	
+# CRF
+## DL Methods
+#### CRF-net ★★
+**[Paper]** (CVMP 2017) CRF-net: Single Image Radiometric Calibration using CNNs  <Br>
+**[Author]** Han Li, [Pieter Peers](https://www.cs.wm.edu/~ppeers/) <Br>
+较少的用DL做CRF预测的paper, 效果有限, 但思路被一些方法借鉴, 如"HDR by Learning to Reverse the Camera Pipeline"
+	
+## Traditional Methods
 
 
 
