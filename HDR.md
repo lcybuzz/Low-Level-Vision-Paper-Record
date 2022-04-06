@@ -213,3 +213,6 @@ l1约束base layer, l0约束detail layer
 	
 [Sumsung Synthetic](https://github.com/nadir-zeeshan/sensor-realistic-synthetic-data)
 
+
+# Resources
+[HDR Deghosting Paper List](https://github.com/JimmyChame/The-State-of-the-Art-in-HDR-Deghosting)
