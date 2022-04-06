@@ -7,6 +7,7 @@
   - [Tone Mapping](#tone-mapping)
   - [CRF](#crf)
   - [Datasets](#datasets)
+  - [Resources](#resources)
 
     
 # HDR
@@ -216,3 +217,5 @@ l1约束base layer, l0约束detail layer
 
 # Resources
 [HDR Deghosting Paper List](https://github.com/JimmyChame/The-State-of-the-Art-in-HDR-Deghosting)
+
+[HDR Toolbox (Matlab/Octave)](https://github.com/banterle/HDR_Toolbox)
