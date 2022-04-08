@@ -13,6 +13,11 @@ ISP及其内部模块相关论文
 **[Author]** [Mauricio Delbracio](https://mdelbra.github.io/), Damien Kelly, [Michael S. Brown](https://mdelbra.github.io/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
 很好的一篇ISP综述
 
+### ReconfigISP
+**[Paper]**  (ICCV 2021) ReconfigISP: Reconfigurable Camera Image Processing Pipeline <Br>
+**[Author]** Ke Yu, Zexian Li, Yue Peng, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/), [Jinwei Gu](http://www.gujinwei.org/) <Br>
+**[[Project](https://www.mmlab-ntu.com/project/reconfigisp/)]** <Br>
+  
 ### Invertible ISP
 **[Paper]**  (CVPR 2021) Invertible Image Signal Processing <Br>
 **[Author]** [Yazhou Xing](https://yzxing87.github.io/), Zian Qian, [Qifeng Chen](https://cqf.io/) <Br>
