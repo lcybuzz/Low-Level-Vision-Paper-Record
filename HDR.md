@@ -168,6 +168,10 @@ UNet + non-local + 并行不同kernel的卷积分支
 	
 
 ## Video HDR
+#### Video HDR with Tri-Exposure Quad-Bayer Sensors
+**[Paper]** (arXiv 2103) HDR Video Reconstruction with Tri-Exposure Quad-Bayer Sensors<Br>
+**[Author]** Yitong Jiang, [Inchang Choi](http://www.inchangchoi.info/), Jun Jiang, [Jinwei Gu](http://www.gujinwei.org/)  <Br>
+	
 #### DeepHDRVideo ★★
 **[Paper]** (ICCV 2021) HDR Video Reconstruction: A Coarse-to-fine Network and A Real-world Benchmark Dataset <Br>
 **[Author]** [Guanying Chen](https://guanyingc.github.io/), [Chaofeng Chen](http://chaofengc.github.io/), [Shi Guo](https://scholar.google.com/citations?user=5hsEmuQAAAAJ&hl=en), [Zhetong Liang](https://scholar.google.com/citations?user=fCnuU9YAAAAJ&hl=en), [Kwan-Yee K. Wong](http://i.cs.hku.hk/~kykwong/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/)  <Br>
