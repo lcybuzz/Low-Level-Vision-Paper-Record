@@ -10,6 +10,10 @@
 **[Author]** [Yifan Jiang](http://yifanjiang.net/), [He Zhang](https://sites.google.com/site/hezhangsprinter), [Jianming Zhang](https://jimmie33.github.io/), [Yilin Wang](http://yilinwang.org/), [Zhe Lin](https://sites.google.com/site/zhelin625/), [Kalyan Sunkavalli](http://www.kalyans.org/), Simon Chen, Sohrab Amirghodsi, Sarah Kong, Zhangyang Wang <Br>
 **[[PyTorch-Code](https://github.com/VITA-Group/SSHarmonization)]**   <Br>
 
+#### STAR
+**[Paper]** (ICCV 2021) STAR: A Structure-Aware Lightweight Transformer for Real-time Image Enhancement <Br>
+**[Author]**[ Zhaoyang Zhang](https://zzyfd.github.io/#/), Yitong Jiang, Jun Jiang, [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Ping Luo](http://luoping.me/), [Jinwei Gu](https://www.gujinwei.org/) <Br>
+	
 #### G2R-ShadowNet
 **[Paper]** (CVPR 2021) From Shadow Generation to Shadow Removal <Br>
 **[Author]** Zhihao Liu, Hui Yin, Xinyi Wu, [Zhenyao Wu](http://zhenyaowu.com/), Yang Mi, [Song Wang](https://www.cse.sc.edu/~songwang/)<Br>
