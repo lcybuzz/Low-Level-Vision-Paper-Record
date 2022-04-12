@@ -1,6 +1,7 @@
 # Table of Contents
 - [Image Super Resolution](#super-resolution)
-
+- [Datasets](#datasets)
+- [Resources](#resources)
 
 #  Image Super Resolution
 #### Real-ESRGAN
@@ -461,4 +462,14 @@ SRCNN的加速版本, 在小分辨率上处理，用deconv升分辨率.
 
   
 
+# Datasets
+## Image Super Resolution
+[DIV2k](https://data.vision.ee.ethz.ch/cvl/DIV2K/)  <Br>
 
+
+# Resources
+[[超分论文整理1](https://github.com/ChaofWang/Awesome-Super-Resolution)]
+
+[[图像/视频超分论文整理2](https://github.com/HymEric/latest-development-of-ISR-VSR)]
+
+[[图像/视频超分方法TF复现](https://github.com/LoSealL/VideoSuperResolution)]

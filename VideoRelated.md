@@ -10,7 +10,7 @@
 - [Video Matting](#video-matting)
 - [Video Inpainting](#video-inpainting)
 - [Misc](#misc)
-- [Useful Resources](#useful-resources)
+- [Resources](#resources)
 
 
 # Video Super Resolution
@@ -536,7 +536,7 @@ end-to-end的插帧网络, 使用类似PWCNet的多尺度flow预测结构, 特�
 内容和时域一致联合最小化, 适用于各种处理算子
 
 	
-# Useful Resources
+# Resources
 **[[SimDeblur](https://github.com/ljzycmd/SimDeblur)]** 多个deep-learning based图像和视频去模糊Pytorch代码实现
 
 **[[VideoSuperResolution](https://github.com/LoSealL/VideoSuperResolution)]** A collection of state-of-the-art video or single-image super-resolution architectures, reimplemented in TF

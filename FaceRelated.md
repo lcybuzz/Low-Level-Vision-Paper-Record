@@ -1,10 +1,11 @@
-人脸修复和人脸超分, 也记录一些其它关于人脸的相关论文
+Face Restoration and Super-Resolution and other related topics,
 
 # Table of Contents
 - [Face Restoration](#face-restoration)
 - [Face SuperResolution](#face-superresolution)
 - [Face Manipulation](#face-manipulation)
 - [Others](#others)
+- [Datasets](#datasets)
 
 # Face Restoration
 ### PSFR-GAN ★
@@ -168,3 +169,10 @@
 **[Paper]** (CVPRW 2020) FabSoften: Face Beautification via Dynamic Skin Smoothing, Guided Feathering, and Texture Restoration <Br>
 **[Author]** Sudha Velusamy, Rishubh Parihar, Raviprasad Kini, Aniket Rege   <Br>
 提出了一个人脸美化的流程, 速度应该不会快
+
+
+# Datasets
+[CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 人脸属性数据集, 超过200k张图像, 5个关键点, 40个属性 <Br>
+[CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) 3w张人脸解析数据集, 包括19个facial components <Br>
+[Flickr-Faces-HQ Dataset (FFHQ)](https://github.com/NVlabs/ffhq-dataset) <Br>
+[PPR10K](https://github.com/csjliang/PPR10K) <Br>
