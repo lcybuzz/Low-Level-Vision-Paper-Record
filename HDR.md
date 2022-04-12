@@ -42,7 +42,7 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[[Project](https://qingsenyangit.github.io/project/ahdr/)]** **[[Pytorch-Code](https://github.com/qingsenyangit/AHDRNet)]**<Br>
 **多帧HDR**.基于空间attention的多帧HDR, 网络使用dilated residual dense blocks, 预测残差, loss使用μ-law压缩的L1 loss. 结构简洁, 效果不错.
 
-#### Multi-scale Dense Networks for Deep High Dynamic Range Imaging
+#### Multi-scale Dense UNet for HDR ★
 **[Paper]** (WACV 2019) Multi-scale Dense Networks for Deep High Dynamic Range Imaging <Br>
 **[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), [Dong Gong](https://donggong1.github.io/), Pingping Zhang, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Jinqiu Sun, [Ian Reid](https://cs.adelaide.edu.au/~ianr/), Yanning Zhang <Br>
 
