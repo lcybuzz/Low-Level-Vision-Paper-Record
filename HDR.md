@@ -55,11 +55,11 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[Author]** [Shangzhe Wu](https://elliottwu.com/), [Jiarui Xu](https://jerryxu.net/), [Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing), Chi-Keung Tang <Br>
 **[[Project](https://elliottwu.com/projects/hdr/)]** **[[TF-Code](https://github.com/elliottwu/DeepHDR)]**<Br>
 	
-#### Deep High Dynamic Range Imaging of Dynamic Scenes ★☆
-**[Paper]** (Siggraph 2017) Deep High Dynamic Range Imaging of Dynamic Scenes <Br>
+#### Deep High Dynamic Range Imaging of Dynamic Scenes ★★★
+**[Paper]** (TOG 2017) Deep High Dynamic Range Imaging of Dynamic Scenes <Br>
 **[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu//~ravir/) <Br>
 **[[Project](https://cseweb.ucsd.edu//~viscomp/projects/SIG17HDR/)]** <Br>
-较早使用CNN做多帧HDR的一篇论文, 提出了Kalantari数据集
+较早使用CNN做多帧HDR的一篇论文, 提出了Kalantari数据集, 其中的3张图像预处理流程, 算法整体思路, 以及使用mu-law计算loss等内容被之后很多论文借鉴
 
 
 
