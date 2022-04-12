@@ -56,10 +56,11 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[[TF-Code](https://github.com/rajat95/Deep-Deghosting-HDR)]** <Br>
 对任意个输入提特征并进行feature aggregation, 使网络能处理任意输入
 
-#### DeepHDR
+#### DeepHDR ★★
 **[Paper]** (ECCV 2018) Deep High Dynamic Range Imaging with Laxingrge Foreground Motions <Br>
 **[Author]** [Shangzhe Wu](https://elliottwu.com/), [Jiarui Xu](https://jerryxu.net/), [Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing), Chi-Keung Tang <Br>
 **[[Project](https://elliottwu.com/projects/hdr/)]** **[[TF-Code](https://github.com/elliottwu/DeepHDR)]**<Br>
+3个encoder, 1个decoder, loss和预处理与'Deep High Dynamic Range Imaging of Dynamic Scenes'相似
 	
 #### Deep High Dynamic Range Imaging of Dynamic Scenes ★★★
 **[Paper]** (TOG 2017) Deep High Dynamic Range Imaging of Dynamic Scenes <Br>
