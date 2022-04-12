@@ -29,10 +29,15 @@ spatial attention + deformable conv
 **[Author]** Yuzhen Niu, Jianbin Wu, Wenxi Liu, Wenzhong Guo, Rynson W.H. Lau <Br>
 **[[TF-Code](https://github.com/nonu116/HDR-GAN)]**<Br>
 多尺度网络 + GAN
+
+#### GCHDRNet ★☆
+**[Paper]** (Neurocomputing 2021) Towards Accurate HDR Imaging with Learning Generator Constraints <Br>
+**[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), Bo Wang, [Lei Zhang](https://sites.google.com/site/leizhanghyperspectral/home), Jingyu Zhang, Zheng You, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Yanning Zhang <Br>
+提出用3个LDR subnetwork将生成的HDR变换为LDR, 并对3个LDR计算loss, 目的是使网络更关注于有distortion的区域. 可以尝试下该思路.
 	
-#### NHDRRNet
-**[Paper]** (TIP 2020) Deep HDR Imaging via A Non-Local Network ★ <Br>
-**[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), Lei Zhang, [Yu Liu](https://sites.google.com/site/yuliuunilau/home), Yu Zhu, Jinqiu Sun, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Yanning Zhang <Br>
+#### NHDRRNet ★
+**[Paper]** (TIP 2020) Deep HDR Imaging via A Non-Local Network  <Br>
+**[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), [Lei Zhang](https://sites.google.com/site/leizhanghyperspectral/home), [Yu Liu](https://sites.google.com/site/yuliuunilau/home), Yu Zhu, Jinqiu Sun, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Yanning Zhang <Br>
 **[[Keras-Code](https://github.com/tuvovan/NHDRRNet)]**<Br>
 UNet + non-local + 并行不同kernel的卷积分支
 
