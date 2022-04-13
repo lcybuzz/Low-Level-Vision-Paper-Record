@@ -5,15 +5,16 @@
 - <a href='ImageEnhancement.md'> Image Enhancement </a>
 - <a href='Denoising.md'> Image Denoising </a>
 - <a href='SuperResolution.md'> Image Super Resolution </a>
-- <a href='FaceRelated.md'> Face Related (archived) </a>
 - <a href='HDR.md'> HDR </a>
 - <a href='ISP.md'> ISP </a>
+- <a href='VideoRelated.md'> Video Related </a>
 - <a href='Industry.md'> Industry</a>
 - <a href='General.md'> General </a>
-- <a href='ImageSynthesis.md'> Image Synthesis (archived)</a>
 - <a href='FewShot.md'> Few Shot</a>
 - <a href='Misc.md'> Misc </a>
-- <a href='VideoRelated.md'> Video Related </a>
+- <a href='FaceRelated.md'> Face Related (archived) </a>
+- <a href='ImageSynthesis.md'> Image Synthesis (archived)</a>
+
 
 
 
