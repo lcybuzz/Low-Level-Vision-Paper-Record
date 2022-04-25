@@ -5,6 +5,11 @@
 
 #  Image Super Resolution
 #### Real-ESRGAN
+**[Paper]**  (arXiv 2204) Simple Baselines for Image Restoration<Br>
+**[Author]** Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, [Jian Sun](http://www.jiansun.org/) <Br>
+**[[Pytorch-Code](https://github.com/megvii-research/NAFNet/)]**   <Br>
+	
+#### Real-ESRGAN
 **[Paper]**  (arXiv 2107) Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data <Br>
 **[Author]** [Xintao Wang](https://xinntao.github.io/), Liangbie Xie, Chao Dong, Ying Shan <Br>
 **[[Pytorch-Code](https://github.com/xinntao/Real-ESRGAN)]**   <Br>
