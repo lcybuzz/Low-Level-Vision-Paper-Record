@@ -4,7 +4,7 @@
 - [Resources](#resources)
 
 #  Image Super Resolution
-#### Real-ESRGAN
+#### NAFNet
 **[Paper]**  (arXiv 2204) Simple Baselines for Image Restoration<Br>
 **[Author]** Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, [Jian Sun](http://www.jiansun.org/) <Br>
 **[[Pytorch-Code](https://github.com/megvii-research/NAFNet/)]**   <Br>
