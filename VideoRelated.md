@@ -164,6 +164,16 @@
 **[[Project](https://film-net.github.io/)]** **[[TF2-Code](https://github.com/google-research/frame-interpolation)]** <Br>
 end-to-end的插帧网络, 使用类似PWCNet的多尺度flow预测结构, 特征提取部分使用共享权值对图像金字塔提特征, 首次使用gram matrix loss, 使生成帧更清晰. 网络结构很简单明了, 但效果很好, 训练和模型设计的细节应该是功不可没.
 
+#### EDC
+**[Paper]**  (arXiv 2022) Enhancing Deformable Convolution based Video Frame Interpolation with Coarse-to-fine 3D CNN <Br>
+**[Author]** [Duolikun Danier](https://danielism97.github.io/), [Fan Zhang](https://fan-aaron-zhang.github.io/), [David Bull](https://david-bull.github.io/) <Br>
+**[[Pytorch-Code](https://github.com/danielism97/EDC)]** <Br>
+	
+#### BVI-VFI
+**[Paper]**  (arXiv 2022) A Subjective Quality Study for Video Frame Interpolation <Br>
+**[Author]** [Duolikun Danier](https://danielism97.github.io/), [Fan Zhang](https://fan-aaron-zhang.github.io/), [David Bull](https://david-bull.github.io/) <Br>
+**[[Project](https://danielism97.github.io/BVI-VFI/)]**  <Br>
+	
 #### MFNet
 **[Paper]**  (CVPR 2022) ST-MFNet: A Spatio-Temporal Multi-Flow Network for Frame Interpolation <Br>
 **[Author]** [Duolikun Danier](https://danielism97.github.io/), [Fan Zhang](https://fan-aaron-zhang.github.io/), [David Bull](https://david-bull.github.io/) <Br>
