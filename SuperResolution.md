@@ -468,7 +468,6 @@ SRCNN的加速版本, 在小分辨率上处理，用deconv升分辨率.
   
 
 # Datasets
-## Image Super Resolution
 [DIV2k](https://data.vision.ee.ethz.ch/cvl/DIV2K/)  <Br>
 
 
