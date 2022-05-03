@@ -8,6 +8,11 @@
 **[Paper]**  (arXiv 2204) Simple Baselines for Image Restoration<Br>
 **[Author]** Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, [Jian Sun](http://www.jiansun.org/) <Br>
 **[[Pytorch-Code](https://github.com/megvii-research/NAFNet/)]**   <Br>
+
+#### DPT
+**[Paper]** (AAAI 2022) Detail-Preserving Transformer for Light Field Image Super-Resolution <Br>
+**[Author]** Shunzhou Wang, [Tianfei Zhou](https://www.tfzhou.com/), Yao Lu, Huijun Di <Br>
+**[[Pytorch-Code](https://github.com/BITszwang/DPT)]**   <Br>
 	
 #### Real-ESRGAN
 **[Paper]**  (arXiv 2107) Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data <Br>
