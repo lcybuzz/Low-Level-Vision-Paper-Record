@@ -25,6 +25,11 @@
 **[[Pytorch-Code](https://github.com/Thmen/EGVSR)]** <Br>
 快速视频超分网络, 模型和loss参考了TecoGAN
 
+#### VSR-Transformer
+**[Paper]**  (arXiv 2106) Video Super-Resolution Transformer <Br>
+**[Author]** Jiezhang Cao, [Yawei Li](https://yaweili.bitbucket.io/), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
+**[[Pytorch-Code](https://github.com/caojiezhang/VSR-Transformer)]** <Br>
+
 #### BasicVSR++ ★
 **[Paper]** (CVPR 2022) BasicVSR++: Improving Video Super-Resolution with Enhanced Propagation and Alignment <Br>
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), [Xintao Wang](https://xinntao.github.io/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
