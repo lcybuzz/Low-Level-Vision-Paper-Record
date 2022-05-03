@@ -44,6 +44,11 @@
 **[[Pytorch-Code](https://github.com/swz30/MPRNet)]** <Br>
 多阶段结构, 用了attention等一些trick
 
+#### COLA-Net
+**[Paper]** (MM 2021) COLA-Net: Collaborative Attention Network for Image Restoration   <Br>
+**[Author]**  Chong Mou, [Jian Zhang](https://jianzhang.tech/), Xiaopeng Fan, Hangfan Liu, Ronggang Wang <Br>
+**[[Project](https://github.com/MC-E/COLA-Net-Collaborative-Attention-Network-for-Image-Restoration)]** <Br>
+
 #### PANet 
 **[Paper]** (arXiv 2004) Pyramid Attention Networks for Image Restoration <Br>
 **[Author]** [Yiqun Mei](https://yiqunmei.net/), [Yuchen Fan](https://ychfan.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Jiahui Yu](https://jiahuiyu.com/), [Yuqian Zhou](https://yzhouas.github.io/), Ding Liu, Yun Fu, [Thomas S. Huang](http://ifp-uiuc.github.io/), [Humphrey Shi](https://www.humphreyshi.com/) <Br>
