@@ -13,6 +13,7 @@
 **[Paper]** (arXiv 2201) Revisiting RCAN: Improved Training for Image Super-Resolution <Br>
 **[Author]** Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
 **[[Pytorch-Code](https://github.com/zudi-lin/rcan-it)]**   <Br>
+
 	
 #### DPT
 **[Paper]** (AAAI 2022) Detail-Preserving Transformer for Light Field Image Super-Resolution <Br>
