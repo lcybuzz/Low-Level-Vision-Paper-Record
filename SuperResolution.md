@@ -14,6 +14,12 @@
 **[Author]** Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
 **[[Pytorch-Code](https://github.com/zudi-lin/rcan-it)]**   <Br>
 
+#### TATT
+**[Paper]** (CVPR 2022) A Text Attention Network for Spatial Deformation Robust Scene Text Image Super-resolution <Br>
+**[Author]** Jianqi Ma, Zhetong Liang, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+**[[Pytorch-Code](https://github.com/mjq11302010044/TATT)]**   <Br>
+OPPO
+	
 #### ARM-Net
 **[Paper]** (CVPR 2022) ARM: Any-Time Super-Resolution Method <Br>
 **[Author]** Bohong Chen, [Mingbao Lin](https://lmbxmu.github.io/), Kekai Sheng, Mengdan Zhang, Peixian Chen, [Ke Li](https://keli-61.github.io/), Liujuan Cao, [Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/) <Br>
