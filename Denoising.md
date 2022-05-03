@@ -8,6 +8,11 @@
 
 
 # Image Denoising
+##### SCUNet
+**[Paper]** (arXiv 2003) Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis <Br>
+**[Author]** [Kai Zhang](https://cszn.github.io/), [Yawei Li](https://ofsoundof.github.io/), [Jingyun Liang](https://jingyunliang.github.io/), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yulun Zhang](http://yulunzhang.com/), Hao Tang, [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
+**[[Pytorch-Code](https://github.com/cszn/SCUNet)]**  <Br>
+	
 ##### FBI-Denoiser
 **[Paper]** (CVPR 2021) FBI-Denoiser: Fast Blind Image Denoiser for Poisson-Gaussian Noise <Br>
 **[Author]** Jaeseok Byun, [Sungmin Cha](https://sites.google.com/view/sungmin-cha/), [Taesup Moon](https://mindlab-snu.github.io/) <Br>
