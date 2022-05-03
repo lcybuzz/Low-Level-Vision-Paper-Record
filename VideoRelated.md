@@ -1,7 +1,7 @@
 # Table of Contents
 - [Video Super Resolution](#video-super-resolution)
 - [Frame Interpolation](#frame-interpolation)
-- [Video Enhancement](#video-enhancement)
+- [Video Enhancement & Restoration](#video-enhancement-and-restoration)
 - [Video Stabilization](#video-stabilization)
 - [Video Denoising](#video-denoising)
 - [Video Debluring](#video-debluring)
@@ -27,7 +27,7 @@
 
 #### VSR-Transformer
 **[Paper]**  (arXiv 2106) Video Super-Resolution Transformer <Br>
-**[Author]** Jiezhang Cao, [Yawei Li](https://yaweili.bitbucket.io/), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
+**[Author]** [Jiezhang Cao](https://www.jiezhangcao.com/), [Yawei Li](https://yaweili.bitbucket.io/), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
 **[[Pytorch-Code](https://github.com/caojiezhang/VSR-Transformer)]** <Br>
 
 #### BasicVSR++ ★
