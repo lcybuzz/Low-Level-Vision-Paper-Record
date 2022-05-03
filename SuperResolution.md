@@ -14,7 +14,11 @@
 **[Author]** Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
 **[[Pytorch-Code](https://github.com/zudi-lin/rcan-it)]**   <Br>
 
-	
+#### ARM-Net
+**[Paper]** (CVPR 2022) ARM: Any-Time Super-Resolution Method <Br>
+**[Author]** Bohong Chen, [Mingbao Lin](https://lmbxmu.github.io/), Kekai Sheng, Mengdan Zhang, Peixian Chen, [Ke Li](https://keli-61.github.io/), Liujuan Cao, [Rongrong Ji](https://mac.xmu.edu.cn/rrji_en/) <Br>
+**[[Pytorch-Code](https://github.com/chenbong/ARM-Net)]**   <Br>
+		
 #### DPT
 **[Paper]** (AAAI 2022) Detail-Preserving Transformer for Light Field Image Super-Resolution <Br>
 **[Author]** Shunzhou Wang, [Tianfei Zhou](https://www.tfzhou.com/), Yao Lu, Huijun Di <Br>
