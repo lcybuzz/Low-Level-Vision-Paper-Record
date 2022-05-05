@@ -12,6 +12,11 @@
 
 
 # Image Restoration
+#### Uformer
+**[Paper]** (CVPR 2022) Uformer: A General U-Shaped Transformer for Image Restoration  <Br>
+**[Author]** Zhendong Wang, [Xiaodong Cun](https://vinthony.github.io/academic/), [Jianmin Bao](https://jianminbao.github.io/), [Wengang Zhou](http://staff.ustc.edu.cn/~zhwg/), [Jianzhuang Liu](https://people.ucas.ac.cn/~jzliu?language=en), [Houqiang Li](http://staff.ustc.edu.cn/~lihq/en/) <Br>
+**[[Pytorch-Code](https://github.com/ZhendongWang6/Uformer)]** <Br>
+	
 #### FBCNN
 **[Paper]** (ICCV 2021) Learning Dual Priors for JPEG Compression Artifacts Removal  <Br>
 **[Author]** [Xueyang Fu](https://xueyangfu.github.io/), Xi Wang, [Aiping Liu](http://staff.ustc.edu.cn/~aipingl/), Junwei Han, Zheng-Jun Zha <Br>
