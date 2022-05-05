@@ -203,10 +203,11 @@ end-to-end的插帧网络, 使用类似PWCNet的多尺度flow预测结构, 特�
 **[Author]** Zhihao Shi, [Xiangyu Xu](https://sites.google.com/view/xiangyuxu), [Xiaohong Liu](https://jhc.sjtu.edu.cn/~xiaohongliu/), [Jun Chen](https://www.ece.mcmaster.ca/~junchen/), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
 **[[Pytorch-Code](https://github.com/zhshi0816/Video-Frame-Interpolation-Transformer)]** <Br>
 	
-#### M2M
+#### M2M ★☆
 **[Paper]**  (CVPR 2022) Many-to-many Splatting for Efficient Video Frame Interpolation <Br>
 **[Author]** [Ping Hu](http://cs-people.bu.edu/pinghu/homepage.html), [Simon Niklaus](https://sniklaus.com/welcome), [Stan Sclaroff](https://www.cs.bu.edu/fac/sclaroff/), [Kate Saenko](http://ai.bu.edu/ksaenko.html) <Br>
 **[[Code](https://github.com/feinanshan/m2m_vfi)]** <Br>
+首先用off-the-shell model预测0->1/1->0的光流, 再通过motion refinement network预测N个光流图及置信度map, 最后利用N个光流进行forward warp并fuse结果. 使用Low-rank Feature Modulation加强光流的低秩约束.
 
 #### DeMFI
 **[Paper]**  (arXiv 2111) DeMFI: Deep Joint Deblurring and Multi-Frame Interpolation with Flow-Guided Attentive Correlation and Recursive Boosting <Br>
