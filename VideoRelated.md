@@ -19,6 +19,11 @@
 **[Author]** Chengxu Liu, [Huan Yang](https://www.microsoft.com/en-us/research/people/huayan/), [Jianlong Fu](https://www.microsoft.com/en-us/research/people/jianf/), [Xueming Qian](http://smiles.xjtu.edu.cn/) <Br>
 **[[Pytorch-Code](https://github.com/researchmm/TTVSR)]** <Br>
 
+#### RefVSR
+**[Paper]** (CVPR 2022) Reference-based Video Super-Resolution Using Multi-Camera Video Triplets  <Br>
+**[Author]** [Junyong Lee](https://junyonglee.me/), Myeonghee Lee, [Sunghyun Cho](https://www.scho.pe.kr/), [Seungyong Lee](http://cg.postech.ac.kr/leesy/) <Br>
+**[[Project](https://junyonglee.me/projects/RefVSR/)]** **[[Pytorch-Code](https://github.com/codeslake/RefVSR)]** <Br>
+	
 #### RealBasicVSR
 **[Paper]** (CVPR 2022) Investigating Tradeoffs in Real-World Video Super-Resolution <Br>
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), [Xiangyu Xu](https://sites.google.com/view/xiangyuxu), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
