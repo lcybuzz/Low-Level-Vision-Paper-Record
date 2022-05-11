@@ -14,6 +14,11 @@
 
 
 # Video Super Resolution
+#### TTVSR
+**[Paper]** (CVPR 2022 Oral) Learning Trajectory-Aware Transformer for Video Super-Resolution <Br>
+**[Author]** Chengxu Liu, [Huan Yang](https://www.microsoft.com/en-us/research/people/huayan/), [Jianlong Fu](https://www.microsoft.com/en-us/research/people/jianf/), [Xueming Qian](http://smiles.xjtu.edu.cn/) <Br>
+**[[Pytorch-Code](https://github.com/researchmm/TTVSR)]** <Br>
+
 #### RealBasicVSR
 **[Paper]** (CVPR 2022) Investigating Tradeoffs in Real-World Video Super-Resolution <Br>
 **[Author]** [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), [Xiangyu Xu](https://sites.google.com/view/xiangyuxu), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
