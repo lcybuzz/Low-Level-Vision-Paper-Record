@@ -14,6 +14,16 @@
 **[Author]** Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), Shi Guo, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 **[[Pytorch-Code](https://github.com/xindongzhang/ELAN)]**   <Br>
 
+#### RCAN-it
+**[Paper]** (arXiv 2201) Revisiting RCAN: Improved Training for Image Super-Resolution <Br>
+**[Author]** Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
+**[[Pytorch-Code](https://github.com/zudi-lin/rcan-it)]**   <Br>
+
+#### LDL
+**[Paper]** (CVPR 2022 Oral) Details or Artifacts: A Locally Discriminative Learning Approach to Realistic Image Super-Resolution <Br>
+**[Author]** [Jie Liang](https://liangjie.xyz/), [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+**[[Pytorch-Code](https://github.com/csjliang/LDL)]**   <Br>
+
 #### BSRT
 **[Paper]** (CVPRW 2022) BSRT: Improving Burst Super-Resolution with Swin Transformer and Flow-Guided Deformable Alignment <Br>
 **[Author]** [Zhengxiong Luo](https://algolzw.github.io/), Youwei Li, Shen Cheng, Lei Yu, Qi Wu, Zhihong Wen, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
@@ -29,11 +39,6 @@
 **[Author]** [Ziwei Luo](https://algolzw.github.io/), [Haibin Huang](https://brotherhuang.github.io/), Lei Yu, Youwei Li, Haoqiang Fan, Shuaicheng Liu <Br>
 **[[Pytorch-Code](https://github.com/megvii-research/DCLS-SR)]**   <Br>
 	
-#### RCAN-it
-**[Paper]** (arXiv 2201) Revisiting RCAN: Improved Training for Image Super-Resolution <Br>
-**[Author]** Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
-**[[Pytorch-Code](https://github.com/zudi-lin/rcan-it)]**   <Br>
-
 #### TATT
 **[Paper]** (CVPR 2022) A Text Attention Network for Spatial Deformation Robust Scene Text Image Super-resolution <Br>
 **[Author]** Jianqi Ma, Zhetong Liang, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
