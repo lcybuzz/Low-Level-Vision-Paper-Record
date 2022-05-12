@@ -9,6 +9,16 @@
 **[Author]** Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, [Jian Sun](http://www.jiansun.org/) <Br>
 **[[Pytorch-Code](https://github.com/megvii-research/NAFNet/)]**   <Br>
 
+#### PDM-SR
+**[Paper]** (CVPR 2022) Learning the Degradation Distribution for Blind Image Super-Resolution <Br>
+**[Author]** Zhengxiong Luo, [Yan Huang](https://yanrockhuang.github.io/), Shang Li, Liang Wang, Tieniu Tan <Br>
+**[[Pytorch-Code](https://github.com/greatlog/UnpairedSR)]**   <Br>
+
+#### DCLS-SR
+**[Paper]** (CVPR 2022) Deep Constrained Least Squares for Blind Image Super-Resolution <Br>
+**[Author]** [Ziwei Luo](https://algolzw.github.io/), [Haibin Huang](https://brotherhuang.github.io/), Lei Yu, Youwei Li, Haoqiang Fan, Shuaicheng Liu <Br>
+**[[Pytorch-Code](https://github.com/megvii-research/DCLS-SR)]**   <Br>
+	
 #### RCAN-it
 **[Paper]** (arXiv 2201) Revisiting RCAN: Improved Training for Image Super-Resolution <Br>
 **[Author]** Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
