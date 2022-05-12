@@ -87,6 +87,11 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[Author]** [Paul Debevec](http://www.pauldebevec.com/), [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/)<Br>
 **[[Project](http://www.pauldebevec.com/Research/HDR/)]** <Br>
 
+#### Fusing Multiple Raw Images and Tone Reproduction ★☆
+**[Paper]** (TCE 2008) High Dynamic Range Imaging by Fusing Multiple Raw Images and Tone Reproduction <Br>
+**[Author]** [Wen-Chung Kao](https://scholar.lib.ntnu.edu.tw/en/persons/wen-chung-kao) <Br>
+提出了一个针对静止场景的多张raw融合并tone mapping的pipeline, 可以学习
+	
 #### Exposure Fusion
 **[Paper]** (PG 2007) Exposure Fusion <Br>
 **[Author]** [Tom Mertens](http://www.mericam.net/), [Jan Kautz](https://jankautz.com/), Frank Van Reeth<Br>
