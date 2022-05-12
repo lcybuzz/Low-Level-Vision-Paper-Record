@@ -9,9 +9,19 @@
 **[Author]** Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, [Jian Sun](http://www.jiansun.org/) <Br>
 **[[Pytorch-Code](https://github.com/megvii-research/NAFNet/)]**   <Br>
 
+#### ELAN
+**[Paper]**  (arXiv 2203) Efficient Long-Range Attention Network for Image Super-resolution <Br>
+**[Author]** Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), Shi Guo, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+**[[Pytorch-Code](https://github.com/xindongzhang/ELAN)]**   <Br>
+
+#### BSRT
+**[Paper]** (CVPRW 2022) BSRT: Improving Burst Super-Resolution with Swin Transformer and Flow-Guided Deformable Alignment <Br>
+**[Author]** [Zhengxiong Luo](https://algolzw.github.io/), Youwei Li, Shen Cheng, Lei Yu, Qi Wu, Zhihong Wen, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
+**[[Pytorch-Code](https://github.com/Algolzw/BSRT)]**   <Br>
+
 #### PDM-SR
 **[Paper]** (CVPR 2022) Learning the Degradation Distribution for Blind Image Super-Resolution <Br>
-**[Author]** Zhengxiong Luo, [Yan Huang](https://yanrockhuang.github.io/), Shang Li, Liang Wang, Tieniu Tan <Br>
+**[Author]** [Zhengxiong Luo](https://algolzw.github.io/), [Yan Huang](https://yanrockhuang.github.io/), Shang Li, Liang Wang, Tieniu Tan <Br>
 **[[Pytorch-Code](https://github.com/greatlog/UnpairedSR)]**   <Br>
 
 #### DCLS-SR
