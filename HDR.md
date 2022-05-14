@@ -82,11 +82,6 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[[Project](http://people.csail.mit.edu/hasinoff/hdrnoise/)]** <Br>
 从成像的物理过程出发, 推导出最大化SNR下限和最短拍摄时间的拍摄参数设置. 文中对噪声建模和ISO与SNR关系的论述比较清晰, 值得学习.
 
-#### Recovering High Dynamic Range Radiance Maps from Photographs
-**[Paper]** (TOG 2008) Recovering High Dynamic Range Radiance Maps from Photographs <Br>
-**[Author]** [Paul Debevec](http://www.pauldebevec.com/), [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/)<Br>
-**[[Project](http://www.pauldebevec.com/Research/HDR/)]** <Br>
-
 #### Fusing Multiple Raw Images and Tone Reproduction ★☆
 **[Paper]** (TCE 2008) High Dynamic Range Imaging by Fusing Multiple Raw Images and Tone Reproduction <Br>
 **[Author]** [Wen-Chung Kao](https://scholar.lib.ntnu.edu.tw/en/persons/wen-chung-kao) <Br>
@@ -111,7 +106,12 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[Author]** [Shree K. Nayar](http://www.cs.columbia.edu/~nayar/), Tomoo Mitsunaga  <Br>
 提出一个基于硬件的HDR图像生成方法. 在相机传感器前放置一个optical mask, mask上有不同exposure的pattern, 利用邻域不同曝光的像素值, 恢复目标像素值, 动态范围可大致扩展到Emax/Emin倍.
 
+#### Recovering High Dynamic Range Radiance Maps from Photographs
+**[Paper]** (SIGGRAPH 97) Recovering High Dynamic Range Radiance Maps from Photographs <Br>
+**[Author]** [Paul Debevec](http://www.pauldebevec.com/), [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/)<Br>
+**[[Project](http://www.pauldebevec.com/Research/HDR/)]** <Br>
 
+	
 
 ## Single-Frame HDR
 ### DL Methods
