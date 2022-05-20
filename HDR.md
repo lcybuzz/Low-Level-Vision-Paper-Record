@@ -141,6 +141,16 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[Author]** [Marcel Santana Santos](https://marcelsan.github.io/), Tsang Ing Ren, [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html)  <Br>
 **[[Pytorch-Code](https://github.com/marcelsan/Deep-HdrReconstruction)]**<Br>
 
+#### JSI-GAN
+**[Paper]** (AAAI 2020) JSI-GAN: GAN-Based Joint Super-Resolution and Inverse Tone-Mapping with Pixel-Wise Task-Specific Filters for UHD HDR Video  <Br>
+**[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/) <Br>
+**[[Pytorch-Code]([[https://github.com/mukulkhanna/fhdr](https://github.com/sooyekim/Deep-SR-ITM](https://github.com/JihyongOh/JSI-GAN)))]**<Br>
+
+#### Deep-SR-ITM ★
+**[Paper]** (ICCV 2019) Deep sr-itm: Joint learning of super-resolution and inverse tone-mapping for 4k uhd hdr applications  <Br>
+**[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/)  <Br>
+**[[Pytorch-Code]([https://github.com/mukulkhanna/fhdr](https://github.com/sooyekim/Deep-SR-ITM))]**<Br>
+将输入分解为detail和base分别处理
 
 #### iTM-Net ☆
 **[Paper]** (Global SIP 2019) iTM-Net: Deep Inverse Tone Mapping Using Novel Loss Function Considering Tone Mapping Operator <Br>
