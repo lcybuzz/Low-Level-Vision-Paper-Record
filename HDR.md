@@ -161,7 +161,7 @@ adaptive conv, GAN loss
 #### Deep-SR-ITM ★
 **[Paper]** (ICCV 2019) Deep sr-itm: Joint learning of super-resolution and inverse tone-mapping for 4k uhd hdr applications  <Br>
 **[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/)  <Br>
-**[[MatConvNet-Code](https://github.com/mukulkhanna/fhdr](https://github.com/sooyekim/Deep-SR-ITM)]**<Br>
+**[[MatConvNet-Code](https://github.com/sooyekim/Deep-SR-ITM)]**<Br>
 将输入分解为detail和base分别处理
 
 #### iTM-Net ☆
