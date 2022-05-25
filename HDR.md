@@ -30,6 +30,12 @@ spatial attention + deformable conv
 **[[TF-Code](https://github.com/nonu116/HDR-GAN)]**<Br>
 多尺度网络 + GAN
 
+#### CF-Net ★
+**[Paper]** (TIP 2021) Deep Coupled Feedback Network for Joint Exposure Fusion and Image Super-Resolution <Br>
+**[Author]** Xin Deng, Yutong Zhang, Mai Xu, [Shuhang Gu](https://shuhanggu.github.io/), Yiping Duan <Br>
+**[[Pytorch-Code]([https://github.com/nonu116/HDR-GAN](https://github.com/ytZhang99/CF-Net))]**<Br>
+2张图像曝光融合+超分, 分成两支, 在处理中引入对方信息.
+	
 #### GCHDRNet ★☆
 **[Paper]** (Neurocomputing 2021) Towards Accurate HDR Imaging with Learning Generator Constraints <Br>
 **[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), Bo Wang, [Lei Zhang](https://sites.google.com/site/leizhanghyperspectral/home), Jingyu Zhang, Zheng You, [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), Yanning Zhang <Br>
@@ -41,6 +47,11 @@ spatial attention + deformable conv
 **[[Keras-Code](https://github.com/tuvovan/NHDRRNet)]**<Br>
 UNet + non-local + 并行不同kernel的卷积分支
 
+#### Towards Practical and Efficient High-Resolution HDR Deghosting with CNN ★★
+**[Paper]** (ECCV 2020) Towards Practical and Efficient High-Resolution HDR Deghosting with CNN <Br>
+**[Author]** [K Ram Prabhakar](https://sites.google.com/view/kramprabhakar/), S Agrawal, [D K Singh](https://durgesh93.github.io/), B Ashwath, [R. V. Babu](http://cds.iisc.ac.in/faculty/venky/) <Br>
+将计算量大的光流对齐和融合网络部分在小图处理, 用BGU上采用, BGU所需的guided map通过对三帧的加权求和得到, weight通过小图预测并上采样得到. 距离实际移动端落地还有距离, 不过思路比较新奇.
+	
 #### AHDRNet ★★
 **[Paper]** (CVPR 2019) Attention-guided Network for Ghost-free High Dynamic Range Imaging <Br>
 **[Author]** [Qingsen Yan](https://qingsenyangit.github.io/), [Dong Gong](https://donggong1.github.io/), [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), [Anton van den Hengel](https://cs.adelaide.edu.au/~hengel/), [Chunhua Shen](https://cshen.github.io/), [Ian Reid](https://cs.adelaide.edu.au/~ianr/), Yanning Zhang <Br>
@@ -141,15 +152,16 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[Author]** [Marcel Santana Santos](https://marcelsan.github.io/), Tsang Ing Ren, [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html)  <Br>
 **[[Pytorch-Code](https://github.com/marcelsan/Deep-HdrReconstruction)]**<Br>
 
-#### JSI-GAN
+#### JSI-GAN ★
 **[Paper]** (AAAI 2020) JSI-GAN: GAN-Based Joint Super-Resolution and Inverse Tone-Mapping with Pixel-Wise Task-Specific Filters for UHD HDR Video  <Br>
 **[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/) <Br>
-**[[TF-Code]([[https://github.com/mukulkhanna/fhdr](https://github.com/sooyekim/Deep-SR-ITM](https://github.com/JihyongOh/JSI-GAN)))]**<Br>
+**[[TF-Code](https://github.com/JihyongOh/JSI-GAN)]**<Br>
+adaptive conv, GAN loss
 
 #### Deep-SR-ITM ★
 **[Paper]** (ICCV 2019) Deep sr-itm: Joint learning of super-resolution and inverse tone-mapping for 4k uhd hdr applications  <Br>
 **[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/)  <Br>
-**[[MatConvNet-Code]([https://github.com/mukulkhanna/fhdr](https://github.com/sooyekim/Deep-SR-ITM))]**<Br>
+**[[MatConvNet-Code](https://github.com/mukulkhanna/fhdr](https://github.com/sooyekim/Deep-SR-ITM)]**<Br>
 将输入分解为detail和base分别处理
 
 #### iTM-Net ☆
@@ -162,6 +174,17 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[Author]** Zeeshan Khan, Mukul Khanna, Shanmuganathan Raman  <Br>
 **[[Pytorch-Code](https://github.com/mukulkhanna/fhdr)]**<Br>
 
+#### Joint High Dynamic Range Imaging and Super-Resolution from a Single Image ★
+**[Paper]** (IEEE Access 2019) Joint High Dynamic Range Imaging and Super-Resolution from a Single Image <Br>
+**[Author]** Jae Woong Soh, Jae Sung Park, Nam Ik Cho  <Br>
+**[[TF-Code]([https://github.com/mukulkhanna/fhdr](https://github.com/JWSoh/HDRI-SR))]**<Br>
+Retinex分解辐illuminance和reflectance, 对反射分量用CNN处理
+
+#### High Dynamic Range and Super-Resolution Imaging from a Single Image ★☆
+**[Paper]** (IEEE Access 2018) Joint High Dynamic Range Imaging and Super-Resolution from a Single Image <Br>
+**[Author]** Jae Woong Soh, Jae Sung Park, Nam Ik Cho  <Br>
+Retinex分解辐illuminance和reflectance, 对辐照度和反射分量分别处理. HDR部分有一些较经验话的设置, 可以参考
+	
 #### ExpandNet
 **[Paper]** (EG 2018) ExpandNet: A Deep Convolutional Neural Network for High Dynamic Range Expansion from Low Dynamic Range Content <Br>
 **[Author]** 	Demetris Marnerides, [Thomas Bashford-Rogers](http://thomasbashfordrogers.com/), [Jonathan Hatchett](https://hatchett.co.uk/), [Kurt Debattista](https://warwick.ac.uk/fac/sci/wmg/people/profile/?wmgid=518)  <Br>
