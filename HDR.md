@@ -4,6 +4,7 @@
     - [Multi-Frame HDR](#multi-frame-hdr)
     - [Single-Frame HDR](#single-frame-hdr)
     - [Video HDR](#video-hdr)
+    - [New Sensor HDR](#new-sensor-hdr)
   - [Tone Mapping](#tone-mapping)
   - [CRF](#crf)
   - [Datasets](#datasets)
@@ -233,6 +234,13 @@ Retinex分解辐illuminance和reflectance, 对辐照度和反射分量分别处�
 **[Author]** [Nima Khademi Kalantari](https://people.engr.tamu.edu/nimak/index.html), [Ravi Ramamoorthi](https://cseweb.ucsd.edu/~ravir/)  <Br>
 光流对齐加融合, 提出了一个从HDR视频生成样本的流程可以研究下
 
+	
+## New Sensor HDR
+#### Deep joint deinterlacing and denoising for single shot dual-iso hdr reconstruction ★★
+**[Paper]** (TIP 2020) Deep joint deinterlacing and denoising for single shot dual-iso hdr reconstruction <Br>
+**[Author]** Ugur Cogalan, [Ahmet Oguz Akyuz](https://user.ceng.metu.edu.tr/~akyuz/index.html)  <Br>
+**[[Code & Dataset](https://user.ceng.metu.edu.tr/~akyuz/publications.html)]**<Br>	
+Dual-ISO HDR. 两个网络分别处理low/high图像. 通过分析噪声, 提出了一个生成Dual-ISO数据集的方法
 
 	
 # Tone Mapping
