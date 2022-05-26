@@ -236,6 +236,10 @@ Retinex分解辐illuminance和reflectance, 对辐照度和反射分量分别处�
 
 	
 ## New Sensor HDR
+#### Hdr denoising and deblurring by learning spatio-temporal distortion models 
+**[Paper]** (arXiv 2012) Hdr denoising and deblurring by learning spatio-temporal distortion models  <Br>
+**[Author]** Uğur Çoğalan, [Mojtaba Bemana](https://people.mpi-inf.mpg.de/~mbemana/), [Karol Myszkowski](https://people.mpi-inf.mpg.de/~karol/), [Hans-Peter Seidel](https://people.mpi-inf.mpg.de/~hpseidel/), [Tobias Ritschel](http://www.homepages.ucl.ac.uk/~ucactri/) <Br>
+	
 #### Deep joint deinterlacing and denoising for single shot dual-iso hdr reconstruction ★★
 **[Paper]** (TIP 2020) Deep joint deinterlacing and denoising for single shot dual-iso hdr reconstruction <Br>
 **[Author]** Ugur Cogalan, [Ahmet Oguz Akyuz](https://user.ceng.metu.edu.tr/~akyuz/index.html)  <Br>
