@@ -53,10 +53,11 @@ UNet + non-local + 并行不同kernel的卷积分支
 **[Author]** [K Ram Prabhakar](https://sites.google.com/view/kramprabhakar/), S Agrawal, [D K Singh](https://durgesh93.github.io/), B Ashwath, [R. V. Babu](http://cds.iisc.ac.in/faculty/venky/) <Br>
 将计算量大的光流对齐和融合网络部分在小图处理, 用BGU上采用, BGU所需的guided map通过对三帧的加权求和得到, weight通过小图预测并上采样得到. 距离实际移动端落地还有距离, 不过思路比较新奇.
 
-#### LSD2
+#### LSD2 ★
 **[Paper]** (BMVC 2020) LSD_2 - Joint denoising and deblurring of short and long exposure images with CNNs <Br>
 **[Author]** Janne Mustaniemi, [Juho Kannala](https://users.aalto.fi/~kannalj1/), [Jiri Matas](https://cmp.felk.cvut.cz/~matas/), [Simo Särkkä](https://users.aalto.fi/~ssarkka/), Janne Heikkilä <Br>
 **[[Keras-Code]([https://github.com/tuvovan/NHDRRNet](https://github.com/jannemus/LSD2))]**<Br>
+short/long曝光融合, 用一个UNet同时实现denoise和deblur. 从RGB图像中通过模拟过曝, blur, 加噪等生成short/long数据.
 	
 #### AHDRNet ★★
 **[Paper]** (CVPR 2019) Attention-guided Network for Ghost-free High Dynamic Range Imaging <Br>
