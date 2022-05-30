@@ -56,8 +56,13 @@ UNet + non-local + 并行不同kernel的卷积分支
 #### LSD2 ★
 **[Paper]** (BMVC 2020) LSD_2 - Joint denoising and deblurring of short and long exposure images with CNNs <Br>
 **[Author]** Janne Mustaniemi, [Juho Kannala](https://users.aalto.fi/~kannalj1/), [Jiri Matas](https://cmp.felk.cvut.cz/~matas/), [Simo Särkkä](https://users.aalto.fi/~ssarkka/), Janne Heikkilä <Br>
-**[[Keras-Code]([https://github.com/tuvovan/NHDRRNet](https://github.com/jannemus/LSD2))]**<Br>
+**[[Keras-Code](https://github.com/jannemus/LSD2)]**<Br>
 short/long曝光融合, 用一个UNet同时实现denoise和deblur. 从RGB图像中通过模拟过曝, blur, 加噪等生成short/long数据.
+
+#### Ganfuse ★
+**[Paper]** (NCA 2020) Ganfuse: a novel multi-exposure image fusion method based on generative adversarial networks <Br>
+**[Author]** Zhiguang Yang, Youping Chen, Zhuliang Le, Yong Ma  <Br>
+提出了GAN loss及gradient loss, 非监督MEF
 	
 #### AHDRNet ★★
 **[Paper]** (CVPR 2019) Attention-guided Network for Ghost-free High Dynamic Range Imaging <Br>
