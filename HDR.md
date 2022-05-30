@@ -91,6 +91,10 @@ short/long曝光融合, 用一个UNet同时实现denoise和deblur. 从RGB图像�
 **[[Project](https://cseweb.ucsd.edu//~viscomp/projects/SIG17HDR/)]** <Br>
 较早使用CNN做多帧HDR的一篇论文, 提出了Kalantari数据集, 其中的3张图像预处理流程, 算法整体思路, 以及使用mu-law计算loss等内容被之后很多论文借鉴
 
+#### DeepFuse ★
+**[Paper]** (ICCV 2017) DeepFuse:A Deep Unsupervised Approach for Exposure Fusion with Extreme Exposure Image Pairs <Br>
+**[Author]** [K Ram Prabhakar](https://sites.google.com/view/kramprabhakar/home), V Sai Srikar, [R. Venkatesh Babu](http://cds.iisc.ac.in/faculty/venky/) <Br>
+**[[Theano-Code]([https://cseweb.ucsd.edu//~viscomp/projects/SIG17HDR/](https://github.com/KRamPrabhakar/DeepFuse))]** <Br>
 
 
 ### Traditional Methods
