@@ -264,6 +264,11 @@ Dual-ISO HDR. 两个网络分别处理low/high图像. 通过分析噪声, 提出
 	
 # Tone Mapping
 ## DL Methods
+#### Unpaired Learning for High Dynamic Range Image Tone Mapping ★☆
+**[Paper]** (ICCV 2021) Unpaired Learning for High Dynamic Range Image Tone Mapping  <Br>
+**[Author]** Yael Vinker, Inbar Huberman-Spiegelglas, [Raanan Fattal](https://www.cs.huji.ac.il/w~raananf/) <Br>
+基于GAN的无监督tone mapping, 使用LSGAN loss和patch相关系数loss, 输入做了自适应的log压缩预处理, 压缩参数通过最小化与自然LDR直方图交叉熵得到.
+	
 #### DeepTMO ★
 **[Paper]** (TIP 2019) Deep Tone Mapping Operator for High Dynamic Range Images  <Br>
 **[Author]** Aakanksha Rana, Praveer Singh, [Giuseppe Valenzise](https://l2s.centralesupelec.fr/u/valenzise-giuseppe/), [Frederic Dufaux](https://l2s.centralesupelec.fr/u/dufaux-frederic/), [Nikos Komodakis](https://www.csd.uoc.gr/~komod/), Aljosa Smolic <Br>
