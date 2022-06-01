@@ -174,6 +174,11 @@ short/long曝光融合, 用一个UNet同时实现denoise和deblur. 从RGB图像�
 **[[TF-Code](https://github.com/JihyongOh/JSI-GAN)]**<Br>
 adaptive conv, GAN loss
 
+#### Learning to generate multi-exposure stacks with cycle consistency ★
+**[Paper]** (TMM 2020) Learning to generate multi-exposure stacks with cycle consistency for high dynamic range imaging <Br>
+**[Author]** Siyeong Lee, Gwon Hwan An, [Suk-Ju Kang](http://vds.sogang.ac.kr/)   <Br>
+训练一个stop-up和一个stop-down网络, 可以对任意ev的输入改变其亮度. 反复运行两个网络, 可以得到多个不同ev的图像, 用于生成HDR图像. 使用了cycle consitency loss.
+
 #### Deep-SR-ITM ★
 **[Paper]** (ICCV 2019) Deep sr-itm: Joint learning of super-resolution and inverse tone-mapping for 4k uhd hdr applications  <Br>
 **[Author]** [Soo Ye Kim](https://sites.google.com/view/sooyekim), [Jihyong Oh](https://sites.google.com/view/ozbro/%ED%99%88), [Munchurl Kim](https://www.viclab.kaist.ac.kr/)  <Br>
