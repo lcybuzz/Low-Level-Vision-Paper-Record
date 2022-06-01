@@ -263,6 +263,13 @@ Dual-ISO HDR. 两个网络分别处理low/high图像. 通过分析噪声, 提出
 
 	
 # Tone Mapping
+## DL Methods
+#### DeepTMO ★
+**[Paper]** (TIP 2019) Deep Tone Mapping Operator for High Dynamic Range Images  <Br>
+**[Author]** Aakanksha Rana, Praveer Singh, [Giuseppe Valenzise](https://l2s.centralesupelec.fr/u/valenzise-giuseppe/), [Frederic Dufaux](https://l2s.centralesupelec.fr/u/dufaux-frederic/), [Nikos Komodakis](https://www.csd.uoc.gr/~komod/), Aljosa Smolic <Br>
+ **[[PYtorch-Code]([https://github.com/csjunxu/L1-L0-Tone-mapping](https://github.com/Aakanksha-Rana/DeepTMO))]** 	<Br>
+较早用CNN做tone mapping的论文, 使用了two-scale结构, loss使用LSGAN loss, 判别器feature matching loss和vgg loss
+
 ## Traditional Methods
 
 #### ℓ1-ℓ0 Layer Decomposition ★
