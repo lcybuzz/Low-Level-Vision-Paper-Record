@@ -132,12 +132,12 @@ short/long曝光融合, 用一个UNet同时实现denoise和deblur. 从RGB图像�
 **[Paper]** (CVPR 2000) High Dynamic Range Imaging: Spatially Varying Pixel Exposures <Br>
 **[Author]** [Shree K. Nayar](http://www.cs.columbia.edu/~nayar/), Tomoo Mitsunaga  <Br>
 提出一个基于硬件的HDR图像生成方法. 在相机传感器前放置一个optical mask, mask上有不同exposure的pattern, 利用邻域不同曝光的像素值, 恢复目标像素值, 动态范围可大致扩展到Emax/Emin倍.
-
-#### Recovering High Dynamic Range Radiance Maps from Photographs
+ 
+#### Recovering High Dynamic Range Radiance Maps from Photographs ★★★
 **[Paper]** (SIGGRAPH 97) Recovering High Dynamic Range Radiance Maps from Photographs <Br>
 **[Author]** [Paul Debevec](http://www.pauldebevec.com/), [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/)<Br>
 **[[Project](http://www.pauldebevec.com/Research/HDR/)]** <Br>
-
+经典的多曝光HDR算法, 不考虑motion, 主要包括通过最优化求CRF和融合生成HDR两部分.
 	
 
 ## Single-Frame HDR
