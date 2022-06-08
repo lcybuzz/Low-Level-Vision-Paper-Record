@@ -107,7 +107,7 @@ short/long曝光融合, 用一个UNet同时实现denoise和deblur. 从RGB图像�
 **[Paper]** (CVPR 2010) Noise-Optimal Capture for High Dynamic Range Photography ★☆ <Br>
 **[Author]** [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Frédo Durand](http://people.csail.mit.edu/fredo/), [William T. Freeman](http://billf.mit.edu/)  <Br>
 **[[Project](http://people.csail.mit.edu/hasinoff/hdrnoise/)]** <Br>
-从成像的物理过程出发, 推导出最大化SNR下限和最短拍摄时间的拍摄参数设置. 文中对噪声建模和ISO与SNR关系的论述比较清晰, 值得学习.
+从成像的物理过程出发, 推导出最大化SNR下限和最短拍摄时间的拍摄参数设置. 文中对噪声建模和ISO与SNR关系的论述比较清晰, 值得学习. 没有考虑多帧间的motion.
 
 #### Fusing Multiple Raw Images and Tone Reproduction ★☆
 **[Paper]** (TCE 2008) High Dynamic Range Imaging by Fusing Multiple Raw Images and Tone Reproduction <Br>
