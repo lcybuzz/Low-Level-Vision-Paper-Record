@@ -205,7 +205,7 @@ adaptive conv, GAN loss
 #### Joint High Dynamic Range Imaging and Super-Resolution from a Single Image ★
 **[Paper]** (IEEE Access 2019) Joint High Dynamic Range Imaging and Super-Resolution from a Single Image <Br>
 **[Author]** Jae Woong Soh, Jae Sung Park, Nam Ik Cho  <Br>
-**[[TF-Code]([https://github.com/mukulkhanna/fhdr](https://github.com/JWSoh/HDRI-SR))]**<Br>
+**[[TF-Code](https://github.com/JWSoh/HDRI-SR)]**<Br>
 Retinex分解辐illuminance和reflectance, 对反射分量用CNN处理
 
 #### High Dynamic Range and Super-Resolution Imaging from a Single Image ★☆
