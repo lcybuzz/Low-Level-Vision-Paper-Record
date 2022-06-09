@@ -88,10 +88,10 @@ short/long曝光融合, 用一个UNet同时实现denoise和deblur. 从RGB图像�
 **[Paper]** (ICCP 2019) A Fast, Scalable, and Reliable Deghosting Method for Extreme Exposure Fusion <Br>
 **[Author]** [K Ram Prabhakar](https://sites.google.com/view/kramprabhakar/), Rajat Arora, Adhitya Swaminathan, Kunal Pratap Singh, [R. Venkatesh Babu](http://cds.iisc.ac.in/faculty/venky/) <Br>
 **[[TF-Code](https://github.com/rajat95/Deep-Deghosting-HDR)]** <Br>
-对任意个输入提特征并进行feature aggregation, 使网络能处理任意输入
+对任意个输入提特征并进行feature aggregation, 使网络能处理任意输入. 提出了一个HDR数据集
 
 #### DeepHDR ★★
-**[Paper]** (ECCV 2018) Deep High Dynamic Range Imaging with Laxingrge Foreground Motions <Br>
+**[Paper]** (ECCV 2018) Deep High Dynamic Range Imaging with Large Foreground Motions <Br>
 **[Author]** [Shangzhe Wu](https://elliottwu.com/), [Jiarui Xu](https://jerryxu.net/), [Yu-Wing Tai](https://www.cse.ust.hk/admin/people/faculty/profile/yuwing), Chi-Keung Tang <Br>
 **[[Project](https://elliottwu.com/projects/hdr/)]** **[[TF-Code](https://github.com/elliottwu/DeepHDR)]**<Br>
 3个encoder, 1个decoder, loss和预处理与'Deep High Dynamic Range Imaging of Dynamic Scenes'相似
