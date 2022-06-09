@@ -48,6 +48,12 @@ spatial attention + deformable conv
 **[[Keras-Code](https://github.com/tuvovan/NHDRRNet)]**<Br>
 UNet + non-local + 并行不同kernel的卷积分支
 
+#### MEFNet ★
+**[Paper]** (TIP 2020) Deep Guided Learning for Fast Multi-Exposure Image Fusion <Br>
+**[Author]** [Kede Ma](https://kedema.org/), [Zhengfang Duanmu](https://ece.uwaterloo.ca/~zduanmu/), Hanwei Zhu, [Yuming Fang](http://sim.jxufe.cn/JDMKL/ymfang.html), [Zhou Wang](https://ece.uwaterloo.ca/~z70wang/) <Br>
+**[[Pytorch-Code](https://github.com/makedede/MEFNet)]**<Br>
+**无监督MEF**
+	
 #### Towards Practical and Efficient High-Resolution HDR Deghosting with CNN ★★
 **[Paper]** (ECCV 2020) Towards Practical and Efficient High-Resolution HDR Deghosting with CNN <Br>
 **[Author]** [K Ram Prabhakar](https://sites.google.com/view/kramprabhakar/), S Agrawal, [D K Singh](https://durgesh93.github.io/), B Ashwath, [R. V. Babu](http://cds.iisc.ac.in/faculty/venky/) <Br>
