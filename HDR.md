@@ -34,7 +34,7 @@ spatial attention + deformable conv
 #### CF-Net ★
 **[Paper]** (TIP 2021) Deep Coupled Feedback Network for Joint Exposure Fusion and Image Super-Resolution <Br>
 **[Author]** Xin Deng, Yutong Zhang, Mai Xu, [Shuhang Gu](https://shuhanggu.github.io/), Yiping Duan <Br>
-**[[Pytorch-Code]([https://github.com/nonu116/HDR-GAN](https://github.com/ytZhang99/CF-Net))]**<Br>
+**[[Pytorch-Code](https://github.com/ytZhang99/CF-Net)]**<Br>
 2张图像曝光融合+超分, 分成两支, 在处理中引入对方信息.
 	
 #### GCHDRNet ★☆
