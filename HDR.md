@@ -209,7 +209,7 @@ adaptive conv, GAN loss
 Retinex分解辐illuminance和reflectance, 对反射分量用CNN处理
 
 #### High Dynamic Range and Super-Resolution Imaging from a Single Image ★☆
-**[Paper]** (IEEE Access 2018) Joint High Dynamic Range Imaging and Super-Resolution from a Single Image <Br>
+**[Paper]** (IEEE Access 2018) High Dynamic Range and Super-Resolution Imaging from a Single Image <Br>
 **[Author]** Jae Woong Soh, Jae Sung Park, Nam Ik Cho  <Br>
 Retinex分解辐illuminance和reflectance, 对辐照度和反射分量分别处理. HDR部分有一些较经验话的设置, 可以参考
 	
