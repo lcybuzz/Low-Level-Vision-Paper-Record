@@ -154,10 +154,11 @@ short/long曝光融合, 用一个UNet同时实现denoise和deblur. 从RGB图像�
 **[[Pytorch-Code](https://github.com/chxy95/HDRUNet)]**<Br>
 **单帧HDR**.base网络为UNet, 还有一个weight net和一个由SFT组成的condition net. loss用tanh L1.
 
-#### End-to-End Differentiable Learning to HDR Image Synthesis for Multi-exposure Images
+#### DiffHDRsyn
 **[Paper]** (AAAI 2021) End-to-End Differentiable Learning to HDR Image Synthesis for Multi-exposure Images <Br>
 **[Author]** Jung Hee Kim, Siyeong Lee, [Suk-Ju Kang](http://vds.sogang.ac.kr/) <Br>
-
+**[[Pytorch-Code](https://github.com/JungHeeKim29/DiffHDRsyn)]**
+	
 #### HDR by Learning to Reverse the Camera Pipeline ★★
 **[Paper]** (CVPR 2020) Single-Image HDR Reconstruction by Learning to Reverse the Camera Pipeline <Br>
 **[Author]** [Yu-Lun Liu](http://www.cmlab.csie.ntu.edu.tw/~yulunliu/), [Wei-Sheng Lai](https://www.wslai.net/), [Yu-Sheng Chen](https://www.cmlab.csie.ntu.edu.tw/~nothinglo/), Yi-Lung Kao, [Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/), [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/), [Jia-Bin Huang](https://filebox.ece.vt.edu/~jbhuang/) <Br>
