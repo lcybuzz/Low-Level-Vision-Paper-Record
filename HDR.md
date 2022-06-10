@@ -17,8 +17,12 @@
 - **(FlexHDR)** | FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging (arXiv 2201) <Br>
  [Sibi Catley-Chandar](https://sib1.github.io/), [Thomas Tanay](https://thomas-tanay.github.io/about/), Lucas Vandroux, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Gregory Slabaugh](http://eecs.qmul.ac.uk/profiles/slabaughgreg.html), [Eduardo Pérez-Pellitero](https://perezpellitero.github.io/) <Br>
 对输入的每一张LDR, 根据亮度和光流准确度预测map, 并用它们预测spatial attention map. 每张LDR的分支通过feature的max pooling操作交换信息.
+	
+- FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging (arXiv 2201) **[[TF-Code](https://github.com/Susmit-A/FSHDR)]**<Br>
+ [Sibi Catley-Chandar](https://sib1.github.io/), [Thomas Tanay](https://thomas-tanay.github.io/about/), Lucas Vandroux, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Gregory Slabaugh](http://eecs.qmul.ac.uk/profiles/slabaughgreg.html), [Eduardo Pérez-Pellitero](https://perezpellitero.github.io/) <Br>
+对输入的每一张LDR, 根据亮度和光流准确度预测map, 并用它们预测spatial attention map. 每张LDR的分支通过feature的max pooling操作交换信息.
 
-
+	
 #### FlexHDR ★
 **[Paper]** (arXiv 2201) FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging <Br>
 **[Author]** [Sibi Catley-Chandar](https://sib1.github.io/), [Thomas Tanay](https://thomas-tanay.github.io/about/), Lucas Vandroux, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Gregory Slabaugh](http://eecs.qmul.ac.uk/profiles/slabaughgreg.html), [Eduardo Pérez-Pellitero](https://perezpellitero.github.io/) <Br>
@@ -27,7 +31,7 @@
 #### FSHDR ★★
 **[Paper]** (CVPR 2021) Labeled from Unlabeled: Exploiting Unlabeled Data for Few-shot Deep HDR Deghosting <Br>
 **[Author]** [K. Ram Prabhakar](https://sites.google.com/view/kramprabhakar/), Gowtham Senthil, Susmit Agrawal, [R. Venkatesh Babu](http://cds.iisc.ac.in/faculty/venky/), [Rama Krishna Sai S Gorthi](https://sites.google.com/site/gorthisaisubrahmanyam/) <Br>
-**[[TF-Code]([https://github.com/liuzhen03/ADNet](https://github.com/Susmit-A/FSHDR))]**<Br>
+**[[TF-Code](https://github.com/Susmit-A/FSHDR)]**<Br>
 **Few Shot HDR**. 用少数Labeled数据(L), 较多的Static数据(S)和大量的Unlabeled数据(U), 训练HDR网络
 	
 #### ADNet ★
