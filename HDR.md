@@ -14,27 +14,6 @@
 # HDR
 ## Multi-Frame HDR
 ### DL Methods
-- **(FlexHDR)** | FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging (arXiv 2201) <Br>
- [Sibi Catley-Chandar](https://sib1.github.io/), [Thomas Tanay](https://thomas-tanay.github.io/about/), Lucas Vandroux, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Gregory Slabaugh](http://eecs.qmul.ac.uk/profiles/slabaughgreg.html), [Eduardo Pérez-Pellitero](https://perezpellitero.github.io/) <Br>
-对输入的每一张LDR, 根据亮度和光流准确度预测map, 并用它们预测spatial attention map. 每张LDR的分支通过feature的max pooling操作交换信息.
-	
-- (arXiv 2201) **(FlexHDR)** FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging  [[TF-Code](https://github.com/Susmit-A/FSHDR)]<Br>
- [Sibi Catley-Chandar](https://sib1.github.io/), [Thomas Tanay](https://thomas-tanay.github.io/about/), Lucas Vandroux, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Gregory Slabaugh](http://eecs.qmul.ac.uk/profiles/slabaughgreg.html), [Eduardo Pérez-Pellitero](https://perezpellitero.github.io/) <Br>
-对输入的每一张LDR, 根据亮度和光流准确度预测map, 并用它们预测spatial attention map. 每张LDR的分支通过feature的max pooling操作交换信息.
-
-- **FlexHDR** <Br>
-**[Paper]** (arXiv 2201) FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging <Br>
-**[Author]** [Sibi Catley-Chandar](https://sib1.github.io/), [Thomas Tanay](https://thomas-tanay.github.io/about/), Lucas Vandroux, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Gregory Slabaugh](http://eecs.qmul.ac.uk/profiles/slabaughgreg.html), [Eduardo Pérez-Pellitero](https://perezpellitero.github.io/) <Br>
-**[[TF-Code](https://github.com/Susmit-A/FSHDR)]**<Br>
-对输入的每一张LDR, 根据亮度和光流准确度预测map, 并用它们预测spatial attention map. 每张LDR的分支通过feature的max pooling操作交换信息.
-
-
-- **FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging (FlexHDR) (arXiv 2201)** <Br>
-[Sibi Catley-Chandar](https://sib1.github.io/), [Thomas Tanay](https://thomas-tanay.github.io/about/), Lucas Vandroux, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Gregory Slabaugh](http://eecs.qmul.ac.uk/profiles/slabaughgreg.html), [Eduardo Pérez-Pellitero](https://perezpellitero.github.io/) <Br>
-**[[TF-Code](https://github.com/Susmit-A/FSHDR)]**<Br>
-对输入的每一张LDR, 根据亮度和光流准确度预测map, 并用它们预测spatial attention map. 每张LDR的分支通过feature的max pooling操作交换信息.
-
-	
 	
 #### FlexHDR ★
 **[Paper]** (arXiv 2201) FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging <Br>
