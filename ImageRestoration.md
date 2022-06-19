@@ -123,7 +123,7 @@ Xing Liu, [Masanori Suganuma](https://sites.google.com/site/suganumamasanori/eng
 - **Modulating Image Restoration with Continual Levels via Adaptive Feature Modification Layers** <Br>
 Jingwen He, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/)  <Br>
 [CVPR 2019] [[Pytorch-Code](https://github.com/hejingwenhejingwen/AdaFM)]   <Br>
-[****] [★☆] **(控制restoration level)**	提出了一个AdaFM模块, 用于控制网络对图像的修复程度. AdaFM模块实际上就是一个dw conv层, 通过手动控制该层的权重, 达到控制修复程度的目的. 论文这么做是基于两个发现: 1) 对于不同restoration level, 网络提取的visual patterns是相似的, 只是weights不同; 2)调整网络内部参数对输出的影响是连续的.
+[**AdaFM**] [★☆] **(控制restoration level)**	提出了一个AdaFM模块, 用于控制网络对图像的修复程度. AdaFM模块实际上就是一个dw conv层, 通过手动控制该层的权重, 达到控制修复程度的目的. 论文这么做是基于两个发现: 1) 对于不同restoration level, 网络提取的visual patterns是相似的, 只是weights不同; 2)调整网络内部参数对输出的影响是连续的.
 	
 
 - **CFSNet: Toward a Controllable Feature Space for Image Restoration** <Br>
@@ -523,5 +523,5 @@ Bin He, Ce Wang, [Boxin Shi](http://ci.idm.pku.edu.cn/), Ling-Yu Duan <Br>
 
 
 # Resources
-- [] [[Deblurring](https://github.com/subeeshvasu/Awesome-Deblurring)]  <Br>
-- [] [[去雾](https://github.com/cxtalk/DehazeZoo)]
+- [[Deblurring](https://github.com/subeeshvasu/Awesome-Deblurring)]  <Br>
+- [[去雾](https://github.com/cxtalk/DehazeZoo)]

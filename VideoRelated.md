@@ -160,7 +160,7 @@ Dario Fuoli, [Shuhang Gu](https://shuhanggu.github.io/), [Radu Timofte](https://
 [**SDL**]
 
 - **FILM: Frame Interpolation for Large Motion** <Br>
-Fitsum Reda, Janne Kontkanen, [Eric Tabellion](http://www.tabellion.org/et/), [Deqing Sun]https://deqings.github.io/), Caroline Pantofaru, [Brian Curless](https://homes.cs.washington.edu/~curless/) <Br>
+Fitsum Reda, Janne Kontkanen, [Eric Tabellion](http://www.tabellion.org/et/), [Deqing Sun](https://deqings.github.io/), Caroline Pantofaru, [Brian Curless](https://homes.cs.washington.edu/~curless/) <Br>
 [arXiv 2202] [[Project](https://film-net.github.io/)] [[TF2-Code](https://github.com/google-research/frame-interpolation)]<Br>
 [★★] end-to-end的插帧网络, 使用类似PWCNet的多尺度flow预测结构, 特征提取部分使用共享权值对图像金字塔提特征, 首次使用gram matrix loss, 使生成帧更清晰. 网络结构很简单明了, 但效果很好, 训练和模型设计的细节应该是功不可没.
 
@@ -362,7 +362,7 @@ Tomer Peleg, Pablo Szekely, Doron Sabo, [Omry Sendik](https://omrysendik.github.
 # Video Enhancement and Restoration
 - **VRT: A Video Restoration Transformer** <Br>
 [Jingyun Liang](https://jingyunliang.github.io/), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yuchen Fan](https://ychfan.github.io/), [Kai Zhang](https://cszn.github.io/), Rakesh Ranjan, [Yawei Li](https://ofsoundof.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
-[arXiv 2201] [[Pytorch-Code](https://github.com/JingyunLiang/VRT)]**
+[arXiv 2201] [[Pytorch-Code](https://github.com/JingyunLiang/VRT)] <Br>
 	
 - **Learning Temporal Consistency for Low Light Video Enhancement from Single Images** <Br>
 Fan Zhang, [Yu Li](https://yu-li.github.io/), [Shaodi You](https://youshaodi.github.io/), Ying Fu <Br>
@@ -492,8 +492,8 @@ Miao Liao, Feixiang Lu, Dingfu Zhou, [Sibo Zhang](https://sites.google.com/view/
 # Video Matting
 - **Robust High-Resolution Video Matting with Temporal Guidance** <Br>
 Shanchuan Lin, Linjie Yang, Imran Saleemi, [Soumyadip Sengupta](https://homes.cs.washington.edu/~soumya91/) <Br>
-[WACV 2022] [[Project]](https://peterl1n.github.io/RobustVideoMatting/#/)] [[Pytorch-Code]](https://github.com/PeterL1n/RobustVideoMatting)]
-轻量级视频matting, 效果不错. 用ConvGRU利用时域信息, 用Deep guided filter处理大图
+[WACV 2022] [[Project]](https://peterl1n.github.io/RobustVideoMatting/#/)] [[Pytorch-Code]](https://github.com/PeterL1n/RobustVideoMatting)] <Br>
+轻量级视频matting, 效果不错. 用ConvGRU利用时域信息, 用Deep guided filter处理大图  <Br>
 [**RVM**] [★★]
 
 - **Deep Video Matting via Spatio-Temporal Alignment and Aggregation** <Br>

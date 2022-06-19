@@ -286,7 +286,7 @@ Yael Vinker, Inbar Huberman-Spiegelglas, [Raanan Fattal](https://www.cs.huji.ac.
 	
 - **Deep Tone Mapping Operator for High Dynamic Range Images**  <Br>
 Aakanksha Rana, Praveer Singh, [Giuseppe Valenzise](https://l2s.centralesupelec.fr/u/valenzise-giuseppe/), [Frederic Dufaux](https://l2s.centralesupelec.fr/u/dufaux-frederic/), [Nikos Komodakis](https://www.csd.uoc.gr/~komod/), Aljosa Smolic <Br>
-[TIP 2019] [[PYtorch-Code]([https://github.com/csjunxu/L1-L0-Tone-mapping](https://github.com/Aakanksha-Rana/DeepTMO))]	<Br>
+[TIP 2019] [[PYtorch-Code](https://github.com/Aakanksha-Rana/DeepTMO)]	<Br>
 [**DeepTMO**] [★] 较早用CNN做tone mapping的论文, 使用了two-scale结构, loss使用LSGAN loss, 判别器feature matching loss和vgg loss
 
 

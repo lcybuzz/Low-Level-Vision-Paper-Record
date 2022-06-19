@@ -36,7 +36,7 @@ Shen Cheng, [Yuzhi Wang](https://bigeagle.me/about/), [Haibin Huang](https://bro
 [CVPR 2021] [[Pytorch-Code](https://github.com/TaoHuang2018/Neighbor2Neighbor)]  <Br>
 
 - **Beyond Joint Demosaicking and Denoising**  <Br>
-**[Author]** [SMA Sharif](https://smasharif.info/), Rizwan Ali Naqvi, Mithun Biswas) <Br>
+[SMA Sharif](https://smasharif.info/), Rizwan Ali Naqvi, Mithun Biswas) <Br>
 [CVPRW 2021] [[Pytorch-Code](https://github.com/sharif-apu/BJDD_CVPR21)]  <Br>
 [**BJDD**]
 

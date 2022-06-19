@@ -20,9 +20,9 @@
 Ke Yu, Zexian Li, Yue Peng, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/), [Jinwei Gu](http://www.gujinwei.org/) <Br>
 [ICCV 2021] [[Project](https://www.mmlab-ntu.com/project/reconfigisp/)] <Br>
   
-- **Invertible Image Signal Processing)]** <Br>
+- **Invertible Image Signal Processing** <Br>
 [Yazhou Xing](https://yzxing87.github.io/), Zian Qian, [Qifeng Chen](https://cqf.io/) <Br>
-[CVPR 2021] [[Project](https://yzxing87.github.io/InvISP/index.html)] [[Pytorch-Code](https://github.com/yzxing87/Invertible-ISP <Br>
+[CVPR 2021] [[Project](https://yzxing87.github.io/InvISP/index.html)] [[Pytorch-Code](https://github.com/yzxing87/Invertible-ISP)] <Br>
   
 - **Neural Camera Simulators** <Br>
 Hao Ouyang, Zifan Shi, [Chenyang Lei](https://chenyanglei.github.io/), Ka Lung Law, [Qifeng Chen](https://cqf.io/) <Br>
@@ -51,12 +51,12 @@ Andrey Ignatov, Luc Van Gool, Radu Timofte  <Br>
 
 - **Learning to See in the Dark** <Br>
 [Chen Chen](http://cchen156.web.engr.illinois.edu/), [Qifeng Chen](https://cqf.io/), [Jia Xu](http://pages.cs.wisc.edu/~jiaxu/), [Vladlen Koltun](http://vladlen.info/)  <Br>
-[CVPR 2018] [[Project](http://cchen156.web.engr.illinois.edu/SID.html)]** **[[TF-Code](https://github.com/cchen156/Learning-to-See-in-the-Dark)] <Br>
+[CVPR 2018] [[Project](http://cchen156.web.engr.illinois.edu/SID.html)] [[TF-Code](https://github.com/cchen156/Learning-to-See-in-the-Dark)] <Br>
 [★★] 1) 提出了SID数据集, 包括RGB和Raw数据. 2) 提出了一个end-to-end的isp网络, 以RAW和增益信息为输入, 输入RGB图像, 代替传统ISP流程
 
 - **Reconfiguring the Imaging Pipeline for Computer Vision** <Br>
 [Mark Buckler](http://www.markbuckler.com/), [Suren Jayasuriya](http://www.andrew.cmu.edu/user/sjayasur/website.html), [Adrian Sampson](http://www.cs.cornell.edu/~asampson/)  <Br>
-[ICCV 2017] [[Project](https://capra.cs.cornell.edu/research/visionmode/)] [[Code1](https://github.com/cucapra/approx-vision)]** **[[Code2](https://github.com/mbuckler/ReversiblePipeline)] <Br>
+[ICCV 2017] [[Project](https://capra.cs.cornell.edu/research/visionmode/)] [[Code1](https://github.com/cucapra/approx-vision)] [[Code2](https://github.com/mbuckler/ReversiblePipeline)] <Br>
 [★★] 1) 针对计算机视觉任务(而不是photography)简化ISP流程. 提出只有demosaicing和gamma校正是CV任务中必需的, 并据此设计了系统. 2) 系统包括3个步骤: reduced resolution readout, subsampling to produce RGB images, lower-precision logarithmic ADC configuration. 能将总体能耗降低约75% 3) 公布了一套用于模拟imaging pipeline及其逆过程的工具CRIP
 
 - **Learning the image processing pipeline** <Br>

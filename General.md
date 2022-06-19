@@ -153,12 +153,12 @@ Mingqing Xiao, Shuxin Zheng, [Chang Liu](https://changliu00.github.io/), Yaolong
 - **Local Laplacian Filters: Edge-aware Image Processing with a Laplacian Pyramid**  <Br>
  [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Jan Kautz](http://jankautz.com/)<Br>
 [SIGGRAPH 2011] [[Project](http://people.csail.mit.edu/sparis/publi/2011/siggraph/)] [[Code1](https://github.com/psalvaggio/local_laplacian_filters)] [[Code2](https://github.com/hassenkassim/LocalLaplace)] <Br>
-[] 用拉普拉斯金字塔做图像增强, tone mapping等. 为更好地保持边缘, 对高斯金字塔的每个像素做映射, 根据其与原分辨率对应像素的差值, 将其分为边缘和细节两种case, 对细节进行非线性增强, 对边缘进行线性的对比度增强. <Br>
+[★] 用拉普拉斯金字塔做图像增强, tone mapping等. 为更好地保持边缘, 对高斯金字塔的每个像素做映射, 根据其与原分辨率对应像素的差值, 将其分为边缘和细节两种case, 对细节进行非线性增强, 对边缘进行线性的对比度增强. <Br>
 
 - **Guided Image Filtering**  <Br>
- [Kaiming He](http://kaiminghe.com/index.html), [Jian Sun](http://www.jiansun.org/), [Xiaoou Tang](http://www.ie.cuhk.edu.hk/people/xotang.shtml) <Br>
+[Kaiming He](http://kaiminghe.com/index.html), [Jian Sun](http://www.jiansun.org/), [Xiaoou Tang](http://www.ie.cuhk.edu.hk/people/xotang.shtml) <Br>
 [ECCV 2010] [[Project](http://kaiminghe.com/eccv10/)] [[TF/Pytorch-Code](https://github.com/wuhuikai/DeepGuidedFilter/tree/master/GuidedFilteringLayer)]  <Br>
-[] 大名鼎鼎的引导滤波, 可用在去噪, 融合, 联合上采样, matting, 图像增强等多种任务中. 速度快, 效果好. <Br>
+[★★★] 大名鼎鼎的引导滤波, 可用在去噪, 融合, 联合上采样, matting, 图像增强等多种任务中. 速度快, 效果好. <Br>
 
 - **Joint Bilateral Upsampling** <Br>
  [Johannes Kopf](http://johanneskopf.de/), Michael F. Cohen, [Dani Lischinski](https://www.cs.huji.ac.il/~danix/), Matt Uyttendaele <Br>
@@ -173,7 +173,7 @@ Mingqing Xiao, Shuxin Zheng, [Chang Liu](https://changliu00.github.io/), Yaolong
 - **A Fast Approximation of the Bilateral Filter using a Signal Processing Approach** <Br>
 [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Frédo Durand](http://people.csail.mit.edu/fredo/)  <Br>
 [ECCV 2006] [[Code](http://people.csail.mit.edu/sparis/bf/#code)] [[A Good Blog](https://niecongchong.github.io/2019/08/28/%E5%A2%9E%E7%BB%B4%E5%9E%8B%E5%BF%AB%E9%80%9F%E5%8F%8C%E8%BE%B9%E6%BB%A4%E6%B3%A2/)]    <Br>
-Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的维度, 将原来的非线性滤波操作转化为3D空间中的线性卷积. 并且, 高斯卷积属于低通操作, 因[★★] 此可以把3D网络做下采样而不损失精度, 在小分辨上进行3D卷积, 速度大大提升.
+[★★] Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的维度, 将原来的非线性滤波操作转化为3D空间中的线性卷积. 并且, 高斯卷积属于低通操作, 因此可以把3D网络做下采样而不损失精度, 在小分辨上进行3D卷积, 速度大大提升.
 	
 - **Fast bilateral filtering for the display of high-dynamic-range images** <Br>
 [Frédo Durand](http://people.csail.mit.edu/fredo/), Julie Dorsey  <Br>
@@ -186,17 +186,17 @@ Bilateral filter的一种加速方法. 将2D图像的灰度值作为一个新的
 
 
 # Image Processing on Device
-- **Collapsible Linear Blocks for Super-Efficient Super Resolution <Br>
+- **Collapsible Linear Blocks for Super-Efficient Super Resolution** <Br>
 Kartikeya Bhardwaj, Milos Milosavljevic, Alex Chalfin, Naveen Suda, Liam O'Neil, Dibakar Gope, Lingchuan Meng, Ramon Matas, Danny Loh <Br>
 [arXiv 2103] <Br>
 [**SESR**] [★☆] (**overparameterization**) 将一个conv分解为一个更宽的3x3 conv, 一个1x1 conv和一个shotcut连接.
 
-- **GhostSR: Learning Ghost Features for Efficient Image Super-Resolution <Br>
+- **GhostSR: Learning Ghost Features for Efficient Image Super-Resolution** <Br>
 Ying Nie, Kai Han, Zhenhua Liu, An Xiao, Yiping Deng, Chunjing Xu, Yunhe Wang <Br>
 [arXiv 2101] <Br>
 [★☆] (**轻量级超分**) 使用pixel shift的思想做超分
 
-- **SplitSR: An End-to-End Approach to Super-Resolution on Mobile Devices <Br>
+- **SplitSR: An End-to-End Approach to Super-Resolution on Mobile Devices** <Br>
 [Xin Liu](https://homes.cs.washington.edu/~xliu0/), Yuang Li, [Josh Fromm](https://jwfromm.com/), [Yuntao Wang](http://pi.cs.tsinghua.edu.cn/lab/people/YuntaoWang/), [Ziheng Jiang](https://www.ziheng.org/), [Alex Mariakakis](https://mariakakis.github.io/), Shwetak Patel <Br>
 [arXiv 2101] [[Unofficial-Pytorch-Code](https://github.com/deepconsc/SplitSR)]  <Br>
 [★☆] (**轻量级超分**) 提出了一个轻量级residual block结构: SplitSRBlock.

@@ -171,7 +171,7 @@ Liying Lu, Wenbo Li, [Xin Tao](http://www.xtao.website/), Jiangbo Lu, [Jiaya Jia
 [Yinbo Chen](https://yinboc.github.io/), [Sifei Liu](https://www.sifeiliu.net/), [Xiaolong Wang](https://xiaolonw.github.io/)  <Br>
 [CVPR 2021] [[Pytorch-Code](https://github.com/wangh-allen/LAU-Net)]  <Br>
 
-- ** Cross-MPI: Cross-scale Stereo for Image Super-Resolution using Multiplane Images** <Br>
+- **Cross-MPI: Cross-scale Stereo for Image Super-Resolution using Multiplane Images** <Br>
 Yuemei Zhou, Gaochang Wu, Ying Fu, Kun Li, [Yebin Liu](http://www.liuyebin.com/) <Br>
 [CVPR 2021] [[Project](http://www.liuyebin.com/crossMPI/crossMPI.html)]  <Br>
 
@@ -286,7 +286,7 @@ Yuanbo Zhou, Wei Deng, Tong Tong, Qinquan Gao<Br>
 [**CARB**] [★☆] 使用一套基于GAN的无监督方案生成真实LR图像对, 在该方案中提出了所谓颜色引导生成器网络, 用于产生AdaIn中的参数. 
 	
 - **Real-World Super-Resolution via Kernel Estimation and Noise Injection** <Br>
-Xiaozhong Ji，Yun Cao， [Ying Tai](https://tyshiwo.github.io/)， Chengjie Wang，Jilin Li，Feiyue Huang<Br>
+Xiaozhong Ji，Yun Cao，[Ying Tai](https://tyshiwo.github.io/)，Chengjie Wang，Jilin Li，Feiyue Huang<Br>
 [CVPRW 2020] [[Pytorch-Code](https://github.com/Tencent/Real-SR)] <Br>
 [**REAL-SR**] [★★] 设计了一个退化图像的流程, 通过随机模糊核和注入噪声, 生成接近于真实的样本, 在NTIRE 2020超分竞赛中取得了第一名, 并且在真实数据上表现良好
 

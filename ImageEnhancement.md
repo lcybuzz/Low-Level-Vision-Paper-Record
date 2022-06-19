@@ -82,7 +82,7 @@ Taeyoung Son, Juwon Kang, Namyup Kim, [Sunghyun Cho](https://www.scho.pe.kr/), [
 - **Aesthetic-Driven Image Enhancement by Adversarial Learning** <Br>
 Yubin Deng, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/index.html),	[Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml)  <Br>
 [MM 2018] [[Project](http://personal.ie.cuhk.edu.hk/~dy015/ImageAesthetics/EnhanceGAN.html)] [[Torch-Code](https://github.com/dannysdeng/EnhanceGAN)]<Br>
-[**EnhanceGAN**] [★ ] weakly supervised方法, 学习crop和色彩变换参数, 增强aesthetic quality
+[**EnhanceGAN**] [★] weakly supervised方法, 学习crop和色彩变换参数, 增强aesthetic quality
 
 - **Perception-Preserving Convolutional Networks for Image Enhancement on Smartphones** <Br>
 Zheng Hui, Xiumei Wang, Lirui Deng, [Xinbo Gao](http://see.xidian.edu.cn/faculty/xbgao/) <Br>
@@ -194,7 +194,7 @@ Anqi Zhu, [Lin Zhang](https://sse.tongji.edu.cn/linzhang/), [Ying Shen](https://
 Yang Wang, Yang Cao, Zheng-Jun Zha, [Jing Zhang](https://chaimi2013.github.io/), [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/), Wei Zhang, Feng Wu <Br>
 [MM 2019] <Br>
 	
-- **Kindling the Darkness: A Practical Low light Image Enhancer **<Br>
+- **Kindling the Darkness: A Practical Low light Image Enhancer** <Br>
 Yonghua Zhang, Jiawan Zhang, [Xiaojie Guo](https://sites.google.com/view/xjguo) <Br>
 [MM 2019] [[TF-Code-KinD](https://github.com/zhangyhuaee/KinD)] [[TF-Code-KinD++](https://github.com/zhangyhuaee/KinD_plus)]<Br>
 [**KinD**] [★★] 1) 采用类似Retinex的结构, 两个分支分别预测亮度分量和反射分量. 网络结构和loss可以参考. 2) 提出了一个小型的亮度adjustment net, 可以输入一个ratio, 控制增强程度, 比较有趣. <Br>
