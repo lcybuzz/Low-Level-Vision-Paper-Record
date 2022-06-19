@@ -1,4 +1,4 @@
-Face Restoration and Super-Resolution and other related topics,
+Face Restoration and Super-Resolution and other related topics. **Archived**
 
 # Table of Contents
 - [Face Restoration](#face-restoration)
