@@ -1,5 +1,6 @@
 # Table of Contents
 - [Image Super Resolution](#super-resolution)
+- [Burst Super Resolution](#burst-super-resolution)
 - [Datasets](#datasets)
 - [Resources](#resources)
 
@@ -22,10 +23,6 @@ Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.goo
 [Jie Liang](https://liangjie.xyz/), [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/csjliang/LDL)]   <Br>
 [**LDL**] 
-
-- **BSRT: Improving Burst Super-Resolution with Swin Transformer and Flow-Guided Deformable Alignment** <Br>
-[Zhengxiong Luo](https://algolzw.github.io/), Youwei Li, Shen Cheng, Lei Yu, Qi Wu, Zhihong Wen, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
-[CVPRW 2022] [[Pytorch-Code](https://github.com/Algolzw/BSRT)]   <Br>
 
 - **Learning the Degradation Distribution for Blind Image Super-Resolution** <Br>
 [Zhengxiong Luo](https://algolzw.github.io/), [Yan Huang](https://yanrockhuang.github.io/), Shang Li, Liang Wang, Tieniu Tan <Br>
@@ -102,11 +99,6 @@ Jingyun Liang, Andreas Lugmayr, [Kai Zhang](https://cszn.github.io/), [Martin Da
 - **Fast Bayesian Uncertainty Estimation and reduction of Batch Normalized Single Image Super-Resolution Network** <Br>
 [Aupendu Kar](https://aupendu.github.io/), [Prabir Kumar Biswas](http://www.ecdept.iitkgp.ac.in/Eece/facultydetails/ece-pkb) <Br>
 [CVPR 2021] [[Project](https://aupendu.github.io/sr-uncertainty)] [[Pytorch-Code](https://github.com/aupendu/sr-uncertainty)]    <Br>
-	
-- **Deep Burst Super-Resolution** <Br>
-[Goutam Bhat](https://goutamgmb.github.io/), [Martin Danelljan](https://martin-danelljan.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](https://people.ee.ethz.ch/~timofter/) <Br>
-[CVPR 2021] [[Pytorch-Code](https://github.com/goutamgmb/NTIRE21_BURSTSR)]   <Br>
-[**BURSTSR**] 
 
 - **Unsupervised Real-World Image Super Resolution via Domain-Distance Aware Training** <Br>
 Yunxuan Wei, [Shuhang Gu](https://shuhanggu.github.io/), [Yawei Li](https://ofsoundof.github.io/), Longcun Jin <Br>
@@ -454,6 +446,16 @@ Chao Dong, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Xiaoou Ta
 	
 
   
+# Burst Super Resolution
+- **BSRT: Improving Burst Super-Resolution with Swin Transformer and Flow-Guided Deformable Alignment** <Br>
+[Zhengxiong Luo](https://algolzw.github.io/), Youwei Li, Shen Cheng, Lei Yu, Qi Wu, Zhihong Wen, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
+[CVPRW 2022] [[Pytorch-Code](https://github.com/Algolzw/BSRT)]   <Br>
+
+- **Deep Burst Super-Resolution** <Br>
+[Goutam Bhat](https://goutamgmb.github.io/), [Martin Danelljan](https://martin-danelljan.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](https://people.ee.ethz.ch/~timofter/) <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/goutamgmb/NTIRE21_BURSTSR)]   <Br>
+[**BURSTSR**] 
+
 
 # Datasets
 - [DIV2k](https://data.vision.ee.ethz.ch/cvl/DIV2K/)  <Br>

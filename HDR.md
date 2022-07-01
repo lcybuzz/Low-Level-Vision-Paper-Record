@@ -2,6 +2,8 @@
 # Table of Contents
   - [HDR](#hdr)
     - [Multi-Frame HDR](#multi-frame-hdr)
+      - [DL Methods](#dl-methods)
+      - [Traditional Methods](#traditional-methods)
     - [Single-Frame HDR](#single-frame-hdr)
     - [Video HDR](#video-hdr)
     - [New Sensor HDR](#new-sensor-hdr)
@@ -14,6 +16,26 @@
 # HDR
 ## Multi-Frame HDR
 ### DL Methods
+- **DRHDR: A Dual Branch Residual Network for Multi-Bracket High Dynamic Range Imaging** <Br>
+Juan Marín-Vega, Michael Sloth, Peter Schneider-Kamp, Richard Röttger <Br>
+[CVPRW 2022] <Br>
+[★] NTIRE22
+
+- **Gamma-Enhanced Spatial Attention Network for Efficient High Dynamic Range Imaging** <Br>
+Fangya Li, Ruipeng Gang, Chenghua Li, Jinjing Li, Sai Ma, Chenming Liu, Yizhen Cao <Br>
+[CVPRW 2022] <Br>
+[★] NTIRE22
+
+- **A Lightweight Network for High Dynamic Range Imaging** <Br>
+[Qingsen Yan](https://qingsenyangit.github.io/), Song Zhang, Weiye Chen, Yuhang Liu, Zhen Zhang, Yanning Zhang, [Javen Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), [Dong Gong](https://donggong1.github.io/) <Br>
+[CVPRW 2022] <Br>
+[★☆] NTIRE22. Spatial attention + dual attention提取特征. Encoder-decoder结构做融合. 使用了Depthwise Conv和ghost block. 计算量小, 效果不错(Rank 4 in Track 1).
+
+- **Bidirectional Motion Estimation With Cyclic Cost Volume for High Dynamic Range Imaging** <Br>
+[An Gia Vien](https://viengiaan.github.io/), Seonghyun Park, Truong Thanh Nhat Mai, Gahyeon Kim, [Chul Lee](http://cilab.dongguk.edu/) <Br>
+[CVPRW 2022] <Br>
+[★] NTIRE22
+
 - **FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging** <Br>
 [Sibi Catley-Chandar](https://sib1.github.io/), [Thomas Tanay](https://thomas-tanay.github.io/about/), Lucas Vandroux, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Gregory Slabaugh](http://eecs.qmul.ac.uk/profiles/slabaughgreg.html), [Eduardo Pérez-Pellitero](https://perezpellitero.github.io/) <Br>
 [arXiv 2201] <Br>
@@ -28,6 +50,15 @@
 Zhen Liu, Wenjie Lin, Xinpeng Li, Qing Rao, Ting Jiang, Mingyan Han, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
 [CVPR 2021] [[Pytorch-Code](https://github.com/liuzhen03/ADNet)]<Br>
 [★] spatial attention + deformable conv
+
+- **A Two-Stage Deep Network for High Dynamic Range Image Reconstruction** <Br>
+S M A Sharif, [Rizwan Ali Naqvi](https://sites.google.com/view/drrizwanalinaqvi/home), Mithun Biswas, Sungjun Kim <Br>
+[CVPRW 2021] [[Pytorch-Code](https://github.com/sharif-apu/twostageHDR_NTIRE21)] <Br>
+[★]
+
+- **MetaHDR: Model-Agnostic Meta-Learning for HDR Image Reconstruction** <Br>
+[Edwin Pan](https://edwin-pan.github.io/), Anthony Vento <Br>
+[arXiv 2103] [[Pytorch-Code](https://github.com/edwin-pan/MetaHDR)] <Br>
 
 - **HDR-GAN: HDR Image Reconstruction from Multi-Exposed LDR Images with Large Motions** <Br>
 Yuzhen Niu, Jianbin Wu, Wenxi Liu, Wenzhong Guo, Rynson W.H. Lau <Br>
@@ -74,6 +105,10 @@ Zhiguang Yang, Youping Chen, Zhuliang Le, Yong Ma  <Br>
 [NCA 2020] <Br>
 [★] 提出了GAN loss及gradient loss, **非监督MEF**.
 
+- **Robust High Dynamic Range (HDR) Imaging with Complex Motion and Parallax** <Br>
+Zhiyuan Pu, Peiyao Guo, [M. Salman Asif](https://intra.ece.ucr.edu/~sasif/), [Zhan Ma](https://vision.nju.edu.cn/main.htm) <Br>
+[ACCV 2020] <Br>
+
 - **Deep Exposure Fusion with Deghosting via Homography Estimation and Attention Learning** <Br>
 Sheng-Yeh Chen [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/) <Br>
 [ICASSP 2020] <Br>
@@ -83,6 +118,10 @@ Sheng-Yeh Chen [Yung-Yu Chuang](https://www.csie.ntu.edu.tw/~cyy/) <Br>
 Kareem Metwaly, Vishal Monga  <Br>
 [ICASSP 2020] <Br>
 [**AttenDense**] [★] 用 Spectral Angle Mapper(SAM, 其实就是两个pixel的角度) 计算三张图的运动区域mask, 用该mask得出一个loss的weight map, 使网络更关注运动区域
+
+- **Pyramid Inter-Attention for High Dynamic Range Imaging** <Br>
+Sungil Choi, [Jaehoon Cho](https://jhcho90.github.io/), Wonil Song, Jihwan Choe, Jisung Yoo, [Kwanghoon Sohn](http://diml.yonsei.ac.kr/)  <Br>
+[Sensors 2020] <Br>
 
 - **Attention-guided Network for Ghost-free High Dynamic Range Imaging** <Br>
 [Qingsen Yan](https://qingsenyangit.github.io/), [Dong Gong](https://donggong1.github.io/), [Qinfeng Shi](https://cs.adelaide.edu.au/~javen/), [Anton van den Hengel](https://cs.adelaide.edu.au/~hengel/), [Chunhua Shen](https://cshen.github.io/), [Ian Reid](https://cs.adelaide.edu.au/~ianr/), Yanning Zhang <Br>
@@ -120,6 +159,16 @@ Green Rosh K S, Anmol Biswas Mandakinee, Singh Patel, B H Pawan Prasad <Br>
 [★★]
 
 ### Traditional Methods
+- **Exposure bracketing via automatic exposure selection**  <Br>
+Reza Pourreza-Shahri, [Nasser Kehtarnavaz](https://personal.utdallas.edu/~kehtar/)  <Br>
+[ICIP 2015]
+[★] [**MEF**, **AEC**] 根据当前帧的亮度直方图, 聚类成over, normal, short三类, 调整曝光时间, 使t+1时刻三帧的中间灰度(127)正好对应三类的聚类中心.
+
+- **Fast exposure time decision in multi-exposure HDR imaging**  <Br>
+Yongjie Piao, Guang Jin  <Br>
+[SPIE 2012]
+[★] [**AEC**] 根据当前帧中值确定medium曝光, 再把medium帧的最小和最大场景亮度对应到short和long的图像中值上, 以此确定三帧的曝光参数.
+
 - **Noise-Optimal Capture for High Dynamic Range Photography**  <Br>
 [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Frédo Durand](http://people.csail.mit.edu/fredo/), [William T. Freeman](http://billf.mit.edu/)  <Br>
 [CVPR 2010] [[Project](http://people.csail.mit.edu/hasinoff/hdrnoise/)] <Br>
@@ -138,15 +187,25 @@ Green Rosh K S, Anmol Biswas Mandakinee, Singh Patel, B H Pawan Prasad <Br>
 [Sing Bing Kang](http://www.singbingkang.com/), [Matthew Uyttendaele](https://research.facebook.com/people/uyttendaele-matt/), [Simon Winder](http://simonwinder.com/), [Richard Szeliski](http://szeliski.org/RichardSzeliski.htm)  <Br>
 [TOG 2003] <Br>
 [★★] 提出了一个视频HDR pipeline. 1.根据场景亮度, 设置相邻帧的曝光值; 2.将相邻帧处理到相同亮度, 做运动检测和warping. 对于当前帧saturate的部分, 使用前后两帧之间的光流估计到当前帧的光流并做warp, 没有saturate的部分, 利用前后帧到当前帧的光流直接warp, 并用一些策略fuse; 3.将HDR的radiance map通过tone mapping转换为能显示的LDR视频, 使用前后若干帧统计平均log域亮度, 做全局scale, 局部只根据当前帧scale
-	
+
+- **Fast, Robust Image Registration for Compositing High Dynamic Range Photographs from Hand-Held Exposures** <Br>
+Greg Ward  <Br>
+[JGT 2003] <Br>
+[★★] MTB算法
+
 - **High Dynamic Range Imaging** <Br>
 Greg Ward  <Br>
 [CIC 2001] <Br>
 [★] 讲了color rendering的pipeline, 包括: 怎么估计真实场景目标的光强, 转换到颜色空间的近似表示, 将信息记录为HDR格式, tone mapping以在设备上显示等
-	
+
+- **Dynamic range improvement through multiple exposures** <Br>
+Mark A Robertson, Sean Borman, Robert L Stevenson  <Br>
+[ICIP 1999] <Br>
+[★★]
+
 - **Recovering High Dynamic Range Radiance Maps from Photographs** <Br>
 [Paul Debevec](http://www.pauldebevec.com/), [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/)<Br>
-[SIGGRAPH 97] [[Project](http://www.pauldebevec.com/Research/HDR/)] <Br>
+[SIGGRAPH 1997] [[Project](http://www.pauldebevec.com/Research/HDR/)] <Br>
 [★★★] 经典的多曝光HDR算法, 不考虑motion, 主要包括通过最优化求CRF和融合生成HDR两部分. CRF计算部分不显式建模, 而是求radiance和像素值间的查找表, 加入一些平滑约束, 求解得到.
 	
 

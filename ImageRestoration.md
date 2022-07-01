@@ -12,10 +12,18 @@
 
 
 # Image Restoration
-- **former: A General U-Shaped Transformer for Image Restoration**  <Br>
+- **Burst Image Restoration and Enhancement **  <Br>
+[Akshay Dudhane](https://iitrpr.cvpr.in/4/my_blog/), [Syed Waqas Zamir](http://www.waqaszamir.com/), [Salman Khan](https://salman-h-khan.github.io/), [Fahad Shahbaz Khan](https://sites.google.com/view/fahadkhans/home), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)  <Br>
+[CVPR 2022 Oral] [[Pytorch-Code](https://github.com/akshaydudhane16/BIPNet)] <Br>
+[**BIPNet**]
+
+- **Uformer: A General U-Shaped Transformer for Image Restoration**  <Br>
 Zhendong Wang, [Xiaodong Cun](https://vinthony.github.io/academic/), [Jianmin Bao](https://jianminbao.github.io/), [Wengang Zhou](http://staff.ustc.edu.cn/~zhwg/), [Jianzhuang Liu](https://people.ucas.ac.cn/~jzliu?language=en), [Houqiang Li](http://staff.ustc.edu.cn/~lihq/en/) <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/ZhendongWang6/Uformer)] <Br>
-	
+
+- **Restormer: Efficient Transformer for High-Resolution Image Restoration**  <Br>
+[Syed Waqas Zamir](http://www.waqaszamir.com/), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://mhayat.netlify.app/), [Fahad Shahbaz Khan](https://sites.google.com/view/fahadkhans/home), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
+[CVPR 2022 Oral] [[Pytorch-Code](https://github.com/swz30/Restormer)] <Br>
 
 - **Learning Dual Priors for JPEG Compression Artifacts Removal**  <Br>
 [Xueyang Fu](https://xueyangfu.github.io/), Xi Wang, [Aiping Liu](http://staff.ustc.edu.cn/~aipingl/), Junwei Han, Zheng-Jun Zha <Br>

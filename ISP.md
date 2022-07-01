@@ -1,6 +1,7 @@
 # Table of Contents
 - [ISP](#isp)
 - [AWB](#awb)
+- [AE](#ae)
 - [Datasets](#datasets)
 - [Resources](#resources)
 
@@ -96,6 +97,12 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
 [CVPR 2018] [[Project](https://karaimer.github.io/camera-color/)] <Br> 
 
 
+
+# AE
+- **Auto Complementary Exposure Control for High Dynamic Range Video Capturing** <Br>
+Bing Han, Xiu Jia, [Rui Song](https://web.xidian.edu.cn/songrui/), Feng Ran, Peng Rao <Br>
+[Access 2021]<Br> 
+[★☆] 提出了一个确定长短曝最佳曝光参数的pipeline. 1) 文中分析发现, 使图像(块)熵最大的曝光时间就是该图像最佳曝光时间, 并用高斯分布模拟熵随时间变化的分布(μ即为最大熵的曝光时间); 2) 拍摄若干张不同曝光的图像, 将图像分成patch, 统计每个patch在每个曝光时间的熵, 计算高斯分布的μ和σ, 用GMM建模, 将patch分类为过曝, 正常, 欠曝三类. 经过EM迭代, 可得到每个patch的类别, 以及S/M/L三个曝光的μ(即为该曝光情况下对应的最优曝光时间).
 
 # Datasets
 ## AWB
