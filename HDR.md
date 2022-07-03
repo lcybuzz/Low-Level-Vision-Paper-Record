@@ -159,6 +159,11 @@ Green Rosh K S, Anmol Biswas Mandakinee, Singh Patel, B H Pawan Prasad <Br>
 [★★]
 
 ### Traditional Methods
+- **Auto Complementary Exposure Control for High Dynamic Range Video Capturing** <Br>
+Bing Han, Xiu Jia, [Rui Song](https://web.xidian.edu.cn/songrui/), Feng Ran, Peng Rao <Br>
+[Access 2021]<Br> 
+[★☆] 提出了一个确定长短曝最佳曝光参数的pipeline. 1) 文中分析发现, 使图像(块)熵最大的曝光时间就是该图像最佳曝光时间, 并用高斯分布模拟熵随时间变化的分布(μ即为最大熵的曝光时间); 2) 拍摄若干张不同曝光的图像, 将图像分成patch, 统计每个patch在每个曝光时间的熵, 计算高斯分布的μ和σ, 用GMM建模, 将patch分类为过曝, 正常, 欠曝三类. 经过EM迭代, 可得到每个patch的类别, 以及S/M/L三个曝光的μ(即为该曝光情况下对应的最优曝光时间).
+
 - **Exposure bracketing via automatic exposure selection**  <Br>
 Reza Pourreza-Shahri, [Nasser Kehtarnavaz](https://personal.utdallas.edu/~kehtar/)  <Br>
 [ICIP 2015]
@@ -377,10 +382,6 @@ Tomoo Mitsunaga, [Shree K. Nayar](http://www.cs.columbia.edu/~nayar/) <Br>
 
 
 # Datasets
-- [Kalantari Dataset](https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/)  S/M/L三曝光, 有GT. 89 sequences.
-- [Chen](https://guanyingc.github.io/DeepHDRVideo/) 2曝光/3曝光交替HDR video数据. 包括从HDR video生成的, 也包括自己采集的.
-- [Jan Fröhlich](https://www.hdm-stuttgart.de/vmlab/hdm-hdr-2014/)  HDR视频. 33 sequences.
-- [Sumsung Synthetic](https://github.com/nadir-zeeshan/sensor-realistic-synthetic-data)
 
 ## Multi-frame HDR
 ### With Motion
@@ -390,6 +391,7 @@ Tomoo Mitsunaga, [Shree K. Nayar](http://www.cs.columbia.edu/~nayar/) <Br>
 | Prabhakar | [Project](https://val.cds.iisc.ac.in/HDR/ICCP19/)                       | Yes      | Yes     | 582  |                                                          |
 | NTIRE22   | [Project](https://codalab.lisn.upsaclay.fr/competitions/1514)           | Yes      | Yes     |      |                                                          |
 | Tursun    | [Project](https://user.ceng.metu.edu.tr/~akyuz/files/eg2016/index.html) | Yes      | No      |      |                                                          |
+| Sumsung Synthetic    | [Project](https://github.com/nadir-zeeshan/sensor-realistic-synthetic-data) | Yes      | Yes      |      |                                                          |
 
 
 ### Without Motion
@@ -416,7 +418,7 @@ Tomoo Mitsunaga, [Shree K. Nayar](http://www.cs.columbia.edu/~nayar/) <Br>
 ## HDR videos and images
 | Name      | Link                                                                                                        | Download | Size         |                                                            |
 | --------- | ----------------------------------------------------------------------------------------------------------- | -------- | ------------ | ---------------------------------------------------------- |
-| HdM       | [Project](https://www.hdm-stuttgart.de/vmlab/hdm-hdr-2014/https://www.hdm-stuttgart.de/vmlab/hdm-hdr-2014/) | Yes      | 33 sequences | 包括室内室外不同光源场景, 视频质量较高. 缺点是场景数量有限, 由于mirror会有flare等artifact. |
+| HdM       | [Project](https://www.hdm-stuttgart.de/vmlab/hdm-hdr-2014/) | Yes      | 33 sequences | 包括室内室外不同光源场景, 视频质量较高. 缺点是场景数量有限, 由于mirror会有flare等artifact. |
 | Boitard   | [Project](https://people.ece.ubc.ca/rboitard/)                                                              | Yes      | 7 sequences  |                                                            |
 | MPI       | [Project](https://resources.mpi-inf.mpg.de/hdr/video/)                                                      | Yes      | 2 sequences  | IMS Chips HDR Camera                                       |
 | DML-HDR   | [Project](http://dml.ece.ubc.ca/data/DML-HDR/)                                                              | Yes      | 5 sequences  | RED SCARLET–X HDR Camera                                   |

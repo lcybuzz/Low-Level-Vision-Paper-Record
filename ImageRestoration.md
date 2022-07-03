@@ -12,7 +12,11 @@
 
 
 # Image Restoration
-- **Burst Image Restoration and Enhancement **  <Br>
+- **A Differentiable Two-stage Alignment Scheme for Burst Image Reconstruction with Large Shift**  <Br>
+Shi Guo, Xi Yang, Jianqi Ma, Gaofeng Ren, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/GuoShi28/2StageAlign)] <Br>
+
+- **Burst Image Restoration and Enhancement**  <Br>
 [Akshay Dudhane](https://iitrpr.cvpr.in/4/my_blog/), [Syed Waqas Zamir](http://www.waqaszamir.com/), [Salman Khan](https://salman-h-khan.github.io/), [Fahad Shahbaz Khan](https://sites.google.com/view/fahadkhans/home), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/)  <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/akshaydudhane16/BIPNet)] <Br>
 [**BIPNet**]

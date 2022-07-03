@@ -14,6 +14,10 @@
 
 
 # Video Super Resolution
+- **VideoINR: Learning Video Implicit Neural Representation for Continuous Space-Time Super-Resolution**  <Br>
+[Zeyuan Chen](http://zeyuan-chen.com/), [Yinbo Chen](https://yinboc.github.io/), Jingwen Liu, Xingqian Xu, [Vidit Goel](https://vidit98.github.io/), Zhangyang Wang, [Humphrey Shi](https://www.humphreyshi.com/), [Xiaolong Wang](https://xiaolonw.github.io/) <Br>
+[CVPR 2022] [[Project](http://zeyuan-chen.com/VideoINR/)] [[Pytorch-Code](https://github.com/Picsart-AI-Research/VideoINR-Continuous-Space-Time-Super-Resolution)] <Br>
+
 - **Learning Trajectory-Aware Transformer for Video Super-Resolution** <Br>
 Chengxu Liu, [Huan Yang](https://www.microsoft.com/en-us/research/people/huayan/), [Jianlong Fu](https://www.microsoft.com/en-us/research/people/jianf/), [Xueming Qian](http://smiles.xjtu.edu.cn/) <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/researchmm/TTVSR)] <Br>
@@ -360,6 +364,23 @@ Tomer Peleg, Pablo Szekely, Doron Sabo, [Omry Sendik](https://omrysendik.github.
 	
 	
 # Video Enhancement and Restoration
+- **Context-Aware Video Reconstruction for Rolling Shutter Cameras** <Br>
+[Bin Fan](https://gitcvfb.github.io/), [Yuchao Dai](http://npu-cvr.cn/), Zhiyuan Zhang, Qi Liu, Mingyi He <Br>
+[CVPR 2022] [[Code](https://github.com/GitCVfb/CVR)] <Br>
+[**CVR**]
+
+- **Neural Global Shutter: Learn to Restore Video from a Rolling Shutter Camera with Global Reset Feature** <Br>
+[Zhixiang Wang](https://lightchaserx.github.io/), Xiang Ji, Jia-Bin Huang, [Shin'ichi Satoh](http://www.satoh-lab.nii.ac.jp/), Xiao Zhou, Yinqiang Zheng <Br>
+[CVPR 2022] [[Code](https://github.com/lightChaserX/neural-global-shutter)] <Br>
+
+- **Bringing Old Films Back to Life** <Br>
+[Ziyu Wan](http://raywzy.com/), [Bo Zhang](https://bo-zhang.me/), [Dongdong Chen](http://www.dongdongchen.bid/), [Jing Liao](https://liaojing.github.io/html/) <Br>
+[CVPR 2022] [[Project](http://raywzy.com/Old_Film/)] <Br>
+
+- **Revisiting Temporal Alignment for Video Restoration** <Br>
+Kun Zhou, [Wenbo Li](https://fenglinglwb.github.io/), Liying Lu, Xiaoguang Han, [Jiangbo Lu](https://sites.google.com/site/jiangbolu/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/redrock303/Revisiting-Temporal-Alignment-for-Video-Restoration)] <Br>
+
 - **VRT: A Video Restoration Transformer** <Br>
 [Jingyun Liang](https://jingyunliang.github.io/), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yuchen Fan](https://ychfan.github.io/), [Kai Zhang](https://cszn.github.io/), Rakesh Ranjan, [Yawei Li](https://ofsoundof.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
 [arXiv 2201] [[Pytorch-Code](https://github.com/JingyunLiang/VRT)] <Br>
