@@ -395,9 +395,10 @@ Tomoo Mitsunaga, [Shree K. Nayar](http://www.cs.columbia.edu/~nayar/) <Br>
 
 
 ### Without Motion
-| Name | Link                                      | Download | With GT | Size |                                                           |
-| ---- | ----------------------------------------- | -------- | ------- | ---- | --------------------------------------------------------- |
-| SICE | [Project](https://github.com/csjcai/SICE) | Yes      | Yes     | 589  | MEF数据集. 用多个相机收集室内外静止场景的多曝光样本, 用13种MEF和HDR方法处理, 挑出最好的作为GT. |
+| Name  | Link                                         | Download | With GT | Size |                                                           |
+| ----- | -------------------------------------------- | -------- | ------- | ---- | --------------------------------------------------------- |
+| SICE  | [Project](https://github.com/csjcai/SICE)    | Yes      | Yes     | 589  | MEF数据集. 用多个相机收集室内外静止场景的多曝光样本, 用13种MEF和HDR方法处理, 挑出最好的作为GT. |
+| HDRPS | [Project](http://markfairchild.org/HDR.html) | Yes      | No      | 106  |                                                           |
 
 
 ## Single-frame HDR

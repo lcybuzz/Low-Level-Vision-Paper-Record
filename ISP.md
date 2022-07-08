@@ -7,16 +7,24 @@
 
 
 ## ISP
+- **Day-to-Night Image Synthesis for Training Nighttime Neural ISPs** <Br>
+[Abhijith Punnappurath](https://abhijithpunnappurath.github.io/), [Abdullah Abuolaim](https://sites.google.com/view/abdullah-abuolaim/), [Abdelrahman Abdelhamed](https://abdokamel.github.io/), Alex Levinshtein, [Michael S. Brown](https://www.eecs.yorku.ca/~mbrown/) <Br>
+[CVPR 2022 Oral] [[Code](https://github.com/SamsungLabs/day-to-night)] <Br>
+  
 - **Model-Based Image Signal Processors via Learnable Dictionaries** <Br>
 [Marcos V. Conde](https://mv-lab.github.io/), [Steven McDonagh](https://smcdonagh.github.io/), Matteo Maggioni, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Eduardo Pérez-Pellitero](http://perezpellitero.github.io/) <Br>
 [AAAI 2022 Oral] [[Project](https://mv-lab.github.io/model-isp22/)] <Br>
 [**Model ISP**] [★★] 对ISP过程做了较详细的拆分, 每一步尽量做到可逆, end-to-end训练和推理
-  
+
 - **Mobile Computational Photography: A Tour** <Br>
 [Mauricio Delbracio](https://mdelbra.github.io/), Damien Kelly, [Michael S. Brown](https://mdelbra.github.io/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
 [arXiv 2102] <Br>
 [★★★] 很好的一篇ISP综述
 
+- **Learning RAW-to-sRGB Mappings with Inaccurately Aligned Supervision** <Br>
+Zhilu Zhang, Haolin Wang, Ming Liu, Ruohao Wang, [Jiawei Zhang](https://sites.google.com/site/zhjw1988), [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo) <Br>
+[ICCV 2021] [[Project](https://github.com/cszhilu1998/RAW-to-sRGB)] <Br>
+  
 - **ReconfigISP: Reconfigurable Camera Image Processing Pipeline** <Br>
 Ke Yu, Zexian Li, Yue Peng, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/), [Jinwei Gu](http://www.gujinwei.org/) <Br>
 [ICCV 2021] [[Project](https://www.mmlab-ntu.com/project/reconfigisp/)] <Br>
@@ -27,8 +35,13 @@ Ke Yu, Zexian Li, Yue Peng, [Chen Change Loy](https://www.mmlab-ntu.com/person/c
   
 - **Neural Camera Simulators** <Br>
 Hao Ouyang, Zifan Shi, [Chenyang Lei](https://chenyanglei.github.io/), Ka Lung Law, [Qifeng Chen](https://cqf.io/) <Br>
-[CVPR 2021] <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/ken-ouyang/neural_image_simulator)]<Br>
 [★] 提出了一个controllable raw图像生成流程, 通过控制曝光时间, ISO, 噪声level和aperture, 控制生成图像的亮度, blur, 噪声等属性
+  
+- **Learning sRGB-to-Raw-RGB De-rendering with Content-Aware Metadata** <Br>
+[Seonghyeon Nam](http://snam.ml/), [Abhijith Punnappurath](https://abhijithpunnappurath.github.io/), [Marcus A. Brubaker](https://mbrubake.github.io/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
+[CVPR 2021] <Br>
+**SRGB->RAW**
   
 - **CycleISP: Real Image Restoration via Improved Data Synthesis** <Br>
 [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en)<Br>

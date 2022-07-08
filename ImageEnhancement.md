@@ -119,6 +119,10 @@ Michaël Gharbi, [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Jonathan T
 	
 	
 # Low-light Image Enhancement
+- **Toward Fast, Flexible, and Robust Low-Light Image Enhancement** <Br>
+Long Ma, Tengyu Ma, [Risheng Liu](https://rsliu.tech/), Xin Fan, Zhongxuan Luo  <Br>
+[CVPR 2022 Oral] [[Pytorch-Code](https://github.com/vis-opt-group/SCI)] <Br>
+
 - **Low-Light Image Enhancement with Normalizing Flow** <Br>
 [Yufei Wang](https://wyf0912.github.io/), [Renjie Wan](https://wanrenjie.github.io/), [Wenhan Yang](https://flyywh.github.io/), [Haoliang Li](https://hlli1991.github.io/), [Lap-pui Chau](https://personal.ntu.edu.sg/elpchau/), [Alex C. Kot](https://personal.ntu.edu.sg/eackot/index.html)     <Br>
 [AAAI 2022 Oral] [[Project](https://wyf0912.github.io/LLFlow/)] [[Pytorch-Code](https://github.com/wyf0912/LLFlow)] <Br>

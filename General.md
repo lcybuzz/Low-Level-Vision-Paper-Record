@@ -10,6 +10,10 @@
     
 
 # General DL Methods
+- **MAXIM: Multi-Axis MLP for Image Processing**  <Br>
+[Zhengzhong Tu](https://www.linkedin.com/in/vztu/), [Hossein Talebi](https://scholar.google.com/citations?hl=en&user=UOX9BigAAAAJ), [Han Zhang](https://sites.google.com/view/hanzhang), [Feng Yang](https://sites.google.com/view/feng-yang), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/), [Alan Bovik](https://www.ece.utexas.edu/people/faculty/alan-bovik), [Yinxiao Li](https://scholar.google.com/citations?user=kZsIU74AAAAJ&hl=en)  <Br>
+[CVPR 2022 Oral] [[Pytorch-Code](https://github.com/google-research/maxim)] <Br>
+
 - **Procedural Kernel Networks** <Br>
 [Bartlomiej Wronski](https://bartwronski.com/)  <Br>
 [arXiv 2112] <Br>

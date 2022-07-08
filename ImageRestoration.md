@@ -12,6 +12,27 @@
 
 
 # Image Restoration
+- **Learning Multiple Adverse Weather Removal via Two-stage Knowledge Learning and Multi-contrastive Regularization: Toward a Unified Model**  <Br>
+Wei-Ting Chen, Zhi-Kai Huang, Cheng-Che Tsai, Hao-Hsiang Yang, Jian-Jiun Ding, [Sy-Yen Kuo](https://homepage.ntu.edu.tw/~sykuo/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/fingerk28/Two-stage-Knowledge-For-Multiple-Adverse-Weather-Removal)] <Br>
+
+- **TransWeather: Transformer-based Restoration of Images Degraded by Adverse Weather Conditions**  <Br>
+[Jeya Maria Jose](https://jeya-maria-jose.github.io/research/), [Rajeev Yasarla](https://sites.google.com/view/rajeevyasarla/home), [Vishal M. Patel](https://engineering.jhu.edu/vpatel36/) <Br>
+[CVPR 2022] [[Project](https://jeya-maria-jose.github.io/transweather-web/)] [[Pytorch-Code](https://github.com/jeya-maria-jose/TransWeather)] <Br>
+
+- **Attentive Fine-Grained Structured Sparsity for Image Restoration**  <Br>
+[Junghun Oh](https://junghunoh.github.io/), [Heewon Kim](https://sites.google.com/view/kimheewon/), [Seungjun Nah](https://seungjunnah.github.io/), Cheeun Hong, [Jonghyun Choi](https://ppolon.github.io/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/kmlee/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/JungHunOh/SLS_CVPR2022)] <Br>
+
+- **Deep Generalized Unfolding Networks for Image Restoration**  <Br>
+Chong Mou, Qian Wang, [Jian Zhang](https://jianzhang.tech/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/MC-E/Deep-Generalized-Unfolding-Networks-for-Image-Restoration)] <Br>
+
+- **All-In-One Image Restoration for Unknown Corruption**  <Br>
+[Boyun Li](https://liboyun.github.io/), Xiao Liu, [Peng Hu](https://penghu-cs.github.io/), Zhongqin Wu, Jiancheng Lv, Xi Peng <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/XLearning-SCU/2022-CVPR-AirNet)] <Br>
+[**AirNet**]
+
 - **A Differentiable Two-stage Alignment Scheme for Burst Image Reconstruction with Large Shift**  <Br>
 Shi Guo, Xi Yang, Jianqi Ma, Gaofeng Ren, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/GuoShi28/2StageAlign)] <Br>
@@ -41,6 +62,10 @@ Zhendong Wang, [Xiaodong Cun](https://vinthony.github.io/academic/), [Jianmin Ba
 - **Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration**  <Br>
  Liyuan Pan, Shah Chowdhury, [Richard Hartley](http://users.cecs.anu.edu.au/~hartley/), [Miaomiao Liu](http://users.cecs.anu.edu.au/~mliu/), [Hongguang Zhang](https://hongguangzhang.github.io/), [Hongdong Li](https://cecs.anu.edu.au/~hongdong) <Br>
 [CVPR 2021 Oral] [[Code](https://github.com/panpanfei/Dual-Pixel-Exploration-Simultaneous-Depth-Estimation-and-Image-Restoration)] <Br>
+
+- **Controllable Image Restoration for Under-Display Camera in Smartphones**  <Br>
+Kinam Kwon, Eunhee Kang, Sangwon Lee, Su-Jin Lee, Hyong-Euk Lee, ByungIn Yoo, Jae-Joon Han <Br>
+[CVPR 2021] <Br>
 
 - **Removing Diffraction Image Artifacts in Under-Display Camera via Dynamic Skip Connection Networks**  <Br>
 [Ruicheng Feng](https://jnjaby.github.io/), [Chongyi Li](https://li-chongyi.github.io/), [Huaijin Chen](https://hc25.web.rice.edu), Shuai Li, [Chen Change Loy](https://personal.ie.cuhk.edu.hk/~ccloy/), [Jinwei Gu](https://www.gujinwei.org/) <Br>

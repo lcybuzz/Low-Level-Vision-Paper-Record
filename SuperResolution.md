@@ -21,6 +21,39 @@ Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.goo
 
 - **Details or Artifacts: A Locally Discriminative Learning Approach to Realistic Image Super-Resolution** <Br>
 [Jie Liang](https://liangjie.xyz/), [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/csjliang/LDL)]   <Br>
+[**LDL**]
+
+- **Discrete Cosine Transform Network for Guided Depth Map Super-Resolution** <Br>
+[Zixiang Zhao](https://zhaozixiang1228.github.io/), [Jiangshe Zhang](http://gr.xjtu.edu.cn/web/jszhang), [Shuang Xu](http://shuangxu96.github.io/), [Zudi Lin](https://zudi-lin.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
+[CVPR 2022 Oral] [[Pytorch-Code](https://github.com/Zhaozixiang1228/GDSR-DCTNet)]   <Br>
+
+- **Dual Adversarial Adaptation for Cross-Device Real-World Image Super-Resolution** <Br>
+Xiaoqian Xu, [Pengxu Wei](https://pengxuwei.github.io/), [Weikai Chen](http://chenweikai.github.io/), Mingzhi Mao, [Liang Lin](http://www.linliang.net/), [Guanbin Li](http://guanbinli.com/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/lonelyhope/DADA)]   <Br>
+
+- **Blind Image Super-resolution with Elaborate Degradation Modeling on Noise and Kernel** <Br>
+[Zongsheng Yue](https://zsyoaoa.github.io/), Qian Zhao, [Jianwen Xie](http://www.stat.ucla.edu/~jxie/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/), [Deyu Meng](https://gr.xjtu.edu.cn/en/web/dymeng), [Kwan-Yee K. Wong](https://i.cs.hku.hk/~kykwong/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/zsyOAOA/BSRDM)]   <Br>
+
+- **Deep Constrained Least Squares for Blind Image Super-Resolution** <Br>
+[Ziwei Luo](https://algolzw.github.io/), [Haibin Huang](https://brotherhuang.github.io/), Lei Yu, Youwei Li, Haoqiang Fan, [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/Algolzw/DCLS)]   <Br>
+
+- **Learning the Degradation Distribution for Blind Image Super-Resolution** <Br>
+Zhengxiong Luo, [Yan Huang](https://yanrockhuang.github.io/), Shang Li, Liang Wang, Tieniu Tan <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/greatlog/UnpairedSR)]   <Br>
+
+- **Reflash Dropout in Image Super-Resolution** <Br>
+[Xiangtao Kong](https://xiangtaokong.github.io/), Xina Liu, [Jinjin Gu](https://www.jasongt.com/), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/index.html), [Chao Dong](http://xpixel.group/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/XPixelGroup/RDSR)]   <Br>
+
+- **Learning To Zoom Inside Camera Imaging Pipeline** <Br>
+[Chengzhou Tang](https://frobelbest.github.io/), Yuqiang Yang, Bing Zeng, [Ping Tan](https://www2.cs.sfu.ca/~pingtan/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/csjliang/LDL)]   <Br>
+
+- **Details or Artifacts: A Locally Discriminative Learning Approach to Realistic Image Super-Resolution** <Br>
+[Jie Liang](https://liangjie.xyz/), [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/csjliang/LDL)]   <Br>
 [**LDL**] 
 

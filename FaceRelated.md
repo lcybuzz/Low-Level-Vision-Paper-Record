@@ -8,6 +8,10 @@ Face Restoration and Super-Resolution and other related topics. **Archived**
 - [Datasets](#datasets)
 
 # Face Restoration
+- **RestoreFormer: High-Quality Blind Face Restoration from Undegraded Key-Value Pairs**  <Br>
+Zhouxia Wang, [Jiawei Zhang](https://sites.google.com/site/zhjw1988), [Runjian Chen](https://www.rjchen.site/), Wenping Wang, [Ping Luo](http://luoping.me/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/wzhouxiff/RestoreFormer)] <Br>
+
 ### PSFR-GAN ★
 **[Paper]** (CVPR 2021) Progressive Semantic-Aware Style Transformation for Blind Face Restoration <Br>
 **[Author]** [Chaofeng Chen](https://chaofengc.github.io), [Xiaoming Li](https://csxmli2016.github.io/), [Lingbo Yang](https://lotayou.github.io), [Xianhui Lin](https://dblp.org/pid/147/7708.html), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/), [Kwan-Yee K. Wong](https://i.cs.hku.hk/~kykwong/) <Br>
@@ -25,7 +29,6 @@ Face Restoration and Super-Resolution and other related topics. **Archived**
 **[Author]** [Xiaoming Li](https://csxmli2016.github.io/), [Chaofeng Chen](https://chaofengc.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), Xianhui Lin, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 **[[Pytorch-Code](https://github.com/csxmli2016/DFDNet)]** <Br>
 **(构建字典, 匹配最近邻特征)** 对眼睛鼻子嘴建立字典, inference时通过匹配最相似的feature找到相似的高清特征并做替换. 字典通过VGG网络提特征和聚类实现. 实测对五官的增强效果不错, 不过对于头发皮肤等部分效果不明显.
-
 
 ### ASFFNet ★
 **[Paper]** (CVPR 2020 Oral) Enhanced Blind Face Restoration With Multi-Exemplar Images and Adaptive Spatial Feature Fusion  <Br>
