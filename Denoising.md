@@ -8,6 +8,22 @@
 
 
 # Image Denoising
+- **CVF-SID: Cyclic multi-Variate Function for Self-Supervised Image Denoising by Disentangling Noise from Image** <Br>
+Reyhaneh Neshatavar, [Mohsen Yavartanoo](https://myavartanoo.github.io/), [Sanghyun Son](https://cv.snu.ac.kr/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/Reyhanehne/CVF-SID_PyTorch)] <Br>
+
+- **AP-BSN: Self-Supervised Denoising for Real-World Images via Asymmetric PD and Blind-Spot Network** <Br>
+Wooseok Lee, [Sanghyun Son](https://cv.snu.ac.kr/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/wooseoklee4/AP-BSN)] <Br>
+
+- **Blind2Unblind: Self-Supervised Image Denoising with Visible Blind Spots** <Br>
+Zejin Wang, Jiazheng Liu, Guoqing Li, Hua Han <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/demonsjin/Blind2Unblind)] <Br>
+
+- **IDR: Self-Supervised Image Denoising via Iterative Data Refinement** <Br>
+[Yi Zhang](https://zhangyi-3.github.io/), Dasong Li, Ka Lung Law, [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Hongwei Qin](https://scholar.google.com/citations?user=ZGM7HfgAAAAJ&hl=en), [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/zhangyi-3/IDR)] <Br>
+
 - **Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis** <Br>
 [Kai Zhang](https://cszn.github.io/), [Yawei Li](https://ofsoundof.github.io/), [Jingyun Liang](https://jingyunliang.github.io/), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yulun Zhang](http://yulunzhang.com/), Hao Tang, [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
 [arXiv 2003] [[Pytorch-Code](https://github.com/cszn/SCUNet)] <Br>

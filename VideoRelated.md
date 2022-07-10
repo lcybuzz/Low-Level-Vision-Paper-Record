@@ -422,6 +422,10 @@ Fan Zhang, [Yu Li](https://yu-li.github.io/), [Shaodi You](https://youshaodi.git
 
 
 # Video Denoising
+- **Dancing under the stars: video denoising in starlight** <Br>
+[Kristina Monakhova](https://kristinamonakhova.com/), [Stephan R. Richter](http://www.stephanrichter.org/), [Laura Waller](https://laurawaller.com/), [Vladlen Koltun](http://vladlen.info/) <Br>
+[CVPR 2022 Oral] [[Project](http://kristinamonakhova.com/starlight_denoising/)] [[Pytorch-Code](https://github.com/monakhova/starlight_denoising/)] <Br>
+	
 - **Patch Craft: Video Denoising by Deep Modeling and Patch Matching** <Br>
 Gregory Vaksman, [Michael Elad](https://elad.cs.technion.ac.il/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
 [ICCV 2021] [[Pytorch-Code](https://github.com/grishavak/PaCNet-denoiser)] <Br>
