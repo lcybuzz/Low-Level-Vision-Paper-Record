@@ -250,7 +250,16 @@ Haiyan Wu, [Yanyun Qu](https://quyanyun.xmu.edu.cn/), [Shaohui Lin](https://site
 
 
 
-# Image Debluring	
+# Image Debluring
+- **Learning to Deblur using Light Field Generated and Real Defocus Images**  <Br>
+[Lingyan Ruan](http://lyruan.com/index.html), [Bin Chen](https://sites.google.com/view/bin-chen/), [Jizhou Li](http://lijz.io/), [Miuling Lam](https://www.scm.cityu.edu.hk/people/lam-miu-ling) <Br>
+[CVPR 2022 Oral] [[Project](http://lyruan.com/Projects/DRBNet/index.html)] [[Pytorch-Code](https://github.com/lingyanruan/DRBNet)]<Br>
+[**DRBNet**]
+
+- **E-CIR: Event-Enhanced Continuous Intensity Recovery**  <Br>
+[Chen Song](http://songc.me/), [Qixing Huang](https://www.cs.utexas.edu/~huangqx/), [Chandrajit Bajaj](https://www.cs.utexas.edu/~bajaj/cvc/index.shtml)  <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/chensong1995/E-CIR)]<Br>
+
 - **Polyblur: Removing mild blur by polynomial reblurring**  <Br>
 [Mauricio Delbracio](https://mdelbra.github.io/), [Ignacio Garcia-Dorado](http://www.ignaciogarciadorado.com/), Sungjoon Choi, Damien Kelly, [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
 [TCI 2021] [Google] <Br>

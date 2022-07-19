@@ -449,6 +449,10 @@ Matias Tassano, Julie Delon, Thomas Veit<Br>
 
 
 # Video Debluring
+- **Multi-Scale Memory-Based Video Deblurring** <Br>
+Bo Ji, [Angela Yao](https://www.comp.nus.edu.sg/~ayao/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/jibo27/MemDeblur)]<Br>
+
 - **DeFMO: Deblurring and Shape Recovery of Fast Moving Objects** <Br>
 Denys Rozumnyi, Martin R. Oswald, Vittorio Ferrari, Jiri Matas, Marc Pollefeys<Br>
 [CVPR 2021] [[Pytorch-Code](https://github.com/rozumden/DeFMO)]<Br>

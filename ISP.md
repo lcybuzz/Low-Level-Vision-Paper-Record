@@ -17,7 +17,7 @@
 [**Model ISP**] [★★] 对ISP过程做了较详细的拆分, 每一步尽量做到可逆, end-to-end训练和推理
 
 - **Mobile Computational Photography: A Tour** <Br>
-[Mauricio Delbracio](https://mdelbra.github.io/), Damien Kelly, [Michael S. Brown](https://mdelbra.github.io/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
+[Mauricio Delbracio](https://mdelbra.github.io/), Damien Kelly, [Michael S. Brown](https://www.eecs.yorku.ca/~mbrown/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
 [arXiv 2102] <Br>
 [★★★] 很好的一篇ISP综述
 
