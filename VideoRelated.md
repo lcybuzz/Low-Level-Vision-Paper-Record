@@ -524,6 +524,11 @@ Miao Liao, Feixiang Lu, Dingfu Zhou, [Sibo Zhang](https://sites.google.com/view/
 
 	
 # Video Matting
+- **One-Trimap Video Matting** <Br>
+[Hongje Seong](https://hongje.github.io/), [Seoung Wug Oh](https://sites.google.com/view/seoungwugoh), [Brian Price](https://www.brianpricephd.com/), [Euntai Kim](https://cilab.yonsei.ac.kr/), [Joon-Young Lee](https://joonyoung-cv.github.io/) <Br>
+[ECCV 2022] [[Pytorch-Code]](https://github.com/Hongje/OTVM)] <Br>
+[**OTVM**]
+
 - **Robust High-Resolution Video Matting with Temporal Guidance** <Br>
 Shanchuan Lin, Linjie Yang, Imran Saleemi, [Soumyadip Sengupta](https://homes.cs.washington.edu/~soumya91/) <Br>
 [WACV 2022] [[Project]](https://peterl1n.github.io/RobustVideoMatting/#/)] [[Pytorch-Code]](https://github.com/PeterL1n/RobustVideoMatting)] <Br>
@@ -535,7 +540,14 @@ Shanchuan Lin, Linjie Yang, Imran Saleemi, [Soumyadip Sengupta](https://homes.cs
 [CVPR 2021] <Br>
 [**DVM**]
 	
-	
+
+# Video Demoireing
+- **Video Demoireing with Relation-Based Temporal Consistency** <Br>
+Peng Dai, Xin Yu, Lan Ma, Baoheng Zhang, Jia Li, [Wenbo Li](https://fenglinglwb.github.io/), Jiajun Shen, [Xiaojuan Qi](https://xjqi.github.io/) <Br>
+[CVPR 2022] [[Project]](https://daipengwa.github.io/VDmoire_ProjectPage/)] [[Pytorch-Code]](https://github.com/CVMI-Lab/VideoDemoireing)] <Br>
+
+
+
 # Misc
 - **Single-frame Regularization for Temporally Stable CNNs** <Br>
 [Gabriel Eilertsen](https://liu.se/en/employee/gabei62), [Rafał K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Jonas Unger](https://weber.itn.liu.se/~jonun/web/Home.php) <Br>

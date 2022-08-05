@@ -7,6 +7,22 @@
 
 
 # Image Enhancement
+- **SCS-Co: Self-Consistent Style Contrastive Learning for Image Harmonization** <Br>
+Yucheng Hang, Bin Xia, Wenming Yang, Qingmin Liao <Br>
+[CVPR 2022] [[Code](https://github.com/YCHang686/SCS-Co-CVPR2022)]   <Br>
+
+- **High-Resolution Image Harmonization via Collaborative Dual Transformations** <Br>
+[Wenyan Cong](https://wenyancong.com/), Xinhao Tao, [Li Niu](https://bcmi.sjtu.edu.cn/home/niuli/), Jing Liang, Xuesong Gao, Qihao Sun, [Liqing Zhang](http://bcmi.sjtu.edu.cn/~zhangliqing/) <Br>
+[CVPR 2022] [[PyTorch-Code](https://github.com/bcmi/CDTNet-High-Resolution-Image-Harmonization)]   <Br>
+
+- **Exposure Correction Model to Enhance Image Quality** <Br>
+Fevziye Irem Eyiokur, Dogucan Yaman, [Hazım Kemal Ekenel](https://web.itu.edu.tr/ekenel/), [Alexander Waibel](https://isl.anthropomatik.kit.edu/english/21_74.php) <Br>
+[CVPRW 2022] [[PyTorch-Code](https://github.com/yamand16/ExposureCorrection)]   <Br>
+
+- **AdaInt: Learning Adaptive Intervals for 3D Lookup Tables on Real-time Image Enhancement** <Br>
+Canqian Yang, [Meiguang Jin](https://meiguangjin.github.io/), [Xu Jia](https://stephenjia.github.io/), [Yi Xu](https://317lab.sjtu.edu.cn/), Ying Chen <Br>
+[CVPR 2022] [[PyTorch-Code](https://github.com/ImCharlesY/AdaInt)]   <Br>
+
 - **SSH: A Self-Supervised Framework for Image Harmonization** <Br>
 [Yifan Jiang](http://yifanjiang.net/), [He Zhang](https://sites.google.com/site/hezhangsprinter), [Jianming Zhang](https://jimmie33.github.io/), [Yilin Wang](http://yilinwang.org/), [Zhe Lin](https://sites.google.com/site/zhelin625/), [Kalyan Sunkavalli](http://www.kalyans.org/), Simon Chen, Sohrab Amirghodsi, Sarah Kong, Zhangyang Wang <Br>
 [ICCV 2021] [[PyTorch-Code](https://github.com/VITA-Group/SSHarmonization)]   <Br>
@@ -119,6 +135,22 @@ Michaël Gharbi, [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Jonathan T
 	
 	
 # Low-light Image Enhancement
+- **URetinex-Net: Retinex-based Deep Unfolding Network for Low-light-Image-Enhancement** <Br>
+Wenhui Wu, Jian Weng, Pingping Zhang, [Xu Wang](https://csse.szu.edu.cn/pages/user/index?id=556), [Wenhan Yang](https://flyywh.github.io/), [Jianmin Jiang](http://futuremedia.szu.edu.cn/) <Br>
+[CVPR 2022] [[PyTorch-Code](https://github.com/AndersonYong/URetinex-Net)] <Br>
+
+- **SNR-Aware Low-Light Image Enhancement** <Br>
+[Xiaogang Xu](https://xiaogang00.github.io/), Ruixing Wang, [Chi-Wing Fu](http://www.cse.cuhk.edu.hk/~cwfu/), [Jiaya Jia](https://jiaya.me/) <Br>
+[CVPR 2022] [[PyTorch-Code](https://github.com/dvlab-research/SNR-Aware-Low-Light-Enhance)] <Br>
+
+- **Deep Color Consistent Network for Low-Light Image Enhancement** <Br>
+[Zhao Zhang](https://sites.google.com/site/cszzhang/), Huan Zheng, [Richang Hong](https://sites.google.com/site/homeofrichanghong/), Mingliang Xu, [Shuicheng Yan](https://yanshuicheng.ai/), [Meng Wang](https://sites.google.com/view/meng-wang/home) <Br>
+[CVPR 2022] <Br>
+
+- **Abandoning the Bayer-Filter to See in the Dark** <Br>
+Xingbo Dong, Wanyan Xu, Zhihui Miao, Lan Ma, Chao Zhang, Jiewen Yang, Zhe Jin, Andrew Beng Jin Teoh, Jiajun Shen <Br>
+[CVPR 2022] [[PyTorch-Code](https://github.com/TCL-AILab/Abandon_Bayer-Filter_See_in_the_Dark)]   <Br>
+
 - **Toward Fast, Flexible, and Robust Low-Light Image Enhancement** <Br>
 Long Ma, Tengyu Ma, [Risheng Liu](https://rsliu.tech/), Xin Fan, Zhongxuan Luo  <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/vis-opt-group/SCI)] <Br>

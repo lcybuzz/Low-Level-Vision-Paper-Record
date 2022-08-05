@@ -192,6 +192,11 @@ Xianxu Hou, [Guoping Qiu](http://www.cs.nott.ac.uk/~pszqiu/)  <Br>
 
 
 # Image Dehazing
+- **Self-augmented Unpaired Image Dehazing via Density and Depth Decomposition** <Br>
+Yang Yang, [Chaoyue Wang](https://wang-chaoyue.github.io/), [Risheng Liu](https://rsliu.tech/), [Lin Zhang](http://cslinzhang.gitee.io/home/), [Xiaojie Guo](https://sites.google.com/view/xjguo), [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
+[CVPR 2022] <Br>
+[**D4**] 
+
 - **Ultra-High-Definition Image Dehazing via Multi-Guided Bilateral Learning** <Br>
 Zhuoran Zheng, [Wenqi Ren](https://sites.google.com/site/renwenqi888/home), [Xiaochun Cao](http://people.ucas.ac.cn/~0022382?language=en), Xiaobin Hu, Tao Wang, Fenglong Song, Xiuyi Jia <Br>
 [CVPR 2021] <Br>
@@ -490,6 +495,10 @@ Avisek Lahiri, Arnav Kumar Jain, Sanskar Agrawal, Pabitra Mitra, Prabir Kumar Bi
 
 
 # De-raining
+- **Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond** <Br>
+Yi Yu, [Wenhan Yang](https://flyywh.github.io/), Yap-Peng Tan, Alex C. Kot <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/yuyi-sd/Robust_Rain_Removal)]<Br>
+
 - **Closing the Loop: Joint Rain Generation and Removal via Disentangled Image Translation** <Br>
 [Yuntong Ye](https://owuchangyuo.github.io/), Yi Chang, Hanyu Zhou, Luxin Yan <Br>
 [CVPR 2021] [[Pytorch-Code](https://github.com/guyii54/JRGR)]<Br>
