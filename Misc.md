@@ -7,9 +7,14 @@
 
 
 # Relighting
+- **Face Relighting with Geometrically Consistent Shadows** <Br>
+Andrew Hou, Michel Sarkis, Ning Bi, [Yiying Tong](http://www.cse.msu.edu/~ytong/), [Xiaoming Liu](http://cvlab.cse.msu.edu/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/andrewhou1/GeomConsistentFR)]   <Br>
+
 - **Total Relighting: Learning to Relight Portraits for Background Replacemen** <Br>
 Rohit Pandey, [Sergio Orts-Escolano](https://www.dtic.ua.es/~sorts/), [Chloe LeGendre](http://www.chloelegendre.com/), Christian Haene, [Sofien Bouaziz](http://sofienbouaziz.com/), Christoph Rhemann, [Paul Debevec](http://www.pauldebevec.com/), [Sean Fanello](https://www.seanfanello.it/) <Br>
 [SIGGRAPH 2021] [[Project](https://augmentedperception.github.io/total_relighting/)]   <Br>
+
 
 
 # Image Harmonization
@@ -21,6 +26,12 @@ Rohit Pandey, [Sergio Orts-Escolano](https://www.dtic.ua.es/~sorts/), [Chloe LeG
 - **SCS-Co: Self-Consistent Style Contrastive Learning for Image Harmonization** <Br>
 Yucheng Hang, Bin Xia, Wenming Yang, Qingmin Liao <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/YCHang686/SCS-Co-CVPR2022)]   <Br>
+
+- **SSH: A Self-Supervised Framework for Image Harmonization** <Br>
+[Yifan Jiang](http://yifanjiang.net/), [He Zhang](https://sites.google.com/site/hezhangsprinter), [Jianming Zhang](https://jimmie33.github.io/), [Yilin Wang](http://yilinwang.org/), [Zhe Lin](https://sites.google.com/site/zhelin625/), [Kalyan Sunkavalli](http://www.kalyans.org/), Simon Chen, Sohrab Amirghodsi, Sarah Kong, Zhangyang Wang <Br>
+[ICCV 2021] [[PyTorch-Code](https://github.com/VITA-Group/SSHarmonization)]   <Br>
+
+
 
 
 # Image Fusion

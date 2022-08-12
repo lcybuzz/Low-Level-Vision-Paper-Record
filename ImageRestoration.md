@@ -445,6 +445,15 @@ Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He <Br>
 [Wenbo Li](https://fenglinglwb.github.io/), Zhe Lin, Kun Zhou, [Lu Qi](http://luqi.info/), Yi Wang, [Jiaya Jia](https://jiaya.me/) <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/fenglinglwb/MAT)]  <Br>
 
+- **RePaint: Inpainting using Denoising Diffusion Probabilistic Models** <Br>
+Andreas Lugmayr, [Martin Danelljan](https://martin-danelljan.github.io/), [Andres Romero](https://afromero.co/), [Fisher Yu](https://www.yf.io/), [Radu Timofte](https://people.ee.ethz.ch/~timofter/), Luc Van Gool <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/andreas128/RePaint)]  <Br>
+
+- **Reduce Information Loss in Transformers for Pluralistic Image Inpainting** <Br>
+Qiankun Liu, Zhentao Tan, [Dongdong Chen](http://www.dongdongchen.bid/), [Qi Chu](http://staff.ustc.edu.cn/~qchu/), [Xiyang Dai](https://sites.google.com/site/xiyangdai/), Yinpeng Chen, Mengchen Liu, Lu Yuan, Nenghai Yu <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/liuqk3/PUT)]  <Br>
+[**PUT**]
+
 - **MISF: Multi-level Interactive Siamese Filtering for High-Fidelity Image Inpainting** <Br>
 Xiaoguang Li, [Qing Guo](https://tsingqguo.github.io/), [Di Lin](https://dilincv.github.io/), [Ping Li](https://web.comp.polyu.edu.hk/pli/), Wei Feng, Song Wang <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/lyndonzheng/TFill)]  <Br>

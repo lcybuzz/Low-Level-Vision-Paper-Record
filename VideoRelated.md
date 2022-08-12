@@ -533,6 +533,15 @@ Miao Liao, Feixiang Lu, Dingfu Zhou, [Sibo Zhang](https://sites.google.com/view/
 [ECCV 2022] [[Pytorch-Code]](https://github.com/Hongje/OTVM)] <Br>
 [**OTVM**]
 
+- **Human Instance Matting via Mutual Guidance and Multi-Instance Refinement** <Br>
+Yanan Sun, Chi-Keung Tang, Yu-Wing Tai <Br>
+[CVPR 2022 Oral] [[Pytorch-Code]](https://github.com/nowsyn/InstMatt)] <Br>
+[**InstMatt**]
+
+- **MatteFormer: Transformer-Based Image Matting via Prior-Tokens** <Br>
+GyuTae Park, SungJoon Son, JaeYoung Yoo, SeHo Kim, [Nojun Kwak](http://mipal.snu.ac.kr/) <Br>
+[CVPR 2022] [[Pytorch-Code]](https://github.com/webtoon/matteformer)] <Br>
+
 - **Robust High-Resolution Video Matting with Temporal Guidance** <Br>
 Shanchuan Lin, Linjie Yang, Imran Saleemi, [Soumyadip Sengupta](https://homes.cs.washington.edu/~soumya91/) <Br>
 [WACV 2022] [[Project]](https://peterl1n.github.io/RobustVideoMatting/#/)] [[Pytorch-Code]](https://github.com/PeterL1n/RobustVideoMatting)] <Br>

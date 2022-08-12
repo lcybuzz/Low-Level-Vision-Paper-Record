@@ -7,14 +7,6 @@
 
 
 # Image Enhancement
-- **SCS-Co: Self-Consistent Style Contrastive Learning for Image Harmonization** <Br>
-Yucheng Hang, Bin Xia, Wenming Yang, Qingmin Liao <Br>
-[CVPR 2022] [[Code](https://github.com/YCHang686/SCS-Co-CVPR2022)]   <Br>
-
-- **High-Resolution Image Harmonization via Collaborative Dual Transformations** <Br>
-[Wenyan Cong](https://wenyancong.com/), Xinhao Tao, [Li Niu](https://bcmi.sjtu.edu.cn/home/niuli/), Jing Liang, Xuesong Gao, Qihao Sun, [Liqing Zhang](http://bcmi.sjtu.edu.cn/~zhangliqing/) <Br>
-[CVPR 2022] [[PyTorch-Code](https://github.com/bcmi/CDTNet-High-Resolution-Image-Harmonization)]   <Br>
-
 - **Exposure Correction Model to Enhance Image Quality** <Br>
 Fevziye Irem Eyiokur, Dogucan Yaman, [Hazım Kemal Ekenel](https://web.itu.edu.tr/ekenel/), [Alexander Waibel](https://isl.anthropomatik.kit.edu/english/21_74.php) <Br>
 [CVPRW 2022] [[PyTorch-Code](https://github.com/yamand16/ExposureCorrection)]   <Br>
@@ -22,10 +14,6 @@ Fevziye Irem Eyiokur, Dogucan Yaman, [Hazım Kemal Ekenel](https://web.itu.edu.t
 - **AdaInt: Learning Adaptive Intervals for 3D Lookup Tables on Real-time Image Enhancement** <Br>
 Canqian Yang, [Meiguang Jin](https://meiguangjin.github.io/), [Xu Jia](https://stephenjia.github.io/), [Yi Xu](https://317lab.sjtu.edu.cn/), Ying Chen <Br>
 [CVPR 2022] [[PyTorch-Code](https://github.com/ImCharlesY/AdaInt)]   <Br>
-
-- **SSH: A Self-Supervised Framework for Image Harmonization** <Br>
-[Yifan Jiang](http://yifanjiang.net/), [He Zhang](https://sites.google.com/site/hezhangsprinter), [Jianming Zhang](https://jimmie33.github.io/), [Yilin Wang](http://yilinwang.org/), [Zhe Lin](https://sites.google.com/site/zhelin625/), [Kalyan Sunkavalli](http://www.kalyans.org/), Simon Chen, Sohrab Amirghodsi, Sarah Kong, Zhangyang Wang <Br>
-[ICCV 2021] [[PyTorch-Code](https://github.com/VITA-Group/SSHarmonization)]   <Br>
 
 - **STAR: A Structure-Aware Lightweight Transformer for Real-time Image Enhancement** <Br>
 [Author][ Zhaoyang Zhang](https://zzyfd.github.io/#/), Yitong Jiang, Jun Jiang, [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Ping Luo](http://luoping.me/), [Jinwei Gu](https://www.gujinwei.org/) <Br>
