@@ -187,6 +187,10 @@ Fitsum Reda, Janne Kontkanen, [Eric Tabellion](http://www.tabellion.org/et/), [D
 [Simon Niklaus](http://sniklaus.com/welcome), [Ping Hu](http://cs-people.bu.edu/pinghu/homepage.html), [Jiawen Chen](http://people.csail.mit.edu/jiawen/) <Br>
 [arXiv 2201] <Br>
 
+- **IFRNet: Intermediate Feature Refine Network for Efficient Frame Interpolation** <Br>
+Lingtong Kong, [Boyuan Jiang](https://byjiang.com/), Donghao Luo, Wenqing Chu, Xiaoming Huang, [Ying Tai](https://tyshiwo.github.io/), Chengjie Wang, [Jie Yang](http://www.pami.sjtu.edu.cn/jieyang) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/ltkong218/IFRNet)]<Br
+
 - **ST-MFNet: A Spatio-Temporal Multi-Flow Network for Frame Interpolation** <Br>
 [Duolikun Danier](https://danielism97.github.io/), [Fan Zhang](https://fan-aaron-zhang.github.io/), [David Bull](https://david-bull.github.io/) <Br>
 [CVPR 2022] [[Project](https://danielism97.github.io/ST-MFNet/)] [[Pytorch-Code](https://github.com/danielism97/st-mfnet)]<Br>

@@ -2,6 +2,7 @@
 
 # Table of Contents
 - [Relighting](#relighting)
+- [Image Harmonization](#image-harmonization)
 - [Image Fusion (Archived)](#image-fusion)
 
 
@@ -9,6 +10,18 @@
 - **Total Relighting: Learning to Relight Portraits for Background Replacemen** <Br>
 Rohit Pandey, [Sergio Orts-Escolano](https://www.dtic.ua.es/~sorts/), [Chloe LeGendre](http://www.chloelegendre.com/), Christian Haene, [Sofien Bouaziz](http://sofienbouaziz.com/), Christoph Rhemann, [Paul Debevec](http://www.pauldebevec.com/), [Sean Fanello](https://www.seanfanello.it/) <Br>
 [SIGGRAPH 2021] [[Project](https://augmentedperception.github.io/total_relighting/)]   <Br>
+
+
+# Image Harmonization
+- **High-Resolution Image Harmonization via Collaborative Dual Transformations** <Br>
+[Wenyan Cong](https://wenyancong.com/), Xinhao Tao, [Li Niu](https://bcmi.sjtu.edu.cn/home/niuli/), Jing Liang, Xuesong Gao, Qihao Sun, [Liqing Zhang](https://bcmi.sjtu.edu.cn/~zhangliqing/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/bcmi/CDTNet-High-Resolution-Image-Harmonization)]   <Br>
+[**CDTNet**]
+
+- **SCS-Co: Self-Consistent Style Contrastive Learning for Image Harmonization** <Br>
+Yucheng Hang, Bin Xia, Wenming Yang, Qingmin Liao <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/YCHang686/SCS-Co-CVPR2022)]   <Br>
+
 
 # Image Fusion
 - **Learning a Deep Convolutional Network for Colorization in Monochrome-Color Dual-Lens System** <Br>

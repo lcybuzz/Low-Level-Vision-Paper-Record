@@ -441,6 +441,23 @@ Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He <Br>
 
 
 # Image Inpainting
+- **MAT: Mask-Aware Transformer for Large Hole Image Inpainting** <Br>
+[Wenbo Li](https://fenglinglwb.github.io/), Zhe Lin, Kun Zhou, [Lu Qi](http://luqi.info/), Yi Wang, [Jiaya Jia](https://jiaya.me/) <Br>
+[CVPR 2022 Oral] [[Pytorch-Code](https://github.com/fenglinglwb/MAT)]  <Br>
+
+- **MISF: Multi-level Interactive Siamese Filtering for High-Fidelity Image Inpainting** <Br>
+Xiaoguang Li, [Qing Guo](https://tsingqguo.github.io/), [Di Lin](https://dilincv.github.io/), [Ping Li](https://web.comp.polyu.edu.hk/pli/), Wei Feng, Song Wang <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/lyndonzheng/TFill)]  <Br>
+
+- **Incremental Transformer Structure Enhanced Image Inpainting with Masking Positional Encoding** <Br>
+Qiaole Dong, Chenjie Cao, [Yanwei Fu](http://yanweifu.github.io/) <Br>
+[CVPR 2022] [[Project](https://dqiaole.github.io/ZITS_inpainting/)] [[Pytorch-Code](https://github.com/DQiaole/ZITS_inpainting)]  <Br>
+
+- **Bridging Global Context Interactions for High-Fidelity Image Completion** <Br>
+[Chuanxia Zheng](https://chuanxiaz.com/[), [Tat-Jen Cham](https://personal.ntu.edu.sg/astjcham/), [Jianfei Cai](https://jianfei-cai.github.io/), [Dinh Phung](https://research.monash.edu/en/persons/dinh-phung) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/lyndonzheng/TFill)]  <Br>
+[**TFill**]
+
 - **HFGI: High-Fidelity GAN Inversion for Image Attribute Editing** <Br>
 [Tengfei Wang](https://tengfei-wang.github.io/), [Yong Zhang](https://yzhang2016.github.io/yongnorriszhang.github.io/), [Yanbo Fan](https://sites.google.com/site/yanbofan0124/), [Jue Wang](https://juew.org/), [Qifeng Chen](https://cqf.io/) <Br>
 [ICCV 2021] [[Project](https://tengfei-wang.github.io/HFGI/)] [[Pytorch-Code](https://github.com/Tengfei-Wang/HFGI)]  <Br>
