@@ -3,6 +3,7 @@
 # Table of Contents
 - [Relighting](#relighting)
 - [Image Harmonization](#image-harmonization)
+- [Image Matting](#image-matting)
 - [Image Fusion (Archived)](#image-fusion)
 
 
@@ -33,6 +34,18 @@ Yucheng Hang, Bin Xia, Wenming Yang, Qingmin Liao <Br>
 
 
 
+# Image Matting
+- **Human Instance Matting via Mutual Guidance and Multi-Instance Refinement** <Br>
+Yanan Sun, Chi-Keung Tang, Yu-Wing Tai <Br>
+[CVPR 2022] [[Code](https://github.com/nowsyn/InstMatt)]   <Br>
+
+- **MatteFormer: Transformer-Based Image Matting via Prior-Tokens** <Br>
+GyuTae Park, SungJoon Son, JaeYoung Yoo, SeHo Kim, Nojun Kwak <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/webtoon/matteformer)]   <Br>
+
+- **Boosting Robustness of Image Matting with Context Assembling and Strong Data Augmentation** <Br>
+[Yutong Dai](https://dongdong93.github.io/), [Brian Price](https://www.brianpricephd.com/), [He Zhang](https://sites.google.com/site/hezhangsprinter), [Chunhua Shen](https://cshen.github.io/) <Br>
+[CVPR 2022] [[Project](https://dongdong93.github.io/RMat/)]   <Br>
 
 # Image Fusion
 - **Learning a Deep Convolutional Network for Colorization in Monochrome-Color Dual-Lens System** <Br>

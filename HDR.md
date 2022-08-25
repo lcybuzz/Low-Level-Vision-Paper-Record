@@ -186,7 +186,8 @@ Yongjie Piao, Guang Jin  <Br>
 	
 - **Exposure Fusion** <Br>
 [Tom Mertens](http://www.mericam.net/), [Jan Kautz](https://jankautz.com/), Frank Van Reeth<Br>
-[PG 2007] <Br>
+[PG 2007] [[Project](https://mericam.github.io/exposure_fusion/index.html)] <Br>
+[★★☆] contrast, saturation, well-exposedness三个加权得到weight map. 将图像用拉普拉斯金字塔分解, weight用高斯金字塔分解, 在多个尺度融合.
 
 - **High Dynamic Range Video** <Br>
 [Sing Bing Kang](http://www.singbingkang.com/), [Matthew Uyttendaele](https://research.facebook.com/people/uyttendaele-matt/), [Simon Winder](http://simonwinder.com/), [Richard Szeliski](http://szeliski.org/RichardSzeliski.htm)  <Br>
@@ -363,7 +364,7 @@ Zhetong Liang, [Jun Xu](https://csjunxu.github.io/), [David Zhang](http://www4.c
 - **Photographic tone reproduction for digital images**  <Br>
 [Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
 [TOG 2002] <Br>
-[★★] 1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
+[★★☆] 1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
 
 	
 # CRF

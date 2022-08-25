@@ -502,6 +502,15 @@ Zongsheng Yue, [Jianwen Xie](http://www.stat.ucla.edu/~jxie/), Qian Zhao, [Deyu 
 
 
 # Video Inpainting
+- **The DEVIL is in the Details: A Diagnostic Evaluation Benchmark for Video Inpainting** <Br>
+[Ryan Szeto](http://ryanszeto.com/), [Jason J. Corso](http://web.eecs.umich.edu/~jjcorso/) <Br>
+[CVPR 2022] [[Code]](https://github.com/MichiganCOG/devil)]
+
+- **Towards An End-to-End Framework for Flow-Guided Video Inpainting** <Br>
+[Zhen Li](https://paper99.github.io/), Cheng-Ze Lu, Jianhua Qin, Chun-Le Guo, [Ming-Ming Cheng](http://mmcheng.net/cmm/) <Br>
+[CVPR 2022] [[Pytorch-Code]](https://github.com/MCG-NKU/E2FGVI)]
+[**E2FGVI**]
+
 - **Internal Video Inpainting by Implicit Long-range Propagation** <Br>
 [Hao Ouyang](https://ken-ouyang.github.io/), [Tengfei Wang](https://tengfei-wang.github.io/), [Qifeng Chen](https://cqf.io/publication.html) <Br>
 [ICCV 2021] [[Project](https://tengfei-wang.github.io/Implicit-Internal-Video-Inpainting/index.html)] [[Pytorch-Code]](https://github.com/Tengfei-Wang/Implicit-Internal-Video-Inpainting)]

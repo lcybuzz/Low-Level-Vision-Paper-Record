@@ -601,8 +601,3 @@ Bin He, Ce Wang, [Boxin Shi](http://ci.idm.pku.edu.cn/), Ling-Yu Duan <Br>
 ## Reflection Removal
 - [SIR](https://sir2data.github.io/) <Br>
 
-
-
-# Resources
-- [[Deblurring](https://github.com/subeeshvasu/Awesome-Deblurring)]  <Br>
-- [[去雾](https://github.com/cxtalk/DehazeZoo)]
