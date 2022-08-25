@@ -1,8 +1,7 @@
 # Table of Contents
 - [Image Super Resolution](#super-resolution)
 - [Burst Super Resolution](#burst-super-resolution)
-- [Datasets](#datasets)
-- [Resources](#resources)
+
 
 #  Image Super Resolution
 - **Simple Baselines for Image Restoration** <Br>
@@ -489,12 +488,3 @@ Chao Dong, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Xiaoou Ta
 [CVPR 2021] [[Pytorch-Code](https://github.com/goutamgmb/NTIRE21_BURSTSR)]   <Br>
 [**BURSTSR**] 
 
-
-# Datasets
-- [DIV2k](https://data.vision.ee.ethz.ch/cvl/DIV2K/)  <Br>
-
-
-# Resources
-- [[超分论文整理1](https://github.com/ChaofWang/Awesome-Super-Resolution)]
-- [[图像/视频超分论文整理2](https://github.com/HymEric/latest-development-of-ISR-VSR)]
-- [[图像/视频超分方法TF复现](https://github.com/LoSealL/VideoSuperResolution)]
