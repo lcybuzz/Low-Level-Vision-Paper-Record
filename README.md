@@ -94,7 +94,7 @@
 
 
 # Resources
-## Conference papers
+## Paper collection
 - Conference paper collection <Br>
     - [[CVPR 2022](https://github.com/extreme-assistant/CVPR2022-Paper-Code-Interpretation)] [[CVPR 2022](https://github.com/amusi/CVPR2022-Papers-with-Code)] [[CVPR 2021](https://github.com/52CV/CVPR-2021-Papers)] [[CVPR 2020](https://github.com/extreme-assistant/CVPR2020-Paper-Code-Interpretation)]
     - [[ECCV 2022](https://github.com/extreme-assistant/ECCV2022-Paper-Code-Interpretation)]
@@ -105,8 +105,7 @@
     - [[ECCV 2022](https://github.com/DarrenPan/Awesome-ECCV2022-Low-Level-Vision)] [[ECCV 2020](https://zhuanlan.zhihu.com/p/180551773)]
     - [[ICCV 2021](https://github.com/Kobaayyy/Awesome-ICCV2021-Low-Level-Vision)] 
 
-## Tasks
-- Paper collection
+- Paper collection on low-level tasks
     - [[超分论文整理1](https://github.com/ChaofWang/Awesome-Super-Resolution)] [[图像/视频超分论文整理2](https://github.com/HymEric/latest-development-of-ISR-VSR)] [[图像/视频超分方法TF复现](https://github.com/LoSealL/VideoSuperResolution)] <Br>
 
     - [[VideoSuperResolution](https://github.com/LoSealL/VideoSuperResolution)] A collection of state-of-the-art video or single-image super-resolution architectures, reimplemented in TF <Br>
@@ -121,21 +120,21 @@
 
     - [[Denoising](https://paperswithcode.com/task/image-denoising?page=2)] [[Denoising with codes](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)] <Br>
 
-- Codes
-    - [[各种对比度增强算法代码 Matlab](https://github.com/baidut/OpenCE)]  <Br>
-    - [[一些基于C++的对比度增强算法实现](https://github.com/dengyueyun666/Image-Contrast-Enhancement)]  <Br>
+## Codes
+- [[各种对比度增强算法代码 Matlab](https://github.com/baidut/OpenCE)]  <Br>
+- [[一些基于C++的对比度增强算法实现](https://github.com/dengyueyun666/Image-Contrast-Enhancement)]  <Br>
 
-- 博客/专栏/资讯
-    - [[传统图像质量增强的系列blog-1](https://www.cnblogs.com/Imageshop/category/535367.html)]  <Br>
-    - [[传统图像质量增强的系列blog-2](https://blog.csdn.net/maozefa/article/list/1)]  <Br>
-    - [无法抗拒的图像技术](https://www.zhihu.com/column/sining)
-    - [All in Camera](https://www.zhihu.com/column/allincamera)
-    - [计算摄影学](https://www.zhihu.com/column/hawkcp)
+## 博客/专栏/资讯
+- [[传统图像质量增强的系列blog-1](https://www.cnblogs.com/Imageshop/category/535367.html)]  <Br>
+- [[传统图像质量增强的系列blog-2](https://blog.csdn.net/maozefa/article/list/1)]  <Br>
+- [无法抗拒的图像技术](https://www.zhihu.com/column/sining)
+- [All in Camera](https://www.zhihu.com/column/allincamera)
+- [计算摄影学](https://www.zhihu.com/column/hawkcp)
 
-    - [AIWalker](https://www.zhihu.com/column/c_1252624169897562112)
-    - [GiantPandaCV](https://www.zhihu.com/column/giantpandacv)
-    - [极市平台](https://www.zhihu.com/column/c_1027917842385129473)
-    - [CVer](https://www.zhihu.com/column/c_172507674)
+- [AIWalker](https://www.zhihu.com/column/c_1252624169897562112)
+- [GiantPandaCV](https://www.zhihu.com/column/giantpandacv)
+- [极市平台](https://www.zhihu.com/column/c_1027917842385129473)
+- [CVer](https://www.zhihu.com/column/c_172507674)
 
 ## Misc
 - [[Mobile AI benchmark](http://ai-benchmark.com/index.html#title)] <Br>
