@@ -4,6 +4,8 @@
 - [Relighting](#relighting)
 - [Image Harmonization](#image-harmonization)
 - [Image Matting](#image-matting)
+- [Image Stitching](#image-stitching)
+- [Image Decomposition](#image-decomposition)
 - [Image Fusion (Archived)](#image-fusion)
 
 
@@ -46,6 +48,24 @@ GyuTae Park, SungJoon Son, JaeYoung Yoo, SeHo Kim, Nojun Kwak <Br>
 - **Boosting Robustness of Image Matting with Context Assembling and Strong Data Augmentation** <Br>
 [Yutong Dai](https://dongdong93.github.io/), [Brian Price](https://www.brianpricephd.com/), [He Zhang](https://sites.google.com/site/hezhangsprinter), [Chunhua Shen](https://cshen.github.io/) <Br>
 [CVPR 2022] [[Project](https://dongdong93.github.io/RMat/)]   <Br>
+
+
+# Image Stitching
+- **Deep Rectangling for Image Stitching: A Learning Baseline** <Br>
+Lang Nie, [Chunyu Lin](http://faculty.bjtu.edu.cn/8549/), [Kang Liao](https://kangliao929.github.io/), [Shuaicheng Liu](http://www.liushuaicheng.org/), [Yao Zhao](http://mepro.bjtu.edu.cn/zhaoyao/index.htm) <Br>
+[CVPR 2022 Oral] [[Pytorch-Code](https://github.com/nie-lang/DeepRectangling)]   <Br>
+
+
+# Image Decomposition
+- **PIE-Net: Photometric Invariant Edge Guided Network for Intrinsic Image Decomposition** <Br>
+Partha Das, [Sezer Karaoglu](https://karaoglusezer.github.io/), [Theo Gevers](https://staff.fnwi.uva.nl/th.gevers/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/Morpheus3000/PIE-Net)]   <Br>
+
+- **Deformable Sprites for Unsupervised Video Decomposition** <Br>
+Vickie Ye, [Zhengqi Li](https://www.cs.cornell.edu/~zl548/), Richard Tucker, [Angjoo Kanazawa](https://people.eecs.berkeley.edu/~kanazawa/), [Noah Snavely](https://www.cs.cornell.edu/~snavely/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/vye16/deformable-sprites)]   <Br>
+
+
 
 # Image Fusion
 - **Learning a Deep Convolutional Network for Colorization in Monochrome-Color Dual-Lens System** <Br>

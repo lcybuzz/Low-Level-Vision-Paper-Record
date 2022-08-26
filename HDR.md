@@ -217,6 +217,11 @@ Mark A Robertson, Sean Borman, Robert L Stevenson  <Br>
 
 ## Single-Frame HDR
 ### DL Methods
+- **Unsupervised HDR Imaging: What Can Be Learned from a Single 8-bit Video?** <Br>
+Francesco Banterle, Demetris Marnerides, Kurt Debattista, Thomas Bashford-Rogers <Br>
+[arXiv 2202] [[Pytorch-Code](https://github.com/chxy95/HDRTVNet)] <Br>
+[★] 手动设置ev, 生成high, 最后生成high/base的scale map, 预测时以base为输入, 预测scale map和low
+
 - **A New Journey from SDRTV to HDRTV** <Br>
 Xiangyu Chen, Zhengwen Zhang, [Jimmy S. Ren](http://www.jimmyren.com/), Lynhoo Tian, [Yu Qiao](http://mmlab.siat.ac.cn/), [Chao Dong](http://xpixel.group/)  <Br>
 [ICCV 2021] [[Pytorch-Code](https://github.com/chxy95/HDRTVNet)] <Br>

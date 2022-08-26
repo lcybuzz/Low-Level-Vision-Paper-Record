@@ -11,6 +11,10 @@ Hansen Feng, [Lizhi Wang](https://wang-lizhi.github.io/), Yuzhi Wang, Hua Huang 
 [MM 2022] [[Pytorch-Code](https://github.com/megvii-research/PMN)] <Br>
 [**PMN**]
 
+- **Fast and High-quality Image Denoising via Malleable Convolutions** <Br>
+[Yifan Jiang](https://yifanjiang.net/), [Bartlomiej Wronski](https://bartwronski.com/), [Ben Mildenhall](https://bmild.github.io/), [Jonathan Barron](https://jonbarron.info/), Zhangyang Wang, [Tianfan Xue](https://people.csail.mit.edu/tfxue/) <Br>
+[ECCV 2022] [[Project](https://yifanjiang.net/MalleConv.html)] <Br>
+
 - **CVF-SID: Cyclic multi-Variate Function for Self-Supervised Image Denoising by Disentangling Noise from Image** <Br>
 Reyhaneh Neshatavar, [Mohsen Yavartanoo](https://myavartanoo.github.io/), [Sanghyun Son](https://cv.snu.ac.kr/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/Reyhanehne/CVF-SID_PyTorch)] <Br>

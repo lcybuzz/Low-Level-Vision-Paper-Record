@@ -6,6 +6,10 @@
 
 
 # Image Synthesis
+- **NeRF in the Dark: High Dynamic Range View Synthesis from Noisy Raw Images** <Br>
+[Ben Mildenhall](https://bmild.github.io/), [Peter Hedman](https://www.phogzone.com/), [Ricardo Martin-Brualla](http://ricardomartinbrualla.com/), [Pratul Srinivasan](https://pratulsrinivasan.github.io/), [Jonathan Barron](https://jonbarron.info/) <Br>
+[CVPR 2022 Oral] [[Project](https://bmild.github.io/rawnerf/)] [[TF-Code](https://github.com/google-research/multinerf)]  
+
 - **Im2Vec Synthesizing Vector Graphics without Vector Supervision** <Br>
 [Sheng-Yu Wang](https://peterwang512.github.io/), [David Bau](https://people.csail.mit.edu/davidbau/home/), [Jun-Yan Zhu](https://cs.cmu.edu/~junyanz)  <Br>
 [ICCV 2021] [[Project](https://peterwang512.github.io/GANSketching/)] [[Pytorch-Code](https://github.com/PeterWang512/GANSketching)]  <Br>
@@ -220,6 +224,27 @@ Po-Wei Wu, Yu-Jing Lin, Che-Han Chang, Edward Y. Chang, Shih-Wei Liao <Br>
 	
 
 # Image Manipulation
+- **HyperStyle: StyleGAN Inversion with HyperNetworks for Real Image Editing** <Br>
+[Yuval Alaluf](https://yuval-alaluf.github.io/), Omer Tov, [Ron Mokady](https://rmokady.github.io/), [Rinon Gal](https://rinongal.github.io/), [Amit H. Bermano](https://www.cs.tau.ac.il/~amberman/)  <Br>
+[CVPR 2021] [[Project](https://yuval-alaluf.github.io/hyperstyle/)] [[Pytorch-Code](https://github.com/yuval-alaluf/hyperstyle)]  <Br>
+
+- **High-Fidelity GAN Inversion for Image Attribute Editing** <Br>
+[Tengfei Wang](https://tengfei-wang.github.io/), [Yong Zhang](https://yzhang2016.github.io/yongnorriszhang.github.io/), [Yanbo Fan](https://sites.google.com/site/yanbofan0124/), Jue Wang, [Qifeng Chen](https://cqf.io/)  <Br>
+[CVPR 2021] [[Project](https://tengfei-wang.github.io/HFGI/)] [[Pytorch-Code](https://github.com/Tengfei-Wang/HFGI)]  <Br>
+[**HFGI**]
+
+- **HairCLIP: Design Your Hair by Text and Reference Image** <Br>
+Tianyi Wei, [Dongdong Chen](http://www.dongdongchen.bid/), Wenbo Zhou, [Jing Liao](https://liaojing.github.io/html/index.html), Zhentao Tan, Lu Yuan, Weiming Zhang, Nenghai Yu  <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/wty-ustc/HairCLIP)]  <Br>
+
+- **Blended Diffusion for Text-driven Editing of Natural Images** <Br>
+[Omri Avrahami](https://omriavrahami.com/), [Dani Lischinski](https://www.cs.huji.ac.il/~danix/), [Ohad Fried](https://www.ohadf.com/)  <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/omriav/blended-diffusion)]  <Br>
+
+- **Style Transformer for Image Inversion and Editing** <Br>
+Xueqi Hu, Qiusheng Huang, Zhengyi Shi, Siyuan Li, [Changxin Gao](https://sites.google.com/site/changxingao), Li Sun, Qingli Li  <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/sapphire497/style-transformer)]  <Br>
+
 - **DeFLOCNet: Deep Image Editing via Flexible Low-level Controls** <Br>
 [Hongyu Liu](https://github.com/KumapowerLIU/DeFLOCNet#jump1), [Ziyu Wan](http://raywzy.com/), [Wei Huang](https://github.com/KumapowerLIU/DeFLOCNet#jump1), [Yibing Song](https://ybsong00.github.io/), [Xintong Han](http://users.umiacs.umd.edu/~xintong/) , [Jing Liao](https://liaojing.github.io/html/), [Bin Jiang](https://github.com/KumapowerLIU/DeFLOCNet#jump1), [Wei Liu](https://scholar.google.com/citations?user=AjxoEpIAAAAJ&hl=zh-CN)  <Br>
 [CVPR 2021] [[Pytorch-Code](https://github.com/KumapowerLIU/DeFLOCNet)]  <Br>
@@ -251,6 +276,28 @@ Rameen Abdal, Yipeng Qin, Peter Wonka <Br>
 
 
 # Style Transfer
+- **Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer** <Br>
+[Shuai Yang](https://williamyang1991.github.io/), [Liming Jiang](https://liming-jiang.com/), [Ziwei Liu](https://liuziwei7.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/williamyang1991/DualStyleGAN)]  <Br>
+[**DualStyleGAN**]
+
+- **Industrial Style Transfer with Large-scale Geometric Warping and Content Preservation** <Br>
+Jinchao Yang, Fei Guo, Shuo Chen, [Jun Li](https://sites.google.com/view/junlineu/), [Jian Yang](http://www.patternrecognition.cn/~jian/)  <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/jcyang98/InST)]  <Br>
+[**InST**]
+
+- **Exact Feature Distribution Matching for Arbitrary Style Transfer and Domain Generalization** <Br>
+Yabin Zhang, Minghan Li, Ruihuang Li, Kui Jia, Lei Zhang <Br>
+[CVPR 2021 Oral] [[Pytorch-Code](https://github.com/YBZh/EFDM)]  <Br>
+
+- **Style-ERD: Responsive and Coherent Online Motion Style Transfer** <Br>
+[Tianxin Tao](https://tianxintao.github.io/), Xiaohang Zhan, Zhongquan Chen, [Michiel van de Panne](https://www.cs.ubc.ca/~van/) <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/tianxintao/Online-Motion-Style-Transfer)]  <Br>
+
+- **CLIPstyler:Image Style Transfer with a Single Text Condition** <Br>
+[Gihyun Kwon](https://sites.google.com/view/gihyunkwon), Jong Chul Ye <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/cyclomon/CLIPstyler)]  <Br>
+
 - **Rethinking and Improving the Robustness of Image Style Transfer** <Br>
 [Pei Wang](http://www.svcl.ucsd.edu/~peiwang), [Yijun Li](https://yijunmaverick.github.io/), [Nuno Vasconcelos](http://www.svcl.ucsd.edu/~nuno) <Br>
 [CVPR 2021 Oral] [[Pytorch-Code](https://github.com/peiwang062/swag)]  <Br>

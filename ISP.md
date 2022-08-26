@@ -28,10 +28,15 @@ Zhilu Zhang, Haolin Wang, Ming Liu, Ruohao Wang, [Jiawei Zhang](https://sites.go
 - **ReconfigISP: Reconfigurable Camera Image Processing Pipeline** <Br>
 Ke Yu, Zexian Li, Yue Peng, [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/), [Jinwei Gu](http://www.gujinwei.org/) <Br>
 [ICCV 2021] [[Project](https://www.mmlab-ntu.com/project/reconfigisp/)] <Br>
-  
-- **Invertible Image Signal Processing** <Br>
+
+- **End-to-end High Dynamic Range Camera Pipeline Optimization** <Br>
 [Yazhou Xing](https://yzxing87.github.io/), Zian Qian, [Qifeng Chen](https://cqf.io/) <Br>
 [CVPR 2021] [[Project](https://yzxing87.github.io/InvISP/index.html)] [[Pytorch-Code](https://github.com/yzxing87/Invertible-ISP)] <Br>
+[★] 将ISP参数与下游任务一同优化
+
+- **Invertible Image Signal Processing** <Br>
+Nicolas Robidoux, Luis E. Garcia Capel, Dong-eun Seo, Avinash Sharma, Federico Ariza, Felix Heide <Br>
+[CVPR 2021] [[Project](https://light.princeton.edu/publication/hdr_isp_opt/)] <Br>
   
 - **Neural Camera Simulators** <Br>
 Hao Ouyang, Zifan Shi, [Chenyang Lei](https://chenyanglei.github.io/), Ka Lung Law, [Qifeng Chen](https://cqf.io/) <Br>
