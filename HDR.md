@@ -217,6 +217,10 @@ Mark A Robertson, Sean Borman, Robert L Stevenson  <Br>
 
 ## Single-Frame HDR
 ### DL Methods
+- **SDRTV-to-HDRTV via Hierarchical Dynamic Context Feature Mapping** <Br>
+Gang He, Kepeng Xu, Li Xu, Chang Wu, Ming Sun, Xing Wen, Yu-Wing Tai <Br>
+[MM 2022] [快手] [[Pytorch-Code](https://github.com/chxy95/HDRTVNet)] <Br>
+
 - **Unsupervised HDR Imaging: What Can Be Learned from a Single 8-bit Video?** <Br>
 Francesco Banterle, Demetris Marnerides, Kurt Debattista, Thomas Bashford-Rogers <Br>
 [arXiv 2202] [[Pytorch-Code](https://github.com/chxy95/HDRTVNet)] <Br>

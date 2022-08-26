@@ -570,6 +570,11 @@ Peng Dai, Xin Yu, Lan Ma, Baoheng Zhang, Jia Li, [Wenbo Li](https://fenglinglwb.
 
 
 # Misc
+- ** AutoTransition: Learning to Recommend Video Transition Effects** <Br>
+Yaojie Shen, Libo Zhang, Kai Xu, [Xiaojie Jin](https://airobotai.github.io/jinxiaojie/) <Br>
+[ECCV 2022] [字节跳动] [[Pytorch-Code]](https://github.com/AcherStyx/AutoTransition)] <Br>
+自动生成剪辑
+
 - **Single-frame Regularization for Temporally Stable CNNs** <Br>
 [Gabriel Eilertsen](https://liu.se/en/employee/gabei62), [Rafał K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Jonas Unger](https://weber.itn.liu.se/~jonun/web/Home.php) <Br>
 [CVPR 2019] <Br>
