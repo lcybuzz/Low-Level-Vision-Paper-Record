@@ -151,7 +151,8 @@ Long Ma, Tengyu Ma, [Risheng Liu](https://rsliu.tech/), Xin Fan, Zhongxuan Luo  
 
 - **Restoring Extremely Dark Images in Real Time**  <Br>
  [Mohit Lamba](https://mohitlamba94.github.io/about-me/), [Kaushik Mitra](https://www.ee.iitm.ac.in/kmitra/) <Br>
-[CVPR 2021] [[Code](https://github.com/MohitLamba94/Restoring-Extremely-Dark-Images-In-Real-Time)] <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/MohitLamba94/Restoring-Extremely-Dark-Images-In-Real-Time)] <Br>
+[★☆] 轻量化暗光增强. 多尺度网络并行处理, 改进了RDB block, 对输入先做自适应的放大再送入网络.
 
 - **Low-light Image and Video Enhancement Using Deep Learning: A Survey** <Br>
 [Chongyi Li](https://li-chongyi.github.io/), Chunle Guo, Linghao Han, Jun Jiang, [Ming-Ming Cheng](https://mmcheng.net/cmm/), [Jinwei Gu](http://www.gujinwei.org/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)  <Br>
@@ -309,6 +310,3 @@ Liang Shen, Zihan Yue, Fan Feng, Quan Chen, Shihao Liu, Jie Ma <Br>
 [Zhenqiang Ying](https://baidut.github.io/about/), Ge Li, Yurui Ren, Ronggang Wang, Wenmin Wang   <Br>
 [CAIP 2017] [[Project](https://baidut.github.io/OpenCE/caip2017.html)] [[Matlab-Code](https://github.com/AndyHuang1995/Image-Contrast-Enhancement)] [[Python-Code](https://github.com/AndyHuang1995/Image-Contrast-Enhancement)] <Br>
 [★★] 大致浏览, 利用原图和曝光增强后的图像融合, 提升亮度和对比度. 融合权值通过求解光照强度得到, 曝光增强图通过作者之前提出的相机响应校正模型得到.
-	
-
-

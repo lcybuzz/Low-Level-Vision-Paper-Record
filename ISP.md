@@ -2,8 +2,6 @@
 - [ISP](#isp)
 - [AWB](#awb)
 - [AE](#ae)
-- [Datasets](#datasets)
-- [Resources](#resources)
 
 
 ## ISP
@@ -117,13 +115,3 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
 
 
 # AE
-
-# Datasets
-## AWB
-- [GehlerShi](https://www2.cs.sfu.ca/~colour/data/shi_gehler/) <Br>
-- [CUBE+](https://ipg.fer.hr/ipg/resources/color_constancy) <Br>
-
-
-
-# Resources
-- [[ISP介绍blog](https://blog.csdn.net/qq_42261630/article/details/102918149)]  <Br>

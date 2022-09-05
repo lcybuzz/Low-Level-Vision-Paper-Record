@@ -112,7 +112,7 @@ Guanting Dong, Yueyi Zhang, [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/) <
 Zhetong Liang, Shi Guo, Hong Gu, Huaqi Zhang, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 [ECCV 2020] <Br>
 
-- **(ECCV 2020) Robust and On-the-fly Dataset Denoising for Image Classification** <Br>
+- **Robust and On-the-fly Dataset Denoising for Image Classification** <Br>
 [Jiaming Song](http://tsong.me/), [Lunjia Hu](https://sites.google.com/stanford.edu/lunjia), Michael Auli, [Yann Dauphin](https://www.dauphin.io/), [Tengyu Ma](http://ai.stanford.edu/~tengyuma/) <Br>
 [ECCV 2020] <Br>
  
@@ -170,11 +170,10 @@ Zongsheng Yue, [Hongwei Yong](https://sites.google.com/view/yonghongwei-homepage
 
 	
 # Raw Denoising
-##### ELD ★★
 - **A Physics-based Noise Formation Model for Extreme Low-light Raw Denoising** <Br>
 [Kaixuan Wei](https://kxwei.net/), [Ying Fu](https://ying-fu.github.io/), [Jiaolong Yang](http://jlyang.org/), Hua Huang<Br>
 [CVPR 2020 Oral] [[Pytorch-Code & Dataset](https://github.com/Vandermode/ELD)]  <Br>
-[**ELD**] [★★] 较为全面的分析了相机噪声来源, 并据此提出了一个高度模拟真实的噪声生成模型. 有趣的论文, 目前没有做基于Raw的处理, 故没有深入研究.
+[**ELD**] [★★] 较为全面的分析了相机噪声来源, 并据此提出了一个高度模拟真实的噪声生成模型.
 
 - **Basis Prediction Networks for Effective Burst Denoising with Large Kernels** <Br>
 [Zhihao Xia](https://www.cse.wustl.edu/~zhihao.xia/), [Federico Perazzi](https://fperazzi.github.io/), [Michael Gharbi](https://www.mgharbi.com/), Kalyan Sunkavalli, [Ayan Chakrabarti](https://projects.ayanc.org/) <Br>

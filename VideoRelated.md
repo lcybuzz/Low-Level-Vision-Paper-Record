@@ -446,7 +446,7 @@ Matias Tassano, Julie Delon, Thomas Veit<Br>
 - **Supervised Raw Video Denoising With a Benchmark Dataset on Dynamic Scenes** <Br>
  Huanjing Yue, Cong Cao, Lei Liao, Ronghe Chu, Jingyu Yang<Br>
 [CVPR 2020] [[Pytorch-Code](https://github.com/cao-cong/RViDeNet)] <Br>	
-[**RViDeNet**]
+[**RViDeNet**] [★★] 提出了CRVD dataset, 用于Raw去噪.
 
 
 
