@@ -3,7 +3,7 @@
 # Table of Contents
 - <a href='ImageRestoration.md'> Image Restoration </a>
 - <a href='ImageEnhancement.md'> Image Enhancement </a>
-- <a href='Denoising.md'> Image Denoising </a>
+- <a href='Denoising.md'> Image & Video Denoising </a>
 - <a href='SuperResolution.md'> Image Super Resolution </a>
 - <a href='HDR.md'> HDR </a>
 - <a href='ISP.md'> ISP </a>

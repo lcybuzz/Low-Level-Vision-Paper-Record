@@ -2,14 +2,11 @@
 # Denoising
 - [Image Denoising](#image-denoising)
 - [Raw Denoising](#raw-denoising)
-- [Burst Denoising](#burst-denoising)
+- [Video Denoising](#video-denoising)
+
 
 
 # Image Denoising
-- **Learnability Enhancement for Low-light Raw Denoising: Where Paired Real Data Meets Noise Modeling** <Br>
-Hansen Feng, [Lizhi Wang](https://wang-lizhi.github.io/), Yuzhi Wang, Hua Huang <Br>
-[MM 2022] [[Pytorch-Code](https://github.com/megvii-research/PMN)] <Br>
-[**PMN**]
 
 - **Fast and High-quality Image Denoising via Malleable Convolutions** <Br>
 [Yifan Jiang](https://yifanjiang.net/), [Bartlomiej Wronski](https://bartwronski.com/), [Ben Mildenhall](https://bmild.github.io/), [Jonathan Barron](https://jonbarron.info/), Zhangyang Wang, [Tianfan Xue](https://people.csail.mit.edu/tfxue/) <Br>
@@ -134,11 +131,6 @@ Shreyas Fadnavis, Joshua Batson, Eleftherios Garyfallidis  <Br>
 [ICCV 2019 Oral] [[Code](https://github.com/cszn/IRCNN)]  <Br>
 [**RIDNet**] [★☆] 1) 提出了一个端到端的去噪网络, 基于channel attention和skip connection. 在真是图像上测试效果不错, 速度一般. 2) 作为一篇Oral来说感觉创新点和理论论述都一般, 也没有解释为什么提出的网络对真是图像去噪效果好. 3) 如果需要, 参考网络流程图和代码即可. <Br>
 	
-- **Unprocessing Images for Learned Raw Denoising** <Br>
-[Tim Brooks](https://www.timothybrooks.com/tech/), [Ben Mildenhall](https://people.eecs.berkeley.edu/~bmild/), [Tianfan Xue](http://people.csail.mit.edu/tfxue/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Dillon Sharlet](http://dsharlet.com/), [Jonathan T. Barron](https://jonbarron.info/)<Br>
-[CVPR 2019] [[Code](https://www.timothybrooks.com/tech/unprocessing/)]  <Br>
-[★☆] 1) 提出了一个通过unprocess ISP流程而生成更真实去噪样本的框架, 可以用任意图像生成真实的训练样本, 以提高模型性能. 2) 对于sRGB图像, 根据ISP流程, 将其逐步逆运算位raw image, 在此基础上加的噪声更符合真实噪声. 3) 推断时, 要先把sRGB转换为raw image, 再经过网络处理, 最后再进行正向的ISP恢复为sRGB.  4) ISP流程的推断对每个品牌型号的相机都有所不同, 模拟其过程感觉还是有难度的. <Br>
-	
 - **Toward Convolutional Blind Denoising of Real Photographs** <Br>
 Shi Guo, Zifei Yan, Kai Zhang, Wangmeng Zuo, Lei Zhang, [Jonathan T. Barron](https://jonbarron.info/)<Br>
 [CVPR 2019] [[Code](https://github.com/GuoShi28/CBDNet)]  <Br>
@@ -170,6 +162,16 @@ Zongsheng Yue, [Hongwei Yong](https://sites.google.com/view/yonghongwei-homepage
 
 	
 # Raw Denoising
+- **Learnability Enhancement for Low-light Raw Denoising: Where Paired Real Data Meets Noise Modeling** <Br>
+Hansen Feng, [Lizhi Wang](https://wang-lizhi.github.io/), Yuzhi Wang, Hua Huang <Br>
+[MM 2022] [[Pytorch-Code](https://github.com/megvii-research/PMN)] <Br>
+[**PMN**]
+
+- **Efficient Burst Raw Denoising with Variance Stabilization and Multi-frequency Denoising Network** <Br>
+[Dasong Li](https://dasongli1.github.io/), [Yi Zhang](https://zhangyi-3.github.io/), Ka Lung Law, [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Hongwei Qin](http://qinhongwei.com/academic/), [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) <Br>
+[IJCV 2022]  <Br>
+[★★] 1) 提出将输入进行变换, 从Poisson-Gaussian distribution变换到与gain和信号强度无关的固定方差高斯分布; 2) 提出了一个轻量级的上/下采样去噪网络, 序列化地处理N个输入帧, 使网络能在端侧运行; 3) 对齐部分使用block-matching和homography flow, 在4级金字塔上corase-to-fine进行; 4) 从实验结果上看, 提出的变换与直接concat噪声map和k-sigma方法相比, 指标稍高一点, 可视化结果细节保留更多.
+
 - **A Physics-based Noise Formation Model for Extreme Low-light Raw Denoising** <Br>
 [Kaixuan Wei](https://kxwei.net/), [Ying Fu](https://ying-fu.github.io/), [Jiaolong Yang](http://jlyang.org/), Hua Huang<Br>
 [CVPR 2020 Oral] [[Pytorch-Code & Dataset](https://github.com/Vandermode/ELD)]  <Br>
@@ -182,10 +184,41 @@ Zongsheng Yue, [Hongwei Yong](https://sites.google.com/view/yonghongwei-homepage
 
 - **Practical Deep Raw Image Denoising on Mobile Devices** <Br>
 Yuzhi Wang, [Haibin Huang](https://brotherhuang.github.io/), Qin Xu, Jiaming Liu, Yiqun Liu, [Jue Wang](https://www.juew.org/)<Br>
-[ECCV 2020 Spotlight] <Br>
-	
-## Burst Denoising
+[ECCV 2020 Spotlight] [[Pytorch-Code](https://github.com/MegEngine/PMRID)] <Br>
+[**PMRID**] [★★] 分析了噪声来源, 提出用k-sigma变换消除iso对噪声水平的影响, 并提出了标定相机噪声参数的方法.
+
+- **Unprocessing Images for Learned Raw Denoising** <Br>
+[Tim Brooks](https://www.timothybrooks.com/tech/), [Ben Mildenhall](https://people.eecs.berkeley.edu/~bmild/), [Tianfan Xue](http://people.csail.mit.edu/tfxue/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Dillon Sharlet](http://dsharlet.com/), [Jonathan T. Barron](https://jonbarron.info/)<Br>
+[CVPR 2019] [[TF-Code](https://www.timothybrooks.com/tech/unprocessing/)]  <Br>
+[★☆] 1) 提出了一个通过unprocess ISP流程而生成更真实去噪样本的框架, 可以用任意图像生成真实的训练样本, 以提高模型性能. 2) 对于sRGB图像, 根据ISP流程, 将其逐步逆运算位raw image, 在此基础上加的噪声更符合真实噪声. 3) 推断时, 要先把sRGB转换为raw image, 再经过网络处理, 最后再进行正向的ISP恢复为sRGB. <Br>
+
 - **Burst Denoising with Kernel Prediction Networks** <Br>
 [Ben Mildenhall](https://bmild.github.io/), [Jonathan T. Barron](https://jonbarron.info/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/), Dillon Sharlet, [Ren Ng](https://www2.eecs.berkeley.edu/Faculty/Homepages/yirenng.html), Robert Carroll <Br>
 [CVPR 2018 Oral] [[Project](https://bmild.github.io/kpn/index.html)] [[TF-Code](https://github.com/google/burst-denoising)] [[Unofficial-Pytorch-Code](https://github.com/z-bingo/kernel-prediction-networks-PyTorch)] <Br>
+[**KPN**] [★★] 1) 提出了一个从普通RGB通过逆ISP, 加噪等流程生成raw burst denoise数据对的流程 (KPN数据集); 2) 提出将输入与噪声map(标准差)一起输入网络, 改善了性能; 3) 提出了一个预测kernel的网络, 对每个位置预测若然个去噪核, 并集成得到去噪结果.
 
+
+
+# Video Denoising
+- **Dancing under the stars: video denoising in starlight** <Br>
+[Kristina Monakhova](https://kristinamonakhova.com/), [Stephan R. Richter](http://www.stephanrichter.org/), [Laura Waller](https://laurawaller.com/), [Vladlen Koltun](http://vladlen.info/) <Br>
+[CVPR 2022 Oral] [[Project](http://kristinamonakhova.com/starlight_denoising/)] [[Pytorch-Code](https://github.com/monakhova/starlight_denoising/)] <Br>
+	
+- **Patch Craft: Video Denoising by Deep Modeling and Patch Matching** <Br>
+Gregory Vaksman, [Michael Elad](https://elad.cs.technion.ac.il/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
+[ICCV 2021] [[Pytorch-Code](https://github.com/grishavak/PaCNet-denoiser)] <Br>
+[**PaCNet**] [★] 大致浏览. 在前后帧提取相似patch作为网络输入, 后面加了一个时域滤波网络保证时间一致性, 可能速度会很慢?
+	
+- **Efficient Multi-Stage Video Denoising with Recurrent Spatio-Temporal Fusion** <Br>
+Matteo Maggioni, Yibin Huang, Cheng Li, Shuai Xiao, Zhongqian Fu, Fenglong Song <Br>
+[CVPR 2021] [[Unofficial-Pytorch-Code](https://github.com/Baymax-chen/EMVD)] <Br>	
+[**EMVD**] [★★] 轻量级视频去噪, 效果与复杂模型效果相当. 首先用线性变换将raw图像在颜色-亮度和频率上分解; 第二步利用前一帧去噪结果与当前帧融合, 初步去噪; 第三步对初步去噪的图像再次进行去噪; 第四步将两次去噪的结果结合进行refine. 融合和refine是通过预测fusion map完成的.
+	
+- **FastDVDnet: A Very Fast Deep Video Denoising algorithm** <Br>
+Matias Tassano, Julie Delon, Thomas Veit<Br>
+[CVPR 2020] [[Pytorch-Code](https://delon.wp.imt.fr/)] <Br>	
+
+- **Supervised Raw Video Denoising With a Benchmark Dataset on Dynamic Scenes** <Br>
+ Huanjing Yue, Cong Cao, Lei Liao, Ronghe Chu, Jingyu Yang<Br>
+[CVPR 2020] [[Pytorch-Code](https://github.com/cao-cong/RViDeNet)] <Br>	
+[**RViDeNet**] [★★] 提出了CRVD dataset, 用于Raw去噪.

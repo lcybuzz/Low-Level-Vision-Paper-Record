@@ -6,6 +6,10 @@
 
 
 # Image Synthesis
+- **Multimodal Image Synthesis and Editing: A Survey** <Br>
+[Fangneng Zhan](https://fnzhan.com/), [Yingchen Yu](https://yingchen001.github.io/), [Rongliang Wu](https://scholar.google.com.sg/citations?user=SZkh3iAAAAAJ&hl=en), [Jiahui Zhang](https://scholar.google.com/citations?user=DXpYbWkAAAAJ&hl=zh-CN), [Shijian Lu](https://scholar.google.com.sg/citations?user=uYmK-A0AAAAJ&hl=en), [Lingjie Liu](https://lingjie0206.github.io/), [Adam Kortylewsk](https://generativevision.mpi-inf.mpg.de/), [Christian Theobalt](https://people.mpi-inf.mpg.de/~theobalt/), [Eric Xing](http://www.cs.cmu.edu/~epxing/) <Br>
+[arXiv 2112] [[Project](https://github.com/fnzhan/MISE)] 
+
 - **NeRF in the Dark: High Dynamic Range View Synthesis from Noisy Raw Images** <Br>
 [Ben Mildenhall](https://bmild.github.io/), [Peter Hedman](https://www.phogzone.com/), [Ricardo Martin-Brualla](http://ricardomartinbrualla.com/), [Pratul Srinivasan](https://pratulsrinivasan.github.io/), [Jonathan Barron](https://jonbarron.info/) <Br>
 [CVPR 2022 Oral] [[Project](https://bmild.github.io/rawnerf/)] [[TF-Code](https://github.com/google-research/multinerf)]  

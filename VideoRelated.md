@@ -3,7 +3,6 @@
 - [Frame Interpolation](#frame-interpolation)
 - [Video Enhancement & Restoration](#video-enhancement-and-restoration)
 - [Video Stabilization](#video-stabilization)
-- [Video Denoising](#video-denoising)
 - [Video Debluring](#video-debluring)
 - [Video Deraining](#video-deraining)
 - [Video Dehazing](#video-dehazing)
@@ -169,7 +168,7 @@ Dario Fuoli, [Shuhang Gu](https://shuhanggu.github.io/), [Radu Timofte](https://
 
 - **FILM: Frame Interpolation for Large Motion** <Br>
 Fitsum Reda, Janne Kontkanen, [Eric Tabellion](http://www.tabellion.org/et/), [Deqing Sun](https://deqings.github.io/), Caroline Pantofaru, [Brian Curless](https://homes.cs.washington.edu/~curless/) <Br>
-[arXiv 2202] [[Project](https://film-net.github.io/)] [[TF2-Code](https://github.com/google-research/frame-interpolation)]<Br>
+[ECCV 2022] [[Project](https://film-net.github.io/)] [[TF2-Code](https://github.com/google-research/frame-interpolation)]<Br>
 [★★] end-to-end的插帧网络, 使用类似PWCNet的多尺度flow预测结构, 特征提取部分使用共享权值对图像金字塔提特征, 首次使用gram matrix loss, 使生成帧更清晰. 网络结构很简单明了, 但效果很好, 训练和模型设计的细节应该是功不可没.
 
 - **Enhancing Deformable Convolution based Video Frame Interpolation with Coarse-to-fine 3D CNN** <Br>
@@ -424,29 +423,7 @@ Fan Zhang, [Yu Li](https://yu-li.github.io/), [Shaodi You](https://youshaodi.git
 
 
 
-# Video Denoising
-- **Dancing under the stars: video denoising in starlight** <Br>
-[Kristina Monakhova](https://kristinamonakhova.com/), [Stephan R. Richter](http://www.stephanrichter.org/), [Laura Waller](https://laurawaller.com/), [Vladlen Koltun](http://vladlen.info/) <Br>
-[CVPR 2022 Oral] [[Project](http://kristinamonakhova.com/starlight_denoising/)] [[Pytorch-Code](https://github.com/monakhova/starlight_denoising/)] <Br>
-	
-- **Patch Craft: Video Denoising by Deep Modeling and Patch Matching** <Br>
-Gregory Vaksman, [Michael Elad](https://elad.cs.technion.ac.il/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
-[ICCV 2021] [[Pytorch-Code](https://github.com/grishavak/PaCNet-denoiser)] <Br>
-[**PaCNet**] [★] 大致浏览. 在前后帧提取相似patch作为网络输入, 后面加了一个时域滤波网络保证时间一致性, 可能速度会很慢?
-	
-- **Efficient Multi-Stage Video Denoising with Recurrent Spatio-Temporal Fusion** <Br>
-Matteo Maggioni, Yibin Huang, Cheng Li, Shuai Xiao, Zhongqian Fu, Fenglong Song <Br>
-[CVPR 2021] [[Unofficial-Pytorch-Code](https://github.com/Baymax-chen/EMVD)] <Br>	
-[**EMVD**] [★★] 轻量级视频去噪, 效果与复杂模型效果相当. 首先用线性变换将raw图像在颜色-亮度和频率上分解; 第二步利用前一帧去噪结果与当前帧融合, 初步去噪; 第三步对初步去噪的图像再次进行去噪; 第四步将两次去噪的结果结合进行refine. 融合和refine是通过预测fusion map完成的.
-	
-- **FastDVDnet: A Very Fast Deep Video Denoising algorithm** <Br>
-Matias Tassano, Julie Delon, Thomas Veit<Br>
-[CVPR 2020] [[Pytorch-Code](https://delon.wp.imt.fr/)] <Br>	
 
-- **Supervised Raw Video Denoising With a Benchmark Dataset on Dynamic Scenes** <Br>
- Huanjing Yue, Cong Cao, Lei Liao, Ronghe Chu, Jingyu Yang<Br>
-[CVPR 2020] [[Pytorch-Code](https://github.com/cao-cong/RViDeNet)] <Br>	
-[**RViDeNet**] [★★] 提出了CRVD dataset, 用于Raw去噪.
 
 
 
@@ -536,6 +513,10 @@ Miao Liao, Feixiang Lu, Dingfu Zhou, [Sibo Zhang](https://sites.google.com/view/
 
 	
 # Video Matting
+- **VMFormer: End-to-End Video Matting with Transformer** <Br>
+[Jiachen Li](https://chrisjuniorli.github.io/), [Vidit Goel](https://vidit98.github.io/), Marianna Ohanyan, Shant Navasardyan, [Yunchao Wei](https://weiyc.github.io/), [Humphrey Shi](https://www.humphreyshi.com/) <Br>
+[arXiv 2205] [[Project]](https://chrisjuniorli.github.io/project/VMFormer/)] [[Pytorch-Code]](https://github.com/SHI-Labs/VMFormer)]<Br>
+
 - **One-Trimap Video Matting** <Br>
 [Hongje Seong](https://hongje.github.io/), [Seoung Wug Oh](https://sites.google.com/view/seoungwugoh), [Brian Price](https://www.brianpricephd.com/), [Euntai Kim](https://cilab.yonsei.ac.kr/), [Joon-Young Lee](https://joonyoung-cv.github.io/) <Br>
 [ECCV 2022] [[Pytorch-Code]](https://github.com/Hongje/OTVM)] <Br>
