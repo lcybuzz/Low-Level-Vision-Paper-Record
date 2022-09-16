@@ -61,6 +61,11 @@ Andrey Ignatov, Luc Van Gool, Radu Timofte  <Br>
 [arXiv 1905] [[Pytorch-Code](https://github.com/guochengqian/TENet)] <Br>
 [**TENet**] [★] 1. 使用具有pixel shift技术的相机收集了一可以做demoasic的数据集, 避免了用普通RGB数据做真值时内置demoasic过程带来的误差. 2. 提出了一端到端的demosaic, 去噪和超分的网络, 采用residual + dense block的形式, 没什么特别的
 
+- **Generating Training Data for Denoising Real RGB Images via Camera Pipeline Simulation**  <Br>
+[Ronnachai Jaroensri](http://people.csail.mit.edu/tiam/), Camille Biscarrat, [Miika Aittala](https://people.csail.mit.edu/miika/), [Frédo Durand](https://people.csail.mit.edu/fredo/) <Br>
+[arXiv 1904] [[Project](http://people.csail.mit.edu/tiam/camera_sim/)] [[Pytorch-Code](https://github.com/12dmodel/camera_sim)] <Br>
+[★★] 提出了一个模拟isp流程, 使用多种demoasic, denoise, tone mapping算法, 从raw生成rgb, 用于去噪. 可以学习它的pipeline和算法.
+
 - **DeepISP: Learning End-to-End Image Processing Pipeline** <Br>
 [Eli Schwartz](https://elischwartz.github.io/publications/), [Raja Giryes](http://web.eng.tau.ac.il/~raja/), [Alex M. Bronstein](https://bron.cs.technion.ac.il/) <Br>
 [TIP 2018] <Br>
