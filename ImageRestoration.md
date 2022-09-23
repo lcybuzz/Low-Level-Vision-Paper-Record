@@ -6,6 +6,7 @@
 - [Image Inpainting](#image-inpainting)
 - [De-raining](#de-raining)
 - [Image Demoireing](#image-demoireing)
+- [Image Debanding](#image-debanding)
 
 
 
@@ -165,7 +166,7 @@ Jingwen He, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/)  <Br>
 Wei Wang, Ruiming Guo, [Yapeng Tian](http://yapengtian.org/), Wenming Yang<Br>
 [ICCV 2019] [[Pytorch-Code](https://github.com/qibao77/CFSNet)] <Br>
 [★] **(控制restoration level)**	 粗读, 用一个手动输入的参数控制两个分支的权重, 一个分支负责low distortion修复, 另一个分支负责high visual quality. 两个分支通过使用不同loss (L1, L2 v.s. vgg, GAN loss) 训练来得到. 文章的效果和实用性有待检验, 思路可借鉴. <Br>
-	
+
 - **Gated Context Aggregation Network for Image Dehazing and Deraining** <Br>
 [Dongdong Chen](http://www.dongdongchen.bid/), Mingming He, [Qingnan Fan](https://fqnchina.github.io/)  <Br>
 [WACV 2019] [[Code](https://github.com/cddlyf/GCANet)]  <Br>	
@@ -587,3 +588,21 @@ Bin He, Ce Wang, [Boxin Shi](http://ci.idm.pku.edu.cn/), Ling-Yu Duan <Br>
 [NeurIPS 2020] [[Project](http://home.ustc.edu.cn/~ll0825/project_FDNet.html)] <Br>
 
 
+
+
+# Image Debanding
+- **Fast Blind Decontouring Network**  <Br>
+Yang Zhao, Wei Jia, Yuan Chen, Ronggang Wang<Br>
+[TCSVT 2022] <Br>
+[★] 预测smooth区域mask, 再对平滑区域做debanding. 训练数据生成使用ALD方法检测gt的平滑区域作为mask真值, 对平滑区域做banding退化. mask预测网络的loss使用了最小化梯度以及mask约束.
+
+- **Deep Image Debanding**  <Br>
+Raymond Zhou, Shahrukh Athar, [Zhongling Wang](https://ece.uwaterloo.ca/~z2228wan/), [Zhou Wang](https://ece.uwaterloo.ca/~z70wang/) <Br>
+[arXiv 2110] <Br>
+[☆]
+
+- **Deep Reconstruction of Least Significant Bits for Bit-Depth Expansion** <Br>
+Yang Zhao, Ronggang Wang, [Wei Jia](http://ci.hfut.edu.cn/2020/1209/c11505a245817/page.htm), [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), Xiaoping Liu, Wen Gao
+<Br>
+[TIP 2019] <Br>
+[★] 低bit位图像恢复到高bit位图像, 主要处理banding问题

@@ -134,6 +134,11 @@ Mingqing Xiao, Shuxin Zheng, [Chang Liu](https://changliu00.github.io/), Yaolong
 
 
 # General Traditional Methods
+- **BBAND Index: A No-Reference Banding Artifact Predictor** <Br>
+Zhengzhong Tu, Jessie Lin, Yilin Wang, Balu Adsumilli, [Alan C. Bovik](https://www.ece.utexas.edu/people/faculty/alan-bovik) <Br>
+[ICASSP 2020] <Br>
+[★] 一个评估banding程度的视频质量评估指标.
+
 - **Blade: Filter learning for general purpose computational photography** <Br>
 [Pascal Getreuer](https://getreuer.info/), [Ignacio Garcia-Dorado](http://www.ignaciogarciadorado.com/), John Isidoro, Sungjoon Choi, [Frank Ong](https://frankong.com/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
 [ICCP 2018] <Br>

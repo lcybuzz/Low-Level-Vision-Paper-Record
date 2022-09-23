@@ -16,6 +16,11 @@
 # HDR
 ## Multi-Frame HDR
 ### DL Methods
+- **Attention-Guided Progressive Neural Texture Fusion for High Dynamic Range Image Restoration** <Br>
+Jie Chen, Zaifeng Yang, [Tsz Nam Chan](https://www.comp.hkbu.edu.hk/~edisonchan/), Hui Li, [Junhui Hou](https://sites.google.com/site/junhuihoushomepage/), Lap-Pui Chau <Br>
+[TIP 2022] <Br>
+[★] 设计了一个基于vgg特征的匹配模块, 从short中找到medium的过曝内容并通过替换特征的方式加以填补
+
 - **DRHDR: A Dual Branch Residual Network for Multi-Bracket High Dynamic Range Imaging** <Br>
 Juan Marín-Vega, Michael Sloth, Peter Schneider-Kamp, Richard Röttger <Br>
 [CVPRW 2022] <Br>
