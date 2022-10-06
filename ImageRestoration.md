@@ -49,6 +49,11 @@ Zhendong Wang, [Xiaodong Cun](https://vinthony.github.io/academic/), [Jianmin Ba
 [Syed Waqas Zamir](http://www.waqaszamir.com/), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://mhayat.netlify.app/), [Fahad Shahbaz Khan](https://sites.google.com/view/fahadkhans/home), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/swz30/Restormer)] <Br>
 
+- **Residual-Guided Multiscale Fusion Network for Bit-Depth Enhancement**  <Br>
+Jing Liu , Xin Wen, Weizhi Nie, Yuting Su, Peiguang Jing, Xiaokang Yang <Br>
+[CSVT 2021] <Br>
+[★]
+
 - **Learning Dual Priors for JPEG Compression Artifacts Removal**  <Br>
 [Xueyang Fu](https://xueyangfu.github.io/), Xi Wang, [Aiping Liu](http://staff.ustc.edu.cn/~aipingl/), Junwei Han, Zheng-Jun Zha <Br>
 [ICCV 2021] [[TF-Code](https://xueyangfu.github.io/)] <Br>
@@ -606,3 +611,8 @@ Yang Zhao, Ronggang Wang, [Wei Jia](http://ci.hfut.edu.cn/2020/1209/c11505a24581
 <Br>
 [TIP 2019] <Br>
 [★] 低bit位图像恢复到高bit位图像, 主要处理banding问题
+
+- **Real-Time False-Contours Removal for Inverse Tone Mapped HDR Content** <Br>
+Gonzalo Luzardo, Jan Aelterman, Hiep Luong, Wilfried Philips, Daniel Ochoa <Br>
+[MM 2017] <Br>
+[★] Signal processing based.

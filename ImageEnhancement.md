@@ -4,6 +4,10 @@
 
 
 # Image Enhancement
+- **CLUT-Net: Learning Adaptively Compressed Representations of 3DLUTs for Lightweight Image Enhancement** <Br>
+Fengyi Zhang, [Hui Zeng](https://huizeng.github.io/), [Tianjun Zhang](https://github.com/z619850002), [Lin Zhang](https://cslinzhang.gitee.io/home/) <Br>
+[MM 2022] [[PyTorch-Code](https://github.com/Xian-Bei/CLUT-Net)]   <Br>
+
 - **Exposure Correction Model to Enhance Image Quality** <Br>
 Fevziye Irem Eyiokur, Dogucan Yaman, [Hazım Kemal Ekenel](https://web.itu.edu.tr/ekenel/), [Alexander Waibel](https://isl.anthropomatik.kit.edu/english/21_74.php) <Br>
 [CVPRW 2022] [[PyTorch-Code](https://github.com/yamand16/ExposureCorrection)]   <Br>

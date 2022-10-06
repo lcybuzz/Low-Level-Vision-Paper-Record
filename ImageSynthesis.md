@@ -6,9 +6,22 @@
 
 
 # Image Synthesis
+
 - **Multimodal Image Synthesis and Editing: A Survey** <Br>
 [Fangneng Zhan](https://fnzhan.com/), [Yingchen Yu](https://yingchen001.github.io/), [Rongliang Wu](https://scholar.google.com.sg/citations?user=SZkh3iAAAAAJ&hl=en), [Jiahui Zhang](https://scholar.google.com/citations?user=DXpYbWkAAAAJ&hl=zh-CN), [Shijian Lu](https://scholar.google.com.sg/citations?user=uYmK-A0AAAAJ&hl=en), [Lingjie Liu](https://lingjie0206.github.io/), [Adam Kortylewsk](https://generativevision.mpi-inf.mpg.de/), [Christian Theobalt](https://people.mpi-inf.mpg.de/~theobalt/), [Eric Xing](http://www.cs.cmu.edu/~epxing/) <Br>
 [arXiv 2112] [[Project](https://github.com/fnzhan/MISE)] 
+
+- **LAFITE: Towards Language-Free Training for Text-to-Image Generation** <Br>
+[Yufan Zhou](https://yufanzhou.com/), [Ruiyi Zhang](https://zhangry868.github.io/), [Changyou Chen](https://cse.buffalo.edu/~changyou/), [Chunyuan Li](https://chunyuan.li/), [Chris Tensmeyer](https://ctensmeyer.github.io/), Tong Yu, [Jiuxiang Gu](https://gujiuxiang.com/), Jinhui Xu, Tong Sun <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/drboog/Lafite)]  <Br>
+
+- **Text to Image Generation with Semantic-Spatial Aware GAN** <Br>
+Kai Hu, Wentong Liao, [Michael Ying Yang](https://sites.google.com/site/michaelyingyang/), Bodo Rosenhahn <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/wtliao/text2image)]  <Br>
+
+- **HyperInverter: Improving StyleGAN Inversion via Hypernetwork** <Br>
+[Tan M. Dinh](https://di-mi-ta.github.io/), [Anh Tran](https://sites.google.com/site/anhttranusc/), [Rang Nguyen](https://sites.google.com/site/rangmanhonguyen/), [Binh-Son Hua](https://sonhua.github.io/)  <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/VinAIResearch/HyperInverter)]  <Br>
 
 - **NeRF in the Dark: High Dynamic Range View Synthesis from Noisy Raw Images** <Br>
 [Ben Mildenhall](https://bmild.github.io/), [Peter Hedman](https://www.phogzone.com/), [Ricardo Martin-Brualla](http://ricardomartinbrualla.com/), [Pratul Srinivasan](https://pratulsrinivasan.github.io/), [Jonathan Barron](https://jonbarron.info/) <Br>
@@ -228,26 +241,30 @@ Po-Wei Wu, Yu-Jing Lin, Che-Han Chang, Edward Y. Chang, Shih-Wei Liao <Br>
 	
 
 # Image Manipulation
+- **Spatially-Adaptive Multilayer Selection for GAN Inversion and Editing** <Br>
+[Gaurav Parmar](https://gauravparmar.com/), [Yijun Li](https://yijunmaverick.github.io/), [Jingwan Lu](https://research.adobe.com/person/jingwan-lu/), [Richard Zhang](http://richzhang.github.io/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Krishna Kumar Singh](http://krsingh.cs.ucdavis.edu/)  <Br>
+[CVPR 2022] [[Project](https://www.cs.cmu.edu/~SAMInversion/)] [[Pytorch-Code](https://github.com/adobe-research/sam_inversion)]  <Br>
+
+- **SketchEdit: Mask-Free Local Image Manipulation with Partial Sketches** <Br>
+[Yu Zeng](https://zengxianyu.github.io/), [Zhe Lin](https://sites.google.com/site/zhelin625/), [Vishal M. Patel](https://engineering.jhu.edu/vpatel36/)  <Br>
+[CVPR 2022] [[Project](https://zengxianyu.github.io/sketchedit/)] [[Pytorch-Code](https://github.com/zengxianyu/sketchedit)]  <Br>
+
 - **HyperStyle: StyleGAN Inversion with HyperNetworks for Real Image Editing** <Br>
 [Yuval Alaluf](https://yuval-alaluf.github.io/), Omer Tov, [Ron Mokady](https://rmokady.github.io/), [Rinon Gal](https://rinongal.github.io/), [Amit H. Bermano](https://www.cs.tau.ac.il/~amberman/)  <Br>
-[CVPR 2021] [[Project](https://yuval-alaluf.github.io/hyperstyle/)] [[Pytorch-Code](https://github.com/yuval-alaluf/hyperstyle)]  <Br>
+[CVPR 2022] [[Project](https://yuval-alaluf.github.io/hyperstyle/)] [[Pytorch-Code](https://github.com/yuval-alaluf/hyperstyle)]  <Br>
 
 - **High-Fidelity GAN Inversion for Image Attribute Editing** <Br>
 [Tengfei Wang](https://tengfei-wang.github.io/), [Yong Zhang](https://yzhang2016.github.io/yongnorriszhang.github.io/), [Yanbo Fan](https://sites.google.com/site/yanbofan0124/), Jue Wang, [Qifeng Chen](https://cqf.io/)  <Br>
-[CVPR 2021] [[Project](https://tengfei-wang.github.io/HFGI/)] [[Pytorch-Code](https://github.com/Tengfei-Wang/HFGI)]  <Br>
+[CVPR 2022] [[Project](https://tengfei-wang.github.io/HFGI/)] [[Pytorch-Code](https://github.com/Tengfei-Wang/HFGI)]  <Br>
 [**HFGI**]
-
-- **HairCLIP: Design Your Hair by Text and Reference Image** <Br>
-Tianyi Wei, [Dongdong Chen](http://www.dongdongchen.bid/), Wenbo Zhou, [Jing Liao](https://liaojing.github.io/html/index.html), Zhentao Tan, Lu Yuan, Weiming Zhang, Nenghai Yu  <Br>
-[CVPR 2021] [[Pytorch-Code](https://github.com/wty-ustc/HairCLIP)]  <Br>
 
 - **Blended Diffusion for Text-driven Editing of Natural Images** <Br>
 [Omri Avrahami](https://omriavrahami.com/), [Dani Lischinski](https://www.cs.huji.ac.il/~danix/), [Ohad Fried](https://www.ohadf.com/)  <Br>
-[CVPR 2021] [[Pytorch-Code](https://github.com/omriav/blended-diffusion)]  <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/omriav/blended-diffusion)]  <Br>
 
 - **Style Transformer for Image Inversion and Editing** <Br>
 Xueqi Hu, Qiusheng Huang, Zhengyi Shi, Siyuan Li, [Changxin Gao](https://sites.google.com/site/changxingao), Li Sun, Qingli Li  <Br>
-[CVPR 2021] [[Pytorch-Code](https://github.com/sapphire497/style-transformer)]  <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/sapphire497/style-transformer)]  <Br>
 
 - **DeFLOCNet: Deep Image Editing via Flexible Low-level Controls** <Br>
 [Hongyu Liu](https://github.com/KumapowerLIU/DeFLOCNet#jump1), [Ziyu Wan](http://raywzy.com/), [Wei Huang](https://github.com/KumapowerLIU/DeFLOCNet#jump1), [Yibing Song](https://ybsong00.github.io/), [Xintong Han](http://users.umiacs.umd.edu/~xintong/) , [Jing Liao](https://liaojing.github.io/html/), [Bin Jiang](https://github.com/KumapowerLIU/DeFLOCNet#jump1), [Wei Liu](https://scholar.google.com/citations?user=AjxoEpIAAAAJ&hl=zh-CN)  <Br>
@@ -272,7 +289,7 @@ Shanyan Guan, [Ying Tai](https://tyshiwo.github.io/), Bingbing Ni, [Feida Zhu](h
 [arXiv 2007] <Br>
 [★] (**latent code embedding**) 
 
-- **mage2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?** <Br>
+- **Image2StyleGAN: How to Embed Images Into the StyleGAN Latent Space?** <Br>
 Rameen Abdal, Yipeng Qin, Peter Wonka <Br>
 [ICCV 2019] [[TF-Code](https://github.com/NVlabs/stylegan)]  <Br>
 [★☆] (**latent code embedding**) 

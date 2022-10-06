@@ -18,6 +18,10 @@ Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), Shi Guo, [Lei Zhang](http
 Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
 [arXiv 2201] [[Pytorch-Code](https://github.com/zudi-lin/rcan-it)]   <Br>
 
+- **MM-RealSR: Metric Learning based Interactive Modulation for Real-World Super-Resolution** <Br>
+Chong Mou, Yanze Wu, [Xintao Wang](https://xinntao.github.io/), Chao Dong, [Jian Zhang](https://jianzhang.tech/), Ying Shan <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/TencentARC/MM-RealSR)]   
+
 - **Details or Artifacts: A Locally Discriminative Learning Approach to Realistic Image Super-Resolution** <Br>
 [Jie Liang](https://liangjie.xyz/), [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/csjliang/LDL)]   <Br>
@@ -80,6 +84,11 @@ Shunzhou Wang, [Tianfei Zhou](https://www.tfzhou.com/), Yao Lu, Huijun Di <Br>
 [AAAI 2022] [[Pytorch-Code](https://github.com/BITszwang/DPT)]   <Br>
 [**DPT**] 
 
+- **Finding Discriminative Filters for Specific Degradations in Blind Super-Resolution** <Br>
+Liangbin Xie, [Xintao Wang](https://xinntao.github.io/), Chao Dong, Zhongang Qi, Ying Shan <Br>
+[NIPS 2021 Spotlight] [[Pytorch-Code](https://github.com/TencentARC/FAIG)]   <Br>
+[**FAIG**]
+	
 - **Real-ESRGAN: Training Real-World Blind Super-Resolution with Pure Synthetic Data** <Br>
 [Xintao Wang](https://xinntao.github.io/), Liangbie Xie, Chao Dong, Ying Shan <Br>
 [arXiv 2107] [[Pytorch-Code](https://github.com/xinntao/Real-ESRGAN)]   <Br>

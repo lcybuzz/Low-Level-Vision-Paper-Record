@@ -17,6 +17,10 @@ Yanze Wu, [Xintao Wang](https://xinntao.github.io/), Gen Li, Ying Shan <Br>
 [arXiv 2206]  <Br>
 [★☆] 提出了一个高清动画数据集. 提出了一个学习learnable basic operator的流程, 该算子可以加入到退化流程中生成更真实的LR样本.
 
+- **Memory-Augmented Non-Local Attention for Video Super-Resolution**  <Br>
+[Jiyang Yu](http://jiyang.fun/), Jingen Liu, [Liefeng Bo](https://research.cs.washington.edu/istc/lfb/), [Tao Mei](https://taomei.me/) <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/jiy173/MANA)] <Br>
+
 - **VideoINR: Learning Video Implicit Neural Representation for Continuous Space-Time Super-Resolution**  <Br>
 [Zeyuan Chen](http://zeyuan-chen.com/), [Yinbo Chen](https://yinboc.github.io/), Jingwen Liu, Xingqian Xu, [Vidit Goel](https://vidit98.github.io/), Zhangyang Wang, [Humphrey Shi](https://www.humphreyshi.com/), [Xiaolong Wang](https://xiaolonw.github.io/) <Br>
 [CVPR 2022] [[Project](http://zeyuan-chen.com/VideoINR/)] [[Pytorch-Code](https://github.com/Picsart-AI-Research/VideoINR-Continuous-Space-Time-Super-Resolution)] <Br>

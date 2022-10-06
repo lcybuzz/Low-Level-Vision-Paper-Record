@@ -3,6 +3,7 @@
 - [Image Denoising](#image-denoising)
 - [Raw Denoising](#raw-denoising)
 - [Video Denoising](#video-denoising)
+- [Signal Processing Based](#signal-processing-based)
 
 
 
@@ -222,3 +223,16 @@ Matias Tassano, Julie Delon, Thomas Veit<Br>
  Huanjing Yue, Cong Cao, Lei Liao, Ronghe Chu, Jingyu Yang<Br>
 [CVPR 2020] [[Pytorch-Code](https://github.com/cao-cong/RViDeNet)] <Br>	
 [**RViDeNet**] [★★] 提出了CRVD dataset, 用于Raw去噪.
+
+
+
+# Signal Processing Based
+- **Practical Signal-Dependent Noise Parameter Estimation From a Single Noisy Image** <Br>
+[Xinhao Liu](https://sites.google.com/site/liuxinhao0535/), Masayuki Tanaka, [Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html) <Br>
+[TIP 2014] <Br>
+基于信号处理的噪声参数估计
+
+- **Practical Signal-Dependent Noise Parameter Estimation From a Single Noisy Image** <Br>
+[Xinhao Liu](https://sites.google.com/site/liuxinhao0535/), Masayuki Tanaka, [Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html) <Br>
+[TIP 2014] <Br>
+[★★] 将噪声模型建模为异方差高斯分布, 并通过小波和最小二乘求得噪声参数, 并分析了clipping对噪声建模的影响.
