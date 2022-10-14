@@ -130,6 +130,44 @@ Tero Karras, [Samuli Laine](https://users.aalto.fi/~laines9/), [Timo Aila](https
 	
 	
 # Image Translation
+- **Drop the GAN: In Defense of Patches Nearest Neighbors as Single Image Generative Model** <Br>
+Niv Granot, Ben Feinstein, [Assaf Shocher](https://assafshocher.github.io/), [Shai Bagon](https://www.weizmann.ac.il/math/bagon/home), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
+[CVPR 2022] [[Project](https://www.wisdom.weizmann.ac.il/~vision/gpnn/)] [[Pytorch-Code](https://github.com/WeizmannVision/DropTheGAN)]  <Br>
+
+- **Day-to-Night Image Synthesis for Training Nighttime Neural ISPs** <Br>
+[Abhijith Punnappurath](https://abhijithpunnappurath.github.io/), [Abdullah Abuolaim](https://sites.google.com/view/abdullah-abuolaim/), [Abdelrahman Abdelhamed](https://abdokamel.github.io/), Alex Levinshtein, [Michael S. Brown](https://www.eecs.yorku.ca/~mbrown/) <Br>
+[CVPR 2022 Oral] [[Code](https://github.com/SamsungLabs/day-to-night)]  <Br>
+
+- **Neural Texture Extraction and Distribution for Controllable Person Image Synthesis** <Br>
+Yurui Ren, Xiaoqing Fan, Ge Li, Shan Liu, Thomas H. Li  <Br>
+[CVPR 2022 Oral] [[Pytorch-Code](https://github.com/RenYurui/Neural-Texture-Extraction-Distribution)]  <Br>
+
+- **Exploring Patch-wise Semantic Relation for Contrastive Learning in Image-to-Image Translation Tasks** <Br>
+[Chanyong Jung](https://sites.google.com/view/jcy132), [Gihyun Kwon](https://sites.google.com/view/gihyunkwon), Jong Chul Ye  <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/jcy132/Hneg_SRC)]  <Br>
+
+- **Unsupervised Image-to-Image Translation with Generative Prior** <Br>
+[Shuai Yang](https://williamyang1991.github.io/), [Liming Jiang](https://liming-jiang.com/), [Ziwei Liu](https://liuziwei7.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) <Br>
+[CVPR 2022] [[Project](https://www.mmlab-ntu.com/project/gpunit/)] [[Pytorch-Code](https://github.com/williamyang1991/GP-UNIT)]  <Br>
+[**GP-UNIT**]
+
+- **Marginal Contrastive Correspondence for Guided Image Generation** <Br>
+[Fangneng Zhan](https://fnzhan.com/), [Yingchen Yu](https://yingchen001.github.io/), Rongliang Wu, Jiahui Zhang, [Shijian Lu](https://personal.ntu.edu.sg/shijian.lu/), Changgong Zhang <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/fnzhan/UNITE)]  <Br>
+
+- **QS-Attn: Query-Selected Attention for Contrastive Learning in I2I Translation** <Br>
+Xueqi Hu, Xinyue Zhou, Qiusheng Huang, Zhengyi Shi, Li Sun, Qingli Li <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/sapphire497/query-selected-attention)]  <Br>
+
+- **A Style-aware Discriminator for Controllable Image Translation** <Br>
+[Kunhee Kim](https://www.kunheekim.xyz/), Sanghun Park, Eunyeong Jeon, Taehun Kim, Daijin Kim <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/kunheek/style-aware-discriminator)]  <Br>
+
+- **Maximum Spatial Perturbation for Image-to-Image Translation** <Br>
+[Yanwu Xu](https://xuyanwu.github.io/), Shaoan Xie, Wenhao Wu, Kun Zhang, Mingming Gong, Kayhan Batmanghelich <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/batmanlab/MSPC)]  <Br>
+[**MSPC**]
+
 - **AgileGAN: Stylizing Portraits by Inversion-Consistent Transfer Learning** <Br>
 [Guoxian Song](https://guoxiansong.github.io/homepage/index.html), [Linjie Luo](http://linjieluo.com/), [Jing Liu](https://www.jingliu.net/), [Wan-Chun Ma](https://en.wikipedia.org/wiki/Alex_Ma), [Chunpong Lai](https://guoxiansong.github.io/homepage/index.html), [Chuanxia Zheng](https://www.chuanxiaz.com/), [Tat-Jen Cham](https://www.ntu.edu.sg/home/astjcham/)   <Br>
 [SIGGRAPH 2021] [[Project](https://guoxiansong.github.io/homepage/agilegan.html)]  <Br>

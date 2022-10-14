@@ -8,6 +8,7 @@
 - [Video Dehazing](#video-dehazing)
 - [Video Matting](#video-matting)
 - [Video Inpainting](#video-inpainting)
+- [Video Synthesis](#video-synthesis)
 - [Misc](#misc)
 
 
@@ -554,11 +555,49 @@ Peng Dai, Xin Yu, Lan Ma, Baoheng Zhang, Jia Li, [Wenbo Li](https://fenglinglwb.
 
 
 
+# Video Synthesis
+- **GAN-Supervised Dense Visual Alignment** <Br>
+[William Peebles](https://www.wpeebles.com/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Richard Zhang](http://richzhang.github.io/), [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/), [Alexei A. Efros](http://people.eecs.berkeley.edu/~efros/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/) <Br>
+[CVPR 2022 Oral] [[Project]](https://www.wpeebles.com/gangealing)] [[Pytorch-Code]](https://github.com/wpeebles/gangealing)] <Br>
+
+- **Thin-Plate Spline Motion Model for Image Animation** <Br>
+Jian Zhao, Hui Zhang <Br>
+[CVPR 2022] [[Pytorch-Code]](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model)] <Br>
+
+- **Make It Move: Controllable Image-to-Video Generation with Text Descriptions** <Br>
+Yaosi Hu, [Chong Luo](https://www.microsoft.com/en-us/research/people/cluo/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fpeople%2Fcluo%2F), Zhenzhong Chen<Br>
+[CVPR 2022] [[Pytorch-Code]](https://github.com/Youncy-Hu/MAGE)] <Br>
+[**MAGE**]
+
+- **StyleGAN-V: A Continuous Video Generator with the Price, Image Quality and Perks of StyleGAN2** <Br>
+[Ivan Skorokhodov](https://universome.github.io/), [Sergey Tulyakov](http://www.stulyakov.com/), [Mohamed Elhoseiny](http://www.mohamed-elhoseiny.com/) <Br>
+[CVPR 2022] [[Project]](https://universome.github.io/stylegan-v)] [[Pytorch-Code]](https://github.com/universome/stylegan-v)] <Br>
+
+- **Playable Environments: Video Manipulation in Space and Time** <Br>
+[Willi Menapace](https://www.willimenapace.com/), [Stéphane Lathuilière](https://stelat.eu/), [Aliaksandr Siarohin](https://github.com/AliaksandrSiarohin), [Christian Theobalt](https://www.mpg.de/16583907/informatics-theobalt), [Sergey Tulyakov](http://www.stulyakov.com/), [Vladislav Golyanik](https://people.mpi-inf.mpg.de/~golyanik/), [Elisa Ricci](http://elisaricci.eu/) <Br>
+[CVPR 2022] [[Pytorch-Code]](https://github.com/willi-menapace/PlayableEnvironments)] <Br>
+
+- **Show Me What and Tell Me How: Video Synthesis via Multimodal Conditioning** <Br>
+[Ligong Han](https://phymhan.github.io/), [Jian Ren](https://alanspike.github.io/), Hsin-Ying Lee, [Francesco Barbieri](https://fvancesco.github.io/), [Kyle Olszewski](https://kyleolsz.github.io/), [Shervin Minaee](https://sites.google.com/site/shervinminaee/home) <Br>
+[CVPR 2022] [[Project]](https://snap-research.github.io/MMVID/)] [[Pytorch-Code]](https://github.com/snap-research/MMVID)] <Br>
+[**MMVID**]
+
+- **Attribute Group Editing for Reliable Few-shot Image Generation** <Br>
+Guanqi Ding, Xinzhe Han, Shuhui Wang, Shuzhe Wu, Xin Jin, Dandan Tu, Qingming Huang <Br>
+[CVPR 2022] [[Pytorch-Code]](https://github.com/UniBester/AGE)] <Br>
+[**AGE**]
+
+
+
 # Misc
-- ** AutoTransition: Learning to Recommend Video Transition Effects** <Br>
+- **AutoTransition: Learning to Recommend Video Transition Effects** <Br>
 Yaojie Shen, Libo Zhang, Kai Xu, [Xiaojie Jin](https://airobotai.github.io/jinxiaojie/) <Br>
 [ECCV 2022] [字节跳动] [[Pytorch-Code]](https://github.com/AcherStyx/AutoTransition)] <Br>
 自动生成剪辑
+
+- **ClothFormer: Taming Video Virtual Try-on in All Module** <Br>
+Jianbin Jiang, Tan Wang, He Yan, Junhui Liu <Br>
+[CVPR 2022 Oral] [[Project](https://cloth-former.github.io/)] [[Pytorch-Code]](https://github.com/luxiangju-PersonAI/ClothFormer)] <Br>
 
 - **Single-frame Regularization for Temporally Stable CNNs** <Br>
 [Gabriel Eilertsen](https://liu.se/en/employee/gabei62), [Rafał K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Jonas Unger](https://weber.itn.liu.se/~jonun/web/Home.php) <Br>

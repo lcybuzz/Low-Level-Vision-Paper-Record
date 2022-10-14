@@ -227,12 +227,13 @@ Matias Tassano, Julie Delon, Thomas Veit<Br>
 
 
 # Signal Processing Based
-- **Practical Signal-Dependent Noise Parameter Estimation From a Single Noisy Image** <Br>
-[Xinhao Liu](https://sites.google.com/site/liuxinhao0535/), Masayuki Tanaka, [Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html) <Br>
-[TIP 2014] <Br>
-基于信号处理的噪声参数估计
 
 - **Practical Signal-Dependent Noise Parameter Estimation From a Single Noisy Image** <Br>
 [Xinhao Liu](https://sites.google.com/site/liuxinhao0535/), Masayuki Tanaka, [Masatoshi Okutomi](http://www.ok.sc.e.titech.ac.jp/mem/mxo/okutomi.html) <Br>
 [TIP 2014] <Br>
 [★★] 将噪声模型建模为异方差高斯分布, 并通过小波和最小二乘求得噪声参数, 并分析了clipping对噪声建模的影响.
+
+- **Practical Poissonian-Gaussian Noise Modeling and Fitting for Single-Image Raw-Data** <Br>
+[Alessandro Foi](https://webpages.tuni.fi/foi/), Mejdi Trimeche, [Vladimir Katkovnik](https://webpages.tuni.fi/lasip/), [Karen Egiazarian](https://www.tuni.fi/en/karen-eguiazarian) <Br>
+[TIP 2008] <Br>
+[★★] 统计方差和均值, 从单张图像种拟合出噪声参数
