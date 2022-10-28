@@ -18,6 +18,10 @@ Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), Shi Guo, [Lei Zhang](http
 Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
 [arXiv 2201] [[Pytorch-Code](https://github.com/zudi-lin/rcan-it)]   <Br>
 
+- **D2C-SR: A Divergence to Convergence Approach for Real-World Image Super-Resolution** <Br>
+Youwei Li, [Haibin Huang](https://brotherhuang.github.io/), Lanpeng Jia, Haoqiang Fan, [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
+[ECCV 2022] [[Code](https://github.com/megvii-research/D2C-SR)]   
+
 - **MM-RealSR: Metric Learning based Interactive Modulation for Real-World Super-Resolution** <Br>
 Chong Mou, Yanze Wu, [Xintao Wang](https://xinntao.github.io/), Chao Dong, [Jian Zhang](https://jianzhang.tech/), Ying Shan <Br>
 [ECCV 2022] [[Pytorch-Code](https://github.com/TencentARC/MM-RealSR)]   

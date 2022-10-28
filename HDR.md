@@ -2,11 +2,10 @@
 # Table of Contents
   - [HDR](#hdr)
     - [Multi-Frame HDR](#multi-frame-hdr)
-      - [DL Methods](#dl-methods)
-      - [Traditional Methods](#traditional-methods)
     - [Single-Frame HDR](#single-frame-hdr)
     - [Video HDR](#video-hdr)
     - [New Sensor HDR](#new-sensor-hdr)
+    - [Traditional Methods](#traditional-methods)
   - [Tone Mapping](#tone-mapping)
   - [CRF](#crf)
   - [Datasets](#datasets)
@@ -15,7 +14,6 @@
     
 # HDR
 ## Multi-Frame HDR
-### DL Methods
 - **Attention-Guided Progressive Neural Texture Fusion for High Dynamic Range Image Restoration** <Br>
 Jie Chen, Zaifeng Yang, [Tsz Nam Chan](https://www.comp.hkbu.edu.hk/~edisonchan/), Hui Li, [Junhui Hou](https://sites.google.com/site/junhuihoushomepage/), Lap-Pui Chau <Br>
 [TIP 2022] <Br>
@@ -163,65 +161,8 @@ Green Rosh K S, Anmol Biswas Mandakinee, Singh Patel, B H Pawan Prasad <Br>
 [ICCV 2017] [[Theano-Code](https://github.com/KRamPrabhakar/DeepFuse)] [[Unofficial-Pytorch-Code](https://github.com/SunnerLi/DeepFuse.pytorch)]<Br>
 [★★]
 
-### Traditional Methods
-- **Auto Complementary Exposure Control for High Dynamic Range Video Capturing** <Br>
-Bing Han, Xiu Jia, [Rui Song](https://web.xidian.edu.cn/songrui/), Feng Ran, Peng Rao <Br>
-[Access 2021]<Br> 
-[★☆] 提出了一个确定长短曝最佳曝光参数的pipeline. 1) 文中分析发现, 使图像(块)熵最大的曝光时间就是该图像最佳曝光时间, 并用高斯分布模拟熵随时间变化的分布(μ即为最大熵的曝光时间); 2) 拍摄若干张不同曝光的图像, 将图像分成patch, 统计每个patch在每个曝光时间的熵, 计算高斯分布的μ和σ, 用GMM建模, 将patch分类为过曝, 正常, 欠曝三类. 经过EM迭代, 可得到每个patch的类别, 以及S/M/L三个曝光的μ(即为该曝光情况下对应的最优曝光时间).
-
-- **Exposure bracketing via automatic exposure selection**  <Br>
-Reza Pourreza-Shahri, [Nasser Kehtarnavaz](https://personal.utdallas.edu/~kehtar/)  <Br>
-[ICIP 2015]
-[★] [**MEF**, **AEC**] 根据当前帧的亮度直方图, 聚类成over, normal, short三类, 调整曝光时间, 使t+1时刻三帧的中间灰度(127)正好对应三类的聚类中心.
-
-- **Fast exposure time decision in multi-exposure HDR imaging**  <Br>
-Yongjie Piao, Guang Jin  <Br>
-[SPIE 2012]
-[★] [**AEC**] 根据当前帧中值确定medium曝光, 再把medium帧的最小和最大场景亮度对应到short和long的图像中值上, 以此确定三帧的曝光参数.
-
-- **Noise-Optimal Capture for High Dynamic Range Photography**  <Br>
-[Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Frédo Durand](http://people.csail.mit.edu/fredo/), [William T. Freeman](http://billf.mit.edu/)  <Br>
-[CVPR 2010] [[Project](http://people.csail.mit.edu/hasinoff/hdrnoise/)] <Br>
-[★★☆] 从成像的物理过程出发, 推导出最大化SNR下限和最短拍摄时间的拍摄参数设置. 文中对噪声建模和ISO与SNR关系的论述比较清晰, 值得学习. 没有考虑多帧间的motion.
-
-- **High Dynamic Range Imaging by Fusing Multiple Raw Images and Tone Reproduction** <Br>
-[Wen-Chung Kao](https://scholar.lib.ntnu.edu.tw/en/persons/wen-chung-kao) <Br>
-[TCE 2008] <Br>
-[★☆] 提出了一个针对静止场景的多张raw融合并tone mapping的pipeline, 可以学习
-	
-- **Exposure Fusion** <Br>
-[Tom Mertens](http://www.mericam.net/), [Jan Kautz](https://jankautz.com/), Frank Van Reeth<Br>
-[PG 2007] [[Project](https://mericam.github.io/exposure_fusion/index.html)] <Br>
-[★★☆] contrast, saturation, well-exposedness三个加权得到weight map. 将图像用拉普拉斯金字塔分解, weight用高斯金字塔分解, 在多个尺度融合.
-
-- **High Dynamic Range Video** <Br>
-[Sing Bing Kang](http://www.singbingkang.com/), [Matthew Uyttendaele](https://research.facebook.com/people/uyttendaele-matt/), [Simon Winder](http://simonwinder.com/), [Richard Szeliski](http://szeliski.org/RichardSzeliski.htm)  <Br>
-[TOG 2003] <Br>
-[★★] 提出了一个视频HDR pipeline. 1.根据场景亮度, 设置相邻帧的曝光值; 2.将相邻帧处理到相同亮度, 做运动检测和warping. 对于当前帧saturate的部分, 使用前后两帧之间的光流估计到当前帧的光流并做warp, 没有saturate的部分, 利用前后帧到当前帧的光流直接warp, 并用一些策略fuse; 3.将HDR的radiance map通过tone mapping转换为能显示的LDR视频, 使用前后若干帧统计平均log域亮度, 做全局scale, 局部只根据当前帧scale
-
-- **Fast, Robust Image Registration for Compositing High Dynamic Range Photographs from Hand-Held Exposures** <Br>
-Greg Ward  <Br>
-[JGT 2003] <Br>
-[★★] MTB算法
-
-- **High Dynamic Range Imaging** <Br>
-Greg Ward  <Br>
-[CIC 2001] <Br>
-[★] 讲了color rendering的pipeline, 包括: 怎么估计真实场景目标的光强, 转换到颜色空间的近似表示, 将信息记录为HDR格式, tone mapping以在设备上显示等
-
-- **Dynamic range improvement through multiple exposures** <Br>
-Mark A Robertson, Sean Borman, Robert L Stevenson  <Br>
-[ICIP 1999] <Br>
-[★★]
-
-- **Recovering High Dynamic Range Radiance Maps from Photographs** <Br>
-[Paul Debevec](http://www.pauldebevec.com/), [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/)<Br>
-[SIGGRAPH 1997] [[Project](http://www.pauldebevec.com/Research/HDR/)] <Br>
-[★★★] 经典的多曝光HDR算法, 不考虑motion, 主要包括通过最优化求CRF和融合生成HDR两部分. CRF计算部分不显式建模, 而是求radiance和像素值间的查找表, 加入一些平滑约束, 求解得到.
-	
 
 ## Single-Frame HDR
-### DL Methods
 - **SDRTV-to-HDRTV via Hierarchical Dynamic Context Feature Mapping** <Br>
 Gang He, Kepeng Xu, Li Xu, Chang Wu, Ming Sun, Xing Wen, Yu-Wing Tai <Br>
 [MM 2022] [快手] [[Pytorch-Code](https://github.com/chxy95/HDRTVNet)] <Br>
@@ -355,7 +296,66 @@ Ugur Cogalan, [Ahmet Oguz Akyuz](https://user.ceng.metu.edu.tr/~akyuz/index.html
 [Shree K. Nayar](http://www.cs.columbia.edu/~nayar/), Tomoo Mitsunaga  <Br>
 [CVPR 2000] <Br>
 [**SVE**] [★] 提出一个基于硬件的HDR图像生成方法. 在相机传感器前放置一个optical mask, mask上有不同exposure的pattern, 利用邻域不同曝光的像素值, 恢复目标像素值, 动态范围可大致扩展到Emax/Emin倍.
- 
+
+
+## Traditional Methods
+- **Auto Complementary Exposure Control for High Dynamic Range Video Capturing** <Br>
+Bing Han, Xiu Jia, [Rui Song](https://web.xidian.edu.cn/songrui/), Feng Ran, Peng Rao <Br>
+[Access 2021]<Br> 
+[★☆] 提出了一个确定长短曝最佳曝光参数的pipeline. 1) 文中分析发现, 使图像(块)熵最大的曝光时间就是该图像最佳曝光时间, 并用高斯分布模拟熵随时间变化的分布(μ即为最大熵的曝光时间); 2) 拍摄若干张不同曝光的图像, 将图像分成patch, 统计每个patch在每个曝光时间的熵, 计算高斯分布的μ和σ, 用GMM建模, 将patch分类为过曝, 正常, 欠曝三类. 经过EM迭代, 可得到每个patch的类别, 以及S/M/L三个曝光的μ(即为该曝光情况下对应的最优曝光时间).
+
+- **Exposure bracketing via automatic exposure selection**  <Br>
+Reza Pourreza-Shahri, [Nasser Kehtarnavaz](https://personal.utdallas.edu/~kehtar/)  <Br>
+[ICIP 2015]
+[★] [**MEF**, **AEC**] 根据当前帧的亮度直方图, 聚类成over, normal, short三类, 调整曝光时间, 使t+1时刻三帧的中间灰度(127)正好对应三类的聚类中心.
+
+- **Fast exposure time decision in multi-exposure HDR imaging**  <Br>
+Yongjie Piao, Guang Jin  <Br>
+[SPIE 2012]
+[★] [**AEC**] 根据当前帧中值确定medium曝光, 再把medium帧的最小和最大场景亮度对应到short和long的图像中值上, 以此确定三帧的曝光参数.
+
+- **Noise-Optimal Capture for High Dynamic Range Photography**  <Br>
+[Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Frédo Durand](http://people.csail.mit.edu/fredo/), [William T. Freeman](http://billf.mit.edu/)  <Br>
+[CVPR 2010] [[Project](http://people.csail.mit.edu/hasinoff/hdrnoise/)] <Br>
+[★★☆] 从成像的物理过程出发, 推导出最大化SNR下限和最短拍摄时间的拍摄参数设置. 文中对噪声建模和ISO与SNR关系的论述比较清晰, 值得学习. 没有考虑多帧间的motion.
+
+- **High Dynamic Range Imaging by Fusing Multiple Raw Images and Tone Reproduction** <Br>
+[Wen-Chung Kao](https://scholar.lib.ntnu.edu.tw/en/persons/wen-chung-kao) <Br>
+[TCE 2008] <Br>
+[★☆] 提出了一个针对静止场景的多张raw融合并tone mapping的pipeline, 可以学习
+	
+- **Exposure Fusion** <Br>
+[Tom Mertens](http://www.mericam.net/), [Jan Kautz](https://jankautz.com/), Frank Van Reeth<Br>
+[PG 2007] [[Project](https://mericam.github.io/exposure_fusion/index.html)] <Br>
+[★★☆] contrast, saturation, well-exposedness三个加权得到weight map. 将图像用拉普拉斯金字塔分解, weight用高斯金字塔分解, 在多个尺度融合.
+
+- **High Dynamic Range Video** <Br>
+[Sing Bing Kang](http://www.singbingkang.com/), [Matthew Uyttendaele](https://research.facebook.com/people/uyttendaele-matt/), [Simon Winder](http://simonwinder.com/), [Richard Szeliski](http://szeliski.org/RichardSzeliski.htm)  <Br>
+[TOG 2003] <Br>
+[★★] 提出了一个视频HDR pipeline. 1.根据场景亮度, 设置相邻帧的曝光值; 2.将相邻帧处理到相同亮度, 做运动检测和warping. 对于当前帧saturate的部分, 使用前后两帧之间的光流估计到当前帧的光流并做warp, 没有saturate的部分, 利用前后帧到当前帧的光流直接warp, 并用一些策略fuse; 3.将HDR的radiance map通过tone mapping转换为能显示的LDR视频, 使用前后若干帧统计平均log域亮度, 做全局scale, 局部只根据当前帧scale
+
+- **Fast, Robust Image Registration for Compositing High Dynamic Range Photographs from Hand-Held Exposures** <Br>
+Greg Ward  <Br>
+[JGT 2003] <Br>
+[★★] MTB算法
+
+- **High Dynamic Range Imaging** <Br>
+Greg Ward  <Br>
+[CIC 2001] <Br>
+[★] 讲了color rendering的pipeline, 包括: 怎么估计真实场景目标的光强, 转换到颜色空间的近似表示, 将信息记录为HDR格式, tone mapping以在设备上显示等
+
+- **Dynamic range improvement through multiple exposures** <Br>
+Mark A Robertson, Sean Borman, Robert L Stevenson  <Br>
+[ICIP 1999] <Br>
+[★★]
+
+- **Recovering High Dynamic Range Radiance Maps from Photographs** <Br>
+[Paul Debevec](http://www.pauldebevec.com/), [Jitendra Malik](https://people.eecs.berkeley.edu/~malik/)<Br>
+[SIGGRAPH 1997] [[Project](http://www.pauldebevec.com/Research/HDR/)] <Br>
+[★★★] 经典的多曝光HDR算法, 不考虑motion, 主要包括通过最优化求CRF和融合生成HDR两部分. CRF计算部分不显式建模, 而是求radiance和像素值间的查找表, 加入一些平滑约束, 求解得到.
+	
+
+
 # Tone Mapping
 ## DL Methods
 - **Unpaired Learning for High Dynamic Range Image Tone Mapping**  <Br>

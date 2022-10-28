@@ -12,6 +12,7 @@
 - **Fast and High-quality Image Denoising via Malleable Convolutions** <Br>
 [Yifan Jiang](https://yifanjiang.net/), [Bartlomiej Wronski](https://bartwronski.com/), [Ben Mildenhall](https://bmild.github.io/), [Jonathan Barron](https://jonbarron.info/), Zhangyang Wang, [Tianfan Xue](https://people.csail.mit.edu/tfxue/) <Br>
 [ECCV 2022] [[Project](https://yifanjiang.net/MalleConv.html)] <Br>
+[**MalleConv**] [★★] 将图像/feature下采样四倍, 预测dynamic kernel, 另外网络采用unnet的形式, 总体计算量较小, 且指标较高.
 
 - **CVF-SID: Cyclic multi-Variate Function for Self-Supervised Image Denoising by Disentangling Noise from Image** <Br>
 Reyhaneh Neshatavar, [Mohsen Yavartanoo](https://myavartanoo.github.io/), [Sanghyun Son](https://cv.snu.ac.kr/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
@@ -172,6 +173,11 @@ Hansen Feng, [Lizhi Wang](https://wang-lizhi.github.io/), Yuzhi Wang, Hua Huang 
 [Dasong Li](https://dasongli1.github.io/), [Yi Zhang](https://zhangyi-3.github.io/), Ka Lung Law, [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Hongwei Qin](http://qinhongwei.com/academic/), [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) <Br>
 [IJCV 2022]  <Br>
 [★★] 1) 提出将输入进行变换, 从Poisson-Gaussian distribution变换到与gain和信号强度无关的固定方差高斯分布; 2) 提出了一个轻量级的上/下采样去噪网络, 序列化地处理N个输入帧, 使网络能在端侧运行; 3) 对齐部分使用block-matching和homography flow, 在4级金字塔上corase-to-fine进行; 4) 从实验结果上看, 提出的变换与直接concat噪声map和k-sigma方法相比, 指标稍高一点, 可视化结果细节保留更多.
+
+- **Rethinking Noise Synthesis and Modeling in Raw Denoising** <Br>
+[Yi Zhang](https://zhangyi-3.github.io/), Hongwei Qin, [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/) <Br>
+[ICCV 2021] [[Pytorch-Code](https://github.com/zhangyi-3/noise-synthesis)]  <Br>
+[★] 将噪声源分解为信号相关和信号无关两部分, 信号相关部分用一般方法建模为泊松噪声, 信号无关方法从black帧种采样, 并证明采样时采用高bit数据更好.
 
 - **A Physics-based Noise Formation Model for Extreme Low-light Raw Denoising** <Br>
 [Kaixuan Wei](https://kxwei.net/), [Ying Fu](https://ying-fu.github.io/), [Jiaolong Yang](http://jlyang.org/), Hua Huang<Br>
