@@ -79,7 +79,7 @@ Yinxiao Li, [Pengchong Jin](https://research.google/people/PengchongJin/), [Feng
 - **Space-Time Distillation for Video Super-Resolution** <Br>
 Zeyu Xiao, [Xueyang Fu](https://xueyangfu.github.io/), Jie Huang, Zhen Cheng, Zhiwei Xiong <Br>
 [CVPR 2021] <Br>
-[**STD**]
+[**STD**] [★] 分为空间和时间蒸馏两部分. 空间蒸馏通过让S和T的空间attention map接近来训练. 时间蒸馏使用ConvLSTM提取时间特征, 监督该特征训练.
 
 - **Video Rescaling Networks with Joint Optimization Strategies for Downscaling and Upscaling** <Br>
  [Yan-Cheng Huang](https://www.linkedin.com/in/hyancheng96),  [Yi-Hsin Chen](mailto:yhchen12101@gmail.com),  [Cheng-You Lu](https://johnnylu305.github.io), [Hui-Po Wang](https://a514514772.github.io), [Wen-Hsiao Peng](https://sites.google.com/g2.nctu.edu.tw/wpeng/cv), [Ching-Chun Huang](http://acm.cs.nctu.edu.tw/Home.aspx)   <Br>

@@ -365,7 +365,7 @@ Sangeek Hyun, Jae-Pil Heo <Br>
 - **Learning with Privileged Information for Efficient Image Super-Resolution** <Br>
 Junghyup Lee, Dohyung Kim, [Wonkyung Lee](https://cv.wonkyunglee.io/), [Bumbsub Ham](https://bsham.github.io/) <Br>
 [ECCV 2020] [[Project](https://cvlab.yonsei.ac.kr/projects/PISR/)] <Br> [[Pytorch-Code](https://github.com/cvlab-yonsei/PISR)] <Br>	
-[**PISR**] 
+[**PISR**] [★] T以HR为输入, 训练一个auto encoder. AE的decoder部分作为S的SR网络. 设计了互信息loss等一系列方法训练.
 
 - **Efficient Super Resolution Using Binarized Neural Network** <Br>
 Yinglan Ma, Hongyu Xiong, Zhe Hu, Lizhuang Ma <Br>
