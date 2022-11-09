@@ -56,10 +56,15 @@ Andrey Ignatov, Luc Van Gool, Radu Timofte  <Br>
 [CVPR 2020] [[Code](https://github.com/aiff22/pynet)] <Br>
 [**PyNet**] [★] 1) 提出了一个端到端的深度学习网络, 用以代替现有的ISP处理流程. 2) 提出了一个华为P20 RAW 和Canon 5D的RAW-RGB图像对, 用以训练ISP模型. 3) 提出的算法与自带的ISP流程相比, 色彩上有一定提升, 但没有明显优势, 且存在晕影. 另外速度也是个问题. 因此对于用一个DL模型代替ISP流程的方案可行性还是有待确认. <Br>
 
-- **Trinity of Pixel Enhancement: a Joint Solution for Demosaicking, Denoising and Super-Resolution**  <Br>
+- **Rethinking Learning-based Demosaicing, Denoising, and Super-Resolution Pipeline**  <Br>
 [Guocheng Qian](https://www.gcqian.com/), [Jinjin Gu](http://www.jasongt.com/), [Jimmy Ren](http://www.jimmyren.com/), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html), Furong Zhao, Juan Lin <Br>
-[arXiv 1905] [[Pytorch-Code](https://github.com/guochengqian/TENet)] <Br>
+[ICCP 2022] [[Pytorch-Code](https://github.com/guochengqian/TENet)] <Br>
 [**TENet**] [★] 1. 使用具有pixel shift技术的相机收集了一可以做demoasic的数据集, 避免了用普通RGB数据做真值时内置demoasic过程带来的误差. 2. 提出了一端到端的demosaic, 去噪和超分的网络, 采用residual + dense block的形式, 没什么特别的
+
+- **End-to-End Learning for Joint Image Demosaicing, Denoising and Super-Resolution**  <Br>
+Wenzhu Xing, [Karen Egiazarian](https://www.tuni.fi/en/karen-eguiazarian) <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/xingwz/End-to-End-JDNDMSR)] <Br>
+[★] 一个网络联合做demosaic, 去噪和超分, 退化很简单, 没在真实数据上实验.
 
 - **Generating Training Data for Denoising Real RGB Images via Camera Pipeline Simulation**  <Br>
 [Ronnachai Jaroensri](http://people.csail.mit.edu/tiam/), Camille Biscarrat, [Miika Aittala](https://people.csail.mit.edu/miika/), [Frédo Durand](https://people.csail.mit.edu/fredo/) <Br>

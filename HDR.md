@@ -299,6 +299,10 @@ Ugur Cogalan, [Ahmet Oguz Akyuz](https://user.ceng.metu.edu.tr/~akyuz/index.html
 
 
 ## Traditional Methods
+- **High Dynamic Range and Super-Resolution From Raw Image Bursts**  <Br>
+[Bruno Lecouat](https://bruno-31.github.io/), [Thomas Eboli](https://teboli.github.io/), [Jean Ponce](https://www.di.ens.fr/~ponce/), [Julien Mairal](https://lear.inrialpes.fr/people/mairal/  <Br>
+[SIGGRAPH 2022] <Br>
+
 - **Auto Complementary Exposure Control for High Dynamic Range Video Capturing** <Br>
 Bing Han, Xiu Jia, [Rui Song](https://web.xidian.edu.cn/songrui/), Feng Ran, Peng Rao <Br>
 [Access 2021]<Br> 

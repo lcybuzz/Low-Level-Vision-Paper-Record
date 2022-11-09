@@ -18,13 +18,18 @@ Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), Shi Guo, [Lei Zhang](http
 Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
 [arXiv 2201] [[Pytorch-Code](https://github.com/zudi-lin/rcan-it)]   <Br>
 
+- **Super-Resolution by Predicting Offsets: An Ultra-Efficient Super-Resolution Network for Rasterized Images** <Br>
+[Jinjin Gu](https://www.jasongt.com/), [Haoming Cai](https://www.haomingcai.com/), Chenyu Dong, Ruofan Zhang, Yulun Zhang, Wenming Yang, Chun Yuan <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/HaomingCai/SRPO)]  <Br> 
+[**SRPO**]
+
 - **D2C-SR: A Divergence to Convergence Approach for Real-World Image Super-Resolution** <Br>
 Youwei Li, [Haibin Huang](https://brotherhuang.github.io/), Lanpeng Jia, Haoqiang Fan, [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
-[ECCV 2022] [[Code](https://github.com/megvii-research/D2C-SR)]   
+[ECCV 2022] [[Code](https://github.com/megvii-research/D2C-SR)]   <Br>
 
 - **MM-RealSR: Metric Learning based Interactive Modulation for Real-World Super-Resolution** <Br>
 Chong Mou, Yanze Wu, [Xintao Wang](https://xinntao.github.io/), Chao Dong, [Jian Zhang](https://jianzhang.tech/), Ying Shan <Br>
-[ECCV 2022] [[Pytorch-Code](https://github.com/TencentARC/MM-RealSR)]   
+[ECCV 2022] [[Pytorch-Code](https://github.com/TencentARC/MM-RealSR)]   <Br>
 
 - **Details or Artifacts: A Locally Discriminative Learning Approach to Realistic Image Super-Resolution** <Br>
 [Jie Liang](https://liangjie.xyz/), [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
@@ -119,7 +124,7 @@ Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](http://www4.c
 - **Designing a Practical Degradation Model for Deep Blind Image Super-Resolution** <Br>
 [Kai Zhang](https://cszn.github.io/), Jingyun Liang, [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
 [ICCV 2021] [[Pytorch-Code](https://github.com/cszn/BSRGAN)]    <Br>
-[**BSRGAN**] 
+[**BSRGAN**] [★★] 通过随机排列的退化(模糊, 下采, 加噪等)生成训练数据, 并在此基础上训练了一个盲超分模型. Novelty貌似不太多, 但比较实用.
 
 - **Mutual Affine Network for Spatially Variant Kernel Estimation in Blind Image Super-Resolution** <Br>
 Jingyun Liang, Guolei Sun, [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
@@ -500,4 +505,9 @@ Chao Dong, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Xiaoou Ta
 [Goutam Bhat](https://goutamgmb.github.io/), [Martin Danelljan](https://martin-danelljan.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](https://people.ee.ethz.ch/~timofter/) <Br>
 [CVPR 2021] [[Pytorch-Code](https://github.com/goutamgmb/NTIRE21_BURSTSR)]   <Br>
 [**BURSTSR**] 
+
+- **Lucas-Kanade Reloaded: End-to-End Super-Resolution from Raw Image Bursts** <Br>
+[Bruno Lecouat](https://bruno-31.github.io/), [Jean Ponce](https://www.di.ens.fr/~ponce/), [Julien Mairal](https://lear.inrialpes.fr/people/mairal/) <Br>
+[ICCV 2021] [[Project](https://bruno-31.github.io/lkburst2/)]   <Br>
+
 
