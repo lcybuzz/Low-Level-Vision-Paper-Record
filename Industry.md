@@ -1,5 +1,11 @@
 # Industry
 
+## Google
+- **Denoising and Deblur** <Br>
+Paper1: A pull-push method for fast non-local means filtering (ICIP 2016) <Br>
+Paper2: olyblur: Removing Mild Blur by Polynomial Reblurring (TCI 2021) <Br>
+[[blog](https://ai.googleblog.com/2021/06/take-all-your-pictures-to-cleaners-with.html)] <Br>
+快速去噪去模糊, 已集成到Google Photos editor
 
 - **Handheld Multi-Frame Super-Resolution** <Br>
 [Bartlomiej Wronski](https://bartwronski.com/about/), [I. Garcia-Dorado](http://www.ignaciogarciadorado.com/), M. Ernst, D. Kelly, M. Krainin, [C.K. Liang](http://chiakailiang.org/), [Marc Levoy](http://graphics.stanford.edu/~levoy/), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/) <Br>
