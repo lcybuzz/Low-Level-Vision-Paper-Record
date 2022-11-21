@@ -115,7 +115,7 @@ Ying Nie, Kai Han, Zhenhua Liu, An Xiao, Yiping Deng, Chunjing Xu, Yunhe Wang <B
 - **About Edge-oriented Convolution Block for Real-time Super Resolution on Mobile Devices** <Br>
 Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 [MM 2021 Oral] [[Pytorch-Code](https://github.com/xindongzhang/ECBSR)]  <Br>
-[**ECBSR**] [★☆] 重参数化, 并行卷积模块+sobel/laplacian算子
+[**ECBSR**] [★★] 重参数化, 并行卷积模块+sobel/laplacian算子
 
 - **Deep Reparametrization of Multi-Frame Super-Resolution and Denoising** <Br>
 [Goutam Bhat](https://goutamgmb.github.io/), [Martin Danelljan](https://martin-danelljan.github.io/), [Fisher Yu](https://www.yf.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>

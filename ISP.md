@@ -7,8 +7,13 @@
 ## ISP
 - **Day-to-Night Image Synthesis for Training Nighttime Neural ISPs** <Br>
 [Abhijith Punnappurath](https://abhijithpunnappurath.github.io/), [Abdullah Abuolaim](https://sites.google.com/view/abdullah-abuolaim/), [Abdelrahman Abdelhamed](https://abdokamel.github.io/), Alex Levinshtein, [Michael S. Brown](https://www.eecs.yorku.ca/~mbrown/) <Br>
-[CVPR 2022 Oral] [[Code](https://github.com/SamsungLabs/day-to-night)] <Br>
-  
+[CVPR 2022 Oral] [[Pytorch-Code](https://github.com/SamsungLabs/day-to-night)] <Br>
+
+- **Abandoning the Bayer-Filter to See in the Dark** <Br>
+[Xingbo Dong](https://xingbod.github.io/), Wanyan Xu, Zhihui Miao, Lan Ma, Chao Zhang, Jiewen Yang, [Zhe Jin](https://sites.google.com/site/jinzhe/home?authuser=0), [Andrew Beng Jin Teoh](https://sites.google.com/site/multimediasecuritylab/Home), Jiajun Shen <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/TCL-AILab/Abandon_Bayer-Filter_See_in_the_Dark)] <Br>
+[★] 从bayer raw预测一个mono. 采集了一个bayer和mono配对的数据集.
+
 - **Model-Based Image Signal Processors via Learnable Dictionaries** <Br>
 [Marcos V. Conde](https://mv-lab.github.io/), [Steven McDonagh](https://smcdonagh.github.io/), Matteo Maggioni, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Eduardo Pérez-Pellitero](http://perezpellitero.github.io/) <Br>
 [AAAI 2022 Oral] [[Project](https://mv-lab.github.io/model-isp22/)] <Br>
@@ -101,7 +106,7 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
 # AWB
 - **Cross-Camera Convolutional Color Constancy** <Br>
 [Mahmoud Afifi](https://sites.google.com/corp/view/mafifi), [Jonathan T. Barron](https://jonbarron.info/), [Chloe LeGendre](http://www.chloelegendre.com/), [Yun-Ta Tsai](https://research.google/people/105312/), [Francois Bleibel](https://www.linkedin.com/in/fbleibel/)  <Br>
-[ICCV 2021] <Br>
+[ICCV 2021] [[Pytorch-Code](https://github.com/mahmoudnafifi/C5)] <Br>
 [**C5**]
 
 - **A Multi-Hypothesis Approach to Color Constancy for improved Automatic White Balance** <Br>
@@ -111,7 +116,7 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
   
 - **Deep White-Balance Editing** <Br>
 [Mahmoud Afifi](https://sites.google.com/view/mafifi/home), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)<Br>
-[CVPR 2020 Oral] [[PYtorch & Matlab-Code](https://github.com/mahmoudnafifi/Deep_White_Balance)] <Br>
+[CVPR 2020 Oral] [[Pytorch & Matlab-Code](https://github.com/mahmoudnafifi/Deep_White_Balance)] <Br>
 [★☆] 1) 1个encoder, 3个decoder, 分别预测正确, 白炽灯, 室外场景的白平衡结果. 最后可根据三个结果插值出用户需要的色温. 2) 为在device上进行快速推理, 在小图上预测, 然后在小图上通过优化的方法闭式求解输入输出的全局色彩映射函数, 再将该函数用到全图上
 
 - **When Color Constancy Goes Wrong: Correcting Improperly White-Balanced Images** <Br>

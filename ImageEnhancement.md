@@ -140,10 +140,6 @@ Wenhui Wu, Jian Weng, Pingping Zhang, [Xu Wang](https://csse.szu.edu.cn/pages/us
 [Zhao Zhang](https://sites.google.com/site/cszzhang/), Huan Zheng, [Richang Hong](https://sites.google.com/site/homeofrichanghong/), Mingliang Xu, [Shuicheng Yan](https://yanshuicheng.ai/), [Meng Wang](https://sites.google.com/view/meng-wang/home) <Br>
 [CVPR 2022] <Br>
 
-- **Abandoning the Bayer-Filter to See in the Dark** <Br>
-Xingbo Dong, Wanyan Xu, Zhihui Miao, Lan Ma, Chao Zhang, Jiewen Yang, Zhe Jin, Andrew Beng Jin Teoh, Jiajun Shen <Br>
-[CVPR 2022] [[PyTorch-Code](https://github.com/TCL-AILab/Abandon_Bayer-Filter_See_in_the_Dark)]   <Br>
-
 - **Toward Fast, Flexible, and Robust Low-Light Image Enhancement** <Br>
 Long Ma, Tengyu Ma, [Risheng Liu](https://rsliu.tech/), Xin Fan, Zhongxuan Luo  <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/vis-opt-group/SCI)] <Br>
