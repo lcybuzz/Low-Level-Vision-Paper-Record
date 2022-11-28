@@ -14,10 +14,14 @@
     
 # HDR
 ## Multi-Frame HDR
-- **Attention-Guided Progressive Neural Texture Fusion for High Dynamic Range Image Restoration** <Br>
-Jie Chen, Zaifeng Yang, [Tsz Nam Chan](https://www.comp.hkbu.edu.hk/~edisonchan/), Hui Li, [Junhui Hou](https://sites.google.com/site/junhuihoushomepage/), Lap-Pui Chau <Br>
-[TIP 2022] <Br>
-[★] 设计了一个基于vgg特征的匹配模块, 从short中找到medium的过曝内容并通过替换特征的方式加以填补
+
+- **TransMEF: A Transformer-Based Multi-Exposure Image Fusion Framework via Self-Supervised Multi-Task Learning** <Br>
+[Linhao Qu])https://linhao-qu.github.io/, Shaolei Liu, Manning Wang, Zhijian Song <Br>
+[AAAI 2022] [[Pytorch-Code](https://github.com/miccaiif/TransMEF)] <Br>
+
+- **Gamma-Enhanced Spatial Attention Network for Efficient High Dynamic Range Imaging** <Br>
+Zhen Liu, Yinglong Wang, Bing Zeng, [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/megvii-research/HDR-Transformer)] <Br>
 
 - **DRHDR: A Dual Branch Residual Network for Multi-Bracket High Dynamic Range Imaging** <Br>
 Juan Marín-Vega, Michael Sloth, Peter Schneider-Kamp, Richard Röttger <Br>
@@ -38,6 +42,11 @@ Fangya Li, Ruipeng Gang, Chenghua Li, Jinjing Li, Sai Ma, Chenming Liu, Yizhen C
 [An Gia Vien](https://viengiaan.github.io/), Seonghyun Park, Truong Thanh Nhat Mai, Gahyeon Kim, [Chul Lee](http://cilab.dongguk.edu/) <Br>
 [CVPRW 2022] <Br>
 [★] NTIRE22
+
+- **Attention-Guided Progressive Neural Texture Fusion for High Dynamic Range Image Restoration** <Br>
+Jie Chen, Zaifeng Yang, [Tsz Nam Chan](https://www.comp.hkbu.edu.hk/~edisonchan/), Hui Li, [Junhui Hou](https://sites.google.com/site/junhuihoushomepage/), Lap-Pui Chau <Br>
+[TIP 2022] <Br>
+[★] 设计了一个基于vgg特征的匹配模块, 从short中找到medium的过曝内容并通过替换特征的方式加以填补
 
 - **FlexHDR: Modelling Alignment and Exposure Uncertainties for Flexible HDR Imaging** <Br>
 [Sibi Catley-Chandar](https://sib1.github.io/), [Thomas Tanay](https://thomas-tanay.github.io/about/), Lucas Vandroux, [Aleš Leonardis](https://www.cs.bham.ac.uk/~leonarda/), [Gregory Slabaugh](http://eecs.qmul.ac.uk/profiles/slabaughgreg.html), [Eduardo Pérez-Pellitero](https://perezpellitero.github.io/) <Br>

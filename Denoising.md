@@ -9,6 +9,11 @@
 
 # Image Denoising
 
+- **Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis** <Br>
+[Kai Zhang](https://cszn.github.io/), [Yawei Li](https://ofsoundof.github.io/), [Jingyun Liang](https://jingyunliang.github.io/), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yulun Zhang](http://yulunzhang.com/), [Hao Tang](http://disi.unitn.it/~hao.tang/), [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
+[arXiv 2203] [[Pytorch-Code](https://github.com/cszn/SCUNet)] <Br>
+[**SCUNet**]
+
 - **Fast and High-quality Image Denoising via Malleable Convolutions** <Br>
 [Yifan Jiang](https://yifanjiang.net/), [Bartlomiej Wronski](https://bartwronski.com/), [Ben Mildenhall](https://bmild.github.io/), [Jonathan Barron](https://jonbarron.info/), Zhangyang Wang, [Tianfan Xue](https://people.csail.mit.edu/tfxue/) <Br>
 [ECCV 2022] [[Project](https://yifanjiang.net/MalleConv.html)] <Br>

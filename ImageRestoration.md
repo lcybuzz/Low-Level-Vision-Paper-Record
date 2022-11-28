@@ -54,6 +54,10 @@ Jing Liu , Xin Wen, Weizhi Nie, Yuting Su, Peiguang Jing, Xiaokang Yang <Br>
 [CSVT 2021] <Br>
 [★]
 
+- **SwinIR: Image Restoration Using Swin Transformer**  <Br>
+[Jingyun Liang](https://jingyunliang.github.io/), [Jiezhang Cao](https://www.jiezhangcao.com/), Guolei Sun, [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
+[ICCVW 2021] [[Pytorch-Code](https://github.com/JingyunLiang/SwinIR)] <Br>
+
 - **Learning Dual Priors for JPEG Compression Artifacts Removal**  <Br>
 [Xueyang Fu](https://xueyangfu.github.io/), Xi Wang, [Aiping Liu](http://staff.ustc.edu.cn/~aipingl/), Junwei Han, Zheng-Jun Zha <Br>
 [ICCV 2021] [[TF-Code](https://xueyangfu.github.io/)] <Br>
@@ -88,6 +92,11 @@ Kinam Kwon, Eunhee Kang, Sangwon Lee, Su-Jin Lee, Hyong-Euk Lee, ByungIn Yoo, Ja
 - **COLA-Net: Collaborative Attention Network for Image Restoration**   <Br>
  Chong Mou, [Jian Zhang](https://jianzhang.tech/), Xiaopeng Fan, Hangfan Liu, Ronggang Wang <Br>
 [MM 2021] [[Project](https://github.com/MC-E/COLA-Net-Collaborative-Attention-Network-for-Image-Restoration)] <Br>
+
+- **Pyramid Attention Networks for Image Restoration** <Br>
+[Kai Zhang](https://cszn.github.io/), [Yawei Li](https://ofsoundof.github.io/), [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/),  <Br>
+[TPAMI 2021] [[Pytorch-Code](https://github.com/cszn/DPIR)] <Br>
+[**DPIR**]
 
 - **Pyramid Attention Networks for Image Restoration** <Br>
 [Yiqun Mei](https://yiqunmei.net/), [Yuchen Fan](https://ychfan.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Jiahui Yu](https://jiahuiyu.com/), [Yuqian Zhou](https://yzhouas.github.io/), Ding Liu, Yun Fu, [Thomas S. Huang](http://ifp-uiuc.github.io/), [Humphrey Shi](https://www.humphreyshi.com/) <Br>

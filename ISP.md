@@ -119,6 +119,11 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
 [CVPR 2020 Oral] [[Pytorch & Matlab-Code](https://github.com/mahmoudnafifi/Deep_White_Balance)] <Br>
 [★☆] 1) 1个encoder, 3个decoder, 分别预测正确, 白炽灯, 室外场景的白平衡结果. 最后可根据三个结果插值出用户需要的色温. 2) 为在device上进行快速推理, 在小图上预测, 然后在小图上通过优化的方法闭式求解输入输出的全局色彩映射函数, 再将该函数用到全图上
 
+- **Sensor-Independent illumination estimation for DNN Models** <Br>
+[Mahmoud Afifi](https://sites.google.com/view/mafifi/home), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
+[arXiv 1912] [[Matlab-Code](https://github.com/mahmoudnafifi/SIIE)] <Br>
+[**SIIE**] [★☆]
+
 - **When Color Constancy Goes Wrong: Correcting Improperly White-Balanced Images** <Br>
 [Mahmoud Afifi](https://sites.google.com/view/mafifi/home), [Brian Price](https://www.brianpricephd.com/), [Scott Cohen](https://research.adobe.com/person/scott-cohen/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
 [CVPR 2019] [[Project](http://cvil.eecs.yorku.ca/projects/public_html/sRGB_WB_correction/index.html)] [[Code](https://github.com/mahmoudnafifi/WB_sRGB)] [[Blog](http://www.noahlab.com.hk/#/news/5ee70c18a0c07a1a3855452d)] <Br>
@@ -127,6 +132,10 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
 [Hakki Can Karaimer](https://karaimer.github.io/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
 [CVPR 2018] [[Project](https://karaimer.github.io/camera-color/)] <Br> 
 
+- **Convolutional color constancy** <Br>
+[Jonathan T. Barron](https://jonbarron.info/) <Br>
+[ICCV 2015] <Br> 
+[★★]
 
 
 # AE

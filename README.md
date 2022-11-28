@@ -132,9 +132,9 @@
 ## 博客/专栏/资讯
 - [[传统图像质量增强的系列blog-1](https://www.cnblogs.com/Imageshop/category/535367.html)]
 - [[传统图像质量增强的系列blog-2](https://blog.csdn.net/maozefa/article/list/1)]
-- [[ISP介绍blog](https://blog.csdn.net/qq_42261630/article/details/102918149)]
 - [无法抗拒的图像技术](https://www.zhihu.com/column/sining)
 - [All in Camera](https://www.zhihu.com/column/allincamera)
+- [Color Image Processing](https://www.zhihu.com/column/ColorImageProcessing)
 - [计算摄影学](https://www.zhihu.com/column/hawkcp)
 
 - [AIWalker](https://www.zhihu.com/column/c_1252624169897562112)

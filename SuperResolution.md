@@ -18,6 +18,11 @@ Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), Shi Guo, [Lei Zhang](http
 Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
 [arXiv 2201] [[Pytorch-Code](https://github.com/zudi-lin/rcan-it)]   <Br>
 
+- **Reference-based Image Super-Resolution with Deformable Attention Transformer ** <Br>
+[Jiezhang Cao](https://www.jiezhangcao.com/), [Jingyun Liang](https://jingyunliang.github.io/), [Kai Zhang](https://cszn.github.io/), [Yawei Li](https://ofsoundof.github.io/), [Yulun Zhang](https://yulunzhang.com/), [Wenguan Wang](http://homepage.hit.edu.cn/wangmengzuo), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/caojiezhang/DATSR)]  <Br> 
+[**DATSR**]
+
 - **Super-Resolution by Predicting Offsets: An Ultra-Efficient Super-Resolution Network for Rasterized Images** <Br>
 [Jinjin Gu](https://www.jasongt.com/), [Haoming Cai](https://www.haomingcai.com/), Chenyu Dong, Ruofan Zhang, Yulun Zhang, Wenming Yang, Chun Yuan <Br>
 [ECCV 2022] [[Pytorch-Code](https://github.com/HaomingCai/SRPO)]  <Br> 
@@ -360,7 +365,7 @@ Ben Niu, Weilei Wen, [Wenqi Ren](https://sites.google.com/site/renwenqi888/home)
 - **Stochastic Frequency Masking to Improve Super-Resolution and Denoising Networks** <Br>
 [Majed El Helou](https://majedelhelou.github.io/), Ruofan Zhou, Sabine Süsstrunk <Br>
 [ECCV 2020] [[Pytorch-Code](https://github.com/majedelhelou/SFM)] <Br>	
-[**SFM**] 
+[**SFM**] [★] 随机去掉某些频率的信号, 减小degradation-kernel overfitting, 以提升测试集上的性能.
 
 - **VarSR: Variational Super-Resolution Network for Very Low Resolution Images** <Br>
 Sangeek Hyun, Jae-Pil Heo <Br>
