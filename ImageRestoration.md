@@ -11,6 +11,24 @@
 
 
 # Image Restoration
+- **TAPE: Task-Agnostic Prior Embedding for Image Restoration**  <Br>
+[Lin Liu](http://home.ustc.edu.cn/~ll0825/), [Lingxi Xie](https://lingxixie.com/Home.html), [Xiaopeng Zhang](https://sites.google.com/site/zxphistory/), [Shanxin Yuan](https://shanxinyuan.github.io/), [Xiangyu Chen](https://chxy95.github.io/), [Wengang Zhou](http://staff.ustc.edu.cn/~zhwg/), [Houqiang Li](http://staff.ustc.edu.cn/~lihq/), Qi Tian <Br>
+[ECCV 2022] [[Project](http://home.ustc.edu.cn/~ll0825/project_TAPE.html)] <Br>
+
+- **Improving Image Restoration by Revisiting Global Information Aggregation**  <Br>
+Xiaojie Chu, Liangyu Chen, Chengpeng Chen, Xin Lu <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/megvii-research/TLC)] <Br>
+[**TLC**]
+
+- **D2HNet: Joint Denoising and Deblurring with Hierarchical Network for Robust Night Image Restoration**  <Br>
+[Yuzhi Zhao](https://zhaoyuzhi.github.io/), Yongzhe Xu, Qiong Yan, Dingdong Yang, [Xuehui Wang](https://huiserwang.site/), [Lai-Man Po](http://www.ee.cityu.edu.hk/~lmpo/) <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/zhaoyuzhi/D2HNet)] <Br>
+
+- **Simple baselines for image restoration**  <Br>
+Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, Jian Sun <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/megvii-research/NAFNet)] <Br>
+[**NAFNet**]
+
 - **Learning Multiple Adverse Weather Removal via Two-stage Knowledge Learning and Multi-contrastive Regularization: Toward a Unified Model**  <Br>
 Wei-Ting Chen, Zhi-Kai Huang, Cheng-Che Tsai, Hao-Hsiang Yang, Jian-Jiun Ding, [Sy-Yen Kuo](https://homepage.ntu.edu.tw/~sykuo/) <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/fingerk28/Two-stage-Knowledge-For-Multiple-Adverse-Weather-Removal)] <Br>
@@ -486,7 +504,7 @@ Qiaole Dong, Chenjie Cao, [Yanwei Fu](http://yanweifu.github.io/) <Br>
 
 - **HFGI: High-Fidelity GAN Inversion for Image Attribute Editing** <Br>
 [Tengfei Wang](https://tengfei-wang.github.io/), [Yong Zhang](https://yzhang2016.github.io/yongnorriszhang.github.io/), [Yanbo Fan](https://sites.google.com/site/yanbofan0124/), [Jue Wang](https://juew.org/), [Qifeng Chen](https://cqf.io/) <Br>
-[ICCV 2021] [[Project](https://tengfei-wang.github.io/HFGI/)] [[Pytorch-Code](https://github.com/Tengfei-Wang/HFGI)]  <Br>
+[CVPR 2022] [[Project](https://tengfei-wang.github.io/HFGI/)] [[Pytorch-Code](https://github.com/Tengfei-Wang/HFGI)]  <Br>
 	
 - **High-Fidelity Pluralistic Image Completion with Transformers** <Br>
 [Ziyu Wan](http://raywzy.com/), Jingbo Zhang, [Dongdong Chen](http://www.dongdongchen.bid/), [Jing Liao](https://liaojing.github.io/html/index.html) <Br>

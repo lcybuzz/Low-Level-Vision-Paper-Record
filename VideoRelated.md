@@ -13,6 +13,11 @@
 
 
 # Video Super Resolution
+- **Learning Spatiotemporal Frequency-Transformer for Compressed Video Super-Resolution**  <Br>
+Zhongwei Qiu, [Huan Yang(https://www.microsoft.com/en-us/research/people/huayan/publications/), Jianlong Fu, Dongmei Fu <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/researchmm/FTVSR)] <Br>
+[**FTVSR**]
+
 - **Towards Interpretable Video Super-Resolution via Alternating Optimization**  <Br>
 [Jiezhang Cao](https://www.jiezhangcao.com/), [Jingyun Liang](https://jingyunliang.github.io/), [Kai Zhang](https://cszn.github.io/), [Wenguan Wang](http://homepage.hit.edu.cn/wangmengzuo), [Qin Wang](https://www.qin.ee/zh/), [Yulun Zhang](https://yulunzhang.com/), [Hao Tang](http://disi.unitn.it/~hao.tang/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
 [ECCV 2022] [[Pytorch-Code](https://github.com/caojiezhang/DAVSR)] <Br>

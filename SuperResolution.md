@@ -4,6 +4,11 @@
 
 
 #  Image Super Resolution
+- **Activating More Pixels in Image Super-Resolution Transformer** <Br>
+[Xiangyu Chen](https://chxy95.github.io/), [Xintao Wang](https://xinntao.github.io/), [Jiantao Zhou](https://www.fst.um.edu.mo/personal/jtzhou/), [Chao Dong](http://xpixel.group/]) <Br>
+[arXiv 2205] [[Pytorch-Code](https://github.com/XPixelGroup/HAT)]   <Br>
+[**HAT**] 
+
 - **Simple Baselines for Image Restoration** <Br>
 Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, [Jian Sun](http://www.jiansun.org/) <Br>
 [arXiv 2204] [[Pytorch-Code](https://github.com/megvii-research/NAFNet/)]   <Br>
@@ -18,7 +23,49 @@ Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), Shi Guo, [Lei Zhang](http
 Zudi Lin, Prateek Garg, Atmadeep Banerjee, [Salma Abdel Magid](https://sites.google.com/view/salma-abdelmagid/), [Deqing Sun](https://deqings.github.io/), [Yulun Zhang](http://yulunzhang.com/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Donglai Wei](https://donglaiw.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
 [arXiv 2201] [[Pytorch-Code](https://github.com/zudi-lin/rcan-it)]   <Br>
 
-- **Reference-based Image Super-Resolution with Deformable Attention Transformer ** <Br>
+- **Fast Nearest Convolution for Real-Time Efficient Image Super-Resolution** <Br>
+[Ziwei Luo](https://algolzw.github.io/), Youwei Li, [Lei Yu](https://sites.google.com/site/link2yulei/home), Qi Wu, Zhihong Wen, Haoqiang Fan, Shuaicheng Liu <Br>
+[ECCVW 2022] [[Pytorch-Code](https://github.com/Algolzw/NCNet)]  <Br> 
+
+- **Swin2SR: SwinV2 Transformer for Compressed Image Super-Resolution and Restoration** <Br>
+[Marcos V. Conde](https://mv-lab.github.io/), Ui-Jin Choi, Maxime Burchi, [Radu Timofte](https://www.informatik.uni-wuerzburg.de/computervision/home/]) <Br>
+[ECCVW 2022] [[Pytorch-Code](https://github.com/mv-lab/swin2sr)]  <Br> 
+
+- **From Face to Natural Image: Learning Real Degradation for Blind Image Super-Resolution** <Br>
+[Xiaoming Li](https://csxmli2016.github.io/), [Chaofeng Chen](https://chaofengc.github.io/), Xianhui Lin, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/csxmli2016/ReDegNet)]  <Br> 
+[**ReDegNet**]
+
+- **Self-Supervised Learning for Real-World Super-Resolution from Dual Zoomed Observations** <Br>
+Zhilu Zhang, Ruohao Wang, Hongzhi Zhang, Yunjin Chen, [Wangmeng Zuo](http://homepage.hit.edu.cn/wangmengzuo) <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/cszhilu1998/SelfDZSR)]  <Br> 
+[**SelfDZSR**]
+
+- **Efficient and Degradation-Adaptive Network for Real-World Image Super-Resolution** <Br>
+[Jie Liang](https://liangjie.xyz/), [Hui Zeng](https://huizeng.github.io/), Shi Guo, [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/csjliang/DASR)]  <Br> 
+[**DASR**]
+
+- **Learning Series-Parallel Lookup Tables for Efficient Image Super-Resolution** <Br>
+Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), Shi Guo, [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/xindongzhang/ELAN)]  <Br> 
+[**ELAN**]
+
+- **Learning Series-Parallel Lookup Tables for Efficient Image Super-Resolution** <Br>
+Cheng Ma, Jingyi Zhang, Jie Zhou, [Jiwen Lu](http://ivg.au.tsinghua.edu.cn/Jiwen_Lu/) <Br>
+[ECCV 2022] [[Pytorch-Code](https://github.com/zhjy2016/SPLUT)]  <Br> 
+[**SPLUT**]
+
+- **MuLUT: Cooperating Mulitple Look-Up Tables for Efficient Image Super-Resolution** <Br>
+[Jiacheng Li](https://ddlee-cn.github.io/), Chang Chen, Zhen Cheng, [Zhiwei Xiong](http://staff.ustc.edu.cn/~zwxiong/) <Br>
+[ECCV 2022] [[Project](https://mulut.pages.dev/)] [[Pytorch-Code](https://github.com/ddlee-cn/MuLUT)]  <Br> 
+
+- **Adaptive Patch Exiting for Scalable Single Image Super-Resolution** <Br>
+Shizun Wang, Jiaming Liu, Kaixin Chen, Xiaoqi Li, Ming Lu, Yandong Guo <Br>
+[ECCV 2022 Oral] [[Pytorch-Code](https://github.com/littlepure2333/APE)]  <Br> 
+[**APE**]
+
+- **Reference-based Image Super-Resolution with Deformable Attention Transformer** <Br>
 [Jiezhang Cao](https://www.jiezhangcao.com/), [Jingyun Liang](https://jingyunliang.github.io/), [Kai Zhang](https://cszn.github.io/), [Yawei Li](https://ofsoundof.github.io/), [Yulun Zhang](https://yulunzhang.com/), [Wenguan Wang](http://homepage.hit.edu.cn/wangmengzuo), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
 [ECCV 2022] [[Pytorch-Code](https://github.com/caojiezhang/DATSR)]  <Br> 
 [**DATSR**]
@@ -35,6 +82,10 @@ Youwei Li, [Haibin Huang](https://brotherhuang.github.io/), Lanpeng Jia, Haoqian
 - **MM-RealSR: Metric Learning based Interactive Modulation for Real-World Super-Resolution** <Br>
 Chong Mou, Yanze Wu, [Xintao Wang](https://xinntao.github.io/), Chao Dong, [Jian Zhang](https://jianzhang.tech/), Ying Shan <Br>
 [ECCV 2022] [[Pytorch-Code](https://github.com/TencentARC/MM-RealSR)]   <Br>
+
+- **RepSR: Training Efficient VGG-style Super-Resolution Networks with Structural Re-Parameterization and Batch Normalization** <Br>
+[Xintao Wang](https://xinntao.github.io/), [Chao Dong](http://xpixel.group/), Ying Shan <Br>
+[MM 2022] [[Pytorch-Code](https://github.com/TencentARC/RepSR)] <Br>
 
 - **Details or Artifacts: A Locally Discriminative Learning Approach to Realistic Image Super-Resolution** <Br>
 [Jie Liang](https://liangjie.xyz/), [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>

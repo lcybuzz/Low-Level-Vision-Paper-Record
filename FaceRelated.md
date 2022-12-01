@@ -8,6 +8,10 @@ Face Restoration and Super-Resolution and other related topics. **Archived**
 
 
 # Face Restoration
+- **VQFR: Blind Face Restoration with Vector-Quantized Dictionary and Parallel Decoder**  <Br>
+[Yuchao Gu](https://ycgu.site/), [Xintao Wang](https://xinntao.github.io/), [Liangbin Xie](https://liangbinxie.github.io/), [Chao Dong](http://xpixel.group/]), Gen Li, Ying Shan, [Ming-Ming Cheng](https://mmcheng.net/cmm/) <Br>
+[ECCV 2022 Oral] [[Project](https://ycgu.site/projects/vqfr/)] [[Pytorch-Code](https://github.com/TencentARC/VQFR)] <Br>
+
 - **RestoreFormer: High-Quality Blind Face Restoration from Undegraded Key-Value Pairs**  <Br>
 Zhouxia Wang, [Jiawei Zhang](https://sites.google.com/site/zhjw1988), [Runjian Chen](https://www.rjchen.site/), Wenping Wang, [Ping Luo](http://luoping.me/) <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/wzhouxiff/RestoreFormer)] <Br>
