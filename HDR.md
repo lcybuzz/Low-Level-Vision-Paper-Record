@@ -387,10 +387,16 @@ Aakanksha Rana, Praveer Singh, [Giuseppe Valenzise](https://l2s.centralesupelec.
 Zhetong Liang, [Jun Xu](https://csjunxu.github.io/), [David Zhang](http://www4.comp.polyu.edu.hk/~csdzhang/), Zisheng Cao, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/)<Br>
 [CVPR 2018] [[Code](https://github.com/csjunxu/L1-L0-Tone-mapping)]	<Br>
 [★] l1约束base layer, l0约束detail layer
-	
+
+- **Local Laplacian Filters: Edge-aware Image Processing with a Laplacian Pyramid**  <Br>
+[Sylvain Paris](http://people.csail.mit.edu/sparis/), [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Jan Kautz](https://jankautz.com/) <Br>
+[SIGGRAPH 2011] [[Project](http://people.csail.mit.edu/sparis/publi/2011/siggraph/)] <Br>
+**Related** [[Fast Local Laplacian Filters]](http://imagine.enpc.fr/~aubrym/projects/llf/index.html)  <Br>
+[**LLF**] [★★★] 著名的LLF, 可用于多个任务, tone mapping中用的也很多.
+
 - **Photographic tone reproduction for digital images**  <Br>
 [Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
-[TOG 2002] <Br>
+[TOG 2002]  <Br>
 [★★☆] 1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
 
 	
