@@ -87,11 +87,6 @@ Chong Mou, Yanze Wu, [Xintao Wang](https://xinntao.github.io/), Chao Dong, [Jian
 [Xintao Wang](https://xinntao.github.io/), [Chao Dong](http://xpixel.group/), Ying Shan <Br>
 [MM 2022] [[Pytorch-Code](https://github.com/TencentARC/RepSR)] <Br>
 
-- **Details or Artifacts: A Locally Discriminative Learning Approach to Realistic Image Super-Resolution** <Br>
-[Jie Liang](https://liangjie.xyz/), [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
-[CVPR 2022] [[Pytorch-Code](https://github.com/csjliang/LDL)]   <Br>
-[**LDL**]
-
 - **Discrete Cosine Transform Network for Guided Depth Map Super-Resolution** <Br>
 [Zixiang Zhao](https://zhaozixiang1228.github.io/), [Jiangshe Zhang](http://gr.xjtu.edu.cn/web/jszhang), [Shuang Xu](http://shuangxu96.github.io/), [Zudi Lin](https://zudi-lin.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/people) <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/Zhaozixiang1228/GDSR-DCTNet)]   <Br>

@@ -15,6 +15,11 @@
 # HDR
 ## Multi-Frame HDR
 
+- **Joint HDR Denoising and Fusion: A Real-World Mobile HDR Image Dataset** <Br>
+Shuaizheng Liu, Xindong Zhang, Lingchen Sun, Zhetong Liang, [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
+[CVPR 2023] [[Code](https://github.com/shuaizhengliu/Joint-HDRDN)] <Br>
+[oppo]
+
 - **TransMEF: A Transformer-Based Multi-Exposure Image Fusion Framework via Self-Supervised Multi-Task Learning** <Br>
 [Linhao Qu])https://linhao-qu.github.io/, Shaolei Liu, Manning Wang, Zhijian Song <Br>
 [AAAI 2022] [[Pytorch-Code](https://github.com/miccaiif/TransMEF)] <Br>
@@ -340,7 +345,7 @@ Yongjie Piao, Guang Jin  <Br>
 - **Exposure Fusion** <Br>
 [Tom Mertens](http://www.mericam.net/), [Jan Kautz](https://jankautz.com/), Frank Van Reeth<Br>
 [PG 2007] [[Project](https://mericam.github.io/exposure_fusion/index.html)] <Br>
-[★★☆] contrast, saturation, well-exposedness三个加权得到weight map. 将图像用拉普拉斯金字塔分解, weight用高斯金字塔分解, 在多个尺度融合.
+[★★★] [**MEF**] contrast, saturation, well-exposedness三个加权得到weight map. 将图像用拉普拉斯金字塔分解, weight用高斯金字塔分解, 在多个尺度融合.
 
 - **High Dynamic Range Video** <Br>
 [Sing Bing Kang](http://www.singbingkang.com/), [Matthew Uyttendaele](https://research.facebook.com/people/uyttendaele-matt/), [Simon Winder](http://simonwinder.com/), [Richard Szeliski](http://szeliski.org/RichardSzeliski.htm)  <Br>
@@ -393,6 +398,12 @@ Zhetong Liang, [Jun Xu](https://csjunxu.github.io/), [David Zhang](http://www4.c
 [SIGGRAPH 2011] [[Project](http://people.csail.mit.edu/sparis/publi/2011/siggraph/)] <Br>
 **Related** [[Fast Local Laplacian Filters]](http://imagine.enpc.fr/~aubrym/projects/llf/index.html)  <Br>
 [**LLF**] [★★★] 著名的LLF, 可用于多个任务, tone mapping中用的也很多.
+
+- **Tone-mapping high dynamic range images by novel histogram adjustment**  <Br>
+Jiang Duan, Marco Bressan, Chris Dance, [Guoping Qiu](http://www.cs.nott.ac.uk/~pszqiu/)  <Br>
+[PR 2010] <Br>
+[**HALEQ**] [**ALHA**] [★★]
+
 
 - **Photographic tone reproduction for digital images**  <Br>
 [Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
