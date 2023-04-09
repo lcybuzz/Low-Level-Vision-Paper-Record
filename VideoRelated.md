@@ -180,6 +180,11 @@ Dario Fuoli, [Shuhang Gu](https://shuhanggu.github.io/), [Radu Timofte](https://
 	
 	
 # Frame Interpolation
+- **Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation** <Br>
+Guozhen Zhang, Yuhan Zhu, Haonan Wang, Youxin Chen, [Gangshan Wu](http://mcg.nju.edu.cn/member/gswu/en/index.html), [Limin Wang](http://wanglimin.github.io/) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/MCG-NJU/EMA-VFI)]<Br>
+[**EMA-VFI**]
+
 - **Beyond a Video Frame Interpolator: A Space Decoupled Learning Approach to Continuous Image Transition** <Br>
 [Tao Yang](https://cg.cs.tsinghua.edu.cn/people/~tyang/), Peiran Ren, Xuansong Xie, Xiansheng Hua, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 [arXiv 2203] [[Pytorch-Code](https://github.com/yangxy/sdl)]<Br>
@@ -504,6 +509,10 @@ Zongsheng Yue, [Jianwen Xie](http://www.stat.ucla.edu/~jxie/), Qian Zhao, [Deyu 
 [CVPR 2021] <Br>
 
 
+# Video Deflicker
+- **Blind Video Deflickering by Neural Filtering with a Flawed Atlas** <Br>
+[Chenyang Lei](https://chenyanglei.github.io/), [Xuanchi Ren](https://xuanchiren.com/), [Zhaoxiang Zhang](https://zhaoxiangzhang.net/), [Qifeng Chen](https://cqf.io/) <Br>
+[CVPR 2023] [[Project](https://chenyanglei.github.io/deflicker/)] [[Pytorch-Code](https://github.com/ChenyangLEI/All-in-one-Deflicker)]<Br>
 
 
 # Video Inpainting

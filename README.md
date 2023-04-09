@@ -129,9 +129,7 @@
     - [[Deblurring](https://github.com/subeeshvasu/Awesome-Deblurring)]
     - [[SimDeblur](https://github.com/ljzycmd/SimDeblur)] 多个deep-learning based图像和视频去模糊Pytorch代码实现
 
-    - [[Dehazing](https://github.com/cxtalk/DehazeZoo)]
-
-    - [[Denoising](https://paperswithcode.com/task/image-denoising?page=2)] [[Denoising with codes](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)]
+    - [[Denoising with codes](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)]
 
 ## Codes
 - [[各种对比度增强算法代码 Matlab](https://github.com/baidut/OpenCE)]
@@ -140,6 +138,7 @@
 ## 博客/专栏/资讯
 - [[传统图像质量增强的系列blog-1](https://www.cnblogs.com/Imageshop/category/535367.html)]
 - [[传统图像质量增强的系列blog-2](https://blog.csdn.net/maozefa/article/list/1)]
+- [[图像处理相关](https://blog.csdn.net/aoman_hao/category_9353856.html?spm=1001.2014.3001.5482)]
 - [无法抗拒的图像技术](https://www.zhihu.com/column/sining)
 - [All in Camera](https://www.zhihu.com/column/allincamera)
 - [Color Image Processing](https://www.zhihu.com/column/ColorImageProcessing)

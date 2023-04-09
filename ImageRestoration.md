@@ -11,6 +11,10 @@
 
 
 # Image Restoration
+- **Contrastive Semi-supervised Learning for Underwater Image Restoration via Reliable Bank**  <Br>
+Shirui Huang, Keyan Wang, Huan Liu, [Jun Chen](https://www.ece.mcmaster.ca/~junchen/), Yunsong Li <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/Huang-ShiRui/Semi-UIR)] <Br>
+
 - **TAPE: Task-Agnostic Prior Embedding for Image Restoration**  <Br>
 [Lin Liu](http://home.ustc.edu.cn/~ll0825/), [Lingxi Xie](https://lingxixie.com/Home.html), [Xiaopeng Zhang](https://sites.google.com/site/zxphistory/), [Shanxin Yuan](https://shanxinyuan.github.io/), [Xiangyu Chen](https://chxy95.github.io/), [Wengang Zhou](http://staff.ustc.edu.cn/~zhwg/), [Houqiang Li](http://staff.ustc.edu.cn/~lihq/), Qi Tian <Br>
 [ECCV 2022] [[Project](http://home.ustc.edu.cn/~ll0825/project_TAPE.html)] <Br>
@@ -178,6 +182,11 @@ Xin Li, Xin Jin, [Jianxin Lin](http://home.ustc.edu.cn/~linjx/), Tao Yu, Sen Liu
 [CVPR 2020 Oral] [[Project](http://raywzy.com/Old_Photo/)] <Br>
 [★★☆] **(无监督, domain transfer)**  无监督老照片恢复, 用生成的老照片训练, 在真实老照片上取得好效果. 使用一个VAE将真实和生成的照片映射到相近的空间, 第二个VAE负责恢复无损照片, 中间还有一些映射等操作. 
 
+- **Fast Underwater Image Enhancement for Improved Visual Perception** <Br>
+[Md Jahidul Islam](https://xahidbuffon.github.io/), [Youya Xia](https://www.xiayouya.com/), [Junaed Sattar](https://junaedsattar.cs.umn.edu/)  <Br>
+[RAL 2020] [[Code](https://github.com/xahidbuffon/FUnIE-GAN)]   <Br>
+[**FUnIE-GAN**] [★] encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉质量. 提出了一个水下图像数据集.
+
 - **Dual Residual Networks Leveraging the Potential of Paired Operations for Image Restoration** <Br>
 Xing Liu, [Masanori Suganuma](https://sites.google.com/site/suganumamasanori/eng), Zhun Sun, Takayuki Okatani<Br>
 [CVPR 2019] [[Code](https://github.com/liu-vis/DualResidualNetworks)]  <Br>
@@ -192,7 +201,6 @@ Xing Liu, [Masanori Suganuma](https://sites.google.com/site/suganumamasanori/eng
 Jingwen He, Chao Dong, [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/)  <Br>
 [CVPR 2019] [[Pytorch-Code](https://github.com/hejingwenhejingwen/AdaFM)]   <Br>
 [**AdaFM**] [★☆] **(控制restoration level)**	提出了一个AdaFM模块, 用于控制网络对图像的修复程度. AdaFM模块实际上就是一个dw conv层, 通过手动控制该层的权重, 达到控制修复程度的目的. 论文这么做是基于两个发现: 1) 对于不同restoration level, 网络提取的visual patterns是相似的, 只是weights不同; 2)调整网络内部参数对输出的影响是连续的.
-	
 
 - **CFSNet: Toward a Controllable Feature Space for Image Restoration** <Br>
 Wei Wang, Ruiming Guo, [Yapeng Tian](http://yapengtian.org/), Wenming Yang<Br>

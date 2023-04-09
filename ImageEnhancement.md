@@ -78,11 +78,6 @@ Taeyoung Son, Juwon Kang, Namyup Kim, [Sunghyun Cho](https://www.scho.pe.kr/), [
 [ICLR 2020] [[Pytorch-Code](https://github.com/sjmoran/neural_curve_layers)]  <Br>
 [★] 在LAB, RGB, HSV三个空间预测curve
 
-- **Fast Underwater Image Enhancement for Improved Visual Perception** <Br>
-[Md Jahidul Islam](https://xahidbuffon.github.io/), [Youya Xia](https://www.xiayouya.com/), [Junaed Sattar](https://junaedsattar.cs.umn.edu/)  <Br>
-[RAL 2020] [[Code](https://github.com/xahidbuffon/FUnIE-GAN)]   <Br>
-[**FUnIE-GAN**] [★] encoder-decoder结构, 使用了几个目标函数从各方面增强图像视觉质量. 提出了一个水下图像数据集.
-
 - **Content-preserving Tone Adjustment for Image Enhancement** <Br>
 [Simone Bianco](http://www.ivl.disco.unimib.it/people/simone-bianco/), [Claudio Cusano](http://www.ivl.disco.unimib.it/people/claudio-cusano/), [Flavio Piccoli](http://www.ivl.disco.unimib.it/people/flavio-piccoli/), [Raimondo Schettini](http://www.ivl.disco.unimib.it/people/raimondo-schettini/)  <Br>
 [CVPRW 2019] [[PyTorch-Code](https://github.com/dros1986/content-preserving-tone-adjustment-for-image-enhancement)]   <Br>
