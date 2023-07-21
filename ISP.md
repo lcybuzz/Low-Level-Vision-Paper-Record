@@ -5,6 +5,10 @@
 
 
 ## ISP
+- **Make the Most Out of Your Net: Alternating Between Canonical and Hard Datasets for Improved Image Demosaicing** <Br>
+Yuval Becker, Raz Z. Nossek, Tomer Peleg <Br>
+[arXiv 2303] <Br>
+
 - **Transform your Smartphone into a DSLR Camera: Learning the ISP in the Wild** <Br>
 Ardhendu Shekhar Tripathi, [Martin Danelljan](https://martin-danelljan.github.io/), Samarth Shukla, [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
 [ECCV 2022] [[Code](https://github.com/4rdhendu/TransformPhone2DSLR)] <Br>
@@ -70,7 +74,7 @@ Andrey Ignatov, Luc Van Gool, Radu Timofte  <Br>
 [**PyNet**] [★] 1) 提出了一个端到端的深度学习网络, 用以代替现有的ISP处理流程. 2) 提出了一个华为P20 RAW 和Canon 5D的RAW-RGB图像对, 用以训练ISP模型. 3) 提出的算法与自带的ISP流程相比, 色彩上有一定提升, 但没有明显优势, 且存在晕影. 另外速度也是个问题. 因此对于用一个DL模型代替ISP流程的方案可行性还是有待确认. <Br>
 
 - **Rethinking Learning-based Demosaicing, Denoising, and Super-Resolution Pipeline**  <Br>
-[Guocheng Qian](https://www.gcqian.com/), [Jinjin Gu](http://www.jasongt.com/), [Jimmy Ren](http://www.jimmyren.com/), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html), Furong Zhao, Juan Lin <Br>
+[Guocheng Qian](https://guochengqian.github.io/), Yuanhao Wang, [Jinjin Gu](http://www.jasongt.com/), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html), [Wolfgang Heidrich](https://vccimaging.org/People/heidriw/), [Bernard Ghanem](https://www.bernardghanem.com/), [Jimmy S. Ren](http://www.jimmyren.com/) <Br>
 [ICCP 2022] [[Pytorch-Code](https://github.com/guochengqian/TENet)] <Br>
 [**TENet**] [★] 1. 使用具有pixel shift技术的相机收集了一可以做demoasic的数据集, 避免了用普通RGB数据做真值时内置demoasic过程带来的误差. 2. 提出了一端到端的demosaic, 去噪和超分的网络, 采用residual + dense block的形式, 没什么特别的
 
@@ -112,6 +116,11 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
   
 
 # AWB
+- **Auto White-Balance Correction for Mixed-Illuminant Scenes** <Br>
+[Mahmoud Afifi](https://sites.google.com/corp/view/mafifi), [Marcus A. Brubaker](https://mbrubake.github.io/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)  <Br>
+[WACV 2022] [[Pytorch-Code](https://github.com/mahmoudnafifi/mixedillWB)] <Br>
+[★] 在srgb图像上的awb, 用于修正混合光源的awb不准问题. 预设一些固定的awb参数, 用网络预测预设参数的权重.
+
 - **Cross-Camera Convolutional Color Constancy** <Br>
 [Mahmoud Afifi](https://sites.google.com/corp/view/mafifi), [Jonathan T. Barron](https://jonbarron.info/), [Chloe LeGendre](http://www.chloelegendre.com/), [Yun-Ta Tsai](https://research.google/people/105312/), [Francois Bleibel](https://www.linkedin.com/in/fbleibel/)  <Br>
 [ICCV 2021] [[Pytorch-Code](https://github.com/mahmoudnafifi/C5)] <Br>
