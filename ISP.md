@@ -1,14 +1,11 @@
 # Table of Contents
 - [ISP](#isp)
 - [AWB](#awb)
+- [Demosaicing](#demosaicing)
 - [Misc](#misc)
 
 
 ## ISP
-- **Make the Most Out of Your Net: Alternating Between Canonical and Hard Datasets for Improved Image Demosaicing** <Br>
-Yuval Becker, Raz Z. Nossek, Tomer Peleg <Br>
-[arXiv 2303] <Br>
-
 - **Transform your Smartphone into a DSLR Camera: Learning the ISP in the Wild** <Br>
 Ardhendu Shekhar Tripathi, [Martin Danelljan](https://martin-danelljan.github.io/), Samarth Shukla, [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
 [ECCV 2022] [[Code](https://github.com/4rdhendu/TransformPhone2DSLR)] <Br>
@@ -73,16 +70,6 @@ Andrey Ignatov, Luc Van Gool, Radu Timofte  <Br>
 [CVPR 2020] [[Code](https://github.com/aiff22/pynet)] <Br>
 [**PyNet**] [★] 1) 提出了一个端到端的深度学习网络, 用以代替现有的ISP处理流程. 2) 提出了一个华为P20 RAW 和Canon 5D的RAW-RGB图像对, 用以训练ISP模型. 3) 提出的算法与自带的ISP流程相比, 色彩上有一定提升, 但没有明显优势, 且存在晕影. 另外速度也是个问题. 因此对于用一个DL模型代替ISP流程的方案可行性还是有待确认. <Br>
 
-- **Rethinking Learning-based Demosaicing, Denoising, and Super-Resolution Pipeline**  <Br>
-[Guocheng Qian](https://guochengqian.github.io/), Yuanhao Wang, [Jinjin Gu](http://www.jasongt.com/), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html), [Wolfgang Heidrich](https://vccimaging.org/People/heidriw/), [Bernard Ghanem](https://www.bernardghanem.com/), [Jimmy S. Ren](http://www.jimmyren.com/) <Br>
-[ICCP 2022] [[Pytorch-Code](https://github.com/guochengqian/TENet)] <Br>
-[**TENet**] [★] 1. 使用具有pixel shift技术的相机收集了一可以做demoasic的数据集, 避免了用普通RGB数据做真值时内置demoasic过程带来的误差. 2. 提出了一端到端的demosaic, 去噪和超分的网络, 采用residual + dense block的形式, 没什么特别的
-
-- **End-to-End Learning for Joint Image Demosaicing, Denoising and Super-Resolution**  <Br>
-Wenzhu Xing, [Karen Egiazarian](https://www.tuni.fi/en/karen-eguiazarian) <Br>
-[CVPR 2021] [[Pytorch-Code](https://github.com/xingwz/End-to-End-JDNDMSR)] <Br>
-[★] 一个网络联合做demosaic, 去噪和超分, 退化很简单, 没在真实数据上实验.
-
 - **Generating Training Data for Denoising Real RGB Images via Camera Pipeline Simulation**  <Br>
 [Ronnachai Jaroensri](http://people.csail.mit.edu/tiam/), Camille Biscarrat, [Miika Aittala](https://people.csail.mit.edu/miika/), [Frédo Durand](https://people.csail.mit.edu/fredo/) <Br>
 [arXiv 1904] [[Project](http://people.csail.mit.edu/tiam/camera_sim/)] [[Pytorch-Code](https://github.com/12dmodel/camera_sim)] <Br>
@@ -111,8 +98,7 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
 - **A Software Platform for Manipulating the Camera Imaging Pipeline**  <Br>
 [Hakki Can Karaimer](https://karaimer.github.io/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
 [CVPR 2016] [[Project](https://karaimer.github.io/camera-pipeline/)]  <Br> 
-  
- 
+
   
 
 # AWB
@@ -155,7 +141,37 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
 [★★]
 
 
+# Demosaicing
+- **Make the Most Out of Your Net: Alternating Between Canonical and Hard Datasets for Improved Image Demosaicing** <Br>
+Yuval Becker, Raz Z. Nossek, Tomer Peleg <Br>
+[arXiv 2303] <Br>
+[★] samsung以色列研究院的文章, 提出了一个训练demosaicing的策略: 1) 先用普通数据集训练网络, 根据指标挑出难样本; 2) 将难样本与全部数据交替训练. 在RGB域做的
 
+- **Rethinking Learning-based Demosaicing, Denoising, and Super-Resolution Pipeline**  <Br>
+[Guocheng Qian](https://guochengqian.github.io/), Yuanhao Wang, [Jinjin Gu](http://www.jasongt.com/), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html), [Wolfgang Heidrich](https://vccimaging.org/People/heidriw/), [Bernard Ghanem](https://www.bernardghanem.com/), [Jimmy S. Ren](http://www.jimmyren.com/) <Br>
+[ICCP 2022] [[Pytorch-Code](https://github.com/guochengqian/TENet)] <Br>
+[**TENet**] [★★] 1. 使用具有pixel shift技术的相机收集了一可以做demoasic的数据集, 避免了用普通RGB数据做真值时内置demoasic过程带来的误差. 2. 提出了一端到端的demosaic, 去噪和超分的网络, 采用residual + dense block的形式, 没什么特别的
+
+- **Searching for Fast Demosaicking Algorithms**  <Br>
+[Karima Ma](https://people.csail.mit.edu/karima/home.html), [Michael Gharbi](http://www.mgharbi.com/), Andrew Adams, [Shoaib Kamil](http://people.csail.mit.edu/skamil/), [Tzu-Mao Li](https://cseweb.ucsd.edu/~tzli/), [Connelly Barnes](http://www.connellybarnes.com/work/), [Jonathan Ragan-Kelley](https://people.csail.mit.edu/jrk/) <Br>
+[TOG 2022] <Br>
+NAS搜索demosacing网络结构
+
+- **End-to-End Learning for Joint Image Demosaicing, Denoising and Super-Resolution**  <Br>
+Wenzhu Xing, [Karen Egiazarian](https://www.tuni.fi/en/karen-eguiazarian) <Br>
+[CVPR 2021] [[Pytorch-Code](https://github.com/xingwz/End-to-End-JDNDMSR)] <Br>
+[★] 一个网络联合做demosaic, 去噪和超分, 退化很简单, 没在真实数据上实验.
+
+- **A Compact High-Quality Image Demosaicking Neural Network for Edge-Computing Devices**  <Br>
+Shuyu Wang, [Mingxin Zhao](https://jackgittes.github.io/), Runjiang Dou, Shuangming Yu, Liyuan Liu, Nanjian Wu <Br>
+[Sensor 2021] <Br>
+[★]
+
+- **Deep Joint Demosaicking and Denoising**  <Br>
+[Michaël Gharbi](http://www.mgharbi.com/), [Gaurav Chaurasia](https://gchauras.github.io/), [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Frédo Durand](http://people.csail.mit.edu/fredo/) <Br>
+[SIGGRAPH Asia 2016] [[Project](https://groups.csail.mit.edu/graphics/demosaicnet/)] [[Pytorch-Code](https://github.com/mgharbi/demosaicnet)] <Br>
+[★★] sRGB域用CNN端到端demosaicing, 重点是提出了难样本挖掘的策略, 用HDR-VDP2找到亮度上的artifact, 用频域上低频分量的增益找到moire artifact.
+[Hakki Can Karaimer](https://karaimer.github.io/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
 
 # Misc
 - **Improving Color Reproduction Accuracy on Cameras** <Br>

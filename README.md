@@ -41,7 +41,9 @@
     - [The Extended Yale Face Database B](http://vision.ucsd.edu/~iskwak/ExtYaleDatabase/ExtYaleB.html) <Br>
 
 - Super Resolution
-    - [DIV2k](https://data.vision.ee.ethz.ch/cvl/DIV2K/)  <Br>
+    - [DIV2k](https://data.vision.ee.ethz.ch/cvl/DIV2K/)  NTIRE17 (800 train and 100 validation) <Br>
+    - [Flicker2K](https://github.com/limbee/NTIRE2017)  NTIRE17 (2650 2K分辨率) <Br>
+    - [Urban100](https://github.com/jbhuang0604/SelfExSR) <Br>
 
 - Real Image Denoising
     - [DnD](https://noise.visinf.tu-darmstadt.de/)  <Br>
@@ -75,6 +77,11 @@
 - AWB
     - [GehlerShi](https://www2.cs.sfu.ca/~colour/data/shi_gehler/) <Br>
     - [CUBE+](https://ipg.fer.hr/ipg/resources/color_constancy) <Br>
+
+- Demosaicing releated
+    - [MIT moire](https://groups.csail.mit.edu/graphics/demosaicnet/dataset.html) <Br>
+    - [McMaster](https://groups.csail.mit.edu/graphics/demosaicnet/dataset.html) 18张RGB, 500x500, 一般用于测试 <Br>
+    - [Kodak](https://r0k.us/graphics/kodak/) 24张真全彩色RGB图像, 768x512, 一般用于测试<Br>
 
 ## Video datasets
 - [Vimeo-90k](http://toflow.csail.mit.edu/) 超分, 插帧,  30fps  <Br>
