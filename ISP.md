@@ -171,7 +171,6 @@ Shuyu Wang, [Mingxin Zhao](https://jackgittes.github.io/), Runjiang Dou, Shuangm
 [Michaël Gharbi](http://www.mgharbi.com/), [Gaurav Chaurasia](https://gchauras.github.io/), [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Frédo Durand](http://people.csail.mit.edu/fredo/) <Br>
 [SIGGRAPH Asia 2016] [[Project](https://groups.csail.mit.edu/graphics/demosaicnet/)] [[Pytorch-Code](https://github.com/mgharbi/demosaicnet)] <Br>
 [★★] sRGB域用CNN端到端demosaicing, 重点是提出了难样本挖掘的策略, 用HDR-VDP2找到亮度上的artifact, 用频域上低频分量的增益找到moire artifact.
-[Hakki Can Karaimer](https://karaimer.github.io/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
 
 # Misc
 - **Improving Color Reproduction Accuracy on Cameras** <Br>
