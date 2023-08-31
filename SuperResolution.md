@@ -4,9 +4,14 @@
 
 
 #  Image Super Resolution
+- **DeSRA: Detect and Delete the Artifacts of GAN-based Real-World Super-Resolution Models** <Br>
+[Liangbin Xie](https://liangbinxie.github.io/), [Xintao Wang](https://xinntao.github.io/), [Xiangyu Chen](https://chxy95.github.io/), Gen Li, Ying Shan, [Jiantao Zhou](https://www.fst.um.edu.mo/personal/jtzhou/), [Chao Dong](http://xpixel.group/) <Br>
+[ICLR 2023] [[Pytorch-Code](https://github.com/TencentARC/DeSRA)]   <Br>
+[**DeSRA**]
+
 - **Activating More Pixels in Image Super-Resolution Transformer** <Br>
-[Xiangyu Chen](https://chxy95.github.io/), [Xintao Wang](https://xinntao.github.io/), [Jiantao Zhou](https://www.fst.um.edu.mo/personal/jtzhou/), [Chao Dong](http://xpixel.group/]) <Br>
-[arXiv 2205] [[Pytorch-Code](https://github.com/XPixelGroup/HAT)]   <Br>
+[Xiangyu Chen](https://chxy95.github.io/), [Xintao Wang](https://xinntao.github.io/), [Jiantao Zhou](https://www.fst.um.edu.mo/personal/jtzhou/), [Chao Dong](http://xpixel.group/) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/XPixelGroup/HAT)]   <Br>
 [**HAT**] 
 
 - **Simple Baselines for Image Restoration** <Br>
@@ -82,6 +87,10 @@ Youwei Li, [Haibin Huang](https://brotherhuang.github.io/), Lanpeng Jia, Haoqian
 - **MM-RealSR: Metric Learning based Interactive Modulation for Real-World Super-Resolution** <Br>
 Chong Mou, Yanze Wu, [Xintao Wang](https://xinntao.github.io/), Chao Dong, [Jian Zhang](https://jianzhang.tech/), Ying Shan <Br>
 [ECCV 2022] [[Pytorch-Code](https://github.com/TencentARC/MM-RealSR)]   <Br>
+
+- **Restore Globally, Refine Locally: A Mask-Guided Scheme to Accelerate Super-Resolution Networks** <Br>
+Xiaotao Hu, [Jun Xu](https://csjunxu.github.io/), Shuhang Gu, [Ming-Ming Cheng](https://mmcheng.net/cmm/), Li Liu <Br>
+[ECCV 2022 Oral] [[Pytorch-Code](https://github.com/huxiaotaostasy/MGA-scheme)]   <Br>
 
 - **RepSR: Training Efficient VGG-style Super-Resolution Networks with Structural Re-Parameterization and Batch Normalization** <Br>
 [Xintao Wang](https://xinntao.github.io/), [Chao Dong](http://xpixel.group/), Ying Shan <Br>

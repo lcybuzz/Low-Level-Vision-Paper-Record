@@ -2,7 +2,10 @@
 - [ISP](#isp)
 - [AWB](#awb)
 - [Demosaicing](#demosaicing)
+    - [Deep Learning Methods](#deep-learning-methods)
+    - [Traditional Methods](#traditional-methods)
 - [Misc](#misc)
+- [Resources](#resources)
 
 
 ## ISP
@@ -142,6 +145,7 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
 
 
 # Demosaicing
+## Deep Learning Methods
 - **Make the Most Out of Your Net: Alternating Between Canonical and Hard Datasets for Improved Image Demosaicing** <Br>
 Yuval Becker, Raz Z. Nossek, Tomer Peleg <Br>
 [arXiv 2303] <Br>
@@ -172,8 +176,17 @@ Shuyu Wang, [Mingxin Zhao](https://jackgittes.github.io/), Runjiang Dou, Shuangm
 [SIGGRAPH Asia 2016] [[Project](https://groups.csail.mit.edu/graphics/demosaicnet/)] [[Pytorch-Code](https://github.com/mgharbi/demosaicnet)] <Br>
 [★★] sRGB域用CNN端到端demosaicing, 重点是提出了难样本挖掘的策略, 用HDR-VDP2找到亮度上的artifact, 用频域上低频分量的增益找到moire artifact.
 
+## Traditional Methods
+- **Adaptive homogeneity-directed demosaicing algorithm**  <Br>
+K Hirakawa, TW Parks <Br>
+[TIP 2005] <Br>
+[**AHD**] [★★]
+
 # Misc
 - **Improving Color Reproduction Accuracy on Cameras** <Br>
 [Thomas Eboli](https://teboli.github.io/), [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/), [Gabriele Facciolo](http://dev.ipol.im/~facciolo/) <Br>
 [ECCV 2022] [[Project](https://teboli.github.io/fast_optical.html)] [[Pytorch-Code](https://github.com/teboli/fast_two_stage_psf_correction)] <Br> 
 
+
+# Resources
+- [Demosaic Codes](https://github.com/colour-science/colour-demosaicing)

@@ -162,3 +162,9 @@
 - [[Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI)] Image & GIF & Video Super-Resolution and Video Frame Interpolation using DNNs
 
 - [[Photons to Photos](https://www.photonstophotos.net/index.htm)]
+
+- [[Colour Science for Python]](https://github.com/colour-science/colour)
+
+- [[数据增强albumentations]](https://github.com/albumentations-team/albumentations)
+
+- [[RawTherapee]](https://github.com/Beep6581/RawTherapee)
