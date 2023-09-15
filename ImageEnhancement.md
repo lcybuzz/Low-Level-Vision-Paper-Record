@@ -9,6 +9,10 @@
 [ICML 2023] [[PyTorch-Code](https://github.com/Ysz2022/NeRCo)]   <Br>
 [**NeRCo**]
 
+- **Controllable Image Enhancement** <Br>
+[Heewon Kim](https://sites.google.com/view/kimheewon/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
+[arXiv 2206] 
+
 - **You Only Need 90K Parameters to Adapt Light: A Light Weight Transformer for Image Enhancement and Exposure Correction** <Br>
 [Ziteng Cui](https://cuiziteng.github.io/), Kunchang Li, [Lin Gu](https://sites.google.com/view/linguedu/home), Shenghan Su, [Peng Gao](https://gaopengpjlab.github.io/), [Zhengkai Jiang](https://jiangzhengkai.github.io/), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao), [Tatsuya Harada](https://www.mi.t.u-tokyo.ac.jp/harada/) <Br>
 [BMVC 2022] [[PyTorch-Code](https://github.com/cuiziteng/Illumination-Adaptive-Transformer)]   <Br>
@@ -16,6 +20,16 @@
 - **CLUT-Net: Learning Adaptively Compressed Representations of 3DLUTs for Lightweight Image Enhancement** <Br>
 Fengyi Zhang, [Hui Zeng](https://huizeng.github.io/), [Tianjun Zhang](https://github.com/z619850002), [Lin Zhang](https://cslinzhang.gitee.io/home/) <Br>
 [MM 2022] [[PyTorch-Code](https://github.com/Xian-Bei/CLUT-Net)]   <Br>
+
+- **Neural Color Operators for Sequential Image Retouching** <Br>
+Yili Wang, Xin Li, [Kun Xu], Dongliang He, Qi Zhang, Fu Li, Errui Ding <Br>
+[ECCV 2022] [[PyTorch-Code](https://github.com/amberwangyili/neurop)]   <Br>
+[★★] 用lightroom的3个算子生成gt, 训练独立的色彩模块. 再用一个轻量级强度预测网络控制几个字模块的增强幅度.
+
+- **SepLUT: Separable Lookup Tables for Real-time Image Enhancement** <Br>
+Canqian Yang, [Meiguang Jin](https://meiguangjin.github.io/), [Yi Xu](https://317lab.sjtu.edu.cn/), Rui Zhang, Ying Chen, Huaida Liu <Br>
+[ECCV 2022] [[PyTorch-Code](https://github.com/ImCharlesY/SepLUT)]   <Br>
+[★☆]  3个1d lut + 3d lut
 
 - **Exposure Correction Model to Enhance Image Quality** <Br>
 Fevziye Irem Eyiokur, Dogucan Yaman, [Hazım Kemal Ekenel](https://web.itu.edu.tr/ekenel/), [Alexander Waibel](https://isl.anthropomatik.kit.edu/english/21_74.php) <Br>
@@ -152,6 +166,10 @@ Long Ma, Tengyu Ma, [Risheng Liu](https://rsliu.tech/), Xin Fan, Zhongxuan Luo  
 [Yufei Wang](https://wyf0912.github.io/), [Renjie Wan](https://wanrenjie.github.io/), [Wenhan Yang](https://flyywh.github.io/), [Haoliang Li](https://hlli1991.github.io/), [Lap-pui Chau](https://personal.ntu.edu.sg/elpchau/), [Alex C. Kot](https://personal.ntu.edu.sg/eackot/index.html)     <Br>
 [AAAI 2022 Oral] [[Project](https://wyf0912.github.io/LLFlow/)] [[Pytorch-Code](https://github.com/wyf0912/LLFlow)] <Br>
 [**LLFLOW**]
+
+- **StarEnhancer: Learning Real-Time and Style-Aware Image Enhancement**  <Br>
+Yuda Song, Hui Qian, Xin Du <Br>
+[ICCV 2021] [[Pytorch-Code](https://github.com/IDKiro/StarEnhancer)] <Br>
 
 - **Restoring Extremely Dark Images in Real Time**  <Br>
  [Mohit Lamba](https://mohitlamba94.github.io/about-me/), [Kaushik Mitra](https://www.ee.iitm.ac.in/kmitra/) <Br>

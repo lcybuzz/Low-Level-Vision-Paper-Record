@@ -335,6 +335,11 @@ Rameen Abdal, Yipeng Qin, Peter Wonka <Br>
 
 
 # Style Transfer
+- **Neural Preset for Color Style Transfer** <Br>
+[Zhanghan Ke](https://zhke.io/), Yuhao Liu, Lei Zhu, Nanxuan Zhao, [Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/ZHKKKe/NeuralPreset)]  <Br>
+[**NeuralPreset**]
+
 - **Pastiche Master: Exemplar-Based High-Resolution Portrait Style Transfer** <Br>
 [Shuai Yang](https://williamyang1991.github.io/), [Liming Jiang](https://liming-jiang.com/), [Ziwei Liu](https://liuziwei7.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) <Br>
 [CVPR 2021] [[Pytorch-Code](https://github.com/williamyang1991/DualStyleGAN)]  <Br>
