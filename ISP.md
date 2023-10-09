@@ -6,6 +6,7 @@
     - [Traditional Methods](#traditional-methods)
 - [Misc](#misc)
 - [Resources](#resources)
+- [Articles](#articles)
 
 
 ## ISP
@@ -171,6 +172,11 @@ Shuyu Wang, [Mingxin Zhao](https://jackgittes.github.io/), Runjiang Dou, Shuangm
 [Sensor 2021] <Br>
 [★]
 
+- **HighEr-Resolution Network for Image Demosaicing and Enhancing**  <Br>
+[Kangfu Mei](https://kfmei.page/), [Juncheng Li](https://junchenglee.com/), Jiajie Zhang, Haoyu Wu, Jie Li, Rui Huang <Br>
+[ICCVW 2019] [[Pytorch-Code](https://github.com/MKFMIKU/RAW2RGBNet)] <Br>
+[★]
+
 - **Deep Joint Demosaicking and Denoising**  <Br>
 [Michaël Gharbi](http://www.mgharbi.com/), [Gaurav Chaurasia](https://gchauras.github.io/), [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Frédo Durand](http://people.csail.mit.edu/fredo/) <Br>
 [SIGGRAPH Asia 2016] [[Project](https://groups.csail.mit.edu/graphics/demosaicnet/)] [[Pytorch-Code](https://github.com/mgharbi/demosaicnet)] <Br>
@@ -187,6 +193,19 @@ K Hirakawa, TW Parks <Br>
 [Thomas Eboli](https://teboli.github.io/), [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/), [Gabriele Facciolo](http://dev.ipol.im/~facciolo/) <Br>
 [ECCV 2022] [[Project](https://teboli.github.io/fast_optical.html)] [[Pytorch-Code](https://github.com/teboli/fast_two_stage_psf_correction)] <Br> 
 
+- **Optical aberrations Correction in Postprocessing using Imaging Simulation** <Br>
+Shiqi Chen, Huajun Feng, Dexin Pan, Zhihai Xu, Qi Li, Yueting Chen <Br>
+[TOG 2021]<Br> 
+
+- **Removing chromatic aberration by digital image processing** <Br>
+SW Chung, BK Kim, WJ Song <Br>
+[Optical Engineering 2010] [[Unofficial-Cpp-Code](https://github.com/RayXie29/Chromatic_aberration_correction)]<Br> 
+[★★] (传统算法) 首先归纳了正常无color fringe的边缘过渡区域的性质, 即: 过渡区域的色差值(R-G, B-G)在过渡区域边缘色差值的范围内; 接下来先根据G找到边缘p, 在p附近根据梯度相似原则找到过渡区域边界lp和rp; 最后根据前面归纳的边缘性质, 去除过渡区域的色差
 
 # Resources
 - [Demosaic Codes](https://github.com/colour-science/colour-demosaicing)
+- [Unpurple](https://github.com/mjambon/purple-fringe)
+
+# Articles
+- [色差(Chromatic aberration)产生原理及去除](https://zhuanlan.zhihu.com/p/586260501)
+- [光学原理回顾：光学系統中重要的参数（四.色差·像差形式)](https://zhuanlan.zhihu.com/p/361330310)
