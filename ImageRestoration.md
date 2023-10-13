@@ -16,6 +16,27 @@
 [ICML 2023] [[Pytorch-Code](https://github.com/Algolzw/image-restoration-sde)] <Br>
 [**IC-SDE**]
 
+- **Parallel Diffusion Model of Operator and Image for Blind Inverse Problems**  <Br>
+[Hyungjin Chung](https://www.hj-chung.com/), [Jeongsol Kim](https://jeongsol.dev/), Sehui Kim, Jong Chul Ye <Br>
+[CVPR 2023] [[Project](https://blinddps.github.io/blind-dps-project/)] [[Pytorch-Code](https://github.com/BlindDPS/blind-dps)] <Br>
+
+- **GamutMLP - A Lightweight MLP for Color Loss Recovery**  <Br>
+[Hoang M. Le](https://hminle.com/) , [Brian Price](https://www.brianpricephd.com/), [Scott Cohen](https://research.adobe.com/person/scott-cohen/), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
+[CVPR 2023] [[Project](https://gamut-mlp.github.io/)] [[Pytorch-Code](https://github.com/hminle/gamut-mlp)] <Br>
+
+- **Document Image Shadow Removal Guided by Color-Aware Background**  <Br>
+Ling Zhang, Yinghao He, [Qing Zhang](http://zhangqing-home.net/), [Zheng Liu](https://labzhengliu.github.io/), Xiaolong Zhang, Chunxia Xiao <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/hyyh1314/BGShadowNet)] <Br>
+
+- **ShadowDiffusion: When Degradation Prior Meets Diffusion Model for Shadow Removal**  <Br>
+Lanqing Guo, Chong Wang, [Wenhan Yang](https://flyywh.github.io/), Siyu Huang, [Yufei Wang](https://wyf0912.github.io/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/), [Bihan Wen](https://personal.ntu.edu.sg/bihan.wen/#publication) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/GuoLanqing/ShadowDiffusion)] <Br>
+
+- **Efficient and Explicit Modelling of Image Hierarchies for Image Restoration**  <Br>
+[Yawei Li](https://ofsoundof.github.io/), [Yuchen Fan](https://ychfan.github.io/), [Xiaoyu Xiang](https://engineering.purdue.edu/people/xiaoyu.xiang.1), Denis Demandolx, Rakesh Ranjan, [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html)<Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/ofsoundof/GRL-Image-Restoration)] <Br>
+[**GRL**]
+
 - **Burstormer: Burst Image Restoration and Enhancement Transformer**  <Br>
 [Akshay Dudhane](https://iitrpr.cvpr.in/4/my_blog/), [Syed Waqas Zamir](http://www.waqaszamir.com/), [Salman Khan](https://salman-h-khan.github.io/), [Fahad Shahbaz Khan](https://sites.google.com/view/fahadkhans/home), [Ming-Hsuan Yang](http://faculty.ucmerced.edu/mhyang/) <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/akshaydudhane16/Burstormer)] <Br>
@@ -97,6 +118,15 @@ Jing Liu , Xin Wen, Weizhi Nie, Yuting Su, Peiguang Jing, Xiaokang Yang <Br>
 [Jiaxi Jiang](https://jiaxi-jiang.github.io/), [Kai Zhang](https://cszn.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
 [ICCV 2021] [[Pytorch-Code](https://github.com/jiaxi-jiang/FBCNN)] <Br>
 [**FBCNN**] 
+
+- **From Shadow Generation to Shadow Removal** <Br>
+Zhihao Liu, Hui Yin, Xinyi Wu, [Zhenyao Wu](http://zhenyaowu.com/), Yang Mi, [Song Wang](https://www.cse.sc.edu/~songwang/)<Br>
+[CVPR 2021] [[PyTorch-Code](https://github.com/hhqweasd/G2R-ShadowNet)]   <Br>
+[**G2R-ShadowNet**] 
+
+- **Auto-exposure fusion for single-image shadow removal** <Br>
+Lan Fu, Changqing Zhou, [Qing Guo](https://tsingqguo.github.io/), [Felix Juefei-Xu](http://xujuefei.com/), [Hongkai Yu](http://cis.csuohio.edu/~h.yu/), Wei Feng, [Yang Liu](https://personal.ntu.edu.sg/yangliu/), [Song Wang](https://www.cse.sc.edu/~songwang/) <Br>
+[CVPR 2021] [[PyTorch-Code](https://github.com/tsingqguo/exposure-fusion-shadow-removal)]   <Br>
 
 - **Dual Pixel Exploration: Simultaneous Depth Estimation and Image Restoration**  <Br>
  Liyuan Pan, Shah Chowdhury, [Richard Hartley](http://users.cecs.anu.edu.au/~hartley/), [Miaomiao Liu](http://users.cecs.anu.edu.au/~mliu/), [Hongguang Zhang](https://hongguangzhang.github.io/), [Hongdong Li](https://cecs.anu.edu.au/~hongdong) <Br>
@@ -423,6 +453,14 @@ Orest Kupyn, Volodymyr Budzan, Mykola Mykhailych, Dmytro Mishkin, Jiří Matas<B
 
 
 # Reflection Removal
+- **Nighttime Smartphone Reflective Flare Removal using Optical Center Symmetry Prior**  <Br>
+[Yuekun Dai](https://ykdai.github.io/), Yihang Luo, [Shangchen Zhou](https://shangchenzhou.com/), [Chongyi Li](https://li-chongyi.github.io/), [Chen Change Loy](https://personal.ie.cuhk.edu.hk/~ccloy/)<Br>
+[CVPR 2023] [[Project](https://ykdai.github.io/projects/BracketFlare)] [[Pytorch-Code](https://github.com/ykdai/BracketFlare)] <Br>
+
+- **Flare7K: A Phenomenological Nighttime Flare Removal Dataset**  <Br>
+[Yuekun Dai](https://ykdai.github.io/), [Chongyi Li](https://li-chongyi.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), [Ruicheng Feng](https://jnjaby.github.io/), [Chen Change Loy](https://personal.ie.cuhk.edu.hk/~ccloy/)<Br>
+[NeurIPS 2022] [[Project](https://ykdai.github.io/projects/Flare7K)] [[Pytorch-Code](https://github.com/ykdai/Flare7K)] <Br>
+
 - **How to Train Neural Networks for Flare Removal**  <Br>
 [Yicheng Wu](https://yichengwu.github.io/), Qiurui He, [Tianfan Xue](http://people.csail.mit.edu/tfxue/), [Rahul Garg](https://rahuldotgarg.appspot.com//), [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Ashok Veeraraghavan](https://computationalimaging.rice.edu/), [Jonathan T. Barron](https://jonbarron.info/)  <Br>
 [ICCV 2021] [[Project](https://yichengwu.github.io/flare-removal/)] [[TF2-Code](https://github.com/google-research/google-research/tree/master/flare_removal)] <Br>

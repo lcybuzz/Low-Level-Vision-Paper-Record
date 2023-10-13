@@ -39,15 +39,6 @@ Canqian Yang, [Meiguang Jin](https://meiguangjin.github.io/), [Xu Jia](https://s
 [Author][ Zhaoyang Zhang](https://zzyfd.github.io/#/), Yitong Jiang, Jun Jiang, [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Ping Luo](http://luoping.me/), [Jinwei Gu](https://www.gujinwei.org/) <Br>
 [ICCV 2021] <Br>
 
-- **From Shadow Generation to Shadow Removal** <Br>
-Zhihao Liu, Hui Yin, Xinyi Wu, [Zhenyao Wu](http://zhenyaowu.com/), Yang Mi, [Song Wang](https://www.cse.sc.edu/~songwang/)<Br>
-[CVPR 2021] [[PyTorch-Code](https://github.com/hhqweasd/G2R-ShadowNet)]   <Br>
-[**G2R-ShadowNet**] 
-
-- **Auto-exposure fusion for single-image shadow removal** <Br>
-Lan Fu, Changqing Zhou, [Qing Guo](https://tsingqguo.github.io/), [Felix Juefei-Xu](http://xujuefei.com/), [Hongkai Yu](http://cis.csuohio.edu/~h.yu/), Wei Feng, [Yang Liu](https://personal.ntu.edu.sg/yangliu/), [Song Wang](https://www.cse.sc.edu/~songwang/) <Br>
-[CVPR 2021] [[PyTorch-Code](https://github.com/tsingqguo/exposure-fusion-shadow-removal)]   <Br>
-
 - **Learning Multi-Scale Photo Exposure Correction** <Br>
 [Mahmoud Afifi](https://sites.google.com/view/mafifi), [Konstantinos G. Derpanis](https://www.cs.ryerson.ca/kosta/), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/people/bommer), [Michael S. Brown](http://www.cse.yorku.ca/~mbrown/) <Br>
 [CVPR 2021] [[PyTorch-Code](https://github.com/mahmoudnafifi/Exposure_Correction)]   <Br>
@@ -138,6 +129,11 @@ Michaël Gharbi, [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Jonathan T
 	
 	
 # Low-light Image Enhancement
+
+- **ExposureDiffusion: Learning to Expose for Low-light Image Enhancement** <Br>
+[Yufei Wang](https://wyf0912.github.io/), Yi Yu, [Wenhan Yang](https://flyywh.github.io/), Lanqing Guo, Lap-Pui Chau, Alex C. Kot, [Bihan Wen](https://personal.ntu.edu.sg/bihan.wen/#publication) <Br>
+[ICCV 2023] [[PyTorch-Code](https://github.com/wyf0912/ExposureDiffusion)]   <Br>
+
 - **Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement** <Br>
 [Yuanhao Cai](https://caiyuanhao1998.github.io/), [Hao Bian](https://bianhao123.github.io/), [Jing Lin](https://jinglin7.github.io/), [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq/), [Radu Timofte](https://www.informatik.uni-wuerzburg.de/computervision/), [Yulun Zhang](https://yulunzhang.com/) <Br>
 [CVPR 2023] [[PyTorch-Code](https://github.com/caiyuanhao1998/Retinexformero)]   <Br>

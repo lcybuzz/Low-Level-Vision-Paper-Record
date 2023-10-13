@@ -9,6 +9,14 @@
 
 # Image Denoising
 
+- **https://github.com/yuanzhi-zhu/DiffPIR** <Br>
+[Yuanzhi Zhu](https://yuanzhi-zhu.github.io/about/), [Kai Zhang](https://cszn.github.io/), Jingyun Liang, [Jiezhang Cao](https://www.jiezhangcao.com/), [Bihan Wen](https://personal.ntu.edu.sg/bihan.wen/#publication), [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
+[CVPR 2023] [[Project](https://yuanzhi-zhu.github.io/DiffPIR/)] [[Pytorch-Code](https://github.com/yuanzhi-zhu/DiffPIR)] <Br>
+
+- **sRGB Real Noise Synthesizing with Neighboring Correlation-Aware Noise Model** <Br>
+Zixuan Fu, Lanqing Guo, [Bihan Wen](https://personal.ntu.edu.sg/bihan.wen/#publication) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/xuan611/sRGB-Real-Noise-Synthesizing)] <Br>
+
 - **Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis** <Br>
 [Kai Zhang](https://cszn.github.io/), [Yawei Li](https://ofsoundof.github.io/), [Jingyun Liang](https://jingyunliang.github.io/), [Jiezhang Cao](https://www.jiezhangcao.com/), [Yulun Zhang](http://yulunzhang.com/), [Hao Tang](http://disi.unitn.it/~hao.tang/), [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html) <Br>
 [arXiv 2203] [[Pytorch-Code](https://github.com/cszn/SCUNet)] <Br>

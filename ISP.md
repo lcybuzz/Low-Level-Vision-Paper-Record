@@ -150,7 +150,7 @@ Haomiao Jiang, Qiyuan Tian, [Joyce Farrell](https://web.stanford.edu/group/scien
 - **Make the Most Out of Your Net: Alternating Between Canonical and Hard Datasets for Improved Image Demosaicing** <Br>
 Yuval Becker, Raz Z. Nossek, Tomer Peleg <Br>
 [arXiv 2303] <Br>
-[★] samsung以色列研究院的文章, 提出了一个训练demosaicing的策略: 1) 先用普通数据集训练网络, 根据指标挑出难样本; 2) 将难样本与全部数据交替训练. 在RGB域做的
+[★] samsung以色列研究院的文章, 提出了一个训练demosaicing的策略: 1) 先用普通数据集训练网络, 根据指标挑出难样本; 2) 将难样本与全部数据交替训练. 在非线性域做的
 
 - **Rethinking Learning-based Demosaicing, Denoising, and Super-Resolution Pipeline**  <Br>
 [Guocheng Qian](https://guochengqian.github.io/), Yuanhao Wang, [Jinjin Gu](http://www.jasongt.com/), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html), [Wolfgang Heidrich](https://vccimaging.org/People/heidriw/), [Bernard Ghanem](https://www.bernardghanem.com/), [Jimmy S. Ren](http://www.jimmyren.com/) <Br>
