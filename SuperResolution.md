@@ -4,6 +4,11 @@
 
 
 #  Image Super Resolution
+- **QuickSRNet: Plain Single-Image Super-Resolution Architecture for Faster Inference on Mobile Platforms** <Br>
+[Guillaume Berger](https://guberger.github.io/), Manik Dhingra, Antoine Mercier, Yashesh Savani, Sunny Panchal, [Fatih Porikli](https://www.porikli.com/)<Br>
+[CVPRW 2023]   <Br>
+[★☆] 高通, 轻量级SR, 去掉残差模块
+
 - **DeSRA: Detect and Delete the Artifacts of GAN-based Real-World Super-Resolution Models** <Br>
 [Liangbin Xie](https://liangbinxie.github.io/), [Xintao Wang](https://xinntao.github.io/), [Xiangyu Chen](https://chxy95.github.io/), Gen Li, Ying Shan, [Jiantao Zhou](https://www.fst.um.edu.mo/personal/jtzhou/), [Chao Dong](http://xpixel.group/) <Br>
 [ICLR 2023] [[Pytorch-Code](https://github.com/TencentARC/DeSRA)]   <Br>

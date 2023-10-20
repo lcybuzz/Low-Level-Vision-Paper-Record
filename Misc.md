@@ -7,6 +7,7 @@
 - [Image Stitching](#image-stitching)
 - [Image Decomposition](#image-decomposition)
 - [Image Fusion (Archived)](#image-fusion)
+- [Uncategorized)](#uncategorized)
 
 
 # Relighting
@@ -98,3 +99,9 @@ Georg Petschnigg, [Maneesh Agrawala](http://vis.berkeley.edu/~maneesh/), [Hugues
 [SIGGRAPH 2004] [[Project](http://hhoppe.com/proj/flash/)] [[Code](https://github.com/pranaygupta36/DIP_PROJECT_REPO)]<Br>
 [★★] 提出了一个融合Flash和Non-Flash照片的流程, 包括双边滤波, 联合双边滤波, detail提取和detail transfer. 可用于去躁, 白平衡, 去红眼, 调整flash强度等多种图像增强应用中. <Br>
 	
+
+# Uncategorized
+
+- **High-resolution image reconstruction with latent diffusion models from human brain activity** <Br>
+[Yu Takagi](https://yu-takagi.github.io/), [Shinji Nishimoto](https://www.fbs.osaka-u.ac.jp/en/research_group/detail/25) <Br>
+[CVPR 2023] [[Project](https://sites.google.com/view/stablediffusion-with-brain/)] [[Pytorch-Code](https://github.com/yu-takagi/StableDiffusionReconstruction)]   <Br>

@@ -131,8 +131,12 @@ Michaël Gharbi, [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Jonathan T
 # Low-light Image Enhancement
 
 - **ExposureDiffusion: Learning to Expose for Low-light Image Enhancement** <Br>
-[Yufei Wang](https://wyf0912.github.io/), Yi Yu, [Wenhan Yang](https://flyywh.github.io/), Lanqing Guo, Lap-Pui Chau, Alex C. Kot, [Bihan Wen](https://personal.ntu.edu.sg/bihan.wen/#publication) <Br>
+[Yufei Wang](https://wyf0912.github.io/), Yi Yu, [Wenhan Yang](https://flyywh.github.io/), Lanqing Guo, Lap-Pui Chau, Alex C. Kot, [Bihan Wen](https://personal.ntu.edu.sg/bihan.wen/) <Br>
 [ICCV 2023] [[PyTorch-Code](https://github.com/wyf0912/ExposureDiffusion)]   <Br>
+
+- **Empowering Low-Light Image Enhancer through Customized Learnable Priors** <Br>
+[Naishan Zheng](https://nszheng.site/), [Man Zhou](https://manman1995.github.io/), Yanmeng Dong, Xiangyu Rui, Jie Huang, [Chongyi Li](https://li-chongyi.github.io/), Feng Zhao <Br>
+[ICCV 2023] [[PyTorch-Code](https://github.com/zheng980629/CUE)]   <Br>
 
 - **Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement** <Br>
 [Yuanhao Cai](https://caiyuanhao1998.github.io/), [Hao Bian](https://bianhao123.github.io/), [Jing Lin](https://jinglin7.github.io/), [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq/), [Radu Timofte](https://www.informatik.uni-wuerzburg.de/computervision/), [Yulun Zhang](https://yulunzhang.com/) <Br>

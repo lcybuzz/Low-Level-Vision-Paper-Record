@@ -454,6 +454,10 @@ Orest Kupyn, Volodymyr Budzan, Mykola Mykhailych, Dmytro Mishkin, Jiří Matas<B
 
 # Reflection Removal
 - **Nighttime Smartphone Reflective Flare Removal using Optical Center Symmetry Prior**  <Br>
+[Yuyan Zhou](https://github.com/YuyanZhou1), [Dong Liang](http://faculty.nuaa.edu.cn/liangdong/zh_CN/index.htm), [Songcan Chen](http://parnec.nuaa.edu.cn/), [Sheng-Jun Huang](http://parnec.nuaa.edu.cn/huangsj), [Shuo Yang](https://scholar.google.com/citations?user=mbIW-KMAAAAJ&hl=zh-CN), [Chongyi Li](https://li-chongyi.github.io/) <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/YuyanZhou1/Improving-Lens-Flare-Removal)] <Br>
+
+- **Nighttime Smartphone Reflective Flare Removal using Optical Center Symmetry Prior**  <Br>
 [Yuekun Dai](https://ykdai.github.io/), Yihang Luo, [Shangchen Zhou](https://shangchenzhou.com/), [Chongyi Li](https://li-chongyi.github.io/), [Chen Change Loy](https://personal.ie.cuhk.edu.hk/~ccloy/)<Br>
 [CVPR 2023] [[Project](https://ykdai.github.io/projects/BracketFlare)] [[Pytorch-Code](https://github.com/ykdai/BracketFlare)] <Br>
 

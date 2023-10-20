@@ -202,6 +202,11 @@ SW Chung, BK Kim, WJ Song <Br>
 [Optical Engineering 2010] [[Unofficial-Cpp-Code](https://github.com/RayXie29/Chromatic_aberration_correction)]<Br> 
 [★★] (传统算法) 首先归纳了正常无color fringe的边缘过渡区域的性质, 即: 过渡区域的色差值(R-G, B-G)在过渡区域边缘色差值的范围内; 接下来先根据G找到边缘p, 在p附近根据梯度相似原则找到过渡区域边界lp和rp; 最后根据前面归纳的边缘性质, 去除过渡区域的色差
 
+- **Adaptive color plane interpolation in single sensor color electronic camera** <Br>
+James E. Adams, John F. Hamilton. <Br>
+[US Patent 1999]
+[★★★] Hamilton & Adams插值算法
+
 # Resources
 - [Demosaic Codes](https://github.com/colour-science/colour-demosaicing)
 - [Unpurple](https://github.com/mjambon/purple-fringe)
@@ -209,3 +214,5 @@ SW Chung, BK Kim, WJ Song <Br>
 # Articles
 - [色差(Chromatic aberration)产生原理及去除](https://zhuanlan.zhihu.com/p/586260501)
 - [光学原理回顾：光学系統中重要的参数（四.色差·像差形式)](https://zhuanlan.zhihu.com/p/361330310)
+- [demosaic](https://zhuanlan.zhihu.com/p/512357230)
+- [Understanding ISP Pipeline - Demosaicking](https://zhuanlan.zhihu.com/p/144651850)

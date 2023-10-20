@@ -8,6 +8,14 @@ Face Restoration and Super-Resolution and other related topics. **Archived**
 
 
 # Face Restoration
+- **DR2: Diffusion-based Robust Degradation Remover for Blind Face Restoration**  <Br>
+Zhixin Wang, Xiaoyun Zhang, Ziying Zhang, [Huangjie Zheng](https://huangjiezheng.com/), [Mingyuan Zhou](https://mingyuanzhou.github.io/), [Ya Zhang](https://mediabrain.sjtu.edu.cn/yazhang/), Yanfeng Wang <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/Kaldwin0106/DR2_Drgradation_Remover)] <Br>
+
+- **Towards Robust Blind Face Restoration with Codebook Lookup Transformer**  <Br>
+[Shangchen Zhou](https://shangchenzhou.com/), [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Chongyi Li](https://li-chongyi.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) <Br>
+[NeuralIPS 2022] [[Project](https://shangchenzhou.com/projects/CodeFormer/)] [[Pytorch-Code](https://github.com/sczhou/CodeFormer)] <Br>
+
 - **VQFR: Blind Face Restoration with Vector-Quantized Dictionary and Parallel Decoder**  <Br>
 [Yuchao Gu](https://ycgu.site/), [Xintao Wang](https://xinntao.github.io/), [Liangbin Xie](https://liangbinxie.github.io/), [Chao Dong](http://xpixel.group/]), Gen Li, Ying Shan, [Ming-Ming Cheng](https://mmcheng.net/cmm/) <Br>
 [ECCV 2022 Oral] [[Project](https://ycgu.site/projects/vqfr/)] [[Pytorch-Code](https://github.com/TencentARC/VQFR)] <Br>
@@ -23,7 +31,7 @@ Zhouxia Wang, [Jiawei Zhang](https://sites.google.com/site/zhjw1988), [Runjian C
 	
 - **GFP-GAN: Towards Real-World Blind Face Restoration with Generative Facial Prior**  <Br>
 [Xintao Wang](https://xinntao.github.io/), [Yu Li](https://yu-li.github.io/), Honglun Zhang, Ying Shan <Br>
-[CVPR 2021] [[Project](https://xinntao.github.io/projects/gfpgan)]  <Br>
+[CVPR 2021] [[Project](https://xinntao.github.io/projects/gfpgan)] [[Pytorch-Code](https://github.com/TencentARC/GFPGAN)] <Br>
 [★] 用预训练的人脸GAN网络提取的特征作为先验, 一个UNet型网络作为degradation removal模块, 从该模块中提取空间特征, 并用SFT的思想结合到先验特征上. 对五官分别使用了判别器.
 
 - **Blind Face Restoration via Deep Multi-scale Component Dictionaries** <Br>
@@ -59,6 +67,10 @@ Grigorios Chrysos, [Stefanos Zafeiriou](https://wp.doc.ic.ac.uk/szafeiri/)  <Br>
 
 
 # Face SuperResolution
+
+- **Spatial-Frequency Mutual Learning for Face Super-Resolution**  <Br>
+Chenyang Wang, [Junjun Jiang](http://homepage.hit.edu.cn/jiangjunjun), Zhiwei Zhong, Xianming Liu <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/wcy-cs/SFMNet)] <Br>
 
 - **Deep Face Super-Resolution with Iterative Collaboration between Attentive Recovery and Landmark Estimation**  <Br>
 Cheng Ma, Zhenyu Jiang, [Yongming Rao](https://raoyongming.github.io/), Jiwen Lu, Jie Zhou <Br>
