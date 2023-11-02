@@ -183,10 +183,27 @@ Shuyu Wang, [Mingxin Zhao](https://jackgittes.github.io/), Runjiang Dou, Shuangm
 [★★] sRGB域用CNN端到端demosaicing, 重点是提出了难样本挖掘的策略, 用HDR-VDP2找到亮度上的artifact, 用频域上低频分量的增益找到moire artifact.
 
 ## Traditional Methods
+- **Multiscale gradients-based color filter array interpolation**  <Br>
+Ibrahim Pekkucuksen, Yucel Altunbasak <Br>
+[TIP 2012] <Br>
+[**MSG**] [★★] 使用色差梯度
+
 - **Adaptive homogeneity-directed demosaicing algorithm**  <Br>
 K Hirakawa, TW Parks <Br>
 [TIP 2005] <Br>
 [**AHD**] [★★]
+
+- **High-quality linear interpolation for demosaicing of Bayer-patterned color images**  <Br>
+[HS Malvar](https://www.microsoft.com/en-us/research/people/malvar/), L He, [R Cutler](https://rosscutler.github.io/) <Br>
+[ICASSP 2004] <Br>
+[★★] 微软. 使用其他颜色的梯度修正双线性结果, 修正系数用最小化MSE求解得到. 简单速度快, 但在边缘容易有格子artifact和伪彩
+
+- **Adaptive color plane interpolation in single sensor color electronic camera** <Br>
+James E. Adams, John F. Hamilton. <Br>
+[US Patent 1999]
+[★★★] Hamilton & Adams插值算法. 首先根据色差和水平垂直梯度方向先插值G, 再用插值好的G计算色差, 根据对角线方向梯度插值R和B
+
+
 
 # Misc
 - **Improving Color Reproduction Accuracy on Cameras** <Br>
@@ -202,14 +219,11 @@ SW Chung, BK Kim, WJ Song <Br>
 [Optical Engineering 2010] [[Unofficial-Cpp-Code](https://github.com/RayXie29/Chromatic_aberration_correction)]<Br> 
 [★★] (传统算法) 首先归纳了正常无color fringe的边缘过渡区域的性质, 即: 过渡区域的色差值(R-G, B-G)在过渡区域边缘色差值的范围内; 接下来先根据G找到边缘p, 在p附近根据梯度相似原则找到过渡区域边界lp和rp; 最后根据前面归纳的边缘性质, 去除过渡区域的色差
 
-- **Adaptive color plane interpolation in single sensor color electronic camera** <Br>
-James E. Adams, John F. Hamilton. <Br>
-[US Patent 1999]
-[★★★] Hamilton & Adams插值算法
 
 # Resources
 - [Demosaic Codes](https://github.com/colour-science/colour-demosaicing)
 - [Unpurple](https://github.com/mjambon/purple-fringe)
+
 
 # Articles
 - [色差(Chromatic aberration)产生原理及去除](https://zhuanlan.zhihu.com/p/586260501)

@@ -175,6 +175,7 @@ Long Ma, Tengyu Ma, [Risheng Liu](https://rsliu.tech/), Xin Fan, Zhongxuan Luo  
 - **StarEnhancer: Learning Real-Time and Style-Aware Image Enhancement**  <Br>
 Yuda Song, Hui Qian, Xin Du <Br>
 [ICCV 2021] [[Pytorch-Code](https://github.com/IDKiro/StarEnhancer)] <Br>
+[★★] 预先学习一个style特征提取网络, 通过dual adain将style注入增强网络, 实现风格可控的增强. 增强网络为基于rgbxy的曲线预测网络
 
 - **Restoring Extremely Dark Images in Real Time**  <Br>
  [Mohit Lamba](https://mohitlamba94.github.io/about-me/), [Kaushik Mitra](https://www.ee.iitm.ac.in/kmitra/) <Br>

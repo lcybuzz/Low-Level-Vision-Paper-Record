@@ -562,6 +562,10 @@ Chao Dong, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/), [Xiaoou Ta
 
   
 # Burst Super Resolution
+- **Towards Real-World Burst Image Super-Resolution: Benchmark and Method** <Br>
+[Pengxu Wei](https://pengxuwei.github.io/), Yujing Sun, Xingbei Guo, Chang Liu, [Guanbin Li](http://guanbinli.com/), Jie Chen, Xiangyang Ji, Liang Lin <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/yjsunnn/FBANet)]   <Br>
+
 - **BSRT: Improving Burst Super-Resolution with Swin Transformer and Flow-Guided Deformable Alignment** <Br>
 [Zhengxiong Luo](https://algolzw.github.io/), Youwei Li, Shen Cheng, Lei Yu, Qi Wu, Zhihong Wen, Haoqiang Fan, [Jian Sun](http://www.jiansun.org/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
 [CVPRW 2022] [[Pytorch-Code](https://github.com/Algolzw/BSRT)]   <Br>

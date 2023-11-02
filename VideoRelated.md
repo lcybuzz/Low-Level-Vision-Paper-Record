@@ -180,6 +180,10 @@ Dario Fuoli, [Shuhang Gu](https://shuhanggu.github.io/), [Radu Timofte](https://
 	
 	
 # Frame Interpolation
+- **A Unified Pyramid Recurrent Network for Video Frame Interpolation** <Br>
+Xin Jin, Longhai Wu, Jie Chen, Youxin Chen, Jayoon Koo, Cheul-hee Hahm <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/srcn-ivl/upr-net)]<Br>
+
 - **Extracting Motion and Appearance via Inter-Frame Attention for Efficient Video Frame Interpolation** <Br>
 Guozhen Zhang, Yuhan Zhu, Haonan Wang, Youxin Chen, [Gangshan Wu](http://mcg.nju.edu.cn/member/gswu/en/index.html), [Limin Wang](http://wanglimin.github.io/) <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/MCG-NJU/EMA-VFI)]<Br>
