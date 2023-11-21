@@ -144,6 +144,10 @@
 ## Codes
 - [[各种对比度增强算法代码 Matlab](https://github.com/baidut/OpenCE)]
 - [[一些基于C++的对比度增强算法实现](https://github.com/dengyueyun666/Image-Contrast-Enhancement)]
+- [[HDR ISP pipeline (C++)](https://github.com/JokerEyeAdas/HDR-ISP)]
+- [[openISP (Python)](https://github.com/cruxopen/openISP)]
+- [[RawTherapee](https://github.com/Beep6581/RawTherapee)]
+- [[数据增强library](https://github.com/albumentations-team/albumentations)]
 
 ## 博客/专栏/资讯
 - [[传统图像质量增强的系列blog-1](https://www.cnblogs.com/Imageshop/category/535367.html)]

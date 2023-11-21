@@ -47,7 +47,7 @@ Canqian Yang, [Meiguang Jin](https://meiguangjin.github.io/), [Xu Jia](https://s
 - **DeepLPF: Deep Local Parametric Filters for Image Enhancement** <Br>
 [Sean Moran](http://www.seanjmoran.com/), Pierre Marza, Steven McDonagh, Sarah Parisot, [Gregory Slabaugh](http://gregslabaugh.net/)  <Br>
 [CVPR 2020] [[PyTorch-Code](https://github.com/huawei-noah/noah-research/tree/071a49fb8f0975192dcc919a18f9a082093122e6/DeepLPF)]   <Br>
-[★☆] 1) 华为欧洲实验室的文章, 把lightroom等修图软件中的brugh, graduated filters, radial filters工具用CNN模拟出来. 分为三个分支, 一个分支预测pixelwise的增强, 两个分支分别预测两种fiter的参数. 2) 个人觉得预测的filter仍然不太够local. 不过论文的思路挺有意思.
+[★★] 华为欧洲实验室. 把lightroom等修图软件中的brush, graduated filters, radial filters工具用CNN模拟出来. 1) 用一unet做增强并提取feature; 2) 预测polynomial filter参数(即brush)并做增强; 3) 分别预测graduated和radial filter参数并计算mask; 4) 渐变/径向分支mask对polynomial增强参数做加权, 与初步增强结果做加权融合.
 	
 - **Learning Image-adaptive 3D Lookup Tables for High Performance Photo Enhancement in Real-time** <Br>
 Hui Zeng, [Jianrui Cai](https://csjcai.github.io/), Lida Li, Zisheng Cao, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>

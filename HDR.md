@@ -100,7 +100,7 @@ Xin Deng, Yutong Zhang, Mai Xu, [Shuhang Gu](https://shuhanggu.github.io/), Yipi
 - **Deep Guided Learning for Fast Multi-Exposure Image Fusion** <Br>
 [Kede Ma](https://kedema.org/), [Zhengfang Duanmu](https://ece.uwaterloo.ca/~zduanmu/), Hanwei Zhu, [Yuming Fang](http://sim.jxufe.cn/JDMKL/ymfang.html), [Zhou Wang](https://ece.uwaterloo.ca/~z70wang/) <Br>
 [TIP 2020] [[Pytorch-Code](https://github.com/makedede/MEFNet)]<Br>
-[**MEFNet**] [★] **无监督MEF**
+[**MEFNet**] [★] **无监督MEF** 小图预测融合权重, guided filter上采样作用到全图
 	
 - **Towards Practical and Efficient High-Resolution HDR Deghosting with CNN** <Br>
 [K Ram Prabhakar](https://sites.google.com/view/kramprabhakar/), S Agrawal, [D K Singh](https://durgesh93.github.io/), B Ashwath, [R. V. Babu](http://cds.iisc.ac.in/faculty/venky/) <Br>
@@ -393,6 +393,10 @@ Zhetong Liang, [Jun Xu](https://csjunxu.github.io/), [David Zhang](http://www4.c
 [CVPR 2018] [[Code](https://github.com/csjunxu/L1-L0-Tone-mapping)]	<Br>
 [★] l1约束base layer, l0约束detail layer
 
+- **Adaptive Local Tone Mapping Based on Retinex for High Dynamic Range Images** <Br>
+H Ahn, B Keum, D Kim, HS Lee <Br>
+[ICCE 2013] [[Code](https://github.com/csjunxu/L1-L0-Tone-mapping)]	<Br>
+
 - **Local Laplacian Filters: Edge-aware Image Processing with a Laplacian Pyramid**  <Br>
 [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Jan Kautz](https://jankautz.com/) <Br>
 [SIGGRAPH 2011] [[Project](http://people.csail.mit.edu/sparis/publi/2011/siggraph/)] <Br>
@@ -402,13 +406,17 @@ Zhetong Liang, [Jun Xu](https://csjunxu.github.io/), [David Zhang](http://www4.c
 - **Tone-mapping high dynamic range images by novel histogram adjustment**  <Br>
 Jiang Duan, Marco Bressan, Chris Dance, [Guoping Qiu](http://www.cs.nott.ac.uk/~pszqiu/)  <Br>
 [PR 2010] <Br>
-[**HALEQ**] [**ALHA**] [★★]
+[**HALEQ**] [**ALHA**] [★★☆]
 
+- **Fast Bilateral Filtering for the Display of High-Dynamic-Range Images**  <Br>
+[Frédo Durand](https://people.csail.mit.edu/fredo/), [Julie Dorsey](https://graphics.cs.yale.edu/people/julie-dorsey) <Br>
+[TOG 2002]  <Br>
+[★★☆] 使用fast双边滤波, 分离base和detail, base做压缩, detail不懂, 再将压缩后的base和detail融合, 即为输出
 
 - **Photographic tone reproduction for digital images**  <Br>
 [Erik Reinhard](http://erikreinhard.com/), Michael Stark, [Peter Shirley](https://www.petershirley.com/), [James Ferwerda](https://jamesferwerda.com/) <Br>
 [TOG 2002]  <Br>
-[★★☆] 1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
+[**Reinhard tone mapping**] [★★☆] 1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
 
 	
 # CRF
