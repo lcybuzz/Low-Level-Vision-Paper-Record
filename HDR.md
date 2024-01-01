@@ -14,6 +14,9 @@
     
 # HDR
 ## Multi-Frame HDR
+- **Inverting the Imaging Process by Learning an Implicit Camera Model** <Br>
+[Xin Huang](https://xhuangcv.github.io/), [Qi Zhang](https://qzhang-cv.github.io/), Ying Feng, [Hongdong Li](https://users.cecs.anu.edu.au/~hongdong/), [Qing Wang](https://teacher.nwpu.edu.cn/qwang.html) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/xhuangcv/neucam)] <Br>
 
 - **Joint HDR Denoising and Fusion: A Real-World Mobile HDR Image Dataset** <Br>
 Shuaizheng Liu, Xindong Zhang, Lingchen Sun, Zhetong Liang, [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
@@ -177,6 +180,10 @@ Green Rosh K S, Anmol Biswas Mandakinee, Singh Patel, B H Pawan Prasad <Br>
 
 
 ## Single-Frame HDR
+- **Learning a Practical SDR-to-HDRTV Up-conversion using New Dataset and Degradation Models** <Br>
+Cheng Guo, Leidong Fan, Ziyu Xue, Xiuhua Jiang <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/AndreGuo/HDRTVDM)] <Br>
+
 - **SDRTV-to-HDRTV via Hierarchical Dynamic Context Feature Mapping** <Br>
 Gang He, Kepeng Xu, Li Xu, Chang Wu, Ming Sun, Xing Wen, Yu-Wing Tai <Br>
 [MM 2022] [快手] [[Pytorch-Code](https://github.com/chxy95/HDRTVNet)] <Br>

@@ -138,6 +138,14 @@ Michaël Gharbi, [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Jonathan T
 [Naishan Zheng](https://nszheng.site/), [Man Zhou](https://manman1995.github.io/), Yanmeng Dong, Xiangyu Rui, Jie Huang, [Chongyi Li](https://li-chongyi.github.io/), Feng Zhao <Br>
 [ICCV 2023] [[PyTorch-Code](https://github.com/zheng980629/CUE)]   <Br>
 
+- **DNF: Decouple and Feedback Network for Seeing in the Dark** <Br>
+[Xin Jin](https://srameo.github.io/), Ling-Hao Han, Zhen Li, Chun-Le Guo, Zhi Chai, [Chongyi Li](https://li-chongyi.github.io/) <Br>
+[CVPR 2023] [[PyTorch-Code](https://github.com/Srameo/DNF)]   <Br>
+
+- **Learning Semantic-Aware Knowledge Guidance for Low-Light Image Enhancement** <Br>
+Yuhui Wu, Chen Pan, [Guoqing Wang](https://faculty.uestc.edu.cn/wangguoqing1/zh_CN/index.htm), Yang Yang, Jiwei Wei, [Chongyi Li](https://li-chongyi.github.io/), [Heng Tao Shen](https://cfm.uestc.edu.cn/~shenht/) <Br>
+[CVPR 2023] [[PyTorch-Code](https://github.com/langmanbusi/Semantic-Aware-Low-Light-Image-Enhancement)]   <Br>
+
 - **Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement** <Br>
 [Yuanhao Cai](https://caiyuanhao1998.github.io/), [Hao Bian](https://bianhao123.github.io/), [Jing Lin](https://jinglin7.github.io/), [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq/), [Radu Timofte](https://www.informatik.uni-wuerzburg.de/computervision/), [Yulun Zhang](https://yulunzhang.com/) <Br>
 [CVPR 2023] [[PyTorch-Code](https://github.com/caiyuanhao1998/Retinexformero)]   <Br>

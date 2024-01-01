@@ -38,6 +38,14 @@ Yucheng Hang, Bin Xia, Wenming Yang, Qingmin Liao <Br>
 
 
 # Image Matting
+- **Adaptive Human Matting for Dynamic Videos** <Br>
+[Chung-Ching Lin](https://www.microsoft.com/en-us/research/people/chunglin/ ), [Jiang Wang](http://wangjiangb.github.io/), Kun Luo, [Kevin Lin](https://sites.google.com/site/kevinlin311tw/), Linjie Li, [Lijuan Wang](https://www.microsoft.com/en-us/research/people/lijuanw/), [Zicheng Liu](https://www.microsoft.com/en-us/research/people/zliu/?from=https://research.microsoft.com/~zliu&type=exact) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/microsoft/AdaM)]   <Br>
+
+- **Referring Image Matting** <Br>
+[Jizhizi Li](https://jizhizili.github.io/homepage/), Jing Zhang, [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/JizhiziLi/RIM)]   <Br>
+
 - **Human Instance Matting via Mutual Guidance and Multi-Instance Refinement** <Br>
 Yanan Sun, Chi-Keung Tang, Yu-Wing Tai <Br>
 [CVPR 2022] [[Code](https://github.com/nowsyn/InstMatt)]   <Br>

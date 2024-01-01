@@ -11,6 +11,11 @@
 
 
 # Image Restoration
+- **Learning A Sparse Transformer Network for Effective Image Deraining**  <Br>
+[Xiang Chen](https://cschenxiang.github.io/), [Hao Li](https://house-leo.github.iohttps://house-leo.github.io/), Mingqiang Li, [Jinshan Pan](https://jspan.github.io/) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/cschenxiang/DRSformer)] <Br>
+[**DRSformer**]
+
 - **Image Restoration with Mean-Reverting Stochastic Differential Equations**  <Br>
 [Ziwei Luo](https://algolzw.github.io/), [Fredrik K. Gustafsson](https://www.fregu856.com/), [Zheng Zhao](https://zz.zabemon.com/), [Jens Sjölund](https://jsjol.github.io/), [Thomas B. Schön](https://user.it.uu.se/~thosc112/index.html) <Br>
 [ICML 2023] [[Pytorch-Code](https://github.com/Algolzw/image-restoration-sde)] <Br>
@@ -270,6 +275,15 @@ Xianxu Hou, [Guoping Qiu](http://www.cs.nott.ac.uk/~pszqiu/)  <Br>
 
 
 # Image Dehazing
+- **Curricular Contrastive Regularization for Physics-aware Single Image Dehazing** <Br>
+Yu Zheng, Jiahui Zhan, [Shengfeng He](http://www.shengfenghe.com/), Junyu Dong, [Yong Du](https://www.csyongdu.cn/) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/YuZheng9/C2PNet)]  <Br>
+[**C2PNet**]
+
+- **RIDCP: Revitalizing Real Image Dehazing via High-Quality Codebook Priors** <Br>
+[Rui-Qi Wu](https://rq-wu.github.io/), Zheng-Peng Duan, Chun-Le Guo, Zhi Chai, [Chong-Yi Li](https://li-chongyi.github.io/) <Br>
+[CVPR 2023]  [[Project](https://rq-wu.github.io/projects/RIDCP/index.html)] [[Pytorch-Code](https://github.com/RQ-Wu/RIDCP_dehazing)]  <Br>
+
 - **Self-augmented Unpaired Image Dehazing via Density and Depth Decomposition** <Br>
 Yang Yang, [Chaoyue Wang](https://wang-chaoyue.github.io/), [Risheng Liu](https://rsliu.tech/), [Lin Zhang](http://cslinzhang.gitee.io/home/), [Xiaojie Guo](https://sites.google.com/view/xjguo), [Dacheng Tao](https://www.sydney.edu.au/engineering/about/our-people/academic-staff/dacheng-tao.html) <Br>
 [CVPR 2022] <Br>
@@ -334,6 +348,22 @@ Haiyan Wu, [Yanyun Qu](https://quyanyun.xmu.edu.cn/), [Shaohui Lin](https://site
 
 
 # Image Debluring
+- **Hybrid Neural Rendering for Large-Scale Scenes with Motion Blur**  <Br>
+[Peng Dai](https://daipengwa.github.io/), [Yinda Zhang](https://www.zhangyinda.com/), Xin Yu, [Xiaoyang Lyu](https://shawlyu.github.io/), [Xiaojuan Qi](https://xjqi.github.io/)  <Br>
+[CVPR 2023] [[Project](https://daipengwa.github.io/Hybrid-Rendering-ProjectPage/)] [[Pytorch-Code](https://github.com/CVMI-Lab/HybridNeuralRendering)]<Br>
+
+- **Blur Interpolation Transformer for Real-World Motion from Blur**  <Br>
+Lingshun Kong, Jiangxin Dong, Jianjun Ge, Mingqiang Li, [Jinshan Pan](https://jspan.github.io/)  <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/kkkls/FFTformer)]<Br>
+
+- **Blur Interpolation Transformer for Real-World Motion from Blur**  <Br>
+[Zhihang Zhong](https://zzh-tech.github.io/), Mingdeng Cao, Xiang Ji, Yinqiang Zheng, [Imari Sato](https://www.nii.ac.jp/en/faculty/digital_content/sato_imari/)  <Br>
+[CVPR 2023] [[Project](https://zzh-tech.github.io/BiT/)] [[Pytorch-Code](https://github.com/zzh-tech/BiT)]<Br>
+
+- **Structured Kernel Estimation for Photon-Limited Deconvolution**  <Br>
+[Yash Sanghvi](https://sanghviyashiitb.github.io/), Zhiyuan Mao, [Stanley H. Chan](https://engineering.purdue.edu/ChanGroup/)  <Br>
+[CVPR 2023] [[Project](https://sanghviyashiitb.github.io/structured-kernel-webpage/)] [[Pytorch-Code](https://github.com/sanghviyashiitb/structured-kernel-cvpr23)]<Br>
+
 - **Fast Two-step Blind Optical Aberration Correction**  <Br>
 [Thomas Eboli](https://teboli.github.io/), [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/), [Gabriele Facciolo](http://dev.ipol.im/~facciolo/) <Br>
 [ECCV 2022] [[Project](https://teboli.github.io/pages/fast_optical/fast_optical.html)] [[Code](https://github.com/teboli/fast_two_stage_psf_correction)]<Br>
