@@ -14,6 +14,10 @@
     
 # HDR
 ## Multi-Frame HDR
+- **HDR Imaging with Spatially Varying Signal-to-Noise Ratios** <Br>
+Yiheng Chi, Xingguang Zhang, [Stanley H. Chan](https://engineering.purdue.edu/ChanGroup/) <Br>
+[CVPR 2023]  <Br>
+
 - **Inverting the Imaging Process by Learning an Implicit Camera Model** <Br>
 [Xin Huang](https://xhuangcv.github.io/), [Qi Zhang](https://qzhang-cv.github.io/), Ying Feng, [Hongdong Li](https://users.cecs.anu.edu.au/~hongdong/), [Qing Wang](https://teacher.nwpu.edu.cn/qwang.html) <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/xhuangcv/neucam)] <Br>

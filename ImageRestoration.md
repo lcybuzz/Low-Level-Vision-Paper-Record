@@ -565,6 +565,10 @@ Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He <Br>
 
 
 # Image Inpainting
+- **HD-Painter: High-Resolution and Prompt-Faithful Text-Guided Image Inpainting with Diffusion Models** <Br>
+Hayk Manukyan, Andranik Sargsyan, Barsegh Atanyan, Zhangyang Wang, Shant Navasardyan, [Humphrey Shi](https://www.humphreyshi.com/)  <Br>
+[arXiv 2312] [[Pytorch-Code](https://github.com/Picsart-AI-Research/HD-Painter)]  <Br>
+
 - **MAT: Mask-Aware Transformer for Large Hole Image Inpainting** <Br>
 [Wenbo Li](https://fenglinglwb.github.io/), Zhe Lin, Kun Zhou, [Lu Qi](http://luqi.info/), Yi Wang, [Jiaya Jia](https://jiaya.me/) <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/fenglinglwb/MAT)]  <Br>

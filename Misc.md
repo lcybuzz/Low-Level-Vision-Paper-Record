@@ -22,6 +22,10 @@ Rohit Pandey, [Sergio Orts-Escolano](https://www.dtic.ua.es/~sorts/), [Chloe LeG
 
 
 # Image Harmonization
+- **Semi-supervised Parametric Real-world Image Harmonization** <Br>
+[Ke Wang](https://kewang0622.github.io/), [Michaël Gharbi](mgharbi.com), [He Zhang](https://sites.google.com/site/hezhangsprinter/), [Zhihao Xia](https://likesum.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/) <Br>
+[CVPR 2023]  [[Project](https://kewang0622.github.io/sprih/)]  [[Pytorch-Code](https://github.com/adobe/PIH/)]   <Br>
+
 - **High-Resolution Image Harmonization via Collaborative Dual Transformations** <Br>
 [Wenyan Cong](https://wenyancong.com/), Xinhao Tao, [Li Niu](https://bcmi.sjtu.edu.cn/home/niuli/), Jing Liang, Xuesong Gao, Qihao Sun, [Liqing Zhang](https://bcmi.sjtu.edu.cn/~zhangliqing/) <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/bcmi/CDTNet-High-Resolution-Image-Harmonization)]   <Br>
