@@ -72,10 +72,15 @@ Grigorios Chrysos, [Stefanos Zafeiriou](https://wp.doc.ic.ac.uk/szafeiri/)  <Br>
 Chenyang Wang, [Junjun Jiang](http://homepage.hit.edu.cn/jiangjunjun), Zhiwei Zhong, Xianming Liu <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/wcy-cs/SFMNet)] <Br>
 
+- **Learning Spatial Attention for Face Super-Resolution**  <Br>
+[Chaofeng Chen](https://chaofengc.github.io/), Dihong Gong, Hao Wang, Zhifeng Li, [Kwan-Yee K. Wong](https://i.cs.hku.hk/~kykwong/) <Br>
+[TIP 2020] [[Pytorch-Code](https://github.com/chaofengc/Face-SPARNet)] <Br>
+[**SPARNet**] [★☆] 无语义先验的基于attention的人脸超分
+
 - **Deep Face Super-Resolution with Iterative Collaboration between Attentive Recovery and Landmark Estimation**  <Br>
 Cheng Ma, Zhenyu Jiang, [Yongming Rao](https://raoyongming.github.io/), Jiwen Lu, Jie Zhou <Br>
 [CVPR 2020] [[Pytorch-Code](https://github.com/Maclory/Deep-Iterative-Collaboration)] <Br>
-[★] 迭代训练人脸超分和关键点网络, 并利用两个任务的信息, 相互优化
+[★☆] 迭代训练人脸超分和关键点网络, 并利用两个任务的信息, 相互优化
 
 - **Learning to Have an Ear for Face Super-Resolution** <Br>
 [Givi Meishvili](https://gmeishvili.github.io/), [Simon Jenni](https://sjenni.github.io/), [Paolo Favaro](https://www.cvg.unibe.ch/people/favaro)  <Br>
