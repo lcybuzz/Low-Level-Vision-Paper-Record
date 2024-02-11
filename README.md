@@ -98,6 +98,7 @@
 
 # Competitions
 - **[CVPR NTIRE]** New Trends in Image Restoration and Enhancement Challenges, 图像超分辨率、图像去噪、去模糊、去摩尔纹、重建、去雾 <Br>
+- **[MIPI]** Mobile Intelligent Photography & Imaging <Br>
 - **[MAI]** Mobile AI Workshop (CVPR workshop). <Br>
 - **[CVPR LPCVC]** Low Power Computer Vision Challenge, 低功耗计算机视觉、目标检测、图像分类 <Br>
 - **[ECCV AIM]** Advances in Image Manipulation workshop and challenges <Br>
@@ -108,8 +109,11 @@
 # Resources
 ## Paper collection
 - Conference paper collection
+    - [[ICCV 2023](https://github.com/extreme-assistant/ICCV2023-Paper-Code-Interpretation)]
+    [[ICCV 2023](https://github.com/DmitryRyumin/ICCV-2023-Papers)]
     - [[CVPR 2023](https://github.com/extreme-assistant/CVPR2023-Paper-Code-Interpretation/blob/master/CVPR2023.md)] 
     [[CVPR 2023](https://github.com/amusi/CVPR2023-Papers-with-Code)] 
+    [[CVPR 2023](https://github.com/DmitryRyumin/CVPR-2023-Papers)] 
     [[CVPR 2022](https://github.com/extreme-assistant/CVPR2022-Paper-Code-Interpretation)] 
     [[CVPR 2022](https://github.com/amusi/CVPR2022-Papers-with-Code)] 
     [[CVPR 2021](https://github.com/52CV/CVPR-2021-Papers)] 
@@ -118,6 +122,7 @@
     - [[ICCV 2021](https://github.com/extreme-assistant/ICCV2021-Paper-Code-Interpretation/blob/master/ICCV2021.md)] 
 
 - Low level vision conference paper collection
+    - [[ICCV 2023](https://github.com/DarrenPan/Awesome-ICCV2023-Low-Level-Vision)]
     - [[CVPR 2023](https://github.com/DarrenPan/Awesome-CVPR2023-Low-Level-Vision)]  
     [[CVPR 2022](https://github.com/DarrenPan/CVPR2022-Low-Level-Vision)] 
     [[CVPR 2021/2020](https://github.com/Kobaayyy/Awesome-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2021.md)]
@@ -137,7 +142,7 @@
     - [[Deblurring](https://github.com/subeeshvasu/Awesome-Deblurring)]
     - [[SimDeblur](https://github.com/ljzycmd/SimDeblur)] 多个deep-learning based图像和视频去模糊Pytorch代码实现
 
-    - [[Denoising with codes](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)]
+    - [[Awesome Image or Video Denoising Algorithms](https://github.com/z-bingo/awesome-image-denoising-state-of-the-art)] [[Denoising with codes](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)]
 
     - [[Awesome Face Restoratio](https://github.com/TaoWangzj/Awesome-Face-Restoration)]
 

@@ -11,10 +11,6 @@
 
 
 # Image Restoration
-- **Learning A Sparse Transformer Network for Effective Image Deraining**  <Br>
-[Xiang Chen](https://cschenxiang.github.io/), [Hao Li](https://house-leo.github.iohttps://house-leo.github.io/), Mingqiang Li, [Jinshan Pan](https://jspan.github.io/) <Br>
-[CVPR 2023] [[Pytorch-Code](https://github.com/cschenxiang/DRSformer)] <Br>
-[**DRSformer**]
 
 - **Image Restoration with Mean-Reverting Stochastic Differential Equations**  <Br>
 [Ziwei Luo](https://algolzw.github.io/), [Fredrik K. Gustafsson](https://www.fregu856.com/), [Zheng Zhao](https://zz.zabemon.com/), [Jens Sjölund](https://jsjol.github.io/), [Thomas B. Schön](https://user.it.uu.se/~thosc112/index.html) <Br>
@@ -348,6 +344,11 @@ Haiyan Wu, [Yanyun Qu](https://quyanyun.xmu.edu.cn/), [Shaohui Lin](https://site
 
 
 # Image Debluring
+- **Efficient Frequency Domain-Based Transformers for High-Quality Image Deblurring**  <Br>
+Lingshun Kong, Jiangxin Dong, Jianjun Ge, Mingqiang Li, [Jinshan Pan](https://jspan.github.io/)  <Br>
+[CVPR 2023] [[Project](https://github.com/kkkls/FFTformer)] <Br>
+[**FFTformer**]
+
 - **Hybrid Neural Rendering for Large-Scale Scenes with Motion Blur**  <Br>
 [Peng Dai](https://daipengwa.github.io/), [Yinda Zhang](https://www.zhangyinda.com/), Xin Yu, [Xiaoyang Lyu](https://shawlyu.github.io/), [Xiaojuan Qi](https://xjqi.github.io/)  <Br>
 [CVPR 2023] [[Project](https://daipengwa.github.io/Hybrid-Rendering-ProjectPage/)] [[Pytorch-Code](https://github.com/CVMI-Lab/HybridNeuralRendering)]<Br>
@@ -649,6 +650,11 @@ Avisek Lahiri, Arnav Kumar Jain, Sanskar Agrawal, Pabitra Mitra, Prabir Kumar Bi
 
 
 # De-raining
+- **Learning A Sparse Transformer Network for Effective Image Deraining**  <Br>
+[Xiang Chen](https://cschenxiang.github.io/), [Hao Li](https://house-leo.github.iohttps://house-leo.github.io/), Mingqiang Li, [Jinshan Pan](https://jspan.github.io/) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/cschenxiang/DRSformer)] <Br>
+[**DRSformer**]
+
 - **Towards Robust Rain Removal Against Adversarial Attacks: A Comprehensive Benchmark Analysis and Beyond** <Br>
 Yi Yu, [Wenhan Yang](https://flyywh.github.io/), Yap-Peng Tan, Alex C. Kot <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/yuyi-sd/Robust_Rain_Removal)]<Br>

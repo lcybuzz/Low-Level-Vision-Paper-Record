@@ -14,6 +14,11 @@
     
 # HDR
 ## Multi-Frame HDR
+- **SMAE: Few-shot Learning for HDR Deghosting with Saturation-Aware Masked Autoencoders** <Br>
+[Qingsen Yan](https://qingsenyangit.github.io/), Song Zhang, Weiye Chen, Hao Tang, Yu Zhu, Jinqiu Sun, Luc Van Gool, Yanning Zhang <Br>
+[CVPR 2023]  <Br>
+[★☆] 多帧HDR. 首先, 类似MAE, 用unlabeled数据加掩膜做预训练; 第二步, 用少量static和dynamic的标签数据finetune; 最后, 生成伪标签, 并设计了一系列策略, 用来finetune
+
 - **HDR Imaging with Spatially Varying Signal-to-Noise Ratios** <Br>
 Yiheng Chi, Xingguang Zhang, [Stanley H. Chan](https://engineering.purdue.edu/ChanGroup/) <Br>
 [CVPR 2023]  <Br>

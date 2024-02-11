@@ -4,6 +4,21 @@
 
 
 #  Image Super Resolution
+- **Dual Aggregation Transformer for Image Super-Resolution** <Br>
+[Zheng Chen](https://zhengchen1999.github.io/), [Yulun Zhang](https://yulunzhang.com/), [Jinjin Gu](https://www.jasongt.com/), [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/), Xiaokang Yang, Fisher Yu <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/zhengchen1999/DAT)]   <Br>
+[**DAT**]
+
+- **Spatially-Adaptive Feature Modulation for Efficient Image Super-Resolution** <Br>
+Long Sun, Jiangxin Dong, [Jinhui Tang](https://imag-njust.net/), [Jinshan Pan](https://jspan.github.io/) <Br>
+[ICCV 2023] [[Project](https://neonleexiang.github.io/DLGSANet/)]  [[Pytorch-Code](https://github.com/sunny2109/SAFMN)]   <Br>
+[**SAFMN**]
+
+- **DLGSANet: Lightweight Dynamic Local and Global Self-Attention Networks for Image Super-Resolutionn** <Br>
+Xiang Li, [Jinshan Pan](https://jspan.github.io/), Jinhui Tang, Jiangxin Dong <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/sunny2109/SAFMN)]   <Br>
+[**SAFMN**]
+
 - **QuickSRNet: Plain Single-Image Super-Resolution Architecture for Faster Inference on Mobile Platforms** <Br>
 [Guillaume Berger](https://guberger.github.io/), Manik Dhingra, Antoine Mercier, Yashesh Savani, Sunny Panchal, [Fatih Porikli](https://www.porikli.com/)<Br>
 [CVPRW 2023]   <Br>

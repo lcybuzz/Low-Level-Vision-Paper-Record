@@ -475,6 +475,11 @@ Fan Zhang, [Yu Li](https://yu-li.github.io/), [Shaodi You](https://youshaodi.git
 
 
 # Video Debluring
+- **Deep Discriminative Spatial and Temporal Network for Efficient Video Deblurring** <Br>
+[Jinshan Pan](https://jspan.github.io/)], Boming Xu, Jiangxin Dong, Jianjun Ge, [Jinhui Tang](https://imag-njust.net/) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/xuboming8/DSTNet)]<Br>
+[**DSTNet**]
+
 - **Multi-Scale Memory-Based Video Deblurring** <Br>
 Bo Ji, [Angela Yao](https://www.comp.nus.edu.sg/~ayao/) <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/jibo27/MemDeblur)]<Br>
