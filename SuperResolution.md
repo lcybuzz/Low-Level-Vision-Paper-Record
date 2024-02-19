@@ -32,7 +32,7 @@ Xiang Li, [Jinshan Pan](https://jspan.github.io/), Jinhui Tang, Jiangxin Dong <B
 - **Activating More Pixels in Image Super-Resolution Transformer** <Br>
 [Xiangyu Chen](https://chxy95.github.io/), [Xintao Wang](https://xinntao.github.io/), [Jiantao Zhou](https://www.fst.um.edu.mo/personal/jtzhou/), [Chao Dong](http://xpixel.group/) <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/XPixelGroup/HAT)]   <Br>
-[**HAT**] 
+[**HAT**]
 
 - **Simple Baselines for Image Restoration** <Br>
 Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, [Jian Sun](http://www.jiansun.org/) <Br>

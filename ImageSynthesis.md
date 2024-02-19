@@ -276,9 +276,53 @@ Po-Wei Wu, Yu-Jing Lin, Che-Han Chang, Edward Y. Chang, Shih-Wei Liao <Br>
 
 
 	
-	
 
 # Image Manipulation
+- **EDICT: Exact Diffusion Inversion via Coupled Transformations** <Br>
+[Bram Wallace](https://sites.coecis.cornell.edu/bram/), Akash Gokul, [Nikhil Naik](https://web.mit.edu/naik/www/) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/salesforce/EDICT)]  <Br>
+
+- **DeltaEdit: Exploring Text-free Training for Text-Driven Image Manipulation** <Br>
+Yueming Lyu, Tianwei Lin, Fu Li, Dongliang He, Jing Dong, [Tieniu Tan](https://wzmsltw.github.io/) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/Yueming6568/DeltaEdit)]  <Br>
+
+- **InstructPix2Pix: Learning to Follow Image Editing Instructions** <Br>
+[Tim Brooks](https://www.timothybrooks.com/), [Aleksander Holynski](https://holynski.org/), [Alexei A. Efros](https://people.eecs.berkeley.edu/~efros/) <Br>
+[CVPR 2023] [[Project](https://www.timothybrooks.com/instruct-pix2pix/)] [[Pytorch-Code](https://github.com/timothybrooks/instruct-pix2pix)]  <Br>
+🔥
+
+- **Delving StyleGAN Inversion for Image Editing: A Foundation Latent Space Viewpoint** <Br>
+[Hongyu Liu](https://github.com/KumapowerLIU), [Yibing Song](https://ybsong00.github.io/), [Qifeng Chen](https://cqf.io/)><Br>
+[CVPR 2023] [[Project](https://kumapowerliu.github.io/CLCAE/)] [[Pytorch-Code](https://github.com/KumapowerLIU/CLCAE)]  <Br>
+
+- **StyleRes: Transforming the Residuals for Real Image Editing With StyleGAN** <Br>
+Hamza Pehlivan, [Yusuf Dalva](https://yusufdalva.github.io/), [Aysegul Dundar](https://www.cs.bilkent.edu.tr/~adundar/) <Br>
+[CVPR 2023] [[Project](https://www.cs.bilkent.edu.tr/~adundar/projects/StyleRes/)] [[Pytorch-Code](https://github.com/hamzapehlivan/StyleRes)]  <Br>
+
+- **Prompt-to-Prompt Image Editing with Cross-Attention Control** <Br>
+[Amir Hertz](https://amirhertz.github.io/), [Ron Mokady](https://rmokady.github.io/), Jay Tenenbaum, [Kfir Aberman](https://kfiraberman.github.io/), Yael Pritch, [Daniel Cohen-Or](https://danielcohenor.com/)  <Br>
+[ICLR 2023] [[Project](https://prompt-to-prompt.github.io/)] [[Pytorch-Code](https://github.com/google/prompt-to-prompt/)]  <Br>
+🔥
+
+- **Null-text Inversion for Editing Real Images using Guided Diffusion Models** <Br>
+[Ron Mokady](https://rmokady.github.io/), [Amir Hertz](https://amirhertz.github.io/), [Kfir Aberman](https://kfiraberman.github.io/), Yael Pritch, [Daniel Cohen-Or](https://danielcohenor.com/)  <Br>
+[CVPR 2023] [[Project](https://null-text-inversion.github.io/)] [[Pytorch-Code](https://github.com/google/prompt-to-prompt/#null-text-inversion-for-editing-real-images)]  <Br>
+🔥
+
+- **Paint by Example: Exemplar-based Image Editing with Diffusion Models** <Br>
+[Binxin Yang](https://orcid.org/0000-0003-4110-1986), [Shuyang Gu](http://home.ustc.edu.cn/~gsy777/), [Bo Zhang](https://bo-zhang.me/), [Ting Zhang](https://www.microsoft.com/en-us/research/people/tinzhan/), [Xuejin Chen](http://staff.ustc.edu.cn/~xjchen99/), [Xiaoyan Sun](http://staff.ustc.edu.cn/~xysun720/), [Dong Chen](https://www.microsoft.com/en-us/research/people/doch/), [Fang Wen](https://www.microsoft.com/en-us/research/people/fangwen/)   <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/Fantasy-Studio/Paint-by-Example)]  <Br>
+
+- **DiffusionRig: Learning Personalized Priors for Facial Appearance Editing** <Br>
+Zheng Ding, [Xuaner Zhang](https://ceciliavision.github.io/), [Zhihao Xia](https://likesum.github.io/), [Lars Jebe](https://lcjebe.github.io/) [Zhuowen Tu](https://pages.ucsd.edu/~ztu/), [Xiuming Zhang](https://xiuming.info/)  <Br>
+[CVPR 2023] [[Project](https://diffusionrig.github.io/)] [[Pytorch-Code](https://github.com/adobe-research/diffusion-rig)]  <Br>
+[**SINE**]
+
+- **SINgle Image Editing with Text-to-Image Diffusion Models** <Br>
+[Zhixing Zhang](https://zhang-zx.github.io/), [Ligong Han](https://phymhan.github.io/), [Arnab Ghosh](https://arnabgho.github.io/), [Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/), [Jian Ren](https://alanspike.github.io/)   <Br>
+[CVPR 2023] [[Project](https://zhang-zx.github.io/SINE/)] [[Pytorch-Code](https://github.com/zhang-zx/SINE)]  <Br>
+[**SINE**]
+
 - **Spatially-Adaptive Multilayer Selection for GAN Inversion and Editing** <Br>
 [Gaurav Parmar](https://gauravparmar.com/), [Yijun Li](https://yijunmaverick.github.io/), [Jingwan Lu](https://research.adobe.com/person/jingwan-lu/), [Richard Zhang](http://richzhang.github.io/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Krishna Kumar Singh](http://krsingh.cs.ucdavis.edu/)  <Br>
 [CVPR 2022] [[Project](https://www.cs.cmu.edu/~SAMInversion/)] [[Pytorch-Code](https://github.com/adobe-research/sam_inversion)]  <Br>
@@ -335,6 +379,19 @@ Rameen Abdal, Yipeng Qin, Peter Wonka <Br>
 
 
 # Style Transfer
+- **Inversion-Based Style Transfer with Diffusion Models** <Br>
+[Yuxin Zhang](https://zyxelsa.github.io/), Nisha Huang, Fan Tang, [Haibin Huang](https://brotherhuang.github.io/), [Chongyang Ma](http://chongyangma.com/), Weiming Dong, [Changsheng Xu](https://nlpr-web.ia.ac.cn/mmc/homepage/csxu.html) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/zyxElsa/InST)]  <Br>
+[**InST**]
+
+- **QuantArt: Quantizing Image Style Transfer Towards High Visual Fidelity** <Br>
+[Siyu Huang](https://siyuhuang.github.io/), Jie An, [Donglai Wei](https://donglaiw.github.io/), [Jiebo Luo](https://www.cs.rochester.edu/u/jluo/), [Hanspeter Pfister](https://vcg.seas.harvard.edu/]) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/siyuhuang/QuantArt)]  <Br>
+
+- **Fix the Noise: Disentangling Source Feature for Controllable Domain Translation** <Br>
+[Dongyeun Lee](https://leedongyeun.github.io/), Jae Young Lee, [Doyeon Kim](https://vinvino02.github.io/about/), Jaehyun Choi, [Jaejun Yoo](https://sites.google.com/view/jaejunyoo), Junmo Kim <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/LeeDongYeun/FixNoise)]  <Br>
+
 - **Neural Preset for Color Style Transfer** <Br>
 [Zhanghan Ke](https://zhke.io/), Yuhao Liu, Lei Zhu, Nanxuan Zhao, [Rynson W.H. Lau](https://www.cs.cityu.edu.hk/~rynson/) <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/ZHKKKe/NeuralPreset)]  <Br>

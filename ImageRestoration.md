@@ -110,6 +110,7 @@ Jing Liu , Xin Wen, Weizhi Nie, Yuting Su, Peiguang Jing, Xiaokang Yang <Br>
 - **SwinIR: Image Restoration Using Swin Transformer**  <Br>
 [Jingyun Liang](https://jingyunliang.github.io/), [Jiezhang Cao](https://www.jiezhangcao.com/), Guolei Sun, [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html), [Radu Timofte](http://people.ee.ethz.ch/~timofter/) <Br>
 [ICCVW 2021] [[Pytorch-Code](https://github.com/JingyunLiang/SwinIR)] <Br>
+🔥
 
 - **Learning Dual Priors for JPEG Compression Artifacts Removal**  <Br>
 [Xueyang Fu](https://xueyangfu.github.io/), Xi Wang, [Aiping Liu](http://staff.ustc.edu.cn/~aipingl/), Junwei Han, Zheng-Jun Zha <Br>
