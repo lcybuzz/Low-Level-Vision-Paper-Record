@@ -4,6 +4,16 @@
 
 
 #  Image Super Resolution
+- **DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior** <Br>
+[Xinqi Lin](https://0x3f3f3f3fun.github.io/), [Jingwen He](https://github.com/hejingwenhejingwen), Ziyan Chen, Zhaoyang Lyu, Ben Fei, [Bo Dai](http://daibo.info/), [Wanli Ouyang](https://wlouyang.github.io/), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html) <Br>
+[arXiv 2308] [[Project](https://0x3f3f3f3fun.github.io/projects/diffbir/)]  [[Pytorch-Code](https://github.com/XPixelGroup/DiffBIR)]   <Br>
+[**DiffBIR**] 🔥
+
+- **Exploiting Diffusion Prior for Real-World Image Super-Resolution** <Br>
+[Jianyi Wang](https://iceclear.github.io/), [Zongsheng Yue](https://zsyoaoa.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) <Br>
+[arXiv 2305] [[Project](https://iceclear.github.io/projects/stablesr/)]  [[Pytorch-Code](https://github.com/IceClear/StableSR)]   <Br>
+[**StableSR**] 🔥
+
 - **Dual Aggregation Transformer for Image Super-Resolution** <Br>
 [Zheng Chen](https://zhengchen1999.github.io/), [Yulun Zhang](https://yulunzhang.com/), [Jinjin Gu](https://www.jasongt.com/), [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/), Xiaokang Yang, Fisher Yu <Br>
 [ICCV 2023] [[Pytorch-Code](https://github.com/zhengchen1999/DAT)]   <Br>

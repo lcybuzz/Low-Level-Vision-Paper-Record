@@ -7,6 +7,7 @@
 - [Image Stitching](#image-stitching)
 - [Image Decomposition](#image-decomposition)
 - [Image Fusion (Archived)](#image-fusion)
+- [VLM](#vlm)
 - [Uncategorized)](#uncategorized)
 
 
@@ -112,8 +113,23 @@ Georg Petschnigg, [Maneesh Agrawala](http://vis.berkeley.edu/~maneesh/), [Hugues
 [★★] 提出了一个融合Flash和Non-Flash照片的流程, 包括双边滤波, 联合双边滤波, detail提取和detail transfer. 可用于去躁, 白平衡, 去红眼, 调整flash强度等多种图像增强应用中. <Br>
 	
 
+# VLM
+- **Images Speak in Images: A Generalist Painter for In-Context Visual Learning** <Br>
+[Xinlong Wang](https://www.xloong.wang/), Wen Wang, [Yue Cao](http://yue-cao.me/), [Chunhua Shen](https://cshen.github.io/), Tiejun Huang <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/baaivision/Painter)]   <Br>
+🔥 智源
+
 # Uncategorized
 
 - **High-resolution image reconstruction with latent diffusion models from human brain activity** <Br>
 [Yu Takagi](https://yu-takagi.github.io/), [Shinji Nishimoto](https://www.fbs.osaka-u.ac.jp/en/research_group/detail/25) <Br>
 [CVPR 2023] [[Project](https://sites.google.com/view/stablediffusion-with-brain/)] [[Pytorch-Code](https://github.com/yu-takagi/StableDiffusionReconstruction)]   <Br>
+
+- **Perspective Fields for Single Image Camera Calibration** <Br>
+[Linyi Jin](https://jinlinyi.github.io/), [Jianming Zhang](https://jimmie33.github.io/), [Yannick Hold-Geoffroy](https://yannickhold.com/)<sup>2</sup>, [Oliver Wang](http://www.oliverwang.info/), [Kevin Matzen](http://kmatzen.com/), [Matthew Sticha](https://www.linkedin.com/in/matthew-sticha-746325202/), [David Fouhey](https://web.eecs.umich.edu/~fouhey/) <Br>
+[CVPR 2023] [[Project](https://jinlinyi.github.io/PerspectiveFields/)] [[Pytorch-Code](https://github.com/jinlinyi/PerspectiveFields)] <Br>
+
+- **DC2: Dual-Camera Defocus Control by Learning to Refocus** <Br>
+[Hadi Alzayer](https://hadizayer.github.io/), [Abdullah Abuolaim](https://sites.google.com/view/abdullah-abuolaim/), Leung Chun Chan, Yang Yang, Ying Chen Lou, [Jia-Bin Huang](https://jbhuang0604.github.io/), [Abhishek Kar](https://abhishekkar.info/) <Br>
+[CVPR 2023] [[Project](https://defocus-control.github.io/)] <Br>
+Google

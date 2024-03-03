@@ -167,6 +167,9 @@ Zhenliang He, Wangmeng Zuo, Meina Kan, Shiguang Shan, Xilin Chen <Br>
 
 	
 # Others
+- **E4S: Fine-grained Face Swapping via Regional GAN Inversion** <Br>
+Zhian Liu, Maomao Li, [Yong Zhang](https://yzhang2016.github.io/), Cairong Wang, [Qi Zhang](https://qzhang-cv.github.io/), [Jue Wang](https://juewang725.github.io/), [Yongwei Nie](https://nieyongwei.net/) <Br>
+[CVPR 2023] [[Project](https://e4s2022.github.io/)] [[Pytorch-Code](https://github.com/e4s2022/e4s)]  <Br>
 
 - **HairCLIP: Design Your Hair by Text and Reference Image** <Br>
 Tianyi Wei, [Dongdong Chen](http://www.dongdongchen.bid/), Wenbo Zhou, [Jing Liao](https://liaojing.github.io/html/index.html), Zhentao Tan, Lu Yuan, Weiming Zhang, Nenghai Yu  <Br>

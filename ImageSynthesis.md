@@ -6,10 +6,65 @@
 
 
 # Image Synthesis
+- **Disentangling Writer and Character Styles for Handwriting Generation** <Br>
+Gang Dai, [Yifan Zhang](https://sites.google.com/view/yifan-zhang/%E9%A6%96%E9%A1%B5), Qingfeng Wang, Qing Du, Zhuliang Yu, Zhuoman Liu, Shuangping Huang
+[CVPR 2023] [[Pytorch-Code](https://github.com/dailenson/SDT)]  <Br>
+
+- **All are Worth Words: A ViT Backbone for Diffusion Models** <Br>
+[Fan Bao](https://baofff.github.io/), Shen Nie, Kaiwen Xue, [Yue Cao](http://yue-cao.me/), [Chongxuan Li](https://zhenxuan00.github.io/), [Hang Su](https://www.suhangss.me/), [Jun Zhu](https://ml.cs.tsinghua.edu.cn/~jun/index.shtml) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/baofff/U-ViT)]  <Br>
+
+- **Wavelet Diffusion Models are fast and scalable Image Generators** <Br>
+[Hao Phung](https://hao-pt.github.io/), [Quan Dao](https://quandao10.github.io/), Anh Tran <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/VinAIResearch/WaveDiff)]  <Br>
+
+- **LayoutDiffusion: Controllable Diffusion Model for Layout-to-image Generation** <Br>
+Guangcong Zheng, Xianpan Zhou, Xuewei Li, Zhongang Qi, Ying Shan, [Xi Li](https://mypage.zju.edu.cn/xilics)  <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/ZGCTroy/LayoutDiffusion)]  <Br>
+
+- **MAGE: MAsked Generative Encoder to Unify Representation Learning and Image Synthesis** <Br>
+[Tianhong Li](https://www.tianhongli.me/), Huiwen Chang, [Shlok Kumar Mishra](https://shlokk.github.io/shlokmishra.github.io/), [Han Zhang](https://sites.google.com/view/hanzhang), [Dina Katabi](https://groups.csail.mit.edu/netmit/wordpress/people/dina-katabi/), [Dilip Krishnan](https://dilipkay.wordpress.com/)  <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/LTH14/mage)]  <Br>
+
+- **Person Image Synthesis via Denoising Diffusion Model** <Br>
+[Ankan Kumar Bhunia](https://ankanbhunia.github.io/), [Salman Khan](https://salman-h-khan.github.io/), Hisham Cholakkal, Rao Muhammad Anwer, Jorma Laaksonen, Mubarak Shah, Fahad Shahbaz Khan  <Br>
+[CVPR 2023] [[Project](https://ankanbhunia.github.io/PIDM/)] [[Pytorch-Code](https://github.com/ankanbhunia/PIDM)]  <Br>
+
+- **Plug-and-Play Diffusion Features for Text-Driven Image-to-Image Translation** <Br>
+Narek Tumanyan, Michal Geyer, [Shai Bagon](https://www.weizmann.ac.il/math/bagon/), [Tali Dekel](https://www.weizmann.ac.il/math/dekel/) <Br>
+[CVPR 2023] [[Project](https://ziqihuangg.github.io/projects/collaborative-diffusion.html)] [[Pytorch-Code](https://github.com/MichalGeyer/plug-and-play)]  <Br>
+
+- **Collaborative Diffusion for Multi-Modal Face Generation and Editing** <Br>
+[Ziqi Huang](https://ziqihuangg.github.io/), [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Yuming Jiang](https://yumingj.github.io/), [Ziwei Liu](https://liuziwei7.github.io/) <Br>
+[CVPR 2023] [[Project](https://ziqihuangg.github.io/projects/collaborative-diffusion.html)] [[Pytorch-Code](https://github.com/ziqihuangg/Collaborative-Diffusion)]  <Br>
+
+- **DreamBooth: Fine Tuning Text-to-Image Diffusion Models for Subject-Driven Generation** <Br>
+[Nataniel Ruiz](https://natanielruiz.github.io/), [Yuanzhen Li](https://people.csail.mit.edu/yzli/), [Varun Jampani](https://varunjampani.github.io/), [Yael Pritch](https://research.google/people/yael-pritch-knaan/), [Michael Rubinstein](https://people.csail.mit.edu/mrub/), [Kfir Aberman](https://kfiraberman.github.io/) <Br>
+[CVPR 2023] [[Project](https://dreambooth.github.io/)]  <Br>
+Google
+
+- **Custom Diffusion: Multi-Concept Customization of Text-to-Image Diffusion** <Br>
+[Nupur Kumari](https://nupurkmr9.github.io/), [Bingliang Zhang](https://zhangbingliang2019.github.io), [Richard Zhang](https://richzhang.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/) <Br>
+[CVPR 2023] [[Project](https://www.cs.cmu.edu/~custom-diffusion/)] [[Pytorch-Code](https://github.com/adobe-research/custom-diffusion)]  <Br>
+🔥
+
+- **GLIGEN: Open-Set Grounded Text-to-Image Generation** <Br>
+[Yuheng Li](https://yuheng-li.github.io/), [Haotian Liu](https://hliu.cc), [Qingyang Wu](https://scholar.google.ca/citations?user=HDiw-TsAAAAJ&hl=en/), [Fangzhou Mu](https://pages.cs.wisc.edu/~fmu/), [Jianwei Yang](https://jwyang.github.io/), [Jianfeng Gao](https://www.microsoft.com/en-us/research/people/jfgao/), [Chunyuan Li](https://chunyuan.li/), [Yong Jae Lee](https://pages.cs.wisc.edu/~yongjaelee/) <Br>
+[CVPR 2023] [[Project](https://gligen.github.io//)] [[Pytorch-Code](https://github.com/gligen/GLIGEN)]  <Br>
+🔥
+
+- **Scaling up GANs for Text-to-Image Synthesis** <Br>
+[Minguk Kang](https://mingukkang.github.io/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Richard Zhang](https://richzhang.github.io/), [Jaesik Park](https://jaesik.info/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Sylvain Paris](https://research.adobe.com/person/sylvain-paris/), [Taesung Park](https://taesung.me/) <Br>
+[CVPR 2023] [[Project](https://mingukkang.github.io/GigaGAN/)]  <Br>
+Adobe
+
+- **GALIP: Generative Adversarial CLIPs for Text-to-Image Synthesis** <Br>
+Ming Tao, Bing-Kun Bao, Hao Tang, [Changsheng Xu](https://nlpr-web.ia.ac.cn/mmc/homepage/csxu.html) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/tobran/GALIP)]  <Br>
 
 - **Multimodal Image Synthesis and Editing: A Survey** <Br>
 [Fangneng Zhan](https://fnzhan.com/), [Yingchen Yu](https://yingchen001.github.io/), [Rongliang Wu](https://scholar.google.com.sg/citations?user=SZkh3iAAAAAJ&hl=en), [Jiahui Zhang](https://scholar.google.com/citations?user=DXpYbWkAAAAJ&hl=zh-CN), [Shijian Lu](https://scholar.google.com.sg/citations?user=uYmK-A0AAAAJ&hl=en), [Lingjie Liu](https://lingjie0206.github.io/), [Adam Kortylewsk](https://generativevision.mpi-inf.mpg.de/), [Christian Theobalt](https://people.mpi-inf.mpg.de/~theobalt/), [Eric Xing](http://www.cs.cmu.edu/~epxing/) <Br>
-[arXiv 2112] [[Project](https://github.com/fnzhan/MISE)] 
+[arXiv 2112] [[Pytorch-Code](https://github.com/fnzhan/MISE)] 
 
 - **LAFITE: Towards Language-Free Training for Text-to-Image Generation** <Br>
 [Yufan Zhou](https://yufanzhou.com/), [Ruiyi Zhang](https://zhangry868.github.io/), [Changyou Chen](https://cse.buffalo.edu/~changyou/), [Chunyuan Li](https://chunyuan.li/), [Chris Tensmeyer](https://ctensmeyer.github.io/), Tong Yu, [Jiuxiang Gu](https://gujiuxiang.com/), Jinhui Xu, Tong Sun <Br>
@@ -316,7 +371,6 @@ Hamza Pehlivan, [Yusuf Dalva](https://yusufdalva.github.io/), [Aysegul Dundar](h
 - **DiffusionRig: Learning Personalized Priors for Facial Appearance Editing** <Br>
 Zheng Ding, [Xuaner Zhang](https://ceciliavision.github.io/), [Zhihao Xia](https://likesum.github.io/), [Lars Jebe](https://lcjebe.github.io/) [Zhuowen Tu](https://pages.ucsd.edu/~ztu/), [Xiuming Zhang](https://xiuming.info/)  <Br>
 [CVPR 2023] [[Project](https://diffusionrig.github.io/)] [[Pytorch-Code](https://github.com/adobe-research/diffusion-rig)]  <Br>
-[**SINE**]
 
 - **SINgle Image Editing with Text-to-Image Diffusion Models** <Br>
 [Zhixing Zhang](https://zhang-zx.github.io/), [Ligong Han](https://phymhan.github.io/), [Arnab Ghosh](https://arnabgho.github.io/), [Dimitris Metaxas](https://people.cs.rutgers.edu/~dnm/), [Jian Ren](https://alanspike.github.io/)   <Br>

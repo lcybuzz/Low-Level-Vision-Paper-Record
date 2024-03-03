@@ -607,13 +607,25 @@ Peng Dai, Xin Yu, Lan Ma, Baoheng Zhang, Jia Li, [Wenbo Li](https://fenglinglwb.
 
 
 # Video Synthesis
+- **MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation** <Br>
+Ludan Ruan, [Yiyang Ma](https://realpasu.github.io/), [Huan Yang](https://hyang0511.github.io/), Huiguo He, Bei Liu, [Jianlong Fu](https://www.microsoft.com/en-us/research/people/jianf/), Nicholas Jing Yuan, Qin Jin, Baining Guo <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/researchmm/MM-Diffusion)] <Br>
+
+- **GAN-Supervised Dense Visual Alignment** <Br>
+[Sihyun Yu](https://sihyun.me/), [Kihyuk Sohn](https://sites.google.com/site/kihyuksml/), [Subin Kim](https://subin-kim-cv.github.io/), [Jinwoo Shin](https://alinlab.kaist.ac.kr/shin.html) <Br>
+[CVPR 2023] [[Project](https://sihyun.me/PVDM/)] [[Pytorch-Code](https://github.com/sihyun-yu/PVDM)] <Br>
+
+- **Conditional Image-to-Video Generation with Latent Flow Diffusion Models** <Br>
+[Haomiao Ni](https://sites.google.com/view/haomiaoni/home), [Changhao Shi](https://www.changhaoshi.com/), [Kai Li](https://kailigo.github.io/), [Sharon X. Huang](http://faculty.ist.psu.edu/suh972/), [Martin Renqiang Min](https://www.cs.toronto.edu/~cuty/) <Br>
+[CVPR 2023] [[Pytorch-Code](https://github.com/nihaomiao/CVPR23_LFDM)] <Br>
+
 - **GAN-Supervised Dense Visual Alignment** <Br>
 [William Peebles](https://www.wpeebles.com/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Richard Zhang](http://richzhang.github.io/), [Antonio Torralba](https://groups.csail.mit.edu/vision/torralbalab/), [Alexei A. Efros](http://people.eecs.berkeley.edu/~efros/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/) <Br>
 [CVPR 2022 Oral] [[Project](https://www.wpeebles.com/gangealing)] [[Pytorch-Code](https://github.com/wpeebles/gangealing)] <Br>
 
 - **Thin-Plate Spline Motion Model for Image Animation** <Br>
 Jian Zhao, Hui Zhang <Br>
-[CVPR 2022] [[Pytorch-Code]](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model)] <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/yoyo-nb/Thin-Plate-Spline-Motion-Model)] <Br>
 
 - **Make It Move: Controllable Image-to-Video Generation with Text Descriptions** <Br>
 Yaosi Hu, [Chong Luo](https://www.microsoft.com/en-us/research/people/cluo/?from=http%3A%2F%2Fresearch.microsoft.com%2Fen-us%2Fpeople%2Fcluo%2F), Zhenzhong Chen<Br>
