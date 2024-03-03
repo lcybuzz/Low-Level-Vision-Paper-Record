@@ -334,6 +334,10 @@ Po-Wei Wu, Yu-Jing Lin, Che-Han Chang, Edward Y. Chang, Shih-Wei Liao <Br>
 
 # Image Manipulation
 - **EDICT: Exact Diffusion Inversion via Coupled Transformations** <Br>
+[Qinghe Wang](https://qinghew.github.io/), [Xu Jia](https://stephenjia.github.io/), Xiaomin Li, Taiqing Li, [Liqian Ma](https://charliememory.github.io/), Yunzhi Zhuge, Huchuan Lu <Br>
+[arXiv 2401] [[Project](https://qinghew.github.io/StableIdentity/)] [[Pytorch-Code](https://github.com/qinghew/StableIdentity)]  <Br>
+
+- **EDICT: Exact Diffusion Inversion via Coupled Transformations** <Br>
 [Bram Wallace](https://sites.coecis.cornell.edu/bram/), Akash Gokul, [Nikhil Naik](https://web.mit.edu/naik/www/) <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/salesforce/EDICT)]  <Br>
 

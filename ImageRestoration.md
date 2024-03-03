@@ -12,6 +12,15 @@
 
 # Image Restoration
 
+- **Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild**  <Br>
+Fanghua, Yu, [Jinjin Gu](https://www.jasongt.com/), Zheyuan Li, Jinfan Hu, Xiangtao Kong, [Xintao Wang](https://xinntao.github.io/), Jingwen He, Yu Qiao, Chao Dong  <Br>
+[CVPR 2024] [[Project](https://supir.xpixel.group/)] [[Pytorch-Code](https://github.com/Fanghua-Yu/SUPIR)] <Br>
+[**SUPIR**] 🔥
+
+- **MambaIR: A Simple Baseline for Image Restoration with State-Space Model**  <Br>
+[Hang Guo](https://github.com/csguoh), [Jinmin Li](https://github.com/THU-Kingmin), [Tao Dai](https://cstaodai.com/), Zhihao Ouyang, Xudong Ren, Shu-Tao Xia <Br>
+[arXiv 2402] [[Pytorch-Code](https://github.com/csguoh/MambaIR)] <Br>
+
 - **Image Restoration with Mean-Reverting Stochastic Differential Equations**  <Br>
 [Ziwei Luo](https://algolzw.github.io/), [Fredrik K. Gustafsson](https://www.fregu856.com/), [Zheng Zhao](https://zz.zabemon.com/), [Jens Sjölund](https://jsjol.github.io/), [Thomas B. Schön](https://user.it.uu.se/~thosc112/index.html) <Br>
 [ICML 2023] [[Pytorch-Code](https://github.com/Algolzw/image-restoration-sde)] <Br>
@@ -567,6 +576,11 @@ Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He <Br>
 
 
 # Image Inpainting
+- **Inpaint Anything: Segment Anything Meets Image Inpainting** <Br>
+Tao Yu, Runseng Feng, [Ruoyu Feng](https://ruoyufeng.github.io/ruoyufeng/), Jinming Liu, Xin Jin, Wenjun Zeng, [Zhibo Chen](https://faculty.ustc.edu.cn/chenzhibo/)  <Br>
+[arXiv 2304] [[Pytorch-Code](https://github.com/geekyutao/Inpaint-Anything)]  <Br>
+🔥
+
 - **HD-Painter: High-Resolution and Prompt-Faithful Text-Guided Image Inpainting with Diffusion Models** <Br>
 Hayk Manukyan, Andranik Sargsyan, Barsegh Atanyan, Zhangyang Wang, Shant Navasardyan, [Humphrey Shi](https://www.humphreyshi.com/)  <Br>
 [arXiv 2312] [[Pytorch-Code](https://github.com/Picsart-AI-Research/HD-Painter)]  <Br>
