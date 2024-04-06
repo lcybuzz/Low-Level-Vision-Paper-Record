@@ -42,7 +42,8 @@ Xiang Li, [Jinshan Pan](https://jspan.github.io/), Jinhui Tang, Jiangxin Dong <B
 - **Activating More Pixels in Image Super-Resolution Transformer** <Br>
 [Xiangyu Chen](https://chxy95.github.io/), [Xintao Wang](https://xinntao.github.io/), [Jiantao Zhou](https://www.fst.um.edu.mo/personal/jtzhou/), [Chao Dong](http://xpixel.group/) <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/XPixelGroup/HAT)]   <Br>
-[**HAT**]
+[**HAT**] 🔥 提出了OCAB(Overlapping Cross-Attention Block), 增强了窗口间的信息交互. 与自注意力, 通道注意力一起使用, 设计的网络实现了sota.
+ 
 
 - **Simple Baselines for Image Restoration** <Br>
 Liangyu Chen, Xiaojie Chu, Xiangyu Zhang, [Jian Sun](http://www.jiansun.org/) <Br>

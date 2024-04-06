@@ -17,28 +17,32 @@
 - **SMAE: Few-shot Learning for HDR Deghosting with Saturation-Aware Masked Autoencoders** <Br>
 [Qingsen Yan](https://qingsenyangit.github.io/), Song Zhang, Weiye Chen, Hao Tang, Yu Zhu, Jinqiu Sun, Luc Van Gool, Yanning Zhang <Br>
 [CVPR 2023]  <Br>
-[★☆] 多帧HDR. 首先, 类似MAE, 用unlabeled数据加掩膜做预训练; 第二步, 用少量static和dynamic的标签数据finetune; 最后, 生成伪标签, 并设计了一系列策略, 用来finetune
+[★☆] **Few Shot HDR**. 首先, 类似MAE, 用unlabeled数据加掩膜做预训练; 第二步, 用少量static和dynamic的标签数据finetune; 最后, 生成伪标签, 并设计了一系列策略, 用来finetune
 
 - **HDR Imaging with Spatially Varying Signal-to-Noise Ratios** <Br>
 Yiheng Chi, Xingguang Zhang, [Stanley H. Chan](https://engineering.purdue.edu/ChanGroup/) <Br>
 [CVPR 2023]  <Br>
+[★] HDR融和+降噪
 
 - **Inverting the Imaging Process by Learning an Implicit Camera Model** <Br>
 [Xin Huang](https://xhuangcv.github.io/), [Qi Zhang](https://qzhang-cv.github.io/), Ying Feng, [Hongdong Li](https://users.cecs.anu.edu.au/~hongdong/), [Qing Wang](https://teacher.nwpu.edu.cn/qwang.html) <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/xhuangcv/neucam)] <Br>
+[★] 基于MLP做HDR
 
 - **Joint HDR Denoising and Fusion: A Real-World Mobile HDR Image Dataset** <Br>
 Shuaizheng Liu, Xindong Zhang, Lingchen Sun, Zhetong Liang, [Hui Zeng](https://huizeng.github.io/), [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 [CVPR 2023] [[Code](https://github.com/shuaizhengliu/Joint-HDRDN)] <Br>
-[oppo]
+[oppo] [★] 用类似Kalantari数据集生成的方式, 生成带motion的HDR数据集, 同时用多帧平均的方式合成干净的图像, 制作了一个可用于HDR+denoise模型训练的数据集. 网络设计上, 使用金字塔注意力和transformer结构.
 
 - **TransMEF: A Transformer-Based Multi-Exposure Image Fusion Framework via Self-Supervised Multi-Task Learning** <Br>
-[Linhao Qu])https://linhao-qu.github.io/, Shaolei Liu, Manning Wang, Zhijian Song <Br>
+[Linhao Qu](https://linhao-qu.github.io/), Shaolei Liu, Manning Wang, Zhijian Song <Br>
 [AAAI 2022] [[Pytorch-Code](https://github.com/miccaiif/TransMEF)] <Br>
+[★☆] **自监督MEF**. 对输入做gamma, fourier, 随机打乱三种退化, 使网络能够学习亮度, 纹理和语义信息. 推理时输入两张图像, 分别经过encoder提取特征, 再经过简单的相加融合特征, 最后经过decoder输出融合图像
 
-- **Gamma-Enhanced Spatial Attention Network for Efficient High Dynamic Range Imaging** <Br>
+- **Ghost-free High Dynamic Range Imaging with Context-aware Transformer** <Br>
 Zhen Liu, Yinglong Wang, Bing Zeng, [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
 [ECCV 2022] [[Pytorch-Code](https://github.com/megvii-research/HDR-Transformer)] <Br>
+[**CA-ViT**] [★] transformer + 通道自注意力的双分支结构
 
 - **DRHDR: A Dual Branch Residual Network for Multi-Bracket High Dynamic Range Imaging** <Br>
 Juan Marín-Vega, Michael Sloth, Peter Schneider-Kamp, Richard Röttger <Br>
