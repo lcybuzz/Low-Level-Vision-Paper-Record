@@ -159,7 +159,7 @@ Kinam Kwon, Eunhee Kang, Sangwon Lee, Su-Jin Lee, Hyong-Euk Lee, ByungIn Yoo, Ja
 - **Multi-Stage Progressive Image Restoration** <Br>
 [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en) <Br>
 [CVPR 2021] [[Pytorch-Code](https://github.com/swz30/MPRNet)] <Br>
-[**MPRNet**] [★] 多阶段结构, 用了attention等一些trick
+[**MPRNet**] [🔥] 多阶段结构, 用了attention等一些trick
 
 - **COLA-Net: Collaborative Attention Network for Image Restoration**   <Br>
  Chong Mou, [Jian Zhang](https://jianzhang.tech/), Xiaopeng Fan, Hangfan Liu, Ronggang Wang <Br>

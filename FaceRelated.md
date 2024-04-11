@@ -15,6 +15,7 @@ Zhixin Wang, Xiaoyun Zhang, Ziying Zhang, [Huangjie Zheng](https://huangjiezheng
 - **Towards Robust Blind Face Restoration with Codebook Lookup Transformer**  <Br>
 [Shangchen Zhou](https://shangchenzhou.com/), [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Chongyi Li](https://li-chongyi.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) <Br>
 [NeuralIPS 2022] [[Project](https://shangchenzhou.com/projects/CodeFormer/)] [[Pytorch-Code](https://github.com/sczhou/CodeFormer)] <Br>
+[**CodeFormer**] 🔥
 
 - **VQFR: Blind Face Restoration with Vector-Quantized Dictionary and Parallel Decoder**  <Br>
 [Yuchao Gu](https://ycgu.site/), [Xintao Wang](https://xinntao.github.io/), [Liangbin Xie](https://liangbinxie.github.io/), [Chao Dong](http://xpixel.group/]), Gen Li, Ying Shan, [Ming-Ming Cheng](https://mmcheng.net/cmm/) <Br>
