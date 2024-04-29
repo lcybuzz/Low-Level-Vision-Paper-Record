@@ -196,6 +196,11 @@ Zhengzhong Tu, Jessie Lin, Yilin Wang, Balu Adsumilli, [Alan C. Bovik](https://w
 
 
 # Image Processing on Device
+- **SYENet: A Simple Yet Effective Network for Multiple Low-Level Vision Tasks with Real-time Performance on Mobile Device** <Br>
+Weiran Gou, Ziyao Yi, Yan Xiang, Shaoqing Li, Zibin Liu, Dehui Kong, Ke Xu <Br>
+[ICCV 2023] [[PYtorch-Code](https://github.com/sanechips-multimedia/syenet)] <Br>
+高通
+
 - **Collapsible Linear Blocks for Super-Efficient Super Resolution** <Br>
 Kartikeya Bhardwaj, Milos Milosavljevic, Alex Chalfin, Naveen Suda, Liam O'Neil, Dibakar Gope, Lingchuan Meng, Ramon Matas, Danny Loh <Br>
 [arXiv 2103] <Br>

@@ -26,6 +26,19 @@ Fanghua, Yu, [Jinjin Gu](https://www.jasongt.com/), Zheyuan Li, Jinfan Hu, Xiang
 [ICML 2023] [[Pytorch-Code](https://github.com/Algolzw/image-restoration-sde)] <Br>
 [**IC-SDE**]
 
+- **DiffIR: Efficient diffusion model for image restoration**  <Br>
+[Bin Xia](https://zj-binxia.github.io/), [Yulun Zhang](https://yulunzhang.com/), Shiyin Wang, Yitong Wang, Xinglong Wu, [Yapeng Tian](https://www.yapengtian.com/), Wenming Yang, Luc Van Gool  <Br>
+[ICCV 2023] [Pytorch-Code](https://github.com/Zj-BinXia/DiffIR)] <Br>
+
+- **Focal Network for Image Restoration**  <Br>
+Yuning Cui, [Wenqi Ren](https://rwenqi.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/members/caoxiaochun.htm), [Alois Knoll](https://www.ce.cit.tum.de/en/air/people/prof-dr-ing-habil-alois-knoll/)  <Br>
+[ICCV 2023] [Pytorch-Code](https://github.com/c-yn/FocalNet)] <Br>
+
+- **Under-Display Camera Image Restoration with Scattering Effect**  <Br>
+Binbin Song, Xiangyu Chen, Shuning Xu, [Jiantao Zhou](https://www.fst.um.edu.mo/personal/jtzhou/)  <Br>
+[ICCV 2023] [Pytorch-Code](https://github.com/NamecantbeNULL/SRUDC)] <Br>
+[**UDC**]
+
 - **Parallel Diffusion Model of Operator and Image for Blind Inverse Problems**  <Br>
 [Hyungjin Chung](https://www.hj-chung.com/), [Jeongsol Kim](https://jeongsol.dev/), Sehui Kim, Jong Chul Ye <Br>
 [CVPR 2023] [[Project](https://blinddps.github.io/blind-dps-project/)] [[Pytorch-Code](https://github.com/BlindDPS/blind-dps)] <Br>
@@ -146,6 +159,7 @@ Lan Fu, Changqing Zhou, [Qing Guo](https://tsingqguo.github.io/), [Felix Juefei-
 - **Controllable Image Restoration for Under-Display Camera in Smartphones**  <Br>
 Kinam Kwon, Eunhee Kang, Sangwon Lee, Su-Jin Lee, Hyong-Euk Lee, ByungIn Yoo, Jae-Joon Han <Br>
 [CVPR 2021] <Br>
+[**UDC**]
 
 - **Removing Diffraction Image Artifacts in Under-Display Camera via Dynamic Skip Connection Networks**  <Br>
 [Ruicheng Feng](https://jnjaby.github.io/), [Chongyi Li](https://li-chongyi.github.io/), [Huaijin Chen](https://hc25.web.rice.edu), Shuai Li, [Chen Change Loy](https://personal.ie.cuhk.edu.hk/~ccloy/), [Jinwei Gu](https://www.gujinwei.org/) <Br>
@@ -155,6 +169,7 @@ Kinam Kwon, Eunhee Kang, Sangwon Lee, Su-Jin Lee, Hyong-Euk Lee, ByungIn Yoo, Ja
 - **Image Restoration for Under-Display Camera**   <Br>
 [Yuqian Zhou](https://yzhouas.github.io/), David Ren, [Neil Emerton](https://www.microsoft.com/applied-sciences/people/neil-emerton), [Sehoon Lim](https://www.microsoft.com/applied-sciences/people/sehoon-lim), [Timothy Large](https://www.microsoft.com/applied-sciences/people/tim-large) <Br>
 [CVPR 2021] [[Project](https://yzhouas.github.io/projects/UDC/udc.html)] <Br>
+[**UDC**]
 
 - **Multi-Stage Progressive Image Restoration** <Br>
 [Syed Waqas Zamir](https://scholar.google.es/citations?user=WNGPkVQAAAAJ&hl=en), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](https://scholar.google.es/citations?user=zvaeYnUAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=en), [Ling Shao](https://scholar.google.com/citations?user=z84rLjoAAAAJ&hl=en) <Br>
