@@ -4,6 +4,15 @@
 
 
 # Image Enhancement
+- **CLIPtone: Unsupervised Learning for Text-based Image Tone Adjustment** <Br>
+Hyeongmin Lee, [Kyoungkook Kang](https://kkang831.github.io/), [Jungseul Ok](https://sites.google.com/view/jungseulok), [Sunghyun Cho](https://www.scho.pe.kr/) <Br>
+[CVPR 2024] [[PyTorch-Code](https://github.com/hmin970922/CLIPtone)]
+
+
+- **Iterative Prompt Learning for Unsupervised Backlit Image Enhancement** <Br>
+[Zhexin Liang](https://zhexinliang.github.io/),  [Chongyi Li](https://li-chongyi.github.io/), [Shangchen Zhou](https://shangchenzhou.com/),  [Ruicheng Feng](https://jnjaby.github.io/),  [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/index.html) <Br>
+[ICCV 2023 Oral] [[Project](https://zhexinliang.github.io/CLIP_LIT_page/)] [[PyTorch-Code](https://github.com/ZhexinLiang/CLIP-LIT)]   <Br>
+[**CLIP-LIT**]
 
 - **Controllable Image Enhancement** <Br>
 [Heewon Kim](https://sites.google.com/view/kimheewon/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
@@ -34,6 +43,7 @@ Fevziye Irem Eyiokur, Dogucan Yaman, [Hazım Kemal Ekenel](https://web.itu.edu.t
 - **AdaInt: Learning Adaptive Intervals for 3D Lookup Tables on Real-time Image Enhancement** <Br>
 Canqian Yang, [Meiguang Jin](https://meiguangjin.github.io/), [Xu Jia](https://stephenjia.github.io/), [Yi Xu](https://317lab.sjtu.edu.cn/), Ying Chen <Br>
 [CVPR 2022] [[PyTorch-Code](https://github.com/ImCharlesY/AdaInt)]   <Br>
+[★★]  可学习的3dlut网格间距
 
 - **STAR: A Structure-Aware Lightweight Transformer for Real-time Image Enhancement** <Br>
 [Author][ Zhaoyang Zhang](https://zzyfd.github.io/#/), Yitong Jiang, Jun Jiang, [Xiaogang Wang](http://www.ee.cuhk.edu.hk/~xgwang/), [Ping Luo](http://luoping.me/), [Jinwei Gu](https://www.gujinwei.org/) <Br>
@@ -56,7 +66,7 @@ Hui Zeng, [Jianrui Cai](https://csjcai.github.io/), Lida Li, Zisheng Cao, [Lei Z
 
 - **Global and Local Enhancement Networks for Paired and Unpaired Image Enhancement** <Br>
 Han-Ul Kim, Young Jun Koh, Chang-Su Kim <Br>
-[ECCV 2020] [[Project](http://mcl.korea.ac.kr/research/hukim-eccv2020-glenet/)]   [[Pytorch-Code](https://github.com/dongkwonjin/GleNet)] <Br>
+[ECCV 2020] [[Project](http://mcl.korea.ac.kr/research/hukim-eccv2020-glenet/)] [[Pytorch-Code](https://github.com/dongkwonjin/GleNet)] <Br>
 [**GLeNet**] [★★] **(曲线预测)**	全局预测曲线(3*256) + 局部增强. 无监督训练部分采用类似cycle gan的策略. 更具有实用性的曲线预测策略已经开始获得关注, 相关论文越来越多了.
 
 - **PieNet: Personalized Image Enhancement Network** <Br>
@@ -90,7 +100,7 @@ Taeyoung Son, Juwon Kang, Namyup Kim, [Sunghyun Cho](https://www.scho.pe.kr/), [
 [★☆] 有点类似HRDNet, 在小分辨率预测输入值的分段映射系数, 在原图上增强. 速度快, 应该有较强的实用性.
 
 - **Aesthetic-Driven Image Enhancement by Adversarial Learning** <Br>
-Yubin Deng, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/index.html),	[Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml)  <Br>
+Yubin Deng, [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/index.html), [Xiaoou Tang](https://www.ie.cuhk.edu.hk/people/xotang.shtml)  <Br>
 [MM 2018] [[Project](http://personal.ie.cuhk.edu.hk/~dy015/ImageAesthetics/EnhanceGAN.html)] [[Torch-Code](https://github.com/dannysdeng/EnhanceGAN)]<Br>
 [**EnhanceGAN**] [★] weakly supervised方法, 学习crop和色彩变换参数, 增强aesthetic quality
 
@@ -129,6 +139,10 @@ Michaël Gharbi, [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Jonathan T
 	
 	
 # Low-light Image Enhancement
+- **Implicit Neural Representation for Cooperative Low-light Image Enhancement** <Br>
+[Shuzhou Yang](https://ysz2022.github.io/), Moxuan Ding, Yanmin Wu, Zihan Li, [Jian Zhang](https://jianzhang.tech/) <Br>
+[ICCV 2023] [[PyTorch-Code](https://github.com/Ysz2022/NeRCo)]   <Br>
+[**NeRCo**]
 
 - **ExposureDiffusion: Learning to Expose for Low-light Image Enhancement** <Br>
 [Yufei Wang](https://wyf0912.github.io/), Yi Yu, [Wenhan Yang](https://flyywh.github.io/), Lanqing Guo, Lap-Pui Chau, Alex C. Kot, [Bihan Wen](https://personal.ntu.edu.sg/bihan.wen/) <Br>
@@ -149,11 +163,6 @@ Michaël Gharbi, [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Jonathan T
 - **Learning Semantic-Aware Knowledge Guidance for Low-Light Image Enhancement** <Br>
 Yuhui Wu, Chen Pan, [Guoqing Wang](https://faculty.uestc.edu.cn/wangguoqing1/zh_CN/index.htm), Yang Yang, Jiwei Wei, [Chongyi Li](https://li-chongyi.github.io/), [Heng Tao Shen](https://cfm.uestc.edu.cn/~shenht/) <Br>
 [CVPR 2023] [[PyTorch-Code](https://github.com/langmanbusi/Semantic-Aware-Low-Light-Image-Enhancement)]   <Br>
-
-- **Implicit Neural Representation for Cooperative Low-light Image Enhancement** <Br>
-[Shuzhou Yang](https://ysz2022.github.io/), Moxuan Ding, Yanmin Wu, Zihan Li, [Jian Zhang](https://jianzhang.tech/) <Br>
-[ICML 2023] [[PyTorch-Code](https://github.com/Ysz2022/NeRCo)]   <Br>
-[**NeRCo**]
 
 - **You Only Need 90K Parameters to Adapt Light: A Light Weight Transformer for Image Enhancement and Exposure Correction** <Br>
 [Ziteng Cui](https://cuiziteng.github.io/), Kunchang Li, [Lin Gu](https://sites.google.com/view/linguedu/home), Shenghan Su, Peng Gao, [Zhengkai Jiang](https://jiangzhengkai.github.io/), [Yu Qiao](http://mmlab.siat.ac.cn/), [Tatsuya Harada](https://www.mi.t.u-tokyo.ac.jp/harada/) <Br>

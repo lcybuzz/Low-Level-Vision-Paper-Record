@@ -413,6 +413,10 @@ Tomer Peleg, Pablo Szekely, Doron Sabo, [Omry Sendik](https://omrysendik.github.
 	
 	
 # Video Enhancement and Restoration
+- **Snow Removal in Video: A New Dataset and A Novel Method** <Br>
+[Haoyu Chen](https://haoyuchen.com/), Jingjing Ren, [Jinjin Gu](https://www.jasongt.com/), Hongtao Wu, Xuequan Lu, [Haoming Cai](https://www.haomingcai.com/), [Lei Zhu](https://sites.google.com/site/indexlzhu/home?authuser=0)  <Br>
+[ICCV 2023] [[Project](https://haoyuchen.com/VideoDesnowing)] [[Pytorhc-Code](https://github.com/haoyuc/VideoDesnowing)] <Br>
+
 - **Recurrent Video Restoration Transformer with Guided Deformable Attention** <Br>
 [Jingyun Liang](https://jingyunliang.github.io/), [Yuchen Fan](https://ychfan.github.io/), [Xiaoyu Xiang](https://engineering.purdue.edu/people/xiaoyu.xiang.1), Rakesh Ranjan, [Eddy Ilg](https://cvmp.cs.uni-saarland.de/), Simon Green, [Jiezhang Cao](https://www.jiezhangcao.com/), [Kai Zhang](https://cszn.github.io/), [Radu Timofte](http://people.ee.ethz.ch/~timofter/), [Luc Van Gool](https://ee.ethz.ch/the-department/faculty/professors/person-detail.OTAyMzM=.TGlzdC80MTEsMTA1ODA0MjU5.html)  <Br>
 [NeurlPS 2022] [[Pytorhc-Code](https://github.com/JingyunLiang/RVRT)] <Br>
@@ -534,6 +538,11 @@ Zongsheng Yue, [Jianwen Xie](http://www.stat.ucla.edu/~jxie/), Qian Zhao, [Deyu 
 
 
 # Video Inpainting
+- **ProPainter: Improving Propagation and Transformer for Video Inpainting** <Br>
+[Shangchen Zhou](https://shangchenzhou.com/),  [Chongyi Li](https://li-chongyi.github.io/),  [Kelvin C.K. Chan](https://ckkelvinchan.github.io/),,  [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/) <Br>
+[ICCV 2023] [[Project](https://chenyanglei.github.io/deflicker/)] [[Pytorch-Code](https://github.com/sczhou/ProPainter)]
+🔥
+
 - **The DEVIL is in the Details: A Diagnostic Evaluation Benchmark for Video Inpainting** <Br>
 [Ryan Szeto](http://ryanszeto.com/), [Jason J. Corso](http://web.eecs.umich.edu/~jjcorso/) <Br>
 [CVPR 2022] [[Code](https://github.com/MichiganCOG/devil)]

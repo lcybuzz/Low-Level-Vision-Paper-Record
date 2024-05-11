@@ -6,13 +6,22 @@
 #  Image Super Resolution
 - **DiffBIR: Towards Blind Image Restoration with Generative Diffusion Prior** <Br>
 [Xinqi Lin](https://0x3f3f3f3fun.github.io/), [Jingwen He](https://github.com/hejingwenhejingwen), Ziyan Chen, Zhaoyang Lyu, Ben Fei, [Bo Dai](http://daibo.info/), [Wanli Ouyang](https://wlouyang.github.io/), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao), [Chao Dong](http://xpixel.group/2010/01/20/chaodong.html) <Br>
-[arXiv 2308] [[Project](https://0x3f3f3f3fun.github.io/projects/diffbir/)]  [[Pytorch-Code](https://github.com/XPixelGroup/DiffBIR)]   <Br>
+[arXiv 2308] [[Project](https://0x3f3f3f3fun.github.io/projects/diffbir/)] [[Pytorch-Code](https://github.com/XPixelGroup/DiffBIR)]   <Br>
 [**DiffBIR**] 🔥
 
 - **Exploiting Diffusion Prior for Real-World Image Super-Resolution** <Br>
 [Jianyi Wang](https://iceclear.github.io/), [Zongsheng Yue](https://zsyoaoa.github.io/), [Shangchen Zhou](https://shangchenzhou.com/), [Kelvin C.K. Chan](https://ckkelvinchan.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/) <Br>
-[arXiv 2305] [[Project](https://iceclear.github.io/projects/stablesr/)]  [[Pytorch-Code](https://github.com/IceClear/StableSR)]   <Br>
+[arXiv 2305] [[Project](https://iceclear.github.io/projects/stablesr/)] [[Pytorch-Code](https://github.com/IceClear/StableSR)]   <Br>
 [**StableSR**] 🔥
+
+- **Lightweight Image Super-Resolution with Superpixel Token Interaction** <Br>
+Aiping Zhang, [Wenqi Ren](https://rwenqi.github.io/), Yi Liu, [Xiaochun Cao](https://scst.sysu.edu.cn/members/caoxiaochun.htm) <Br>
+[ICCV 2023] [[Pytorch-Code]( https://github.com/ArcticHare105/SPIN)]   <Br>
+[**SPIN**]
+
+- **SRFormer: Permuted Self-Attention for Single Image Super-Resolution** <Br>
+Yupeng Zhou, [Zhen Li](https://paper99.github.io/), Chun-Le Guo, [Song Bai](https://songbai.site/), [Ming-Ming Cheng](https://mmcheng.net/cmm/), [Qibin Hou](https://houqb.github.io/) <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/HVision-NKU/SRFormer)]   <Br>
 
 - **Dual Aggregation Transformer for Image Super-Resolution** <Br>
 [Zheng Chen](https://zhengchen1999.github.io/), [Yulun Zhang](https://yulunzhang.com/), [Jinjin Gu](https://www.jasongt.com/), [Linghe Kong](https://www.cs.sjtu.edu.cn/~linghe.kong/), Xiaokang Yang, Fisher Yu <Br>
@@ -82,7 +91,7 @@ Zhilu Zhang, Ruohao Wang, Hongzhi Zhang, Yunjin Chen, [Wangmeng Zuo](http://home
 [ECCV 2022] [[Pytorch-Code](https://github.com/csjliang/DASR)]  <Br> 
 [**DASR**]
 
-- **Learning Series-Parallel Lookup Tables for Efficient Image Super-Resolution** <Br>
+- **Efficient Long-Range Attention Network for Image Super-resolution** <Br>
 Xindong Zhang, [Hui Zeng](https://huizeng.github.io/), Shi Guo, [Lei Zhang](https://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
 [ECCV 2022] [[Pytorch-Code](https://github.com/xindongzhang/ELAN)]  <Br> 
 [**ELAN**]

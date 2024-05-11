@@ -7,6 +7,10 @@
 
 # Image Synthesis
 - **Disentangling Writer and Character Styles for Handwriting Generation** <Br>
+Shilin Lu, Yanzhu Liu, Adams Wai-Kin Kong
+[ICCV 2023] [[Project](https://shilin-lu.github.io/tf-icon.github.io/)] [[Pytorch-Code](https://github.com/Shilin-LU/TF-ICON)]  <Br>
+
+- **Disentangling Writer and Character Styles for Handwriting Generation** <Br>
 Gang Dai, [Yifan Zhang](https://sites.google.com/view/yifan-zhang/%E9%A6%96%E9%A1%B5), Qingfeng Wang, Qing Du, Zhuliang Yu, Zhuoman Liu, Shuangping Huang
 [CVPR 2023] [[Pytorch-Code](https://github.com/dailenson/SDT)]  <Br>
 
@@ -336,6 +340,18 @@ Po-Wei Wu, Yu-Jing Lin, Che-Han Chang, Edward Y. Chang, Shih-Wei Liao <Br>
 - **EDICT: Exact Diffusion Inversion via Coupled Transformations** <Br>
 [Qinghe Wang](https://qinghew.github.io/), [Xu Jia](https://stephenjia.github.io/), Xiaomin Li, Taiqing Li, [Liqian Ma](https://charliememory.github.io/), Yunzhi Zhuge, Huchuan Lu <Br>
 [arXiv 2401] [[Project](https://qinghew.github.io/StableIdentity/)] [[Pytorch-Code](https://github.com/qinghew/StableIdentity)]  <Br>
+
+- **HairCLIPv2: Unifying Hair Editing via Proxy Feature Blending** <Br>
+Tianyi Wei, [Dongdong Chen](https://www.dongdongchen.bid/), Wenbo Zhou, Jing Liao, Weiming Zhang, Gang Hua, Nenghai Yu <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/wty-ustc/HairCLIPv2)]  <Br>
+
+- **MasaCtrl: Tuning-free Mutual Self-Attention Control for Consistent Image Synthesis and Editing** <Br>
+[Mingdeng Cao](https://github.com/ljzycmd), [Xintao Wang](https://xinntao.github.io/), Zhongang Qi, Ying Shan, Xiaohu Qie, Yinqiang Zheng<Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/TencentARC/MasaCtrl)]  <Br>
+
+- **Multimodal Garment Designer: Human-Centric Latent Diffusion Models for Fashion Image Editing** <Br>
+[Alberto Baldrati](https://abaldrati.github.io/), Davide Morelli, Giuseppe Cartella, Marcella Cornia, Marco Bertini, Rita Cucchiara <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/aimagelab/multimodal-garment-designer)]  <Br>
 
 - **EDICT: Exact Diffusion Inversion via Coupled Transformations** <Br>
 [Bram Wallace](https://sites.coecis.cornell.edu/bram/), Akash Gokul, [Nikhil Naik](https://web.mit.edu/naik/www/) <Br>

@@ -123,7 +123,8 @@
 
 - Low level vision conference paper collection
     - [[ICCV 2023](https://github.com/DarrenPan/Awesome-ICCV2023-Low-Level-Vision)]
-    - [[CVPR 2023](https://github.com/DarrenPan/Awesome-CVPR2023-Low-Level-Vision)]  
+    - [CVPR 2024](https://github.com/Kobaayyy/Awesome-CVPR2024-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2024.md)]
+    [[CVPR 2023](https://github.com/DarrenPan/Awesome-CVPR2023-Low-Level-Vision)]  
     [[CVPR 2022](https://github.com/DarrenPan/CVPR2022-Low-Level-Vision)] 
     [[CVPR 2021/2020](https://github.com/Kobaayyy/Awesome-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2021.md)]
     - [[ECCV 2022](https://github.com/DarrenPan/Awesome-ECCV2022-Low-Level-Vision)] 
@@ -176,8 +177,8 @@
 
 - [[Photons to Photos](https://www.photonstophotos.net/index.htm)]
 
-- [[Colour Science for Python]](https://github.com/colour-science/colour)
+- [[Colour Science for Python](https://github.com/colour-science/colour)]
 
-- [[数据增强albumentations]](https://github.com/albumentations-team/albumentations)
+- [[数据增强albumentations](https://github.com/albumentations-team/albumentations)]
 
-- [[RawTherapee]](https://github.com/Beep6581/RawTherapee)
+- [[RawTherapee](https://github.com/Beep6581/RawTherapee)]

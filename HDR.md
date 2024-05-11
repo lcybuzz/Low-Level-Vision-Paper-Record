@@ -14,6 +14,15 @@
     
 # HDR
 ## Multi-Frame HDR
+- **MEFLUT: Unsupervised 1D Lookup Tables for Multi-exposure Image Fusion** <Br>
+[Ting Jiang](https://hedlen.github.io/), Chuan Wang, Xinpeng Li, Ru Li, Haoqiang Fan, [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
+[ICCV 2023]  [[Pytorch-Code](https://github.com/Hedlen/MEFLUT)] <Br>
+
+- **Alignment-free HDR Deghosting with Semantics Consistent Transformer** <Br>
+Steven Tel, [Zongwei Wu](https://sites.google.com/view/zwwu/accueil), [Yulun Zhang](https://yulunzhang.com/), Barthélémy Heyrman, [Cédric Demonceaux](https://sites.google.com/view/cedricdemonceaux/home), [Radu Timofte](https://www.informatik.uni-wuerzburg.de/computervision/), [Dominique Ginhac](https://ginhac.com/) <Br>
+[ICCV 2023]  [[Pytorch-Code](https://github.com/Zongwei97/SCTNet)] <Br>
+[**SCTNet**]
+
 - **SMAE: Few-shot Learning for HDR Deghosting with Saturation-Aware Masked Autoencoders** <Br>
 [Qingsen Yan](https://qingsenyangit.github.io/), Song Zhang, Weiye Chen, Hao Tang, Yu Zhu, Jinqiu Sun, Luc Van Gool, Yanning Zhang <Br>
 [CVPR 2023]  <Br>
@@ -193,6 +202,10 @@ Green Rosh K S, Anmol Biswas Mandakinee, Singh Patel, B H Pawan Prasad <Br>
 
 
 ## Single-Frame HDR
+- **RawHDR: High Dynamic Range Image Reconstruction from a Single Raw Image** <Br>
+Yunhao Zou, Chenggang Yan, [Ying Fu](https://ying-fu.github.io/) <Br>
+[ICCV 2023]  [[Pytorch-Code](https://github.com/jackzou233/RawHDR)] <Br>
+
 - **Learning a Practical SDR-to-HDRTV Up-conversion using New Dataset and Degradation Models** <Br>
 Cheng Guo, Leidong Fan, Ziyu Xue, Xiuhua Jiang <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/AndreGuo/HDRTVDM)] <Br>

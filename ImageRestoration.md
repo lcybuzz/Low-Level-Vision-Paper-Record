@@ -26,17 +26,25 @@ Fanghua, Yu, [Jinjin Gu](https://www.jasongt.com/), Zheyuan Li, Jinfan Hu, Xiang
 [ICML 2023] [[Pytorch-Code](https://github.com/Algolzw/image-restoration-sde)] <Br>
 [**IC-SDE**]
 
+- **High-resolution Document Shadow Removal via A Large-scale Real-world Dataset and A Frequency-aware Shadow Erasing Net**  <Br>
+[Zinuo Li](https://zinuoli.github.io/), [Xuhang Chen](https://cxh.netlify.app), [Chi-Man Pun](https://www.cis.um.edu.mo/~cmpun/), [Xiaodong Cun](http://vinthony.github.io/) <Br>
+[ICCV 2023] [[Project](https://cxh-research.github.io/DocShadow-SD7K/)] [[Pytorch-Code](https://github.com/CXH-Research/DocShadow-SD7K)] <Br>
+
+- **Multi-weather Image Restoration via Domain Translation**  <Br>
+[Prashant W Patil](https://pwpatil.com/), [Sunil Gupta](https://www.deakin.edu.au/about-deakin/people/sunil-gupta), Santu Rana, Svetha Venkatesh, Subrahmanyam Murala  <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/pwp1208/Domain_Translation_Multi-weather_Restoration)] <Br>
+
 - **DiffIR: Efficient diffusion model for image restoration**  <Br>
 [Bin Xia](https://zj-binxia.github.io/), [Yulun Zhang](https://yulunzhang.com/), Shiyin Wang, Yitong Wang, Xinglong Wu, [Yapeng Tian](https://www.yapengtian.com/), Wenming Yang, Luc Van Gool  <Br>
-[ICCV 2023] [Pytorch-Code](https://github.com/Zj-BinXia/DiffIR)] <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/Zj-BinXia/DiffIR)] <Br>
 
 - **Focal Network for Image Restoration**  <Br>
 Yuning Cui, [Wenqi Ren](https://rwenqi.github.io/), [Xiaochun Cao](https://scst.sysu.edu.cn/members/caoxiaochun.htm), [Alois Knoll](https://www.ce.cit.tum.de/en/air/people/prof-dr-ing-habil-alois-knoll/)  <Br>
-[ICCV 2023] [Pytorch-Code](https://github.com/c-yn/FocalNet)] <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/c-yn/FocalNet)] <Br>
 
 - **Under-Display Camera Image Restoration with Scattering Effect**  <Br>
 Binbin Song, Xiangyu Chen, Shuning Xu, [Jiantao Zhou](https://www.fst.um.edu.mo/personal/jtzhou/)  <Br>
-[ICCV 2023] [Pytorch-Code](https://github.com/NamecantbeNULL/SRUDC)] <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/NamecantbeNULL/SRUDC)] <Br>
 [**UDC**]
 
 - **Parallel Diffusion Model of Operator and Image for Blind Inverse Problems**  <Br>
@@ -509,7 +517,8 @@ Orest Kupyn, Volodymyr Budzan, Mykola Mykhailych, Dmytro Mishkin, Jiří Matas<B
 
 
 # Reflection Removal
-- **Nighttime Smartphone Reflective Flare Removal using Optical Center Symmetry Prior**  <Br>
+
+- **Image Lens Flare Removal Using Adversarial Curve Learning**  <Br>
 [Yuyan Zhou](https://github.com/YuyanZhou1), [Dong Liang](http://faculty.nuaa.edu.cn/liangdong/zh_CN/index.htm), [Songcan Chen](http://parnec.nuaa.edu.cn/), [Sheng-Jun Huang](http://parnec.nuaa.edu.cn/huangsj), [Shuo Yang](https://scholar.google.com/citations?user=mbIW-KMAAAAJ&hl=zh-CN), [Chongyi Li](https://li-chongyi.github.io/) <Br>
 [ICCV 2023] [[Pytorch-Code](https://github.com/YuyanZhou1/Improving-Lens-Flare-Removal)] <Br>
 
@@ -600,6 +609,10 @@ Tao Yu, Runseng Feng, [Ruoyu Feng](https://ruoyufeng.github.io/ruoyufeng/), Jinm
 Hayk Manukyan, Andranik Sargsyan, Barsegh Atanyan, Zhangyang Wang, Shant Navasardyan, [Humphrey Shi](https://www.humphreyshi.com/)  <Br>
 [arXiv 2312] [[Pytorch-Code](https://github.com/Picsart-AI-Research/HD-Painter)]  <Br>
 
+- **MI-GAN: A Simple Baseline for Image Inpainting on Mobile Devices** <Br>
+Andranik Sargsyan, Shant Navasardyan, [Xingqian Xu](https://ifp-uiuc.github.io/), [Humphrey Shi](https://www.humphreyshi.com) <Br>
+[ICCV 2023] [[Pytorch-Code](https://github.com/Picsart-AI-Research/MI-GAN)]  <Br>
+
 - **MAT: Mask-Aware Transformer for Large Hole Image Inpainting** <Br>
 [Wenbo Li](https://fenglinglwb.github.io/), Zhe Lin, Kun Zhou, [Lu Qi](http://luqi.info/), Yi Wang, [Jiaya Jia](https://jiaya.me/) <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/fenglinglwb/MAT)]  <Br>
@@ -637,7 +650,7 @@ Qiaole Dong, Chenjie Cao, [Yanwei Fu](http://yanweifu.github.io/) <Br>
 
 - **Image Inpainting with External-Internal Learning and Monochromic Bottleneck** <Br>
 Tengfei Wang, Hao Ouyang, [Qifeng Chen](https://cqf.io/) <Br>
-[CVPR 2021] [[Project](https://tengfei-wang.github.io/EII/index.html)] [] [[Pytorch-Code](https://github.com/Tengfei-Wang/external-internal-inpainting)]  <Br>
+[CVPR 2021] [[Project](https://tengfei-wang.github.io/EII/index.html)] [[Pytorch-Code](https://github.com/Tengfei-Wang/external-internal-inpainting)]  <Br>
 [**EII**] 
 
 - **Generating Diverse Structure for Image Inpainting with Hierarchical VQ-VAE** <Br>
@@ -680,6 +693,10 @@ Avisek Lahiri, Arnav Kumar Jain, Sanskar Agrawal, Pabitra Mitra, Prabir Kumar Bi
 
 
 # De-raining
+- **Sparse Sampling Transformer with Uncertainty-Driven Ranking for Unified Removal of Raindrops and Rain Streaks**  <Br>
+[Sixiang Chen](https://ephemeral182.github.io), [Tian Ye](https://owen718.github.io), [Jinbin Bai](https://noyii.github.io), Erkang Chen, Jun Shi, [Lei Zhu](https://sites.google.com/site/indexlzhu/home) <Br>
+[ICCV 2023] [[Project](https://ephemeral182.github.io/UDR_S2Former_deraining/)] [[Pytorch-Code](hhttps://github.com/Ephemeral182/UDR-S2Former_deraining)] <Br>
+
 - **Learning A Sparse Transformer Network for Effective Image Deraining**  <Br>
 [Xiang Chen](https://cschenxiang.github.io/), [Hao Li](https://house-leo.github.iohttps://house-leo.github.io/), Mingqiang Li, [Jinshan Pan](https://jspan.github.io/) <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/cschenxiang/DRSformer)] <Br>
