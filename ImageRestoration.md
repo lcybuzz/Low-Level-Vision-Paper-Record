@@ -612,6 +612,7 @@ Hayk Manukyan, Andranik Sargsyan, Barsegh Atanyan, Zhangyang Wang, Shant Navasar
 - **MI-GAN: A Simple Baseline for Image Inpainting on Mobile Devices** <Br>
 Andranik Sargsyan, Shant Navasardyan, [Xingqian Xu](https://ifp-uiuc.github.io/), [Humphrey Shi](https://www.humphreyshi.com) <Br>
 [ICCV 2023] [[Pytorch-Code](https://github.com/Picsart-AI-Research/MI-GAN)]  <Br>
+[★★] 适合端测运行的inpainting模型, 没有特殊算子. 使用蒸馏, GAN, 重参数化策略.
 
 - **MAT: Mask-Aware Transformer for Large Hole Image Inpainting** <Br>
 [Wenbo Li](https://fenglinglwb.github.io/), Zhe Lin, Kun Zhou, [Lu Qi](http://luqi.info/), Yi Wang, [Jiaya Jia](https://jiaya.me/) <Br>

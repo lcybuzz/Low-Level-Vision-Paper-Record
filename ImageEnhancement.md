@@ -12,7 +12,7 @@ Hyeongmin Lee, [Kyoungkook Kang](https://kkang831.github.io/), [Jungseul Ok](htt
 - **Iterative Prompt Learning for Unsupervised Backlit Image Enhancement** <Br>
 [Zhexin Liang](https://zhexinliang.github.io/),  [Chongyi Li](https://li-chongyi.github.io/), [Shangchen Zhou](https://shangchenzhou.com/),  [Ruicheng Feng](https://jnjaby.github.io/),  [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/index.html) <Br>
 [ICCV 2023 Oral] [[Project](https://zhexinliang.github.io/CLIP_LIT_page/)] [[PyTorch-Code](https://github.com/ZhexinLiang/CLIP-LIT)]   <Br>
-[**CLIP-LIT**]
+[**CLIP-LIT**] [★★]
 
 - **Controllable Image Enhancement** <Br>
 [Heewon Kim](https://sites.google.com/view/kimheewon/), [Kyoung Mu Lee](https://cv.snu.ac.kr/index.php/~kmlee/) <Br>
