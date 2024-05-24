@@ -6,8 +6,13 @@
 
 
 # Image Synthesis
+- **Adding Conditional Control to Text-to-Image Diffusion Models** <Br>
+Lvmin Zhang, [Anyi Rao](https://anyirao.com/), [Maneesh Agrawala](https://graphics.stanford.edu/~maneesh/)  <Br>
+[ICCV 2023 Oral] [[Project](https://shilin-lu.github.io/tf-icon.github.io/)] [[Pytorch-Code](https://github.com/lllyasviel/ControlNet)]  <Br>
+[**ControlNet**] 🔥
+
 - **Disentangling Writer and Character Styles for Handwriting Generation** <Br>
-Shilin Lu, Yanzhu Liu, Adams Wai-Kin Kong
+Shilin Lu, Yanzhu Liu, Adams Wai-Kin Kong  <Br>
 [ICCV 2023] [[Project](https://shilin-lu.github.io/tf-icon.github.io/)] [[Pytorch-Code](https://github.com/Shilin-LU/TF-ICON)]  <Br>
 
 - **Disentangling Writer and Character Styles for Handwriting Generation** <Br>
@@ -69,6 +74,11 @@ Ming Tao, Bing-Kun Bao, Hao Tang, [Changsheng Xu](https://nlpr-web.ia.ac.cn/mmc/
 - **Multimodal Image Synthesis and Editing: A Survey** <Br>
 [Fangneng Zhan](https://fnzhan.com/), [Yingchen Yu](https://yingchen001.github.io/), [Rongliang Wu](https://scholar.google.com.sg/citations?user=SZkh3iAAAAAJ&hl=en), [Jiahui Zhang](https://scholar.google.com/citations?user=DXpYbWkAAAAJ&hl=zh-CN), [Shijian Lu](https://scholar.google.com.sg/citations?user=uYmK-A0AAAAJ&hl=en), [Lingjie Liu](https://lingjie0206.github.io/), [Adam Kortylewsk](https://generativevision.mpi-inf.mpg.de/), [Christian Theobalt](https://people.mpi-inf.mpg.de/~theobalt/), [Eric Xing](http://www.cs.cmu.edu/~epxing/) <Br>
 [arXiv 2112] [[Pytorch-Code](https://github.com/fnzhan/MISE)] 
+
+- **High-Resolution Image Synthesis with Latent Diffusion Models** <Br>
+[Robin Rombach](https://github.com/rromb), [Andreas Blattmann](https://github.com/ablattmann), [Dominik Lorenz](https://github.com/qp-qp), [Patrick Esser](https://github.com/pesser), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer) <Br>
+[CVPR 2022 Oral] [[Project](https://ommer-lab.com/research/latent-diffusion-models/)] [[Pytorch-Code](https://github.com/CompVis/stable-diffusion)]  <Br>
+[**StableDifussion**] 🔥
 
 - **LAFITE: Towards Language-Free Training for Text-to-Image Generation** <Br>
 [Yufan Zhou](https://yufanzhou.com/), [Ruiyi Zhang](https://zhangry868.github.io/), [Changyou Chen](https://cse.buffalo.edu/~changyou/), [Chunyuan Li](https://chunyuan.li/), [Chris Tensmeyer](https://ctensmeyer.github.io/), Tong Yu, [Jiuxiang Gu](https://gujiuxiang.com/), Jinhui Xu, Tong Sun <Br>
@@ -189,6 +199,10 @@ Tero Karras, [Samuli Laine](https://users.aalto.fi/~laines9/), [Timo Aila](https
 	
 	
 # Image Translation
+- **MonoPix - Contrastive Monotonic Pixel-Level Modulation** <Br>
+Kun Lu, [Rongpeng Li](https://rongpeng.info/), [Honggang Zhang](https://person.zju.edu.cn/en/honggangzhang) <Br>
+[ECCV 2022 Oral] [[Pytorch-Code](https://github.com/lukun199/MonoPix)]  <Br>
+
 - **Drop the GAN: In Defense of Patches Nearest Neighbors as Single Image Generative Model** <Br>
 Niv Granot, Ben Feinstein, [Assaf Shocher](https://assafshocher.github.io/), [Shai Bagon](https://www.weizmann.ac.il/math/bagon/home), [Michal Irani](https://www.weizmann.ac.il/math/irani/) <Br>
 [CVPR 2022] [[Project](https://www.wisdom.weizmann.ac.il/~vision/gpnn/)] [[Pytorch-Code](https://github.com/WeizmannVision/DropTheGAN)]  <Br>

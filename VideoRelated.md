@@ -662,6 +662,16 @@ Guanqi Ding, Xinzhe Han, Shuhui Wang, Shuzhe Wu, Xin Jin, Dandan Tu, Qingming Hu
 
 
 # Video Editing
+- **StableVideo: Text-driven Consistency-aware Diffusion Video Editing** <Br>
+[Wenhao Chai](https://rese1f.github.io/), Xun Guo✉️, Gaoang Wang, Yan Lu <Br>
+[ICCV 2023 Oral] [[Project](https://rese1f.github.io/StableVideo/)] [[Pytorch-Code](https://github.com/rese1f/StableVideo)] <Br>
+🔥
+
+- **FateZero: Fusing Attentions for Zero-shot Text-based Video Editing** <Br>
+[Chenyang Qi](https://chenyangqiqi.github.io/), [Xiaodong Cun](http://vinthony.github.io/), [Yong Zhang](https://yzhang2016.github.io), [Chenyang Lei](https://chenyanglei.github.io/), [Xintao Wang](https://xinntao.github.io/), [Ying Shan](https://scholar.google.com/citations?hl=zh-CN&user=4oXBp9UAAAAJ), [Qifeng Chen](https://cqf.io) <Br>
+[ICCV 2023 Oral] [[Project](https://fate-zero-edit.github.io/)] [[Pytorch-Code](https://github.com/ChenyangQiQi/FateZero)] <Br>
+🔥
+
 - **Shape-aware Text-driven Layered Video Editing** <Br>
 [Yao-Chih Lee](https://yaochih.github.io/), Ji-Ze G. Jang, [Yi-Ting Chen](https://jamie725.github.io/website/), [Elizabeth Qiu](https://elizabethqiu.com/), [Jia-Bin Huang](https://jbhuang0604.github.io/) <Br>
 [CVPR 2023] [[Project](https://text-video-edit.github.io/#)] [[Pytorch-Code](https://github.com/text-video-edit/shape-aware-text-driven-layered-video-editing-release)] <Br>
