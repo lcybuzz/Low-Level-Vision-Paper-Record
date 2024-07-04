@@ -149,6 +149,7 @@
 
 ## Codes
 - [[Stability-AI](https://github.com/Stability-AI/generative-models)]
+- [[IOPaint](https://github.com/Sanster/IOPaint)]
 - [[各种对比度增强算法代码 Matlab](https://github.com/baidut/OpenCE)]
 - [[一些基于C++的对比度增强算法实现](https://github.com/dengyueyun666/Image-Contrast-Enhancement)]
 - [[HDR ISP pipeline (C++)](https://github.com/JokerEyeAdas/HDR-ISP)]

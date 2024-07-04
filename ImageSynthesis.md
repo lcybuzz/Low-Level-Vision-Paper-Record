@@ -78,7 +78,7 @@ Ming Tao, Bing-Kun Bao, Hao Tang, [Changsheng Xu](https://nlpr-web.ia.ac.cn/mmc/
 - **High-Resolution Image Synthesis with Latent Diffusion Models** <Br>
 [Robin Rombach](https://github.com/rromb), [Andreas Blattmann](https://github.com/ablattmann), [Dominik Lorenz](https://github.com/qp-qp), [Patrick Esser](https://github.com/pesser), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer) <Br>
 [CVPR 2022 Oral] [[Project](https://ommer-lab.com/research/latent-diffusion-models/)] [[Pytorch-Code](https://github.com/CompVis/stable-diffusion)]  <Br>
-[**StableDifussion**] 🔥
+[**Stable Difussion**] 🔥
 
 - **LAFITE: Towards Language-Free Training for Text-to-Image Generation** <Br>
 [Yufan Zhou](https://yufanzhou.com/), [Ruiyi Zhang](https://zhangry868.github.io/), [Changyou Chen](https://cse.buffalo.edu/~changyou/), [Chunyuan Li](https://chunyuan.li/), [Chris Tensmeyer](https://ctensmeyer.github.io/), Tong Yu, [Jiuxiang Gu](https://gujiuxiang.com/), Jinhui Xu, Tong Sun <Br>
@@ -513,6 +513,6 @@ Yabin Zhang, Minghan Li, Ruihuang Li, Kui Jia, Lei Zhang <Br>
 [**SWAG**] [★] 实验说明resnet等网络使用的shotcut结构会产生大激活值和小的层间entropy, 不利于基于gram矩阵的loss计算. 因此提出了用softmax平滑激活值, 再用来计算loss.
 
 - **Joint Bilateral Learning for Real-time Universal Photorealistic Style Transfer**  <Br>
-[Xide Xia](https://xidexia.github.io/), Meng Zhang, [Tianfan Xue](http://people.csail.mit.edu/tfxue/), Zheng Sun, Hui Fang, [Brian Kulis](http://people.bu.edu/bkulis/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/) <Br>
-[ECCV 2020] <Br>
+[Xide Xia](https://xidexia.github.io/), Meng Zhang, [Tianfan Xue](https://tianfan.info/), Zheng Sun, Hui Fang, [Brian Kulis](http://people.bu.edu/bkulis/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/) <Br>
+[ECCV 2020] [[Unoffical-Pytorch-Code](https://github.com/mousecpn/Joint-Bilateral-Learning)]  <Br>
 [★★] 基于HDRNet的实时风格迁移, 创新点尽管不是很多, 但是工作很有价值

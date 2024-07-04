@@ -7,6 +7,7 @@
     - [New Sensor HDR](#new-sensor-hdr)
     - [Traditional Methods](#traditional-methods)
   - [Tone Mapping](#tone-mapping)
+  - [Post Processing](#post-processing)
   - [CRF](#crf)
   - [Datasets](#datasets)
   - [Resources](#resources)
@@ -409,6 +410,11 @@ Mark A Robertson, Sean Borman, Robert L Stevenson  <Br>
 
 # Tone Mapping
 ## DL Methods
+- **Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping**  <Br>
+Feng Zhang, Ming Tian, Zhiqiang Li, Bin Xu, Qingbo Lu, Changxin Gao, Nong Sang <Br>
+[NeuralIPS 2024] <Br>
+[★★] 将图像分解为拉普拉斯金字塔, 对最顶层做DL 3D Lut, 对LLF的系数, 用网络学习的方式优化.
+	
 - **Unpaired Learning for High Dynamic Range Image Tone Mapping**  <Br>
 Yael Vinker, Inbar Huberman-Spiegelglas, [Raanan Fattal](https://www.cs.huji.ac.il/w~raananf/) <Br>
 [ICCV 2021] <Br>
@@ -451,7 +457,13 @@ Jiang Duan, Marco Bressan, Chris Dance, [Guoping Qiu](http://www.cs.nott.ac.uk/~
 [TOG 2002]  <Br>
 [**Reinhard tone mapping**] [★★☆] 1. 在log域计算平均照度, 并用其对全图进行scale; 2. 自适应dodging-and-burning, 实现局部tone mapping
 
-	
+
+# Post Processing
+- **A hue-preserving tone mapping scheme based on constant-hue plane without gamut problem**  <Br>
+[Yuma Kinoshita](https://sites.google.com/view/kinoshita-yuma-en/), K Seo, A Visavakitcharoen, [Hitoshi Kiya](http://www-isys.sd.tmu.ac.jp/members-2/kiya/) <Br>
+[ICICE 2019] <Br>
+[★]
+
 # CRF
 ## DL Methods
 - **CRF-net: Single Image Radiometric Calibration using CNNs**  <Br>

@@ -2,14 +2,14 @@
 一些不针对特定任务的图像相关论文, 如滤波, 新的目标函数等
 
 # Table of Contents
-  - [General DL Methods](#general-dl-methods)
-  - [General Traditional Methods](#general-traditional-methods)
+  - [General DL Algorithms](#general-dl-methods)
+  - [General Traditional Algorithms](#general-traditional-methods)
   - [Image Processing on Device](#image-processing-on-device)
   - [Image Quality Evaluators](#image-quality-evaluators)
-    
-    
+  - [Diffusion Models](#diffusion-models)  
+  
 
-# General DL Methods
+# General DL Algorithms
 - **MAXIM: Multi-Axis MLP for Image Processing**  <Br>
 [Zhengzhong Tu](https://www.linkedin.com/in/vztu/), [Hossein Talebi](https://scholar.google.com/citations?hl=en&user=UOX9BigAAAAJ), [Han Zhang](https://sites.google.com/view/hanzhang), [Feng Yang](https://sites.google.com/view/feng-yang), [Peyman Milanfar](https://sites.google.com/view/milanfarhome/), [Alan Bovik](https://www.ece.utexas.edu/people/faculty/alan-bovik), [Yinxiao Li](https://scholar.google.com/citations?user=kZsIU74AAAAJ&hl=en)  <Br>
 [CVPR 2022 Oral] [[Pytorch-Code](https://github.com/google-research/maxim)] <Br>
@@ -134,7 +134,9 @@ Mingqing Xiao, Shuxin Zheng, [Chang Liu](https://changliu00.github.io/), Yaolong
 
 
 
-# General Traditional Methods
+
+
+# General Traditional Algorithms
 - **BBAND Index: A No-Reference Banding Artifact Predictor** <Br>
 Zhengzhong Tu, Jessie Lin, Yilin Wang, Balu Adsumilli, [Alan C. Bovik](https://www.ece.utexas.edu/people/faculty/alan-bovik) <Br>
 [ICASSP 2020] <Br>
@@ -161,9 +163,10 @@ Zhengzhong Tu, Jessie Lin, Yilin Wang, Balu Adsumilli, [Alan C. Bovik](https://w
 [★] 1) 提出了一个用于评估illuminant estimation性能的准则, 该准则与光源的色温无关. 大致浏览, 一些原理没看懂. 2) 后面Google在此基础上做了改进, 作为loss去训练低光照时AWB模型. <Br>
 	
 - **Local Laplacian Filters: Edge-aware Image Processing with a Laplacian Pyramid**  <Br>
- [Sylvain Paris](http://people.csail.mit.edu/sparis/), [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Jan Kautz](http://jankautz.com/)<Br>
-[SIGGRAPH 2011] [[Project](http://people.csail.mit.edu/sparis/publi/2011/siggraph/)] [[Code1](https://github.com/psalvaggio/local_laplacian_filters)] [[Code2](https://github.com/hassenkassim/LocalLaplace)] <Br>
-[★] 用拉普拉斯金字塔做图像增强, tone mapping等. 为更好地保持边缘, 对高斯金字塔的每个像素做映射, 根据其与原分辨率对应像素的差值, 将其分为边缘和细节两种case, 对细节进行非线性增强, 对边缘进行线性的对比度增强. <Br>
+[Sylvain Paris](http://people.csail.mit.edu/sparis/), [Samuel W. Hasinoff](http://people.csail.mit.edu/hasinoff/), [Jan Kautz](https://jankautz.com/) <Br>
+[SIGGRAPH 2011] [[Project](http://people.csail.mit.edu/sparis/publi/2011/siggraph/)] <Br>
+**Related** [[Fast Local Laplacian Filters]](http://imagine.enpc.fr/~aubrym/projects/llf/index.html)  <Br>
+[**LLF**] [★★★] 著名的LLF
 
 - **Guided Image Filtering**  <Br>
 [Kaiming He](http://kaiminghe.com/index.html), [Jian Sun](http://www.jiansun.org/), [Xiaoou Tang](http://www.ie.cuhk.edu.hk/people/xotang.shtml) <Br>
@@ -243,3 +246,25 @@ Ying Nie, Kai Han, Zhenhua Liu, An Xiao, Yiping Deng, Chunjing Xu, Yunhe Wang <B
 - **FID (Frechet Inception Distance)** <Br>
 (arXiv 1706) GANs Trained by a Two Time-Scale Update Rule Converge to a Local Nash Equilibrium  <Br>
 用于评估生成图像和真实图像的差异. 将生成图像和真实图像分别送入Inception V3中, 将激活值看做符合多元高斯分布, 计算其均值,方差,协方差等统计量, 进而计算二者相似度. FID越低说明图像越相似.
+
+
+# Diffusion Models
+- **High-Resolution Image Synthesis with Latent Diffusion Models** <Br>
+[Robin Rombach](https://github.com/rromb), [Andreas Blattmann](https://github.com/ablattmann), [Dominik Lorenz](https://github.com/qp-qp), [Patrick Esser](https://github.com/pesser), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer) <Br>
+[CVPR 2022 Oral] [[Project](https://ommer-lab.com/research/latent-diffusion-models/)] [[Pytorch-Code](https://github.com/CompVis/stable-diffusion)]  <Br>
+[**Stable Difussion**] 🔥
+
+- **More Control for Free! Image Synthesis with Semantic Diffusion Guidance** <Br>
+[Xihui Liu](https://xh-liu.github.io/), Dong Huk Park, Samaneh Azadi, Gong Zhang, Arman Chopikyan, Yuxiao Hu, [Humphrey Shi](https://www.humphreyshi.com/), [Anna Rohrbach](https://anna-rohrbach.net/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) <Br>
+[WACV 2023] [[Project](https://xh-liu.github.io/sdg/)] [[Pytorch-Code](https://github.com/xh-liu/SDG_code)]  <Br>
+[**Classifier Free Guidance**]
+
+- **Diffusion Models Beat GANs on Image Synthesis** <Br>
+[Prafulla Dhariwal](https://prafulladhariwal.com/), Alex Nichol <Br>
+[NeurIPS 2021] [[Pytorch-Code](https://github.com/openai/guided-diffusion)]  <Br>
+[**Classifier Guidance**]
+
+- **Learning Transferable Visual Models From Natural Language Supervision** <Br>
+Alec Radford, [Jong Wook Kim](https://jongwook.kim/), Chris Hallacy, Aditya Ramesh, [Gabriel Goh](https://gabgoh.github.io/), Sandhini Agarwal, Girish Sastry, [Amanda Askell](https://askell.io/), Pamela Mishkin, [Jack Clark](https://jack-clark.net/), Gretchen Krueger, [Ilya Sutskever](https://www.cs.utoronto.ca/~ilya/) <Br>
+[ICML 2021] [[Pytorch-Code](https://github.com/openai/CLIP)]  <Br>
+[**CLIP**] 🔥 

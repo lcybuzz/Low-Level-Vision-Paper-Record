@@ -696,6 +696,11 @@ Yaojie Shen, Libo Zhang, Kai Xu, [Xiaojie Jin](https://airobotai.github.io/jinxi
 Jianbin Jiang, Tan Wang, He Yan, Junhui Liu <Br>
 [CVPR 2022 Oral] [[Project](https://cloth-former.github.io/)] [[Pytorch-Code](https://github.com/luxiangju-PersonAI/ClothFormer)] <Br>
 
+- **Real-time Localized Photorealistic Video Style Transfer** <Br>
+[Xide Xia](https://xidexia.github.io/), [Tianfan Xue](https://tianfan.info/), [Wei-Sheng Lai](https://www.wslai.net/), Zheng Sun, Abby Chang, [Brian Kulis](http://people.bu.edu/bkulis/), [Jiawen Chen](http://people.csail.mit.edu/jiawen/)  <Br>
+[WACV 2021] <Br>
+[★★] 基于HDRNet的视频style transfer.
+
 - **Single-frame Regularization for Temporally Stable CNNs** <Br>
 [Gabriel Eilertsen](https://liu.se/en/employee/gabei62), [Rafał K. Mantiuk](https://www.cl.cam.ac.uk/~rkm38/), [Jonas Unger](https://weber.itn.liu.se/~jonun/web/Home.php) <Br>
 [CVPR 2019] <Br>

@@ -621,6 +621,7 @@ Andranik Sargsyan, Shant Navasardyan, [Xingqian Xu](https://ifp-uiuc.github.io/)
 - **RePaint: Inpainting using Denoising Diffusion Probabilistic Models** <Br>
 Andreas Lugmayr, [Martin Danelljan](https://martin-danelljan.github.io/), [Andres Romero](https://afromero.co/), [Fisher Yu](https://www.yf.io/), [Radu Timofte](https://people.ee.ethz.ch/~timofter/), Luc Van Gool <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/andreas128/RePaint)]  <Br>
+🔥
 
 - **Reduce Information Loss in Transformers for Pluralistic Image Inpainting** <Br>
 Qiankun Liu, Zhentao Tan, [Dongdong Chen](http://www.dongdongchen.bid/), [Qi Chu](http://staff.ustc.edu.cn/~qchu/), [Xiyang Dai](https://sites.google.com/site/xiyangdai/), Yinpeng Chen, Mengchen Liu, Lu Yuan, Nenghai Yu <Br>
@@ -643,6 +644,11 @@ Qiaole Dong, Chenjie Cao, [Yanwei Fu](http://yanweifu.github.io/) <Br>
 - **HFGI: High-Fidelity GAN Inversion for Image Attribute Editing** <Br>
 [Tengfei Wang](https://tengfei-wang.github.io/), [Yong Zhang](https://yzhang2016.github.io/yongnorriszhang.github.io/), [Yanbo Fan](https://sites.google.com/site/yanbofan0124/), [Jue Wang](https://juew.org/), [Qifeng Chen](https://cqf.io/) <Br>
 [CVPR 2022] [[Project](https://tengfei-wang.github.io/HFGI/)] [[Pytorch-Code](https://github.com/Tengfei-Wang/HFGI)]  <Br>
+
+- **Resolution-robust Large Mask Inpainting with Fourier Convolutions** <Br>
+Roman Suvorov, Elizaveta Logacheva, Anton Mashikhin, Anastasia Remizova, [Arsenii Ashukha](https://arsyash.com/), Aleksei Silvestrov, Naejin Kong, Harshith Goka, Kiwoong Park, Victor Lempitsky <Br>
+[WACV 2022] [[Project](https://advimman.github.io/lama-project/)] [[Pytorch-Code](https://github.com/Tengfei-Wang/HFGI)]  <Br>
+[**LaMa**] 🔥 
 	
 - **High-Fidelity Pluralistic Image Completion with Transformers** <Br>
 [Ziyu Wan](http://raywzy.com/), Jingbo Zhang, [Dongdong Chen](http://www.dongdongchen.bid/), [Jing Liao](https://liaojing.github.io/html/index.html) <Br>
