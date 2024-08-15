@@ -65,6 +65,9 @@
     - [REDS](https://seungjunnah.github.io/Datasets/reds) 视频去模糊, 视频超分, 120fps, 1280x720<Br>
     - [BSD](https://github.com/zzh-tech/ESTRNN) real-world video deblur <Br>
 
+- Dehaze
+    - [REISIDE](https://sites.google.com/view/reside-dehaze-datasets/reside-standard?authuser=3D0) <Br>
+
 - Face Redrawing
     - [CelebA](http://mmlab.ie.cuhk.edu.hk/projects/CelebA.html) 人脸属性数据集, 超过200k张图像, 5个关键点, 40个属性 <Br>
     - [CelebAMask-HQ](https://github.com/switchablenorms/CelebAMask-HQ) 3w张人脸解析数据集, 包括19个facial components <Br>

@@ -113,7 +113,8 @@ Chong Mou, Qian Wang, [Jian Zhang](https://jianzhang.tech/) <Br>
 - **All-In-One Image Restoration for Unknown Corruption**  <Br>
 [Boyun Li](https://liboyun.github.io/), Xiao Liu, [Peng Hu](https://penghu-cs.github.io/), Zhongqin Wu, Jiancheng Lv, Xi Peng <Br>
 [CVPR 2022] [[Pytorch-Code](https://github.com/XLearning-SCU/2022-CVPR-AirNet)] <Br>
-[**AirNet**]
+[**AirNet**] [★] 无需退化先验的图像修复, 利用对比学习提取退化信息, 并引导图像修复.
+
 
 - **A Differentiable Two-stage Alignment Scheme for Burst Image Reconstruction with Large Shift**  <Br>
 Shi Guo, Xi Yang, Jianqi Ma, Gaofeng Ren, [Lei Zhang](http://www4.comp.polyu.edu.hk/~cslzhang/) <Br>
@@ -360,10 +361,15 @@ Haiyan Wu, [Yanyun Qu](https://quyanyun.xmu.edu.cn/), [Shaohui Lin](https://site
 [CVPR 2018] [[Project](https://sites.google.com/site/renwenqi888/research/dehazing/gfn)] [[MatCaffe-Code](https://github.com/rwenqi/GFN-dehazing)]  <Br>
 [**GFN**] 
 
+- **Benchmarking Single Image Dehazing and Beyond** <Br>
+[Boyi Li](https://sites.google.com/site/boyilics), [Wenqi Ren](https://rwenqi.github.io/), Dengpan Fu, Dacheng Tao, [Dan Feng](https://hustdfeng.github.io/), [Wenjun Zeng](https://www.eitech.edu.cn/), [Zhangyang Wang](https://vita-group.github.io/) <Br>
+[TIP 2018] [[Project](https://sites.google.com/view/reside-dehaze-datasets/reside-standard?authuser=3D0)]  <Br>
+[**RESIDE**] [★★★] dehaze常用的benchmark数据集
+
 - **AOD-NET：An All-in-One Network for Dehazing and Beyond** <Br>
 [Boyi Li](https://sites.google.com/site/boyilics/home), Xiulian Peng, [Zhangyang Wang](https://www.atlaswang.com/), Jizheng Xu, Dan Feng <Br>
 [ICCV 2017] [[Project](https://sites.google.com/site/boyilics/website-builder/project-page)] [[Pytorch&Caffe-Code](https://github.com/Boyiliee/AOD-Net)] <Br>
-[★] 轻量级去雾网络, 通过预测一个变量, 直接输出清晰的RGB图像
+[★] 轻量级去雾网络, 通过预测一个变量, 直接输出清晰的RGB图像, DL做dehaze较早的一篇
 
 - **DehazeNet: An End-to-End System for Single Image Haze Removal** <Br>
 [Bolun Cai](https://caibolun.github.io/), Xiangmin Xu, Kui Jia, Chunmei Qing, Dacheng Tao, Lingke Zeng <Br>
@@ -521,6 +527,7 @@ Orest Kupyn, Volodymyr Budzan, Mykola Mykhailych, Dmytro Mishkin, Jiří Matas<B
 - **Image Lens Flare Removal Using Adversarial Curve Learning**  <Br>
 [Yuyan Zhou](https://github.com/YuyanZhou1), [Dong Liang](http://faculty.nuaa.edu.cn/liangdong/zh_CN/index.htm), [Songcan Chen](http://parnec.nuaa.edu.cn/), [Sheng-Jun Huang](http://parnec.nuaa.edu.cn/huangsj), [Shuo Yang](https://scholar.google.com/citations?user=mbIW-KMAAAAJ&hl=zh-CN), [Chongyi Li](https://li-chongyi.github.io/) <Br>
 [ICCV 2023] [[Pytorch-Code](https://github.com/YuyanZhou1/Improving-Lens-Flare-Removal)] <Br>
+[★☆] 提出了一种加flare的方法, 将非线性LDR SRGB干净图图逆回线性HDR Raw域, 加flare pattern, 生成带flare的图.
 
 - **Nighttime Smartphone Reflective Flare Removal using Optical Center Symmetry Prior**  <Br>
 [Yuekun Dai](https://ykdai.github.io/), Yihang Luo, [Shangchen Zhou](https://shangchenzhou.com/), [Chongyi Li](https://li-chongyi.github.io/), [Chen Change Loy](https://personal.ie.cuhk.edu.hk/~ccloy/)<Br>

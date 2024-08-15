@@ -260,11 +260,11 @@ Xueqi Hu, Xinyue Zhou, Qiusheng Huang, Zhengyi Shi, Li Sun, Qingli Li <Br>
 - **High-Resolution Photorealistic Image Translation in Real-Time: A Laplacian Pyramid Translation Network** <Br>
 [Tamar Rott Shaham](https://tamarott.github.io/), [Michaël Gharbi](http://www.mgharbi.com/), [Richard Zhang](http://richzhang.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Tomer Michaeli](https://tomer.net.technion.ac.il/)  <Br>
 [CVPR 2021] [[Pytorch-Code](https://github.com/csjliang/LPTN)]  <Br>
-[**LPTN**]
+[**LPTN**] [★] 把大多数计算放在laplacian金字塔低分辨率层
 
 - **Spatially-Adaptive Pixelwise Networks for Fast Image Translation** <Br>
 [Tamar Rott Shaham](https://tamarott.github.io/), [Michaël Gharbi](http://www.mgharbi.com/), [Richard Zhang](http://richzhang.github.io/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Tomer Michaeli](https://tomer.net.technion.ac.il/)  <Br>
-[[Project](https://tamarott.github.io/ASAPNet_web/)]  <Br>
+[CVPR 2021] [[Project](https://tamarott.github.io/ASAPNet_web/)]  <Br>
 [**ASAPNet**] [★★] (**快速图像生成**) 在小分辨率(降32倍)上预测每个pixel的MLP映射系数, 将位置信息编码为不同频率的sin, cosine信息, 提升了生成图像的细节. 论文很有实际意义, 值得学习. 
 
 - **Few-shot Image Generation via Cross-domain Correspondence** <Br>
