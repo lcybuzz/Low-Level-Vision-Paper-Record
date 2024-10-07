@@ -467,6 +467,11 @@ Rameen Abdal, Yipeng Qin, Peter Wonka <Br>
 
 
 # Style Transfer
+- **Neural-based 3D Lookup Tables for Video Photorealistic Style Transfer** <Br>
+Yaosen Chen, Han Yang, Yuexin Yang, Yuegen Liu, Wei Wang, Xuming Wen, Chaoping Xie <Br>
+[arXiv 2303] [[Pytorch-Code](https://github.com/semchan/NLUT)]  <Br>
+[★] [**NLUT**]
+
 - **Inversion-Based Style Transfer with Diffusion Models** <Br>
 [Yuxin Zhang](https://zyxelsa.github.io/), Nisha Huang, Fan Tang, [Haibin Huang](https://brotherhuang.github.io/), [Chongyang Ma](http://chongyangma.com/), Weiming Dong, [Changsheng Xu](https://nlpr-web.ia.ac.cn/mmc/homepage/csxu.html) <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/zyxElsa/InST)]  <Br>
