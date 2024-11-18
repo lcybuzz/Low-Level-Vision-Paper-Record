@@ -139,6 +139,16 @@ Michaël Gharbi, [Jiawen Chen](http://people.csail.mit.edu/jiawen/), [Jonathan T
 	
 	
 # Low-light Image Enhancement
+- **LightenDiffusion: Unsupervised Low-Light Image Enhancement with Latent-Retinex Diffusion Models** <Br>
+[Hai Jiang](https://jianghaiscu.github.io/), Ao Luo, Xiaohong Liu, [Songchen Han](https://jhc.sjtu.edu.cn/~xiaohongliu/), [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
+[ECCV 2024] [[PyTorch-Code](https://github.com/JianghaiSCU/LightenDiffusion)]   <Br>
+[★☆] 无监督亮度增强. 训练时, 给定非配对的亮度/暗图, 提取反射图和光照图feature, 生成diffusion模型的x0, 注入暗图反射feature, 并设计了一系列loss, 约束反射, 亮度feature
+
+- **Low-light Image Enhancement with Wavelet-based Diffusion Models** <Br>
+[Hai Jiang](https://jianghaiscu.github.io/), Ao Luo, [Songchen Han](https://jhc.sjtu.edu.cn/~xiaohongliu/), Haoqiang Fan, [Shuaicheng Liu](http://www.liushuaicheng.org/) <Br>
+[Siggraph Asia 2023] [[PyTorch-Code](https://github.com/JianghaiSCU/Diffusion-Low-Light)]   <Br>
+[★☆] Harr小波分解, 在平均分亮上做亮度增强. 以low图做diffusion模型的条件输入
+
 - **Brighten-and-Colorize: A Decoupled Network for Customized Low-Light Image Enhancement** <Br>
 Chenxi Wang, Zhi Jin <Br>
 [MM 2023] [[PyTorch-Code](https://github.com/wangchx67/BCNet)]   <Br>

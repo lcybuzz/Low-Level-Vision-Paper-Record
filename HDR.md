@@ -44,6 +44,11 @@ Shuaizheng Liu, Xindong Zhang, Lingchen Sun, Zhetong Liang, [Hui Zeng](https://h
 [CVPR 2023] [[Code](https://github.com/shuaizhengliu/Joint-HDRDN)] <Br>
 [oppo] [★] 用类似Kalantari数据集生成的方式, 生成带motion的HDR数据集, 同时用多帧平均的方式合成干净的图像, 制作了一个可用于HDR+denoise模型训练的数据集. 网络设计上, 使用金字塔注意力和transformer结构.
 
+- **Towards High-quality HDR Deghosting with Conditional Diffusion Models** <Br>
+[Qingsen Yan](https://qingsenyangit.github.io/), Tao Hu, Yuan Sun, Hao Tang, Yu Zhu, Wei Dong, Luc Van Gool, Yanning Zhang <Br>
+[TCSVT 2023] [[Pytorch-Code](https://github.com/huTao1030/DiffHDR-pytorch)] <Br>
+[★☆] **Diffusion** 把三帧LDR作为diffusion model的条件输入
+
 - **TransMEF: A Transformer-Based Multi-Exposure Image Fusion Framework via Self-Supervised Multi-Task Learning** <Br>
 [Linhao Qu](https://linhao-qu.github.io/), Shaolei Liu, Manning Wang, Zhijian Song <Br>
 [AAAI 2022] [[Pytorch-Code](https://github.com/miccaiif/TransMEF)] <Br>
@@ -410,6 +415,11 @@ Mark A Robertson, Sean Borman, Robert L Stevenson  <Br>
 
 # Tone Mapping
 ## DL Methods
+- **Zero-Shot Structure-Preserving Diffusion Model for High Dynamic Range Tone Mapping**  <Br>
+Ruoxi Zhu, Shusong Xu, Peiye Liu, Sicheng Li, Yanheng Lu, Dimin Niu, Zihao Liu, Zihao Meng, Zhiyong Li, Xinhua Chen, Yibo Fan <Br>
+[CVPR 2024] [[PYtorch-Code](https://github.com/ZSDM-HDR/Zero-Shot-Diffusion-HDR)]	<Br>
+[★☆] 从HDR图提取结构和亮度信息, 基于controlnet, 指导SD v1.5生成tone mapping结果
+	
 - **Lookup Table meets Local Laplacian Filter: Pyramid Reconstruction Network for Tone Mapping**  <Br>
 Feng Zhang, Ming Tian, Zhiqiang Li, Bin Xu, Qingbo Lu, Changxin Gao, Nong Sang <Br>
 [NeuralIPS 2024] <Br>

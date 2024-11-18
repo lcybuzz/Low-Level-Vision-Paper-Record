@@ -6,7 +6,7 @@
   - [General Traditional Algorithms](#general-traditional-methods)
   - [Image Processing on Device](#image-processing-on-device)
   - [Image Quality Evaluators](#image-quality-evaluators)
-  - [Diffusion Models](#diffusion-models)  
+  - [Visual Large Model](#visual-large-model)  
   
 
 # General DL Algorithms
@@ -248,10 +248,15 @@ Ying Nie, Kai Han, Zhenhua Liu, An Xiao, Yiping Deng, Chunjing Xu, Yunhe Wang <B
 用于评估生成图像和真实图像的差异. 将生成图像和真实图像分别送入Inception V3中, 将激活值看做符合多元高斯分布, 计算其均值,方差,协方差等统计量, 进而计算二者相似度. FID越低说明图像越相似.
 
 
-# Diffusion Models
+# Visual Large Model
+- **Designing BERT for Convolutional Networks: Sparse and Hierarchical Masked Modeling** <Br>
+Keyu Tian, [Yi Jiang](https://enjoyyi.github.io/), Qishuai Diao, Chen Lin, [Liwei Wang](http://www.liweiwang-pku.com/), [Zehuan Yuan](https://shallowyuan.github.io/) <Br>
+[ICLR 2023 Spotlight] [[Pytorch-Code](https://github.com/keyu-tian/SparK)]  <Br>
+[**SparK**] 🔥
+
 - **High-Resolution Image Synthesis with Latent Diffusion Models** <Br>
 [Robin Rombach](https://github.com/rromb), [Andreas Blattmann](https://github.com/ablattmann), [Dominik Lorenz](https://github.com/qp-qp), [Patrick Esser](https://github.com/pesser), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer) <Br>
-[CVPR 2022 Oral] [[Project](https://ommer-lab.com/research/latent-diffusion-models/)] [[Pytorch-Code](https://github.com/CompVis/stable-diffusion)]  <Br>
+[CVPR 2022 Oral] [[Project](https://ommer-lab.com/research/latent-diffusion-models/)] [[Pytorch-Code](https://github.com/Stability-AI/stablediffusion)]  <Br>
 [**Stable Difussion**] 🔥
 
 - **More Control for Free! Image Synthesis with Semantic Diffusion Guidance** <Br>

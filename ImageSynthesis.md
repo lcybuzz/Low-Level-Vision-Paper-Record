@@ -6,6 +6,11 @@
 
 
 # Image Synthesis
+- **Visual Autoregressive Modeling: Scalable Image Generation via Next-Scale Prediction** <Br>
+Keyu Tian, [Yi Jiang](https://enjoyyi.github.io/), [Zehuan Yuan](https://shallowyuan.github.io/), Bingyue Peng, [Liwei Wang](http://www.liweiwang-pku.com/)  <Br>
+[NeurIPS 2024 Oral] [[Pytorch-Code](https://github.com/FoundationVision/VAR)]  <Br>
+[**VAR**] 🔥
+
 - **Adding Conditional Control to Text-to-Image Diffusion Models** <Br>
 Lvmin Zhang, [Anyi Rao](https://anyirao.com/), [Maneesh Agrawala](https://graphics.stanford.edu/~maneesh/)  <Br>
 [ICCV 2023 Oral] [[Project](https://shilin-lu.github.io/tf-icon.github.io/)] [[Pytorch-Code](https://github.com/lllyasviel/ControlNet)]  <Br>

@@ -616,6 +616,11 @@ Peng Dai, Xin Yu, Lan Ma, Baoheng Zhang, Jia Li, [Wenbo Li](https://fenglinglwb.
 
 
 # Video Synthesis
+- **CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer** <Br>
+Zhuoyi Yang, Jiayan Teng, Wendi Zheng, Ming Ding, Shiyu Huang, Jiazheng Xu, Yuanming Yang, Wenyi Hong, Xiaohan Zhang, Guanyu Feng, Da Yin, Xiaotao Gu, Yuxuan Zhang, Weihan Wang, Yean Cheng, Ting Liu, Bin Xu, Yuxiao Dong, Jie Tang <Br>
+[CVPR 2024] [[Pytorch-Code](https://github.com/THUDM/CogVideo)]  <Br>
+[**CogVideo**] 🔥
+
 - **MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation** <Br>
 Ludan Ruan, [Yiyang Ma](https://realpasu.github.io/), [Huan Yang](https://hyang0511.github.io/), Huiguo He, Bei Liu, [Jianlong Fu](https://www.microsoft.com/en-us/research/people/jianf/), Nicholas Jing Yuan, Qin Jin, Baining Guo <Br>
 [CVPR 2023] [[Pytorch-Code](https://github.com/researchmm/MM-Diffusion)] <Br>
