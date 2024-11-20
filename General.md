@@ -249,6 +249,11 @@ Ying Nie, Kai Han, Zhenhua Liu, An Xiao, Yiping Deng, Chunjing Xu, Yunhe Wang <B
 
 
 # Visual Large Model
+- **CogVLM: Visual Expert for Pretrained Language Models** <Br>
+Weihan Wang, Qingsong Lv, Wenmeng Yu, Wenyi Hong, [Ji Qi](https://qijimrc.github.io/), Yan Wang, Junhui Ji, Zhuoyi Yang, Lei Zhao, Xixuan Song, Jiazheng Xu, [Bin Xu](https://keg.cs.tsinghua.edu.cn/persons/xubin/), Juanzi Li, Yuxiao Dong, Ming Ding, Jie Tang <Br>
+[arXiv 2311] [[Pytorch-Code](https://github.com/THUDM/CogVLM)]  <Br>
+[**CogVLM**] 🔥
+
 - **Designing BERT for Convolutional Networks: Sparse and Hierarchical Masked Modeling** <Br>
 Keyu Tian, [Yi Jiang](https://enjoyyi.github.io/), Qishuai Diao, Chen Lin, [Liwei Wang](http://www.liweiwang-pku.com/), [Zehuan Yuan](https://shallowyuan.github.io/) <Br>
 [ICLR 2023 Spotlight] [[Pytorch-Code](https://github.com/keyu-tian/SparK)]  <Br>
