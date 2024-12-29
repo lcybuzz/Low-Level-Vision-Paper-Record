@@ -620,7 +620,8 @@ Peng Dai, Xin Yu, Lan Ma, Baoheng Zhang, Jia Li, [Wenbo Li](https://fenglinglwb.
 - **Pyramidal Flow Matching for Efficient Video Generative Modeling** <Br>
 [Yang Jin](https://jy0205.github.io/), [Zhicheng Sun](https://feifeiobama.github.io/), Ningyuan Li, [Kun Xu](https://sites.google.com/view/kunxu/home), Kun Xu, Hao Jiang, Nan Zhuang, [Quzhe Huang](https://andrewzhe.github.io/), Yang Song, Yadong Mu, [Zhouchen Lin](https://zhouchenlin.github.io/) <Br>
 [arXiv 2410] [[Project](pyramid-flow.github.io/)] [[Pytorch-Code](https://github.com/jy0205/Pyramid-Flow)]   <Br>
-[**Pyramidal Flow**] 🔥 ![](https://img.shields.io/github/stars/jy0205/Pyramid-Flow)  <Br>
+[**Pyramidal Flow**] 🔥  <Br>
+![](https://img.shields.io/github/stars/jy0205/Pyramid-Flow)
 
 
 - **CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer** <Br>
