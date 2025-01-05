@@ -12,6 +12,10 @@
 
 # Image Restoration
 
+- **InstructIR: High-Quality Image Restoration Following Human Instructions**  <Br>
+[Marcos V. Conde](https://mv-lab.github.io/), [Gregor Geigle](https://gregor-ge.github.io/), [Radu Timofte](https://www.cvlai.net/)  <Br>
+[ECCV 2024] [[Pytorch-Code](https://github.com/mv-lab/InstructIR)] <Br>
+
 - **Scaling Up to Excellence: Practicing Model Scaling for Photo-Realistic Image Restoration In the Wild**  <Br>
 Fanghua, Yu, [Jinjin Gu](https://www.jasongt.com/), Zheyuan Li, Jinfan Hu, Xiangtao Kong, [Xintao Wang](https://xinntao.github.io/), Jingwen He, Yu Qiao, Chao Dong  <Br>
 [CVPR 2024] [[Project](https://supir.xpixel.group/)] [[Pytorch-Code](https://github.com/Fanghua-Yu/SUPIR)] <Br>
@@ -19,7 +23,7 @@ Fanghua, Yu, [Jinjin Gu](https://www.jasongt.com/), Zheyuan Li, Jinfan Hu, Xiang
 
 - **MambaIR: A Simple Baseline for Image Restoration with State-Space Model**  <Br>
 [Hang Guo](https://github.com/csguoh), [Jinmin Li](https://github.com/THU-Kingmin), [Tao Dai](https://cstaodai.com/), Zhihao Ouyang, Xudong Ren, Shu-Tao Xia <Br>
-[arXiv 2402] [[Pytorch-Code](https://github.com/csguoh/MambaIR)] <Br>
+[ECCV2024] [[Pytorch-Code](https://github.com/csguoh/MambaIR)] <Br>
 
 - **Image Restoration with Mean-Reverting Stochastic Differential Equations**  <Br>
 [Ziwei Luo](https://algolzw.github.io/), [Fredrik K. Gustafsson](https://www.fregu856.com/), [Zheng Zhao](https://zz.zabemon.com/), [Jens Sjölund](https://jsjol.github.io/), [Thomas B. Schön](https://user.it.uu.se/~thosc112/index.html) <Br>
@@ -383,6 +387,14 @@ Haiyan Wu, [Yanyun Qu](https://quyanyun.xmu.edu.cn/), [Shaohui Lin](https://site
 
 
 # Image Debluring
+- **Deblurring 3D Gaussian Splatting**  <Br>
+Byeonghyeon Lee, Howoong Lee, Xiangyu Sun, Usman Ali, [Eunbyung Park](https://silverbottlep.github.io/)  <Br>
+[ECCV 2024] [[Pytorch-Code](https://github.com/benhenryL/Deblurring-3D-Gaussian-Splatting)] <Br>
+
+- **BAD-Gaussians: Bundle Adjusted Deblur Gaussian Splatting**  <Br>
+Lingzhe Zhao, [Peng Wang](https://wangpeng000.github.io/), [Peidong Liu](https://ethliup.github.io/)  <Br>
+[ECCV 2024] [[Pytorch-Code](https://github.com/WU-CVGL/BAD-Gaussians)] <Br>
+
 - **Efficient Frequency Domain-Based Transformers for High-Quality Image Deblurring**  <Br>
 Lingshun Kong, Jiangxin Dong, Jianjun Ge, Mingqiang Li, [Jinshan Pan](https://jspan.github.io/)  <Br>
 [CVPR 2023] [[Project](https://github.com/kkkls/FFTformer)] <Br>
@@ -607,9 +619,18 @@ Qiang Wen, Yinjie Tan, Jing Qin, Wenxi Liu, Guoqiang Han, and Shengfeng He <Br>
 
 
 # Image Inpainting
+- **BrushNet: A Plug-and-Play Image Inpainting Model with Decomposed Dual-Branch Diffusion** <Br>
+[Xuan Ju](https://juxuan27.github.io/), [Xian Liu](https://alvinliu0.github.io/), [Xintao Wang](https://xinntao.github.io/), [Yuxuan Bian](https://yxbian23.github.io/), Ying Shan, [Qiang Xu](https://cure-lab.github.io/) <Br>
+[ECCV 2024] [[Pytorch-Code](https://github.com/TencentARC/BrushNet)] ![](https://img.shields.io/github/stars/TencentARC/BrushNet) <Br>
+🔥
+
+- **A Task is Worth One Word: Learning with Task Prompts for High-Quality Versatile Image Inpainting** <Br>
+Junhao Zhuang, [Yanhong Zeng](https://zengyh1900.github.io/), Wenran Liu, Chun Yuan, [Kai Chen](https://chenkai.site/) <Br>
+[ECCV 2024] [[Pytorch-Code](https://github.com/open-mmlab/PowerPaint)] <Br>
+
 - **Inpaint Anything: Segment Anything Meets Image Inpainting** <Br>
 Tao Yu, Runseng Feng, [Ruoyu Feng](https://ruoyufeng.github.io/ruoyufeng/), Jinming Liu, Xin Jin, Wenjun Zeng, [Zhibo Chen](https://faculty.ustc.edu.cn/chenzhibo/)  <Br>
-[arXiv 2304] [[Pytorch-Code](https://github.com/geekyutao/Inpaint-Anything)]  <Br>
+[arXiv 2304] [[Pytorch-Code](https://github.com/geekyutao/Inpaint-Anything)] ![](https://img.shields.io/github/stars/geekyutao/Inpaint-Anything) <Br>
 🔥
 
 - **HD-Painter: High-Resolution and Prompt-Faithful Text-Guided Image Inpainting with Diffusion Models** <Br>
@@ -627,7 +648,7 @@ Andranik Sargsyan, Shant Navasardyan, [Xingqian Xu](https://ifp-uiuc.github.io/)
 
 - **RePaint: Inpainting using Denoising Diffusion Probabilistic Models** <Br>
 Andreas Lugmayr, [Martin Danelljan](https://martin-danelljan.github.io/), [Andres Romero](https://afromero.co/), [Fisher Yu](https://www.yf.io/), [Radu Timofte](https://people.ee.ethz.ch/~timofter/), Luc Van Gool <Br>
-[CVPR 2022] [[Pytorch-Code](https://github.com/andreas128/RePaint)]  <Br>
+[CVPR 2022] [[Pytorch-Code](https://github.com/andreas128/RePaint)] ![](https://img.shields.io/github/stars/andreas128/RePaint) <Br>
 🔥
 
 - **Reduce Information Loss in Transformers for Pluralistic Image Inpainting** <Br>

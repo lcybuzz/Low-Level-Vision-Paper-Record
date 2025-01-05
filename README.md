@@ -6,7 +6,7 @@
 - <a href='Denoising.md'> Image & Video Denoising </a>
 - <a href='SuperResolution.md'> Image Super Resolution </a>
 - <a href='HDR.md'> HDR </a>
-- <a href='ISP.md'> ISP </a>
+- <a href='Camera.md'> Camera </a>
 - <a href='VideoRelated.md'> Video Related </a>
 - <a href='Industry.md'> Industry</a>
 - <a href='General.md'> General </a>
@@ -125,8 +125,8 @@
     - [[ICCV 2021](https://github.com/extreme-assistant/ICCV2021-Paper-Code-Interpretation/blob/master/ICCV2021.md)] 
 
 - Low level vision conference paper collection
-    - [[ICCV 2023](https://github.com/DarrenPan/Awesome-ICCV2023-Low-Level-Vision)]
-    - [CVPR 2024](https://github.com/Kobaayyy/Awesome-CVPR2024-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2024.md)]
+    - [[ICCV 2024](https://github.com/Kobaayyy/Awesome-ECCV2024-ECCV2020-Low-Level-Vision/blob/master/ECCV2024.md)]
+    - [[CVPR 2024](https://github.com/Kobaayyy/Awesome-CVPR2024-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2024.md)]
     [[CVPR 2023](https://github.com/DarrenPan/Awesome-CVPR2023-Low-Level-Vision)]  
     [[CVPR 2022](https://github.com/DarrenPan/CVPR2022-Low-Level-Vision)] 
     [[CVPR 2021/2020](https://github.com/Kobaayyy/Awesome-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2021.md)]

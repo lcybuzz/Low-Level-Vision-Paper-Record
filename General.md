@@ -248,6 +248,11 @@ Ying Nie, Kai Han, Zhenhua Liu, An Xiao, Yiping Deng, Chunjing Xu, Yunhe Wang <B
 用于评估生成图像和真实图像的差异. 将生成图像和真实图像分别送入Inception V3中, 将激活值看做符合多元高斯分布, 计算其均值,方差,协方差等统计量, 进而计算二者相似度. FID越低说明图像越相似.
 
 
+# Image Quality Assessment
+- **Towards Open-ended Visual Quality Comparison** <Br>
+[Haoning Wu](https://teowu.github.io), Hanwei Zhu2, Zicheng Zhan*, Erli Zhang, [Chaofeng Chen](https://chaofengc.github.io), [Liang Liao](https://liaoliang92.github.io), Chunyi Li, Annan Wang, [Wenxiu Sun](https://wenxiusun.com), Qiong Yan, [Xiaohong Liu](https://jhc.sjtu.edu.cn/~xiaohongliu/), Guangtao Zhai, [Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/), Weisi Lin <Br>
+[ECCV 2024 Oral] [[Pytorch-Code](https://github.com/Q-Future/Co-Instruct)]  <Br>
+
 # Visual Large Model
 - **CogVLM: Visual Expert for Pretrained Language Models** <Br>
 Weihan Wang, Qingsong Lv, Wenmeng Yu, Wenyi Hong, [Ji Qi](https://qijimrc.github.io/), Yan Wang, Junhui Ji, Zhuoyi Yang, Lei Zhao, Xixuan Song, Jiazheng Xu, [Bin Xu](https://keg.cs.tsinghua.edu.cn/persons/xubin/), Juanzi Li, Yuxiao Dong, Ming Ding, Jie Tang <Br>

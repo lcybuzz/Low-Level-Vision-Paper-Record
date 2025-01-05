@@ -181,6 +181,10 @@ Dario Fuoli, [Shuhang Gu](https://shuhanggu.github.io/), [Radu Timofte](https://
 	
 	
 # Frame Interpolation
+- **Clearer Frames, Anytime: Resolving Velocity Ambiguity in Video Frame Interpolation** <Br>
+[Zhihang Zhong](https://zzh-tech.github.io/), [Xiao Sun](https://jimmysuen.github.io/), [Yu Qiao](https://mmlab.siat.ac.cn/yuqiao), Gurunandan Krishnan, [Sizhuo Ma](https://sizhuoma.netlify.app/), [Jian Wang](https://jianwang-cmu.github.io/) <Br>
+[ECCV 2024 Oral] [[Pytorch-Code](https://github.com/zzh-tech/InterpAny-Clearer)]<Br>
+
 - **AMT: All-Pairs Multi-Field Transforms for Efficient Frame Interpolation** <Br>
 [Zhen Li](https://paper99.github.io/), [Zuo-Liang Zhu](https://nk-cs-zzl.github.io/), Ling-Hao Han, [Qibin Hou](https://houqb.github.io/), Chun-Le Guo, [Ming-Ming Cheng](https://mmcheng.net/cmm/) <Br>
 [CVPR 2023] [[Project](https://nk-cs-zzl.github.io/projects/amt/index.html)] [[Pytorch-Code](https://github.com/MCG-NKU/AMT)]<Br>
@@ -550,17 +554,17 @@ Zongsheng Yue, [Jianwen Xie](http://www.stat.ucla.edu/~jxie/), Qian Zhao, [Deyu 
 
 - **Towards An End-to-End Framework for Flow-Guided Video Inpainting** <Br>
 [Zhen Li](https://paper99.github.io/), Cheng-Ze Lu, Jianhua Qin, Chun-Le Guo, [Ming-Ming Cheng](http://mmcheng.net/cmm/) <Br>
-[CVPR 2022] [[Pytorch-Code](https://github.com/MCG-NKU/E2FGVI)]
+[CVPR 2022] [[Pytorch-Code](https://github.com/MCG-NKU/E2FGVI)] <Br>
 [**E2FGVI**]
 
 - **Internal Video Inpainting by Implicit Long-range Propagation** <Br>
 [Hao Ouyang](https://ken-ouyang.github.io/), [Tengfei Wang](https://tengfei-wang.github.io/), [Qifeng Chen](https://cqf.io/publication.html) <Br>
-[ICCV 2021] [[Project](https://tengfei-wang.github.io/Implicit-Internal-Video-Inpainting/index.html)] [[Pytorch-Code](https://github.com/Tengfei-Wang/Implicit-Internal-Video-Inpainting)]
+[ICCV 2021] [[Project](https://tengfei-wang.github.io/Implicit-Internal-Video-Inpainting/index.html)] [[Pytorch-Code](https://github.com/Tengfei-Wang/Implicit-Internal-Video-Inpainting)] <Br>
 [**IIVI**]
 
 - **Progressive Temporal Feature Alignment Network for Video Inpainting** <Br>
 Xueyan Zou, [Linjie Yang](https://sites.google.com/site/linjieyang89/), Ding Liu, [Yong Jae Lee](https://web.cs.ucdavis.edu/~yjlee/) <Br>
-[CVPR 2021] [[Pytorch-Code](https://github.com/MaureenZOU/TSAM)]
+[CVPR 2021] [[Pytorch-Code](https://github.com/MaureenZOU/TSAM)] <Br>
 [**TSAM**]
 
 - **Short-Term and Long-Term Context Aggregation Network for Video Inpainting** <Br>
@@ -569,7 +573,7 @@ Xueyan Zou, [Linjie Yang](https://sites.google.com/site/linjieyang89/), Ding Liu
 
 - **Learning Joint Spatial-Temporal Transformations for Video Inpainting**  <Br>
 [Yanhong Zeng](https://sites.google.com/view/1900zyh), [Jianlong Fu](https://jianlong-fu.github.io/), Hongyang Chao <Br>
-[ECCV 2020] [[Pytorch-Code](https://github.com/researchmm/STTN)]
+[ECCV 2020] [[Pytorch-Code](https://github.com/researchmm/STTN)] <Br>
 [**STTN**]
 
 - **DVI: Depth Guided Video Inpainting for Autonomous Driving** <Br>
@@ -618,17 +622,16 @@ Peng Dai, Xin Yu, Lan Ma, Baoheng Zhang, Jia Li, [Wenbo Li](https://fenglinglwb.
 
 # Video Synthesis
 - **Pyramidal Flow Matching for Efficient Video Generative Modeling** <Br>
-[Yang Jin](https://jy0205.github.io/), [Zhicheng Sun](https://feifeiobama.github.io/), Ningyuan Li, [Kun Xu](https://sites.google.com/view/kunxu/home), Kun Xu, Hao Jiang, Nan Zhuang, [Quzhe Huang](https://andrewzhe.github.io/), Yang Song, Yadong Mu, [Zhouchen Lin](https://zhouchenlin.github.io/) <Br>
+[Yang Jin](https://jy0205.github.io/), [Zhicheng Sun](https://feifeiobama.github.io/), Ningyuan Li, [Kun Xu](https://sites.google.com/view/kunxu/home), Kun Xu, Hao Jiang, Nan Zhuang, [Quzhe Huang](https://andrewzhe.github.io/), Yang Song, Yadong Mu, [Zhouchen Lin](https://zhouchenlin.github.io/) ![](https://img.shields.io/github/stars/jy0205/Pyramid-Flow) <Br>
 [arXiv 2410] [[Project](pyramid-flow.github.io/)] [[Pytorch-Code](https://github.com/jy0205/Pyramid-Flow)]   <Br>
-[**Pyramidal Flow**] 🔥  <Br>
-![](https://img.shields.io/github/stars/jy0205/Pyramid-Flow)
+[**Pyramidal Flow**] 🔥   <Br>
+
 
 
 - **CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer** <Br>
 Zhuoyi Yang, Jiayan Teng, Wendi Zheng, Ming Ding, Shiyu Huang, Jiazheng Xu, Yuanming Yang, Wenyi Hong, Xiaohan Zhang, Guanyu Feng, Da Yin, Xiaotao Gu, Yuxuan Zhang, Weihan Wang, Yean Cheng, Ting Liu, Bin Xu, Yuxiao Dong, Jie Tang <Br>
-[CVPR 2024] [[Pytorch-Code](https://github.com/THUDM/CogVideo)]  <Br>
-[**CogVideo**] 🔥 <Br>
-![](https://img.shields.io/github/stars/THUDM/CogVideo)
+[CVPR 2024] [[Pytorch-Code](https://github.com/THUDM/CogVideo)] ![](https://img.shields.io/github/stars/THUDM/CogVideo)  <Br>
+[**CogVideo**] 🔥  <Br>
 
 - **MM-Diffusion: Learning Multi-Modal Diffusion Models for Joint Audio and Video Generation** <Br>
 Ludan Ruan, [Yiyang Ma](https://realpasu.github.io/), [Huan Yang](https://hyang0511.github.io/), Huiguo He, Bei Liu, [Jianlong Fu](https://www.microsoft.com/en-us/research/people/jianf/), Nicholas Jing Yuan, Qin Jin, Baining Guo <Br>

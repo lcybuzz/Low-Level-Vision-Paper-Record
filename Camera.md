@@ -211,6 +211,10 @@ James E. Adams, John F. Hamilton. <Br>
 
 
 # Misc
+- **Dual-Camera Smoooth Zoom on Mobile Phones** <Br>
+Renlong Wu, Zhilu Zhang, Yu Yang, Wangmeng Zuo <Br>
+[ECCV 2024] [[Pytorch-Code](https://github.com/ZcsrenlongZ/ZoomGS)] <Br
+
 - **Improving Color Reproduction Accuracy on Cameras** <Br>
 [Thomas Eboli](https://teboli.github.io/), [Jean-Michel Morel](https://sites.google.com/site/jeanmichelmorelcmlaenscachan/), [Gabriele Facciolo](http://dev.ipol.im/~facciolo/) <Br>
 [ECCV 2022] [[Project](https://teboli.github.io/fast_optical.html)] [[Pytorch-Code](https://github.com/teboli/fast_two_stage_psf_correction)] <Br> 
