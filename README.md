@@ -125,7 +125,7 @@
     - [[ICCV 2021](https://github.com/extreme-assistant/ICCV2021-Paper-Code-Interpretation/blob/master/ICCV2021.md)] 
 
 - Low level vision conference paper collection
-    - [[ICCV 2024](https://github.com/Kobaayyy/Awesome-ECCV2024-ECCV2020-Low-Level-Vision/blob/master/ECCV2024.md)]
+    - [[ECCV 2024](https://github.com/Kobaayyy/Awesome-ECCV2024-ECCV2020-Low-Level-Vision/blob/master/ECCV2024.md)]
     - [[CVPR 2024](https://github.com/Kobaayyy/Awesome-CVPR2024-CVPR2021-CVPR2020-Low-Level-Vision/blob/master/CVPR2024.md)]
     [[CVPR 2023](https://github.com/DarrenPan/Awesome-CVPR2023-Low-Level-Vision)]  
     [[CVPR 2022](https://github.com/DarrenPan/CVPR2022-Low-Level-Vision)] 
