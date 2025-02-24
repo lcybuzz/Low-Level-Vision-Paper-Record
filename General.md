@@ -6,7 +6,7 @@
   - [General Traditional Algorithms](#general-traditional-methods)
   - [Image Processing on Device](#image-processing-on-device)
   - [Image Quality Evaluators](#image-quality-evaluators)
-  - [Visual Large Model](#visual-large-model)  
+  - [Image Quality Assessment](#image-quality-assessment)
   
 
 # General DL Algorithms
@@ -250,36 +250,10 @@ Ying Nie, Kai Han, Zhenhua Liu, An Xiao, Yiping Deng, Chunjing Xu, Yunhe Wang <B
 
 # Image Quality Assessment
 - **Towards Open-ended Visual Quality Comparison** <Br>
-[Haoning Wu](https://teowu.github.io), Hanwei Zhu2, Zicheng Zhan*, Erli Zhang, [Chaofeng Chen](https://chaofengc.github.io), [Liang Liao](https://liaoliang92.github.io), Chunyi Li, Annan Wang, [Wenxiu Sun](https://wenxiusun.com), Qiong Yan, [Xiaohong Liu](https://jhc.sjtu.edu.cn/~xiaohongliu/), Guangtao Zhai, [Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/), Weisi Lin <Br>
+[Haoning Wu](https://teowu.github.io), Hanwei Zhu, Zicheng Zhang, Erli Zhang, [Chaofeng Chen](https://chaofengc.github.io), [Liang Liao](https://liaoliang92.github.io), Chunyi Li, Annan Wang, [Wenxiu Sun](https://wenxiusun.com), Qiong Yan, [Xiaohong Liu](https://jhc.sjtu.edu.cn/~xiaohongliu/), Guangtao Zhai, [Shiqi Wang](https://www.cs.cityu.edu.hk/~shiqwang/), Weisi Lin <Br>
 [ECCV 2024 Oral] [[Pytorch-Code](https://github.com/Q-Future/Co-Instruct)]  <Br>
 
-# Visual Large Model
-- **CogVLM: Visual Expert for Pretrained Language Models** <Br>
-Weihan Wang, Qingsong Lv, Wenmeng Yu, Wenyi Hong, [Ji Qi](https://qijimrc.github.io/), Yan Wang, Junhui Ji, Zhuoyi Yang, Lei Zhao, Xixuan Song, Jiazheng Xu, [Bin Xu](https://keg.cs.tsinghua.edu.cn/persons/xubin/), Juanzi Li, Yuxiao Dong, Ming Ding, Jie Tang <Br>
-[arXiv 2311] [[Pytorch-Code](https://github.com/THUDM/CogVLM)]  <Br>
-[**CogVLM**] 🔥
+- **Q-Instruct: Improving Low-level Visual Abilities for Multi-modality Foundation Models** <Br>
+[Haoning Wu](https://teowu.github.io), Zicheng Zhang, Erli Zhang, [Chaofeng Chen](https://chaofengc.github.io),  [Liang Liao](https://liaoliang92.github.io), Annan Wang, Kaixin Xu, Chunyi Li, Jingwen Hou, Guangtao Zhai, Geng Xue, [Wenxiu Sun](https://wenxiusun.com), Qiong Yan, Weisi Lin <Br>
+[CVPR 2024] [[Pytorch-Code](https://github.com/Q-Future/Q-Instruct)]  <Br>
 
-- **Designing BERT for Convolutional Networks: Sparse and Hierarchical Masked Modeling** <Br>
-Keyu Tian, [Yi Jiang](https://enjoyyi.github.io/), Qishuai Diao, Chen Lin, [Liwei Wang](http://www.liweiwang-pku.com/), [Zehuan Yuan](https://shallowyuan.github.io/) <Br>
-[ICLR 2023 Spotlight] [[Pytorch-Code](https://github.com/keyu-tian/SparK)]  <Br>
-[**SparK**] 🔥
-
-- **High-Resolution Image Synthesis with Latent Diffusion Models** <Br>
-[Robin Rombach](https://github.com/rromb), [Andreas Blattmann](https://github.com/ablattmann), [Dominik Lorenz](https://github.com/qp-qp), [Patrick Esser](https://github.com/pesser), [Björn Ommer](https://hci.iwr.uni-heidelberg.de/Staff/bommer) <Br>
-[CVPR 2022 Oral] [[Project](https://ommer-lab.com/research/latent-diffusion-models/)] [[Pytorch-Code](https://github.com/Stability-AI/stablediffusion)]  <Br>
-[**Stable Difussion**] 🔥
-
-- **More Control for Free! Image Synthesis with Semantic Diffusion Guidance** <Br>
-[Xihui Liu](https://xh-liu.github.io/), Dong Huk Park, Samaneh Azadi, Gong Zhang, Arman Chopikyan, Yuxiao Hu, [Humphrey Shi](https://www.humphreyshi.com/), [Anna Rohrbach](https://anna-rohrbach.net/), [Trevor Darrell](https://people.eecs.berkeley.edu/~trevor/) <Br>
-[WACV 2023] [[Project](https://xh-liu.github.io/sdg/)] [[Pytorch-Code](https://github.com/xh-liu/SDG_code)]  <Br>
-[**Classifier Free Guidance**]
-
-- **Diffusion Models Beat GANs on Image Synthesis** <Br>
-[Prafulla Dhariwal](https://prafulladhariwal.com/), Alex Nichol <Br>
-[NeurIPS 2021] [[Pytorch-Code](https://github.com/openai/guided-diffusion)]  <Br>
-[**Classifier Guidance**]
-
-- **Learning Transferable Visual Models From Natural Language Supervision** <Br>
-Alec Radford, [Jong Wook Kim](https://jongwook.kim/), Chris Hallacy, Aditya Ramesh, [Gabriel Goh](https://gabgoh.github.io/), Sandhini Agarwal, Girish Sastry, [Amanda Askell](https://askell.io/), Pamela Mishkin, [Jack Clark](https://jack-clark.net/), Gretchen Krueger, [Ilya Sutskever](https://www.cs.utoronto.ca/~ilya/) <Br>
-[ICML 2021] [[Pytorch-Code](https://github.com/openai/CLIP)]  <Br>
-[**CLIP**] 🔥 
