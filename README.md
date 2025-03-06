@@ -148,7 +148,7 @@
 
     - [[Awesome Image or Video Denoising Algorithms](https://github.com/z-bingo/awesome-image-denoising-state-of-the-art)] [[Denoising with codes](https://github.com/wenbihan/reproducible-image-denoising-state-of-the-art)]
 
-    - [[Awesome Face Restoratio](https://github.com/TaoWangzj/Awesome-Face-Restoration)]
+    - [[Awesome Face Restoration](https://github.com/TaoWangzj/Awesome-Face-Restoration)]
 
 ## Codes
 - [[Stability-AI](https://github.com/Stability-AI/generative-models)]
@@ -164,15 +164,14 @@
 - [[传统图像质量增强的系列blog-1](https://www.cnblogs.com/Imageshop/category/535367.html)]
 - [[传统图像质量增强的系列blog-2](https://blog.csdn.net/maozefa/article/list/1)]
 - [[图像处理相关](https://blog.csdn.net/aoman_hao/category_9353856.html?spm=1001.2014.3001.5482)]
-- [无法抗拒的图像技术](https://www.zhihu.com/column/sining)
-- [All in Camera](https://www.zhihu.com/column/allincamera)
-- [Color Image Processing](https://www.zhihu.com/column/ColorImageProcessing)
-- [计算摄影学](https://www.zhihu.com/column/hawkcp)
+- [[无法抗拒的图像技术](https://www.zhihu.com/column/sining)]
+- [[All in Camera](https://www.zhihu.com/column/allincamera)]
+- [[Color Image Processing](https://www.zhihu.com/column/ColorImageProcessing)]
+- [[计算摄影学](https://www.zhihu.com/column/hawkcp)]
 
-- [AIWalker](https://www.zhihu.com/column/c_1252624169897562112)
-- [GiantPandaCV](https://www.zhihu.com/column/giantpandacv)
-- [极市平台](https://www.zhihu.com/column/c_1027917842385129473)
-- [CVer](https://www.zhihu.com/column/c_172507674)
+- [[AIWalker](https://www.zhihu.com/column/c_1252624169897562112)]
+- [[极市平台](https://www.zhihu.com/column/c_1027917842385129473)]
+- [[CVer](https://www.zhihu.com/column/c_172507674)
 
 ## Misc
 - [[Mobile AI benchmark](http://ai-benchmark.com/index.html#title)]
